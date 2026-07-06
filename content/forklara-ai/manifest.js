@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (ombyggd enligt Annas arkitektur 2026-07-06 23:58:02)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-07 00:39:07)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1005,7 +1005,8 @@ window.LECTURE = {
         "Sköldbondens schack.png"
       ],
       "stigar": [
-        "komigang"
+        "komigang",
+        "teknisk"
       ]
     },
     {
