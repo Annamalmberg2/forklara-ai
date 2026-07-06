@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-06 18:57:03)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-06 22:35:05)
 // Fält per kort: id, sektion, bild (eller text för textkort),
 // personer, begrepp, alias, anteckningar (dina minnesstöd),
 // fordjupning (längre text för publiken, hopfälld), lankar [[rubrik, url]],
@@ -382,7 +382,7 @@ window.LECTURE = {
       "djup": 1,
       "sektion": "030",
       "titel": "AlphaGo vs Lee Sedol 2016",
-      "bild": "950-90 Schack vs Go 2.png",
+      "bild": "030-30 AlphaGo vs Lee Sedol 2016.png",
       "personer": [
         "Lee Sedol",
         "Demis Hassabis"
@@ -712,7 +712,6 @@ window.LECTURE = {
       "alias": [
         "Fei"
       ],
-      "text": "2009 bygger Fei-Fei Li ImageNet — 14 miljoner märkta bilder. Idén: intelligensen sitter i datan, inte bara i algoritmen.\n\n2012 vinner AlexNet tävlingen med djupinlärning. Startskottet för den moderna AI-vågen — och vägen till dagens bild-AI.",
       "anteckningar": "Bryggan: utan ImageNet ingen bild-AI, ingen Mona Lisa Anna.\nÄnnu en kvinna som byggde grunden.",
       "lankar": [
         [
@@ -723,7 +722,8 @@ window.LECTURE = {
       "relaterat": [
         "070-10",
         "020-40"
-      ]
+      ],
+      "bild": "M Fei-Fei Le.png"
     },
     {
       "id": "080-10",
