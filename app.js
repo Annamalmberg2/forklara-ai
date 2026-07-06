@@ -486,6 +486,14 @@
       return;
     }
 
+    // Skriver man i ett fält (t.ex. redigeringsläget) är tangenterna DINA —
+    // inga genvägar får stjäla mellanslag eller pilar mitt i en mening.
+    const mål = e.target;
+    if (mål && (mål.tagName === "INPUT" || mål.tagName === "TEXTAREA" ||
+                mål.tagName === "SELECT" || mål.isContentEditable)) {
+      return;
+    }
+
     if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
       öppnaPalett(); e.preventDefault(); return;
     }
