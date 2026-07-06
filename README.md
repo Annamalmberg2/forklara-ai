@@ -3,10 +3,14 @@
 Ett levande bibliotek i stället för en PowerPoint. Byggt för att hoppa dit publiken
 pekar — och för att minnas åt dig.
 
-Du landar alltid på **den röda tråden**: hela berättelsen i ett andetag — tretton
-kapitel, tretton bärande meningar. Tryck `Enter` för att fortsätta där du var,
-eller klicka ett kapitel för att börja där. Tråden bor i `manifest.js` som
-`tes` (kapitlets mening) och `nyckel` (kapitlets bild) på varje sektion.
+Du landar alltid i **Labbet** — den enda startsidan, som rymmer allt:
+hälsningen ("Welcome to the Lab!"), den stora frågan, sökfältet och alla
+stigar. Klicka en stig för att börja där, eller **"fäll ut stigen"** för att se
+dess kort direkt på startsidan. Börja bara skriva så öppnas sökningen.
+
+Allt på startsidan styr du själv: hälsning, fråga, titel och underrubrik
+redigeras under **Redigera → "Startsidan"**, och varje kapitels mening (`tes`)
+och bild (`nyckel`) bor på sektionerna i `manifest.js`.
 
 ## Starta
 
