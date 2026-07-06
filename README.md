@@ -97,11 +97,16 @@ Nej — aldrig. Filnamnet är bara en etikett. Var ett foto hamnar styrs av kort
 *kapitel* och *plats*, och det ändrar du i Redigera-läget (kapitel-väljaren och
 ▲/▼-knapparna). Numren i filnamnen är städhjälp för mappen, inte styrsystem.
 
+**Fel bild på ett kort — hur byter jag?**
+**Redigera → "Byt bild …"** → välj den nya bilden *var den än ligger* på datorn
+(skrivbordet, hämtade filer …). Motorn lägger automatiskt in den i projektets
+bilder-mapp och kortet byter direkt. Spara → Publicera, klart.
+
 **Hur lägger jag in ett nytt foto?**
-1. Lägg fotot i skrivbordsmappen *Förklara AI* som vanligt.
-2. Dubbelklicka **`Hämta nya bilder från skrivbordet.command`**.
-3. Öppna verktyget → **Redigera** → **+ Nytt kort (välj bild)** → peka ut fotot.
-   Kortet skapas efter det du står på — flytta det sedan vart du vill.
+**Redigera → "+ Nytt kort (välj bild)"** → välj fotot var det än ligger.
+Kortet skapas efter det du står på — flytta det sedan vart du vill.
+(`Hämta nya bilder från skrivbordet.command` finns kvar som reserv om du vill
+kopiera in många på en gång.)
 
 **Hur ändrar jag länkar?**
 Redigera-läget har fältet **Länkar**: rubrik + adress per rad, ✕ tar bort,
