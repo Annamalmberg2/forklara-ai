@@ -24,17 +24,40 @@
   function byggIndex() { index = new Map(kort.map((k, i) => [k.id, i])); }
   byggIndex();
 
-  // ---------- nivåer: skala ner och skala upp med stövlar på ----------
-  // djup 1 = kärnan (den korta versionen), 2 = berättelsen (standard),
-  // 3 = fördjupning (biblioteket, teknik-extra). Nivån styr vad pilarna
-  // bläddrar genom — ALLT är alltid sökbart oavsett nivå.
-  const NIVANAMN = { 1: "Kärnan", 2: "Berättelsen", 3: "Fördjupning" };
-  let nivå = 2;
+  // ---------- stigar: samma skog, olika vandringar ----------
+  // stig = null betyder hela berättelsen. En vald stig styr bara vad
+  // pilarna bläddrar genom — ALLT är alltid sökbart oavsett stig.
+  const STIGAR = L.stigar || [];
+  let stig = null;
   let stigMärke = null; // kortet vi lämnade stigen ifrån — vägen hem
 
+  const stigNamn = () => (STIGAR.find(s => s.id === stig) || {}).namn || "Hela berättelsen";
   const iBerättelsen = k =>
-    !(sektioner.get(k.sektion) || {}).bakom && (k.djup || 2) <= nivå;
+    !(sektioner.get(k.sektion) || {}).bakom &&
+    (!stig || (k.stigar || []).includes(stig));
   const berättelseKort = () => kort.filter(iBerättelsen);
+
+  function sättStig(s) {
+    stig = s;
+    spara({ stig: s });
+    uppdateraStigUI();
+    if (aktuellId) {
+      const k = index.has(aktuellId) ? kort[index.get(aktuellId)] : null;
+      // Står vi utanför den valda stigen? Börja då från stigens start.
+      if (k && !iBerättelsen(k)) {
+        const första = berättelseKort()[0];
+        if (första) visa(första.id);
+      } else {
+        visa(aktuellId, true);
+      }
+    }
+    if (!$("trad").hidden) byggTråd();
+    if (!$("oversikt").hidden) byggÖversikt();
+  }
+  function uppdateraStigUI() {
+    document.querySelectorAll("#stigval .stig-chip").forEach(b =>
+      b.classList.toggle("aktiv", (b.dataset.stig || null) === (stig || null)));
+  }
 
   const $ = id => document.getElementById(id);
   const el = (tag, cls, text) => {
@@ -43,10 +66,13 @@
     if (text != null) n.textContent = text;
     return n;
   };
-  const bildUrl = k => BILDVAG + encodeURIComponent(k.bild);
+  // Ett kort = en berättelse = en eller flera bilder
+  const bilderAv = k => k.bilder || (k.bild ? [k.bild] : []);
+  const bildUrl = (k, i) => BILDVAG + encodeURIComponent(bilderAv(k)[i || 0]);
 
   // ---------- tillstånd ----------
   let aktuellId = null;
+  let bildIx = 0; // vilken av berättelsens bilder som visas
 
   function sparat() {
     try { return JSON.parse(localStorage.getItem(MINNE)) || {}; }
@@ -64,6 +90,7 @@
     if (!k) return;
     const föregående = aktuellId;
     aktuellId = id;
+    bildIx = 0;
     if (!frånHash) history.replaceState(null, "", "#" + encodeURIComponent(id));
     spara({ senast: id });
 
@@ -72,9 +99,9 @@
     // Bild eller textkort
     const ram = $("bildram");
     ram.innerHTML = "";
-    if (k.bild) {
+    if (bilderAv(k).length) {
       const img = el("img");
-      img.src = bildUrl(k);
+      img.src = bildUrl(k, 0);
       img.alt = k.titel;
       ram.appendChild(img);
     } else {
@@ -84,6 +111,7 @@
       });
       ram.appendChild(t);
     }
+    ritaPrickar(k);
 
     $("eyebrow").textContent = k.sektion + " · " + sek.namn;
     $("korttitel").textContent = k.titel;
@@ -95,9 +123,9 @@
     // Statusrad — position i berättelsen på aktuell nivå
     const lista = berättelseKort();
     const bi = lista.findIndex(x => x.id === id);
-    $("progress").textContent = NIVANAMN[nivå] + " · " + (bi >= 0
+    $("progress").textContent = stigNamn() + " · " + (bi >= 0
       ? (bi + 1) + " / " + lista.length + " · " + sek.namn
-      : "utanför nivån · " + sek.namn);
+      : "utanför stigen · " + sek.namn);
 
     // Grundstigen: står vi på stigen eller på en avstickare?
     const påStigen = bi >= 0;
@@ -111,10 +139,31 @@
     uppdateraRail(k.sektion);
     document.dispatchEvent(new CustomEvent("kortbyte", { detail: id }));
 
-    // Ladda grannbilderna i förväg — aldrig vänta på scen
+    // Ladda berättelsens och grannarnas bilder i förväg — aldrig vänta på scen
+    bilderAv(k).slice(1).forEach((_, j) => { const im = new Image(); im.src = bildUrl(k, j + 1); });
     [nästaKort(1), nästaKort(-1)].forEach(g => {
-      if (g && g.bild) { const i = new Image(); i.src = bildUrl(g); }
+      if (g && bilderAv(g).length) { const im = new Image(); im.src = bildUrl(g, 0); }
     });
+  }
+
+  // Prickraden — var i berättelsens bildspel vi står
+  function ritaPrickar(k) {
+    const p = $("bildprickar");
+    const n = bilderAv(k).length;
+    p.innerHTML = "";
+    p.hidden = n < 2;
+    for (let i = 0; i < n; i++) {
+      const d = el("button", "prick" + (i === bildIx ? " aktiv" : ""));
+      d.title = "Bild " + (i + 1) + " av " + n;
+      d.onclick = () => { bildIx = i; visaBildIx(); };
+      p.appendChild(d);
+    }
+  }
+  function visaBildIx() {
+    const k = kort[index.get(aktuellId)];
+    const img = $("bildram").querySelector("img");
+    if (img && k) img.src = bildUrl(k, bildIx);
+    if (k) ritaPrickar(k);
   }
 
   function fyllPanel(k) {
@@ -181,15 +230,13 @@
     }
     return lista[bi + riktning] || null;
   }
-  function sättNivå(n) {
-    if (nivå === n) return;
-    nivå = n;
-    spara({ niva: n });
-    uppdateraNivåUI();
-    if (aktuellId) visa(aktuellId, true);
-    if (!$("oversikt").hidden) byggÖversikt();
-  }
   function stega(riktning) {
+    // Först: bläddra inom berättelsens bildspel
+    const k = aktuellId != null && index.has(aktuellId) ? kort[index.get(aktuellId)] : null;
+    const antal = k ? bilderAv(k).length : 0;
+    if (riktning > 0 && bildIx < antal - 1) { bildIx++; visaBildIx(); return; }
+    if (riktning < 0 && bildIx > 0) { bildIx--; visaBildIx(); return; }
+    // Sedan: nästa berättelse
     const g = nästaKort(riktning);
     if (g) visa(g.id);
   }
@@ -232,10 +279,10 @@
       korten.forEach(k => {
         const mk = el("button", "minikort" + (k.id === aktuellId ? " aktuell" : ""));
         const tumme = el("div", "tumnagel");
-        if (k.bild) {
+        if (bilderAv(k).length) {
           const img = el("img");
           img.loading = "lazy";
-          img.src = bildUrl(k);
+          img.src = bildUrl(k, 0);
           img.alt = "";
           tumme.appendChild(img);
         } else {
@@ -243,9 +290,9 @@
         }
         mk.appendChild(tumme);
         const titelrad = el("div", "mtitel", k.titel);
-        const d = k.djup || 2;
-        if (d === 1) titelrad.appendChild(el("span", "mniva karna", " · kärnan"));
-        if (d === 3) titelrad.appendChild(el("span", "mniva", " · fördjupning"));
+        if (bilderAv(k).length > 1) {
+          titelrad.appendChild(el("span", "mniva", " · " + bilderAv(k).length + " bilder"));
+        }
         mk.appendChild(titelrad);
         mk.onclick = () => { stängAllt(); visa(k.id); };
         grid.appendChild(mk);
@@ -287,7 +334,25 @@
     $("trad-titel").textContent = L.fraga || L.titel;
     $("trad-under").textContent =
       (L.undertitel ? L.undertitel + ". " : "") +
-      "Den röda tråden — hela berättelsen i ett andetag. Varje stig går att fälla ut.";
+      "Välj en stig — eller vandra hela berättelsen. Varje kapitel går att fälla ut.";
+
+    // Stigvalet — samma skog, olika vandringar
+    const val = $("stigval");
+    val.innerHTML = "";
+    const chip = (id, namn, beskrivning) => {
+      const b = el("button", "stig-chip" + (((id || null) === (stig || null)) ? " aktiv" : ""));
+      b.dataset.stig = id || "";
+      const antal = kort.filter(k => !(sektioner.get(k.sektion) || {}).bakom &&
+        (!id || (k.stigar || []).includes(id))).length;
+      b.appendChild(el("span", "stig-namn", namn));
+      b.appendChild(el("span", "stig-info",
+        (beskrivning ? beskrivning + " · " : "") + antal + " berättelser"));
+      b.onclick = () => sättStig(id || null);
+      val.appendChild(b);
+    };
+    chip(null, "Hela berättelsen", "Alla kapitel, i din ordning");
+    STIGAR.forEach(s => chip(s.id, s.namn, s.beskrivning));
+
     const yta = $("trad-lista");
     yta.innerHTML = "";
     trådKapitel.forEach((sek, i) => {
@@ -306,10 +371,10 @@
       txt.appendChild(visaKnapp);
       rad.appendChild(txt);
       const nyckel = sek.nyckel != null ? kort[index.get(sek.nyckel)] : null;
-      if (nyckel && nyckel.bild) {
+      if (nyckel && bilderAv(nyckel).length) {
         const img = el("img", "trad-bild");
         img.loading = "lazy";
-        img.src = bildUrl(nyckel);
+        img.src = bildUrl(nyckel, 0);
         img.alt = "";
         rad.appendChild(img);
       } else {
@@ -335,10 +400,10 @@
     korten.forEach(k => {
       const mk = el("button", "minikort");
       const tumme = el("div", "tumnagel");
-      if (k.bild) {
+      if (bilderAv(k).length) {
         const im = el("img");
         im.loading = "lazy";
-        im.src = bildUrl(k);
+        im.src = bildUrl(k, 0);
         im.alt = "";
         tumme.appendChild(im);
       } else {
@@ -472,10 +537,10 @@
     palettTräffar.forEach((t, i) => {
       const k = t.post.k;
       const li = el("li", i === palettVal ? "aktiv" : "");
-      if (k.bild) {
+      if (bilderAv(k).length) {
         const img = el("img", "r-tumme");
         img.loading = "lazy";
-        img.src = bildUrl(k);
+        img.src = bildUrl(k, 0);
         img.alt = "";
         li.appendChild(img);
       } else {
@@ -509,10 +574,6 @@
     document.body.classList.toggle("bara-bild", på);
     if (på) document.documentElement.requestFullscreen().catch(() => {});
     else if (document.fullscreenElement) document.exitFullscreen();
-  }
-  function uppdateraNivåUI() {
-    document.querySelectorAll("#nivavaljare button").forEach(b =>
-      b.classList.toggle("aktiv", Number(b.dataset.niva) === nivå));
   }
   function växlaHelskärm() {
     if (document.fullscreenElement) document.exitFullscreen();
@@ -570,9 +631,6 @@
         case "/": öppnaPalett(); e.preventDefault(); break;
         case "g": case "G": stängTråd(); växlaÖversikt(); break;
         case "?": $("hjalp").hidden = false; break;
-        case "1": sättNivå(1); break;
-        case "2": sättNivå(2); break;
-        case "3": sättNivå(3); break;
         default:
           // Börja bara skriva på startsidan — så öppnas sökningen
           if (e.key.length === 1) { öppnaPalett(e.key); e.preventDefault(); }
@@ -587,9 +645,6 @@
       case "Home": visa(berättelseKort()[0].id); e.preventDefault(); break;
       case "g": case "G": växlaÖversikt(); break;
       case "r": case "R": öppnaTråd(); break;
-      case "1": sättNivå(1); break;
-      case "2": sättNivå(2); break;
-      case "3": sättNivå(3); break;
       case "n": case "N": växlaPanel(); break;
       case "b": case "B": växlaBaraBild(); break;
       case "f": case "F": växlaHelskärm(); break;
@@ -622,9 +677,6 @@
     if (stigMärke != null && index.has(stigMärke)) visa(stigMärke);
     else { const hem = nästaKort(-1) || berättelseKort()[0]; if (hem) visa(hem.id); }
   };
-  document.querySelectorAll("#nivavaljare button").forEach(b => {
-    b.onclick = () => sättNivå(Number(b.dataset.niva));
-  });
   $("klickzon-fram").onclick = () => stega(1);
   $("klickzon-bak").onclick = () => stega(-1);
   $("hjalptips").style.cursor = "pointer";
@@ -647,8 +699,7 @@
   const minne = sparat();
   if (minne.panelDold) document.body.classList.add("panel-dold");
   $("btn-panel").setAttribute("aria-pressed", String(!minne.panelDold));
-  if ([1, 2, 3].includes(minne.niva)) nivå = minne.niva;
-  uppdateraNivåUI();
+  if (typeof minne.stig === "string" && STIGAR.some(s => s.id === minne.stig)) stig = minne.stig;
   byggRail();
 
   const hadeDjuplänk = index.has(decodeURIComponent(location.hash.slice(1)));

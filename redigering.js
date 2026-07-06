@@ -44,10 +44,10 @@
       "// ============================================================\n" +
       "// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget " +
       new Date().toLocaleString("sv-SE") + ")\n" +
-      "// Fält per kort: id, sektion, bild (eller text för textkort),\n" +
-      "// personer, begrepp, alias, anteckningar (dina minnesstöd),\n" +
-      "// fordjupning (längre text för publiken, hopfälld), lankar [[rubrik, url]],\n" +
-      "// relaterat (id:n), djup (1 = kärnan, 3 = fördjupning).\n" +
+      "// Ett kort = en berättelse = en eller flera bilder (fältet bilder).\n" +
+      "// stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.\n" +
+      "// Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,\n" +
+      "// alias, anteckningar, fordjupning, lankar [[rubrik, url]], relaterat.\n" +
       "// ============================================================\n" +
       "window.LECTURE = " + JSON.stringify(L, null, 2) + ";\n"
     );
@@ -232,22 +232,62 @@
     flytt.appendChild(ner);
     box.appendChild(fält("Plats i kapitlet", flytt));
 
-    // Nivå
-    const niv = el("select");
-    [["1", "1 · Kärnan — med i korta versionen"],
-     ["2", "2 · Berättelsen — standard"],
-     ["3", "3 · Fördjupning — bara i fulla flödet"]].forEach(([v, t]) => {
-      const o = el("option", null, t);
-      o.value = v;
-      if (String(k.djup || 2) === v) o.selected = true;
-      niv.appendChild(o);
+    // Stigar — var berättelsen går att nå
+    const stigBox = el("div", "red-stigar");
+    (L.stigar || []).forEach(s => {
+      const lab = el("label", "red-stig");
+      const cb = el("input");
+      cb.type = "checkbox";
+      cb.checked = (k.stigar || []).includes(s.id);
+      cb.onchange = () => {
+        let st = k.stigar || [];
+        st = cb.checked ? [...new Set([...st, s.id])] : st.filter(x => x !== s.id);
+        if (st.length) k.stigar = st; else delete k.stigar;
+        sparaUtkast();
+        window.APP.uppdatera();
+      };
+      lab.appendChild(cb);
+      lab.appendChild(document.createTextNode(s.namn));
+      stigBox.appendChild(lab);
     });
-    niv.onchange = () => {
-      if (niv.value === "2") delete k.djup; else k.djup = Number(niv.value);
+    box.appendChild(fält("Stigar (Hela berättelsen har alltid med kortet)", stigBox));
+
+    // Se även — koppla ihop berättelser precis som tanken går
+    const relBox = el("div");
+    (k.relaterat || []).forEach((rid, i) => {
+      const mål = L.kort.find(x => x.id === rid);
+      const chipEl = el("span", "red-rel", mål ? mål.titel : rid);
+      const x = el("button", "vbtn", "✕");
+      x.title = "Koppla isär";
+      x.onclick = () => {
+        k.relaterat.splice(i, 1);
+        if (!k.relaterat.length) delete k.relaterat;
+        sparaUtkast();
+        window.APP.uppdatera();
+      };
+      chipEl.appendChild(x);
+      relBox.appendChild(chipEl);
+    });
+    const relInp = el("input");
+    relInp.placeholder = "Skriv en korttitel och välj i listan …";
+    relInp.setAttribute("list", "alla-kort-lista");
+    let dl = document.getElementById("alla-kort-lista");
+    if (!dl) { dl = el("datalist"); dl.id = "alla-kort-lista"; document.body.appendChild(dl); }
+    dl.innerHTML = "";
+    L.kort.filter(x => x.id !== k.id).forEach(x => {
+      const o = el("option");
+      o.value = x.titel;
+      dl.appendChild(o);
+    });
+    relInp.onchange = () => {
+      const mål = L.kort.find(x => x.titel === relInp.value.trim() && x.id !== k.id);
+      if (!mål) return;
+      k.relaterat = [...new Set([...(k.relaterat || []), mål.id])];
       sparaUtkast();
       window.APP.uppdatera();
     };
-    box.appendChild(fält("Nivå", niv));
+    relBox.appendChild(relInp);
+    box.appendChild(fält("Se även (koppla ihop berättelser)", relBox));
 
     // Anteckningar
     const ant = el("textarea");
@@ -304,20 +344,37 @@
     ritaLankar();
     box.appendChild(fält("Länkar (klickbara i anteckningspanelen)", lankBox));
 
-    // Bilden — byt eller lägg till (motorn tar hand om filen)
-    const bildRad = el("div", "red-spara");
-    const bytBild = el("button", "vbtn", k.bild ? "Byt bild …" : "Lägg till bild …");
-    bytBild.title = "Välj en bild var den än ligger — motorn lägger den rätt i projektet";
-    bytBild.onclick = () => väljBild(namn => {
-      k.bild = namn;
-      if (k.bild && k.text) delete k.text; // bildkort i stället för textkort
+    // Bilderna — berättelsens bildspel (motorn tar hand om filerna)
+    const bildlista = el("div");
+    const bl = k.bilder || (k.bild ? [k.bild] : []);
+    const sparaBilder = () => {
+      if (bl.length) k.bilder = bl; else delete k.bilder;
+      delete k.bild;
       sparaUtkast();
       window.APP.uppdatera();
+    };
+    bl.forEach((namn, i) => {
+      const rad = el("div", "red-bildrad");
+      rad.appendChild(el("span", "red-bildinfo", (i + 1) + ". " + namn));
+      const upp = el("button", "vbtn", "▲");
+      upp.onclick = () => { if (i > 0) { [bl[i - 1], bl[i]] = [bl[i], bl[i - 1]]; sparaBilder(); } };
+      const ner = el("button", "vbtn", "▼");
+      ner.onclick = () => { if (i < bl.length - 1) { [bl[i + 1], bl[i]] = [bl[i], bl[i + 1]]; sparaBilder(); } };
+      const bort = el("button", "vbtn", "✕");
+      bort.title = "Ta bort ur berättelsen (filen ligger kvar i mappen)";
+      bort.onclick = () => { bl.splice(i, 1); sparaBilder(); };
+      rad.append(upp, ner, bort);
+      bildlista.appendChild(rad);
     });
-    bildRad.appendChild(bytBild);
-    const bildInfo = el("div", "red-bildinfo", k.bild || "textkort — ingen bild");
-    bildRad.appendChild(bildInfo);
-    box.appendChild(fält("Bild", bildRad));
+    const nyBild = el("button", "vbtn", "+ Lägg till bild …");
+    nyBild.title = "Välj en bild var den än ligger — motorn kopierar in den i projektet";
+    nyBild.onclick = () => väljBild(namn => {
+      bl.push(namn);
+      if (k.text) delete k.text; // bildkort i stället för textkort
+      sparaBilder();
+    });
+    bildlista.appendChild(nyBild);
+    box.appendChild(fält("Bilder (berättelsens bildspel — pilarna bläddrar dem först)", bildlista));
 
     // Nytt kort · ta bort detta kort
     const kortRad = el("div", "red-spara");
@@ -328,7 +385,7 @@
         id: k.sektion + "-ny" + Date.now().toString(36),
         sektion: k.sektion,
         titel: namn.replace(/\.[^.]+$/, ""),
-        bild: namn
+        bilder: [namn]
       };
       L.kort.splice(L.kort.indexOf(k) + 1, 0, nyK);
       sparaUtkast();

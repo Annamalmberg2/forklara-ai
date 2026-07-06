@@ -1,0 +1,152 @@
+FÖRKLARA AI — FÖRÄNDRINGSLOGG
+(Öppnas med ett dubbelklick. Nyaste ändringarna överst.)
+
+=== 2026-07-06 23:58:02 — Den stora ombyggnaden ===
+  • Berättelse ihopslagen: "Gamla kartan gäller ej" (3 bilder)
+  • Berättelse ihopslagen: "Aristoteles – first principles" (2 bilder)
+  • Berättelse ihopslagen: "Jocke och konsten" (3 bilder)
+  • Berättelse ihopslagen: "Bokföringen – verkligheten på besök" (3 bilder)
+  • Berättelse ihopslagen: "Handslaget – avtal mellan människor" (2 bilder)
+  • Berättelse ihopslagen: "Från föreläsningarna" (4 bilder)
+  • Fil omdöpt: "000-10 Logik är universell.jpg" → "Logik är universell.jpg"
+  • Fil omdöpt: "000-20 AI Anna Intelligens.jpg" → "AI Anna Intelligens.jpg"
+  • Fil omdöpt: "000-30 Hedvig behövs.png" → "Hedvig behövs.png"
+  • Fil omdöpt: "000-50 Logik är universell – AI Sverige.png" → "Logik är universell – AI Sverige.png"
+  • Fil omdöpt: "010-10 30 steg – två sätt att växa.png" → "30 steg – två sätt att växa.png"
+  • Fil omdöpt: "010-20 Rallyt – gamla kartan gäller ej.png" → "Rallyt – gamla kartan gäller ej.png"
+  • Fil omdöpt: "010-30 Kaptenen till sjöss.png" → "Kaptenen till sjöss.png"
+  • Fil omdöpt: "010-40 Orienteraren på vift.png" → "Orienteraren på vift.png"
+  • Fil omdöpt: "020-10 Kunskapens fyra epoker.jpg" → "Kunskapens fyra epoker.jpg"
+  • Fil omdöpt: "020-20 Aristoteles – first principles.png" → "Aristoteles – first principles.png"
+  • Fil omdöpt: "020-30 Aristoteles – reel.png" → "Aristoteles – reel.png"
+  • Fil omdöpt: "020-40 Ada och Alan – tidslinjen.png" → "Ada och Alan – tidslinjen.png"
+  • Fil omdöpt: "030-10 När intelligensen lämnade spelbordet – tidslinje.jpg" → "När intelligensen lämnade spelbordet – tidslinje.jpg"
+  • Fil omdöpt: "030-20 Deep Blue vs Kasparov 1997.png" → "Deep Blue vs Kasparov 1997.png"
+  • Fil omdöpt: "030-40 AlphaFold – proteinernas gåta.png" → "AlphaFold – proteinernas gåta.png"
+  • Fil omdöpt: "040-10 Svampskogen – inte en maskin, ett mycel.png" → "Svampskogen – inte en maskin, ett mycel.png"
+  • Fil omdöpt: "040-20 Svampskogen – ett växande mycel att odla.png" → "Svampskogen – ett växande mycel att odla.png"
+  • Fil omdöpt: "040-30 Inte bara ett bolag – hela armén.png" → "Inte bara ett bolag – hela armén.png"
+  • Fil omdöpt: "050-10 Från regler till språk – maskinens resa.jpg" → "Från regler till språk – maskinens resa.jpg"
+  • Fil omdöpt: "050-20 Tokens, kontext och det svåraste jobbet.jpg" → "Tokens, kontext och det svåraste jobbet.jpg"
+  • Fil omdöpt: "050-30 Under huven – hårdvara och mjukvara.jpg" → "Under huven – hårdvara och mjukvara.jpg"
+  • Fil omdöpt: "050-40 Patent – kunskapens ekonomi.jpg" → "Patent – kunskapens ekonomi.jpg"
+  • Fil omdöpt: "060-10 Mönster är vackra, bevis är sanning.png" → "Mönster är vackra, bevis är sanning.png"
+  • Fil omdöpt: "060-20 Bias – när mönstret lurar oss.jpg" → "Bias – när mönstret lurar oss.jpg"
+  • Fil omdöpt: "070-10 Mona Lisa Anna.png" → "Mona Lisa Anna.png"
+  • Fil omdöpt: "070-20 Jocke – en kvinna i dans.png" → "Jocke – en kvinna i dans.png"
+  • Fil omdöpt: "070-30 Jocke – med pensel.jpg" → "Jocke – med pensel.jpg"
+  • Fil omdöpt: "070-40 Målningen – kvinnan lyfter mannen.png" → "Målningen – kvinnan lyfter mannen.png"
+  • Fil omdöpt: "070-50 Mitt profilfoto som grund.jpeg" → "Mitt profilfoto som grund.jpeg"
+  • Fil omdöpt: "070-60 Skaparkaos.png" → "Skaparkaos.png"
+  • Fil omdöpt: "080-10 Bokföring med AI.png" → "Bokföring med AI.png"
+  • Fil omdöpt: "080-15 Verkligheten kommer på besök.png" → "Verkligheten kommer på besök.png"
+  • Fil omdöpt: "080-20 Verkligheten kom – vi firade med burgare.png" → "Verkligheten kom – vi firade med burgare.png"
+  • Fil omdöpt: "080-30 HurDetFunkar.png" → "HurDetFunkar.png"
+  • Fil omdöpt: "080-40 Traktens.png" → "Traktens.png"
+  • Fil omdöpt: "080-50 Notion som anteckningar.png" → "Notion som anteckningar.png"
+  • Fil omdöpt: "080-60 Bloggen.png" → "Bloggen.png"
+  • Fil omdöpt: "080-70 Veckolåtar.png" → "Veckolåtar.png"
+  • Fil omdöpt: "080-80 Sköldbondens schack.png" → "Sköldbondens schack.png"
+  • Fil omdöpt: "080-85 Handslaget – appen.png" → "Handslaget – appen.png"
+  • Fil omdöpt: "080-90 Handslag på svenska.png" → "Handslag på svenska.png"
+  • Fil omdöpt: "080-95 Lovable – bygg med en mening.png" → "Lovable – bygg med en mening.png"
+  • Fil omdöpt: "090-10 Framtiden byggs tillsammans – bron.png" → "Framtiden byggs tillsammans – bron.png"
+  • Fil omdöpt: "090-20 Tillsammans för bästa beslut.png" → "Tillsammans för bästa beslut.png"
+  • Fil omdöpt: "090-30 Tre lager – en livsresa.png" → "Tre lager – en livsresa.png"
+  • Fil omdöpt: "100-10 Strid eller Astrid.png" → "Strid eller Astrid.png"
+  • Fil omdöpt: "100-20 Momo och de grå herrarna.png" → "Momo och de grå herrarna.png"
+  • Fil omdöpt: "110-10 Nobelpriset i ekonomi 2026.png" → "Nobelpriset i ekonomi 2026.png"
+  • Fil omdöpt: "120-10 AiNNOVA – vad jag erbjuder.png" → "AiNNOVA – vad jag erbjuder.png"
+  • Fil omdöpt: "900-10 Under föreläsningen.jpg" → "Under föreläsningen.jpg"
+  • Fil omdöpt: "900-20 Anna framför sin roll-up.jpg" → "Anna framför sin roll-up.jpg"
+  • Fil omdöpt: "900-30 Engagerad publik.jpg" → "Engagerad publik.jpg"
+  • Fil omdöpt: "900-40 Fikaföreläsning.jpg" → "Fikaföreläsning.jpg"
+  • Fil omdöpt: "950-10 Detektiven.png" → "Detektiven.png"
+  • Fil omdöpt: "950-20 Konst – schack.png" → "Konst – schack.png"
+  • Fil omdöpt: "950-30 Anna möter maskinen – vid go-brädet.jpg" → "Anna möter maskinen – vid go-brädet.jpg"
+  • Fil omdöpt: "950-40 Ett spel – vem ska man lita på.png" → "Ett spel – vem ska man lita på.png"
+  • Fil omdöpt: "950-50 Exponentiellt tänkande.png" → "Exponentiellt tänkande.png"
+  • Fil omdöpt: "950-70 Läror och mönster.png" → "Läror och mönster.png"
+  • Fil omdöpt: "950-80 30 steg – två sätt att växa (nattvariant).png" → "30 steg – två sätt att växa (nattvariant).png"
+  • Fil omdöpt: "950-90 Schack vs Go.png" → "Schack vs Go.png"
+  • Nivåerna ersatta av fyra stigar: teknisk, historisk, filosofisk, kom igång.
+
+TIDIGARE HISTORIK (från skrivbordsmappens tid):
+  gammalt namn  →  nytt namn
+   10 Handslag och bro.png  →  090-10 Framtiden byggs tillsammans – bron.png
+  02 (kopia).png  →  080-20 Verkligheten kom – vi firade med burgare.png
+  1  Logik är universell header.jpg  →  000-10 Logik är universell – header.jpg
+  1 under föreläsningen.jpg  →  900-10 Under föreläsningen.jpg
+  11 Tilsammans för bästa beslut.png  →  090-20 Tillsammans för bästa beslut.png
+  12 Ai är ett växande mycel.png  →  040-20 AI är ett växande mycel.png
+  13 inte maskin i traditionell betydelse.png  →  040-10 Inte en maskin i traditionell betydelse.png
+  14 Bokföring.png  →  080-10 Bokföring med AI.png
+  15 Från regler till språk-Maskinens resa.jpg  →  050-10 Från regler till språk – maskinens resa.jpg
+  16 Tokens, kontext och det svåraste jobbet.jpg  →  050-20 Tokens, kontext och det svåraste jobbet.jpg
+  17 Under huven på ett LLM-Hårdvara och mjukvara.jpg  →  050-30 Under huven – hårdvara och mjukvara.jpg
+  18 Patent - Kunskapens ekonomi.jpg  →  050-40 Patent – kunskapens ekonomi.jpg
+  19 lokik är universell AI Sverige.png  →  000-50 Logik är universell – AI Sverige.png
+  2 QR kod.png  →  000-40 QR-kod – publikens frågor.png
+  2 anna framför sin roll up.jpg  →  900-20 Anna framför sin roll-up.jpg
+  20 bias.jpg  →  060-20 Bias – när mönstret lurar oss.jpg
+  21 öb.png  →  040-30 Inte bara ett bolag – hela armén.png
+  22 Konst Mona Lisa Anna.png  →  070-10 Mona Lisa Anna.png
+  23 konst Jocke en kvinna i dans.png  →  070-20 Jocke – en kvinna i dans.png
+  24 konst jocke med pensel.jpg  →  070-30 Jocke – med pensel.jpg
+  25 Exponentiell utveckling.png  →  010-10 30 steg – två sätt att växa.png
+  26 Aristoteles First Principles.png  →  020-20 Aristoteles – first principles.png
+  27 aristoteles reel.png  →  020-30 Aristoteles – reel.png
+  28 ette nda Mitt profil foto till grund.jpeg  →  070-50 Mitt profilfoto som grund.jpeg
+  3 Ada Allan Tidslinje.png  →  020-40 Ada och Alan – tidslinjen.png
+  3 engargerad publik.jpg  →  900-30 Engagerad publik.jpg
+  4 fikaföreläsning.jpg  →  900-40 Fikaföreläsning.jpg
+  4 när intelligensen lämnade spelbordet.jpg  →  030-10 När intelligensen lämnade spelbordet.jpg
+  5 Deep blue Garry Kasparov.png  →  030-20 Deep Blue vs Kasparov 1997.png
+  6 Lee Sedol AlpaGo.png  →  030-30 AlphaGo vs Lee Sedol 2016.png
+  655974733_26848578834727628_4776957845611197290_n.jpg  →  020-10 Kunskapens fyra epoker – Sokrates.jpg
+  7 alpha fold.png  →  030-40 AlphaFold – proteinernas gåta.png
+  8  Hur jag startade. 333 333 331.png  →  060-10 Mönster är vackra, bevis är sanning – 333 333 331.png
+  9 När jag dör.png  →  090-30 Tre lager – en livsresa.png
+  Bloggen.png  →  080-60 Bloggen.png
+  E kaos.png  →  070-60 Skaparkaos.png
+  Handslag på svenska.png  →  080-90 Handslag på svenska.png
+  Handslaget.png  →  080-85 Handslaget – appen.png
+  HurDetFunkar.png  →  080-30 HurDetFunkar.png
+  Lovable affilate.png  →  080-95 Lovable affiliate.png
+  M1 rally kartläsare (kopia).png  →  010-20 Rallyt – gamla kartan gäller ej.png
+  Momo.png  →  100-20 Momo och de grå herrarna.png
+  Notion som anteckningar.png  →  080-50 Notion som anteckningar.png
+  OM Traktens.png  →  080-40 Traktens.png
+  Skärmavbild 2026-06-27 kl. 14.58.27.png  →  070-40 Målningen – kvinnan lyfter mannen.png
+  Skärmavbild 2026-06-29 kl. 11.33.24.png  →  110-10 Nobelpriset i ekonomi 2026.png
+  Skölbondens schack.png  →  080-80 Sköldbondens schack.png
+  Veckolåtar.png  →  080-70 Veckolåtar.png
+  anna int.jpg  →  000-20 AI Anna Intelligens.jpg
+  hedvig.png  →  000-30 Hedvig behövs.png
+  m2 kapten till sjöss (kopia).png  →  010-30 Kaptenen till sjöss.png
+  m3 orienterare på vift (kopia).png  →  010-40 Orienteraren på vift.png
+  några ben i infografik.png  →  120-10 AiNNOVA – vad jag erbjuder.png
+  o1 (kopia).png  →  080-15 Verkligheten kommer på besök.png
+  strid eller astrid.png  →  100-10 Strid eller Astrid.png
+  Andra/22 Detektiv.png  →  Andra/950-10 Detektiven.png
+  Andra/24 konst shack.png  →  Andra/950-20 Konst – schack.png
+  Andra/Anna goo.jpg  →  Andra/950-30 Anna goo.jpg
+  Andra/Ett spel vem ska man lita på.png  →  Andra/950-40 Ett spel – vem ska man lita på.png
+  Andra/Exponentiellt tänkande.png  →  Andra/950-50 Exponentiellt tänkande.png
+  Andra/Från spel till agi.png  →  Andra/950-60 Från spel till AGI.png
+  Andra/Läror och mönster.png  →  Andra/950-70 Läror och mönster.png
+  Andra/a_wide_infographic_style_scene_dark_starry_night.png  →  Andra/950-80 Stjärnnatt – infografik.png
+  Andra/chack vs Go.png  →  Andra/950-90 Schack vs Go.png
+  Andra/  →  950 Reserv/
+  000-40 QR-kod – publikens frågor.png  →  Arkiv – Varming/QR-kod Varming (hör inte till mallen).png
+  000-10 Logik är universell – header.jpg  →  000-10 Logik är universell.jpg
+  020-10 Kunskapens fyra epoker – Sokrates.jpg  →  020-10 Kunskapens fyra epoker.jpg
+  030-10 När intelligensen lämnade spelbordet.jpg  →  030-10 När intelligensen lämnade spelbordet – tidslinje.jpg
+  040-10 Inte en maskin i traditionell betydelse.png  →  040-10 Svampskogen – inte en maskin, ett mycel.png
+  040-20 AI är ett växande mycel.png  →  040-20 Svampskogen – ett växande mycel att odla.png
+  060-10 Mönster är vackra, bevis är sanning – 333 333 331.png  →  060-10 Mönster är vackra, bevis är sanning.png
+  080-95 Lovable affiliate.png  →  080-95 Lovable – bygg med en mening.png
+  950-30 Anna goo.jpg  →  950-30 Anna möter maskinen – vid go-brädet.jpg
+  950-80 Stjärnnatt – infografik.png  →  950-80 30 steg – två sätt att växa (nattvariant).png
+  030-30 AlphaGo vs Lee Sedol 2016.png  →  Schack – Anna möter maskinen.png
+  950-90 Schack vs Go 2.png  →  030-30 AlphaGo vs Lee Sedol 2016.png

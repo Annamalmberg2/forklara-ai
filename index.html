@@ -32,11 +32,6 @@
     <button class="vbtn" id="btn-oversikt" title="Alla bilder, kapitel för kapitel">Översikt</button>
     <button class="vbtn" id="btn-panel" title="Presentationskortet — anteckningar, fördjupning och länkar">Kortet</button>
     <button class="vbtn" id="btn-scen" title="Helskärm med bara bilden — för projektorn">Scenläge</button>
-    <div id="nivavaljare" title="Hur mycket av berättelsen pilarna bläddrar genom — allt är alltid sökbart">
-      <button data-niva="1" title="Den korta versionen — ca 15 bilder">Kärnan</button>
-      <button data-niva="2" title="Hela föreläsningen — standard">Berättelsen</button>
-      <button data-niva="3" title="Allt, även biblioteket och extramaterialet">Fördjupning</button>
-    </div>
   </nav>
 </header>
 
@@ -44,6 +39,7 @@
   <div id="klickzon-bak" title="Föregående (←)"></div>
   <section id="kortyta">
     <figure id="bildram"></figure>
+    <div id="bildprickar" hidden></div>
     <div id="kortrubrik">
       <div id="eyebrow"></div>
       <h1 id="korttitel"></h1>
@@ -83,6 +79,7 @@
     <h1 id="trad-titel"></h1>
     <p id="trad-under"></p>
     <button id="trad-sok" title="Sök person, begrepp eller bild — eller börja bara skriva">Sök person, begrepp eller bild …</button>
+    <nav id="stigval" aria-label="Välj stig"></nav>
     <div id="trad-lista"></div>
     <div id="trad-fot">
       <p><kbd>Enter</kbd> fortsätt där du var &nbsp;·&nbsp; klicka ett kapitel för att börja där &nbsp;·&nbsp; <kbd>/</kbd> sök &nbsp;·&nbsp; <kbd>G</kbd> hela biblioteket</p>
@@ -119,8 +116,7 @@
       <tr><td><kbd>→</kbd> <kbd>PgDn</kbd> <kbd>mellanslag</kbd></td><td>nästa bild <span class="dim">(fjärrklickare funkar)</span></td></tr>
       <tr><td><kbd>←</kbd> <kbd>PgUp</kbd></td><td>föregående bild</td></tr>
       <tr><td><kbd>/</kbd> eller <kbd>⌘K</kbd></td><td>sök — skriv t.ex. "Fei", "primtal", "AlphaFold"</td></tr>
-      <tr><td><kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd></td><td>nivå: kärnan · berättelsen · fördjupning <span class="dim">(vad pilarna bläddrar genom — allt är alltid sökbart)</span></td></tr>
-      <tr><td><kbd>R</kbd></td><td>röda tråden — berättelsen i ett andetag</td></tr>
+      <tr><td><kbd>R</kbd></td><td>hem till labbet — där väljer du också stig <span class="dim">(vad pilarna vandrar genom — allt är alltid sökbart)</span></td></tr>
       <tr><td><kbd>G</kbd></td><td>översikt över hela föreläsningen</td></tr>
       <tr><td><kbd>N</kbd></td><td>visa/dölj presentationskortet (anteckningar, fördjupning, länkar)</td></tr>
       <tr><td><kbd>B</kbd></td><td>bara bilden — allt annat försvinner</td></tr>
