@@ -195,6 +195,75 @@
     };
     box.appendChild(fält("Anteckningar (dina minnesstöd)", ant));
 
+    // Länkar — rubrik + adress, så många du vill
+    const lankBox = el("div");
+    const ritaLankar = () => {
+      lankBox.innerHTML = "";
+      (k.lankar || []).forEach((par, i) => {
+        const lrad = el("div", "red-lank");
+        const rub = el("input");
+        rub.placeholder = "Rubrik (t.ex. HurDetFunkar)";
+        rub.value = par[0];
+        rub.onchange = () => { par[0] = rub.value; sparaUtkast(); window.APP.uppdatera(); };
+        const url = el("input");
+        url.placeholder = "https://…";
+        url.value = par[1];
+        url.onchange = () => { par[1] = url.value.trim(); sparaUtkast(); window.APP.uppdatera(); };
+        const bort = el("button", "vbtn", "✕");
+        bort.title = "Ta bort länken";
+        bort.onclick = () => {
+          k.lankar.splice(i, 1);
+          if (!k.lankar.length) delete k.lankar;
+          sparaUtkast();
+          window.APP.uppdatera();
+        };
+        lrad.append(rub, url, bort);
+        lankBox.appendChild(lrad);
+      });
+      const ny = el("button", "vbtn", "+ Lägg till länk");
+      ny.onclick = () => { (k.lankar = k.lankar || []).push(["", ""]); ritaLankar(); };
+      lankBox.appendChild(ny);
+    };
+    ritaLankar();
+    box.appendChild(fält("Länkar (klickbara i anteckningspanelen)", lankBox));
+
+    // Nytt kort av en bild i bilder-mappen · ta bort detta kort
+    const kortRad = el("div", "red-spara");
+    const nytt = el("button", "vbtn", "+ Nytt kort (välj bild)");
+    nytt.title = "Bilden ska först ligga i content/" + window.LECTURE_ID + "/bilder";
+    nytt.onclick = () => {
+      const fil = el("input");
+      fil.type = "file";
+      fil.accept = "image/*";
+      fil.onchange = () => {
+        const f = fil.files[0];
+        if (!f) return;
+        const nyK = {
+          id: k.sektion + "-ny" + Date.now().toString(36),
+          sektion: k.sektion,
+          titel: f.name.replace(/\.[^.]+$/, ""),
+          bild: f.name
+        };
+        L.kort.splice(L.kort.indexOf(k) + 1, 0, nyK);
+        sparaUtkast();
+        window.APP.uppdatera();
+        window.APP.visa(nyK.id);
+      };
+      fil.click();
+    };
+    const bortKort = el("button", "vbtn", "Ta bort kortet");
+    bortKort.onclick = () => {
+      if (!confirm('Ta bort "' + k.titel + '" ur föreläsningen?\n(Bildfilen ligger kvar i mappen — inget raderas på disken.)')) return;
+      const i = L.kort.indexOf(k);
+      L.kort.splice(i, 1);
+      const granne = L.kort[Math.min(i, L.kort.length - 1)];
+      sparaUtkast();
+      window.APP.uppdatera();
+      if (granne) window.APP.visa(granne.id);
+    };
+    kortRad.append(nytt, bortKort);
+    box.appendChild(fält("Kort", kortRad));
+
     // Spara-raden
     const rad = el("div", "red-spara");
     const spar = el("button", "vbtn", "Spara till manifest.js");

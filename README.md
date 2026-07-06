@@ -78,6 +78,31 @@ de nås via sök och översikt men ligger utanför pilbläddringen.
 2. Byt ut bilder och innehåll i manifest.js
 3. Öppna `index.html?lecture=min-nya-forelasning`
 
+## Vanliga frågor
+
+**Måste jag döpa om foton för att de ska hamna rätt?**
+Nej — aldrig. Filnamnet är bara en etikett. Var ett foto hamnar styrs av kortets
+*kapitel* och *plats*, och det ändrar du i Redigera-läget (kapitel-väljaren och
+▲/▼-knapparna). Numren i filnamnen är städhjälp för mappen, inte styrsystem.
+
+**Hur lägger jag in ett nytt foto?**
+1. Lägg fotot i skrivbordsmappen *Förklara AI* som vanligt.
+2. Dubbelklicka **`Hämta nya bilder från skrivbordet.command`**.
+3. Öppna verktyget → **Redigera** → **+ Nytt kort (välj bild)** → peka ut fotot.
+   Kortet skapas efter det du står på — flytta det sedan vart du vill.
+
+**Hur ändrar jag länkar?**
+Redigera-läget har fältet **Länkar**: rubrik + adress per rad, ✕ tar bort,
+"+ Lägg till länk" ger en ny rad. Länkarna visas klickbara i anteckningspanelen.
+
+**Var lägger jag fördjupning?**
+Tre vägar, välj efter tyngd:
+- *Lite mer att säga om en bild* → skriv i kortets **Anteckningar**.
+- *En bild som bara ska visas för tekniska publiker* → sätt kortets **Nivå**
+  till "3 · Fördjupning" (den syns då bara i det fulla flödet, men är alltid sökbar).
+- *Länk till en bloggpost eller källa* → lägg den under kortets **Länkar**
+  (t.ex. till Wisdom Streamer, där berättelserna bakom bilderna bor).
+
 ## Källmaterial
 
 Originalbilderna ligger kvar i `~/Desktop/Förklara AI` (omdöpta enligt samma
