@@ -107,6 +107,17 @@ Fyra vägar, välj efter tyngd:
 - *En källa, bloggpost eller video* → kortets **Länkar**
   (t.ex. till Wisdom Streamer, där berättelserna bakom bilderna bor).
 
+**Jag flyttade kort — nu stämmer inte fotonas nummer/namn längre?**
+Ingen fara, det påverkar ingenting. Men vill du att mappen ska spegla
+berättelsen: dubbelklicka **"Döp om foton efter berättelsen.command"** i
+projektmappen. Flyttade kort får nya serienummer, filerna döps om (även på
+skrivbordet) och allt loggas i omdöpningslogg.csv. Kör den hur ofta du vill.
+
+**Varför ser jag inte ändringar som borde finnas?**
+Troligen visar verktyget ett gammalt **utkast** (dina osparade ändringar går
+före filen). Vid start får du numera en tydlig fråga: "Fortsätt med utkastet"
+eller "Släng utkastet – läs från filen". Välj släng om du vill se filens version.
+
 **Var är publicera-knappen?**
 På skrivbordet: **"Förklara AI – publicera.command"** (och tvillingen
 "Förklara AI – starta.command" som öppnar verktyget). Originalen ligger i

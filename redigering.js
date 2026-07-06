@@ -306,4 +306,19 @@
   document.addEventListener("kortbyte", () => {
     if (document.body.classList.contains("redigerar")) byggEditor();
   });
+
+  // Finns ett utkast? Fråga tydligt — annars undrar man varför
+  // nya saker i filen inte syns (utkastet går före filen).
+  if (harUtkast()) {
+    const bar = el("div");
+    bar.id = "utkast-banner";
+    bar.appendChild(el("span", null,
+      "Du har ett utkast med osparade ändringar — det visas i stället för filen."));
+    const forts = el("button", "vbtn", "Fortsätt med utkastet");
+    forts.onclick = () => bar.remove();
+    const slang = el("button", "vbtn", "Släng utkastet – läs från filen");
+    slang.onclick = slängUtkast;
+    bar.append(forts, slang);
+    document.body.appendChild(bar);
+  }
 })();

@@ -361,6 +361,27 @@ body.redigerar.panel-dold #panel { display: block; } /* editorn behöver panelen
   min-height: 14px;
 }
 
+/* Utkast-varningen — utkastet går före filen, säg det högt */
+#utkast-banner {
+  position: fixed;
+  top: 62px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 999px;
+  padding: 8px 10px 8px 18px;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  z-index: 15;
+  box-shadow: 0 8px 28px -8px rgba(28, 34, 30, 0.5);
+  max-width: 92vw;
+}
+#utkast-banner .vbtn { white-space: nowrap; }
+
 /* ---------- Statusrad ---------- */
 
 #statusrad {
