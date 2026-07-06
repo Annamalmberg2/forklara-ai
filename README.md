@@ -10,8 +10,16 @@ eller klicka ett kapitel för att börja där. Tråden bor i `manifest.js` som
 
 ## Starta
 
-Dubbelklicka på **`Starta föreläsningen.command`** — eller öppna `index.html`
-direkt i Safari/Chrome. Allt fungerar utan internet.
+Dubbelklicka **"Förklara AI"** på skrivbordet (eller `Starta föreläsningen.command`
+här i mappen). Då startar den lokala motorn (`server.py`) och verktyget öppnas i
+webbläsaren. Ett terminalfönster blir kvar — låt det vara, det ÄR motorn.
+
+Med motorn igång har redigeringsläget riktiga knappar: **Spara** (skriver alltid
+på rätt plats i projektet) och **Publicera till webben** (ett klick — klart).
+
+Att öppna `index.html` direkt fungerar också (t.ex. utan nätverk på scen), men
+då sparas det via filväljare i stället — välj i så fall alltid filen
+`content/forklara-ai/manifest.js`.
 
 ## Tangenter
 
@@ -36,8 +44,8 @@ Föreläsningen ligger live på **https://annamalmberg2.github.io/forklara-ai/**
 
 - Länken är en utställning: besökare kan titta, söka och bläddra — men aldrig
   ändra din källa (det finns ingen server att skriva till).
-- Efter att du sparat ändringar: dubbelklicka **`Publicera uppdatering.command`**
-  så går de live inom någon minut.
+- Publicera = knappen **"Publicera till webben"** i redigeringsläget.
+  (`Publicera uppdatering.command` här i mappen gör samma sak, som reserv.)
 
 ## Redigera direkt i verktyget
 
@@ -119,9 +127,9 @@ före filen). Vid start får du numera en tydlig fråga: "Fortsätt med utkastet
 eller "Släng utkastet – läs från filen". Välj släng om du vill se filens version.
 
 **Var är publicera-knappen?**
-På skrivbordet: **"Förklara AI – publicera.command"** (och tvillingen
-"Förklara AI – starta.command" som öppnar verktyget). Originalen ligger i
-projektmappen `~/Projects/forklara-ai` — genvägarna går att flytta vart du vill.
+Inne i verktyget: **Redigera → "Publicera till webben"**. Den sparar och skickar
+i ett svep. (Kräver att verktyget startats via "Förklara AI" på skrivbordet så
+att motorn kör.)
 
 ## Källmaterial
 
