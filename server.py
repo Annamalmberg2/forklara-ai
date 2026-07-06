@@ -98,10 +98,12 @@ class Hanterare(http.server.SimpleHTTPRequestHandler):
         if self.path == "/api/publicera":
             git("add", "-A")
             if git("diff", "--cached", "--quiet").returncode == 0:
+                git("pull", "--rebase")  # hämta ev. nyheter även när inget ska upp
                 return self.svara({"ok": True, "meddelande": "Inget nytt att publicera — allt är redan uppe."})
             c = git("commit", "-m", "Uppdaterat innehåll via verktyget")
             if c.returncode != 0:
                 return self.svara({"ok": False, "fel": "Kunde inte spara ändringen: " + c.stderr.strip()[-200:]})
+            git("pull", "--rebase")  # väv ihop med ev. ändringar som gjorts någon annanstans
             p = git("push")
             if p.returncode != 0:
                 return self.svara({"ok": False,

@@ -6,6 +6,7 @@ if git diff --cached --quiet; then
   echo "Inget nytt att publicera — allt är redan uppe."
 else
   git commit -m "Uppdaterat innehåll $(date '+%Y-%m-%d %H:%M')"
+  git pull --rebase
   git push
   echo ""
   echo "✓ Publicerat! Länken uppdateras inom någon minut:"

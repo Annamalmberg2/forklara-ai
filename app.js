@@ -613,6 +613,7 @@
   // Verktygsraden — allt klickbart, inget att memorera
   $("btn-sok").onclick = () => öppnaPalett();
   $("btn-trad").onclick = öppnaTråd;
+  $("btn-oversikt").onclick = () => { stängTråd(); växlaÖversikt(); };
   $("trad-sok").onclick = () => öppnaPalett();
   $("btn-panel").onclick = växlaPanel;
   $("btn-scen").onclick = () => scenläge(true);
