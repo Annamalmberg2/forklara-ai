@@ -8,6 +8,8 @@
 window.LECTURE = {
   "titel": "Förklara AI",
   "undertitel": "Logik är universell",
+  "halsning": "Welcome to the Lab! Welcome to AiNNOVA.",
+  "fraga": "Gör AI oss dummare — eller tvingas vi bli smartare?",
   "sektioner": [
     {
       "id": "000",

@@ -306,6 +306,24 @@
     kortRad.append(nytt, bortKort);
     box.appendChild(fält("Kort", kortRad));
 
+    // Startsidan — hälsningen och den stora frågan (gäller hela föreläsningen)
+    const start = el("details", "red-start");
+    start.appendChild(el("summary", null, "Startsidan — hälsning & den stora frågan"));
+    [["Hälsning", "halsning"],
+     ["Den stora frågan (rubriken på startsidan)", "fraga"],
+     ["Titel", "titel"],
+     ["Underrubrik", "undertitel"]].forEach(([rubrik, nyckel]) => {
+      const inp = el("input");
+      inp.value = L[nyckel] || "";
+      inp.onchange = () => {
+        if (inp.value.trim()) L[nyckel] = inp.value; else delete L[nyckel];
+        sparaUtkast();
+        window.APP.uppdatera();
+      };
+      start.appendChild(fält(rubrik, inp));
+    });
+    box.appendChild(start);
+
     // Spara-raden
     const rad = el("div", "red-spara");
     const spar = el("button", "vbtn", motorFinns ? "Spara" : "Spara till manifest.js");

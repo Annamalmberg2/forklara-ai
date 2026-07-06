@@ -281,19 +281,29 @@
   }
 
   function byggTråd() {
-    $("trad-titel").textContent = L.titel;
+    $("trad-brand").textContent = L.titel;
+    $("trad-halsning").textContent = L.halsning || "";
+    $("trad-halsning").hidden = !L.halsning;
+    $("trad-titel").textContent = L.fraga || L.titel;
     $("trad-under").textContent =
       (L.undertitel ? L.undertitel + ". " : "") +
-      "Den röda tråden — hela berättelsen i ett andetag.";
+      "Den röda tråden — hela berättelsen i ett andetag. Varje stig går att fälla ut.";
     const yta = $("trad-lista");
     yta.innerHTML = "";
     trådKapitel.forEach((sek, i) => {
-      const rad = el("button", "trad-rad" + (i === trådVal ? " aktiv" : ""));
+      const kapitel = el("div", "trad-kapitel");
+      const rad = el("div", "trad-rad" + (i === trådVal ? " aktiv" : ""));
+      rad.setAttribute("role", "button");
+      rad.tabIndex = 0;
       rad.appendChild(el("span", "trad-nod"));
       rad.appendChild(el("span", "trad-nr", sek.id));
       const txt = el("div", "trad-text");
       txt.appendChild(el("h3", null, sek.namn));
       txt.appendChild(el("p", null, sek.tes));
+      const antal = kort.filter(k => k.sektion === sek.id).length;
+      const visaKnapp = el("button", "trad-visa", "▸ fäll ut stigen — " + antal + " kort");
+      visaKnapp.onclick = e => { e.stopPropagation(); växlaUtfall(kapitel, sek, visaKnapp); };
+      txt.appendChild(visaKnapp);
       rad.appendChild(txt);
       const nyckel = sek.nyckel != null ? kort[index.get(sek.nyckel)] : null;
       if (nyckel && nyckel.bild) {
@@ -307,12 +317,47 @@
       }
       rad.onclick = () => hoppaTillKapitel(sek.id);
       rad.onmousemove = () => { if (trådVal !== i) { trådVal = i; ritaTrådVal(); } };
-      yta.appendChild(rad);
+      kapitel.appendChild(rad);
+      yta.appendChild(kapitel);
     });
   }
 
+  // Fäll ut en stig direkt på startsidan — alla kort utan att lämna labbet
+  function växlaUtfall(kapitel, sek, knapp) {
+    const gammal = kapitel.querySelector(".trad-utfall");
+    const korten = kort.filter(k => k.sektion === sek.id);
+    if (gammal) {
+      gammal.remove();
+      knapp.textContent = "▸ fäll ut stigen — " + korten.length + " kort";
+      return;
+    }
+    const grid = el("div", "trad-utfall kortgrid");
+    korten.forEach(k => {
+      const mk = el("button", "minikort");
+      const tumme = el("div", "tumnagel");
+      if (k.bild) {
+        const im = el("img");
+        im.loading = "lazy";
+        im.src = bildUrl(k);
+        im.alt = "";
+        tumme.appendChild(im);
+      } else {
+        tumme.appendChild(el("div", "textmark", "❡ " + k.titel));
+      }
+      mk.appendChild(tumme);
+      mk.appendChild(el("div", "mtitel", k.titel));
+      mk.onclick = () => { stängAllt(); visa(k.id); };
+      grid.appendChild(mk);
+    });
+    kapitel.appendChild(grid);
+    knapp.textContent = "▾ fäll ihop";
+  }
+
   function ritaTrådVal() {
-    [...$("trad-lista").children].forEach((n, i) => n.classList.toggle("aktiv", i === trådVal));
+    [...$("trad-lista").children].forEach((n, i) => {
+      const rad = n.querySelector(".trad-rad");
+      if (rad) rad.classList.toggle("aktiv", i === trådVal);
+    });
     const akt = $("trad-lista").children[trådVal];
     if (akt) akt.scrollIntoView({ block: "nearest" });
   }
@@ -525,6 +570,12 @@
         case "/": öppnaPalett(); e.preventDefault(); break;
         case "g": case "G": stängTråd(); växlaÖversikt(); break;
         case "?": $("hjalp").hidden = false; break;
+        case "1": sättNivå(1); break;
+        case "2": sättNivå(2); break;
+        case "3": sättNivå(3); break;
+        default:
+          // Börja bara skriva på startsidan — så öppnas sökningen
+          if (e.key.length === 1) { öppnaPalett(e.key); e.preventDefault(); }
       }
       return;
     }
@@ -562,7 +613,7 @@
   // Verktygsraden — allt klickbart, inget att memorera
   $("btn-sok").onclick = () => öppnaPalett();
   $("btn-trad").onclick = öppnaTråd;
-  $("btn-oversikt").onclick = () => { stängTråd(); växlaÖversikt(); };
+  $("trad-sok").onclick = () => öppnaPalett();
   $("btn-panel").onclick = växlaPanel;
   $("btn-scen").onclick = () => scenläge(true);
   $("btn-avsluta-scen").onclick = () => scenläge(false);
