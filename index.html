@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Förklara AI — föreläsningsverktyg</title>
+<link rel="stylesheet" href="app.css">
+<script>
+  // Vilken föreläsning? ?lecture=mappnamn — standard: forklara-ai
+  window.LECTURE_ID = new URLSearchParams(location.search).get("lecture") || "forklara-ai";
+  document.write('<script src="content/' + window.LECTURE_ID + '/manifest.js"><\/script>');
+</script>
+<script>
+  // Finns ett osparat utkast från redigeringsläget? Då gäller det.
+  try {
+    var utkast = localStorage.getItem("forklara-ai:" + window.LECTURE_ID + ":utkast");
+    if (utkast) window.LECTURE = JSON.parse(utkast);
+  } catch (e) {}
+</script>
+</head>
+<body>
+
+<header id="topbar">
+  <button id="wordmark" title="Röda tråden">Förklara <em>AI</em></button>
+  <div id="sektionsnamn"></div>
+  <nav id="verktyg">
+    <button class="vbtn" id="btn-sok" title="Sök person, begrepp eller bild">Sök</button>
+    <button class="vbtn" id="btn-trad" title="Berättelsen i ett andetag">Tråden</button>
+    <button class="vbtn" id="btn-oversikt" title="Alla bilder, kapitel för kapitel">Översikt</button>
+    <button class="vbtn" id="btn-panel" title="Visa eller dölj anteckningar och länkar">Anteckningar</button>
+    <button class="vbtn" id="btn-scen" title="Helskärm med bara bilden — för projektorn">Scenläge</button>
+    <div id="nivavaljare" title="Hur mycket av berättelsen pilarna bläddrar genom — allt är alltid sökbart">
+      <button data-niva="1" title="Den korta versionen — ca 15 bilder">Kärnan</button>
+      <button data-niva="2" title="Hela föreläsningen — standard">Berättelsen</button>
+      <button data-niva="3" title="Allt, även biblioteket och extramaterialet">Fördjupning</button>
+    </div>
+  </nav>
+</header>
+
+<main id="scen">
+  <div id="klickzon-bak" title="Föregående (←)"></div>
+  <section id="kortyta">
+    <figure id="bildram"></figure>
+    <div id="kortrubrik">
+      <div id="eyebrow"></div>
+      <h1 id="korttitel"></h1>
+    </div>
+  </section>
+  <aside id="panel">
+    <div class="panel-block" id="panel-anteckningar-block">
+      <div class="panel-label">Anteckningar</div>
+      <div id="panel-anteckningar"></div>
+    </div>
+    <div class="panel-block" id="panel-lankar-block">
+      <div class="panel-label">Länkar</div>
+      <ul id="panel-lankar"></ul>
+    </div>
+    <div class="panel-block" id="panel-amnen-block">
+      <div class="panel-label">Personer &amp; begrepp</div>
+      <div id="panel-amnen"></div>
+    </div>
+    <div class="panel-block" id="panel-relaterat-block">
+      <div class="panel-label">Se även</div>
+      <div id="panel-relaterat"></div>
+    </div>
+  </aside>
+  <div id="klickzon-fram" title="Nästa (→)"></div>
+</main>
+
+<section id="trad" hidden>
+  <div id="trad-inner">
+    <div id="trad-brand">Förklara AI</div>
+    <h1 id="trad-titel"></h1>
+    <p id="trad-under"></p>
+    <div id="trad-lista"></div>
+    <div id="trad-fot">
+      <p><kbd>Enter</kbd> fortsätt där du var &nbsp;·&nbsp; klicka ett kapitel för att börja där &nbsp;·&nbsp; <kbd>/</kbd> sök &nbsp;·&nbsp; <kbd>G</kbd> hela biblioteket</p>
+      <p class="dim">Utanför tråden: <button class="trad-lank" data-sek="130">Biblioteket</button> — filmtips, Nobelprisen och alla länkar.</p>
+    </div>
+  </div>
+</section>
+
+<section id="oversikt" hidden>
+  <div id="oversikt-inner">
+    <div id="oversikt-huvud">
+      <h1 id="oversikt-titel"></h1>
+      <p id="oversikt-undertitel"></p>
+    </div>
+    <nav id="kapitelnav"></nav>
+    <div id="oversikt-sektioner"></div>
+  </div>
+</section>
+
+<div id="palett" hidden>
+  <div id="palett-box" role="dialog" aria-label="Sök">
+    <input id="palett-input" type="text" placeholder="Sök person, begrepp eller bild …"
+           autocomplete="off" spellcheck="false">
+    <ul id="palett-resultat"></ul>
+  </div>
+</div>
+
+<div id="hjalp" hidden>
+  <div id="hjalp-box">
+    <h2>Allt går att klicka</h2>
+    <p style="margin:0 0 16px;font-size:14px">Knapparna i överkanten och kapitelrälsen i underkanten
+    räcker för allt. Tangenterna nedan är frivilliga genvägar för den som vill:</p>
+    <table>
+      <tr><td><kbd>→</kbd> <kbd>PgDn</kbd> <kbd>mellanslag</kbd></td><td>nästa bild <span class="dim">(fjärrklickare funkar)</span></td></tr>
+      <tr><td><kbd>←</kbd> <kbd>PgUp</kbd></td><td>föregående bild</td></tr>
+      <tr><td><kbd>/</kbd> eller <kbd>⌘K</kbd></td><td>sök — skriv t.ex. "Fei", "primtal", "AlphaFold"</td></tr>
+      <tr><td><kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd></td><td>nivå: kärnan · berättelsen · fördjupning <span class="dim">(vad pilarna bläddrar genom — allt är alltid sökbart)</span></td></tr>
+      <tr><td><kbd>R</kbd></td><td>röda tråden — berättelsen i ett andetag</td></tr>
+      <tr><td><kbd>G</kbd></td><td>översikt över hela föreläsningen</td></tr>
+      <tr><td><kbd>N</kbd></td><td>visa/dölj anteckningar &amp; länkar</td></tr>
+      <tr><td><kbd>B</kbd></td><td>bara bilden — allt annat försvinner</td></tr>
+      <tr><td><kbd>F</kbd></td><td>helskärm</td></tr>
+      <tr><td><kbd>Home</kbd></td><td>till första bilden</td></tr>
+      <tr><td><kbd>Esc</kbd></td><td>stäng / tillbaka</td></tr>
+    </table>
+    <p class="dim">Verktyget minns var du var — stäng och öppna utan oro.</p>
+  </div>
+</div>
+
+<div id="avstickare" hidden>
+  <span>Avstickare från stigen</span>
+  <button id="btn-stig">⟵ Tillbaka till stigen</button>
+</div>
+
+<button id="btn-avsluta-scen" title="Tillbaka till reglagen">✕ Avsluta scenläge</button>
+
+<footer id="statusrad">
+  <span id="progress"></span>
+  <nav id="kapitelrail" aria-label="Kapitel"></nav>
+  <span id="status-hoger">
+    <span id="klocka"></span>
+    <span id="hjalptips"><kbd>?</kbd> hjälp</span>
+  </span>
+</footer>
+
+<script src="app.js"></script>
+<script src="redigering.js"></script>
+</body>
+</html>

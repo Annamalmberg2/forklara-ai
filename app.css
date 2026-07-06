@@ -1,0 +1,817 @@
+/* ============================================================
+   FÖRKLARA AI — Papper & bläck
+   Extremt rent. Inga animationer. Berättelsen i centrum.
+   Alla typsnitt är inbyggda i macOS — funkar helt utan nät.
+   ============================================================ */
+
+:root {
+  --paper: #FBFAF7;
+  --paper-2: #F3F1EA;
+  --ink: #1C221E;
+  --muted: #71756B;
+  --accent: #2D6A4F;
+  --accent-tint: #EDF2EE;
+  --hair: #E4E1D7;
+  --serif: ui-serif, "New York", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", "Segoe UI", sans-serif;
+  --mono: ui-monospace, "SF Mono", Menlo, "Cascadia Mono", monospace;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+kbd {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  border: 1px solid var(--hair);
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  padding: 1px 5px;
+  background: #fff;
+}
+
+.dim { color: var(--muted); }
+
+/* hidden-attributet ska alltid vinna, även över display:flex nedan */
+[hidden] { display: none !important; }
+
+/* ---------- Topprad ---------- */
+
+#topbar {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  height: 52px;
+  padding: 0 24px;
+  border-bottom: 1px solid var(--hair);
+  flex: none;
+}
+
+#wordmark {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+#wordmark em { font-style: normal; border-bottom: 2px solid var(--accent); }
+
+#sektionsnamn {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  flex: 1;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Verktygsraden — allt går att klicka, inget behöver memoreras */
+#verktyg { display: flex; align-items: center; gap: 8px; white-space: nowrap; }
+
+.vbtn {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  padding: 6px 11px;
+  border: 1px solid var(--hair);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+}
+.vbtn:hover { border-color: var(--accent); color: var(--accent); }
+.vbtn[aria-pressed="true"] {
+  background: var(--accent-tint);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+#nivavaljare {
+  display: inline-flex;
+  border: 1px solid var(--hair);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-left: 6px;
+}
+#nivavaljare button {
+  font-family: var(--mono);
+  font-size: 11px;
+  padding: 6px 11px;
+  border: none;
+  border-left: 1px solid var(--hair);
+  background: #fff;
+  color: var(--muted);
+  cursor: pointer;
+}
+#nivavaljare button:first-child { border-left: none; }
+#nivavaljare button:hover { color: var(--accent); }
+#nivavaljare button.aktiv { background: var(--accent); color: #fff; }
+
+@media (max-width: 1180px) { #sektionsnamn { display: none; } }
+
+/* ---------- Scenen ---------- */
+
+#scen {
+  flex: 1;
+  display: flex;
+  min-height: 0;
+  position: relative;
+}
+
+#kortyta {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 32px 56px 20px;
+}
+
+#bildram {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bildram img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(28, 34, 30, 0.10), 0 12px 40px -18px rgba(28, 34, 30, 0.28);
+}
+
+/* Textkort — det levande bibliotekets uppslag */
+.textkort {
+  max-width: 760px;
+  border-left: 3px solid var(--accent);
+  padding: 8px 0 8px 36px;
+}
+.textkort p {
+  font-family: var(--serif);
+  font-size: clamp(19px, 2.1vw, 26px);
+  line-height: 1.55;
+  margin-bottom: 0.8em;
+}
+.textkort p:last-child { margin-bottom: 0; }
+
+#kortrubrik { padding-top: 20px; flex: none; }
+
+#eyebrow {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+
+#korttitel {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(24px, 3vw, 40px);
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+}
+
+/* Bläddringspilar — alltid synliga, alltid klickbara */
+#klickzon-bak, #klickzon-fram {
+  position: absolute;
+  top: 0; bottom: 72px;
+  width: 72px;
+  cursor: pointer;
+  z-index: 4;
+}
+#klickzon-bak { left: 0; }
+#klickzon-fram { right: 0; }
+#klickzon-bak::after, #klickzon-fram::after {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 28px;
+  color: var(--muted);
+  opacity: 0.4;
+}
+#klickzon-bak::after { content: "‹"; left: 26px; }
+#klickzon-fram::after { content: "›"; right: 26px; }
+#klickzon-bak:hover::after, #klickzon-fram:hover::after { opacity: 1; color: var(--accent); }
+
+/* ---------- Anteckningspanelen ---------- */
+
+#panel {
+  width: min(380px, 42vw);
+  flex: none;
+  border-left: 1px solid var(--hair);
+  background: var(--paper-2);
+  overflow-y: auto;
+  padding: 28px 28px 60px;
+}
+body.panel-dold #panel { display: none; }
+
+.panel-block { margin-bottom: 28px; }
+.panel-block[hidden] { display: none; }
+
+.panel-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-bottom: 1px solid var(--hair);
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+}
+
+#panel-anteckningar {
+  font-family: var(--serif);
+  font-size: 16.5px;
+  line-height: 1.62;
+  white-space: pre-line;
+}
+
+#panel-lankar { list-style: none; }
+#panel-lankar li { margin-bottom: 8px; }
+#panel-lankar a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 14.5px;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+}
+#panel-lankar a:hover { border-bottom-color: var(--accent); }
+#panel-lankar a::after { content: " ↗"; font-size: 12px; }
+
+#panel-amnen, #panel-relaterat { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.chip {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  padding: 4px 10px;
+  border: 1px solid var(--hair);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+}
+.chip:hover { border-color: var(--accent); color: var(--accent); }
+
+.chip.person::before { content: "◦ "; color: var(--accent); }
+
+.relaterat-chip {
+  font-family: var(--sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  padding: 5px 11px;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  background: var(--accent-tint);
+  color: var(--accent);
+  cursor: pointer;
+  text-align: left;
+}
+.relaterat-chip:hover { background: var(--accent); color: #fff; }
+
+/* ---------- Redigeringsläget ---------- */
+
+body.redigerar.panel-dold #panel { display: block; } /* editorn behöver panelen */
+
+#redigerare {
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+  background: #fff;
+  padding: 16px;
+  margin-bottom: 28px;
+}
+#redigerare .panel-label { color: var(--accent); border-bottom-color: var(--accent); }
+.red-falt { margin-bottom: 14px; }
+.red-label {
+  display: block;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 5px;
+}
+#redigerare input, #redigerare select, #redigerare textarea {
+  width: 100%;
+  font-family: var(--sans);
+  font-size: 14px;
+  padding: 7px 9px;
+  border: 1px solid var(--hair);
+  border-radius: 6px;
+  background: var(--paper);
+  color: var(--ink);
+}
+#redigerare textarea { resize: vertical; line-height: 1.5; }
+#redigerare input:focus, #redigerare select:focus, #redigerare textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.red-flytt { display: flex; gap: 8px; }
+.red-spara { display: flex; gap: 8px; margin-top: 4px; }
+#red-status {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--guld);
+  margin-top: 10px;
+  min-height: 14px;
+}
+
+/* ---------- Statusrad ---------- */
+
+#statusrad {
+  flex: none;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--muted);
+  border-top: 1px solid var(--hair);
+}
+#status-hoger { display: flex; align-items: center; gap: 18px; }
+
+/* Kapitelrälsen — grundstigen, alltid synlig, alltid klickbar */
+#kapitelrail { display: flex; align-items: center; gap: 4px; }
+.rail-seg {
+  width: 22px;
+  height: 18px;
+  border: none;
+  background: none;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+}
+.rail-seg::after {
+  content: "";
+  position: absolute;
+  left: 2px; right: 2px;
+  top: 7px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--hair);
+}
+.rail-seg.passerad::after { background: #B9CEC2; }
+.rail-seg.aktuell::after { background: var(--accent); top: 6px; height: 6px; }
+.rail-seg:hover::after { background: var(--guld); }
+@media (max-width: 900px) { #kapitelrail { display: none; } }
+
+/* Avstickar-flaggan — den synliga vägen hem till grundstigen */
+#avstickare {
+  position: fixed;
+  bottom: 54px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 999px;
+  padding: 7px 8px 7px 18px;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  z-index: 6;
+  box-shadow: 0 8px 28px -8px rgba(28, 34, 30, 0.5);
+}
+#btn-stig {
+  border: none;
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 11.5px;
+  padding: 5px 14px;
+  cursor: pointer;
+}
+#btn-stig:hover { background: var(--accent-tint); color: var(--accent); }
+body.bara-bild #avstickare { bottom: 18px; }
+
+/* Avsluta scenläge — enda knappen som syns i scenläget */
+#btn-avsluta-scen {
+  display: none;
+  position: fixed;
+  top: 14px;
+  right: 16px;
+  z-index: 7;
+  font-family: var(--mono);
+  font-size: 11px;
+  padding: 6px 12px;
+  border: 1px solid var(--hair);
+  border-radius: 999px;
+  background: rgba(251, 250, 247, 0.92);
+  color: var(--muted);
+  cursor: pointer;
+}
+#btn-avsluta-scen:hover { color: var(--accent); border-color: var(--accent); }
+body.bara-bild #btn-avsluta-scen { display: block; }
+
+/* ---------- Bara bilden (B) ---------- */
+
+body.bara-bild #topbar,
+body.bara-bild #statusrad,
+body.bara-bild #kortrubrik,
+body.bara-bild #panel { display: none; }
+body.bara-bild #kortyta { padding: 24px; }
+body.bara-bild #bildram img { box-shadow: none; }
+
+/* ---------- Den gyllene röda tråden ---------- */
+
+:root {
+  --trad: #A93B2A;      /* den röda tråden */
+  --guld: #B8892E;      /* de gyllene noderna */
+}
+
+#trad {
+  position: fixed;
+  inset: 0;
+  background: var(--paper);
+  overflow-y: auto;
+  z-index: 12;
+}
+
+#trad-inner { max-width: 860px; margin: 0 auto; padding: 60px 6vw 90px; }
+
+#trad-brand {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+#trad-titel {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(38px, 5vw, 60px);
+  letter-spacing: -0.015em;
+  margin-top: 14px;
+}
+
+#trad-under {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 18px;
+  color: var(--muted);
+  margin-top: 10px;
+}
+
+#trad-lista { margin-top: 44px; position: relative; }
+#trad-lista::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 14px;
+  bottom: 14px;
+  width: 2px;
+  background: var(--trad);
+  opacity: 0.5;
+}
+
+.trad-rad {
+  display: grid;
+  grid-template-columns: 18px 44px 1fr 132px;
+  gap: 0 18px;
+  align-items: center;
+  width: 100%;
+  padding: 12px 12px 12px 0;
+  border: none;
+  border-radius: 10px;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+}
+.trad-rad:hover, .trad-rad.aktiv { background: var(--paper-2); }
+
+.trad-nod {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--paper);
+  border: 2.5px solid var(--guld);
+  margin-left: 2px;
+  box-shadow: 0 0 0 3px var(--paper);
+}
+.trad-rad:hover .trad-nod, .trad-rad.aktiv .trad-nod { background: var(--trad); border-color: var(--trad); }
+
+.trad-nr {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--guld);
+  letter-spacing: 0.08em;
+}
+
+.trad-text h3 {
+  font-family: var(--serif);
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.trad-text p {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 15.5px;
+  line-height: 1.45;
+  color: var(--muted);
+  margin-top: 3px;
+}
+
+.trad-bild {
+  width: 132px;
+  aspect-ratio: 16 / 10;
+  border-radius: 6px;
+  border: 1px solid var(--hair);
+  object-fit: cover;
+  background: var(--paper-2);
+}
+@media (max-width: 680px) {
+  .trad-rad { grid-template-columns: 18px 44px 1fr; }
+  .trad-bild { display: none; }
+}
+
+#trad-fot {
+  margin-top: 44px;
+  padding-top: 22px;
+  border-top: 1px solid var(--hair);
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--muted);
+  line-height: 2.1;
+}
+.trad-lank {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  background: none;
+  border: none;
+  color: var(--accent);
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* ---------- Översikten ---------- */
+
+#oversikt {
+  position: fixed;
+  inset: 0;
+  background: var(--paper);
+  overflow-y: auto;
+  z-index: 10;
+}
+
+#oversikt-inner { max-width: 1240px; margin: 0 auto; padding: 56px 5vw 120px; }
+
+#oversikt-titel {
+  font-family: var(--serif);
+  font-size: clamp(34px, 4.4vw, 54px);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+#oversikt-undertitel {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-top: 10px;
+}
+
+#kapitelnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 32px 0 16px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--hair);
+}
+#kapitelnav .chip { background: var(--paper-2); }
+
+.oversikt-sektion { margin-top: 44px; }
+
+.oversikt-sektionsrubrik {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+.oversikt-sektionsrubrik .nr {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+.oversikt-sektionsrubrik h2 {
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 600;
+}
+.oversikt-sektionsrubrik .antal {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--muted);
+}
+
+#bakom-scenen-rubrik {
+  margin-top: 72px;
+  padding-top: 28px;
+  border-top: 1px dashed var(--hair);
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.kortgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 20px 18px;
+}
+
+.minikort { cursor: pointer; background: none; border: none; text-align: left; padding: 0; }
+.minikort .tumnagel {
+  aspect-ratio: 16 / 10;
+  border-radius: 6px;
+  border: 1px solid var(--hair);
+  overflow: hidden;
+  background: var(--paper-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.minikort .tumnagel img { width: 100%; height: 100%; object-fit: cover; }
+.minikort .tumnagel .textmark {
+  font-family: var(--serif);
+  font-size: 15px;
+  padding: 12px;
+  color: var(--accent);
+  text-align: center;
+  line-height: 1.3;
+}
+.minikort .mtitel {
+  font-size: 12.5px;
+  font-weight: 500;
+  margin-top: 7px;
+  line-height: 1.35;
+  color: var(--ink);
+}
+.minikort .mniva {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+}
+.minikort .mniva.karna { color: var(--guld); }
+.minikort:hover .tumnagel { border-color: var(--accent); }
+.minikort.aktuell .tumnagel { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ---------- Sökpaletten ---------- */
+
+#palett {
+  position: fixed;
+  inset: 0;
+  background: rgba(28, 34, 30, 0.34);
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 11vh;
+}
+
+#palett-box {
+  width: min(680px, 92vw);
+  background: var(--paper);
+  border: 1px solid var(--hair);
+  border-radius: 12px;
+  box-shadow: 0 24px 70px -20px rgba(28, 34, 30, 0.45);
+  overflow: hidden;
+}
+
+#palett-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  font-family: var(--serif);
+  font-size: 23px;
+  padding: 20px 24px;
+  color: var(--ink);
+}
+#palett-input::placeholder { color: var(--muted); opacity: 0.7; }
+
+#palett-resultat {
+  list-style: none;
+  max-height: 52vh;
+  overflow-y: auto;
+  border-top: 1px solid var(--hair);
+}
+#palett-resultat:empty { border-top: none; }
+
+#palett-resultat li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 9px 18px;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+}
+#palett-resultat li.aktiv {
+  background: var(--accent-tint);
+  border-left-color: var(--accent);
+}
+
+#palett-resultat .r-tumme {
+  width: 74px;
+  height: 46px;
+  flex: none;
+  border-radius: 4px;
+  border: 1px solid var(--hair);
+  object-fit: cover;
+  background: var(--paper-2);
+}
+.r-tumme-text {
+  width: 74px; height: 46px; flex: none;
+  border-radius: 4px;
+  border: 1px solid var(--hair);
+  background: var(--paper-2);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--serif);
+  color: var(--accent);
+  font-size: 17px;
+}
+#palett-resultat .r-text { flex: 1; min-width: 0; }
+#palett-resultat .r-titel {
+  font-size: 14.5px; font-weight: 600;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#palett-resultat .r-traff {
+  font-size: 12px; color: var(--muted);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  margin-top: 1px;
+}
+#palett-resultat .r-traff b { color: var(--accent); font-weight: 600; }
+#palett-resultat .r-sektion {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+#palett-tomt {
+  padding: 18px 24px;
+  font-family: var(--serif);
+  color: var(--muted);
+  font-size: 15px;
+}
+
+/* ---------- Hjälp ---------- */
+
+#hjalp {
+  position: fixed;
+  inset: 0;
+  background: rgba(28, 34, 30, 0.34);
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hjalp-box {
+  background: var(--paper);
+  border: 1px solid var(--hair);
+  border-radius: 12px;
+  box-shadow: 0 24px 70px -20px rgba(28, 34, 30, 0.45);
+  padding: 32px 36px;
+  width: min(560px, 92vw);
+}
+#hjalp-box h2 {
+  font-family: var(--serif);
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+#hjalp-box table { border-collapse: collapse; width: 100%; }
+#hjalp-box td { padding: 7px 0; font-size: 14px; vertical-align: top; }
+#hjalp-box td:first-child { width: 220px; white-space: nowrap; }
+#hjalp-box p { margin-top: 18px; font-size: 13px; }
