@@ -23,6 +23,14 @@
 
   let filHandle = null;
 
+  // Kör den lokala motorn (server.py)? Då kan vi spara och publicera
+  // direkt — ingen filväljare, ingen terminal.
+  let motorFinns = false;
+  fetch("/api/status").then(r => r.json()).then(j => {
+    motorFinns = !!(j && j.ok);
+    if (motorFinns && document.body.classList.contains("redigerar")) byggEditor();
+  }).catch(() => {});
+
   // ---------- utkast ----------
   function sparaUtkast() {
     try { localStorage.setItem(UTKAST, JSON.stringify(L)); } catch (e) {}
@@ -47,6 +55,26 @@
 
   async function sparaTillFil() {
     const innehåll = generera();
+
+    // Bästa vägen: motorn skriver på exakt rätt plats i projektet.
+    if (motorFinns) {
+      try {
+        const svar = await fetch("/api/spara/" + window.LECTURE_ID, { method: "POST", body: innehåll });
+        const j = await svar.json();
+        if (j.ok) {
+          localStorage.removeItem(UTKAST);
+          visaStatus("✓ Sparat i projektet " + new Date().toLocaleTimeString("sv-SE",
+            { hour: "2-digit", minute: "2-digit" }) + " — klicka Publicera när du vill uppdatera webblänken.");
+          return true;
+        }
+        visaStatus("✗ " + (j.fel || "Kunde inte spara."));
+        return false;
+      } catch (e) {
+        visaStatus("✗ Motorn svarar inte — starta om via 'Förklara AI.command'.");
+        return false;
+      }
+    }
+
     if (window.showSaveFilePicker) {
       try {
         if (!filHandle) {
@@ -280,11 +308,31 @@
 
     // Spara-raden
     const rad = el("div", "red-spara");
-    const spar = el("button", "vbtn", "Spara till manifest.js");
+    const spar = el("button", "vbtn", motorFinns ? "Spara" : "Spara till manifest.js");
     spar.onclick = sparaTillFil;
+    rad.appendChild(spar);
+    if (motorFinns) {
+      const publ = el("button", "vbtn", "Publicera till webben");
+      publ.title = "Sparar och skickar allt till webblänken";
+      publ.onclick = async () => {
+        publ.disabled = true;
+        publ.textContent = "Publicerar …";
+        try {
+          if (await sparaTillFil() === false) return;
+          const svar = await fetch("/api/publicera", { method: "POST" });
+          const j = await svar.json();
+          visaStatus(j.ok ? "✓ " + j.meddelande : "✗ " + (j.fel || "Kunde inte publicera."));
+        } catch (e) {
+          visaStatus("✗ Motorn svarar inte — starta om via 'Förklara AI.command'.");
+        } finally {
+          publ.disabled = false;
+          publ.textContent = "Publicera till webben";
+        }
+      };
+      rad.appendChild(publ);
+    }
     const slang = el("button", "vbtn", "Släng utkastet");
     slang.onclick = slängUtkast;
-    rad.appendChild(spar);
     rad.appendChild(slang);
     box.appendChild(rad);
 
