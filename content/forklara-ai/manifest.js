@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-06 14:56:55)
+// FÖRKLARA AI — innehållsfil (storstädad 2026-07-06 18:33:09)
 // Fält per kort: id, sektion, bild (eller text för textkort),
 // personer, begrepp, alias, anteckningar (dina minnesstöd),
 // fordjupning (längre text för publiken, hopfälld), lankar [[rubrik, url]],
@@ -111,7 +111,7 @@ window.LECTURE = {
       "djup": 1,
       "sektion": "000",
       "titel": "Logik är universell",
-      "bild": "000-10 Logik är universell – header.jpg",
+      "bild": "000-10 Logik är universell.jpg",
       "begrepp": [
         "logik"
       ],
@@ -265,7 +265,7 @@ window.LECTURE = {
       "djup": 1,
       "sektion": "020",
       "titel": "Kunskapens fyra epoker",
-      "bild": "020-10 Kunskapens fyra epoker – Sokrates.jpg",
+      "bild": "020-10 Kunskapens fyra epoker.jpg",
       "personer": [
         "Sokrates"
       ],
@@ -273,7 +273,8 @@ window.LECTURE = {
         "skriftspråket",
         "boktryckarkonsten",
         "internet",
-        "kunskapens epoker"
+        "kunskapens epoker",
+        "tidslinje"
       ],
       "anteckningar": "Handskrift → tryckpress → internet → AI.\nSokrates var skeptisk till det skrivna ordet: 'det försvagar minnet'.\nVarje epok fick samma kritik. AI är nästa steg på samma resa.",
       "relaterat": [
@@ -328,7 +329,8 @@ window.LECTURE = {
       "begrepp": [
         "algoritm",
         "Turingtest",
-        "Analytical Engine"
+        "Analytical Engine",
+        "tidslinje"
       ],
       "anteckningar": "Ada Lovelace (1815–1852): den första algoritmen — såg att maskinen kunde mer än räkna.\nAlan Turing (1912–1954): 'kan maskiner tänka?'\nLinjen Ada → Alan → Grace Hopper → von Neumann → idag.\nKvinnorna fanns där från början.",
       "relaterat": [
@@ -340,15 +342,18 @@ window.LECTURE = {
       "id": "030-10",
       "fordjupning": "Varför just spel? För att de har tydliga regler och tydlig vinst — perfekta träningsläger där en AI kan öva mot sig själv miljontals gånger, dygnet runt. Schack, go, tv-spel: alla föll i tur och ordning.\n\nDet stora skiftet var när samma metoder klev från brädet ut i verkligheten — proteiner, språk, kod. Spelen var aldrig målet. De var körskolan.",
       "sektion": "030",
-      "titel": "När intelligensen lämnade spelbordet",
-      "bild": "030-10 När intelligensen lämnade spelbordet.jpg",
+      "titel": "När intelligensen lämnade spelbordet – tidslinje",
+      "bild": "030-10 När intelligensen lämnade spelbordet – tidslinje.jpg",
       "begrepp": [
         "spel",
-        "AGI"
+        "AGI",
+        "tidslinje",
+        "generativ AI",
+        "agentisk AI"
       ],
-      "anteckningar": "Spelen var träningsläger.\nSedan lämnade intelligensen spelbordet — ut i proteiner, språk och vardag.",
+      "anteckningar": "Spelens tidslinje: 1997 schack (rå beräkningskraft) → 2016 go (neurala nätverk och intuition) → 2020 AlphaFold (från spel till biologi) → 2022 generativ AI (språk, kod, kreativitet) → 2026+ agentisk AI (handling — med mänskligt ansvar).\nSpelen var träningsläger. Sedan lämnade intelligensen spelbordet.",
       "relaterat": [
-        "950-60",
+        "030-20",
         "030-40"
       ]
     },
@@ -426,31 +431,48 @@ window.LECTURE = {
       "id": "040-10",
       "fordjupning": "En bil gör vad ritningen säger. Ett neuralt nätverk 'ritas' inte — det tränas: miljarder små vikter justeras tills beteendet växer fram. Ingen, inte ens skaparna, kan peka på skruven där en viss kunskap sitter.\n\nDärför beter sig AI mer som något odlat än något byggt: förmågor dyker upp (och brister visar sig) på sätt som förvånar även forskarna. Och därför är testning — inte ritningsläsning — sättet att ta reda på vad en modell faktiskt kan.",
       "sektion": "040",
-      "titel": "Inte en maskin i traditionell betydelse",
-      "bild": "040-10 Inte en maskin i traditionell betydelse.png",
+      "titel": "Svampskogen – inte en maskin, ett mycel",
+      "bild": "040-10 Svampskogen – inte en maskin, ett mycel.png",
       "begrepp": [
-        "neurala nätverk"
+        "svampskogen",
+        "mycel",
+        "neurala nätverk",
+        "Claude",
+        "ChatGPT",
+        "Gemini",
+        "Grok",
+        "DeepSeek",
+        "Mistral",
+        "Copilot",
+        "Perplexity"
       ],
-      "anteckningar": "Ingen skruv, ingen ritning.\nEtt AI programmeras inte rad för rad — det tränas, växer och överraskar.\nDärför beter det sig inte som maskiner vi känner.",
+      "anteckningar": "AI är inte en maskin — det är ett mycel. Frågan är inte vilken svamp som vinner, utan hur vi lär oss navigera skogen.\nModellsvamparna: Claude textsmeden, ChatGPT samtalssvampen, Gemini scouten, Grok frågeställaren, DeepSeek djupdykaren, Mistral kraftsvampen, Copilot hjälpande handen, Perplexity spanaren.\nDitt mycel: dina minnen, värderingar och drömmar — din förankring.",
       "relaterat": [
         "040-20",
-        "050-10"
+        "040-30",
+        "090-20"
       ]
     },
     {
       "id": "040-20",
       "fordjupning": "På skogspromenaden ser du svamparna — men organismen är mycelet: kilometervis av trådar under marken. AI är likadant. Chattbotten du ser är fruktkroppen; mycelet är datacenter, forskningslabb, öppna modeller och miljontals utvecklare.\n\nDärför går det inte att 'stänga av AI:n' — det finns ingen enskild svamp att plocka. Och därför fortsätter det växa även när enskilda bolag snubblar.",
       "sektion": "040",
-      "titel": "AI är ett växande mycel",
-      "bild": "040-20 AI är ett växande mycel.png",
+      "titel": "Svampskogen – ett växande mycel att odla",
+      "bild": "040-20 Svampskogen – ett växande mycel att odla.png",
       "begrepp": [
+        "svampskogen",
         "mycel",
-        "ekosystem"
+        "ekosystem",
+        "Pluton B",
+        "tidslinje",
+        "multimodalitet"
       ],
-      "anteckningar": "Osynligt under ytan — plötsligt överallt.\nSammankopplat, organiskt, svårt att gräva bort.",
+      "anteckningar": "AI är inte ett monster — det är ett växande mycel. Tillsammans skapar vi en jätte som kan förstå, hjälpa och bygga. Framtiden beror på hur vi odlar den.\nDelarna: bildmodellen (ögonen), språkmodellen (hjärnan), ljudmodellen (öronen), känslohanden och kodhanden, pusselbålen (hjärtat), datastegen (fötterna).\nI botten: AI:s tidslinje — 1950 Turing-test → ELIZA → backpropagation → Deep Blue → Transformer → multimodalitet → framtiden.\nOch skylten i skogen: Pluton B — vår plats.",
       "relaterat": [
         "040-10",
-        "040-30"
+        "040-30",
+        "090-20",
+        "100-10"
       ]
     },
     {
@@ -483,6 +505,7 @@ window.LECTURE = {
         ]
       ],
       "relaterat": [
+        "040-10",
         "040-20"
       ]
     },
@@ -495,7 +518,15 @@ window.LECTURE = {
       "begrepp": [
         "regelbaserad AI",
         "maskininlärning",
-        "LLM"
+        "LLM",
+        "neurala nätverk",
+        "transformer",
+        "RLHF",
+        "embeddings",
+        "hallucination",
+        "prompt engineering",
+        "token",
+        "fine-tuning"
       ],
       "anteckningar": "Hårda regler → lärande ur exempel → språk.\nVi slutade programmera svar och började träna förståelse.",
       "relaterat": [
@@ -558,7 +589,7 @@ window.LECTURE = {
       "djup": 1,
       "sektion": "060",
       "titel": "Mönster är vackra, bevis är sanning",
-      "bild": "060-10 Mönster är vackra, bevis är sanning – 333 333 331.png",
+      "bild": "060-10 Mönster är vackra, bevis är sanning.png",
       "begrepp": [
         "primtal",
         "mönster",
@@ -947,7 +978,7 @@ window.LECTURE = {
       "fordjupning": "'Vibe coding' — Andrej Karpathys ord för att bygga program genom att beskriva vad man vill ha, på vanligt språk. Tröskeln som föll var inte teknisk utan språklig: svenska blev ett programmeringsspråk.\n\nRealistisk förväntan: prototyper och personliga verktyg på en kväll. Riktiga produkter kräver fortfarande omsorg om säkerhet, data och underhåll. Men avståndet från idé till 'titta, den funkar!' har aldrig varit kortare.",
       "sektion": "080",
       "titel": "Lovable – bygg med en mening",
-      "bild": "080-95 Lovable affiliate.png",
+      "bild": "080-95 Lovable – bygg med en mening.png",
       "personer": [
         "Andrej Karpathy",
         "Mauri"
@@ -997,12 +1028,16 @@ window.LECTURE = {
       "bild": "090-20 Tillsammans för bästa beslut.png",
       "begrepp": [
         "beslut",
-        "samarbete"
+        "samarbete",
+        "svampskogen",
+        "mycel"
       ],
-      "anteckningar": "Människan väljer. AI:n räknar.\nBäst blir det när båda gör det de är bäst på.",
+      "anteckningar": "Svampskogens beslutsbord: alla modellsvampar runt samma bord — men människan i centrum. Vi sätter frågorna, värderingarna och ramarna. Människan äger alltid beslutet.\nKedjan: fråga → mångfald av perspektiv → utforska & utmana → sammanväg & enas → förklara varför → människan beslutar → följ upp & lär.\nInte en AI som tar över — utan alla AI som tar hand om. Välkommen in i mycelet.",
       "relaterat": [
         "090-10",
-        "080-20"
+        "080-20",
+        "040-10",
+        "040-20"
       ]
     },
     {
@@ -1304,9 +1339,15 @@ window.LECTURE = {
     {
       "id": "950-30",
       "sektion": "950",
-      "titel": "Anna goo",
-      "bild": "950-30 Anna goo.jpg",
-      "anteckningar": "Reserv: porträttvariant."
+      "titel": "Anna möter maskinen – vid go-brädet",
+      "bild": "950-30 Anna möter maskinen – vid go-brädet.jpg",
+      "anteckningar": "Reserv: pressbild + mötet vid go-brädet. Kandidat som ny bild för AlphaGo-kortet (030-30).",
+      "begrepp": [
+        "Go"
+      ],
+      "relaterat": [
+        "030-30"
+      ]
     },
     {
       "id": "950-40",
@@ -1337,20 +1378,6 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "950-60",
-      "sektion": "950",
-      "titel": "Från spel till AGI",
-      "bild": "950-60 Från spel till AGI.png",
-      "begrepp": [
-        "AGI",
-        "spel"
-      ],
-      "anteckningar": "Reserv: bryggan spel → AGI, alternativ till 'lämnade spelbordet'.",
-      "relaterat": [
-        "030-10"
-      ]
-    },
-    {
       "id": "950-70",
       "sektion": "950",
       "titel": "Läror och mönster",
@@ -1366,9 +1393,15 @@ window.LECTURE = {
     {
       "id": "950-80",
       "sektion": "950",
-      "titel": "Stjärnnatt – infografik",
-      "bild": "950-80 Stjärnnatt – infografik.png",
-      "anteckningar": "Reserv: stämningsbild, bred infografik."
+      "titel": "30 steg – två sätt att växa (nattvariant)",
+      "bild": "950-80 30 steg – två sätt att växa (nattvariant).png",
+      "anteckningar": "Reserv: nattversionen av 30-stegsbilden — trappan hela vägen till månen.",
+      "begrepp": [
+        "exponentiell utveckling"
+      ],
+      "relaterat": [
+        "010-10"
+      ]
     },
     {
       "id": "950-90",
@@ -1379,7 +1412,7 @@ window.LECTURE = {
         "schack",
         "Go"
       ],
-      "anteckningar": "Reserv: jämförelsen schack vs Go — bra om publiken vill fördjupa spelhistorien.",
+      "anteckningar": "Reserv: schack möter go — också en kandidat som ny bild för AlphaGo-kortet (030-30).",
       "relaterat": [
         "030-20",
         "030-30"

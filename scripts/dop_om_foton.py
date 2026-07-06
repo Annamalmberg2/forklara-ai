@@ -17,7 +17,13 @@ Kan köras hur ofta som helst — gör inget om allt redan stämmer.
 import io
 import os
 import re
+import sys
 import unicodedata
+
+# Vanlig körning: döp bara om foton vars NUMMER inte stämmer (flyttade kort).
+# "python3 dop_om_foton.py titlar": döp om ALLA foton till exakt "<id> <titel>"
+# så att namnen speglar berättelsen ord för ord.
+STRIKT = "titlar" in sys.argv
 
 ROT = os.environ.get("FORKLARA_ROT") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANIFEST = os.path.join(ROT, "content", "forklara-ai", "manifest.js")
@@ -97,10 +103,10 @@ for k in kort:
     bild = k["bild"]
     ext = os.path.splitext(bild)[1]
     nytt_namn = f"{k['id']} {städa(k['titel'])}{ext}"
-    if nfc(bild).startswith(k["id"] + " "):
-        continue  # prefixet stämmer — låt resten av namnet vara
     if nfc(nytt_namn) == nfc(bild):
-        continue
+        continue  # namnet stämmer redan
+    if not STRIKT and nfc(bild).startswith(k["id"] + " "):
+        continue  # prefixet stämmer — låt resten av namnet vara
 
     källa = hitta(BILDER, bild)
     if not källa:
