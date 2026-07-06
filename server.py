@@ -56,7 +56,10 @@ class Hanterare(http.server.SimpleHTTPRequestHandler):
 
     def do_POST(self):
         n = int(self.headers.get("Content-Length") or 0)
-        kropp = self.rfile.read(n).decode("utf-8") if n else ""
+        kropp_bytes = self.rfile.read(n) if n else b""
+        kropp = ""
+        if not self.path.startswith("/api/bild/"):
+            kropp = kropp_bytes.decode("utf-8")
 
         if self.path.startswith("/api/spara/"):
             forelasning = self.path.rsplit("/", 1)[-1]
@@ -70,6 +73,27 @@ class Hanterare(http.server.SimpleHTTPRequestHandler):
             with open(os.path.join(mapp, "manifest.js"), "w", encoding="utf-8") as f:
                 f.write(kropp)
             return self.svara({"ok": True, "meddelande": "Sparat i projektet."})
+
+        if self.path.startswith("/api/bild/"):
+            forelasning = self.path.rsplit("/", 1)[-1]
+            if not re.fullmatch(r"[A-Za-z0-9_-]+", forelasning):
+                return self.svara({"ok": False, "fel": "Ogiltigt föreläsningsnamn."}, 400)
+            mapp = os.path.join(ROT, "content", forelasning, "bilder")
+            if not os.path.isdir(mapp):
+                return self.svara({"ok": False, "fel": "Okänd föreläsning: " + forelasning}, 404)
+            from urllib.parse import unquote
+            namn = os.path.basename(unquote(self.headers.get("X-Filnamn") or "bild.png"))
+            namn = re.sub(r'[/\\:*?"<>|]', "", namn).strip() or "bild.png"
+            stam, andelse = os.path.splitext(namn)
+            mal = os.path.join(mapp, namn)
+            n = 2
+            while os.path.exists(mal):  # skriv aldrig över en befintlig bild
+                namn = f"{stam} {n}{andelse}"
+                mal = os.path.join(mapp, namn)
+                n += 1
+            with open(mal, "wb") as f:
+                f.write(kropp_bytes)
+            return self.svara({"ok": True, "filnamn": namn})
 
         if self.path == "/api/publicera":
             git("add", "-A")

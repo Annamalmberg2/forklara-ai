@@ -361,6 +361,15 @@ body.redigerar.panel-dold #panel { display: block; } /* editorn behöver panelen
 }
 .red-start summary:hover { color: var(--accent); }
 .red-lank { display: flex; gap: 6px; margin-bottom: 6px; }
+.red-bildinfo {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+  align-self: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .red-lank input:first-child { width: 40%; }
 .red-lank .vbtn { flex: none; padding: 6px 8px; }
 .red-spara { display: flex; gap: 8px; margin-top: 4px; }

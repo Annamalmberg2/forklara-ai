@@ -111,6 +111,41 @@
     location.reload();
   }
 
+  // ---------- bilder ----------
+  // Med motorn igång läggs den valda bilden in i projektets bilder-mapp
+  // automatiskt — välj den var den än ligger. Utan motor måste filen
+  // redan ligga i bilder-mappen (då används bara namnet).
+  async function laddaUppBild(fil) {
+    if (!motorFinns) return fil.name;
+    try {
+      const svar = await fetch("/api/bild/" + window.LECTURE_ID, {
+        method: "POST",
+        headers: { "X-Filnamn": encodeURIComponent(fil.name) },
+        body: fil
+      });
+      const j = await svar.json();
+      if (j.ok) return j.filnamn;
+      visaStatus("✗ " + (j.fel || "Kunde inte ta emot bilden."));
+      return null;
+    } catch (e) {
+      visaStatus("✗ Motorn svarar inte — starta om via 'Förklara AI.command'.");
+      return null;
+    }
+  }
+
+  function väljBild(vidVal) {
+    const fil = el("input");
+    fil.type = "file";
+    fil.accept = "image/*";
+    fil.onchange = async () => {
+      const f = fil.files[0];
+      if (!f) return;
+      const namn = await laddaUppBild(f);
+      if (namn) vidVal(namn);
+    };
+    fil.click();
+  }
+
   // ---------- redigeringsknappen ----------
   const btn = el("button", "vbtn", harUtkast() ? "Redigera ●" : "Redigera");
   btn.id = "btn-redigera";
@@ -269,30 +304,37 @@
     ritaLankar();
     box.appendChild(fält("Länkar (klickbara i anteckningspanelen)", lankBox));
 
-    // Nytt kort av en bild i bilder-mappen · ta bort detta kort
+    // Bilden — byt eller lägg till (motorn tar hand om filen)
+    const bildRad = el("div", "red-spara");
+    const bytBild = el("button", "vbtn", k.bild ? "Byt bild …" : "Lägg till bild …");
+    bytBild.title = "Välj en bild var den än ligger — motorn lägger den rätt i projektet";
+    bytBild.onclick = () => väljBild(namn => {
+      k.bild = namn;
+      if (k.bild && k.text) delete k.text; // bildkort i stället för textkort
+      sparaUtkast();
+      window.APP.uppdatera();
+    });
+    bildRad.appendChild(bytBild);
+    const bildInfo = el("div", "red-bildinfo", k.bild || "textkort — ingen bild");
+    bildRad.appendChild(bildInfo);
+    box.appendChild(fält("Bild", bildRad));
+
+    // Nytt kort · ta bort detta kort
     const kortRad = el("div", "red-spara");
     const nytt = el("button", "vbtn", "+ Nytt kort (välj bild)");
-    nytt.title = "Bilden ska först ligga i content/" + window.LECTURE_ID + "/bilder";
-    nytt.onclick = () => {
-      const fil = el("input");
-      fil.type = "file";
-      fil.accept = "image/*";
-      fil.onchange = () => {
-        const f = fil.files[0];
-        if (!f) return;
-        const nyK = {
-          id: k.sektion + "-ny" + Date.now().toString(36),
-          sektion: k.sektion,
-          titel: f.name.replace(/\.[^.]+$/, ""),
-          bild: f.name
-        };
-        L.kort.splice(L.kort.indexOf(k) + 1, 0, nyK);
-        sparaUtkast();
-        window.APP.uppdatera();
-        window.APP.visa(nyK.id);
+    nytt.title = "Välj en bild var den än ligger — kortet skapas efter det här";
+    nytt.onclick = () => väljBild(namn => {
+      const nyK = {
+        id: k.sektion + "-ny" + Date.now().toString(36),
+        sektion: k.sektion,
+        titel: namn.replace(/\.[^.]+$/, ""),
+        bild: namn
       };
-      fil.click();
-    };
+      L.kort.splice(L.kort.indexOf(k) + 1, 0, nyK);
+      sparaUtkast();
+      window.APP.uppdatera();
+      window.APP.visa(nyK.id);
+    });
     const bortKort = el("button", "vbtn", "Ta bort kortet");
     bortKort.onclick = () => {
       if (!confirm('Ta bort "' + k.titel + '" ur föreläsningen?\n(Bildfilen ligger kvar i mappen — inget raderas på disken.)')) return;
