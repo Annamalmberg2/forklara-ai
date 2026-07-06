@@ -122,6 +122,16 @@
     ant.textContent = k.anteckningar || "";
     $("panel-anteckningar-block").hidden = !k.anteckningar;
 
+    // Fördjupningen — hopfälld tills någon vill nörda
+    const ford = $("panel-fordjupning");
+    ford.innerHTML = "";
+    if (k.fordjupning) {
+      String(k.fordjupning).split(/\n\s*\n/).forEach(st =>
+        ford.appendChild(el("p", null, st.replace(/\n/g, " "))));
+    }
+    $("fordjupning-details").open = false;
+    $("panel-fordjupning-block").hidden = !k.fordjupning;
+
     const ul = $("panel-lankar");
     ul.innerHTML = "";
     (k.lankar || []).forEach(([titel, url]) => {
@@ -349,6 +359,7 @@
         begrepp: (k.begrepp || []).map(normalisera),
         sektion: normalisera(sek.namn),
         brödtext: normalisera((k.anteckningar || "") + " " + (k.text || "") +
+          " " + (k.fordjupning || "") +
           " " + (k.lankar || []).map(l => l[0]).join(" "))
       };
     });

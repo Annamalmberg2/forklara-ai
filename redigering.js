@@ -37,7 +37,8 @@
       "// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget " +
       new Date().toLocaleString("sv-SE") + ")\n" +
       "// Fält per kort: id, sektion, bild (eller text för textkort),\n" +
-      "// personer, begrepp, alias, anteckningar, lankar [[rubrik, url]],\n" +
+      "// personer, begrepp, alias, anteckningar (dina minnesstöd),\n" +
+      "// fordjupning (längre text för publiken, hopfälld), lankar [[rubrik, url]],\n" +
       "// relaterat (id:n), djup (1 = kärnan, 3 = fördjupning).\n" +
       "// ============================================================\n" +
       "window.LECTURE = " + JSON.stringify(L, null, 2) + ";\n"
@@ -59,7 +60,8 @@
         await w.close();
         localStorage.removeItem(UTKAST); // filen är nu sanningen
         visaStatus("✓ Sparat till fil " + new Date().toLocaleTimeString("sv-SE",
-          { hour: "2-digit", minute: "2-digit" }));
+          { hour: "2-digit", minute: "2-digit" }) +
+          " — vill du uppdatera webblänken? Dubbelklicka 'Förklara AI – publicera' på skrivbordet.");
         return;
       } catch (e) {
         if (e && e.name === "AbortError") return;
@@ -194,6 +196,18 @@
       window.APP.uppdatera();
     };
     box.appendChild(fält("Anteckningar (dina minnesstöd)", ant));
+
+    // Fördjupning — för publiken som vill nörda (syns även på webblänken)
+    const ford = el("textarea");
+    ford.rows = 8;
+    ford.placeholder = "Skriv fritt — tom rad ger nytt stycke. Visas hopfälld under 'Fördjupning' i panelen.";
+    ford.value = k.fordjupning || "";
+    ford.onchange = () => {
+      if (ford.value.trim()) k.fordjupning = ford.value; else delete k.fordjupning;
+      sparaUtkast();
+      window.APP.uppdatera();
+    };
+    box.appendChild(fält("Fördjupning (för den som vill nörda — syns för publiken)", ford));
 
     // Länkar — rubrik + adress, så många du vill
     const lankBox = el("div");

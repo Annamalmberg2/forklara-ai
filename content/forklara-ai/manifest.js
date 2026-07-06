@@ -240,6 +240,7 @@ window.LECTURE = {
       begrepp: ["primtal", "mönster", "bevis", "Miller-Rabin", "333333331"],
       alias: ["hur jag startade"],
       anteckningar: "31, 331, 3331, 33331 … alla primtal!\nAI:n: '333 333 331 är troligen primtal — 98,7 % säkert.'\nSanningen: 333 333 331 = 17 × 19 607 843.\nMönster är vackra. Bevis är sanning. Så startade jag — och så granskar jag AI.",
+      fordjupning: "Följden bildas genom att skjuta in en trea i taget: 31, 331, 3331, 33331 … De åtta första talen är alla primtal. Det nionde, 333 333 331, ser precis likadant ut — men är 17 × 19 607 843.\n\nSå ser AI:s misstag ofta ut: mönstret håller precis länge nog för att vi ska sluta kontrollera. Ett snabbt primtalstest (som Miller–Rabin) svarar 'troligen primtal' med hög säkerhet — men 'troligen' är inte 'bevisat'. Skillnaden mellan statistik och bevis är exakt skillnaden mellan en språkmodells gissning och matematikens sanning.\n\nNörddetalj: att pröva delbarhet med små primtal (7, 11, 13, 17 …) avslöjar bluffen snabbt — redan 17 fäller talet. Det som ser oövervinnerligt ut faller ofta för det enklaste verktyget i lådan.",
       relaterat: ["060-20", "130-30"]
     },
     {

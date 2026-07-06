@@ -9,7 +9,9 @@
 <script>
   // Vilken föreläsning? ?lecture=mappnamn — standard: forklara-ai
   window.LECTURE_ID = new URLSearchParams(location.search).get("lecture") || "forklara-ai";
-  document.write('<script src="content/' + window.LECTURE_ID + '/manifest.js"><\/script>');
+  // ?v=tidsstämpel tvingar webbläsaren att alltid läsa färskt innehåll —
+  // annars kan "jag sparade men inget händer" uppstå ur cachen.
+  document.write('<script src="content/' + window.LECTURE_ID + '/manifest.js?v=' + Date.now() + '"><\/script>');
 </script>
 <script>
   // Finns ett osparat utkast från redigeringsläget? Då gäller det.
@@ -51,6 +53,12 @@
     <div class="panel-block" id="panel-anteckningar-block">
       <div class="panel-label">Anteckningar</div>
       <div id="panel-anteckningar"></div>
+    </div>
+    <div class="panel-block" id="panel-fordjupning-block">
+      <details id="fordjupning-details">
+        <summary>Fördjupning — för den som vill nörda</summary>
+        <div id="panel-fordjupning"></div>
+      </details>
     </div>
     <div class="panel-block" id="panel-lankar-block">
       <div class="panel-label">Länkar</div>

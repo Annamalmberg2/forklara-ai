@@ -248,6 +248,27 @@ body.panel-dold #panel { display: none; }
   white-space: pre-line;
 }
 
+/* Fördjupningen — hopfälld, nördarna hittar den */
+#fordjupning-details summary {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--guld);
+  border-bottom: 1px solid var(--hair);
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  list-style-position: outside;
+}
+#fordjupning-details summary:hover { color: var(--accent); }
+#panel-fordjupning p {
+  font-family: var(--serif);
+  font-size: 15.5px;
+  line-height: 1.6;
+  margin-bottom: 0.8em;
+}
+
 #panel-lankar { list-style: none; }
 #panel-lankar li { margin-bottom: 8px; }
 #panel-lankar a {

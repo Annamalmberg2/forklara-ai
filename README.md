@@ -96,12 +96,21 @@ Redigera-läget har fältet **Länkar**: rubrik + adress per rad, ✕ tar bort,
 "+ Lägg till länk" ger en ny rad. Länkarna visas klickbara i anteckningspanelen.
 
 **Var lägger jag fördjupning?**
-Tre vägar, välj efter tyngd:
-- *Lite mer att säga om en bild* → skriv i kortets **Anteckningar**.
+Fyra vägar, välj efter tyngd:
+- *Lite mer att säga om en bild* → kortets **Anteckningar** (dina minnesstöd).
+- *En rejäl fördjupning för den som vill nörda* → kortets **Fördjupning**-fält
+  i Redigera-läget. Texten visas hopfälld i panelen under rubriken
+  "Fördjupning — för den som vill nörda" — även på webblänken, så publiken
+  kan gräva vidare hemma. Tom rad = nytt stycke. (Exempel: primtalskortet 060-10.)
 - *En bild som bara ska visas för tekniska publiker* → sätt kortets **Nivå**
-  till "3 · Fördjupning" (den syns då bara i det fulla flödet, men är alltid sökbar).
-- *Länk till en bloggpost eller källa* → lägg den under kortets **Länkar**
+  till "3 · Fördjupning" (syns bara i fulla flödet, men är alltid sökbar).
+- *En källa, bloggpost eller video* → kortets **Länkar**
   (t.ex. till Wisdom Streamer, där berättelserna bakom bilderna bor).
+
+**Var är publicera-knappen?**
+På skrivbordet: **"Förklara AI – publicera.command"** (och tvillingen
+"Förklara AI – starta.command" som öppnar verktyget). Originalen ligger i
+projektmappen `~/Projects/forklara-ai` — genvägarna går att flytta vart du vill.
 
 ## Källmaterial
 
