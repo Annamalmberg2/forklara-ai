@@ -409,14 +409,14 @@ window.LECTURE = {
         "drag 37",
         "DeepMind"
       ],
-      "anteckningar": "Bilden: schack möter go — övergången från råstyrka till intuition.\n2016: AlphaGo vinner 4–1. Go har fler positioner än atomer i universum.\nDrag 37 — draget ingen människa skulle spela. Kreativitet? Eller statistik?\nLee Sedol slutade senare som proffs.",
+      "anteckningar": "2016: AlphaGo vinner 4–1. Go har fler positioner än atomer i universum.\nDrag 37 — draget ingen människa skulle spela. Kreativitet? Eller statistik?\nLee Sedol slutade senare som proffs.",
       "relaterat": [
         "030-20",
         "030-40",
         "950-90"
       ],
       "bilder": [
-        "Schack vs Go.png"
+        "Anna möter maskinen – vid go-brädet.jpg"
       ],
       "stigar": [
         "historisk"
