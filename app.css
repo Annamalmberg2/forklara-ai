@@ -162,7 +162,9 @@ kbd {
 
 /* Textkort — det levande bibliotekets uppslag */
 .textkort {
-  max-width: 760px;
+  width: min(880px, 92%);
+  max-height: 100%;
+  overflow-y: auto;
   border-left: 3px solid var(--accent);
   padding: 8px 0 8px 36px;
 }
@@ -173,6 +175,25 @@ kbd {
   margin-bottom: 0.8em;
 }
 .textkort p:last-child { margin-bottom: 0; }
+
+/* Länkarna på scenen — uppslagsverkets huvudinnehåll */
+.textkort-lankar {
+  margin-top: 26px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 4px 32px;
+}
+.scenlank {
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.45;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--hair);
+}
+.scenlank:hover { border-bottom-color: var(--accent); }
+.scenlank::after { content: " ↗"; font-size: 13px; color: var(--guld); }
 
 /* Prickraden — berättelsens bildspel */
 #bildprickar {

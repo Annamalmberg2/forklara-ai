@@ -123,6 +123,18 @@
       String(k.text || "").split(/\n\s*\n/).forEach(stycke => {
         t.appendChild(el("p", null, stycke.replace(/\n/g, " ")));
       });
+      // Textkortets länkar hör hemma på scenen — inte i marginalen
+      if ((k.lankar || []).length) {
+        const grid = el("div", "textkort-lankar");
+        k.lankar.forEach(([rubrik, url]) => {
+          const a = el("a", "scenlank", rubrik);
+          a.href = url;
+          a.target = "_blank";
+          a.rel = "noopener";
+          grid.appendChild(a);
+        });
+        t.appendChild(grid);
+      }
       ram.appendChild(t);
     }
     ritaPrickar(k);
@@ -202,7 +214,9 @@
       a.href = url; a.target = "_blank"; a.rel = "noopener";
       const li = el("li"); li.appendChild(a); ul.appendChild(li);
     });
-    $("panel-lankar-block").hidden = !(k.lankar && k.lankar.length);
+    // På textkort visas länkarna redan stort på scenen — dubblera inte i panelen
+    const länkarPåScenen = !bilderAv(k).length && (k.lankar || []).length > 0;
+    $("panel-lankar-block").hidden = !(k.lankar && k.lankar.length) || länkarPåScenen;
 
     const amnen = $("panel-amnen");
     amnen.innerHTML = "";
@@ -300,7 +314,8 @@
           img.alt = "";
           tumme.appendChild(img);
         } else {
-          tumme.appendChild(el("div", "textmark", "❡ " + k.titel));
+          tumme.appendChild(el("div", "textmark",
+            "❡" + ((k.lankar || []).length ? "  " + k.lankar.length + " länkar" : "")));
         }
         mk.appendChild(tumme);
         const titelrad = el("div", "mtitel", k.titel);
@@ -435,7 +450,8 @@
         im.alt = "";
         tumme.appendChild(im);
       } else {
-        tumme.appendChild(el("div", "textmark", "❡ " + k.titel));
+        tumme.appendChild(el("div", "textmark",
+            "❡" + ((k.lankar || []).length ? "  " + k.lankar.length + " länkar" : "")));
       }
       mk.appendChild(tumme);
       mk.appendChild(el("div", "mtitel", k.titel));

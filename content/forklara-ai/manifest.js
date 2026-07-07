@@ -91,7 +91,8 @@ window.LECTURE = {
     },
     {
       "id": "130",
-      "namn": "Biblioteket"
+      "namn": "Biblioteket",
+      "bakom": true
     },
     {
       "id": "900",
@@ -1270,10 +1271,6 @@ window.LECTURE = {
       "anteckningar": "Hinton kallas 'AI:s gudfader' — och är numera en av de tydligaste varnarna.",
       "relaterat": [
         "030-40"
-      ],
-      "stigar": [
-        "historisk",
-        "teknisk"
       ]
     },
     {
@@ -1291,10 +1288,6 @@ window.LECTURE = {
       "relaterat": [
         "020-40",
         "030-20"
-      ],
-      "stigar": [
-        "komigang",
-        "historisk"
       ]
     },
     {
@@ -1327,10 +1320,6 @@ window.LECTURE = {
       "relaterat": [
         "060-10",
         "020-40"
-      ],
-      "stigar": [
-        "historisk",
-        "komigang"
       ]
     },
     {
@@ -1455,9 +1444,6 @@ window.LECTURE = {
       ],
       "relaterat": [
         "080-30"
-      ],
-      "stigar": [
-        "komigang"
       ],
       "fordjupning": "Vad länkarna är, i korthet:\n\nMin AI-start — En bra AI-start — som grundprompt i en tråd eller i custom instructions.\nAI-skolan i Notion — Fria studier — välj din stig.\nAgent OS — Agentiskt operativsystem — grunden för att jobba agentiskt.\nOn Boarding (Vision Setter) — Testa bygga appar själv.\nBloggen (Wisdom Streamer) — FB-sida som blev sökbar blogg.\nLänksamling AI-verktyg — Användbara länkar till AI-verktyg.\nDelningsbar databas AI & IT — Garderobsrensning och guldgruva.\nPluton B — Kompisarna på kontoret — de större AI-modellerna.\nAI på jobbet — Vad gäller? Hur hanterar jag min data?.\nEtt etiskt regelverk för AI — Sätt upp regelverken väl — här är mitt förslag.\nHandslaget — Ersätter offert och långa kontrakt.\nSpela pong — Första spelet på GitHub — fängslar fler än du tror.\nSköldbondens schack — Damen är högre än kungen — hon är farligast.\nUllas citatgenerator — Citat från 83-åring, kopparputs och spel.\nAiNNOVAs citatgenerator — Mina egna citat, erbjudanden och spel.\nTraktens citatgenerator — Fler och fler vill ha en egen.\nAiNNOVA — hem — Huvudsidan.\nKonsultprofil — Kort om vad jag erbjuder.\nAnnas minne — Skriv upp det medan du minns det.\nErbjudanden — Alla erbjudanden.\nAiNNOVAs experimentlabb — Chatbot, offertbot, webbshop, bokningskalender.\nAiNNOVAs bästa tips (Notion) — Eget arbetsflöde, öppet delat.\nHurDetFunkar — Städad och nybyggd landningssida.\nHurDetFunkar (gamla siten) — Gamla skolhjälpen.\nTraktens — Lokala producenters plattform.\nTraktens översiktskarta — Alla kontakter och kategorier.\nOm Traktens — Ansökan på 5,2 miljoner till Jordbruksverket."
     },
