@@ -98,11 +98,6 @@ window.LECTURE = {
       "id": "900",
       "namn": "Dokumentation",
       "bakom": true
-    },
-    {
-      "id": "950",
-      "namn": "Reserv",
-      "bakom": true
     }
   ],
   "kort": [
@@ -229,9 +224,6 @@ window.LECTURE = {
         "geometrisk summa"
       ],
       "anteckningar": "30 linjära steg = 30 meter. 30 exponentiella steg = förbi månen (1,07 miljoner km).\nVår intuition är linjär. AI-utvecklingen är det inte.\nMatte på tavlan: aritmetisk vs geometrisk summa — läraren i mig får glänsa.",
-      "relaterat": [
-        "950-50"
-      ],
       "bilder": [
         "30 steg – två sätt att växa.png"
       ],
@@ -384,8 +376,7 @@ window.LECTURE = {
       "relaterat": [
         "030-30",
         "080-80",
-        "130-20",
-        "950-90"
+        "130-20"
       ],
       "bilder": [
         "Deep Blue vs Kasparov 1997.png"
@@ -412,8 +403,7 @@ window.LECTURE = {
       "anteckningar": "2016: AlphaGo vinner 4–1. Go har fler positioner än atomer i universum.\nDrag 37 — draget ingen människa skulle spela. Kreativitet? Eller statistik?\nLee Sedol slutade senare som proffs.",
       "relaterat": [
         "030-20",
-        "030-40",
-        "950-90"
+        "030-40"
       ],
       "bilder": [
         "Anna möter maskinen – vid go-brädet.jpg"
@@ -982,8 +972,7 @@ window.LECTURE = {
         ]
       ],
       "relaterat": [
-        "030-20",
-        "950-20"
+        "030-20"
       ],
       "bilder": [
         "Sköldbondens schack.png"
@@ -1672,139 +1661,6 @@ window.LECTURE = {
         "Anna framför sin roll-up.jpg",
         "Engagerad publik.jpg",
         "Fikaföreläsning.jpg"
-      ]
-    },
-    {
-      "id": "950-10",
-      "sektion": "950",
-      "titel": "Detektiven",
-      "anteckningar": "Reserv: källkritik — var detektiv, lita men verifiera.",
-      "relaterat": [
-        "060-20"
-      ],
-      "bilder": [
-        "Detektiven.png"
-      ]
-    },
-    {
-      "id": "950-20",
-      "sektion": "950",
-      "titel": "Konst – schack",
-      "anteckningar": "Reserv: konstvariant på schacktemat.",
-      "relaterat": [
-        "080-80"
-      ],
-      "bilder": [
-        "Konst – schack.png"
-      ]
-    },
-    {
-      "id": "950-30",
-      "sektion": "950",
-      "titel": "Anna möter maskinen – vid go-brädet",
-      "anteckningar": "Reserv: pressbild + mötet vid go-brädet.",
-      "begrepp": [
-        "Go"
-      ],
-      "relaterat": [
-        "030-30"
-      ],
-      "bilder": [
-        "Anna möter maskinen – vid go-brädet.jpg"
-      ]
-    },
-    {
-      "id": "950-40",
-      "sektion": "950",
-      "titel": "Ett spel – vem ska man lita på",
-      "begrepp": [
-        "förtroende",
-        "källkritik"
-      ],
-      "anteckningar": "Reserv: förtroendespelet — vem litar du på, människan eller maskinen?",
-      "relaterat": [
-        "100-10",
-        "060-20"
-      ],
-      "bilder": [
-        "Ett spel – vem ska man lita på.png"
-      ]
-    },
-    {
-      "id": "950-50",
-      "sektion": "950",
-      "titel": "Exponentiellt tänkande",
-      "begrepp": [
-        "exponentiell utveckling"
-      ],
-      "anteckningar": "Reserv: alternativ bild till exponentiell utveckling.",
-      "relaterat": [
-        "010-10"
-      ],
-      "bilder": [
-        "Exponentiellt tänkande.png"
-      ]
-    },
-    {
-      "id": "950-60",
-      "sektion": "950",
-      "titel": "Anna möter maskinen – vid schackbrädet",
-      "begrepp": [
-        "schack"
-      ],
-      "anteckningar": "Reserv: schackmötet — satt tidigare (felaktigt) på AlphaGo-kortet. Kandidat för Deep Blue-kortet.",
-      "relaterat": [
-        "030-20"
-      ],
-      "bilder": [
-        "Schack – Anna möter maskinen.png"
-      ]
-    },
-    {
-      "id": "950-70",
-      "sektion": "950",
-      "titel": "Läror och mönster",
-      "begrepp": [
-        "mönster"
-      ],
-      "anteckningar": "Reserv: mönstertemat i konstform.",
-      "relaterat": [
-        "060-10"
-      ],
-      "bilder": [
-        "Läror och mönster.png"
-      ]
-    },
-    {
-      "id": "950-80",
-      "sektion": "950",
-      "titel": "30 steg – två sätt att växa (nattvariant)",
-      "anteckningar": "Reserv: nattversionen av 30-stegsbilden — trappan hela vägen till månen.",
-      "begrepp": [
-        "exponentiell utveckling"
-      ],
-      "relaterat": [
-        "010-10"
-      ],
-      "bilder": [
-        "30 steg – två sätt att växa (nattvariant).png"
-      ]
-    },
-    {
-      "id": "950-90",
-      "sektion": "950",
-      "titel": "Schack vs Go",
-      "begrepp": [
-        "schack",
-        "Go"
-      ],
-      "anteckningar": "Reserv: schack möter go — nu även bilden på AlphaGo-kortet (030-30).",
-      "relaterat": [
-        "030-20",
-        "030-30"
-      ],
-      "bilder": [
-        "Schack vs Go.png"
       ]
     }
   ],

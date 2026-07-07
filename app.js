@@ -272,21 +272,30 @@
   }
 
   // ---------- översikten ----------
+  let oversiktFilter = null; // null = hela översikten, annars en sektion (t.ex. biblioteket)
+
   function byggÖversikt() {
-    $("oversikt-titel").textContent = L.titel;
-    $("oversikt-undertitel").textContent = L.undertitel || "";
+    const filtrerad = oversiktFilter
+      ? L.sektioner.filter(s => s.id === oversiktFilter)
+      : L.sektioner;
+    const rubrikSek = oversiktFilter && sektioner.get(oversiktFilter);
+    $("oversikt-titel").textContent = rubrikSek ? rubrikSek.namn : L.titel;
+    $("oversikt-undertitel").textContent = rubrikSek
+      ? "Välj en hylla — allt är också sökbart."
+      : (L.undertitel || "");
 
     const nav = $("kapitelnav");
     nav.innerHTML = "";
+    nav.hidden = !!oversiktFilter;
     const yta = $("oversikt-sektioner");
     yta.innerHTML = "";
 
     let bakomTillagd = false;
-    L.sektioner.forEach(sek => {
+    filtrerad.forEach(sek => {
       const korten = kort.filter(k => k.sektion === sek.id);
       if (!korten.length) return;
 
-      if (sek.bakom && !bakomTillagd) {
+      if (sek.bakom && !bakomTillagd && !oversiktFilter) {
         yta.appendChild(el("div", null, "Bakom scenen — nås via sök och översikt, ligger utanför pilbläddringen"))
           .id = "bakom-scenen-rubrik";
         bakomTillagd = true;
@@ -333,16 +342,20 @@
     });
   }
 
-  function växlaÖversikt() {
-    const o = $("oversikt");
-    if (o.hidden) {
-      byggÖversikt();
-      o.hidden = false;
-      const akt = o.querySelector(".minikort.aktuell");
+  function öppnaÖversikt(filter) {
+    oversiktFilter = filter || null;
+    stängTråd();
+    byggÖversikt();
+    $("oversikt").hidden = false;
+    $("oversikt").scrollTop = 0;
+    if (!filter) {
+      const akt = $("oversikt").querySelector(".minikort.aktuell");
       if (akt) akt.scrollIntoView({ block: "center" });
-    } else {
-      o.hidden = true;
     }
+  }
+  function växlaÖversikt() {
+    if ($("oversikt").hidden) öppnaÖversikt(null);
+    else $("oversikt").hidden = true;
   }
 
   // ---------- den gyllene röda tråden ----------
@@ -714,8 +727,8 @@
   // Verktygsraden — allt klickbart, inget att memorera
   $("btn-sok").onclick = () => öppnaPalett();
   $("btn-trad").onclick = öppnaTråd;
-  $("btn-oversikt").onclick = () => { stängTråd(); växlaÖversikt(); };
-  $("btn-bibliotek").onclick = () => hoppaTillKapitel("130");
+  $("btn-oversikt").onclick = () => öppnaÖversikt(null);
+  $("btn-bibliotek").onclick = () => öppnaÖversikt("130");
   $("trad-sok").onclick = () => öppnaPalett();
   $("btn-panel").onclick = växlaPanel;
   $("btn-scen").onclick = () => scenläge(true);
