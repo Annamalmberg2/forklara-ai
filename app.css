@@ -551,7 +551,9 @@ body.bara-bild #bildram img { box-shadow: none; }
 
 #trad {
   position: fixed;
-  inset: 0;
+  top: 53px;    /* menyn ska alltid synas — även i labbet */
+  left: 0; right: 0;
+  bottom: 41px; /* statusraden också */
   background: var(--paper);
   overflow-y: auto;
   z-index: 12;
@@ -627,6 +629,34 @@ body.bara-bild #bildram img { box-shadow: none; }
 .stig-namn { font-family: var(--sans); font-size: 13.5px; font-weight: 600; color: var(--ink); }
 .stig-chip.aktiv .stig-namn { color: var(--accent); }
 .stig-info { font-family: var(--mono); font-size: 10px; color: var(--muted); }
+
+#stig-start {
+  display: block;
+  margin-top: 14px;
+  padding: 11px 20px;
+  font-family: var(--sans);
+  font-size: 14.5px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#stig-start:hover { background: #245741; }
+
+/* Stigväljaren i menyn — alltid nåbar */
+#stigmeny {
+  font-family: var(--mono);
+  font-size: 11px;
+  padding: 6px 8px;
+  border: 1px solid var(--hair);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--accent);
+  cursor: pointer;
+  max-width: 150px;
+}
 
 #trad-under {
   font-family: var(--serif);
@@ -755,7 +785,9 @@ body.bara-bild #bildram img { box-shadow: none; }
 
 #oversikt {
   position: fixed;
-  inset: 0;
+  top: 53px;
+  left: 0; right: 0;
+  bottom: 41px;
   background: var(--paper);
   overflow-y: auto;
   z-index: 10;

@@ -57,6 +57,20 @@
   function uppdateraStigUI() {
     document.querySelectorAll("#stigval .stig-chip").forEach(b =>
       b.classList.toggle("aktiv", (b.dataset.stig || null) === (stig || null)));
+    $("stigmeny").value = stig || "";
+  }
+  function byggStigmeny() {
+    const m = $("stigmeny");
+    m.innerHTML = "";
+    const o0 = el("option", null, "Hela berättelsen");
+    o0.value = "";
+    m.appendChild(o0);
+    STIGAR.forEach(s => {
+      const o = el("option", null, s.namn);
+      o.value = s.id;
+      m.appendChild(o);
+    });
+    m.onchange = () => sättStig(m.value || null);
   }
 
   const $ = id => document.getElementById(id);
@@ -353,9 +367,20 @@
     chip(null, "Hela berättelsen", "Alla kapitel, i din ordning");
     STIGAR.forEach(s => chip(s.id, s.namn, s.beskrivning));
 
+    // Startknappen — vandringen börjar med ett klick
+    const startKnapp = $("stig-start");
+    const startLista = berättelseKort();
+    startKnapp.textContent = startLista.length
+      ? "→ Börja vandringen: " + startLista[0].titel
+      : "Inga berättelser på den här stigen ännu";
+    startKnapp.onclick = () => { if (startLista.length) { stängAllt(); visa(startLista[0].id); } };
+
     const yta = $("trad-lista");
     yta.innerHTML = "";
     trådKapitel.forEach((sek, i) => {
+      const kapitelKort = kort.filter(k => k.sektion === sek.id &&
+        (!stig || (k.stigar || []).includes(stig)));
+      if (stig && !kapitelKort.length) return; // kapitlet ligger inte på vald stig
       const kapitel = el("div", "trad-kapitel");
       const rad = el("div", "trad-rad" + (i === trådVal ? " aktiv" : ""));
       rad.setAttribute("role", "button");
@@ -365,8 +390,9 @@
       const txt = el("div", "trad-text");
       txt.appendChild(el("h3", null, sek.namn));
       txt.appendChild(el("p", null, sek.tes));
-      const antal = kort.filter(k => k.sektion === sek.id).length;
-      const visaKnapp = el("button", "trad-visa", "▸ fäll ut stigen — " + antal + " kort");
+      const antal = kapitelKort.length;
+      const visaKnapp = el("button", "trad-visa",
+        "▸ fäll ut — " + antal + (antal === 1 ? " berättelse" : " berättelser"));
       visaKnapp.onclick = e => { e.stopPropagation(); växlaUtfall(kapitel, sek, visaKnapp); };
       txt.appendChild(visaKnapp);
       rad.appendChild(txt);
@@ -390,10 +416,12 @@
   // Fäll ut en stig direkt på startsidan — alla kort utan att lämna labbet
   function växlaUtfall(kapitel, sek, knapp) {
     const gammal = kapitel.querySelector(".trad-utfall");
-    const korten = kort.filter(k => k.sektion === sek.id);
+    const korten = kort.filter(k => k.sektion === sek.id &&
+      (!stig || (k.stigar || []).includes(stig)));
     if (gammal) {
       gammal.remove();
-      knapp.textContent = "▸ fäll ut stigen — " + korten.length + " kort";
+      knapp.textContent = "▸ fäll ut — " + korten.length +
+        (korten.length === 1 ? " berättelse" : " berättelser");
       return;
     }
     const grid = el("div", "trad-utfall kortgrid");
@@ -669,6 +697,7 @@
   $("btn-sok").onclick = () => öppnaPalett();
   $("btn-trad").onclick = öppnaTråd;
   $("btn-oversikt").onclick = () => { stängTråd(); växlaÖversikt(); };
+  $("btn-bibliotek").onclick = () => hoppaTillKapitel("130");
   $("trad-sok").onclick = () => öppnaPalett();
   $("btn-panel").onclick = växlaPanel;
   $("btn-scen").onclick = () => scenläge(true);
@@ -700,6 +729,8 @@
   if (minne.panelDold) document.body.classList.add("panel-dold");
   $("btn-panel").setAttribute("aria-pressed", String(!minne.panelDold));
   if (typeof minne.stig === "string" && STIGAR.some(s => s.id === minne.stig)) stig = minne.stig;
+  byggStigmeny();
+  uppdateraStigUI();
   byggRail();
 
   const hadeDjuplänk = index.has(decodeURIComponent(location.hash.slice(1)));

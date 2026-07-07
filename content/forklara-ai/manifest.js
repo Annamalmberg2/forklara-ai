@@ -1342,55 +1342,115 @@ window.LECTURE = {
         "länkar"
       ],
       "text": "Allt jag byggt och visar — samlat på ett ställe.",
-      "anteckningar": "Publiken kan klicka hemifrån — dela länksamlingen på tavlan eller i chatten.",
+      "anteckningar": "Hela länkbiblioteket — uppdaterat från Annas Excelfil (INKORG). Nya länkar: släpp en ny fil i INKORG och säg till.",
       "lankar": [
         [
-          "Länksamlingen",
-          "https://erbjudanden.ainnova.se/länkar"
+          "Min AI-start",
+          "https://docs.google.com/document/d/13Q-FUfK8_VHq9uWUMA0BP3z8uiJzJa03M7WpiuDRzDc/edit?usp=sharing"
         ],
         [
-          "HurDetFunkar",
-          "https://hurdetfunkar.se"
+          "AI-skolan i Notion",
+          "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
         ],
         [
-          "Traktens",
-          "https://www.traktens.se/om-traktens"
+          "Agent OS",
+          "https://docs.google.com/document/d/12WiYicvBsX399xJrA0TEEpuazCxSZBifi9meyANOVjw/edit?usp=sharing"
         ],
         [
-          "En Kullen",
-          "https://enkullen.se"
-        ],
-        [
-          "Rissäters loppis",
-          "https://rissaeters-loppis.com"
-        ],
-        [
-          "Wisdom Streamer",
-          "https://wisdom-streamer.lovable.app"
-        ],
-        [
-          "Open Weave AI – etiskt ramverk",
-          "https://open-weave-ai.lovable.app/"
-        ],
-        [
-          "Vision Setter",
+          "On Boarding (Vision Setter)",
           "https://vision-setter.lovable.app/"
         ],
         [
-          "Handslaget",
-          "https://handshake-echo-world.lovable.app"
+          "Bloggen (Wisdom Streamer)",
+          "https://wisdom-streamer.lovable.app/"
         ],
         [
-          "Sköldbondens schack",
-          "https://annamalmberg2.github.io/skoldbondens-schack/"
+          "Länksamling AI-verktyg",
+          "https://erbjudanden.ainnova.se/länkar"
+        ],
+        [
+          "Delningsbar databas AI & IT",
+          "https://easy-share-db.lovable.app/"
         ],
         [
           "Pluton B",
           "https://sites.google.com/view/hurdetfunkar/pluton-b"
         ],
         [
-          "Fria studier om AI (Notion)",
-          "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
+          "AI på jobbet",
+          "https://confy-ai-path.lovable.app"
+        ],
+        [
+          "Ett etiskt regelverk för AI",
+          "https://open-weave-ai.lovable.app/"
+        ],
+        [
+          "Handslaget",
+          "https://handshake-echo-world.lovable.app/"
+        ],
+        [
+          "Spela pong",
+          "https://annamalmberg2.github.io/pong.html"
+        ],
+        [
+          "Sköldbondens schack",
+          "https://annamalmberg2.github.io/skoldbondens-schack"
+        ],
+        [
+          "Ullas citatgenerator",
+          "https://ullas-gamla-visdom.lovable.app/"
+        ],
+        [
+          "AiNNOVAs citatgenerator",
+          "https://ainnovas-wisdom-keeper.lovable.app"
+        ],
+        [
+          "Traktens citatgenerator",
+          "https://traktens.se/citatgenerator"
+        ],
+        [
+          "AiNNOVA — hem",
+          "https://ainnova.se/"
+        ],
+        [
+          "Konsultprofil",
+          "https://docs.google.com/document/d/1hBVbuWp3Be7dKPFcnNjaIo3X3usnfx7FRyzPoknqTAo/edit?usp=sharing"
+        ],
+        [
+          "Annas minne",
+          "https://sites.google.com/view/hurdetfunkar/mitt-minne"
+        ],
+        [
+          "Erbjudanden",
+          "https://erbjudanden.ainnova.se/"
+        ],
+        [
+          "AiNNOVAs experimentlabb",
+          "https://ainnova.xyz/"
+        ],
+        [
+          "AiNNOVAs bästa tips (Notion)",
+          "https://delicate-neighbor-37a.notion.site/Du-f-r-alltid-AINNOVAS-b-sta-tips-1649c8142e3f805cbf91d9c1fe7d320c"
+        ],
+        [
+          "HurDetFunkar",
+          "https://hurdetfunkar.se/"
+        ],
+        [
+          "HurDetFunkar (gamla siten)",
+          "https://sites.google.com/view/hurdetfunkar/"
+        ],
+        [
+          "Traktens",
+          "https://www.traktens.se/startsida"
+        ],
+        [
+          "Traktens översiktskarta",
+          "https://traktens.se/karta"
+        ],
+        [
+          "Om Traktens",
+          "https://www.traktens.se/om-traktens"
         ]
       ],
       "relaterat": [
@@ -1398,7 +1458,8 @@ window.LECTURE = {
       ],
       "stigar": [
         "komigang"
-      ]
+      ],
+      "fordjupning": "Vad länkarna är, i korthet:\n\nMin AI-start — En bra AI-start — som grundprompt i en tråd eller i custom instructions.\nAI-skolan i Notion — Fria studier — välj din stig.\nAgent OS — Agentiskt operativsystem — grunden för att jobba agentiskt.\nOn Boarding (Vision Setter) — Testa bygga appar själv.\nBloggen (Wisdom Streamer) — FB-sida som blev sökbar blogg.\nLänksamling AI-verktyg — Användbara länkar till AI-verktyg.\nDelningsbar databas AI & IT — Garderobsrensning och guldgruva.\nPluton B — Kompisarna på kontoret — de större AI-modellerna.\nAI på jobbet — Vad gäller? Hur hanterar jag min data?.\nEtt etiskt regelverk för AI — Sätt upp regelverken väl — här är mitt förslag.\nHandslaget — Ersätter offert och långa kontrakt.\nSpela pong — Första spelet på GitHub — fängslar fler än du tror.\nSköldbondens schack — Damen är högre än kungen — hon är farligast.\nUllas citatgenerator — Citat från 83-åring, kopparputs och spel.\nAiNNOVAs citatgenerator — Mina egna citat, erbjudanden och spel.\nTraktens citatgenerator — Fler och fler vill ha en egen.\nAiNNOVA — hem — Huvudsidan.\nKonsultprofil — Kort om vad jag erbjuder.\nAnnas minne — Skriv upp det medan du minns det.\nErbjudanden — Alla erbjudanden.\nAiNNOVAs experimentlabb — Chatbot, offertbot, webbshop, bokningskalender.\nAiNNOVAs bästa tips (Notion) — Eget arbetsflöde, öppet delat.\nHurDetFunkar — Städad och nybyggd landningssida.\nHurDetFunkar (gamla siten) — Gamla skolhjälpen.\nTraktens — Lokala producenters plattform.\nTraktens översiktskarta — Alla kontakter och kategorier.\nOm Traktens — Ansökan på 5,2 miljoner till Jordbruksverket."
     },
     {
       "id": "900-10",
