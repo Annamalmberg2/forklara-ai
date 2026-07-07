@@ -123,14 +123,16 @@
       String(k.text || "").split(/\n\s*\n/).forEach(stycke => {
         t.appendChild(el("p", null, stycke.replace(/\n/g, " ")));
       });
-      // Textkortets länkar hör hemma på scenen — inte i marginalen
+      // Textkortets länkar hör hemma på scenen — med beskrivning
       if ((k.lankar || []).length) {
         const grid = el("div", "textkort-lankar");
-        k.lankar.forEach(([rubrik, url]) => {
-          const a = el("a", "scenlank", rubrik);
+        k.lankar.forEach(([rubrik, url, beskr]) => {
+          const a = el("a", "scenlank", null);
           a.href = url;
           a.target = "_blank";
           a.rel = "noopener";
+          a.appendChild(el("span", "sl-titel", rubrik));
+          if (beskr) a.appendChild(el("span", "sl-desc", beskr));
           grid.appendChild(a);
         });
         t.appendChild(grid);
@@ -514,7 +516,7 @@
         sektion: normalisera(sek.namn),
         brödtext: normalisera((k.anteckningar || "") + " " + (k.text || "") +
           " " + (k.fordjupning || "") +
-          " " + (k.lankar || []).map(l => l[0]).join(" "))
+          " " + (k.lankar || []).map(l => l[0] + " " + (l[2] || "")).join(" "))
       };
     });
   }

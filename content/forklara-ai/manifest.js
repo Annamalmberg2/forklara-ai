@@ -331,8 +331,7 @@ window.LECTURE = {
       ],
       "anteckningar": "Ada Lovelace (1815–1852): den första algoritmen — såg att maskinen kunde mer än räkna.\nAlan Turing (1912–1954): 'kan maskiner tänka?'\nLinjen Ada → Alan → Grace Hopper → von Neumann → idag.\nKvinnorna fanns där från början.",
       "relaterat": [
-        "130-20",
-        "130-30"
+        "130-20"
       ],
       "bilder": [
         "Ada och Alan – tidslinjen.png"
@@ -661,8 +660,7 @@ window.LECTURE = {
       "anteckningar": "31, 331, 3331, 33331 … alla primtal!\nAI:n: '333 333 331 är troligen primtal — 98,7 % säkert.'\nSanningen: 333 333 331 = 17 × 19 607 843.\nMönster är vackra. Bevis är sanning. Så startade jag — och så granskar jag AI.",
       "fordjupning": "Följden bildas genom att skjuta in en trea i taget: 31, 331, 3331, 33331 … De åtta första talen är alla primtal. Det nionde, 333 333 331, ser precis likadant ut — men är 17 × 19 607 843.\n\nSå ser AI:s misstag ofta ut: mönstret håller precis länge nog för att vi ska sluta kontrollera. Ett snabbt primtalstest (som Miller–Rabin) svarar 'troligen primtal' med hög säkerhet — men 'troligen' är inte 'bevisat'. Skillnaden mellan statistik och bevis är exakt skillnaden mellan en språkmodells gissning och matematikens sanning.\n\nNörddetalj: att pröva delbarhet med små primtal (7, 11, 13, 17 …) avslöjar bluffen snabbt — redan 17 fäller talet. Det som ser oövervinnerligt ut faller ofta för det enklaste verktyget i lådan.",
       "relaterat": [
-        "060-20",
-        "130-30"
+        "060-20"
       ],
       "bilder": [
         "Mönster är vackra, bevis är sanning.png"
@@ -864,9 +862,6 @@ window.LECTURE = {
           "https://sites.google.com/view/hurdetfunkar/pluton-b"
         ]
       ],
-      "relaterat": [
-        "130-40"
-      ],
       "bilder": [
         "HurDetFunkar.png"
       ],
@@ -888,9 +883,6 @@ window.LECTURE = {
           "traktens.se",
           "https://www.traktens.se/om-traktens"
         ]
-      ],
-      "relaterat": [
-        "130-40"
       ],
       "bilder": [
         "Traktens.png"
@@ -914,9 +906,6 @@ window.LECTURE = {
           "Fria studier om AI",
           "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
         ]
-      ],
-      "relaterat": [
-        "130-40"
       ],
       "bilder": [
         "Notion som anteckningar.png"
@@ -944,9 +933,6 @@ window.LECTURE = {
           "https://ainnova.se"
         ]
       ],
-      "relaterat": [
-        "130-40"
-      ],
       "bilder": [
         "Bloggen.png"
       ],
@@ -972,9 +958,6 @@ window.LECTURE = {
           "Fredagslåt på YouTube",
           "https://www.youtube.com/watch?v=a7_jig8MxiU"
         ]
-      ],
-      "relaterat": [
-        "130-40"
       ],
       "bilder": [
         "Veckolåtar.png"
@@ -1061,8 +1044,7 @@ window.LECTURE = {
         ]
       ],
       "relaterat": [
-        "070-60",
-        "130-40"
+        "070-60"
       ],
       "bilder": [
         "Lovable – bygg med en mening.png"
@@ -1293,159 +1275,392 @@ window.LECTURE = {
     {
       "id": "130-30",
       "sektion": "130",
-      "titel": "Se & lyssna",
-      "personer": [
-        "Marcus du Sautoy"
-      ],
+      "titel": "Kom igång & bygg själv",
+      "text": "Länkarna jag delar för att du ska komma igång — och bygga eget.",
       "begrepp": [
-        "matematik",
-        "dokumentärer"
+        "länkar",
+        "kom igång",
+        "verktyg",
+        "projekt"
       ],
-      "text": "Fördjupning för den nyfikna — matematiken bakom alltihop.",
-      "anteckningar": "The wisdom of the crowd: gissa oxens vikt — snittet slår experten.\nSamma princip som i maskininlärning.",
       "lankar": [
         [
-          "BBC: The Story of Maths",
-          "https://www.youtube.com/playlist?list=PLonhd8B9fP9u6TiZWKK1bhPD6JKoio6N8"
+          "Min AI-start",
+          "https://docs.google.com/document/d/13Q-FUfK8_VHq9uWUMA0BP3z8uiJzJa03M7WpiuDRzDc/edit?usp=sharing",
+          "Grundprompten att inleda varje AI-samtal med — klistra in i en ny tråd eller i dina custom instructions."
         ],
         [
-          "BBC: The CODE",
-          "https://youtu.be/iOucwX7Z1HU"
+          "AI-skolan i Notion",
+          "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0",
+          "Fria studier om AI där du väljer din egen stig. Några år på nacken, men fortfarande en fin väg in."
         ],
         [
-          "The wisdom of the crowd – Marcus du Sautoy",
-          "https://youtu.be/s7tngG2kAik?t=265"
+          "Agent OS",
+          "https://docs.google.com/document/d/12WiYicvBsX399xJrA0TEEpuazCxSZBifi9meyANOVjw/edit?usp=sharing",
+          "Ett agentiskt operativsystem: grunden för att låta AI arbeta självständigt, med en kort introduktion."
+        ],
+        [
+          "Vision Setter — testa bygga appar",
+          "https://vision-setter.lovable.app/",
+          "Kom igång och bygg egna appar. Går du via affiliatelänken får du fler poäng att bygga för."
+        ],
+        [
+          "Bloggen (Wisdom Streamer)",
+          "https://wisdom-streamer.lovable.app/",
+          "Min Facebook-sida som blev en sökbar blogg — inläggen tillgängliga för alla, inte bara följare."
+        ],
+        [
+          "Länksamling AI-verktyg",
+          "https://erbjudanden.ainnova.se/länkar",
+          "Min samlade lista över användbara AI-verktyg, i Google Sites."
+        ],
+        [
+          "Delningsbar databas AI & IT",
+          "https://easy-share-db.lovable.app/",
+          "En Lovable-databas med länkar — garderobsrensning som blev en guldgruva."
+        ],
+        [
+          "Pluton B",
+          "https://sites.google.com/view/hurdetfunkar/pluton-b",
+          "Kompisarna på kontoret: min pluton av de större AI-modellerna, samlade på ett ställe."
+        ],
+        [
+          "AI på jobbet",
+          "https://confy-ai-path.lovable.app",
+          "Vad gäller egentligen? En app om hur du får hantera din data när du använder AI på jobbet."
+        ],
+        [
+          "Ett etiskt regelverk för AI",
+          "https://open-weave-ai.lovable.app/",
+          "Mitt förslag på hur man sätter upp sina egna spelregler för AI — väl värt att tänka igenom."
+        ],
+        [
+          "Handslaget",
+          "https://handshake-echo-world.lovable.app/",
+          "Ersätter offert och långa kontrakt med ett enkelt handslag — med garanti via Google-inloggning."
+        ],
+        [
+          "Spela pong",
+          "https://annamalmberg2.github.io/pong.html",
+          "Mitt första spel på GitHub, ren HTML. Fängslar fler än du tror."
+        ],
+        [
+          "Sköldbondens schack",
+          "https://annamalmberg2.github.io/skoldbondens-schack",
+          "Mitt eget schack, byggt på min dator. Damen står högre än kungen — för hon är farligast."
+        ],
+        [
+          "Ullas citatgenerator",
+          "https://ullas-gamla-visdom.lovable.app/",
+          "En AI intervjuade en 83-åring, satte samman hennes citat och byggde spel. Kopparputs och visdom."
+        ],
+        [
+          "AiNNOVAs citatgenerator",
+          "https://ainnovas-wisdom-keeper.lovable.app",
+          "Mina egna citat, erbjudanden och spel — samlade i en generator."
+        ],
+        [
+          "Traktens citatgenerator",
+          "https://traktens.se/citatgenerator",
+          "Traktens filosofi som delbar citatgenerator. Allt fler vill ha en egen."
+        ],
+        [
+          "AiNNOVA — hem",
+          "https://ainnova.se/",
+          "Huvudsidan för AiNNOVA."
+        ],
+        [
+          "Erbjudanden",
+          "https://erbjudanden.ainnova.se/",
+          "Alla AiNNOVAs erbjudanden på ett ställe."
+        ],
+        [
+          "AiNNOVAs experimentlabb",
+          "https://ainnova.xyz/",
+          "Chatbot, offertbot, webbshop och bokningskalender — mitt labb för skarpt läge."
+        ],
+        [
+          "AiNNOVAs bästa tips (Notion)",
+          "https://delicate-neighbor-37a.notion.site/Du-f-r-alltid-AINNOVAS-b-sta-tips-1649c8142e3f805cbf91d9c1fe7d320c",
+          "AiNNOVAs eget arbetsflöde, öppet delat i Notion."
+        ],
+        [
+          "Annas minne",
+          "https://sites.google.com/view/hurdetfunkar/mitt-minne",
+          "Övriga länkar och tankar — skriv upp det medan du minns det."
+        ],
+        [
+          "HurDetFunkar",
+          "https://hurdetfunkar.se/",
+          "Min gamla skolhjälp, städad och nybyggd som landningssida."
+        ],
+        [
+          "HurDetFunkar (gamla siten)",
+          "https://sites.google.com/view/hurdetfunkar/",
+          "Ursprungliga skolhjälpen, nerkopierad från WordPress till Google Sites — historien bakom."
+        ],
+        [
+          "Traktens",
+          "https://www.traktens.se/startsida",
+          "Lokala producenters plattform — tidig automation av registreringar och kartor."
+        ],
+        [
+          "Traktens översiktskarta",
+          "https://traktens.se/karta",
+          "Alla kontakter och kategorier samlade på en karta."
+        ],
+        [
+          "Om Traktens",
+          "https://www.traktens.se/om-traktens",
+          "Bakgrunden till bygget — och ansökan på 5,2 miljoner till Jordbruksverket."
         ]
       ],
-      "relaterat": [
-        "060-10",
-        "020-40"
-      ]
+      "anteckningar": "Hylla i biblioteket — 26 länkar. Uppdateras från Annas ark när vi kopplat på det."
     },
     {
       "id": "130-40",
       "sektion": "130",
-      "titel": "Länkbiblioteket",
-      "begrepp": [
-        "projekt",
-        "länkar"
+      "titel": "Podd & film",
+      "text": "Att lyssna och titta på — poddar, låtar och filmklipp.",
+      "personer": [
+        "Max Tegmark",
+        "Marcus du Sautoy"
       ],
-      "text": "Allt jag byggt och visar — samlat på ett ställe.",
-      "anteckningar": "Hela länkbiblioteket — uppdaterat från Annas Excelfil (INKORG). Nya länkar: släpp en ny fil i INKORG och säg till.",
+      "begrepp": [
+        "podd",
+        "film",
+        "musik",
+        "lyssna",
+        "Fredagslåtar"
+      ],
       "lankar": [
         [
-          "Min AI-start",
-          "https://docs.google.com/document/d/13Q-FUfK8_VHq9uWUMA0BP3z8uiJzJa03M7WpiuDRzDc/edit?usp=sharing"
+          "Podd om AiNNOVA (svenska)",
+          "https://drive.google.com/file/d/1TApYoW59xZh_U_VXf7vuMHr7cSwqVP3l/view?usp=sharing",
+          "Min egen podd om AiNNOVA, gjord i NotebookLM. Svensk version."
         ],
         [
-          "AI-skolan i Notion",
-          "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
+          "Podd om AiNNOVA (engelska)",
+          "https://drive.google.com/file/d/1043fTgPUmYBMO-bcd3vPLbQi_6MAUuAx/view?usp=sharing",
+          "Samma podd på engelska — NotebookLM gör det möjligt."
         ],
         [
-          "Agent OS",
-          "https://docs.google.com/document/d/12WiYicvBsX399xJrA0TEEpuazCxSZBifi9meyANOVjw/edit?usp=sharing"
+          "Podd om Traktens",
+          "https://traktens.se/podd",
+          "En podd om Traktens, gjord i NotebookLM. Alla kan göra en podd."
         ],
         [
-          "On Boarding (Vision Setter)",
-          "https://vision-setter.lovable.app/"
+          "Gamla AI-listan på YouTube",
+          "https://www.youtube.com/watch?v=6mlvWXd2kfE&list=PLrae5R3oQJre3W1pp-CTQrvI-6DObBl0c",
+          "Musik gjord i olika AI-verktyg. Inte utan sin historia — vila i den."
         ],
         [
-          "Bloggen (Wisdom Streamer)",
-          "https://wisdom-streamer.lovable.app/"
+          "Fredagslåtarna",
+          "https://sites.google.com/ainnova.se/aisverige/musik",
+          "Martins fredagslåtar: varje vecka sammanfattad i en låt."
         ],
         [
-          "Länksamling AI-verktyg",
-          "https://erbjudanden.ainnova.se/länkar"
+          "Deepfake Barack Obama",
+          "https://www.youtube.com/watch?v=l82PxsKHxYc",
+          "Deepfake är inget nytt — det här klippet är från MIT, januari 2020."
         ],
         [
-          "Delningsbar databas AI & IT",
-          "https://easy-share-db.lovable.app/"
+          "Max Tegmarks sommarprat",
+          "https://www.sverigesradio.se/avsnitt/max-tegmark-sommarpratare-2023",
+          "Sommarpratet som skrämde många. Sveriges Radio, 2023."
         ],
         [
-          "Pluton B",
-          "https://sites.google.com/view/hurdetfunkar/pluton-b"
+          "Konsten att tänka klart",
+          "https://larafranlarda.com/konsten-att-tanka-klart-sturmark/",
+          "Ett sunt förhållningssätt till kunskap och tänkande — Lära från lärda."
         ],
         [
-          "AI på jobbet",
-          "https://confy-ai-path.lovable.app"
+          "BBC: The Story of Maths",
+          "https://www.youtube.com/playlist?list=PLonhd8B9fP9u6TiZWKK1bhPD6JKoio6N8",
+          "Marcus du Sautoys klassiska serie om matematikens historia."
         ],
         [
-          "Ett etiskt regelverk för AI",
-          "https://open-weave-ai.lovable.app/"
+          "BBC: The CODE",
+          "https://youtu.be/iOucwX7Z1HU",
+          "Om mönstren och koden bakom naturen och matematiken."
         ],
         [
-          "Handslaget",
-          "https://handshake-echo-world.lovable.app/"
-        ],
-        [
-          "Spela pong",
-          "https://annamalmberg2.github.io/pong.html"
-        ],
-        [
-          "Sköldbondens schack",
-          "https://annamalmberg2.github.io/skoldbondens-schack"
-        ],
-        [
-          "Ullas citatgenerator",
-          "https://ullas-gamla-visdom.lovable.app/"
-        ],
-        [
-          "AiNNOVAs citatgenerator",
-          "https://ainnovas-wisdom-keeper.lovable.app"
-        ],
-        [
-          "Traktens citatgenerator",
-          "https://traktens.se/citatgenerator"
-        ],
-        [
-          "AiNNOVA — hem",
-          "https://ainnova.se/"
-        ],
-        [
-          "Konsultprofil",
-          "https://docs.google.com/document/d/1hBVbuWp3Be7dKPFcnNjaIo3X3usnfx7FRyzPoknqTAo/edit?usp=sharing"
-        ],
-        [
-          "Annas minne",
-          "https://sites.google.com/view/hurdetfunkar/mitt-minne"
-        ],
-        [
-          "Erbjudanden",
-          "https://erbjudanden.ainnova.se/"
-        ],
-        [
-          "AiNNOVAs experimentlabb",
-          "https://ainnova.xyz/"
-        ],
-        [
-          "AiNNOVAs bästa tips (Notion)",
-          "https://delicate-neighbor-37a.notion.site/Du-f-r-alltid-AINNOVAS-b-sta-tips-1649c8142e3f805cbf91d9c1fe7d320c"
-        ],
-        [
-          "HurDetFunkar",
-          "https://hurdetfunkar.se/"
-        ],
-        [
-          "HurDetFunkar (gamla siten)",
-          "https://sites.google.com/view/hurdetfunkar/"
-        ],
-        [
-          "Traktens",
-          "https://www.traktens.se/startsida"
-        ],
-        [
-          "Traktens översiktskarta",
-          "https://traktens.se/karta"
-        ],
-        [
-          "Om Traktens",
-          "https://www.traktens.se/om-traktens"
+          "The wisdom of the crowd",
+          "https://youtu.be/s7tngG2kAik?t=265",
+          "Gissa oxens vikt — snittet slår experten. Samma princip som i maskininlärning."
         ]
       ],
-      "relaterat": [
-        "080-30"
+      "anteckningar": "Hylla i biblioteket — 11 länkar. Uppdateras från Annas ark när vi kopplat på det."
+    },
+    {
+      "id": "130-50",
+      "sektion": "130",
+      "titel": "Chatbotar",
+      "text": "Robotar att prata med — några på skoj, några på allvar.",
+      "begrepp": [
+        "chatbot",
+        "Zapier"
       ],
-      "fordjupning": "Vad länkarna är, i korthet:\n\nMin AI-start — En bra AI-start — som grundprompt i en tråd eller i custom instructions.\nAI-skolan i Notion — Fria studier — välj din stig.\nAgent OS — Agentiskt operativsystem — grunden för att jobba agentiskt.\nOn Boarding (Vision Setter) — Testa bygga appar själv.\nBloggen (Wisdom Streamer) — FB-sida som blev sökbar blogg.\nLänksamling AI-verktyg — Användbara länkar till AI-verktyg.\nDelningsbar databas AI & IT — Garderobsrensning och guldgruva.\nPluton B — Kompisarna på kontoret — de större AI-modellerna.\nAI på jobbet — Vad gäller? Hur hanterar jag min data?.\nEtt etiskt regelverk för AI — Sätt upp regelverken väl — här är mitt förslag.\nHandslaget — Ersätter offert och långa kontrakt.\nSpela pong — Första spelet på GitHub — fängslar fler än du tror.\nSköldbondens schack — Damen är högre än kungen — hon är farligast.\nUllas citatgenerator — Citat från 83-åring, kopparputs och spel.\nAiNNOVAs citatgenerator — Mina egna citat, erbjudanden och spel.\nTraktens citatgenerator — Fler och fler vill ha en egen.\nAiNNOVA — hem — Huvudsidan.\nKonsultprofil — Kort om vad jag erbjuder.\nAnnas minne — Skriv upp det medan du minns det.\nErbjudanden — Alla erbjudanden.\nAiNNOVAs experimentlabb — Chatbot, offertbot, webbshop, bokningskalender.\nAiNNOVAs bästa tips (Notion) — Eget arbetsflöde, öppet delat.\nHurDetFunkar — Städad och nybyggd landningssida.\nHurDetFunkar (gamla siten) — Gamla skolhjälpen.\nTraktens — Lokala producenters plattform.\nTraktens översiktskarta — Alla kontakter och kategorier.\nOm Traktens — Ansökan på 5,2 miljoner till Jordbruksverket."
+      "lankar": [
+        [
+          "Hyllningsbot (Zapier)",
+          "https://hurdetfunkar.zapier.app/",
+          "En gammal chatbot byggd med Zapier: vad skulle en känd person ha sagt om Anna?"
+        ],
+        [
+          "Hyllningsbot – Gwen Brannen",
+          "https://anna-d1ee8c.zapier.app/",
+          "Samma idé — en hyllning från Gwen Brannen."
+        ],
+        [
+          "AiNNOVAs chatbot",
+          "https://ainnova.xyz/chatbot/",
+          "Vad vi erbjuder, byggd i filsystem."
+        ],
+        [
+          "Traktens chatbot",
+          "https://traktens.se/chatbot",
+          "Svarar på frågor om Traktens."
+        ]
+      ],
+      "anteckningar": "Hylla i biblioteket — 4 länkar. Uppdateras från Annas ark när vi kopplat på det."
+    },
+    {
+      "id": "130-60",
+      "sektion": "130",
+      "titel": "Företag & kundbyggen",
+      "text": "AI-resor hos andra — och sajter jag byggt åt kunder.",
+      "begrepp": [
+        "företag",
+        "kunder",
+        "Rävens Bistro",
+        "IKEA"
+      ],
+      "lankar": [
+        [
+          "IKEAs AI-resa",
+          "https://delicate-neighbor-37a.notion.site/IKEAS-AI-resa-1b29c8142e3f80e5b95fc8ae9b275031",
+          "Spännande att ha koll på: hur IKEA närmar sig AI."
+        ],
+        [
+          "Paper Province AI-resa",
+          "https://notebooklm.google.com/notebook/ba9225eb-b4e1-4fce-aa1d-3a2d072cab5c",
+          "Paper Provinces AI-resa, i NotebookLM-version."
+        ],
+        [
+          "Rissäters loppis (gammal design)",
+          "https://rissaeters-loppis.eu/",
+          "Ett tidigt bygge: en skrapad sida med 9 411 produkter."
+        ],
+        [
+          "Rissäters loppis (ny design)",
+          "https://rissaeters-loppis.com/",
+          "Loppisen i ny, städad design."
+        ],
+        [
+          "En Kullen",
+          "https://enkullen.se/",
+          "En enkel människa sköter sin gård — ombyggd för att spara tokens."
+        ],
+        [
+          "Rävens Bistro (gammal design)",
+          "https://xn--rvensbistro-l8a.se/",
+          "Tidig pizzasajt. När är ett handslag ett handslag?"
+        ],
+        [
+          "Rävens Bistro (ny design)",
+          "https://ravensbistro.com/",
+          "Rävens Bistro i ny design."
+        ],
+        [
+          "Walldone",
+          "https://www.walldone.se/",
+          "Min första sajt — när kunden ville ha allt samlat i Google."
+        ]
+      ],
+      "anteckningar": "Hylla i biblioteket — 8 länkar. Uppdateras från Annas ark när vi kopplat på det."
+    },
+    {
+      "id": "130-70",
+      "sektion": "130",
+      "titel": "Föreläsningar",
+      "text": "Mina föreläsningssidor — hur smarta vi än är, kommer vi att glömma.",
+      "begrepp": [
+        "föreläsningar",
+        "Varming"
+      ],
+      "lankar": [
+        [
+          "Värmlands ingenjörsförening",
+          "https://sites.google.com/ainnova.se/welcome-varming/startsida",
+          "Föreläsningssidan för Varming."
+        ],
+        [
+          "Welcome to the Lab",
+          "https://sites.google.com/ainnova.se/welcome/startsida",
+          "Den ursprungliga föreläsningssidan i Google Sites."
+        ],
+        [
+          "Förklara AI (det här verktyget)",
+          "https://annamalmberg2.github.io/forklara-ai",
+          "Föreläsningen som interaktivt verktyg — live."
+        ]
+      ],
+      "anteckningar": "Hylla i biblioteket — 3 länkar. Uppdateras från Annas ark när vi kopplat på det."
+    },
+    {
+      "id": "130-80",
+      "sektion": "130",
+      "titel": "Presentationer",
+      "text": "Presentationer och sammanställningar — från olika verktyg, olika tider.",
+      "begrepp": [
+        "presentationer",
+        "Gamma",
+        "Canva"
+      ],
+      "lankar": [
+        [
+          "Konsultprofil",
+          "https://docs.google.com/document/d/1hBVbuWp3Be7dKPFcnNjaIo3X3usnfx7FRyzPoknqTAo/edit?usp=sharing",
+          "Min konsultprofil, inskickad till Konsulthatten."
+        ],
+        [
+          "CV när AI får fria händer",
+          "https://gamma.app/docs/Ai-Anna-j55lfjpqxbcqb9s",
+          "Mitt CV och personliga brev, skrivet när AI fick fria händer. Från tiden innan AiNNOVA."
+        ],
+        [
+          "Tidig affärsplan (Canva)",
+          "https://www.canva.com/design/DAGRwMajvm4/zYVW7vEVbA_XvipqP0VTGA/edit",
+          "Den första affärsplanen, gjord i Canva innan AiNNOVA startade."
+        ],
+        [
+          "AiNNOVA klonad med Gamma",
+          "https://innovativ-ai-it-10vpau3.gamma.site/",
+          "Gamma klonade AiNNOVA på två minuter."
+        ],
+        [
+          "AI-hallucinationer (Gamma)",
+          "https://gamma.app/docs/AI-hallucinationer-och-Varmlandska-omskrivningar-yqn075c5j5l7q1a?mode=doc",
+          "En sammanfattning av begrepp — och värmländska omskrivningar."
+        ],
+        [
+          "Värmländsk AI-visdom",
+          "https://docs.google.com/spreadsheets/d/1J8M51rR-AU4Pabdvs3gp8iHBQ8B_WXT6JCorb92BJNU/edit",
+          "En samling begrepp, i kalkylark."
+        ],
+        [
+          "AI och mänsklighetens tankar",
+          "https://www.perplexity.ai/page/AI-och-mnsklighetens-7nQa7e70RNC1NrqT6HPzgg",
+          "Perplexitys sammanfattning av de stora tänkarna."
+        ],
+        [
+          "Människans resa genom tid och tanke",
+          "https://gamma.app/docs/Manniskans-Resa-genom-Tid-och-Tanke-2astntir8q1dinr?mode=doc",
+          "Gammas sammanfattning av de stora tänkarna."
+        ]
+      ],
+      "anteckningar": "Hylla i biblioteket — 8 länkar. Uppdateras från Annas ark när vi kopplat på det."
     },
     {
       "id": "900-10",

@@ -320,11 +320,11 @@
         const lrad = el("div", "red-lank");
         const rub = el("input");
         rub.placeholder = "Rubrik (t.ex. HurDetFunkar)";
-        rub.value = par[0];
+        rub.value = par[0] || "";
         rub.onchange = () => { par[0] = rub.value; sparaUtkast(); window.APP.uppdatera(); };
         const url = el("input");
         url.placeholder = "https://…";
-        url.value = par[1];
+        url.value = par[1] || "";
         url.onchange = () => { par[1] = url.value.trim(); sparaUtkast(); window.APP.uppdatera(); };
         const bort = el("button", "vbtn", "✕");
         bort.title = "Ta bort länken";
@@ -336,6 +336,16 @@
         };
         lrad.append(rub, url, bort);
         lankBox.appendChild(lrad);
+        // Beskrivningsrad — så besökaren vet vad den hittar
+        const desc = el("input");
+        desc.className = "red-lankdesc";
+        desc.placeholder = "Beskrivning — vad hittar besökaren här?";
+        desc.value = par[2] || "";
+        desc.onchange = () => {
+          if (desc.value.trim()) par[2] = desc.value; else if (par.length > 2) par.length = 2;
+          sparaUtkast(); window.APP.uppdatera();
+        };
+        lankBox.appendChild(desc);
       });
       const ny = el("button", "vbtn", "+ Lägg till länk");
       ny.onclick = () => { (k.lankar = k.lankar || []).push(["", ""]); ritaLankar(); };

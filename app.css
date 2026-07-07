@@ -162,7 +162,8 @@ kbd {
 
 /* Textkort — det levande bibliotekets uppslag */
 .textkort {
-  width: min(880px, 92%);
+  width: 100%;
+  max-width: 980px;
   max-height: 100%;
   overflow-y: auto;
   border-left: 3px solid var(--accent);
@@ -180,20 +181,32 @@ kbd {
 .textkort-lankar {
   margin-top: 26px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 4px 32px;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  gap: 6px 40px;
 }
+.scenlank .sl-titel, .scenlank .sl-desc { overflow-wrap: anywhere; }
 .scenlank {
-  font-family: var(--serif);
-  font-size: 18px;
-  line-height: 1.45;
-  color: var(--accent);
+  display: block;
   text-decoration: none;
-  padding: 7px 0;
+  padding: 10px 0;
   border-bottom: 1px solid var(--hair);
 }
-.scenlank:hover { border-bottom-color: var(--accent); }
-.scenlank::after { content: " ↗"; font-size: 13px; color: var(--guld); }
+.scenlank .sl-titel {
+  display: block;
+  font-family: var(--serif);
+  font-size: 18px;
+  color: var(--accent);
+}
+.scenlank .sl-titel::after { content: " ↗"; font-size: 12px; color: var(--guld); }
+.scenlank .sl-desc {
+  display: block;
+  font-family: var(--sans);
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.scenlank:hover .sl-titel { text-decoration: underline; }
 
 /* Prickraden — berättelsens bildspel */
 #bildprickar {
@@ -433,6 +446,7 @@ body.redigerar.panel-dold #panel { display: block; } /* editorn behöver panelen
 }
 .red-lank input:first-child { width: 40%; }
 .red-lank .vbtn { flex: none; padding: 6px 8px; }
+.red-lankdesc { width: 100%; margin-bottom: 10px; font-size: 12.5px; }
 .red-spara { display: flex; gap: 8px; margin-top: 4px; }
 #red-status {
   font-family: var(--mono);
