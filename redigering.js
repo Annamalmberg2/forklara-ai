@@ -183,6 +183,39 @@
 
     const box = el("div");
     box.id = "redigerare";
+
+    // Global åtgärd: hämta biblioteket färskt från Annas ark
+    if (motorFinns) {
+      const arkRad = el("div", "red-ark");
+      const arkBtn = el("button", "vbtn", "⟳ Uppdatera biblioteket från arket");
+      arkBtn.title = "Hämtar dina flikar från Google-arket och bygger om biblioteket";
+      arkBtn.onclick = async () => {
+        arkBtn.disabled = true;
+        arkBtn.textContent = "Hämtar arket …";
+        try {
+          const svar = await fetch("/api/biblioteket", { method: "POST" });
+          const j = await svar.json();
+          if (j.ok) {
+            if (harUtkast() && !confirm("Biblioteket är uppdaterat i filen. Du har osparade ändringar i webbläsaren som göms över filen — vill du slänga dem och läsa in det färska biblioteket?")) {
+              arkBtn.textContent = "✓ " + j.meddelande + " (syns efter att du sparat/slängt utkastet)";
+              arkBtn.disabled = false;
+              return;
+            }
+            localStorage.removeItem(UTKAST);
+            location.reload();
+          } else {
+            arkBtn.textContent = "✗ " + (j.fel || "Kunde inte hämta");
+            arkBtn.disabled = false;
+          }
+        } catch (e) {
+          arkBtn.textContent = "✗ Motorn svarar inte";
+          arkBtn.disabled = false;
+        }
+      };
+      arkRad.appendChild(arkBtn);
+      box.appendChild(arkRad);
+    }
+
     box.appendChild(el("div", "panel-label", "Redigera detta kort"));
 
     // Titel

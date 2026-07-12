@@ -185,6 +185,17 @@ kbd {
   gap: 6px 40px;
 }
 .scenlank .sl-titel, .scenlank .sl-desc { overflow-wrap: anywhere; }
+h4.lank-grupp {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--guld);
+  margin: 26px 0 4px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--hair);
+}
+h4.lank-grupp:first-of-type { margin-top: 20px; }
 .scenlank {
   display: block;
   text-decoration: none;
@@ -404,6 +415,8 @@ body.redigerar.panel-dold #panel { display: block; } /* editorn behöver panelen
   border-color: var(--accent);
 }
 .red-flytt { display: flex; gap: 8px; }
+.red-ark { margin-bottom: 14px; }
+.red-ark .vbtn { width: 100%; padding: 9px; background: var(--accent-tint); border-color: var(--accent); color: var(--accent); }
 .red-start { margin: 4px 0 16px; border-top: 1px solid var(--hair); padding-top: 12px; }
 .red-start summary {
   font-family: var(--mono);

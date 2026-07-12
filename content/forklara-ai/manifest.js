@@ -1227,429 +1227,3626 @@ window.LECTURE = {
     {
       "id": "130-10",
       "sektion": "130",
-      "titel": "Nobelprisen 2024",
-      "personer": [
-        "John Hopfield",
-        "Geoffrey Hinton",
-        "Demis Hassabis",
-        "John Jumper"
-      ],
-      "begrepp": [
-        "Nobelpriset",
-        "maskininlärning"
-      ],
-      "text": "Fysik: John Hopfield & Geoffrey Hinton — grunden för maskininlärning i neurala nätverk.\n\nKemi: Demis Hassabis & John Jumper (DeepMind) — AlphaFold och proteinstrukturerna.\n\nEtablissemangets kvitto: AI är vetenskap.",
-      "anteckningar": "Hinton kallas 'AI:s gudfader' — och är numera en av de tydligaste varnarna.",
-      "relaterat": [
-        "030-40"
-      ]
-    },
-    {
-      "id": "130-20",
-      "sektion": "130",
-      "titel": "Filmtips",
-      "begrepp": [
-        "filmer"
-      ],
-      "personer": [
-        "Alan Turing"
-      ],
-      "text": "The Queen's Gambit — schackets skönhet.\n\nHidden Figures — kvinnorna bakom rymdprogrammet.\n\nThe Imitation Game — Alan Turing och koden.\n\nIron Man (JARVIS) — drömmen om den personliga assistenten.",
-      "anteckningar": "Bra svar när publiken frågar 'var ska jag börja?' — börja i soffan.",
-      "relaterat": [
-        "020-40",
-        "030-20"
-      ]
-    },
-    {
-      "id": "130-30",
-      "sektion": "130",
       "titel": "Kom igång & bygg själv",
-      "text": "Länkarna jag delar för att du ska komma igång — och bygga eget.",
-      "begrepp": [
-        "länkar",
-        "kom igång",
-        "verktyg",
-        "projekt"
-      ],
+      "text": "Här finnn länkar och tips som gör att du enkelt på egen hand kommer att komma igång med AI. Jag bygger och testar på alla plattformar men men brukar i första hand rekommendera OpenAIs ChatGPT eller Googles Gemini. Vill folk bygga helt egna Appar så brukar jag rekommendera Lovable. Då en App är byggd kan man med diverse triks gör den snabb och koppla på domän. Man grejar i vad som kallas DNS. Jag skrev en gång en fråga som jag trodde mig ställa til Gemini men den råkade hamna i Lovable som direkt satte igång att bygga appen DNS mover. Altt går att bygga men allt ska inte byggas om det är lättare att göra själv och krångligt för en AI.",
       "lankar": [
         [
           "Min AI-start",
           "https://docs.google.com/document/d/13Q-FUfK8_VHq9uWUMA0BP3z8uiJzJa03M7WpiuDRzDc/edit?usp=sharing",
-          "Grundprompten att inleda varje AI-samtal med — klistra in i en ny tråd eller i dina custom instructions."
+          "Som grundprompt i en tråd eller i custom instructions. En bra AI-start.",
+          "Lärande"
         ],
         [
           "AI-skolan i Notion",
           "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0",
-          "Fria studier om AI där du väljer din egen stig. Några år på nacken, men fortfarande en fin väg in."
+          "Funkar bra även om den har några år på nacken. En hel del som kan användas och ju mer jag går tillbaka och tittar ser jag själv tips jag glömt som fortfarande fungerar väldigt bra. Öppna och stäng olika områden med pilarna.",
+          "Lärande"
         ],
         [
           "Agent OS",
           "https://docs.google.com/document/d/12WiYicvBsX399xJrA0TEEpuazCxSZBifi9meyANOVjw/edit?usp=sharing",
-          "Ett agentiskt operativsystem: grunden för att låta AI arbeta självständigt, med en kort introduktion."
+          "Grunden till att jobba mer agentiskt men även en kort sammanställning om grunden. Agentiskt operativsystem.",
+          "Lärande"
         ],
         [
-          "Vision Setter — testa bygga appar",
+          "On Boarding",
           "https://vision-setter.lovable.app/",
-          "Kom igång och bygg egna appar. Går du via affiliatelänken får du fler poäng att bygga för."
+          "Gå via min affilatelänk så får du mer poäng att bygga för. Testa bygga appar själv eller hjälp mig hjälpa dig via min \"Harness för att maxa\" d v s ta till vara på tekniken eller utnyttja tekniken i din favör.",
+          "Testa bygga appar själv"
         ],
         [
-          "Bloggen (Wisdom Streamer)",
+          "Bloggen",
           "https://wisdom-streamer.lovable.app/",
-          "Min Facebook-sida som blev en sökbar blogg — inläggen tillgängliga för alla, inte bara följare."
+          "Ett sätt att göra FB-inlägg mer sökbara och tillgänligt för alla. Jag gjorde en FB sida till en blogg. Förr bloggade man och delade bloggen på olika sociala media. Ett ska ni veta min blogg kan läsas av alla, de som bara nyttjar FB når bara de som själva finns där. De som bara nyttjar LinkedIn når bara sådana som finns där. På sociala media syns du bara om du endera köper annons eller hovrar runt och trycker gilla på andra. Då brukar dom ge gilla tillbaka.",
+          "FB-sida blev blogg"
         ],
         [
-          "Länksamling AI-verktyg",
-          "https://erbjudanden.ainnova.se/länkar",
-          "Min samlade lista över användbara AI-verktyg, i Google Sites."
+          "Länkar till de verse AI verktyg",
+          "https://erbjudanden.ainnova.se/l%C3%A4nkar",
+          "Användbara länkar, en hel hög med länkar och samlingsidor till länkar. Det finns snart ca 3 000 000 olika AI modeller",
+          "Länksamling till Aiverktyg i Google Site"
         ],
         [
           "Delningsbar databas AI & IT",
           "https://easy-share-db.lovable.app/",
-          "En Lovable-databas med länkar — garderobsrensning som blev en guldgruva."
+          "Garderobsrensning och guldgruva",
+          "Länkar som Lovabe databas"
+        ],
+        [
+          "Länkar & översiktsdatabas till traktens",
+          "https://www.traktens.se/l%C3%A4nkar",
+          "Kalkyblad kan visualisera och göras sökbara med enkel html, Denna är den jag nyttjar till Traktens som aldrig fått en engen länk, då det bara är en inbäddad html-på en sida",
+          "Stor databas om allt ifrån mat till boende"
         ],
         [
           "Pluton B",
           "https://sites.google.com/view/hurdetfunkar/pluton-b",
-          "Kompisarna på kontoret: min pluton av de större AI-modellerna, samlade på ett ställe."
+          "Kompisarna på kontoret, I min egen dator bor Ada som är en Open Claw, \"Anhtropcics Claude och Fable\", \"OpenAI:s Codex\" och \"Googles Anitigravity\". Hela plutonen jobbar jag dock med online.",
+          "Länkar till min Pluton av större AI modeller"
         ],
         [
           "AI på jobbet",
           "https://confy-ai-path.lovable.app",
-          "Vad gäller egentligen? En app om hur du får hantera din data när du använder AI på jobbet."
+          "Vad gäller? Hur får jag hantera mina egna och andras data? En kort guide som kan lugna stora företag.",
+          "Lovable app"
         ],
         [
-          "Ett etiskt regelverk för AI",
+          "Ett Etiskt Regelverk för AI-System",
           "https://open-weave-ai.lovable.app/",
-          "Mitt förslag på hur man sätter upp sina egna spelregler för AI — väl värt att tänka igenom."
+          "Det gäller att sätta upp sina regelverk väl och här är mitt förslg för hur man sätter upp universellt regelsystem för AI, nerkokat i 10 punkter.",
+          "Osignerad Lovable app"
         ],
         [
-          "Handslaget",
+          "HANDSLAGET",
           "https://handshake-echo-world.lovable.app/",
-          "Ersätter offert och långa kontrakt med ett enkelt handslag — med garanti via Google-inloggning."
+          "Ersätter offert och långa kontrakt, ändå med garanti och bekräftelse via Google inlogg.",
+          "Osignerad Lovable app"
         ],
         [
           "Spela pong",
           "https://annamalmberg2.github.io/pong.html",
-          "Mitt första spel på GitHub, ren HTML. Fängslar fler än du tror."
+          "Fängslar fler än du tror. Ett traditionellt spel som alla AI kan bygga plättlätt.",
+          "Första spelet i gihub"
         ],
         [
-          "Sköldbondens schack",
+          "Spela schack",
           "https://annamalmberg2.github.io/skoldbondens-schack",
-          "Mitt eget schack, byggt på min dator. Damen står högre än kungen — för hon är farligast."
+          "Damen är högre än kungen för hon är farligast och bönderna har grep och sköld, mitt första riktig fungerarande schackspel. Jag har nog 20 tidigare varianter som inte blivit så bra.",
+          "Byggt på min dator"
         ],
         [
-          "Ullas citatgenerator",
+          "Gamla grannens kombinerade citatgenerator & medföljande spel",
           "https://ullas-gamla-visdom.lovable.app/",
-          "En AI intervjuade en 83-åring, satte samman hennes citat och byggde spel. Kopparputs och visdom."
+          "Citat från 83-åring, kopparputs och spel. En AI intervjuvade en äldre dam och satte samman hennes citat och byggde spel.",
+          "Lovable App"
         ],
         [
-          "AiNNOVAs citatgenerator",
+          "AiNNOVAS kombinerde citatgenerator",
           "https://ainnovas-wisdom-keeper.lovable.app",
-          "Mina egna citat, erbjudanden och spel — samlade i en generator."
+          "Citatgenerator där varannat citat är mitt eget och appen har också också två spel.",
+          "Lovable App"
         ],
         [
-          "Traktens citatgenerator",
+          "Delningsbar citatgenerator",
           "https://traktens.se/citatgenerator",
-          "Traktens filosofi som delbar citatgenerator. Allt fler vill ha en egen."
+          "Fler och fler vill ha en egen citatgenerator. Vi har alla sagt kloka saker som ka vara kul att samla.",
+          "Lovable App"
+        ]
+      ],
+      "anteckningar": "Hylla i biblioteket — 17 länkar, hämtade från ditt ark."
+    },
+    {
+      "id": "130-20",
+      "sektion": "130",
+      "titel": "Egna data, presentationer & företag",
+      "text": "Här hittar du mina sociala media, olika presentationer i olika verktyg, olika jobb och några företag jag håller extra koll på. Inte nog med det så presenterar jag några som många har hört om men få har träffat. Jag har både träffat och dansat med Nobelpristagare i Australien och träffat några av världens yngsta chamigaste miljonärer i Stokholm. Jag tror att jag gjort olika handslag i livet som jag kanske inte förstått hur dom gick till men som ändå betyder framöver. Mitt minne är kort men mina handslag är äkta.",
+      "lankar": [
+        [
+          "Min LinkedIn",
+          "https://www.linkedin.com/in/annamalmberg2/",
+          "LinkedIn",
+          "Sociala media"
         ],
         [
-          "AiNNOVA — hem",
+          "Min facebooksida",
+          "https://www.facebook.com/amalmberg2",
+          "Facebook",
+          "Sociala media"
+        ],
+        [
+          "Min x sida",
+          "https://x.com/annamalmberg2",
+          "X",
+          "Sociala media"
+        ],
+        [
+          "AiNNOVA Hem",
           "https://ainnova.se/",
-          "Huvudsidan för AiNNOVA."
+          "Huvudsida",
+          "AINNOVA"
         ],
         [
-          "Erbjudanden",
-          "https://erbjudanden.ainnova.se/",
-          "Alla AiNNOVAs erbjudanden på ett ställe."
-        ],
-        [
-          "AiNNOVAs experimentlabb",
-          "https://ainnova.xyz/",
-          "Chatbot, offertbot, webbshop och bokningskalender — mitt labb för skarpt läge."
-        ],
-        [
-          "AiNNOVAs bästa tips (Notion)",
-          "https://delicate-neighbor-37a.notion.site/Du-f-r-alltid-AINNOVAS-b-sta-tips-1649c8142e3f805cbf91d9c1fe7d320c",
-          "AiNNOVAs eget arbetsflöde, öppet delat i Notion."
+          "Konsultprofil",
+          "https://docs.google.com/document/d/1hBVbuWp3Be7dKPFcnNjaIo3X3usnfx7FRyzPoknqTAo/edit?usp=sharing",
+          "Lite kort om vad jag erbjuder",
+          "Anna Malmberg"
         ],
         [
           "Annas minne",
           "https://sites.google.com/view/hurdetfunkar/mitt-minne",
-          "Övriga länkar och tankar — skriv upp det medan du minns det."
+          "Skriv upp det medan du minns det",
+          "Minne"
         ],
         [
-          "HurDetFunkar",
+          "Erbjudanden",
+          "https://erbjudanden.ainnova.se/",
+          "Alla erbjudanden",
+          "AINNOVA"
+        ],
+        [
+          "AiNNNOVAs Experimentlab",
+          "https://ainnova.xyz/",
+          "🤖Chatbot, 💰Offertbot, 🛒Webbshop, 📅Bokningskalender",
+          "AINNOVA"
+        ],
+        [
+          "Notion",
+          "https://delicate-neighbor-37a.notion.site/Du-f-r-alltid-AINNOVAS-b-sta-tips-1649c8142e3f805cbf91d9c1fe7d320c",
+          "AINNOVAS eget arbetsflöde som delas öppet",
+          "Anteckningsblock"
+        ],
+        [
+          "HurDetFunkar, landningsida",
           "https://hurdetfunkar.se/",
-          "Min gamla skolhjälp, städad och nybyggd som landningssida."
+          "Städad och och nybyggd",
+          "Byggd i filsystem på webhotell"
         ],
         [
-          "HurDetFunkar (gamla siten)",
+          "HurDetFunkar, Google Site",
           "https://sites.google.com/view/hurdetfunkar/",
-          "Ursprungliga skolhjälpen, nerkopierad från WordPress till Google Sites — historien bakom."
+          "Gamla HurDetFunkar i site",
+          "Gamla skolhjälpen slarvigt nerkopierad från wordpress"
         ],
         [
-          "Traktens",
+          "TRAKTENS",
           "https://www.traktens.se/startsida",
-          "Lokala producenters plattform — tidig automation av registreringar och kartor."
+          "Lokala producenters plattform",
+          "Tidig automation av registreringar och kartor"
         ],
         [
-          "Traktens översiktskarta",
+          "Delningsbar översiktskarta till Traktens",
           "https://traktens.se/karta",
-          "Alla kontakter och kategorier samlade på en karta."
+          "Alla kontakter och kategorier",
+          "Traktens översikstskarta"
+        ],
+        [
+          "Länkar & översiktsdatabas till traktens",
+          "https://www.traktens.se/l%C3%A4nkar",
+          "Kalkyblad kan visualisera och göras söbara med enkel html",
+          "Stor databas om allt ifrån mat till boende"
         ],
         [
           "Om Traktens",
           "https://www.traktens.se/om-traktens",
-          "Bakgrunden till bygget — och ansökan på 5,2 miljoner till Jordbruksverket."
-        ]
-      ],
-      "anteckningar": "Hylla i biblioteket — 26 länkar. Uppdateras från Annas ark när vi kopplat på det."
-    },
-    {
-      "id": "130-40",
-      "sektion": "130",
-      "titel": "Podd & film",
-      "text": "Att lyssna och titta på — poddar, låtar och filmklipp.",
-      "personer": [
-        "Max Tegmark",
-        "Marcus du Sautoy"
-      ],
-      "begrepp": [
-        "podd",
-        "film",
-        "musik",
-        "lyssna",
-        "Fredagslåtar"
-      ],
-      "lankar": [
-        [
-          "Podd om AiNNOVA (svenska)",
-          "https://drive.google.com/file/d/1TApYoW59xZh_U_VXf7vuMHr7cSwqVP3l/view?usp=sharing",
-          "Min egen podd om AiNNOVA, gjord i NotebookLM. Svensk version."
+          "Allmänt om bygget",
+          "Ansökan på 5"
         ],
-        [
-          "Podd om AiNNOVA (engelska)",
-          "https://drive.google.com/file/d/1043fTgPUmYBMO-bcd3vPLbQi_6MAUuAx/view?usp=sharing",
-          "Samma podd på engelska — NotebookLM gör det möjligt."
-        ],
-        [
-          "Podd om Traktens",
-          "https://traktens.se/podd",
-          "En podd om Traktens, gjord i NotebookLM. Alla kan göra en podd."
-        ],
-        [
-          "Gamla AI-listan på YouTube",
-          "https://www.youtube.com/watch?v=6mlvWXd2kfE&list=PLrae5R3oQJre3W1pp-CTQrvI-6DObBl0c",
-          "Musik gjord i olika AI-verktyg. Inte utan sin historia — vila i den."
-        ],
-        [
-          "Fredagslåtarna",
-          "https://sites.google.com/ainnova.se/aisverige/musik",
-          "Martins fredagslåtar: varje vecka sammanfattad i en låt."
-        ],
-        [
-          "Deepfake Barack Obama",
-          "https://www.youtube.com/watch?v=l82PxsKHxYc",
-          "Deepfake är inget nytt — det här klippet är från MIT, januari 2020."
-        ],
-        [
-          "Max Tegmarks sommarprat",
-          "https://www.sverigesradio.se/avsnitt/max-tegmark-sommarpratare-2023",
-          "Sommarpratet som skrämde många. Sveriges Radio, 2023."
-        ],
-        [
-          "Konsten att tänka klart",
-          "https://larafranlarda.com/konsten-att-tanka-klart-sturmark/",
-          "Ett sunt förhållningssätt till kunskap och tänkande — Lära från lärda."
-        ],
-        [
-          "BBC: The Story of Maths",
-          "https://www.youtube.com/playlist?list=PLonhd8B9fP9u6TiZWKK1bhPD6JKoio6N8",
-          "Marcus du Sautoys klassiska serie om matematikens historia."
-        ],
-        [
-          "BBC: The CODE",
-          "https://youtu.be/iOucwX7Z1HU",
-          "Om mönstren och koden bakom naturen och matematiken."
-        ],
-        [
-          "The wisdom of the crowd",
-          "https://youtu.be/s7tngG2kAik?t=265",
-          "Gissa oxens vikt — snittet slår experten. Samma princip som i maskininlärning."
-        ]
-      ],
-      "anteckningar": "Hylla i biblioteket — 11 länkar. Uppdateras från Annas ark när vi kopplat på det."
-    },
-    {
-      "id": "130-50",
-      "sektion": "130",
-      "titel": "Chatbotar",
-      "text": "Robotar att prata med — några på skoj, några på allvar.",
-      "begrepp": [
-        "chatbot",
-        "Zapier"
-      ],
-      "lankar": [
-        [
-          "Hyllningsbot (Zapier)",
-          "https://hurdetfunkar.zapier.app/",
-          "En gammal chatbot byggd med Zapier: vad skulle en känd person ha sagt om Anna?"
-        ],
-        [
-          "Hyllningsbot – Gwen Brannen",
-          "https://anna-d1ee8c.zapier.app/",
-          "Samma idé — en hyllning från Gwen Brannen."
-        ],
-        [
-          "AiNNOVAs chatbot",
-          "https://ainnova.xyz/chatbot/",
-          "Vad vi erbjuder, byggd i filsystem."
-        ],
-        [
-          "Traktens chatbot",
-          "https://traktens.se/chatbot",
-          "Svarar på frågor om Traktens."
-        ]
-      ],
-      "anteckningar": "Hylla i biblioteket — 4 länkar. Uppdateras från Annas ark när vi kopplat på det."
-    },
-    {
-      "id": "130-60",
-      "sektion": "130",
-      "titel": "Företag & kundbyggen",
-      "text": "AI-resor hos andra — och sajter jag byggt åt kunder.",
-      "begrepp": [
-        "företag",
-        "kunder",
-        "Rävens Bistro",
-        "IKEA"
-      ],
-      "lankar": [
-        [
-          "IKEAs AI-resa",
-          "https://delicate-neighbor-37a.notion.site/IKEAS-AI-resa-1b29c8142e3f80e5b95fc8ae9b275031",
-          "Spännande att ha koll på: hur IKEA närmar sig AI."
-        ],
-        [
-          "Paper Province AI-resa",
-          "https://notebooklm.google.com/notebook/ba9225eb-b4e1-4fce-aa1d-3a2d072cab5c",
-          "Paper Provinces AI-resa, i NotebookLM-version."
-        ],
-        [
-          "Rissäters loppis (gammal design)",
-          "https://rissaeters-loppis.eu/",
-          "Ett tidigt bygge: en skrapad sida med 9 411 produkter."
-        ],
-        [
-          "Rissäters loppis (ny design)",
-          "https://rissaeters-loppis.com/",
-          "Loppisen i ny, städad design."
-        ],
-        [
-          "En Kullen",
-          "https://enkullen.se/",
-          "En enkel människa sköter sin gård — ombyggd för att spara tokens."
-        ],
-        [
-          "Rävens Bistro (gammal design)",
-          "https://xn--rvensbistro-l8a.se/",
-          "Tidig pizzasajt. När är ett handslag ett handslag?"
-        ],
-        [
-          "Rävens Bistro (ny design)",
-          "https://ravensbistro.com/",
-          "Rävens Bistro i ny design."
-        ],
-        [
-          "Walldone",
-          "https://www.walldone.se/",
-          "Min första sajt — när kunden ville ha allt samlat i Google."
-        ]
-      ],
-      "anteckningar": "Hylla i biblioteket — 8 länkar. Uppdateras från Annas ark när vi kopplat på det."
-    },
-    {
-      "id": "130-70",
-      "sektion": "130",
-      "titel": "Föreläsningar",
-      "text": "Mina föreläsningssidor — hur smarta vi än är, kommer vi att glömma.",
-      "begrepp": [
-        "föreläsningar",
-        "Varming"
-      ],
-      "lankar": [
-        [
-          "Värmlands ingenjörsförening",
-          "https://sites.google.com/ainnova.se/welcome-varming/startsida",
-          "Föreläsningssidan för Varming."
-        ],
-        [
-          "Welcome to the Lab",
-          "https://sites.google.com/ainnova.se/welcome/startsida",
-          "Den ursprungliga föreläsningssidan i Google Sites."
-        ],
-        [
-          "Förklara AI (det här verktyget)",
-          "https://annamalmberg2.github.io/forklara-ai",
-          "Föreläsningen som interaktivt verktyg — live."
-        ]
-      ],
-      "anteckningar": "Hylla i biblioteket — 3 länkar. Uppdateras från Annas ark när vi kopplat på det."
-    },
-    {
-      "id": "130-80",
-      "sektion": "130",
-      "titel": "Presentationer",
-      "text": "Presentationer och sammanställningar — från olika verktyg, olika tider.",
-      "begrepp": [
-        "presentationer",
-        "Gamma",
-        "Canva"
-      ],
-      "lankar": [
         [
           "Konsultprofil",
           "https://docs.google.com/document/d/1hBVbuWp3Be7dKPFcnNjaIo3X3usnfx7FRyzPoknqTAo/edit?usp=sharing",
-          "Min konsultprofil, inskickad till Konsulthatten."
+          "Inskickad till https://www.konsulthatten.se/dashboard?profile_id=166",
+          "Presentationer"
         ],
         [
-          "CV när AI får fria händer",
+          "CV och personligt brev när AI får fria händer",
           "https://gamma.app/docs/Ai-Anna-j55lfjpqxbcqb9s",
-          "Mitt CV och personliga brev, skrivet när AI fick fria händer. Från tiden innan AiNNOVA."
+          "Innan start av AiNNOVA",
+          "Presentationer"
         ],
         [
-          "Tidig affärsplan (Canva)",
+          "Tidig affärsplan med Canva",
           "https://www.canva.com/design/DAGRwMajvm4/zYVW7vEVbA_XvipqP0VTGA/edit",
-          "Den första affärsplanen, gjord i Canva innan AiNNOVA startade."
+          "Innan start av AiNNOVA",
+          "Presentationer"
         ],
         [
-          "AiNNOVA klonad med Gamma",
+          "Ainnova klonad med Gamma",
           "https://innovativ-ai-it-10vpau3.gamma.site/",
-          "Gamma klonade AiNNOVA på två minuter."
+          "Klonade AiNNOVA på 2 min",
+          "Presentationer"
         ],
         [
-          "AI-hallucinationer (Gamma)",
+          "AI-hallucinationer med Gamma",
           "https://gamma.app/docs/AI-hallucinationer-och-Varmlandska-omskrivningar-yqn075c5j5l7q1a?mode=doc",
-          "En sammanfattning av begrepp — och värmländska omskrivningar."
+          "Sammanfattning av begrepp",
+          "Presentationer"
         ],
         [
-          "Värmländsk AI-visdom",
-          "https://docs.google.com/spreadsheets/d/1J8M51rR-AU4Pabdvs3gp8iHBQ8B_WXT6JCorb92BJNU/edit",
-          "En samling begrepp, i kalkylark."
+          "Värmlänsk AI-visdom",
+          "https://docs.google.com/spreadsheets/d/1J8M51rR-AU4Pabdvs3gp8iHBQ8B_WXT6JCorb92BJNU/edit?gid=658531482#gid=658531482",
+          "Sammanfattning av begrepp",
+          "Presentationer"
         ],
         [
           "AI och mänsklighetens tankar",
           "https://www.perplexity.ai/page/AI-och-mnsklighetens-7nQa7e70RNC1NrqT6HPzgg",
-          "Perplexitys sammanfattning av de stora tänkarna."
+          "Perplexitys sammanfattnig av stora tänkare",
+          "Presentationer"
         ],
         [
-          "Människans resa genom tid och tanke",
+          "Människans Resa genom Tid och Tanke",
           "https://gamma.app/docs/Manniskans-Resa-genom-Tid-och-Tanke-2astntir8q1dinr?mode=doc",
-          "Gammas sammanfattning av de stora tänkarna."
+          "Gammas sammanfttning av stora tänkare",
+          "Presentationer"
+        ],
+        [
+          "1 Gammal chatbot byggd med Zapier",
+          "https://hurdetfunkar.zapier.app/",
+          "Vad skulle \"känd person\" sagt om Anna \"Hyllningsbot\"",
+          "Chatbot"
+        ],
+        [
+          "2 Gammal chatbot byggd med Zapier",
+          "https://anna-d1ee8c.zapier.app/",
+          "Hyllning från Gwen Brannen \"Hyllningsbot\"",
+          "Chatbot"
+        ],
+        [
+          "AiNNOVAS chatbot",
+          "https://ainnova.xyz/chatbot/",
+          "Chatbot byggd i filsystem \"vad vi erbjuder\"",
+          "Chatbot"
+        ],
+        [
+          "Traktens chatbot",
+          "https://traktens.se/chatbot",
+          "Svarar på frågor om Traktens \"vad är Traktens\"",
+          "Chatbot"
+        ],
+        [
+          "Ikeas AI-resa",
+          "https://delicate-neighbor-37a.notion.site/IKEAS-AI-resa-1b29c8142e3f80e5b95fc8ae9b275031",
+          "Spännade att ha koll på",
+          "Företag"
+        ],
+        [
+          "Paper Province AI-resa",
+          "https://notebooklm.google.com/notebook/ba9225eb-b4e1-4fce-aa1d-3a2d072cab5c",
+          "Utan loggor med gammal adress",
+          "Företag"
+        ],
+        [
+          "Lovable",
+          "https://youtu.be/0NDFrrQXPkk",
+          "Anton Osika, Fabian Hedin och många andra av gänget där har jag faktiskt träffat IRL (In Real Life)",
+          "Företag"
+        ],
+        [
+          "Gammal Loppisdesign",
+          "https://rissaeters-loppis.eu/",
+          "Skrapad sida 9 411 produkter",
+          "Några byggen"
+        ],
+        [
+          "Ny loppisdesign",
+          "https://rissaeters-loppis.com/",
+          "Loppis i ny design",
+          "Några byggen"
+        ],
+        [
+          "En enkel människa sköter sin gård",
+          "https://enkullen.se/",
+          "När bildhävd slutar VF, gör om så jag slipper slösa tokens",
+          "Några byggen"
+        ],
+        [
+          "Gammal pizza design",
+          "https://xn--rvensbistro-l8a.se/",
+          "När är ett handslag ett handslag",
+          "Några byggen"
+        ],
+        [
+          "Ny pizzadesign, trodde vi skulle köra en inbakad",
+          "https://ravensbistro.com/",
+          "https://fox-whisper-remix.lovable.app",
+          "Några byggen"
+        ],
+        [
+          "Första siten",
+          "https://www.walldone.se/",
+          "Då kunden ville ha allt samlat i Google",
+          "Några byggen"
+        ],
+        [
+          "Värmlands ingenjörsförening",
+          "https://sites.google.com/ainnova.se/welcome-varming/startsida",
+          "Föreläsning vecka 26 på Karlstads teknikcenter",
+          "Föreläsningar"
+        ],
+        [
+          "Welcome to the lab",
+          "https://sites.google.com/ainnova.se/welcome/startsida",
+          "Tidigare förläsningsmall i Google Site",
+          "Föreläsningar"
+        ],
+        [
+          "Föreläsning som interaktiv",
+          "https://annamalmberg2.github.io/forklara-ai",
+          "Föreläsning som är interaktiv där man kan välja olika stigar, den första jag byggt i filsystem på min egen dator.",
+          "Föreläsningar"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 8 länkar. Uppdateras från Annas ark när vi kopplat på det."
+      "anteckningar": "Hylla i biblioteket — 39 länkar, hämtade från ditt ark."
+    },
+    {
+      "id": "130-30",
+      "sektion": "130",
+      "titel": "Egen kanal",
+      "text": "Egen kanal är några länkar till till allt från egna poddar, musikkanaler och särskilt utvalda länkar",
+      "lankar": [
+        [
+          "Delningsbar podd om AiNNOVA",
+          "https://drive.google.com/file/d/1TApYoW59xZh_U_VXf7vuMHr7cSwqVP3l/view?usp=sharing",
+          "Egen podd om AiNNOVA via NotebookLM",
+          "Svenska podden"
+        ],
+        [
+          "Delningsbar podd om AiNNOVA",
+          "https://drive.google.com/file/d/1043fTgPUmYBMO-bcd3vPLbQi_6MAUuAx/view?usp=sharing",
+          "Egen podd om AiNNOVA via NotebookLM",
+          "Enegelska pooden"
+        ],
+        [
+          "Delningsbar podd om Traktens",
+          "https://traktens.se/podd",
+          "Egen podd om Traktens via NotebookLM",
+          "Alla kan göra en podd"
+        ],
+        [
+          "Gamla Ai listan på YouTube",
+          "https://www.youtube.com/watch?v=6mlvWXd2kfE&list=PLrae5R3oQJre3W1pp-CTQrvI-6DObBl0c",
+          "Mina första alster där jag blandade hej vilt bland olika verktyg och gjorde film & musik",
+          "Många olika verkyg i olkika testa"
+        ],
+        [
+          "Fredagsåtarna",
+          "https://sites.google.com/ainnova.se/aisverige/musik",
+          "Martins fredagslåtar, mina veckor sammanfatade i låtar",
+          "Musikkanalen med fredagslåtar"
+        ],
+        [
+          "Joakim Johanssons sjungande tavla",
+          "https://youtu.be/cdh1HTGz69s?list=PLrae5R3oQJre3W1pp-CTQrvI-6DObBl0c",
+          "Et konsverk där där chargpt, gjorde texten, Udio musiken och Hedra fick tavlan att sjunga",
+          "Sjungande tavla"
+        ],
+        [
+          "Deepfake Barack Obama",
+          "https://www.youtube.com/watch?v=l82PxsKHxYc",
+          "Deepfake är inget nytt, MIT 2020. Då kostade produktionen både timmar och pengar. idag kan vem som helst göra bättre på nolltid för en låg peng",
+          "Deepfake är inget nytt"
+        ],
+        [
+          "AI mormor",
+          "https://youtu.be/RV_SdCfZ-0s",
+          "Ai Kan nyttjas som deep fake till gott",
+          "AI mormor gillrar råttfällan"
+        ],
+        [
+          "Nvidia",
+          "https://www.youtube.com/@NVIDIA/playlists",
+          "Många spellistor från AI världes största aktör, @JensenHuangFutureAI, AI och industriella förändringar",
+          "Jensen Huang"
+        ],
+        [
+          "Palantir: profits, procurement and power",
+          "https://youtu.be/kJ5XRl7PWxM",
+          "Palantir Technologies (PLTR) är ett amerikanskt mjukvarubolag specialiserat på artificiell intelligens och storskalig dataanalys. De erbjuder mjukvaruplattformar (som Gotham, Foundry och Apollo) som används av företag och myndigheter för att integrera och analysera komplexa datamängder.",
+          "Den största faran för att det ska bli som 1984"
+        ],
+        [
+          "Max Tegemarks sommarprat",
+          "https://www.sverigesradio.se/avsnitt/max-tegmark-sommarpratare-2023",
+          "Skrämde många 2023. Jag förstå Max oro. det tar jag på största allavar men jag tycker ändå att både han och andra experter som är skeptiska ändå verkar se lugnare ut. Jag mäter data varje dag, om jag inte gjorde det så skulle jag vara mer rädd än vad jag är. Ordnär det sä inte så kvetter rä.",
+          "Skrämde många 2023"
+        ],
+        [
+          "Konsten att tänka klart,  Christer Sturmark",
+          "https://larafranlarda.com/konsten-att-tanka-klart-sturmark/",
+          "Även om vi människor har en unik kraft i vårt förnuft – att vi kan tänka, resonera och analysera – är det hemskt lätt att vi halkar snett i våra slutsatser. Vi kan snubbla på tankefel och vi kan tappa bort oss i resonemang som visar sig vara fel. Den här boken är tänkt som ett vaccin mot detta. Att stå bättre rustad mot felaktigheter, ohållbara resonemang och istället träna upp sin förmåga att tänka klart.",
+          "En tänkvärd podd från \"Lära från lärda\" en otrolig kanal till många fler poddar."
+        ],
+        [
+          "Bygg ditt eget excel, Mincraft eller vad som helst",
+          "https://youtu.be/mD1F5DsC5tc",
+          "Matthew Bergman är nog den jag kanske följer nogrannast. Han pratar inte bara, han testar och vågar kritiskt ifrågasätta",
+          "Nummer 1 att följa på Youtube för mig"
+        ],
+        [
+          "Min favorithackare Edward Snowden",
+          "https://sv.wikipedia.org/wiki/Edward_Snowden",
+          "Amerikansk visselblåsare och tidigare CIA-anställd som arbetat som konsult åt USA:s signalunderrättelsestjänst National Security Agency. Snowden läckte sekretessbelagda dokument som påvisade existensen av storskaliga och topphemliga övervakningsprojekt såsom PRISM och Boundless informant (gränslös informant). Han har även läckt dokument som han menar visar på att USA och Storbritannien bedriver hackingattacker riktade mot datorer över hela världen, bland annat mot delegaterna på G20-mötet i London 2009, samt i Hongkong och fastlands-Kina. Snowden överlämnade dokumenten till tidningarna The Guardian och The Washington Post i juni 2013. I december 2014 tilldelades Snowden Right Livelihood Award (som ibland kallas \"det alternativa nobelpriset\").",
+          "Ska inte förväxlas med Julian Paul Assange"
+        ],
+        [
+          "Complete DARK WEB Explained: Crime, Cybersecurity & the Hidden Internet",
+          "https://youtu.be/Kd8m_c7Pxgs",
+          "Det du använder på nätet varje dag – Google, YouTube, Instagram, Amazon – utgör mindre än 4 % av hela internet. De andra 96 procenten är dolda, och djupt inne i den dolda världen finns ett lager som har skrämt regeringar, gett makt åt kriminella, gett skydd åt visselblåsare och förändrat cybersäkerheten för alltid. Det här är en genomgång om dark web du kan hitta. Förstå skillnaden mellan surface web, deep web och dark web.VPN vs Tor.",
+          "Surface web"
+        ],
+        [
+          "The Wisdom of the crowd (massans visdom)",
+          "https://youtu.be/lPnik1VamSM",
+          "There Was a Secret Science Experiment at the 1906 Plymout Fair \"Wisdom of the crowd (massans visdom)\" är idén om att stora grupper av människor tillsammans kan fatta bättre beslut eller göra mer exakta uppskattningar än enskilda experter.\n\nKlassiska exempel handlar ofta om att gissa vikten på en oxe eller antalet godisbitar i en burk. Genomsnittet av allas gissningar ligger nästan alltid extremt nära det rätta svaret, eftersom de individuella felgissningarna (vissa gissar för högt, andra för lågt) tar ut varandra. För att massans visdom ska fungera krävs fyra saker:\n\nMångfald: Gruppen måste bestå av människor med olika bakgrund och kunskap.\n\nOberoende: Folk måste tänka själva och inte påverkas av vad andra tycker (annars uppstår flockbeteende).\n\nDecentralisering: Människor drar nytta av sin lokala, specifika kunskap.\n\nAggregering: Det måste finnas en mekanism (som en omröstning, en marknad eller ett genomsnitt) för att samla in alla svar till ett slutresultat.",
+          "Många huvuden tänker bättre än ett"
+        ],
+        [
+          "This Skill Makes You Dangerous In The AI Era",
+          "https://youtu.be/5mfwXuS06Ok",
+          "Riktigt bra exempel och råd som du bör känna till.",
+          "Sandeep Swadia"
+        ]
+      ],
+      "anteckningar": "Hylla i biblioteket — 17 länkar, hämtade från ditt ark."
+    },
+    {
+      "id": "130-40",
+      "sektion": "130",
+      "titel": "Artiklar & Nobelpris",
+      "text": "Det är dags för mig att börja samla bra artiklar och det är för mig så spännande att se hur långt AI kommit i vetenskap och matematik. Matematik var det första jag trodde AI skulle vara bra på men så var det inte. AI har lärt sig. Det första AI lärde sig var det talade språket i all dess former. Ganska konstigt ändå för det är ju rörigt. Matematikens språk är ju logiskt.",
+      "lankar": [
+        [
+          "AI löser ett 80 år gammalt Erdős-problem",
+          "https://openai.com/sv-SE/index/model-disproves-discrete-geometry-conjecture/?_bhlid=ce428ef5d6ec4bf7e3c73cc22e06de72ddc4d120",
+          "OpenAI uppges ha löst enhetsavståndsproblemet, ett känt problem som Paul Erdős formulerade 1946 och som stått olöst i omkring 80 år. Lösningen beskrivs som ett nytt bevis/motbevis som imponerade på matematiker. [web:41][web:44][web:46]",
+          "AI-genombrott"
+        ],
+        [
+          "AI hittar bortglömda bevis i gamla papper",
+          "https://www.warpnews.se/artificiell-intelligens/ai-hjalper-matematiker-losa-problem-som-varit-olosta-i-artionden/",
+          "Språkmodeller har hjälpt matematiker att leta fram lösningar som redan fanns, men låg gömda i äldre litteratur. Enligt rapporter har AI bidragit till att flytta omkring 100 av Paul Erdős problem till kategorin “lösta”. [web:41][web:43]",
+          "AI-genombrott"
+        ],
+        [
+          "En 23-åring med AI löser ett 60 år gammalt problem",
+          "https://morgonbladet.se/teknik/23-arig-amator-loste-60-ar-gammalt-matematikproblem-med-hjalp-av-ai",
+          "En 23-årig amatör uppges med hjälp av AI och en enda prompt ha löst ett matteproblem som forskare kämpat med i 60 år. Det visar hur AI kan sänka tröskeln för vem som kan bidra till avancerad matematik.",
+          "AI-genombrott"
+        ],
+        [
+          "AI går från assistent till medförfattare",
+          "https://www.vietnam.vn/sv/ai-lam-duoc-dieu-gioi-toan-hoc-bat-luc-suot-80-nam",
+          "Flera rapporter beskriver att AI ibland inte bara hjälper till att söka, utan också bidrar med nya bevis som matematiker sedan granskar. Det kan bli en vändpunkt där AI producerar matematiska idéer på hög nivå.",
+          "AI-genombrott"
+        ],
+        [
+          "Nya test för AI:s matematiska förmåga",
+          "https://www.warpnews.se/artificiell-intelligens/ai-loser-matematikproblem-som-forskare-misslyckats-med-i-sex-ar/",
+          "Matematiker har börjat bygga utmaningar som FrontierMath för att se vad AI verkligen klarar i forskningsliknande problem. Där har AI-system enligt rapporter redan löst svåra uppgifter som forskare inte lyckats knäcka på flera år.",
+          "AI-genombrott"
+        ],
+        [
+          "AI och vetenskapliga genombrott",
+          "https://news.microsoft.com/sv-se/2025/12/08/ai-och-vetenskapliga-genombrott-microsofts-tio-storsta-upptackter-2025/",
+          "Microsoft lyfter flera exempel där AI används för proteinanalys, materialutveckling, diagnostik, väderprognoser och andra vetenskapliga genombrott. [web:51]",
+          "AI och vetenskapliga genombrott"
+        ],
+        [
+          "AI blir billigare och snabbare",
+          "https://ainyheterna.se/artikel/2026-04-10-fyra-genombrott-gor-ai-dramatiskt-billigare-och-snabbare",
+          "Ny forskning pekar på stora kostnads- och hastighetsvinster i AI-system, med metoder som minskar minnesanvändning kraftigt och gör modeller effektivare. [web:59]",
+          "AI blir billigare och snabbare"
+        ],
+        [
+          "Lovable",
+          "https://www.youtube.com/watch?v=kWO0Krq_51c",
+          "Lovable, grundat av Anton Osika och Fabian Hedin, presenteras charmigt av Mauri. Jag har träffat flera ur teamet IRL. De är skickliga, charmiga och väckte stort förtroende. Gör din egen bedömning. Testa gärna att bygga med deras verktyg men gå via min affilalänk så får du mer krediter att bygga med https://vision-setter.lovable.app/",
+          "Personlig rekommendation och ett starkt exempel på svensk AI-entreprenörsanda."
+        ],
+        [
+          "Kip Thorne, Nobelpris 2017",
+          "https://sv.wikipedia.org/wiki/Kip_Thorne",
+          "Motog Annas bästa tips i Australien 2007. Vi dansade och han åkte hem och vässade sina tankar. Kip Thorne fick Nobelpriset i fysik 2017 för avgörande bidrag till LIGO-detektorn och observationen av gravitationsvågor.",
+          "Nobelpris i fysik"
+        ],
+        [
+          "Roger Penrose, Nobelpris 2020",
+          "https://sv.wikipedia.org/wiki/Roger_Penrose",
+          "Motog Annas bästa tips i Australien 2007. Vi dansade och han åkte hem och vässade sina tankar. Roger Penrose fick Nobelpriset i fysik 2020 för upptäckten att bildandet av svarta hål är en robust förutsägelse av den allmänna relativitetsteorin.",
+          "Nobelpris i fysik"
+        ],
+        [
+          "Nobelpris till AI 2024 i fysik",
+          "https://sv.wikipedia.org/wiki/Nobelpriset_i_fysik",
+          "John Hopfield och Geoffrey Hinton fick Nobelpriset i fysik för de grundläggande idéer som möjliggör maskininlärning med artificiella neuronnätverk.",
+          "Nobelpris i fysik till AI"
+        ],
+        [
+          "Marie Curie 1903",
+          "https://sv.wikipedia.org/wiki/Marie_Curie",
+          "Hon fick faktiskt priset, men är viktig som referens eftersom hon var första kvinnan i fysik. \"Forskning om radioaktivitet\"",
+          "1:a kvinnan att få Nobelpris i fysik"
+        ],
+        [
+          "Maria Goeppert-Mayer 1963",
+          "https://sv.wikipedia.org/wiki/Maria_Goeppert-Mayer",
+          "Upptäckter beträffande atomkärnornas skalstruktur",
+          "2:a kvinna att få Nobelpris i fysik"
+        ],
+        [
+          "Donna Theo Strickland 2018",
+          "https://sv.wikipedia.org/wiki/Donna_Strickland",
+          "Strickland tilldelades 2018 års Nobelpris i fysik tillsammans med Gérard Mourou och Arthur Ashkin för banbrytande uppfinningar inom laserfysik. Hon är den tredje kvinnan som tilldelats ett Nobelpris i fysik (efter Marie Curie och Maria Goeppert-Mayer) och den första på 55 år. Forskningen som ligger till grund för priset författades tillsammans med Morou när Strickland var doktorand och har bland annat möjliggjort ögonlaseroperationer.",
+          "3:e kvinnan att få Nobelpris i fysik"
+        ],
+        [
+          "Andrea Mia Ghez 2020",
+          "https://sv.wikipedia.org/wiki/Andrea_M._Ghez",
+          "en amerikansk astronom och professor vid UCLA. Tillsammans med Reinhard Genzel tilldelades hon Nobelpriset i fysik 2020 för ”upptäckten av ett supermassivt kompakt objekt i Vintergatans centrum”. Hon blev den fjärde kvinnan genom historien som tilldelades Nobelpriset i fysik. Roger Penrose tilldelades den andra halvan av prissumman.",
+          "4:e kvinnan att få Nobelpris i fysik"
+        ],
+        [
+          "Anne L’Huillier 2023",
+          "https://sv.wikipedia.org/wiki/Anne_L%27Huillier",
+          "Experimentella metoder som genererar attosekundpulser av ljus för studier av elektrondynamik i materia",
+          "5:e kvinnan att få Nobelpris i fysik"
+        ],
+        [
+          "Lise Meitner 1944",
+          "https://sv.wikipedia.org/wiki/Lise_Meitner",
+          "Många anser att hon borde ha delat priset med Otto Hahn, som fick kemi-Nobelpriset ensam. Förklaringen av kärnklyvning/fission.",
+          "Blev utan Nobelpris i fysik"
+        ],
+        [
+          "Chien-Shiung Wu 1957",
+          "https://sv.wikipedia.org/wiki/Chien-Shiung_Wu",
+          "Priset gick till Yang och Lee, trots att Wus experiment var avgörande. Experimentet som visade paritetsbrott.",
+          "Blev utan Nobelpris i fysik"
+        ],
+        [
+          "Vera Rubin 1960-talet",
+          "https://sv.wikipedia.org/wiki/Vera_Rubin",
+          "Hon nämns ofta som en stark Nobelmiss, även om priset aldrig kom. Galaxers rotationskurvor och stöd för mörk materia",
+          "Blev utan Nobelpris i fysik"
+        ],
+        [
+          "Jocelyn Bell 1974",
+          "https://sv.wikipedia.org/wiki/Jocelyn_Bell",
+          "Nobelpriset gick till Antony Hewish och Martin Ryle, och Bell Burnell har ofta lyfts som förbisedd. Experimentet som visade paritetsbrott. \"Upptäckten av pulsarer\"",
+          "Blev utan Nobelpris i fysik"
+        ],
+        [
+          "Lene Hau 2000-talet",
+          "https://sv.wikipedia.org/wiki/Lene_Hau",
+          "Hon är ett modernt exempel på en fysiker som ofta nämns i diskussioner om tänkbara framtida pristagare. Att bromsa och stoppa ljus i ultrakalla atommoln",
+          "Ännu inget Nobelpris i fysik"
+        ],
+        [
+          "Nobelpris till AI 2024 i kemi",
+          "https://sv.wikipedia.org/wiki/Nobelpriset_i_kemi",
+          "Demis Hassabis och John Jumper fick Nobelpriset i kemi för proteinstrukturprediktion med AlphaFold samt till David Baker för computational protein design .",
+          "Nobelpris i kemi till AI"
+        ],
+        [
+          "Marie Curie 1911",
+          "https://sv.wikipedia.org/wiki/Marie_Curie",
+          "Marie fick inte bara nobelpriset i fysik, även i kemi. Den första kvinnan att någonsin få nobelpris och inte bara ett utan två. Forskning om radioaktivitet och grundläggande kemisk förståelse av radioaktiva ämnen",
+          "1:a kvinnan att få Nobelpris i kemi"
+        ],
+        [
+          "Irène Joliot-Curie 1935",
+          "https://sv.wikipedia.org/wiki/Ir%C3%A8ne_Joliot-Curie",
+          "Syntes av nya radioaktiva grundämnen (tillsammans med Frédéric Joliot)",
+          "2:a kvinnan att få Nobelpris i kemi"
+        ],
+        [
+          "Dorothy Crowfoot Hodgkin 1964",
+          "https://sv.wikipedia.org/wiki/Dorothy_Crowfoot_Hodgkin",
+          "Rational läkemedelsutveckling och arbete med purinanaloger. Röntgenkristallografi av biologiskt viktiga molekyler.",
+          "3:e kvinnan att få Nobelpris i kemi"
+        ],
+        [
+          "Ada Yonath 2009",
+          "https://sv.wikipedia.org/wiki/Ada_Yonath",
+          "Studier av ribosomens struktur och funktion",
+          "4:e kvinnan att få Nobelpris i kemi"
+        ],
+        [
+          "Frances Arnold 2018",
+          "https://sv.wikipedia.org/wiki/Frances_Arnold",
+          "Riktad evolution av enzymer",
+          "5:e kvinnan att få Nobelpris i kemi"
+        ],
+        [
+          "Emmanuelle Charpentier 2020",
+          "https://sv.wikipedia.org/wiki/Emmanuelle_Charpentier",
+          "Utveckling av CRISPR/Cas9 – en metod för genredigering (”gensaxen”)",
+          "6:e kvinnan att få Nobelpris i kemi"
+        ],
+        [
+          "Jennifer Doudna 2020",
+          "https://sv.wikipedia.org/wiki/Jennifer_Doudna",
+          "Utveckling av CRISPR/Cas9 – en metod för genredigering (”gensaxen”)",
+          "7:e kvinnan att få Nobelpris i kemi"
+        ],
+        [
+          "Carolyn Bertozzi 2022",
+          "https://sv.wikipedia.org/wiki/Carolyn_Bertozzi",
+          "Utveckling av ”klickkemi” och bioortogonal kemi för att studera biologiska processer i levande celler",
+          "8:e kvinnan att få Nobelpris i kemi"
+        ],
+        [
+          "Florence Nightingale 1901-1910",
+          "https://en.wikipedia.org/wiki/Florence_Nightingale",
+          "Man skulle kunna tänka sig ett tidigt Nobelpris i fysiologi eller medicin (t.ex. 1901–1905) om kommittén då velat premiera folkhälso‑ och vårdinsatser, men hon ses normalt inte som en kemikandidat. Hennes insatser var betydande och en av de första som visualiserade satistik som skapade förändring.",
+          "Blev utan Nobelpris i kemi och medicin"
+        ],
+        [
+          "Alice Ball 1901-1916",
+          "https://sv.wikipedia.org/wiki/Alice_Ball",
+          "En afroamerikansk kemist, som utvecklade ett injicerbart oljeextrakt som var den mest effektiva behandlingen mot lepra (spetälska) fram till 1940-talet. Hon var också den första kvinnan och första afroamerikanen att ta magisterexamen vid University of Hawaii.",
+          "Blev utan Nobelpris i kemi och medicin"
+        ],
+        [
+          "Ida Noddack 1930-talet",
+          "https://sv.wikipedia.org/wiki/Ida_Noddack",
+          "Hon nämns ibland i efterhand som en forskare vars insikt inte fick det erkännande den förtjänade. Tidiga idéer om kärnreaktioner",
+          "Blev utan Nobelpris i kemi och fysik"
+        ],
+        [
+          "Lise Meitner 1944",
+          "https://sv.wikipedia.org/wiki/Lise_Meitner",
+          "Hon står ofta i gränslandet mellan fysik och kemi och nämns ofta som en förbisedd Nobelkandidat. Forskning om radioaktivitet och grundläggande kemisk förståelse av radioaktiva ämnen. Kärnklyvningens fysik och kemiska konsekvenser.",
+          "Blev utan Nobelpris i kemi och fysik"
+        ],
+        [
+          "Rosalind Franklin 1953",
+          "https://sv.wikipedia.org/wiki/Rosalind_Franklin",
+          "Hon fick aldrig Nobelpriset, men hennes arbete nämns ofta i diskussioner om bortglömda kvinnliga kemister/biokemister. Strukturella data om DNA och andra molekyler",
+          "Blev utan Nobelpris i kemi och medicin"
+        ],
+        [
+          "Fei-Fei Li 2026",
+          "https://en.wikipedia.org/wiki/Fei-Fei_Li",
+          "Hon skapade och drev ImageNet, som blev en katalysator för djupinlärning och modernt datorseende.\n\nHon har byggt broar mellan teknik, mänsklig användning och samhällsnytta genom AI4All och Stanford HAI.\n\nHon fortsätter att påverka nästa våg av AI genom spatial intelligence, \"World Lab\" och mer människonära system.",
+          "Min nominering till nästa nobelpristagare i fysik eller ekonomi skulle jag vilja ge  till Fei-Fei Li"
+        ],
+        [
+          "Ellen Moons",
+          "https://sv.wikipedia.org/wiki/Ellen_Moons",
+          "Jag har ännu inte dansat med Ellen och hon utnämner ju Nobelpris så hon kan nog inte få något eget.",
+          "Hmmm"
+        ]
+      ],
+      "anteckningar": "Hylla i biblioteket — 37 länkar, hämtade från ditt ark."
+    },
+    {
+      "id": "130-50",
+      "sektion": "130",
+      "titel": "Poddar",
+      "text": "Jag lyssnar allt mer på poddar, nästan så jag hellre lyssnar på poddar om en bok jag vill läsa än läser den. Det är på så många olika sätt via poddar jag tar in hela mitt nyhetsföde. Har man lärt sig att en alltid levererar så sitter jag nästan som på nålar då då jag väntar på nästa avsnitt.",
+      "lankar": [
+        [
+          "A-kursen",
+          "https://poddtoppen.se/podcast/1706097270/a-kursen",
+          "Emma och Clara gräver i nyhetsarkiv, forskningsdatabaser och populärkultur",
+          "Svensk"
+        ],
+        [
+          "AI för folket",
+          "https://folkett.se/ai-for-folket/",
+          "En podcast för ledare och nyfikna som utforskar vad AI är. Med Frida Mangen och Sofia Akhter.",
+          "Svensk"
+        ],
+        [
+          "AI med Sibbe",
+          "https://poddtoppen.se/podcast/1713088960/ai-med-sibbe-stay-bright",
+          "Sibbe delar gärna med sig av sin AI kunskap och sina egna lärdomar efter att ha utforskat AI",
+          "Svensk"
+        ],
+        [
+          "AI snack",
+          "https://open.spotify.com/show/4wMr0Mcg40k17OK7dOi0GD",
+          "artificiell intelligens med Joel Rangsjö, Jonatan Tensetti, Danny Stacey, https://eduai.se/",
+          "Svensk"
+        ],
+        [
+          "AI Sweden Podcast",
+          "https://www.podplay.com/sv-se/podcasts/ai-sweden-podcast-1192237",
+          "Möt några av Sveriges AI-experter, lyssna till vad chefer och ledare bör veta om AI.",
+          "Svensk"
+        ],
+        [
+          "AI-Lotsen – Navigera i Skolans Digitala Värld",
+          "https://ailotsenpodcast.podbean.com/",
+          "Utforskar AI:s möjligheter i utbildningen på gymnasiet.",
+          "Svensk"
+        ],
+        [
+          "AI-podden",
+          "https://ai-podden.se/",
+          "En av sverigepodd som kommunicerar på svengelska, supersöta",
+          "Svensk"
+        ],
+        [
+          "Allt du behöver veta om ny teknik",
+          "https://poddtoppen.se/podcast/1483916137/allt-du-behover-veta-om-ny-teknik",
+          "Berättar, förklarar och analyserar vetenskapliga och tekniska genombrott. Mitt favorit avsitt är det med Magnus Hambleton",
+          "Svensk"
+        ],
+        [
+          "Avkodat",
+          "https://www.avkodat.se/",
+          "En podd för utvecklare",
+          "Svensk"
+        ],
+        [
+          "AW med AI",
+          "https://poddtoppen.se/podcast/1804879230/aw-med-ai",
+          "Jasmine och Ankie tar sig an allt möjligt.",
+          "Svensk"
+        ],
+        [
+          "Digitala influencer-podden",
+          "https://poddtoppen.se/podcast/1410211542/digitala-influencer-podden",
+          "Sverika digita influencers.",
+          "Svensk"
+        ],
+        [
+          "Digital Marknadsföring med Tony Hammarlund",
+          "https://tonyhammarlund.io/podcasts/",
+          "Intervjuar med branschexperter och marknadsförare.",
+          "Svensk"
+        ],
+        [
+          "En AI till Kaffet",
+          "https://poddtoppen.se/podcast/1706391795/en-ai-till-kaffet",
+          "Samtal om hur AI påverkar samhälle, individ och företag. Möt gäster och få nya perspektiv.",
+          "Svensk"
+        ],
+        [
+          "#ensakidag en riktigt viktig sak (nästan) varje dag",
+          "https://poddtoppen.se/podcast/1262395977/ensakidag-en-riktigt-viktig-sak-nastan-varje-dag",
+          "Vad händer på internet- Ca 5 min per avsnitt. Jocke gör det bäst när han väl drar igång tar ofta ledigt från poddandet",
+          "Svensk"
+        ],
+        [
+          "En Liten Podd Om It",
+          "https://www.enlitenpoddomit.se/",
+          "Björn, David, Mats och Johan, diskuterar IT",
+          "Svensk"
+        ],
+        [
+          "Generativet (Teknik i akademi)",
+          "https://generativet.se/",
+          "Kombinerar teknik med universitetets roll",
+          "Svensk"
+        ],
+        [
+          "Grejen med AI",
+          "https://poddtoppen.se/podcast/1687458403/grejen-med-ai",
+          "Fokuserar på hur människor kan använda AI både på jobbet och i vardagen.",
+          "Svensk"
+        ],
+        [
+          "Heja Framtiden",
+          "https://hejaframtiden.se/category/ai/",
+          "podcast och plattform för framtidsfrågor av Christian von Essen",
+          "Svensk"
+        ],
+        [
+          "Internetstiftelsen (flera poddar)",
+          "https://internetstiftelsen.se/kunskap/poddar/",
+          "Internetstiftelsen har flera intressanta poddar om digital utveckling.",
+          "Svensk"
+        ],
+        [
+          "Mediepodden",
+          "https://poddtoppen.se/podcast/1103116375/mediepodden",
+          "om den komplexa digitala förändring som hela samhället står inför, av Emanuel Karlsten och Olle Lidbom.",
+          "Svensk"
+        ],
+        [
+          "Lära från lärda",
+          "https://larafranlarda.com/",
+          "Kunskapspodden som ger dig nyckelinsikter från lärorika böcker, jag rekommenderar avsitt 250 (Konsten att tänka klart), 425 (Hur internet förändrade), 447 (Den femte accelerationen)",
+          "Svensk"
+        ],
+        [
+          "Nördarnas podd",
+          "https://poddtoppen.se/podcast/1670840738/nordarnas-podd",
+          "Nördar i allt och dom närmar sig ofta saker som kan intressera den tech intresserade",
+          "Svensk"
+        ],
+        [
+          "P3 Tech",
+          "https://sverigesradio.se/p3tech",
+          "Evelina Galli uppdaterar dig om det senaste inom tech- och gamingvärlden.",
+          "Svensk"
+        ],
+        [
+          "Skolspanarna",
+          "https://www.skolspanarna.se/",
+          "En podd om skola, digitalisering, Hans Wågbrant, Johan Fång, Patrik Landström",
+          "Svensk"
+        ],
+        [
+          "Snacka om AI!",
+          "https://poddtoppen.se/podcast/1772223397/snacka-om-ai",
+          "Jakob Radbäck och Bengt Wessborgs AI- och e-handelsäventyr",
+          "Svensk"
+        ],
+        [
+          "Swedish podcast for beginners",
+          "https://poddtoppen.se/podcast/1579313463/swedish-podcast-for-beginners-latt-svenska-med-oskar",
+          "(Lätt svenska med Oskar)",
+          "Svensk"
+        ],
+        [
+          "Så funkar AI",
+          "https://podd.safunkarai.se/podcasts/sa-funkar-ai/",
+          "Allt du velat veta om AI men kanske inte vågat fråga. Med Anders och Peder.",
+          "Svensk"
+        ],
+        [
+          "SvD Tech brief",
+          "https://www.podplay.com/sv-se/podcasts/svd-tech-brief-1147425",
+          "Skruvad och smart podd om hur techvärlden förändrar våra liv, från Svenska Dagbladet.",
+          "Svensk"
+        ],
+        [
+          "Tidspodden",
+          "https://tidspodden.libsyn.com/",
+          "Om livet, jobbet och tiden. Med Lena Lid Falkman och Petra Brask",
+          "Svensk"
+        ],
+        [
+          "Uppskattat",
+          "https://poddtoppen.se/podcast/1585931121/uppskattat",
+          "Uppskattat är en podcast som görs av Skattebetalarnas Förening",
+          "Svensk"
+        ],
+        [
+          "Veckans AI",
+          "https://veckans.ai/episodes/",
+          "En podd med Magnus Paues, Fredrik Hanefalk",
+          "Svensk"
+        ],
+        [
+          "AI Applied – Interviews and Tools",
+          "https://poddtoppen.se/podcast/1669799110/ai-applied-covering-ai-news-interviews-and-tools-chatgpt-midjourney-gemini-openai-anthropic",
+          "Veckovisa AI-nyheter. Jaeden Schafer och Conor Grennan.",
+          "Utlänsk"
+        ],
+        [
+          "AI Chat: ChatGPT & AI News",
+          "https://poddtoppen.se/podcast/1669990482/ai-chat-chatgpt-ai-news-artificial-intelligence-openai-machine-learning",
+          "Dyker ner i AI-nyheter. Daglig podd med Jaeden Schafer.",
+          "Utlänsk"
+        ],
+        [
+          "AI Explored",
+          "https://poddtoppen.se/podcast/1740971373/ai-explored",
+          "För marknadsförare, kreatörer och företagsägare. Med Michael Stelzner.",
+          "Utlänsk"
+        ],
+        [
+          "AI Today Podcast",
+          "https://www.cognilytica.com/aitoday/",
+          "Praktisk AI för företag och organisationer med Kathleen Walch & Ronald Schmelzer.",
+          "Utlänsk"
+        ],
+        [
+          "Around the Prompt",
+          "https://www.aroundtheprompt.com/",
+          "Utforskar hur AI transformerar branscher och formar morgondagens värld.",
+          "Utlänsk"
+        ],
+        [
+          "Big Technology Podcast",
+          "https://poddtoppen.se/podcast/1522960417/big-technology-podcast",
+          "Alex Kantrowitz, Silicon Valley-journalist som intervjuar tech-VD:ar.",
+          "Utlänsk"
+        ],
+        [
+          "CXOTalk CMO Strategy – Marketing in the AI Era",
+          "https://www.cxotalk.com/topics/digital-marketing",
+          "Med Greg Stuart om marknadsföring i AI-eran.",
+          "Utlänsk"
+        ],
+        [
+          "Dwarkesh Patel podcast",
+          "https://www.dwarkeshpatel.com/podcast",
+          "Dwarkesh Patel intervjuar intressanta personer inom tech, vetenskap, filosofi.",
+          "Utlänsk"
+        ],
+        [
+          "FUTURATI PODCAST",
+          "https://futuratipodcast.com/",
+          "Thomas Frey och Trent Fowler utforskar AI, kryptovalutor, rymdforskning, kvantdatorer.",
+          "Utlänsk"
+        ],
+        [
+          "Humanity Unchained",
+          "https://poddtoppen.se/podcast/1725014005/humanity-unchained",
+          "Julia McCoy och Jeff Joyce diskuterar mänsklighetens framtid i en era av AI",
+          "Utlänsk"
+        ],
+        [
+          "Lex Fridman Podcast",
+          "https://lexfridman.com/podcast/",
+          "Djupa samtal med några av världens främsta AI-forskare och entreprenörer.",
+          "Utlänsk"
+        ],
+        [
+          "Leaders of AI",
+          "https://www.youtube.com/@LeadersofAIPodcast",
+          "En podd med Julia McCoy and David Shapiro",
+          "Utlänsk"
+        ],
+        [
+          "Machine Learning Street Talk (MLST)",
+          "https://www.mlst.ai/",
+          "Blandat med svårt att förstå och lätt att ta till sig om LLM",
+          "Utlänsk"
+        ],
+        [
+          "Marketing Against The Grain",
+          "https://poddtoppen.se/podcast/1616700934/marketing-against-the-grain",
+          "Kipp Bodnar och Kieran Flanagan leder dig ner i kaninhålet",
+          "Utlänsk"
+        ],
+        [
+          "Moonshots Podcast with Peter Diamandis",
+          "https://www.diamandis.com/podcast",
+          "Peter Diamandis intervjuar ledare inom teknik och vetenskap",
+          "Utlänsk"
+        ],
+        [
+          "Ones and Tooze",
+          "https://poddtoppen.se/podcast/1584397047/ones-and-tooze",
+          "Adam Tooze, a history professor and a popular author",
+          "Utlänsk"
+        ],
+        [
+          "Practical AI",
+          "https://changelog.com/practicalai",
+          "Fokuserar på verkliga tillämpningar av AI och maskininlärning för utvecklare.",
+          "Utlänsk"
+        ],
+        [
+          "StarTalk",
+          "https://youtu.be/dWCryxkixKw",
+          "Neil deGrasse Tyson har many helt fantastiska intervjuer med spännande människor",
+          "Utlänsk"
+        ],
+        [
+          "The AI Breakdown",
+          "https://poddtoppen.se/podcast/1680633614/the-ai-daily-brief-formerly-the-ai-breakdown-artificial-intelligence-news-and-analysis",
+          "Daglig nyhetsanalys om allt som rör artificiell intelligens med Nathaniel Whittemore.",
+          "Utlänsk"
+        ],
+        [
+          "The AI daily Brief",
+          "https://podcasts.apple.com/us/podcast/the-ai-daily-brief-formerly-the-ai-breakdown/id1680633614",
+          "Nyheter och analys.",
+          "Utlänsk"
+        ],
+        [
+          "The AI Podcast",
+          "https://blogs.nvidia.com/ai-podcast/",
+          "Utforskar AI-forskning och tillämpningar, producerad av NVIDIA.",
+          "Utlänsk"
+        ],
+        [
+          "The Mad Podcast",
+          "https://poddtoppen.se/podcast/1722339764/the-mad-podcast-with-matt-turck",
+          "Conversations with leaders from across the Machine Learning, AI, & Data landscape hosted by leading AI & data investor, Matt Turck",
+          "Utlänsk"
+        ],
+        [
+          "The Creator's Adventure",
+          "https://poddtoppen.se/podcast/1608100988/the-creators-adventure-course-creation-entrepreneurship-amp-mindset-tips-for-creators",
+          "Course Creation, Entrepreneurship & Mindset tips for Creators",
+          "Utlänsk"
+        ],
+        [
+          "The Machine Learning Podcast",
+          "https://www.themachinelearningpodcast.com/",
+          "Detaljerad och teknisk.",
+          "Utlänsk"
+        ],
+        [
+          "The Next Wave",
+          "https://www.thenextwave.show/",
+          "Ger färska perspektiv och branschinsikter om hur man implementerar AI för att växa företag.",
+          "Utlänsk"
+        ],
+        [
+          "The President’s Daily Brief",
+          "https://poddtoppen.se/podcast/1617887885/the-presidents-daily-brief",
+          "Varje morgon får USA:s president en topphemlig briefing om det viktigaste.",
+          "Utlänsk"
+        ],
+        [
+          "The TWIML AI Podcast",
+          "https://twimlai.com/podcast/",
+          "Intervjuer med leading AI-forskare och praktiker om maskininlärning och AI.",
+          "Utlänsk"
+        ],
+        [
+          "Undecided with Matt Ferrell",
+          "https://undecidedmf.com/podcasts/",
+          "Matt Ferrell utforskar hur hållbar och smart teknik påverkar våra liv.",
+          "Utlänsk"
+        ],
+        [
+          "Win - Win With Liv Boseres",
+          "https://poddtoppen.se/podcast/1724791350/win-win-with-liv-boeree",
+          "Står inte handfallen och ser på utan styr spelet.",
+          "Utlänsk"
+        ]
+      ],
+      "anteckningar": "Hylla i biblioteket — 60 länkar, hämtade från ditt ark."
+    },
+    {
+      "id": "130-60",
+      "sektion": "130",
+      "titel": "YouTube",
+      "text": "I början så är följde jag Youtube Tutoials till punkt och pricka för att lyckas med ett flöde eller försöka förstå vad AI är. Idag jobbar jag och mina stationära AI mer sida vid sida. Har man lärt sig att en alltid levererar så sitter jag nästan som på nålar då då jag väntar på nästa avsnitt.",
+      "lankar": [
+        [
+          "AI Advantage",
+          "https://www.youtube.com/@aiadvantage",
+          "Kanal om fördelarna och tillämpningarna av AI i olika branscher av Igor Pogany. Hans community har koll: https://community.myaiadvantage.com/c/ai-app-ranking/",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "AI Controversy",
+          "https://www.youtube.com/@aicontroversy",
+          "Mycket bild och video, du möter en tecknad robot.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "AI Foundations",
+          "https://www.youtube.com/@ai-foundations",
+          "Kanal dedikerad till att utbilda om främst ChaGPT och numer Clude, Notion och många fler. Borsan (ProductiveDude) är grym på notion.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "AI Sam Sonreal",
+          "https://www.youtube.com/@aisamsonreal",
+          "Kanal om AI, och hur du plocar ut max från vartenda verktyg av Sam Sonreal.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "AI Search",
+          "https://www.youtube.com/@theAIsearch",
+          "Kanal om olika video verktyg",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Bob Doyle Media",
+          "https://www.youtube.com/@BobDoyleMedia",
+          "Kanal om medieproduktion, berättande och kreativitet av Bob Doyle.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Bryan McAnulty",
+          "https://www.youtube.com/@BryanMcAnulty",
+          "skapare av Heights Platform",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Consulting AI Guy",
+          "https://www.youtube.com/@ConsultingAIGuy",
+          "Kanal om AI inom företagsvärlden och konsultbranschen.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Creator Magic AI",
+          "https://www.youtube.com/@CreatorMagicAI",
+          "Kanal om att använda AI för att förbättra innehållsskapande. En riktig idé spruta.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Curious Refuge",
+          "https://www.youtube.com/@curiousrefuge",
+          "Kanal om nyfikenhet, lärande och personlig utveckling.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Digivangelism",
+          "https://youtu.be/zSAAAJgAXZU",
+          "Sammy med gänget. There to help nonprofit & spiritual leaders share hope, healing, and light ONLINE.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Digital Sculler",
+          "https://www.youtube.com/@digitalsculler/playlists",
+          "Kanal om produktivitet, teknik med hjälp av olika verktyg",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Dylan Curious",
+          "https://www.youtube.com/@dylan_curious",
+          "Kanal om nyfikenhet, lärande och personlig utveckling av Dylan. En kanal vi aldrig missar, en mänsklig röst i den tekniska tekniken",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Futurepedia",
+          "https://www.youtube.com/@futurepedia_io",
+          "Kanal om framtidsteknik, med praktiska tutorials av Kevin Hutson.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Godago",
+          "https://www.youtube.com/@godago",
+          "Kanal om teknik, vetenskap och framtid.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Grace Leung",
+          "https://www.youtube.com/@graceleungyl",
+          "Digital tillväxt konsult, SEO mm",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "G Tier",
+          "https://www.youtube.com/@gtier",
+          "I framkant med coola vertyg som Hedra och mycket mer",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Harper Carroll AI",
+          "https://www.youtube.com/@HarperCarrollAI",
+          "Snabbast växande kanalen 2023, älskar att undervisa, förklara och kan sin sak på djupet",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Hayls World",
+          "https://www.youtube.com/@HaylsWorld/featured",
+          "Kanal om teknik, spel och underhållning av Hayley.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Helena Liu",
+          "https://www.youtube.com/@HELENA-LIU",
+          "Hjälper företag till effektivitet och automation",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Itssssss Jack",
+          "https://www.youtube.com/@Itssssss_Jack",
+          "Kanal om teknik, spel och underhållning av Jack.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Kate Marinamogilko",
+          "https://www.youtube.com/@SiliconValleyGirl",
+          "Kanal om sociala och media. SiliconValleyGirl",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Kevin Stratvert",
+          "https://www.youtube.com/@KevinStratvert",
+          "Kanal om produktivitet, teknik och ledarskap av Kevin Stratvert. Få har bättre användbara tips än han. Ursprungligen anställd på Microsoft",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Linus Tech Tips",
+          "https://www.youtube.com/@LinusTechTips",
+          "Teknikkanal av Linus Sebastian som täcker hårdvara, mjukvara och allt däremellan.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Lucidate AI",
+          "https://www.youtube.com/@lucidateAI",
+          "Kanal om AI, maskininlärning och dataanalys.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Matt Vidpro",
+          "https://www.youtube.com/@MattVidPro",
+          "Kanal om videoproduktion och innehållsskapande av Matt. Underbar nörd som nördar i allt från bild till spel.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Matt Wolfe",
+          "https://www.youtube.com/@mreflow",
+          "En riktigt bra kanal om man vill hitta till nya verktyg. Ger den breda översynen på ett väldigt enkelt och mänskligt sätt.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "New Daily Knowledge",
+          "https://www.youtube.com/@NewDailyKnowledge",
+          "De senaste användbara AI verktygen",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Naomi Brockwell TV",
+          "https://www.youtube.com/@NaomiBrockwellTV",
+          "Undersökande mediainstitut.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Natalia Kalinska",
+          "https://www.youtube.com/@NataliaKalinska",
+          "superduktig på både Canva och Descript",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Productive Dude",
+          "https://www.youtube.com/@ProductiveDude",
+          "Super duktig på Notion och driver tillsammans med sin bror (AI Foundations).",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Skill Leap AI",
+          "https://www.youtube.com/@SkillLeapAI",
+          "Kanal om att lära sig AI och massor av verktyg, mycket google grejer.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Sarah Chrisp",
+          "https://www.youtube.com/@WholesaleTed",
+          "Kanal om enkla idéer och verktyg",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Shopify",
+          "https://www.youtube.com/@learnwithshopify",
+          "kanal med alla möjliga AI verktyg",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "The AI Andy",
+          "https://www.youtube.com/@TheAIAndy",
+          "Kanal om artificiell intelligens av Andy Matuschak.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Tiff In Tech",
+          "https://youtu.be/fiTe7t6Hy8E",
+          "Superbra genomgång om Claude och skaparen av plattformen Taekoff",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Tina Huang",
+          "https://www.youtube.com/@TinaHuang1",
+          "Alltid spännande med olika röster",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "20VC",
+          "https://www.youtube.com/@20VC",
+          "Riskkapitalkanal av Harry Stebbings med intervjuer med investerare och entreprenörer.",
+          "AI-nyheter och trender"
+        ],
+        [
+          "AI Community",
+          "https://www.youtube.com/@AI_Community",
+          "Gemenskap för AI-entusiaster och branschexperter, Igor Pogany bjuder in vänner.",
+          "AI-nyheter och trender"
+        ],
+        [
+          "Hard Fork",
+          "https://www.youtube.com/@hardfork",
+          "Kanal om kryptovalutor, blockkedjeteknik och decentraliserade system.",
+          "AI-nyheter och trender"
+        ],
+        [
+          "IBM Technology",
+          "https://www.youtube.com/@IBMTechnology",
+          "Officiell kanal för IBM med fokus på deras tekniska innovationer och lösningar.",
+          "AI-nyheter och trender"
+        ],
+        [
+          "Jaeden Schafer",
+          "https://www.youtube.com/@JaedenSchafer",
+          "Kanal om AI, teknik och vetenskap av Jaeden Schafer.",
+          "AI-nyheter och trender"
+        ],
+        [
+          "ME and ChatGPT123",
+          "https://www.youtube.com/@MEandChatGPT123",
+          "Kanal om att utforska och interagera med ChatGPT.",
+          "AI-nyheter och trender"
+        ],
+        [
+          "Future Business Tech",
+          "https://www.youtube.com/@FutureBusinessTech",
+          "Om du vill se in i framtiden.",
+          "Utblick"
+        ],
+        [
+          "AI Uncovered",
+          "https://www.youtube.com/@AI.Uncovered",
+          "Kanal som avslöjar och förklarar AI-koncept och tillämpningar.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "All About AI",
+          "https://www.youtube.com/@AllAboutAI",
+          "Kanal dedikerad till att utforska och förklara AI.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Andrej Karpathy",
+          "https://www.youtube.com/@AndrejKarpathy",
+          "Kanal om AI och maskininlärning av Andrej Karpathy, tidigare chef för AI på Tesla.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Anton Osika",
+          "https://www.youtube.com/@lovable-labs",
+          "Vår svenska kodarkung på Lovable med sin fantastiska GPTEngineer som numer heter Lovable",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "bycloud",
+          "https://www.youtube.com/@bycloudAI",
+          "Väl värd att lyssna på men du möter en figur",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Dan Leeman",
+          "https://www.youtube.com/@danleeman",
+          "Kanal om teknik, programmering och AI av Dan Leeman.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "David Ondrej",
+          "https://www.youtube.com/@DavidOndrej",
+          "En hel del kod men väldigt väl serverat av David Ondrej.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Digital Engine",
+          "https://www.youtube.com/@DigitalEngine",
+          "Kanal om digital marknadsföring och entreprenörskap.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Dr Waku",
+          "https://www.youtube.com/@DrWaku",
+          "Kanal om AI-vetenskap på riktigt av Dr Waku.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Gurru Tech Solutions",
+          "https://www.youtube.com/@gurrutechsolutions",
+          "Kanal om teknik, programmering och webbutveckling.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Liam Ottley",
+          "https://www.youtube.com/@LiamOttley",
+          "Kanal om AI, som oblygt presenteras av Liam Ottley.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Logan Kilpatrick",
+          "https://www.youtube.com/@LoganKilpatrickYT",
+          "Kanal om AI, maskininlärning och öppen källkod av Logan Kilpatrick.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Matthew Berman",
+          "https://www.youtube.com/@matthew_berman",
+          "Väl värd att lyssna på vad gäller nya LLM",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Metrics Mule",
+          "https://www.youtube.com/@metricsmule",
+          "Kanal om dataanalys, affärsstrategi och beslutsfattande.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Network Chuck",
+          "https://www.youtube.com/@NetworkChuck",
+          "Kanal om nätverk, cybersäkerhet och IT-certifieringar av Chuck Keith.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Official Chatbot Builder",
+          "https://www.youtube.com/@OfficialChatbotBuilder",
+          "Kanal om att builda och implementera chatbots.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Stephen G. Pope",
+          "https://www.youtube.com/@StephenGPope",
+          "Automatisera film med Make och Airtable",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Tim Carmbat",
+          "https://www.youtube.com/@TimCarambat",
+          "Vet att det inte är där jag har min spets, men så bra förklarat så man vill hugga i.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "The Tech Trance",
+          "https://www.youtube.com/@TheTechTrance",
+          "Machine Learning som så enkelt som möjligt förklarar",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Trelis Research",
+          "https://www.youtube.com/@TrelisResearch",
+          "Kanal om AI-forskning och tillämpningar.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Two minute papers",
+          "https://www.youtube.com/@TwoMinutePapers/videos",
+          "Sammanfattar de senaste forskningsrönen inom AI och maskininlärning.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Vrsen",
+          "https://www.youtube.com/@vrsen",
+          "Kanal om virtuell verklighet, augmented reality och relaterad teknik, mycket automation.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Web Dev Simplified",
+          "https://www.youtube.com/@WebDevSimplified",
+          "Väldigt många bra tips den dag jag vill koda.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Yannic Kilcher",
+          "https://www.youtube.com/@YannicKilcher",
+          "Kanal om AI, maskininlärning och dataanalys av Yannic Kilcher.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "AI explained",
+          "https://www.youtube.com/@aiexplained-official",
+          "Om både historia och framtid.",
+          "AI-historia och framtid"
+        ],
+        [
+          "AI Workshop",
+          "https://youtu.be/_1krInbmMOg",
+          "En kanal man blir glad av.",
+          "AI-historia och framtid"
+        ],
+        [
+          "Center for Humane Technology",
+          "https://www.youtube.com/@CenterforHumaneTechnology",
+          "Ideell organisation dedikerad till att forma tekniken för större mänskligt välbefinnande.",
+          "AI-historia och framtid"
+        ],
+        [
+          "Dr Alan D. Thompson",
+          "https://www.youtube.com/@DrAlanDThompson",
+          "Expert på AI men många insikter",
+          "AI-historia och framtid"
+        ],
+        [
+          "Future of life institute",
+          "https://www.youtube.com/@futureoflifeinstitute",
+          "Ett institut som jobbar för att minska risker av teknologers globala påverkan.",
+          "AI-historia och framtid"
+        ],
+        [
+          "Henrik Kniberg",
+          "https://www.youtube.com/@henrikkniberg",
+          "Om agil utveckling, ledarskap och produktivitet av Henrik Kniberg.",
+          "AI-historia och framtid"
+        ],
+        [
+          "Julia McCoy",
+          "https://www.youtube.com/@JuliaMcCoy",
+          "Om innehållsmarknadsföring och skrivande av Julia McCoy.",
+          "AI-historia och framtid"
+        ],
+        [
+          "Me&ChatGPT",
+          "https://youtu.be/_1krInbmMOg",
+          "En kanal som fokuserar på Ilia Sutskevers resa från förr till nu",
+          "AI-historia och framtid"
+        ],
+        [
+          "Mr Eflow",
+          "https://www.youtube.com/@mreflow",
+          "Teknik, vetenskap och filosofi.",
+          "AI-historia och framtid"
+        ],
+        [
+          "Pindex",
+          "https://www.91mobiles.com/hub/call-recording-how-to-android-mobile-phone/",
+          "Vem älskar väl inte när Stephen Fry talar",
+          "AI-historia och framtid"
+        ],
+        [
+          "Putchuon",
+          "https://www.youtube.com/@Putchuon",
+          "Teknik, vetenskap och filosofi.",
+          "AI-historia och framtid"
+        ],
+        [
+          "Skeptiko",
+          "https://www.youtube.com/@skeptiko-video",
+          "Vetenskap och andlighet av Alex Tsakiris.",
+          "AI-historia och framtid"
+        ],
+        [
+          "The Adam Conover",
+          "https://www.youtube.com/@TheAdamConover",
+          "Kritiskt tänkande och ifrågasättande av konventionell visdom av Adam Conover.",
+          "AI-historia och framtid"
+        ],
+        [
+          "The AI search",
+          "https://www.youtube.com/@theAIsearch",
+          "Blandat med nyheter och längre tutorials på verktyg",
+          "AI-historia och framtid"
+        ],
+        [
+          "Then & Now",
+          "https://www.youtube.com/@ThenNow",
+          "Utforskar historien och hur den formar vår nutid.",
+          "AI-historia och framtid"
+        ],
+        [
+          "Theoretically Media",
+          "https://www.youtube.com/@TheoreticallyMedia",
+          "Vetenskap, teknik och filosofi.",
+          "AI-historia och framtid"
+        ],
+        [
+          "Wes Roth",
+          "https://www.youtube.com/@WesRoth",
+          "Levererar tänkvärda nyhetsuppdateringar inom tech.",
+          "AI-historia och framtid"
+        ],
+        [
+          "AI: Grappling with a New Kind of Intelligence",
+          "https://youtu.be/4KNtxkKzb8Y",
+          "Sébastien Bubeck, Tristan Harris, Yann LeCun, Brian Greene",
+          "Vetenskapskanaler om AI"
+        ],
+        [
+          "Art of the Problem",
+          "https://www.youtube.com/@ArtOfTheProblem",
+          "Kanal om problemlösning, kritiskt tänkande och kreativitet.",
+          "Vetenskapskanaler om AI"
+        ],
+        [
+          "Stanford HAI",
+          "https://www.youtube.com/@stanfordhai",
+          "Officiell kanal för Stanford Institute for Human-Centered Artificial Intelligence.",
+          "Vetenskapskanaler om AI"
+        ],
+        [
+          "TEDx",
+          "https://www.youtube.com/@TEDx",
+          "Kanal med oberoende TED-evenemang från hela världen, som täcker en mängd olika ämnen och idéer.",
+          "Vetenskapskanaler om AI"
+        ],
+        [
+          "The Alan Turing Institute",
+          "https://www.youtube.com/@TheAlanTuringInstituteUK",
+          "Officiell kanal för Storbritanniens nationella institut för dataanalys och artificiell intelligens.",
+          "Vetenskapskanaler om AI"
+        ],
+        [
+          "The Royal Institution",
+          "https://www.youtube.com/@TheRoyalInstitution",
+          "Officiell kanal för Royal Institution of Great Britain, en organisation dedikerad till vetenskaplig utbildning och engagemang.",
+          "Vetenskapskanaler om AI"
+        ],
+        [
+          "Yuval Noa Harari",
+          "https://youtu.be/7r5lw3jPrUk",
+          "Israelisk professor i historia och författare till Sapiens, Homo Deus m.fl. Hans senaste bok Nexus (2024) ger en kort historik över informationsnätverk.",
+          "Vetenskapskanaler om AI"
+        ],
+        [
+          "3Blue1Brown",
+          "https://www.youtube.com/@3blue1brown",
+          "Kanal om matematik av Grant Sanderson med fokus på visuella förklaringar.",
+          "Vetenskapskanaler om matematik och fysik"
+        ],
+        [
+          "BBC",
+          "https://www.youtube.com/watch?v=BRg93P2YEX0&list=PLD66A7341EA6641E8&index=2&ab_channel=BBC",
+          "The Wisdom of Crowd, Marcus du Sautoy",
+          "Vetenskapskanaler om matematik och fysik"
+        ],
+        [
+          "Advexon TV",
+          "https://www.youtube.com/@AdvexonTV",
+          "Kanal om vetenskap, teknik och innovation.",
+          "Vetenskapskanaler om matematik och fysik"
+        ],
+        [
+          "Banijay Science",
+          "https://www.youtube.com/@banijayscience",
+          "Officiell kanal för Banijay Groups vetenskapsprogram och dokumentärer.",
+          "Vetenskapskanaler om matematik och fysik"
+        ],
+        [
+          "Mellenstei",
+          "https://www.youtube.com/@mellenstei/featured",
+          "Kanal om vetenskap, teknik och filosofi av Mellen.",
+          "Vetenskapskanaler om matematik och fysik"
+        ],
+        [
+          "Spark Docs",
+          "https://www.youtube.com/@SparkDocs",
+          "Kanal om Apache Spark, stor data och distribuerad databehandling.",
+          "Vetenskapskanaler om matematik och fysik"
+        ],
+        [
+          "Steve Mould",
+          "https://www.youtube.com/c/SteveMould/playlists",
+          "Kanal om vetenskap och matematik av Steve Mould med hands-on demonstrationer och förklaringar.",
+          "Vetenskapskanaler om matematik och fysik"
+        ],
+        [
+          "Veritasium",
+          "https://www.youtube.com/@veritasium/featured",
+          "Kanal om vetenskap och teknik av Derek Muller med fokus på att utforska och förklara fascinerande fenomen.",
+          "Vetenskapskanaler om matematik och fysik"
+        ]
+      ],
+      "anteckningar": "Hylla i biblioteket — 100 länkar, hämtade från ditt ark."
+    },
+    {
+      "id": "130-70",
+      "sektion": "130",
+      "titel": "Film & serier",
+      "text": "Då jag lyssnar så mycket på poddar så hör jag så ofta så många olika referenser. Jag har inga egna filmkanaler men en av mina bästa vänner Jocke konstnär har. Så vet jag inte vem den där Jarvis är som alla pratar om åker jag hem till Jocke så ser vi på film tilsammans och babblar om AI.",
+      "lankar": [
+        [
+          "2001: A Space Odyssey (1968)",
+          "https://sv.wikipedia.org/wiki/%C3%85r_2001_%E2%80%93_ett_rymd%C3%A4ventyr",
+          "En banbrytande film av Stanley Kubrick som utforskar teman som mänsklig evolution, teknologi och artificiell intelligens, inklusive den ikoniska datorn HAL 9000.",
+          "Filmer"
+        ],
+        [
+          "A.I. Artificial Intelligence (2001)",
+          "https://sv.wikipedia.org/wiki/A.I._%E2%80%93_Artificiell_Intelligens",
+          "Regisserad av Steven Spielberg, följer filmen en avancerad robotpojke som är programmerad att älska.",
+          "Filmer"
+        ],
+        [
+          "Archive (2020)",
+          "https://en.wikipedia.org/wiki/Archive_(film)",
+          "En forskare arbetar på att skapa en perfekt AI-version av sin avlidna fru, men hans besatthet driver honom till gränsen för vad som är möjligt och etiskt.",
+          "Filmer"
+        ],
+        [
+          "Atlas (2024)",
+          "https://en.wikipedia.org/wiki/Atlas_(2024_film)",
+          "En science fiction-actionfilm med Jennifer Lopez som en skicklig kontraterrorismanalytiker som är djupt skeptisk till AI, men inser att det kan vara hennes enda hopp för att stoppa en fientlig robot.",
+          "Filmer"
+        ],
+        [
+          "Blade Runner (1982)",
+          "https://sv.wikipedia.org/wiki/Blade_Runner",
+          "En dystopisk film där en specialagent jagar genetiskt tillverkade humanoida varelser kallade ”replicants”.",
+          "Filmer"
+        ],
+        [
+          "Blade Runner 2049 (2017)",
+          "https://sv.wikipedia.org/wiki/Blade_Runner",
+          "En uppföljare till den klassiska filmen från 1982, som utforskar teman som identitet, minnen och vad det innebär att vara mänsklig i en värld där AI är vanligt.",
+          "Filmer"
+        ],
+        [
+          "Chappie (2015)",
+          "https://sv.wikipedia.org/wiki/Chappie",
+          "I en nära framtid lär sig en robot med artificiell intelligens att känna och tänka för sig själv.",
+          "Filmer"
+        ],
+        [
+          "Ex Machina (2015)",
+          "https://sv.wikipedia.org/wiki/Ex_Machina_(film)",
+          "En programmerare blir inbjuden att utföra ett Turing-test på en avancerad AI i form av en kvinnlig robot.",
+          "Filmer"
+        ],
+        [
+          "Her (2013)",
+          "https://sv.wikipedia.org/wiki/Her",
+          "En man utvecklar en relation med ett intelligent datorsystem med en kvinnlig röst.",
+          "Filmer"
+        ],
+        [
+          "Hidden figures (2016)",
+          "https://en.wikipedia.org/wiki/Hidden_Figures",
+          "(på svenska fick den titeln Dolda tillgångar). De tre genialiska afroamerikanska kvinnorna Katherine Johnson, Dorothy Vaughan och Mary Jackson arbetade som matematiker (\"mänskliga datorer\") på NASA under rymdkapplöpningen.",
+          "Filmer"
+        ],
+        [
+          "I, Robot (2004)",
+          "https://sv.wikipedia.org/wiki/I,_Robot_(film)",
+          "Baserad på Isaac Asimovs berättelser, utforskar filmen en framtid där robotar är en del av vardagen och en polis misstänker att en robot har begått ett brott.",
+          "Filmer"
+        ],
+        [
+          "Iron Man",
+          "https://sv.wikipedia.org/wiki/Iron_Man_(film)",
+          "Tony Stark i Iron Man (2008), Iron Man 2 (2010), The Avengers (2012), Iron Man 3 (2013). Här är det mer action och du får lära känna hans Jarvis som många pratar om i AI sammanhang",
+          "Filmer"
+        ],
+        [
+          "Metropolis (1927)",
+          "https://sv.wikipedia.org/wiki/Metropolis_(film)",
+          "En tidig science fiction-film som skildrar en futuristisk stad där robotar används för att kontrollera arbetarklassen.",
+          "Filmer"
+        ],
+        [
+          "Mother/Android (2021)",
+          "https://en.wikipedia.org/wiki/Mother/Android",
+          "En thriller som följer en gravid kvinna och hennes pojkvän när de försöker fly till säkerhet under ett globalt uppror där AI-drivna androider vänder sig mot sina mänskliga skapare.",
+          "Filmer"
+        ],
+        [
+          "Outside the Wire (2021)",
+          "https://en.wikipedia.org/wiki/Outside_the_Wire",
+          "En actionfilm som utspelar sig i en krigshärjad framtid där en drönarpilot skickas ut på ett hemligt uppdrag med en android-supersoldaten.",
+          "Filmer"
+        ],
+        [
+          "Superintelligence (2020)",
+          "https://en.wikipedia.org/wiki/Superintelligence_(film)",
+          "En komedi där en AI väljer att studera en genomsnittlig kvinna för att avgöra om mänskligheten är värd att rädda eller om den ska utrotas.",
+          "Filmer"
+        ],
+        [
+          "Tau (2018)",
+          "https://en.wikipedia.org/wiki/Tau_(film)",
+          "En kvinna hålls fången av en uppfinnare som använder henne som försökskanin för sitt AI-system, men hon försöker vända AI:n mot sin skapare för att fly.",
+          "Filmer"
+        ],
+        [
+          "The Imitation Game (2014)",
+          "https://sv.wikipedia.org/wiki/The_Imitation_Game",
+          "Under andra världskriget försöker matematikern Alan Turing knäcka enigmakoden med hjälp av andra matematiker.",
+          "Filmer"
+        ],
+        [
+          "The Matrix (1999)",
+          "https://sv.wikipedia.org/wiki/Matrix",
+          "En hackare upptäcker den chockerande sanningen om sin verklighet och hans roll i kriget mot de kontrollerande maskinerna.",
+          "Filmer"
+        ],
+        [
+          "The Terminator (1984)",
+          "https://sv.wikipedia.org/wiki/Terminator",
+          "En cyborg skickas tillbaka i tiden för att döda en kvinna vars framtida son kommer att leda motståndet mot maskinerna.",
+          "Filmer"
+        ],
+        [
+          "Transcendence (2014)",
+          "https://sv.wikipedia.org/wiki/Transcendence",
+          "En forskare inom AI-fältet laddar upp sitt medvetande till en dator efter att ha blivit skjuten.",
+          "Filmer"
+        ],
+        [
+          "Upgrade (2018)",
+          "https://en.wikipedia.org/wiki/Upgrade_(film)",
+          "En science fiction-actionfilm där en man får ett AI-implantat efter att ha blivit förlamad, vilket ger honom övermänskliga förmågor men också drar in honom i en farlig konspiration.",
+          "Filmer"
+        ],
+        [
+          "Wall-E (2008)",
+          "https://sv.wikipedia.org/wiki/Wall-E",
+          "En Pixar-animerad film som följer en robot som är designad för att rensa upp jordens avfall och hans äventyr med en avancerad robotsond.",
+          "Filmer"
+        ],
+        [
+          "Westworld (1973)",
+          "https://sv.wikipedia.org/wiki/Westworld_(film)",
+          "En science fiction-thriller som utspelar sig i en futuristisk nöjespark där besökarna kan interagera med robotar, men saker går snett när robotarna börjar fungera fel.",
+          "Filmer"
+        ],
+        [
+          "Black Mirror (2011-2019)",
+          "https://sv.wikipedia.org/wiki/Black_Mirror",
+          "En antologiserie som utforskar mörka och tankeväckande teman relaterade till teknologi och samhälle.",
+          "Serier"
+        ],
+        [
+          "Nosedive (Säsong 3, Avsnitt 1)",
+          "https://en.wikipedia.org/wiki/Nosedive_(Black_Mirror)",
+          "I ett samhälle där människor betygsätter varandra i en app efter varje interaktion, försöker en kvinna desperat höja sitt betyg, men hennes försök leder till en nedåtgående spiral.",
+          "Serier"
+        ],
+        [
+          "The Entire History of You (Säsong 1, Avsnitt 3)",
+          "https://en.wikipedia.org/wiki/The_Entire_History_of_You",
+          "I en värld där alla har ett implantat som spelar in allt de gör, ser och hör, blir en man besatt av att använda inspelningarna för att avslöja sin frus otrohet.",
+          "Serier"
+        ],
+        [
+          "Dark (2017-2020)",
+          "https://sv.wikipedia.org/wiki/Dark_(TV-serie)",
+          "En tysk science fiction-serie som utforskar tidsresor, parallella universum och de komplexa relationerna mellan karaktärerna i en liten stad.",
+          "Serier"
+        ],
+        [
+          "Foundation (2021-)",
+          "https://sv.wikipedia.org/wiki/Foundation_(TV-serie)",
+          "Baserad på Isaac Asimovs klassiska science fiction-romaner, följer serien en grupp exilerade vetenskapsmän som försöker rädda mänskligheten från en hotande katastrof.",
+          "Serier"
+        ],
+        [
+          "Mrs Davis (2023)",
+          "https://en.wikipedia.org/wiki/Mrs._Davis",
+          "En kommande serie om en nunna som slåss mot en mäktig AI som tror sig vara Gud.",
+          "Serier"
+        ],
+        [
+          "Person of Interest (2011-2016)",
+          "https://sv.wikipedia.org/wiki/Person_of_Interest",
+          "En thriller där en före detta CIA-agent och en excentrisk miljardär använder ett övervakningssystem med AI för att förhindra brott innan de inträffar.",
+          "Serier"
+        ],
+        [
+          "Pieces of Her (2022)",
+          "https://en.wikipedia.org/wiki/Pieces_of_Her_(TV_series)",
+          "En kvinna upptäcker mörka hemligheter om sin mammas förflutna efter en våldsam händelse, vilket tvingar henne att gå under jorden och söka sanningen.",
+          "Serier"
+        ],
+        [
+          "Pluribus (2025)",
+          "https://sv.wikipedia.org/wiki/Pluribus",
+          "Utspelar sig i ett nutida men förändrat Albuquerque, New Mexico. Serien följer Carol som beskrivs som den mest olyckliga människan på jorden. Hon ställs inför det märkliga uppdraget att rädda världen från lycka.",
+          "Serier"
+        ],
+        [
+          "Rectify (2022)",
+          "https://sv.wikipedia.org/wiki/Rectify",
+          "En drama som följer en man som släpps från dödscellen efter 19 år och hans kamp för att anpassa sig till livet utanför fängelset.",
+          "Serier"
+        ],
+        [
+          "Rick and Morty (2013-)",
+          "https://sv.wikipedia.org/wiki/Rick_and_Morty",
+          "En animerad science fiction-komedi som följer en galen vetenskapsman och hans barnbarn på galna äventyr genom universum.",
+          "Serier"
+        ],
+        [
+          "Westworld (2016-)",
+          "https://sv.wikipedia.org/wiki/Westworld",
+          "En nyinspelning av filmen från 1973, som utforskar en futuristisk nöjespark befolkad av AI-drivna värdar och de mörka hemligheter som ligger bakom kulisserna.",
+          "Serier"
+        ]
+      ],
+      "anteckningar": "Hylla i biblioteket — 36 länkar, hämtade från ditt ark."
+    },
+    {
+      "id": "130-80",
+      "sektion": "130",
+      "titel": "Böcker",
+      "text": "Böcker är magi och den enda bok jag senare sett filmatiserad utan att bli besviken på är Ronja Rövardotter. T o m den har dom senare gjort andra försök och göra film och serie av. Ingen har lyckats så bra som orginalfilmen. Böcker är magi och en av få böcker jag valt att läs om igen heter MOMO, egentligen en ungdomsbok men med mycket djup som jag rekommenderar alla att läsa. Här är böcker jag läst eller tänkt mig läsa.",
+      "lankar": [
+        [
+          "What Technology Wants – Kevin Kelly",
+          "https://en.wikipedia.org/wiki/What_Technology_Wants",
+          "En bok om teknologin som en levande kraft och om hur den påverkar liv, valmöjligheter och samhälle. Kelly är också känd för rådet “make one new mistake every week”."
+        ],
+        [
+          "Den femte accelerationen – Mathias Sundin",
+          "https://larafranlarda.com/den-femte-accelerationen-mathias-sundin/",
+          "En bok om AI och samhällsförändring som passar bra i en resa från system till samhälle till människa."
+        ],
+        [
+          "The World I See – Fei-Fei Li",
+          "https://en.wikipedia.org/wiki/Fei-Fei_Li",
+          "En självbiografisk och insiktsfull bok om Fei-Fei Lis resa som immigrant, forskare och ledare inom AI, kombinerad med en historik över AI:s utveckling."
+        ],
+        [
+          "Co-Intelligence – Ethan Mollick",
+          "https://en.wikipedia.org/wiki/Ethan_Mollick",
+          "En bok om hur människor kan samarbeta med AI i praktiken; den kopplas ofta till idéer om hur man använder AI som medarbetare och tänkepartner."
+        ],
+        [
+          "Klara och solen – Kazuo Ishiguro",
+          "https://en.wikipedia.org/wiki/Klara_and_the_Sun",
+          "En roman om en artificiell vän som observerar människor och deras relationer, läst som en bok om skönhet, omsorg och mänsklighet snarare än ren dystopi."
+        ],
+        [
+          "Framtid – Judith Wolst",
+          "https://sv.wikipedia.org/wiki/Judith_Wolst",
+          "En bonusbok om framtid, teknik och samhällsutveckling."
+        ],
+        [
+          "Fermats gåta – Simon Singh",
+          "https://en.wikipedia.org/wiki/Simon_Singh",
+          "En lättläst och populärvetenskaplig bok om matematikens historia och jakten på Fermats sista sats. Talet 333 333 331, trehundratrettiotre miljoner trehundratrettiotre tusen trehundratrettioen."
+        ],
+        [
+          "Big Bang – Simon Singh",
+          "https://en.wikipedia.org/wiki/Simon_Singh",
+          "En bok om universums uppkomst och vetenskapshistoria."
+        ],
+        [
+          "Salvekvick och kvacksalveri – Simon Singh och Edzard Ernst",
+          "https://en.wikipedia.org/wiki/Simon_Singh",
+          "En bok om alternativmedicin och vetenskaplig granskning av påståenden."
+        ],
+        [
+          "The Simpsons and Their Mathematical Secrets – Simon Singh",
+          "https://en.wikipedia.org/wiki/Simon_Singh",
+          "En bok om matematiken som gömmer sig i The Simpsons och andra tv-referenser till tal och mönster."
+        ],
+        [
+          "Momo – eller kampen om tiden – Michael Ende",
+          "https://sv.wikipedia.org/wiki/Momo_eller_kampen_om_tiden",
+          "En klassisk barn- och ungdomsbok om tid, stress och hur människor luras att förlora det som verkligen betyder något."
+        ],
+        [
+          "Analfabeten som kunde räkna – Jonas Jonasson",
+          "https://sv.wikipedia.org/wiki/Analfabeten_som_kunde_r%C3%A4kna",
+          "En humoristisk och skruvad roman där matematik, makt och mänskligt värde blandas i en absurd resa genom världen."
+        ],
+        [
+          "Konsten att tänka klart,  Christer Sturmark",
+          "https://larafranlarda.com/konsten-att-tanka-klart-sturmark/",
+          "Även om vi människor har en unik kraft i vårt förnuft – att vi kan tänka, resonera och analysera – är det hemskt lätt att vi halkar snett i våra slutsatser. Vi kan snubbla på tankefel och vi kan tappa bort oss i resonemang som visar sig vara fel. Den här boken är tänkt som ett vaccin mot detta. Att stå bättre rustad mot felaktigheter och ohållbara resonemang och istället träna upp sin förmåga att tänka klart."
+        ],
+        [
+          "Liftarens guide till galaxen - Douglas Adams",
+          "https://sv.wikipedia.org/wiki/Liftarens_guide_till_galaxen",
+          "Det visar sig att planeten jorden enbart är ett experiment för att hitta \"den yttersta frågan om livet, universum och allting\". Svaret är 42, men frågan kan inte existera i samma universum som svaret. Om man inte förstår svaret på en fråga, behöver det inte vara svaret det är fel på, det kan lika gärna vara frågan som är felställd, konstaterar berättaren i boken."
+        ],
+        [
+          "The last Economy - Emad Mostaque",
+          "https://ii.inc/the-last-economy",
+          "En nedladdningsbar bok om hur AI kan göra dagens ekonomiska system föråldrat och tvinga fram helt nya sätt att mäta värde, arbete och välstånd."
+        ],
+        [
+          "Sapiens: A Brief History of Humankind – Yuval Noah Harari",
+          "https://en.wikipedia.org/wiki/Sapiens:A_Brief_History_of_Humankind",
+          "En bok om hur Homo sapiens blev jordens dominerande art, med fokus på språk, myter, samhällen och stora historiska skiften."
+        ],
+        [
+          "Homo Deus: A Brief History of Tomorrow – Yuval Noah Harari",
+          "https://en.wikipedia.org/wiki/Homo_Deus",
+          "En bok om möjliga framtider för mänskligheten när teknik, biologi och AI driver fram nya sätt att leva, arbeta och tänka."
+        ],
+        [
+          "21 Lessons for the 21st Century – Yuval Noah Harari",
+          "https://en.wikipedia.org/wiki/21_Lessons_for_the_21st_Century",
+          "En bok om vår tids stora frågor: arbete, nationalism, utbildning, teknologi, sanning och mening i en snabbt föränderlig värld."
+        ],
+        [
+          "Nexus – Yuval Noah Harari",
+          "https://en.wikipedia.org/wiki/Nexus:A_Brief_History_of_Information_Networks_from_the_Stone_Age_to_AI",
+          "En bok om informationsnätverk genom historien, från stenåldern till AI, och om hur de formar makt, kunskap och civilisationer."
+        ],
+        [
+          "Solve for Happy: Engineer Your Path to Joy – Mo Gawdat",
+          "https://www.mogawdat.com/books",
+          "En bok om lycka, där Gawdat försöker formulera ett praktiskt sätt att förstå och träna välmående."
+        ],
+        [
+          "1984,  George Orwell",
+          "https://sv.wikipedia.org/wiki/1984_(roman)",
+          "I Sanningsministeriet är protagonisten Winston Smith en tjänsteman som ansvarar för att bevara Partiets propaganda genom att ändra historien för att visa att Partiet alltid har rätt och är allvetande. Hans torftiga tillvaro desillusionerar honom till den grad att han vill göra uppror mot Storebror, som är Partiets ledare. Från 1984 har vi bland annat fått uttrycket \"Storebror ser dig\" (Big Brother is watching you)."
+        ]
+      ],
+      "anteckningar": "Hylla i biblioteket — 21 länkar, hämtade från ditt ark."
+    },
+    {
+      "id": "130-90",
+      "sektion": "130",
+      "titel": "Personer",
+      "text": "Ibland har jag bara en bokstav i minnet av ett namn jag har på tungan, Då är denna lista värdefull när jag vill hitta en person åter.",
+      "lankar": [
+        [
+          "Ada Lovelace",
+          "https://sv.wikipedia.org/wiki/Ada_Lovelace",
+          "Matematiker och pionjär. Skrev historiens allra första datoralgoritm (för Charles Babbages mekaniska dator) och räknas som världens första programmerare.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Adam Conover",
+          "https://en.wikipedia.org/wiki/Adam_Conover",
+          "Amerikansk komiker och samhällskritiker, känd för att granska teknikjättarnas makt och påverkan på samhället, bland annat genom videon 'How Google RUINED the Internet'.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Adrian Weller",
+          "https://en.wikipedia.org/wiki/Adrian_Weller",
+          "Forskare inom maskininlärning och etik. University of Cambridge",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Agnes Stenbom",
+          "https://se.linkedin.com/in/agnesstenbom",
+          "Chef för inkluderingslabbet IN/LAB och ansvarig för förtroendefrågor på Schibsted Media. Grundare av Nordic AI Journalism och utsedd till Årets AI-svensk 2024 för sitt arbete med AI, demokrati och inkludering.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "AI Samson",
+          "https://www.youtube.com/@aisamson",
+          "Innovativ AI-utvecklare och entreprenör som experimenterar med nya tillämpningar av generativ AI och automatisering.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Aicha Evans",
+          "https://en.wikipedia.org/wiki/Aicha_Evans",
+          "VD för Zoox (Amazon), ledande inom AI för självkörande fordon och framtidens mobilitet.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Aimee van Wynsberghe",
+          "https://en.wikipedia.org/wiki/Aimee_van_Wynsberghe",
+          "Medgrundare av Foundation for Responsible Robotics.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Alan Turing",
+          "https://sv.wikipedia.org/wiki/Alan_Turing",
+          "Matematiker och datalog, känd för Turing-testet och sina bidrag till datavetenskap och AI.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Alec Radford",
+          "https://en.wikipedia.org/wiki/Alec_Radford",
+          "En av OpenAI:s absolut viktigaste kärnforskare och hjärnan bakom arkitekturen för de tidiga GPT-modellerna samt CLIP. kvar på OpenAI",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Alex Krizhevsky",
+          "https://en.wikipedia.org/wiki/Alex_Krizhevsky",
+          "Skapare av AlexNet, ett banbrytande djupt neuralt nätverk. Jeff och Ilya",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Alex Ray",
+          "https://ssi.inc/",
+          "SSI, Safe Superintelligence Inc, https://ssi.inc/",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Alexander Sukharevsky",
+          "https://www.mckinsey.com/our-people/alexander-sukharevsky",
+          "Senior Partner på QuantumBlack (McKinsey & Company), ledande rådgivare inom tillämpad AI och data science för näringslivet.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Allie K. Miller",
+          "https://www.alliekmiller.com/",
+          "Tidigare Global Head of Machine Learning på AWS, nu AI-strateg och investerare. Känd för att driva AI-adoption och mentorprogram för kvinnor i tech.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Amanda Lagerkvist",
+          "https://www.katalog.uu.se/profil/?id=N19-217",
+          "Professor vid Uppsala universitet. Forskar kring de existentiella och filosofiska utmaningarna med samhällets digitalisering och AI.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Amy Loutfi",
+          "https://www.oru.se/personal/amy.loutfi",
+          "Professor i informationsteknologi vid Örebro universitet, ledande forskare inom AI och robotik, särskilt sensorintegration och människa-robot-interaktion.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Anca Dragan",
+          "https://en.wikipedia.org/wiki/Anca_Dragan",
+          "Biträdande professor vid UC Berkeley, forskar om människa-robot-interaktion.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Anders Bjarby",
+          "https://se.linkedin.com/in/andersbjarby",
+          "AI-entreprenör, föreläsare och medgrundare av podden 'Generativet' (tidigare 'Teknik i Akademi'). Känd för att göra AI konkret och tillgängligt för både företag och utbildning.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Anders Hansen",
+          "https://sv.wikipedia.org/wiki/Anders_Hansen_(psykiatriker)",
+          "Psykiatriker, författare och programledare för SVT-serien 'Smartare än hjärnan' där han utforskar AI:s påverkan på hjärnan, samhället och våra relationer.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Anders Rennermalm",
+          "https://se.linkedin.com/in/andersrennermalm",
+          "Interim IT-chef och förändringsledare, medgrundare av podden 'Så funkar AI'. Delar insikter om AI:s möjligheter och utmaningar för organisationer.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Anders Sandberg",
+          "https://en.wikipedia.org/wiki/Anders_Sandberg",
+          "Forskare vid Future of Humanity Institute, Oxford. Känd för sina framtidsspaningar om AI, existentiella risker och teknikens långsiktiga effekter på mänskligheten.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Anders Thoresson",
+          "https://www.ai.se/",
+          "Teknikjournalist och co-host för 'AI Sweden Podcast'. Fokuserar på AI:s påverkan på svenskt näringsliv och samhälle.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Andrej Karpathy",
+          "https://en.wikipedia.org/wiki/Andrej_Karpathy",
+          "Medgrundare av OpenAI och tidigare AI-chef på Tesla. Världskänd AI-utbildare som numera driver det egna AI-utbildningsbolaget Eureka Labs. Startade Eureka Labs 2024 men jobbar också på Anthropics",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Andrew Ng",
+          "https://en.wikipedia.org/wiki/Andrew_Ng",
+          "Grundare av Landing AI och deeplearning.ai.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Andy Berman",
+          "https://zapier.com/",
+          "the Director of AI at Zapier",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Andy Konwinski",
+          "https://www.perplexity.ai/",
+          "Perplexity",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Anima Anandkumar",
+          "https://en.wikipedia.org/wiki/Anima_Anandkumar",
+          "Bren Professor vid Caltech och chefforskare på NVIDIA, känd för arbete med tensoralgebra och djupinlärning.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Anna Eriksson",
+          "https://internetstiftelsen.se/",
+          "Chef för Data och analys på Internetstiftelsen, arbetar med att främja ett öppet och säkert internet och undersöker AI:s påverkan på samhället.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Anna Felländer",
+          "https://anch.ai/",
+          "Digitaliseringsekonom och grundare av AI Sustainability Center samt vd för anch.AI. Driver frågor om hållbar och etisk AI-utveckling i Sverige.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Anna Loverus",
+          "https://artificialhumanity.com/",
+          "Grundare av Artificial Humanity, föreläsare och rådgivare inom AI:s påverkan på samhälle och organisationer.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Anna Malmberg",
+          "https://ainnova.se/",
+          "Tidigare gymnasielärare i matematik och fysik, nu AI-entreprenör och grundare av AInnova AB. Brinner för att göra AI begripligt och användbart inom utbildning och vardagsliv.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Anna Nordell Westling",
+          "https://sanalabs.com/",
+          "Medgrundare av Sana Labs, ledande inom AI-driven utbildningsteknologi och personaliserat lärande.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Anna Patterson",
+          "https://en.wikipedia.org/wiki/Anna_Patterson",
+          "Vice President of Engineering på Google, fokuserar på AI och maskininlärning.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Anton Osika",
+          "https://lovable.dev/",
+          "AI-entreprenör och investerare, grundare av Depict.ai och Lovable. Bygger avancerade AI-produkter och rekommendationssystem.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Aravind Srinivas",
+          "https://en.wikipedia.org/wiki/Aravind_Srinivas",
+          "Perplexity",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Arthur Mensch",
+          "https://en.wikipedia.org/wiki/Arthur_Mensch",
+          "Medgrundare och VD för franska Mistral AI. Europas viktigaste AI-profil som utmanar Silicon Valley med öppna modeller.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Arvind Narayanan",
+          "https://en.wikipedia.org/wiki/Arvind_Narayanan",
+          "Princeton-forskare och medförfattare till AI Snake Oil. Viktig kritisk röst mot obefogad AI-hype.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Avital Oliver",
+          "https://ssi.inc/",
+          "SSI, Safe Superintelligence Inc, https://ssi.inc/",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Beth Lyons",
+          "https://www.linkedin.com/in/beth-lyons-ai",
+          "Data- och AI-specialist, konsult och utbildare med fokus på praktisk AI-tillämpning i företag och utbildning.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Björn Jeffery",
+          "https://www.svd.se/av/bjorn-jeffery",
+          "Teknikanalytiker och journalist, känd för sitt arbete med SvD Tech Brief där han bevakar AI-trender och digitalisering.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Bob Doyle Media",
+          "https://www.youtube.com/@BobDoyleMedia",
+          "Innehållsskapare och teknikentusiast som förklarar och testar AI-verktyg och framtidsteknik på ett lättillgängligt sätt.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Brian Greene",
+          "https://en.wikipedia.org/wiki/Brian_Greene",
+          "Fysiker och författare, känd för sitt arbete med strängteori.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Brie Kirbyson",
+          "https://x.com/briekirbyson",
+          "Teknikinfluencer och förespråkare för kvinnors synlighet och inflytande inom AI, särskilt aktiv på socialer medier.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Carla Gomes",
+          "https://en.wikipedia.org/wiki/Carla_Gomes",
+          "Professor vid Cornell, expert på hållbar AI.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Carol Reiley",
+          "https://en.wikipedia.org/wiki/Carol_Reiley",
+          "Medgrundare och president för Drive.ai, utvecklar teknologi för självkörande bilar.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Carolin Runnquist",
+          "https://se.linkedin.com/in/carolinrunnquist",
+          "Chef för Channel Experience and Governance på Swedbank, utsedd till årets IT-kvinna och TEDx-talare om digitalisering och AI.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Cassie Kozyrkov",
+          "https://en.wikipedia.org/wiki/Cassie_Kozyrkov",
+          "Chief Decision Scientist på Google Cloud, gör AI mer tillgängligt för företag.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Catherine Olsson",
+          "https://ssi.inc/",
+          "SSI, Safe Superintelligence Inc, https://ssi.inc/",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Chelsea Finn",
+          "https://en.wikipedia.org/wiki/Chelsea_Finn",
+          "Biträdande professor vid Stanford, forskar om maskininlärning för robotik.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Claes Lönegård",
+          "https://www.svd.se/av/claes-lonegard",
+          "Teknikjournalist och analytiker, medredaktör för SvD Tech Brief med fokus på AI, teknik och samhällsutveckling.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Craig Quiter",
+          "https://ssi.inc/",
+          "SSI, Safe Superintelligence Inc, https://ssi.inc/",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Creator Magic",
+          "https://www.creatormagic.com/",
+          "YouTuber och kreatör som visar hur AI kan användas inom konst, musik och storytelling.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Cynthia Breazeal",
+          "https://en.wikipedia.org/wiki/Cynthia_Breazeal",
+          "Professor vid MIT Media Lab, pionjär inom social robotik och människa–robot-interaktion. Grundare av Jibo, världens första sociala robot.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Cynthia Rudin",
+          "https://en.wikipedia.org/wiki/Cynthia_Rudin",
+          "Professor vid Duke, expert på tolkningsbar ML.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Dame Wendy Hall",
+          "https://en.wikipedia.org/wiki/Wendy_Hall",
+          "Professor och pionjär inom AI och web science. Rådgivare åt brittiska regeringen och FN, med fokus på etik och policy inom AI.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Dan Hasson",
+          "https://danhasson.se/",
+          "Föreläsare och forskare, betonar vikten av datakvalitet och etik i AI-utveckling. Känd för sitt arbete kring AI och arbetsmiljö.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Dan Leeman",
+          "https://www.youtube.com/@DanLeeman",
+          "Teknikpedagog och YouTuber, specialiserad på att testa och förklara verktyg som Zapier, AI-appar och automatisering.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Danel Kokotajlo",
+          "https://x.com/danielkokotajlo",
+          "AI-forskare med fokus på maskininlärning, framtidsscenarier och AI-säkerhet.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Danica Kragic Jensfelt",
+          "https://sv.wikipedia.org/wiki/Danica_Kragic",
+          "Professor i datalogi vid KTH, världsledande expert inom robotik och datorseende. Utnämnd till ”Årets AI svensk 2021”.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Daniel Gillblad",
+          "https://www.ai.se/sv/om-oss/kontakt/daniel-gillblad",
+          "Co-Director på AI Sweden. En av Sveriges tyngsta röster och beslutsfattare inom nationell AI-forskning och strategi.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Daniela Amodei",
+          "https://en.wikipedia.org/wiki/Daniela_Amodei",
+          "Medgrundare och president för Anthropic, ledande inom AI-säkerhet och utveckling av etiska AI-system som Claude.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Daniela Rus",
+          "https://en.wikipedia.org/wiki/Daniela_Rus",
+          "Direktör för MIT CSAIL, forskar om självkonfigurerande robotar.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Danny Stacey",
+          "https://se.linkedin.com/in/danny-stacey",
+          "Värd för podden 'AI snack', där han tillsammans med Joel Rangsjö och Jonatan Tensetti diskuterar AI-verktyg och utveckling.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Daphne Koller",
+          "https://en.wikipedia.org/wiki/Daphne_Koller",
+          "Professor vid Stanford och medgrundare av Coursera och Insitro. Ledande inom AI för utbildning och biomedicin.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Dario Amodei",
+          "https://en.wikipedia.org/wiki/Dario_Amodei",
+          "Medgrundare och VD för Anthropic. Tidigare forskningschef på OpenAI som hoppade av för att bygga säkra och etiska AI-system (Claude).",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Darja Isaksson",
+          "https://sv.wikipedia.org/wiki/Darja_Isaksson",
+          "Generaldirektör för Vinnova, Sveriges innovationsmyndighet, som stödjer AI-forskning och innovation.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "David Holz",
+          "https://en.wikipedia.org/wiki/David_Holz",
+          "Grundare av Midjourney. Har på egen hand revolutionerat generativ AI för bildskapande utan externt riskkapital.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "David Ondrej",
+          "https://www.youtube.com/@DavidOndrej",
+          "Datavetare och AI-innovatör som delar insikter om AI-utveckling och applikationer.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Dawn Song",
+          "https://en.wikipedia.org/wiki/Dawn_Song",
+          "Professor vid UC Berkeley, forskar om datasäkerhet och blockkedjeteknik.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Demis Hassabis",
+          "https://en.wikipedia.org/wiki/Demis_Hassabis",
+          "Grundare och VD för DeepMind. Nobelpristagare och den kanske allra mest kunniga och pålitliga i sitt fält",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Denis Yarats",
+          "https://www.perplexity.ai/",
+          "Perplexity",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Devi Parikh",
+          "https://en.wikipedia.org/wiki/Devi_Parikh",
+          "Forskningsledare vid Meta AI och biträdande professor vid Georgia Tech.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Doina Precup",
+          "https://en.wikipedia.org/wiki/Doina_Precup",
+          "Professor i datavetenskap vid McGill University och DeepMind, expert på förstärkningsinlärning.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Dora Palfi",
+          "https://imagilabs.com/",
+          "Medgrundare och VD för imagiLabs, arbetar för att öka tjejers intresse för teknik och AI, Forbes 30 Under 30-pristagare.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Dorothy Vaughan",
+          "https://sv.wikipedia.org/wiki/Dorothy_Vaughan",
+          "Dorothy Vaughan såg framtiden komma och lärde sig programmering innan nästan någon annan gjorde det.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Dr Waku",
+          "https://www.youtube.com/@DrWaku",
+          "Forskare inom datasäkerhet och AI, känd för att skapa innehåll om cybersäkerhet och AI:s samhällspåverkan.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Dustin W. Stout",
+          "https://magai.co/",
+          "https://magai.co/",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Dwarkesh Patel",
+          "https://www.dwarkeshpatel.com/",
+          "Värd för Dwarkesh Podcast, den ledande djupgående intervjupodden med världens främsta AI-forskare och tech-VD:ar.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Dylan Curious",
+          "https://www.youtube.com/@DylanCurious",
+          "Teknikinfluencer och AI-entusiast som utforskar nya AI-verktyg och teknologier på sociala medier.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Ece Kamar",
+          "https://www.microsoft.com/en-us/research/people/eckamar/",
+          "Senior forskare inom AI vid Microsoft Research.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Elieser Shlomo Yudkowsky",
+          "https://sv.wikipedia.org/wiki/Eliezer_Yudkowsky",
+          "född 11 september 1979, är en amerikansk artificiell intelligens-forskare, känd för att ha populariserat idén om vänlig artificiell …",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Elinor Samuelsson",
+          "https://brightact.org/",
+          "Grundare av BrightAct, bygger AI-baserad teknik för att bekämpa våld i hemmet och digital innovation inom offentlig sektor.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Elon Musk",
+          "https://en.wikipedia.org/wiki/Elon_Musk",
+          "Grundare av Tesla och SpaceX.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Erik Winerö",
+          "https://winero.se/",
+          "Talare och utbildare inom AI, ofta gäst i AI-poddar där han hjälper företag och organisationer att förstå och implementera AI-lösningar.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Ethan Mollick",
+          "https://en.wikipedia.org/wiki/Ethan_Mollick",
+          "Professor vid Wharton. Världens främsta röst kring hur AI faktiskt påverkar arbetslivet och praktisk produktivitet. Nyhetsbrevet One Useful Thing.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Evelina Galli",
+          "https://se.linkedin.com/in/evelinagalli",
+          "Teknikjournalist och programledare för P3 Tech, gör AI och teknik tillgängligt för en bred publik.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Ewa Dominowska",
+          "https://se.linkedin.com/in/ewadominowska",
+          "Forskningschef inom AI vid Meta.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Fabian Hedin",
+          "https://sv.wikipedia.org/wiki/Fabian_Hedin",
+          "Svensk AI-entreprenör och CTO. Medgrundare av AI-succén Lovable som demokratiserar mjukvarubygge via vibe-kodning. Utsedd till Årets AI-svensk 2025.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Fei-Fei Li",
+          "https://en.wikipedia.org/wiki/Fei-Fei_Li",
+          "Professor vid Stanford, pionjär inom datorseende och grundare av AI4ALL. Utvecklade ImageNet och har haft ledande roller på Google Cloud.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "François Chollet",
+          "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Chollet",
+          "Skapare av Keras, ett populärt djupinlärningsbibliotek.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Fredrik Ahlgren",
+          "https://lnu.se/personal/fredrik.ahlgren/",
+          "Universitetslektor och forskare inom IoT och AI, medgrundare av podden 'Generativet' (tidigare 'Teknik i Akademi').",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Fredrik Heintz",
+          "https://liu.se/personal/frehe",
+          "Professor vi datavetenskap vid Linköpings universitet. Leder stora EU-initiativ och är regeringens primära AI-rådgivare.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Frida Mangen",
+          "https://mangenmahlberg.se/",
+          "Medgrundare av podden ”AI för folket”, diskuterar AI ur ett samhälls- och ledarperspektiv.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Gary Marcus",
+          "https://en.wikipedia.org/wiki/Gary_Marcus",
+          "Professor i psykologi och neurovetenskap vid NYU och en kritiker av nuvarande AI-metoder.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Geoffrey Hinton",
+          "https://en.wikipedia.org/wiki/Geoffrey_Hinton",
+          "”Gudfadern av djupinlärning” – 2024 års Nobelpristagare i fysik tillsammans med John Hopfield. Stort GRATTIS! Nästa år vinner Fei-Fei Li",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Gerd Leonhard",
+          "https://www.futuristgerd.com/",
+          "lite lik Dario Amodei men ändå inte, Futurist.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Grace Hopper",
+          "https://sv.wikipedia.org/wiki/Grace_Hopper",
+          "Datavetare och flottist. Uppfann den första kompilatorn, lade grunden för programspråket COBOL och myntade termen \"bugg\".",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Grace Leung",
+          "https://www.linkedin.com/in/grace-leung-tech",
+          "Datavetare och AI-forskare, aktiv inom maskininlärning och AI-utbildning.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Grant Sanderson (3Blue1Brown)",
+          "https://en.wikipedia.org/wiki/3Blue1Brown",
+          "Matematiker och populär YouTuber som visualiserar matematiska och AI-relaterade koncept på ett pedagogiskt sätt.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Greg Brockman",
+          "https://en.wikipedia.org/wiki/Greg_Brockman",
+          "Medgrundare och president för OpenAI. Spelat en helt avgörande roll för att skala upp teknologin bakom ChatGPT och GPT-4. lite av en president för OpenAI",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Greg Isenberg",
+          "https://x.com/gregisenberg",
+          "Entreprenör och produktdesigner som automatiserar arbetsflöden och delar AI-tips för företagare.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Harper Carroll",
+          "https://www.youtube.com/@harpercarroll",
+          "AI/ML-ingenjör, utbildare och rådgivare. Känd för att göra AI och maskininlärning tillgängligt för en bred publik.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Harri Edwards",
+          "https://ssi.inc/",
+          "SSI, Safe Superintelligence Inc, https://ssi.inc/",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Harrison Kinsley (Sentdex)",
+          "https://www.youtube.com/@sentdex",
+          "En av YouTubes mest klassiska programmeringsprofiler som lär ut djupinlärning och neurala nätverk från grunden i Python.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Hayls World",
+          "https://www.youtube.com/@HaylsWorld",
+          "Brittisk tech-YouTuber med fokus på AI, produktivitet och digitala verktyg, känd för lättillgängliga guider.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Hedvig Kjellström",
+          "https://sv.wikipedia.org/wiki/Hedvig_Kjellstr%C3%B6m",
+          "Professor på KTH. En av Sveriges främsta forskare inom datorseende, robotik och maskininlärning.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Helen Meng",
+          "https://en.wikipedia.org/wiki/Helen_Meng",
+          "Professor vid CUHK, framstående expert inom flerspråkig talbehandling, människa-datorinteraktion och AI-arkitekturer.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Helena Lindgren",
+          "https://www.umu.se/personal/helena-lindgren/",
+          "Professor i datavetenskap vid Umeå universitet, forskar om människocentrerad AI och människa-AI-samarbete, särskilt inom hälso- och sjukvård.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Henrik Kniberg",
+          "https://www.crisp.se/konsulter/henrik-kniberg",
+          "Författare, föreläsare och konsult. Känd för att göra komplex AI och teknik lättförståelig, ofta med fokus på agila metoder och innovation.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Ian Beacraft",
+          "https://www.linkedin.com/in/ianbeacraft",
+          "Forskare inom maskininlärning.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Ian Goodfellow",
+          "https://en.wikipedia.org/wiki/Ian_Goodfellow",
+          "Forskare inom djupinlärning, känd för GANs och upphovsman för Deepfakes",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Igor Pogany",
+          "https://www.youtube.com/@IgorPogany",
+          "AI-ingenjör och utvecklare, känd för sin överblick över AI-verktyg och ranking av nya appar.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Ilya Sutskever",
+          "https://en.wikipedia.org/wiki/Ilya_Sutskever",
+          "SSI, Safe Superintelligence Inc, https://ssi.inc/",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Irina Rish",
+          "https://en.wikipedia.org/wiki/Irina_Rish",
+          "Professor at University of Montreal, forskare vid Mila.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Jack Hidary",
+          "https://en.wikipedia.org/wiki/Jack_Hidary",
+          "VD för SandboxAQ, driver innovation inom AI och kvantteknik för företag och myndigheter.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Jakob Iwars",
+          "https://se.linkedin.com/in/jakobiwars",
+          "Jurist och expert på AI-juridik, hjälper företag att navigera lagstiftning och etiska frågor kring AI.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Jaron Zepel Lanier",
+          "https://sv.wikipedia.org/wiki/Jaron_Lanier",
+          "är en amerikansk datavetenskapsman, visuell konstnär, författare inom datafilosofi, teknolog, futurist.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Jay Kreps",
+          "https://en.wikipedia.org/wiki/Jay_Kreps",
+          "Anthropic Board of Director",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Jeanette Nilsson",
+          "https://www.ri.se/sv/person/jeanette-nilsson",
+          "Projektledare för AI på RISE, driver nationella och internationella AI-initiativ och samarbeten. Nominerad till Årets AI-svensk 2022.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Jeff Bezos",
+          "https://en.wikipedia.org/wiki/Jeff_Bezos",
+          "Grundare och VD för Amazon, ett företag som använder AI i stor utsträckning.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Jeff Dean",
+          "https://en.wikipedia.org/wiki/Jeff_Dean",
+          "Chief AI Scientist på Google.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Jennifer Alvén",
+          "https://www.chalmers.se/personer/alvenj/",
+          "Doktorand på Chalmers, forskar om medicinsk bildanalys med hjälp av AI.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Jennifer Marie VO",
+          "https://www.youtube.com/@JenniferMarieVO",
+          "Röstskådespelare och AI-entusiast som utforskar AI:s potential inom underhållning och röstteknologi.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Jens Nylander",
+          "https://jensnylander.com/",
+          "Undersökande journalist som använder AI för att granska företag, myndigheter och samhällsfrågor, ofta medverkat i AI-poddar.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Jeremy Howard",
+          "https://en.wikipedia.org/wiki/Jeremy_Howard_(entrepreneur)",
+          "Grundare till https://www.fast.ai/ och https://answerai.tech/",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Jessa (I versus AI)",
+          "https://www.youtube.com/@iversusai",
+          "Skapare av YouTube-kanalen ”I versus AI” där hon testar och utvärderar AI-verktyg och teknologier.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Jim Keller",
+          "https://en.wikipedia.org/wiki/Jim_Keller_(engineer)",
+          "VD för Tenstorrent, legendarisk ingenjör bakom flera banbrytande AI-chip och hårdvaruplattformar.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Joakim Jardenberg",
+          "https://jardenberg.se/",
+          "Teknikdebattör och poddare, driver 'En sak idag' där han diskuterar AI, digitalisering och samhällstrender.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Joel Hellermark",
+          "https://sanalabs.com/ai-reform",
+          "”Svenska AI-reformen” https://sanalabs.com/ai-reform https://www.di.se/digital/miljontals-svenskar-far-gratis-ai-miljardarerna-bidrar/",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Joel Hellermark",
+          "https://sanalabs.com/",
+          "Joel Hellermark",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Joel Rangsjö",
+          "https://se.linkedin.com/in/joel-rangsj%C3%B6",
+          "Värd för 'AI snack', där han diskuterar AI-utveckling och trender tillsammans med Danny Stacey och Jonatan Tensetti.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Joelle Pineau",
+          "https://en.wikipedia.org/wiki/Joelle_Pineau",
+          "AI-forskare och chef för Meta AI Research, expert på maskininlärning och AI för hälsa.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Joelle Pineau",
+          "https://en.wikipedia.org/wiki/Joelle_Pineau",
+          "Medgrundare och co-managing director för Facebook AI Research (FAIR) Montreal.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Johan Falk",
+          "https://se.linkedin.com/in/johan-falk-9a5bb73",
+          "AI-utbildare och föreläsare, medgrundare av podden 'Generativet', känd för att göra AI tillgängligt för nybörjare och skolor.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Johan Leitet",
+          "https://lnu.se/personal/johan.leitet/",
+          "Universitetsadjunkt, programansvarig för Webbprogrammerare och medgrundare av podden 'Generativet' (tidigare 'Teknik i Akademi').",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Johanna Bergman",
+          "https://www.ai.se/sv/om-oss/kontakt/johanna-bergman",
+          "Projektledare på AI Sweden, arbetar med AI-implementering i offentlig sektor.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "John Hopfield",
+          "https://en.wikipedia.org/wiki/John_Hopfield",
+          "2024 års Nobelpristagare i fysik tillsammans med Geoffery Hilton. Stort GRATTIS! Nästa år vinner Fei-Fei Li",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "John McCarthy",
+          "https://sv.wikipedia.org/wiki/John_McCarthy",
+          "Myntade termen ”artificiell intelligens” och var en ledande figur inom området.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Johnny Ho",
+          "https://www.perplexity.ai/",
+          "Perplexity",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Jonas Schneider",
+          "https://ssi.inc/",
+          "SSI, Safe Superintelligence Inc, https://ssi.inc/",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Jonatan Ho",
+          "https://ssi.inc/",
+          "SSI, Safe Superintelligence Inc, https://ssi.inc/",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Jonatan Tensetti",
+          "https://se.linkedin.com/in/jonatan-tensetti",
+          "Värd för 'AI snack', där han tillsammans med Joel Rangsjö och Danny Stacey diskuterar AI-verktyg och utveckling.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Josefin Rosén",
+          "https://se.linkedin.com/in/josefinrosen",
+          "AI & Data Science Lead på SAS Institute, ofta omnämnd i branschmedia och finalist till Årets AI-svensk 2022.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Josefine Rembsgård",
+          "https://www.ai.se/",
+          "Legal koordinator på AI Sweden, expert på juridiska frågor kopplade till AI.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Joshua Tenenbaum",
+          "https://en.wikipedia.org/wiki/Joshua_Tenenbaum",
+          "Professor i kognitiv vetenskap och AI vid MIT.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Joy Buolamwini",
+          "https://en.wikipedia.org/wiki/Joy_Buolamwini",
+          "Grundare av Algorithmic Justice League, känd för sitt arbete med AI och rättvisa i ansiktsigenkänning.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Joy Buolamwini",
+          "https://en.wikipedia.org/wiki/Joy_Buolamwini",
+          "Grundare av Algorithmic Justice League, en organisation som strävar efter att stoppa den skadliga användningen av AI genom att identifiera bias i algoritmer.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Judea Pearl",
+          "https://en.wikipedia.org/wiki/Judea_Pearl",
+          "Datavetenskapare och filosof, känd för sitt arbete med kausal inferens.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Judy Wajcman",
+          "https://en.wikipedia.org/wiki/Judy_Wajcman",
+          "Professor vid London School of Economics, forskar om teknikens sociala påverkan.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Julia McCoy",
+          "https://juliamccoy.com/",
+          "Entreprenör, bästsäljande författare och ledande inom AI-driven innehållsmarknadsföring.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Justin Johnsson",
+          "https://web.eecs.umich.edu/~justjn/",
+          "Elev till Fe-Fei Li och jobbarkompis med Andrew K",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Jutta Haider",
+          "https://www.hb.se/forskning/forskare/jutta-haider/",
+          "Professor i biblioteks- och informationsvetenskap, forskar om algoritmer, AI och digital informationskompetens.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Jürgen Schmidhuber",
+          "https://en.wikipedia.org/wiki/J%C3%BCrgen_Schmidhuber",
+          "En pionjär inom artificiella neurala nätverk och djupinlärning.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Karen Hao",
+          "https://www.karenhao.com/",
+          "Senior AI-reporter på MIT Technology Review.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Katarina Gospic",
+          "https://sv.wikipedia.org/wiki/Katarina_Gospic",
+          "Neuroforskare, författare och föreläsare, känd för att förklainkludera hjärnans och AI:s roll i beslutsfattande och ledarskap.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Kate Crawford",
+          "https://en.wikipedia.org/wiki/Kate_Crawford",
+          "Huvudforskare på Microsoft Research, professor vid USC Annenberg och medgrundare av AI Now Institute. Fokuserar på AI:s sociala och etiska konsekvenser.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Kate Crawford",
+          "https://en.wikipedia.org/wiki/Kate_Crawford",
+          "Medgrundare av AI Now Institute, forskar om AI:s sociala effekter.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Kate Darling",
+          "https://en.wikipedia.org/wiki/Kate_Darling",
+          "Forskare vid MIT Media Lab, expert på robotik och policy.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Katherine Johnson",
+          "https://sv.wikipedia.org/wiki/Katherine_Johnson",
+          "Katherine Johnson räknade fram banorna för NASA:s rymdfärder.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Kay Firth-Butterfield",
+          "https://en.wikipedia.org/wiki/Kay_Firth-Butterfield",
+          "Första Chief AI Ethics Officer, CEO för Good Tech Advisory och rådgivare till regeringar och FN om AI-policy och etik.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Kevin Hutson",
+          "https://www.futurepedia.io/",
+          "Grundare av Futurepedia, en av de största resurserna för AI-nyheter och verktyg online.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Kevin Stratvert",
+          "https://www.youtube.com/@KevinStratvert",
+          "Tidigare Microsoft-ingenjör och YouTuber som gör pedagogiska guider om AI, produktivitet och teknik.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Kim Elman",
+          "https://www.ri.se/sv/person/kim-elman",
+          "Chef för Centrum för cybersäkerhet på RISE, expert på AI-säkerhet och digital infrastruktur, ibland gäst i AI-poddar.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Kristina Alexanderson",
+          "https://internetstiftelsen.se/",
+          "Ansvarig för Internetstiftelsens skolsatsningar, expert på digital kompetens och källkritik i skolan.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Kristina Höök",
+          "https://sv.wikipedia.org/wiki/Kristina_H%C3%B6%C3%B6k",
+          "Professor i interaktionsdesign vid KTH, pionjär inom människa-datorinteraktion och affektiv computing.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Kristina Knaving",
+          "https://www.ri.se/sv/person/kristina-knaving",
+          "Senior forskare och fokusområdesledare på RISE. Arbetar med AI-etik, generativ AI och användarcentrerad design. Föreläser om AI:s påverkan på individ, samhälle och demokrati.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Liam Ottley",
+          "https://www.youtube.com/@LiamOttley",
+          "AI-strateg och rådgivare, hjälper företag att implementera AI-lösningar och optimera arbetsflöden.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Lina Gebäck",
+          "https://gavagai.io/",
+          "Grundare och VD för AI-företaget Gavagai, utvecklar teknik för textanalys och språkförståelse.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Linda Hellström",
+          "https://siftlab.com/",
+          "VD för Sift Lab, driver AI-utveckling med fokus på hållbarhet och inkludering.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Linda Liukas",
+          "https://en.wikipedia.org/wiki/Linda_Liukas",
+          "Finsk programmerare, illustratör och författare av barnböcker om kodning. Grundare av Rails Girls.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Lisa Anger",
+          "https://se.linkedin.com/in/lisa-anger",
+          "Arbetar med AI inom samhällsbyggnad, föreläser om AI och stadsutveckling.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Lisa Su",
+          "https://en.wikipedia.org/wiki/Lisa_Su",
+          "Miljardär företagsledare, datavetare och elektroingenjör VD för halvledarföretaget Advanced Micro Devices. Kusin med Jensen Huang på Nvidia",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Louise Callenberg",
+          "https://se.linkedin.com/in/louisecallenberg",
+          "Styrelseledamot i AI Sweden och aktiv inom DIGG:s AI-referensgrupp, arbetar med AI-agendan för Sverige.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Lukaz Kaiser",
+          "https://en.wikipedia.org/wiki/Lukasz_Kaiser",
+          "Attention is all you need, Lead rearcher at OPENAI",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Magnus Paues",
+          "https://se.linkedin.com/in/magnuspaues",
+          "Värd för 'Veckans AI', där han tillsammans med Fredrik Hanefalk diskuterar veckans viktigaste AI-nyheter.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Malin Blomberg",
+          "https://zimply.ai/",
+          "VD för Zimply.ai, driver AI-utveckling med fokus på inkludering och hållbarhet.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Margaret Mitchell",
+          "https://en.wikipedia.org/wiki/Margaret_Mitchell_(scientist)",
+          "Forskare inom AI-etik. Startade Googles etiska AI-team tillsammans med Timnit Gebru och leder nu etikarbetet på Hugging Face.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Maria Rivero",
+          "https://ju.se/personer/maria-rivero.html",
+          "Docent i datavetenskap vid Jönköping University, forskar om explainable AI och etik.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Marika Jonsson",
+          "https://se.linkedin.com/in/marikajonsson",
+          "Utvecklingsledare på Habilitering & Hälsa, doktorand vid KTH, författare till lättläst bok om AI.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Mark Kashef",
+          "https://www.youtube.com/@MarkKashef",
+          "Kodens mästare och fantastiska tutorials om hur man automatiserar",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Mark Solms",
+          "https://en.wikipedia.org/wiki/Mark_Solms",
+          "Jobar envist på att göra maskikiner medvetna och inkännande",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Mark Zuckerberg",
+          "https://sv.wikipedia.org/wiki/Mark_Zuckerberg",
+          "Grundare och VD för Meta",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Martha White",
+          "https://www.ualberta.ca/en/computing-science/people/faculty/martha-white.html",
+          "Forskare vid Google Brain, ledande expert inom naturlig språkbehandling.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Marvin Minsky",
+          "https://sv.wikipedia.org/wiki/Marvin_Minsky",
+          "En av grundarna av MIT:s AI-laboratorium och en pionjär inom artificiell intelligens.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Mary Jackson",
+          "https://sv.wikipedia.org/wiki/Mary_Jackson",
+          "Mary Jackson blev NASA:s första svarta kvinnliga ingenjör.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Mats Mårtensson",
+          "https://keyman.se/",
+          "VD på Keyman, tipsar om AI-verktyg och diskuterar AI:s roll i arbetslivet, bl.a. i podden 'Så funkar AI'.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Matt Wolfe",
+          "https://www.youtube.com/@mwtuts",
+          "Teknikbloggare och YouTuber som testar och recenserar de senaste AI-verktygen och plattformarna.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Matthew Berman",
+          "https://www.youtube.com/@matthew_berman",
+          "Teknikanalytiker som förklarar och undersöker både öppna och slutna språkmodeller (LLM).",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "MattVidPro AI",
+          "https://www.youtube.com/@MattVidPro",
+          "YouTuber och AI-entusiast som jämför och analyserar olika AI-modeller och deras prestanda.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Max Tegmark",
+          "https://sv.wikipedia.org/wiki/Max_Tegmark",
+          "Max Tegmark, vår svenska kämpe inom AI och fysik",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Max Welling",
+          "https://en.wikipedia.org/wiki/Max_Welling",
+          "Forskare inom maskininlärning och djupinlärning. University of Amsterdam",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "metricsmule",
+          "https://x.com/metricsmule",
+          "Dataanalytiker och AI-specialist som delar tips om datadriven AI-utveckling.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Mira Murati",
+          "https://en.wikipedia.org/wiki/Mira_Murati",
+          "CTO på OpenAI, ledande utvecklare av ChatGPT, GPT-4 och DALL·E. Har även drivit AI-utveckling på Tesla.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Mirella Lapata",
+          "https://en.wikipedia.org/wiki/Mirella_Lapata",
+          "Professor vid University of Edinburgh, expert på NLP.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Mo Gawdat",
+          "https://en.wikipedia.org/wiki/Mo_Gawdat",
+          "Tidigare chief Business Officer på Google",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Mounia Lalmas",
+          "https://en.wikipedia.org/wiki/Mounia_Lalmas",
+          "Forskningschef vid Spotify inom rekommendationssystem.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Mustafa Suleyman",
+          "https://en.wikipedia.org/wiki/Mustafa_Suleyman",
+          "Medgrundare av DeepMind.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Naomi Wu",
+          "https://en.wikipedia.org/wiki/Naomi_Wu",
+          "Kinesisk maker och YouTuber med över en miljon följare. Skapar videor om robotik, AI och teknikprojekt för DIY-communityn.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Nick Bostrom",
+          "https://sv.wikipedia.org/wiki/Nick_Bostrom",
+          "Niklas Boström – svensk filosof verksam vid Oxfords universitet",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Nick Jalbert",
+          "https://www.perplexity.ai/",
+          "Perplexity",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Nils Janse",
+          "https://se.linkedin.com/in/nilsjanse",
+          "Strateg och föreläsare, känd för sina AI-reflektioner och ibland gäst i AI-poddar.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Nina Schick",
+          "https://www.ninaschick.org/",
+          "Expert på generativ AI, författare till ”DEEPFAKES: The Coming Infocalypse” och rådgivare kring AI:s påverkan på samhälle och demokrati.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Nuria Oliver",
+          "https://en.wikipedia.org/wiki/Nuria_Oliver",
+          "Chief Data Scientist vid Data-Pop Alliance, medgrundare av ELLIS.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Olga Russakovsky",
+          "https://en.wikipedia.org/wiki/Olga_Russakovsky",
+          "Biträdande professor vid Princeton, medgrundare av AI4ALL.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Olof Hernell",
+          "https://sanalabs.com/ai-reform",
+          "”Svenska AI-reformen” https://sanalabs.com/ai-reform https://www.di.se/digital/miljontals-svenskar-far-gratis-ai-miljardarerna-bidrar/",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Pascale Fung",
+          "https://en.wikipedia.org/wiki/Pascale_Fung",
+          "Professor vid HKUST, expert på emotionell och flerspråkig AI.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Peder Lindencrona",
+          "https://se.linkedin.com/in/pederlindencrona",
+          "Medgrundare av podden 'Så funkar AI', IT-entreprenör och rådgivare kring AI i företag.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Peter Deng",
+          "https://en.wikipedia.org/wiki/Peter_Deng",
+          "Tidigare produktchef på Facebook.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Peter Kurzwelly",
+          "https://www.ai.se/",
+          "Medgrundare och värd för 'AI Sweden Podcast', intervjuar experter och sprider kunskap om AI i Sverige.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Pieter Abbeel",
+          "https://en.wikipedia.org/wiki/Pieter_Abbeel",
+          "Professor i robotik och AI vid UC Berkeley.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Pietro Schirano",
+          "https://x.com/skrano",
+          "Maskininlärningsexpert och AI-utvecklare, känd för att bygga och förklara praktiska AI-lösningar.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Prem Akkaraju",
+          "https://en.wikipedia.org/wiki/Prem_Akkaraju",
+          "VD för Stability AI, ledande inom generativ AI och skapare av bildmodellen Stable Diffusion.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Pushmeet Kohli",
+          "https://www.pushmeetkohli.org/",
+          "Forskare inom AI och robotik. DeepMind",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Rachel Thomas",
+          "https://en.wikipedia.org/wiki/Rachel_Thomas_(tech_founder)",
+          "Medgrundare av fast.ai, erbjuder onlinekurser i djupinlärning.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Rada Mihalcea",
+          "https://en.wikipedia.org/wiki/Rada_Mihalcea",
+          "Professor vid University of Michigan, Director of Michigan AI Lab.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Rafal Jozefowicz",
+          "https://ssi.inc/",
+          "SSI, Safe Superintelligence Inc, https://ssi.inc/",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Raia Hadsell",
+          "https://en.wikipedia.org/wiki/Raia_Hadsell",
+          "Senior Director of Robotics and AI Research vid DeepMind.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Ramin Hasani",
+          "https://en.wikipedia.org/wiki/Ramin_Hasani",
+          "Medgrundare och VD för Liquid AI, forskare vid MIT och pionjär inom nästa generations AI-arkitekturer.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Rana el Kaliouby",
+          "https://en.wikipedia.org/wiki/Rana_el_Kaliouby",
+          "Medgrundare och tidigare VD för Affectiva, ledande inom emotionell AI. Forskare och förespråkare för AI som förstår mänskliga känslor.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Raquel Urtasun",
+          "https://en.wikipedia.org/wiki/Raquel_Urtasun",
+          "Professor vid University of Toronto, Chief Scientist för Uber ATG.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Raymond Kurzweil",
+          "https://sv.wikipedia.org/wiki/Ray_Kurzweil",
+          "Raymond ”Ray” Kurzweil- Singularity",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Regina Barzilay",
+          "https://en.wikipedia.org/wiki/Regina_Barzilay",
+          "Professor vid MIT, använder ML för att förbättra cancerdiagnostik.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Riley Brown",
+          "https://www.youtube.com/@rileybrownai",
+          "Programmerare och AI-expert, särskilt uppskattad bland kodare för sina pedagogiska genomgångar.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Rodney Brooks",
+          "https://en.wikipedia.org/wiki/Rodney_Brooks",
+          "Professor emeritus vid MIT och en pionjär inom robotik och artificiell intelligens.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Rosalind Picard",
+          "https://en.wikipedia.org/wiki/Rosalind_Picard",
+          "Professor vid MIT, grundare av Affective Computing research.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Ruslan Salakhutdinov",
+          "https://en.wikipedia.org/wiki/Ruslan_Salakhutdinov",
+          "Professor i maskininlärning vid Carnegie Mellon University.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Sabine Hossenfelder",
+          "https://en.wikipedia.org/wiki/Sabine_Hossenfelder",
+          "Teoretisk fysiker och populär YouTuber som förklarar AI, vetenskap och teknik för en bred publik.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Sade Bell",
+          "https://www.linkedin.com/in/sadebell",
+          "Futurist och tänkare med fokus på AI:s samhällspåverkan och framtidens arbetsliv.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Sal Khan",
+          "https://en.wikipedia.org/wiki/Sal_Khan",
+          "Grundare av Khan Academy, en onlineutbildningsplattform.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Salman Avestimehr",
+          "https://www.avestimehr.com/",
+          "Professor i elektroteknik och datavetenskap vid University of Southern California.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Sam Altman",
+          "https://en.wikipedia.org/wiki/Sam_Altman",
+          "VD för OpenAI.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Samaneh Utter",
+          "https://se.linkedin.com/in/samanehutter",
+          "Grundare av Women in IT, arbetar för att öka kvinnors närvaro inom AI och IT.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Sanja Fidler",
+          "https://en.wikipedia.org/wiki/Sanja_Fidler",
+          "Biträdande professor vid University of Toronto, Director of AI vid Nvidia.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Sara Breman",
+          "https://www.highfivehr.se/",
+          "Avmystifierar AI och förflyttar oss in framtiden på sin sida High Five HR",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Sara Hooker",
+          "https://www.sarahooker.me/",
+          "Grundare av Cohere for AI, tidigare Google Brain, arbetar med öppen och ansvarsfull AI-forskning.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Satya Nadella",
+          "https://sv.wikipedia.org/wiki/Satya_Nadella",
+          "VD för Microsoft, ett företag som investerar kraftigt i AI-forskning och utveckling.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Sean Kim",
+          "https://www.linkedin.com/in/seankim",
+          "Entreprenör och investerare inom AI.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Sebastian Thrun",
+          "https://en.wikipedia.org/wiki/Sebastian_Thrun",
+          "Grundare av Udacity och pionjär inom självkörande bilar.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Sébastien Bubeck",
+          "https://en.wikipedia.org/wiki/S%C3%A9bastien_Bubeck",
+          "Expert inom maskininlärningsteori. Microsoft Research",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Shivon Zilis",
+          "https://en.wikipedia.org/wiki/Shivon_Zilis",
+          "Investerare och rådgivare inom AI och hjärnteknik.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Simone Giertz",
+          "https://sv.wikipedia.org/wiki/Simone_Giertz",
+          "Svensk YouTuber, känd som ”Queen of Shitty Robots”. Blandar humor och teknik för att inspirera till kreativitet och teknikintresse.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Smriti Mishra",
+          "https://earthbanc.io/",
+          "Chef för AI på Earthbanc, arbetar med hållbarhets- och klimatfrågor kopplat till AI och finanssektorn.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Sofia Akhte",
+          "https://se.linkedin.com/in/sofiaakhte",
+          "Medgrundare av podden ”AI för folket”, diskuterar AI ur ett samhällsperspektiv.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Sophia Sinclair",
+          "https://se.linkedin.com/in/sophiasinclair",
+          "Teknikjournalist, medredaktör för SvD Tech Brief, bevakar AI och digitalisering.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Stephen Wolfram",
+          "https://en.wikipedia.org/wiki/Stephen_Wolfram",
+          "Skapare av Wolfram Alpha och Mathematica. Vore ju helt fantastiskt om Stephen kunde bygga in vision på sin sida och det gick att få hjälp därifrån. Vore kanske ännu coolare om om Geogebra hade den funktionen.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Stuart J. Russell",
+          "https://en.wikipedia.org/wiki/Stuart_J._Russell",
+          "Författare till den inflytelserika boken ”Artificial Intelligence: A Modern Approach”.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Sundar Pichai",
+          "https://sv.wikipedia.org/wiki/Sundar_Pichai",
+          "VD för Google och Alphabet, ett företag som är ledande inom AI-forskning och utveckling.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Tambet Matiisen",
+          "https://ssi.inc/",
+          "SSI, Safe Superintelligence Inc, https://ssi.inc/",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Terry Sejnowski",
+          "https://en.wikipedia.org/wiki/Terry_Sejnowski",
+          "Pionjär inom beräkningsneurovetenskap.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Thomas Nygren",
+          "https://www.katalog.uu.se/profil/?id=N11-1372",
+          "Professor vid Uppsala universitet. Ledande röst inom AI:s inverkan på utbildning, källkritik och desinformation.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Timnit Gebru",
+          "https://en.wikipedia.org/wiki/Timnit_Gebru",
+          "Grundare av DAIR och Black in AI, tidigare ledare för Googles etiska AI-team. Globalt erkänd för sitt arbete med AI-etik, rättvisa och mångfald.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Tina Huang",
+          "https://www.youtube.com/@TinaHuang1",
+          "Tidigare datavetare på Meta, nu populär innehållsskapare som gör pedagogiska videor om AI, programmering och teknik.",
+          "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "Tomas Seo",
+          "https://tomasseo.se/",
+          "Teknikentusiast och föreläsare, känd för sitt engagemang kring AI:s potential och uttrycket 'Detta förändrar ju allt!'.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Trevor Blackwell",
+          "https://en.wikipedia.org/wiki/Trevor_Blackwell",
+          "SSI, Safe Superintelligence Inc, https://ssi.inc/",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Tristan Harris",
+          "https://en.wikipedia.org/wiki/Tristan_Harris",
+          "Etik inom teknologi och medgrundare av Center for Humane Technology.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Ulrika Lindstrand",
+          "https://iioote.com/",
+          "VD för iioote, utvecklar IoT- och AI-lösningar för smarta städer och industri.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Vicki Cheung",
+          "https://ssi.inc/",
+          "SSI, Safe Superintelligence Inc, https://ssi.inc/",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Vilhelm von Ehrenheim",
+          "https://qa.tech/",
+          "AI-chef på QA.tech, tidigare på Klarna. Driver AI-innovation inom fintech och kvalitetssäkring.",
+          "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Virginia Dignum",
+          "https://www.umu.se/personal/virginia-dignum/",
+          "Professor i AI vid Umeå universitet, internationellt erkänd expert på etisk och ansvarsfull AI.",
+          "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Wes Roth",
+          "https://www.youtube.com/@WesRoth",
+          "En riktig tänkare som har stenkoll på allt inom AI och gör många olika tester.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Yann LeCun",
+          "https://en.wikipedia.org/wiki/Yann_LeCun",
+          "Pionjär inom djupinlärning och Chief AI Scientist på Meta.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Yannic Kilcher",
+          "https://www.youtube.com/@YannicKilcher",
+          "Forskningsinriktad YouTuber som sammanfattar och förklarar de senaste AI-artiklarna och forskningen på ett lättförståeligt sätt.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Yaroslav Bulatov",
+          "https://ssi.inc/",
+          "SSI, Safe Superintelligence Inc, https://ssi.inc/",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Yasmin Razavi",
+          "https://en.wikipedia.org/wiki/Yasmin_Razavi",
+          "Anthropic Board of Director",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Yejin Choi",
+          "https://en.wikipedia.org/wiki/Yejin_Choi",
+          "Biträdande professor vid University of Washington, expert på NLP.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Yoelle Maarek",
+          "https://en.wikipedia.org/wiki/Yoelle_Maarek",
+          "VP of Research vid Alexa Shopping, Amazon.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Yoshua Bengio",
+          "https://en.wikipedia.org/wiki/Yoshua_Bengio",
+          "Pionjär inom djupinlärning.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Zoubin Ghahramani",
+          "https://en.wikipedia.org/wiki/Zoubin_Ghahramani",
+          "Professor i maskininlärning vid University of Cambridge.",
+          "Manliga forskare och profiler inom AI"
+        ]
+      ],
+      "anteckningar": "Hylla i biblioteket — 267 länkar, hämtade från ditt ark."
     },
     {
       "id": "900-10",

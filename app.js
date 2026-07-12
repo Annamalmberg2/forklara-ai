@@ -123,19 +123,30 @@
       String(k.text || "").split(/\n\s*\n/).forEach(stycke => {
         t.appendChild(el("p", null, stycke.replace(/\n/g, " ")));
       });
-      // Textkortets länkar hör hemma på scenen — med beskrivning
+      // Textkortets länkar hör hemma på scenen — med beskrivning,
+      // grupperade på Notis (4:e fältet) när sådan finns.
       if ((k.lankar || []).length) {
-        const grid = el("div", "textkort-lankar");
-        k.lankar.forEach(([rubrik, url, beskr]) => {
-          const a = el("a", "scenlank", null);
-          a.href = url;
-          a.target = "_blank";
-          a.rel = "noopener";
-          a.appendChild(el("span", "sl-titel", rubrik));
-          if (beskr) a.appendChild(el("span", "sl-desc", beskr));
-          grid.appendChild(a);
+        const grupper = new Map();
+        k.lankar.forEach(par => {
+          const notis = par[3] || "";
+          if (!grupper.has(notis)) grupper.set(notis, []);
+          grupper.get(notis).push(par);
         });
-        t.appendChild(grid);
+        const flera = grupper.size > 1 || [...grupper.keys()][0];
+        grupper.forEach((par, notis) => {
+          if (flera && notis) t.appendChild(el("h4", "lank-grupp", notis));
+          const grid = el("div", "textkort-lankar");
+          par.forEach(([rubrik, url, beskr]) => {
+            const a = el("a", "scenlank", null);
+            a.href = url;
+            a.target = "_blank";
+            a.rel = "noopener";
+            a.appendChild(el("span", "sl-titel", rubrik));
+            if (beskr) a.appendChild(el("span", "sl-desc", beskr));
+            grid.appendChild(a);
+          });
+          t.appendChild(grid);
+        });
       }
       ram.appendChild(t);
     }

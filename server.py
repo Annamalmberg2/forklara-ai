@@ -95,6 +95,14 @@ class Hanterare(http.server.SimpleHTTPRequestHandler):
                 f.write(kropp_bytes)
             return self.svara({"ok": True, "filnamn": namn})
 
+        if self.path == "/api/biblioteket":
+            r = subprocess.run(["python3", os.path.join(ROT, "scripts", "bibliotek.py")],
+                               cwd=ROT, capture_output=True, text=True, timeout=60)
+            if r.returncode != 0:
+                return self.svara({"ok": False, "fel": "Kunde inte hämta arket: " + r.stderr.strip()[-200:]})
+            rader = [rad for rad in r.stdout.strip().split("\n") if "byggt" in rad]
+            return self.svara({"ok": True, "meddelande": rader[0] if rader else "Biblioteket uppdaterat från arket."})
+
         if self.path == "/api/publicera":
             git("add", "-A")
             if git("diff", "--cached", "--quiet").returncode == 0:
