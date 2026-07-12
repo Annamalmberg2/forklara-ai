@@ -184,6 +184,7 @@
     }
     $("avstickare").hidden = påStigen;
     uppdateraRail(k.sektion);
+    uppdateraMenyLäge();
     document.dispatchEvent(new CustomEvent("kortbyte", { detail: id }));
 
     // Ladda berättelsens och grannarnas bilder i förväg — aldrig vänta på scen
@@ -366,15 +367,22 @@
     stängTråd();
     byggÖversikt();
     $("oversikt").hidden = false;
-    $("oversikt").scrollTop = 0;
-    if (!filter) {
-      const akt = $("oversikt").querySelector(".minikort.aktuell");
-      if (akt) akt.scrollIntoView({ block: "center" });
-    }
+    $("oversikt").scrollTop = 0;   // öppna alltid i toppen — förutsägbart
+    uppdateraMenyLäge();
   }
   function växlaÖversikt() {
     if ($("oversikt").hidden) öppnaÖversikt(null);
-    else $("oversikt").hidden = true;
+    else { $("oversikt").hidden = true; uppdateraMenyLäge(); }
+  }
+
+  // Menyn ska visa VAR du är — markera Hem / Översikt / Biblioteket
+  function uppdateraMenyLäge() {
+    const påLabbet = !$("trad").hidden;
+    const påÖversikt = !$("oversikt").hidden;
+    const set = (id, på) => { const b = $(id); if (b) b.setAttribute("aria-pressed", String(!!på)); };
+    set("btn-trad", påLabbet);
+    set("btn-oversikt", påÖversikt && !oversiktFilter);
+    set("btn-bibliotek", påÖversikt && oversiktFilter === "130");
   }
 
   // ---------- den gyllene röda tråden ----------
@@ -507,11 +515,14 @@
 
   function öppnaTråd() {
     trådVal = -1;
+    $("oversikt").hidden = true;   // Hem stänger översikten
+    oversiktFilter = null;
     byggTråd();
     $("trad").hidden = false;
     $("trad").scrollTop = 0;
+    uppdateraMenyLäge();
   }
-  function stängTråd() { $("trad").hidden = true; }
+  function stängTråd() { $("trad").hidden = true; uppdateraMenyLäge(); }
 
   // ---------- kapitelrälsen: grundstigen, alltid synlig ----------
   function byggRail() {
@@ -644,7 +655,6 @@
   function växlaPanel() {
     document.body.classList.toggle("panel-dold");
     const dold = document.body.classList.contains("panel-dold");
-    $("btn-panel").setAttribute("aria-pressed", String(!dold));
     spara({ panelDold: dold });
   }
   function växlaBaraBild() { document.body.classList.toggle("bara-bild"); }
@@ -748,8 +758,9 @@
   $("btn-trad").onclick = öppnaTråd;
   $("btn-oversikt").onclick = () => öppnaÖversikt(null);
   $("btn-bibliotek").onclick = () => öppnaÖversikt("130");
+  $("progress").onclick = () => öppnaÖversikt(null);  // sidfoten vänster → översikt
+  $("progress").title = "Visa översikten över allt";
   $("trad-sok").onclick = () => öppnaPalett();
-  $("btn-panel").onclick = växlaPanel;
   $("btn-scen").onclick = () => scenläge(true);
   $("btn-avsluta-scen").onclick = () => scenläge(false);
   $("btn-stig").onclick = () => {
@@ -777,7 +788,6 @@
   document.title = L.titel + " — föreläsningsverktyg";
   const minne = sparat();
   if (minne.panelDold) document.body.classList.add("panel-dold");
-  $("btn-panel").setAttribute("aria-pressed", String(!minne.panelDold));
   if (typeof minne.stig === "string" && STIGAR.some(s => s.id === minne.stig)) stig = minne.stig;
   byggStigmeny();
   uppdateraStigUI();

@@ -1488,7 +1488,7 @@ window.LECTURE = {
         [
           "2 Gammal chatbot byggd med Zapier",
           "https://anna-d1ee8c.zapier.app/",
-          "Hyllning från Gwen Brannen \"Hyllningsbot\"",
+          "Hyllning från Gwern Branwen \"Hyllningsbot\"",
           "Chatbot"
         ],
         [
@@ -3838,6 +3838,18 @@ window.LECTURE = {
           "Manliga forskare och profiler inom AI"
         ],
         [
+          "Gwen Brannen",
+          "https://en.wikipedia.org/wiki/Anthropic",
+          "Head of Operations på Anthropic. Ansvarar för den operativa driften, tillväxten och uppskalningen av ett av världens ledande AI-säkerhets- och forskningsbolag.",
+          "Kvinnliga forskare och profiler inom AI"
+        ],
+        [
+          "Gwern Branwen",
+          "https://gwern.net/",
+          "Pseudonym oberoende forskare, skribent och AI-tänkare. Hans webbplats gwern.net är känd för sina extremt djupgående och banbrytande analyser av tidig generativ AI, LLM-skalning och statistik. Aktiv och levande, men helt anonym/pseudonym profil. https://youtu.be/a42key59cZQ",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
           "Greg Isenberg",
           "https://x.com/gregisenberg",
           "Entreprenör och produktdesigner som automatiserar arbetsflöden och delar AI-tips för företagare.",
@@ -4852,7 +4864,7 @@ window.LECTURE = {
           "Manliga forskare och profiler inom AI"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 268 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 270 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "900-10",

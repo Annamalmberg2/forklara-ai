@@ -158,7 +158,6 @@
     btn.setAttribute("aria-pressed", String(på));
     if (på) {
       document.body.classList.remove("panel-dold"); // panelen behövs för editorn
-      $("btn-panel").setAttribute("aria-pressed", "true");
       byggEditor();
     } else {
       const red = $("redigerare");

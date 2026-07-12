@@ -512,11 +512,15 @@ body.redigerar.panel-dold #panel { display: block; } /* editorn behöver panelen
 }
 #status-hoger { display: flex; align-items: center; gap: 18px; }
 
-/* Kapitelrälsen — grundstigen, alltid synlig, alltid klickbar */
-#kapitelrail { display: flex; align-items: center; gap: 4px; }
+/* Sidfoten vänster (position + stig) — klickbar väg till översikten */
+#progress { cursor: pointer; }
+#progress:hover { color: var(--accent); text-decoration: underline; }
+
+/* Kapitelrälsen — grundstigen, alltid synlig, tydligt klickbar */
+#kapitelrail { display: flex; align-items: center; gap: 5px; }
 .rail-seg {
-  width: 22px;
-  height: 18px;
+  width: 26px;
+  height: 22px;
   border: none;
   background: none;
   padding: 0;
@@ -527,13 +531,13 @@ body.redigerar.panel-dold #panel { display: block; } /* editorn behöver panelen
   content: "";
   position: absolute;
   left: 2px; right: 2px;
-  top: 7px;
-  height: 4px;
-  border-radius: 2px;
-  background: var(--hair);
+  top: 8px;
+  height: 5px;
+  border-radius: 3px;
+  background: #D2CEC0;
 }
-.rail-seg.passerad::after { background: #B9CEC2; }
-.rail-seg.aktuell::after { background: var(--accent); top: 6px; height: 6px; }
+.rail-seg.passerad::after { background: #9FC0AE; }
+.rail-seg.aktuell::after { background: var(--accent); top: 6px; height: 9px; }
 .rail-seg:hover::after { background: var(--guld); }
 @media (max-width: 900px) { #kapitelrail { display: none; } }
 
