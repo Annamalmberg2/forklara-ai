@@ -218,6 +218,19 @@
 
     box.appendChild(el("div", "panel-label", "Redigera detta kort"));
 
+    // Bibliotekshyllor hämtas från Google-arket — allt om dem redigeras DÄR,
+    // inte här (annars skulle t.ex. Personer rita hundratals fält).
+    if (k.sektion === "130") {
+      const hint = el("div", "red-arkhint");
+      hint.innerHTML = "<b>" + k.titel + "</b> är en hylla i biblioteket med " +
+        (k.lankar || []).length + " länkar.<br><br>Hela hyllan — rubrik, " +
+        "inledningstext och länkar — hämtas från ditt Google Sheet (fliken med " +
+        "samma namn). Ändra i arket och tryck <b>⟳ Uppdatera biblioteket från arket</b> ovan.";
+      box.appendChild(hint);
+      $("panel").prepend(box);
+      return;
+    }
+
     // Titel
     const titel = el("input");
     titel.value = k.titel;

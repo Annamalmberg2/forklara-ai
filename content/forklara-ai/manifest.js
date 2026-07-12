@@ -1333,7 +1333,7 @@ window.LECTURE = {
           "Lovable App"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 17 länkar, hämtade från ditt ark."
+      "anteckningar": "Hylla i biblioteket — 17 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-20",
@@ -1576,7 +1576,7 @@ window.LECTURE = {
           "Föreläsningar"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 39 länkar, hämtade från ditt ark."
+      "anteckningar": "Hylla i biblioteket — 39 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-30",
@@ -1687,7 +1687,7 @@ window.LECTURE = {
           "Sandeep Swadia"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 17 länkar, hämtade från ditt ark."
+      "anteckningar": "Hylla i biblioteket — 17 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-40",
@@ -1918,7 +1918,7 @@ window.LECTURE = {
           "Hmmm"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 37 länkar, hämtade från ditt ark."
+      "anteckningar": "Hylla i biblioteket — 37 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-50",
@@ -2287,7 +2287,7 @@ window.LECTURE = {
           "Utlänsk"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 60 länkar, hämtade från ditt ark."
+      "anteckningar": "Hylla i biblioteket — 60 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-60",
@@ -2896,7 +2896,7 @@ window.LECTURE = {
           "Vetenskapskanaler om matematik och fysik"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 100 länkar, hämtade från ditt ark."
+      "anteckningar": "Hylla i biblioteket — 100 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-70",
@@ -3121,7 +3121,7 @@ window.LECTURE = {
           "Serier"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 36 länkar, hämtade från ditt ark."
+      "anteckningar": "Hylla i biblioteket — 36 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-80",
@@ -3235,13 +3235,13 @@ window.LECTURE = {
           "I Sanningsministeriet är protagonisten Winston Smith en tjänsteman som ansvarar för att bevara Partiets propaganda genom att ändra historien för att visa att Partiet alltid har rätt och är allvetande. Hans torftiga tillvaro desillusionerar honom till den grad att han vill göra uppror mot Storebror, som är Partiets ledare. Från 1984 har vi bland annat fått uttrycket \"Storebror ser dig\" (Big Brother is watching you)."
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 21 länkar, hämtade från ditt ark."
+      "anteckningar": "Hylla i biblioteket — 21 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-90",
       "sektion": "130",
       "titel": "Personer",
-      "text": "Ibland har jag bara en bokstav i minnet av ett namn jag har på tungan, Då är denna lista värdefull när jag vill hitta en person åter.",
+      "text": "Ibland har jag bara en bokstav i minnet av ett namn jag har på tungan. Då är denna lista värdefull när jag vill hitta en person åter.",
       "lankar": [
         [
           "Ada Lovelace",
@@ -4450,6 +4450,12 @@ window.LECTURE = {
           "Internationella kvinnliga influencers inom AI"
         ],
         [
+          "Noam Shazeer",
+          "https://en.wikipedia.org/wiki/Noam_Shazeer",
+          "Medförfattare till \"Attention Is All You Need\" och en av uppfinnarna bakom Transformer-arkitekturen. Grundade Character.ai och leder nu utvecklingen av Googles mest avancerade AI-modeller. En av den moderna AI-boomens viktigaste hjärnor",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
           "Nuria Oliver",
           "https://en.wikipedia.org/wiki/Nuria_Oliver",
           "Chief Data Scientist vid Data-Pop Alliance, medgrundare av ELLIS.",
@@ -4846,7 +4852,7 @@ window.LECTURE = {
           "Manliga forskare och profiler inom AI"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 267 länkar, hämtade från ditt ark."
+      "anteckningar": "Hylla i biblioteket — 268 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "900-10",

@@ -153,6 +153,14 @@
     ritaPrickar(k);
 
     $("eyebrow").textContent = k.sektion + " · " + sek.namn;
+    $("eyebrow").onclick = () => {
+      if (sek.bakom) öppnaÖversikt(k.sektion);       // biblioteket/dokumentation → egen översikt
+      else {
+        öppnaÖversikt(null);
+        const s = document.getElementById("sek-" + k.sektion);
+        if (s) s.scrollIntoView({ block: "start" });
+      }
+    };
     $("korttitel").textContent = k.titel;
     $("sektionsnamn").textContent = sek.namn;
 

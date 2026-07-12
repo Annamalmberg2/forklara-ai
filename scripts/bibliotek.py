@@ -115,7 +115,7 @@ def bygg_hyllor(data):
             "titel": titel,
             "text": intro or ("Länkar i " + titel + "."),
             "lankar": länkar,
-            "anteckningar": "Hylla i biblioteket — %d länkar, hämtade från ditt ark." % len(länkar),
+            "anteckningar": "Hylla i biblioteket — %d länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik." % len(länkar),
         })
     return hyllor
 

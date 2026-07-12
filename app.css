@@ -171,9 +171,11 @@ kbd {
 }
 .textkort p {
   font-family: var(--serif);
-  font-size: clamp(19px, 2.1vw, 26px);
+  font-size: clamp(16px, 1.5vw, 20px);
   line-height: 1.55;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.7em;
+  max-width: 68ch;
+  color: var(--ink);
 }
 .textkort p:last-child { margin-bottom: 0; }
 
@@ -249,7 +251,10 @@ body.bara-bild #bildprickar { padding-top: 8px; }
   text-transform: uppercase;
   color: var(--accent);
   margin-bottom: 6px;
+  cursor: pointer;
+  display: inline-block;
 }
+#eyebrow:hover { text-decoration: underline; }
 
 #korttitel {
   font-family: var(--serif);
@@ -460,6 +465,7 @@ body.redigerar.panel-dold #panel { display: block; } /* editorn behöver panelen
 .red-lank input:first-child { width: 40%; }
 .red-lank .vbtn { flex: none; padding: 6px 8px; }
 .red-lankdesc { width: 100%; margin-bottom: 10px; font-size: 12.5px; }
+.red-arkhint { font-family: var(--sans); font-size: 13px; line-height: 1.5; color: var(--muted); }
 .red-spara { display: flex; gap: 8px; margin-top: 4px; }
 #red-status {
   font-family: var(--mono);
