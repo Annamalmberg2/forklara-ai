@@ -529,7 +529,7 @@
     const rail = $("kapitelrail");
     rail.innerHTML = "";
     trådKapitel.forEach(sek => {
-      const b = el("button", "rail-seg");
+      const b = el("button", "rail-seg", sek.id);   // visa kapitelnumret (000, 010 …)
       b.title = sek.id + " · " + sek.namn;
       b.onclick = () => hoppaTillKapitel(sek.id);
       rail.appendChild(b);

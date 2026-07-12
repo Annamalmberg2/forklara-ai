@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Förklara AI — föreläsningsverktyg</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
-<link rel="stylesheet" href="app.css">
+<script>window.__v = Date.now();  // versionsstämpel så webbläsaren aldrig visar gammal kod
+  document.write('<link rel="stylesheet" href="app.css?v=' + window.__v + '">');</script>
 <script>
   // Vilken föreläsning? ?lecture=mappnamn — standard: forklara-ai
   window.LECTURE_ID = new URLSearchParams(location.search).get("lecture") || "forklara-ai";
@@ -84,8 +85,8 @@
     <button id="stig-start"></button>
     <div id="trad-lista"></div>
     <div id="trad-fot">
-      <p><kbd>Enter</kbd> fortsätt där du var &nbsp;·&nbsp; klicka ett kapitel för att börja där &nbsp;·&nbsp; <kbd>/</kbd> sök &nbsp;·&nbsp; <kbd>G</kbd> hela biblioteket</p>
-      <p class="dim">Utanför tråden: <button class="trad-lank" data-sek="130">Biblioteket</button> — filmtips, Nobelprisen och alla länkar.</p>
+      <p><kbd>Enter</kbd> fortsätt där du var &nbsp;·&nbsp; klicka ett kapitel för att börja där &nbsp;·&nbsp; <kbd>/</kbd> sök &nbsp;·&nbsp; <kbd>G</kbd> översikt</p>
+      <p class="dim">Utanför tråden: <button class="trad-lank" data-sek="130">Biblioteket</button> — poddar, böcker, personer och alla länkar.</p>
     </div>
   </div>
 </section>
@@ -142,11 +143,13 @@
   <nav id="kapitelrail" aria-label="Kapitel"></nav>
   <span id="status-hoger">
     <span id="klocka"></span>
-    <span id="hjalptips"><kbd>?</kbd> hjälp</span>
+    <button id="hjalptips"><kbd>?</kbd> hjälp</button>
   </span>
 </footer>
 
-<script src="app.js"></script>
-<script src="redigering.js"></script>
+<script>
+  document.write('<script src="app.js?v=' + window.__v + '"><\/script>');
+  document.write('<script src="redigering.js?v=' + window.__v + '"><\/script>');
+</script>
 </body>
 </html>

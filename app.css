@@ -511,35 +511,41 @@ body.redigerar.panel-dold #panel { display: block; } /* editorn behöver panelen
   border-top: 1px solid var(--hair);
 }
 #status-hoger { display: flex; align-items: center; gap: 18px; }
+#hjalptips {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--accent);
+  background: var(--accent-tint);
+  border: 1px solid var(--hair);
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+#hjalptips:hover { border-color: var(--accent); }
+#hjalptips kbd { border: none; background: none; padding: 0; font-size: 1em; }
 
 /* Sidfoten vänster (position + stig) — klickbar väg till översikten */
 #progress { cursor: pointer; }
 #progress:hover { color: var(--accent); text-decoration: underline; }
 
-/* Kapitelrälsen — grundstigen, alltid synlig, tydligt klickbar */
-#kapitelrail { display: flex; align-items: center; gap: 5px; }
+/* Kapitelrälsen — grundstigen med kapitelnummer, klickbar */
+#kapitelrail { display: flex; align-items: center; gap: 2px; }
 .rail-seg {
-  width: 26px;
-  height: 22px;
   border: none;
   background: none;
-  padding: 0;
-  position: relative;
+  padding: 3px 6px;
+  border-radius: 5px;
   cursor: pointer;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  color: #A7A392;
 }
-.rail-seg::after {
-  content: "";
-  position: absolute;
-  left: 2px; right: 2px;
-  top: 8px;
-  height: 5px;
-  border-radius: 3px;
-  background: #D2CEC0;
-}
-.rail-seg.passerad::after { background: #9FC0AE; }
-.rail-seg.aktuell::after { background: var(--accent); top: 6px; height: 9px; }
-.rail-seg:hover::after { background: var(--guld); }
-@media (max-width: 900px) { #kapitelrail { display: none; } }
+.rail-seg.passerad { color: var(--muted); }
+.rail-seg.aktuell { color: #fff; background: var(--accent); font-weight: 600; }
+.rail-seg:hover { color: var(--accent); background: var(--accent-tint); }
+.rail-seg.aktuell:hover { color: #fff; background: var(--accent); }
+@media (max-width: 1024px) { #kapitelrail { display: none; } }
 
 /* Avstickar-flaggan — den synliga vägen hem till grundstigen */
 #avstickare {
