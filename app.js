@@ -167,15 +167,8 @@
     // Panelen
     fyllPanel(k);
 
-    // Statusrad — position i berättelsen på aktuell nivå
-    const lista = berättelseKort();
-    const bi = lista.findIndex(x => x.id === id);
-    $("progress").textContent = stigNamn() + " · " + (bi >= 0
-      ? (bi + 1) + " / " + lista.length + " · " + sek.namn
-      : "utanför stigen · " + sek.namn);
-
     // Grundstigen: står vi på stigen eller på en avstickare?
-    const påStigen = bi >= 0;
+    const påStigen = berättelseKort().some(x => x.id === id);
     if (!påStigen) {
       const f = föregående != null && index.has(föregående) ? kort[index.get(föregående)] : null;
       if (f && iBerättelsen(f)) stigMärke = föregående;
@@ -183,8 +176,7 @@
       stigMärke = null;
     }
     $("avstickare").hidden = påStigen;
-    uppdateraRail(k.sektion);
-    uppdateraMenyLäge();
+    uppdateraNav();   // både övre menyn och sidfoten på en gång
     document.dispatchEvent(new CustomEvent("kortbyte", { detail: id }));
 
     // Ladda berättelsens och grannarnas bilder i förväg — aldrig vänta på scen
@@ -368,21 +360,62 @@
     byggÖversikt();
     $("oversikt").hidden = false;
     $("oversikt").scrollTop = 0;   // öppna alltid i toppen — förutsägbart
-    uppdateraMenyLäge();
+    uppdateraNav();
   }
   function växlaÖversikt() {
     if ($("oversikt").hidden) öppnaÖversikt(null);
-    else { $("oversikt").hidden = true; uppdateraMenyLäge(); }
+    else { $("oversikt").hidden = true; uppdateraNav(); }
   }
 
   // Menyn ska visa VAR du är — markera Hem / Översikt / Biblioteket
-  function uppdateraMenyLäge() {
+  // ETT enda ställe som styr både övre menyn OCH sidfoten — de kan aldrig
+  // säga olika saker. Var du än är: toppen och botten berättar detsamma.
+  function uppdateraNav() {
     const påLabbet = !$("trad").hidden;
-    const påÖversikt = !$("oversikt").hidden;
+    const påÖversikt = !påLabbet && !$("oversikt").hidden;
+    const bibÖversikt = påÖversikt && oversiktFilter === "130";
+    const prog = $("progress");
+    const rensaRäls = () => [...$("kapitelrail").children].forEach(n => n.classList.remove("aktuell", "passerad"));
+
+    // Var är vi? Ett enda svar som styr både toppen och botten.
+    const kortNu = (!påLabbet && !påÖversikt && aktuellId != null && index.has(aktuellId))
+      ? kort[index.get(aktuellId)] : null;
+    const påBibliotek = bibÖversikt || (kortNu && kortNu.sektion === "130");
+
     const set = (id, på) => { const b = $(id); if (b) b.setAttribute("aria-pressed", String(!!på)); };
     set("btn-trad", påLabbet);
     set("btn-oversikt", påÖversikt && !oversiktFilter);
-    set("btn-bibliotek", påÖversikt && oversiktFilter === "130");
+    set("btn-bibliotek", påBibliotek);
+
+    if (påLabbet) {
+      prog.textContent = "Labbet — välj en stig eller ett kapitel";
+      prog.onclick = () => öppnaÖversikt(null);
+      rensaRäls();
+    } else if (bibÖversikt) {
+      prog.textContent = "Biblioteket — " + kort.filter(k => k.sektion === "130").length + " hyllor";
+      prog.onclick = null;
+      rensaRäls();
+    } else if (påÖversikt) {
+      prog.textContent = "Översikt — alla kapitel och hyllor";
+      prog.onclick = null;
+      rensaRäls();
+    } else if (kortNu) {
+      const sek = sektioner.get(kortNu.sektion) || { namn: "" };
+      if (sek.bakom) {
+        // En hylla eller dokumentationssida — hör till sin plats, inte en stig
+        prog.textContent = sek.namn + " · " + kortNu.titel;
+        prog.onclick = () => öppnaÖversikt(kortNu.sektion);
+        rensaRäls();
+      } else {
+        const lista = berättelseKort();
+        const bi = lista.findIndex(x => x.id === aktuellId);
+        prog.textContent = stigNamn() + " · " + (bi >= 0
+          ? (bi + 1) + " / " + lista.length + " · " + sek.namn
+          : "utanför stigen · " + sek.namn);
+        prog.onclick = () => öppnaÖversikt(null);
+        uppdateraRail(kortNu.sektion);
+      }
+    }
   }
 
   // ---------- den gyllene röda tråden ----------
@@ -520,9 +553,9 @@
     byggTråd();
     $("trad").hidden = false;
     $("trad").scrollTop = 0;
-    uppdateraMenyLäge();
+    uppdateraNav();
   }
-  function stängTråd() { $("trad").hidden = true; uppdateraMenyLäge(); }
+  function stängTråd() { $("trad").hidden = true; uppdateraNav(); }
 
   // ---------- kapitelrälsen: grundstigen, alltid synlig ----------
   function byggRail() {
@@ -758,8 +791,7 @@
   $("btn-trad").onclick = öppnaTråd;
   $("btn-oversikt").onclick = () => öppnaÖversikt(null);
   $("btn-bibliotek").onclick = () => öppnaÖversikt("130");
-  $("progress").onclick = () => öppnaÖversikt(null);  // sidfoten vänster → översikt
-  $("progress").title = "Visa översikten över allt";
+  $("progress").title = "Klicka för att zooma ut till översikten";
   $("trad-sok").onclick = () => öppnaPalett();
   $("btn-scen").onclick = () => scenläge(true);
   $("btn-avsluta-scen").onclick = () => scenläge(false);
