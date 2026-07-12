@@ -63,6 +63,19 @@ berättelser: skriv titel, välj i listan) · nytt kort · ta bort kort ·
 live inom minuter). Vid start frågar verktyget om ev. gammalt utkast —
 "Släng" läser om från filen.
 
+## Biblioteket uppdaterar sig från Google-arket
+
+Biblioteket (sektion 130) byggs från arket **"Länkar till Förklara AI"**
+(delat "alla med länken kan visa"). Varje flik blir en hylla, med flikens
+inledningstext och länkarna grupperade på kolumnen **Notis**.
+
+Arkets kolumner: **Innehåll · Länkar · Beskrivning · Notis · Flik eller sida**.
+
+Så uppdaterar du: fyll på i arket → i verktyget **Redigera →
+"⟳ Uppdatera biblioteket från arket"** → biblioteket hämtas färskt och byggs
+om → **Publicera till webben**. Ingen nedladdning behövs; motorn hämtar arket
+direkt (`scripts/bibliotek.py`, endpoint `/api/biblioteket`).
+
 ## Ny föreläsning (samma verktyg)
 
 Kopiera `content/forklara-ai` → `content/min-forelasning`, byt innehåll,
