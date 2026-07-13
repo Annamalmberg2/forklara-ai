@@ -146,6 +146,27 @@
     fil.click();
   }
 
+  // Välj ur bildbanken — en ruta med alla bilder vi redan har
+  function visaBankVal(vidVal) {
+    const bilder = window.LECTURE.allaBilder || [];
+    const bakgrund = el("div", "bank-overlay");
+    const ruta = el("div", "bank-box");
+    ruta.appendChild(el("div", "panel-label", "Välj ur banken — " + bilder.length + " bilder"));
+    const grid = el("div", "bildbank");
+    bilder.forEach(fil => {
+      const b = el("button", "bankbild");
+      const img = el("img"); img.loading = "lazy";
+      img.src = "content/" + window.LECTURE_ID + "/bilder/" + encodeURIComponent(fil); img.alt = "";
+      b.appendChild(img); b.title = fil;
+      b.onclick = () => { bakgrund.remove(); vidVal(fil); };
+      grid.appendChild(b);
+    });
+    ruta.appendChild(grid);
+    bakgrund.appendChild(ruta);
+    bakgrund.onclick = e => { if (e.target === bakgrund) bakgrund.remove(); };
+    document.body.appendChild(bakgrund);
+  }
+
   // ---------- redigeringsknappen ----------
   const btn = el("button", "vbtn", harUtkast() ? "Redigera ●" : "Redigera");
   btn.id = "btn-redigera";
@@ -182,50 +203,37 @@
 
     const box = el("div");
     box.id = "redigerare";
-
-    // Global åtgärd: hämta biblioteket färskt från Annas ark
-    if (motorFinns) {
-      const arkRad = el("div", "red-ark");
-      const arkBtn = el("button", "vbtn", "⟳ Uppdatera biblioteket från arket");
-      arkBtn.title = "Hämtar dina flikar från Google-arket och bygger om biblioteket";
-      arkBtn.onclick = async () => {
-        arkBtn.disabled = true;
-        arkBtn.textContent = "Hämtar arket …";
-        try {
-          const svar = await fetch("/api/biblioteket", { method: "POST" });
-          const j = await svar.json();
-          if (j.ok) {
-            if (harUtkast() && !confirm("Biblioteket är uppdaterat i filen. Du har osparade ändringar i webbläsaren som göms över filen — vill du slänga dem och läsa in det färska biblioteket?")) {
-              arkBtn.textContent = "✓ " + j.meddelande + " (syns efter att du sparat/slängt utkastet)";
-              arkBtn.disabled = false;
-              return;
-            }
-            localStorage.removeItem(UTKAST);
-            location.reload();
-          } else {
-            arkBtn.textContent = "✗ " + (j.fel || "Kunde inte hämta");
-            arkBtn.disabled = false;
-          }
-        } catch (e) {
-          arkBtn.textContent = "✗ Motorn svarar inte";
-          arkBtn.disabled = false;
-        }
-      };
-      arkRad.appendChild(arkBtn);
-      box.appendChild(arkRad);
-    }
-
     box.appendChild(el("div", "panel-label", "Redigera detta kort"));
 
     // Bibliotekshyllor hämtas från Google-arket — allt om dem redigeras DÄR,
-    // inte här (annars skulle t.ex. Personer rita hundratals fält).
+    // inte här (annars skulle t.ex. Personer rita hundratals fält). Ark-knappen
+    // hör hemma just här — inte på berättelsekort.
     if (k.sektion === "130") {
       const hint = el("div", "red-arkhint");
       hint.innerHTML = "<b>" + k.titel + "</b> är en hylla i biblioteket med " +
         (k.lankar || []).length + " länkar.<br><br>Hela hyllan — rubrik, " +
         "inledningstext och länkar — hämtas från ditt Google Sheet (fliken med " +
-        "samma namn). Ändra i arket och tryck <b>⟳ Uppdatera biblioteket från arket</b> ovan.";
+        "samma namn). Ändra i arket och tryck knappen nedan.";
       box.appendChild(hint);
+      if (motorFinns) {
+        const arkRad = el("div", "red-ark");
+        const arkBtn = el("button", "vbtn", "⟳ Uppdatera biblioteket från arket");
+        arkBtn.onclick = async () => {
+          arkBtn.disabled = true; arkBtn.textContent = "Hämtar arket …";
+          try {
+            const j = await (await fetch("/api/biblioteket", { method: "POST" })).json();
+            if (j.ok) {
+              if (harUtkast() && !confirm("Biblioteket är uppdaterat i filen. Du har osparade ändringar i webbläsaren — slänga dem och läsa in det färska biblioteket?")) {
+                arkBtn.textContent = "✓ " + j.meddelande + " (syns när utkastet sparats/slängts)";
+                arkBtn.disabled = false; return;
+              }
+              localStorage.removeItem(UTKAST); location.reload();
+            } else { arkBtn.textContent = "✗ " + (j.fel || "Kunde inte hämta"); arkBtn.disabled = false; }
+          } catch (e) { arkBtn.textContent = "✗ Motorn svarar inte"; arkBtn.disabled = false; }
+        };
+        arkRad.appendChild(arkBtn);
+        box.appendChild(arkRad);
+      }
       $("panel").prepend(box);
       return;
     }
@@ -442,32 +450,36 @@
       rad.append(upp, ner, bort);
       bildlista.appendChild(rad);
     });
-    const nyBild = el("button", "vbtn", "+ Lägg till bild …");
+    const läggTill = namn => { bl.push(namn); if (k.text) delete k.text; delete k.bildforslag; sparaBilder(); };
+    const knapprad = el("div", "red-spara");
+    const banken = el("button", "vbtn", "Välj ur banken");
+    banken.title = "Välj bland bilderna vi redan har i projektet";
+    banken.onclick = () => visaBankVal(läggTill);
+    const nyBild = el("button", "vbtn", "Ladda upp ny …");
     nyBild.title = "Välj en bild var den än ligger — motorn kopierar in den i projektet";
-    nyBild.onclick = () => väljBild(namn => {
-      bl.push(namn);
-      if (k.text) delete k.text; // bildkort i stället för textkort
-      sparaBilder();
-    });
-    bildlista.appendChild(nyBild);
+    nyBild.onclick = () => väljBild(läggTill);
+    knapprad.append(banken, nyBild);
+    bildlista.appendChild(knapprad);
     box.appendChild(fält("Bilder (berättelsens bildspel — pilarna bläddrar dem först)", bildlista));
 
     // Nytt kort · ta bort detta kort
     const kortRad = el("div", "red-spara");
-    const nytt = el("button", "vbtn", "+ Nytt kort (välj bild)");
-    nytt.title = "Välj en bild var den än ligger — kortet skapas efter det här";
-    nytt.onclick = () => väljBild(namn => {
+    const nytt = el("button", "vbtn", "+ Nytt kort");
+    nytt.title = "Skapar ett tomt kort direkt efter det här — du fyller i det själv";
+    nytt.onclick = () => {
       const nyK = {
         id: k.sektion + "-ny" + Date.now().toString(36),
         sektion: k.sektion,
-        titel: namn.replace(/\.[^.]+$/, ""),
-        bilder: [namn]
+        titel: "Ny fråga",
+        svar: "",
+        bildforslag: "Beskriv bilden som skulle bära frågan.",
+        relaterat: [k.id]           // koppla tillbaka till kortet du kom ifrån
       };
-      L.kort.splice(L.kort.indexOf(k) + 1, 0, nyK);
+      L.kort.splice(L.kort.indexOf(k) + 1, 0, nyK);   // direkt till höger om det gamla
       sparaUtkast();
       window.APP.uppdatera();
       window.APP.visa(nyK.id);
-    });
+    };
     const bortKort = el("button", "vbtn", "Ta bort kortet");
     bortKort.onclick = () => {
       if (!confirm('Ta bort "' + k.titel + '" ur föreläsningen?\n(Bildfilen ligger kvar i mappen — inget raderas på disken.)')) return;

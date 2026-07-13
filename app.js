@@ -157,7 +157,7 @@
     }
     ritaPrickar(k);
 
-    $("eyebrow").textContent = sek.namn;
+    $("eyebrow").textContent = sek.bakom ? sek.namn : sek.id + " · " + sek.namn;
     $("eyebrow").onclick = () => {
       if (sek.bakom) öppnaÖversikt(k.sektion);       // biblioteket/dokumentation → egen översikt
       else {
@@ -255,6 +255,17 @@
       rel.appendChild(b);
     });
     $("panel-relaterat-block").hidden = rel.childElementCount === 0;
+
+    // Genvägar — samma på varje kort (interna hoppar i verktyget, externa i ny flik)
+    const gv = $("panel-genvagar");
+    gv.innerHTML = "";
+    (L.standardlankar || []).forEach(([namn, url]) => {
+      const a = el("a", null, namn);
+      a.href = url;
+      if (!url.startsWith("#")) { a.target = "_blank"; a.rel = "noopener"; }
+      const li = el("li"); li.appendChild(a); gv.appendChild(li);
+    });
+    $("panel-genvagar-block").hidden = gv.childElementCount === 0;
   }
 
   function sökChip(text, cls) {
@@ -320,7 +331,7 @@
         bakomTillagd = true;
       }
 
-      const chip = el("button", "chip", sek.namn);
+      const chip = el("button", "chip", (sek.bakom ? "" : sek.id + " ") + sek.namn);
       chip.onclick = () => $("sek-" + sek.id).scrollIntoView({ block: "start" });
       nav.appendChild(chip);
 
@@ -328,6 +339,7 @@
       del.id = "sek-" + sek.id;
 
       const rubrik = el("div", "oversikt-sektionsrubrik");
+      if (!sek.bakom) rubrik.appendChild(el("span", "nr", sek.id));
       rubrik.appendChild(el("h2", null, sek.namn));
       const bildAntal = korten.reduce((s, k) => s + bilderAv(k).length, 0);
       rubrik.appendChild(el("span", "antal",
@@ -361,6 +373,28 @@
       del.appendChild(grid);
       yta.appendChild(del);
     });
+
+    // Bildbanken längst ner — alla bilder vi har, fria att välja ur (bara i full översikt)
+    if (!oversiktFilter && (L.allaBilder || []).length) {
+      const använda = new Set(kort.flatMap(k => k.bilder || []));
+      const del = el("section", "oversikt-sektion");
+      const rubrik = el("div", "oversikt-sektionsrubrik");
+      rubrik.appendChild(el("h2", null, "Alla bilder"));
+      rubrik.appendChild(el("span", "antal", L.allaBilder.length + " bilder · fria att välja ur"));
+      del.appendChild(rubrik);
+      const grid = el("div", "bildbank");
+      L.allaBilder.forEach(fil => {
+        const ruta = el("a", "bankbild" + (använda.has(fil) ? "" : " fri"));
+        ruta.href = BILDVAG + encodeURIComponent(fil);
+        ruta.target = "_blank"; ruta.rel = "noopener";
+        ruta.title = fil + (använda.has(fil) ? "" : "  (används inte ännu)");
+        const img = el("img"); img.loading = "lazy"; img.src = BILDVAG + encodeURIComponent(fil); img.alt = "";
+        ruta.appendChild(img);
+        grid.appendChild(ruta);
+      });
+      del.appendChild(grid);
+      yta.appendChild(del);
+    }
   }
 
   function öppnaÖversikt(filter) {
@@ -502,6 +536,7 @@
       rad.setAttribute("role", "button");
       rad.tabIndex = 0;
       rad.appendChild(el("span", "trad-nod"));
+      if (!sek.bakom) rad.appendChild(el("span", "trad-nr", sek.id));
       const txt = el("div", "trad-text");
       txt.appendChild(el("h3", null, sek.namn));
       txt.appendChild(el("p", null, sek.tes));
