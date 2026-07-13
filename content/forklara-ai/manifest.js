@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-07 00:39:07)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-14 00:12:09)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -100,14 +100,13 @@ window.LECTURE = {
         ]
       ],
       "relaterat": [
-        "000-20",
-        "000-30"
+        "000-20"
       ]
     },
     {
       "id": "000-20",
       "sektion": "000",
-      "titel": "Varför behöver vuxna förstå det här?",
+      "titel": "Vem eller vad bildar oss idag?",
       "svar": "1975 satt barn på golvet och försökte förstå vuxna. 2026 sitter vuxna och försöker förstå tekniken.",
       "bilder": [
         "Hedvig behövs.png"
@@ -120,10 +119,6 @@ window.LECTURE = {
       "begrepp": [
         "folkbildning",
         "Från A till Ö"
-      ],
-      "relaterat": [
-        "000-30",
-        "040-20"
       ]
     },
     {
@@ -134,11 +129,8 @@ window.LECTURE = {
       "bildforslag": "Den stora frågan som affisch: ditt porträtt mot ett vägval — en väg mörk, en ljus.",
       "relaterat": [
         "020-10",
-        "030-50",
-        "060-10"
-      ],
-      "anteckningar": "Ställ frågan högt och låt den hänga i luften. Betona: svaret är inte maskinens — det är vårt. Detta är hela föreläsningens ryggrad; allt annat är belägg.",
-      "fordjupning": "Frågan 'gör AI oss dummare eller smartare' är fel ställd om man väntar sig ett ja eller nej. Räknaren gjorde oss inte sämre på matematik — den flyttade ansträngningen från siffror till problem. Skriften försvagade minnet men byggde vetenskapen.\n\nVarje verktyg som tar över en förmåga frigör kraft till nästa nivå — men bara om vi kliver upp dit. Gör vi inte det förtvinar muskeln. AI ställer samma val, fast snabbare och på fler förmågor samtidigt. Svaret finns alltså inte i tekniken utan i oss: vad väljer vi att fortsätta öva?"
+        "030-50"
+      ]
     },
     {
       "id": "010-10",
@@ -164,8 +156,7 @@ window.LECTURE = {
         "Perplexity"
       ],
       "relaterat": [
-        "010-20",
-        "010-40"
+        "010-20"
       ]
     },
     {
@@ -198,10 +189,6 @@ window.LECTURE = {
           "Google Gemini",
           "https://gemini.google.com"
         ]
-      ],
-      "relaterat": [
-        "010-10",
-        "010-50"
       ]
     },
     {
@@ -226,10 +213,6 @@ window.LECTURE = {
         "prompt engineering",
         "token",
         "fine-tuning"
-      ],
-      "relaterat": [
-        "010-40",
-        "040-10"
       ]
     },
     {
@@ -245,10 +228,6 @@ window.LECTURE = {
       "begrepp": [
         "tokens",
         "kontextfönster"
-      ],
-      "relaterat": [
-        "010-30",
-        "020-10"
       ]
     },
     {
@@ -266,10 +245,6 @@ window.LECTURE = {
         "NVIDIA",
         "träning",
         "inferens"
-      ],
-      "relaterat": [
-        "010-30",
-        "010-60"
       ]
     },
     {
@@ -286,10 +261,6 @@ window.LECTURE = {
         "exponentiell utveckling",
         "linjärt",
         "geometrisk summa"
-      ],
-      "relaterat": [
-        "010-10",
-        "060-10"
       ]
     },
     {
@@ -311,11 +282,6 @@ window.LECTURE = {
       ],
       "alias": [
         "hur jag startade"
-      ],
-      "relaterat": [
-        "020-20",
-        "020-30",
-        "000-30"
       ]
     },
     {
@@ -331,10 +297,6 @@ window.LECTURE = {
       "begrepp": [
         "bias",
         "träningsdata"
-      ],
-      "relaterat": [
-        "020-10",
-        "020-30"
       ]
     },
     {
@@ -346,11 +308,8 @@ window.LECTURE = {
         "Detektiven.png"
       ],
       "relaterat": [
-        "020-10",
-        "030-40"
-      ],
-      "anteckningar": "Deepfake-Obama från 2020 som exempel — inget nytt under solen. Hemläxa till publiken: bestäm ett kodord i familjen ikväll. Lita, men verifiera.",
-      "fordjupning": "Deepfakes är inte science fiction — MIT visade en förfalskad Obama redan 2020, och sedan dess har tröskeln bara sjunkit. Ett foto från sociala medier räcker för att klona ett ansikte; några sekunders ljud för en röst.\n\nDet betyder inte att allt är falskt, utan att bild och röst inte längre duger som bevis på identitet. Praktiska motmedel: ett kodord i familjen, sunt tvivel vid brådskande förfrågningar, och vanan att fråga 'var kommer det här ifrån?'. Källkritik är inte nytt — men det har aldrig varit viktigare."
+        "010-40"
+      ]
     },
     {
       "id": "020-40",
@@ -369,11 +328,6 @@ window.LECTURE = {
         "säkerhet",
         "rädsla",
         "folkvett"
-      ],
-      "relaterat": [
-        "030-30",
-        "000-30",
-        "060-10"
       ]
     },
     {
@@ -390,10 +344,6 @@ window.LECTURE = {
         "samarbete",
         "förtroende",
         "handslag"
-      ],
-      "relaterat": [
-        "030-50",
-        "060-10"
       ]
     },
     {
@@ -416,10 +366,6 @@ window.LECTURE = {
       ],
       "alias": [
         "Jocke"
-      ],
-      "relaterat": [
-        "020-30",
-        "030-40"
       ]
     },
     {
@@ -440,10 +386,6 @@ window.LECTURE = {
         "tid",
         "effektivitet",
         "de grå herrarna"
-      ],
-      "relaterat": [
-        "020-40",
-        "060-10"
       ]
     },
     {
@@ -459,10 +401,6 @@ window.LECTURE = {
       "begrepp": [
         "bildgenerering",
         "träningsbild"
-      ],
-      "relaterat": [
-        "020-30",
-        "020-10"
       ]
     },
     {
@@ -472,12 +410,8 @@ window.LECTURE = {
       "svar": "Om vi låter den tänka åt oss, ja. Om den tvingar oss till bättre frågor — nej. Vi väljer.",
       "bildforslag": "Två vägar sida vid sida: en hjärna som somnar in vid skärmen vs en som vaknar och frågar.",
       "relaterat": [
-        "000-30",
-        "030-10",
-        "060-10"
-      ],
-      "anteckningar": "Paralleller: räknaren och GPS. Verktyg som tänker åt oss kan förtvina en muskel — eller frigöra den till svårare frågor. Vi väljer vilket.",
-      "fordjupning": "Studier antyder båda utfallen samtidigt: den som låter AI skriva svaret utan att tänka lär sig mindre; den som använder AI för att bli utmanad, ifrågasatt och rättad lär sig mer. Skillnaden är inte verktyget utan hållningen.\n\nSamma sak hände med GPS: vissa slutade kunna hitta, andra vågade åka längre för att de litade på stödet. AI förstärker det du redan gör — lathet blir latare, nyfikenhet blir nyfiknare. Därför är den verkliga frågan inte vad AI gör med oss, utan vad vi väljer att göra med den."
+        "000-30"
+      ]
     },
     {
       "id": "040-10",
@@ -500,10 +434,6 @@ window.LECTURE = {
         "Turingtest",
         "Analytical Engine",
         "tidslinje"
-      ],
-      "relaterat": [
-        "040-20",
-        "040-30"
       ]
     },
     {
@@ -525,10 +455,6 @@ window.LECTURE = {
         "internet",
         "kunskapens epoker",
         "tidslinje"
-      ],
-      "relaterat": [
-        "040-10",
-        "000-20"
       ]
     },
     {
@@ -549,8 +475,7 @@ window.LECTURE = {
         "agentisk AI"
       ],
       "relaterat": [
-        "040-40",
-        "010-40"
+        "040-40"
       ]
     },
     {
@@ -571,10 +496,6 @@ window.LECTURE = {
         "AlphaFold",
         "proteinveckning",
         "Nobelpriset"
-      ],
-      "relaterat": [
-        "040-30",
-        "010-10"
       ]
     },
     {
@@ -584,11 +505,28 @@ window.LECTURE = {
       "svar": "En bra grundprompt och nyfikenhet. Börja idag; i soffan går bra.",
       "bildforslag": "Någon som tryggt tar sitt allra första AI-samtal vid köksbordet.",
       "relaterat": [
-        "050-20",
         "050-40"
+      ]
+    },
+    {
+      "id": "050-30",
+      "sektion": "050",
+      "titel": "Funkar det på riktigt, i vardagen?",
+      "svar": "Jag lät den bygga hela bokföringen. Revisorn nöjd. Vi firade med burgare.",
+      "bilder": [
+        "Bokföring med AI.png",
+        "Verkligheten kommer på besök.png",
+        "Verkligheten kom – vi firade med burgare.png"
       ],
-      "anteckningar": "Uppmuntra: börja idag, i soffan, med en enda fråga. Ingen kurs behövs. Grundprompten finns i biblioteket.",
-      "fordjupning": "Du behöver ingen kurs och ingen datorvana. Öppna ChatGPT eller Gemini, skriv som du pratar, och be om hjälp med något du faktiskt håller på med — en text, en plan, en fråga du grunnat på.\n\nTvå knep som ändrar allt: ge sammanhang ('jag är lärare, förklara för en nybörjare') och be den ställa följdfrågor till dig. Grundprompten i biblioteket är en färdig start att klistra in. Det enda felet du kan göra är att inte börja."
+      "fordjupning": "Varför bokföring som testfall? För att den är obarmhärtig: siffrorna stämmer eller stämmer inte, och en revisor granskar resultatet. En perfekt miljö för att testa om AI håller i verkligheten — inte bara i demon.\n\nArbetsmodellen: AI:n gör grovjobbet (sortera, kontera, stämma av), människan äger besluten och ansvaret, och allt kontrolleras mot källorna. Mönster är vackra, bevis är sanning — även i ekonomin.\n\nFacit från revisorsbesöket: det AI-byggda höll. Men lärdomen är större än bokföringen. Det som avgjorde var arbetsdelningen — maskinen räknade, människorna granskade, ingen litade blint på någon.\n\nOch burgarna är också en poäng: om AI tar grovjobbet ska den frigjorda tiden bli mänsklig tid — samtal, skratt, kaffe. Annars gjorde vi fel på köpet.",
+      "anteckningar": "Mitt skarpaste test: hela bolagets bokföring, byggd tillsammans med AI.\nInte en demo — verklighet, med revisor och allt.\n'På onsdag kommer revisorn. Då får vi se om det vi byggt håller.'\nIdéer → verklighet: underlag, system, kontroll, ansvar.\nAI gör jobbet snabbare. Jag gör valen. Tillsammans blir det bättre.\nDet höll! Revisorn nöjd, Anna nöjd, AI:n nöjd — burgare nöjd.\nPoängen: människor träffas, AI levererar, allt blir klart.",
+      "personer": [
+        "Jerry"
+      ],
+      "begrepp": [
+        "bokföring",
+        "vardagsnytta"
+      ]
     },
     {
       "id": "050-20",
@@ -617,34 +555,6 @@ window.LECTURE = {
           "Mauri presenterar Lovable",
           "https://youtu.be/0NDFrrQXPkk"
         ]
-      ],
-      "relaterat": [
-        "050-10",
-        "050-30"
-      ]
-    },
-    {
-      "id": "050-30",
-      "sektion": "050",
-      "titel": "Funkar det på riktigt, i vardagen?",
-      "svar": "Jag lät den bygga hela bokföringen. Revisorn nöjd. Vi firade med burgare.",
-      "bilder": [
-        "Bokföring med AI.png",
-        "Verkligheten kommer på besök.png",
-        "Verkligheten kom – vi firade med burgare.png"
-      ],
-      "fordjupning": "Varför bokföring som testfall? För att den är obarmhärtig: siffrorna stämmer eller stämmer inte, och en revisor granskar resultatet. En perfekt miljö för att testa om AI håller i verkligheten — inte bara i demon.\n\nArbetsmodellen: AI:n gör grovjobbet (sortera, kontera, stämma av), människan äger besluten och ansvaret, och allt kontrolleras mot källorna. Mönster är vackra, bevis är sanning — även i ekonomin.\n\nFacit från revisorsbesöket: det AI-byggda höll. Men lärdomen är större än bokföringen. Det som avgjorde var arbetsdelningen — maskinen räknade, människorna granskade, ingen litade blint på någon.\n\nOch burgarna är också en poäng: om AI tar grovjobbet ska den frigjorda tiden bli mänsklig tid — samtal, skratt, kaffe. Annars gjorde vi fel på köpet.",
-      "anteckningar": "Mitt skarpaste test: hela bolagets bokföring, byggd tillsammans med AI.\nInte en demo — verklighet, med revisor och allt.\n'På onsdag kommer revisorn. Då får vi se om det vi byggt håller.'\nIdéer → verklighet: underlag, system, kontroll, ansvar.\nAI gör jobbet snabbare. Jag gör valen. Tillsammans blir det bättre.\nDet höll! Revisorn nöjd, Anna nöjd, AI:n nöjd — burgare nöjd.\nPoängen: människor träffas, AI levererar, allt blir klart.",
-      "personer": [
-        "Jerry"
-      ],
-      "begrepp": [
-        "bokföring",
-        "vardagsnytta"
-      ],
-      "relaterat": [
-        "050-20",
-        "050-40"
       ]
     },
     {
@@ -652,13 +562,7 @@ window.LECTURE = {
       "sektion": "050",
       "titel": "Var hittar jag allt du visat?",
       "svar": "I Biblioteket — verktyg, poddar, böcker, personer och allt jag byggt. Klicka Biblioteket i menyn.",
-      "bildforslag": "En skylt/dörr in till biblioteket — eller behåll som rent textkort.",
-      "anteckningar": "Peka mot Biblioteket. Här bor allt jag byggt, läst och lyssnat på — dela länken så kan de gräva vidare hemma.",
-      "fordjupning": "Biblioteket är samlingen bakom föreläsningen: verktygen jag rekommenderar, poddar och filmer jag återkommer till, böcker jag läst eller tänkt läsa, och personerna det är värt att känna. Det uppdateras löpande — det jag hittar imorgon dyker upp där. Dela gärna länken; det är byggt för att bläddras i lugn och ro.",
-      "relaterat": [
-        "050-10",
-        "050-30"
-      ]
+      "bildforslag": "En skylt/dörr in till biblioteket — eller behåll som rent textkort."
     },
     {
       "id": "060-10",
@@ -676,10 +580,6 @@ window.LECTURE = {
       "begrepp": [
         "humor",
         "Pluton B"
-      ],
-      "relaterat": [
-        "000-30",
-        "030-50"
       ]
     },
     {
@@ -709,10 +609,6 @@ window.LECTURE = {
           "LinkedIn",
           "https://www.linkedin.com/in/annamalmberg2/"
         ]
-      ],
-      "relaterat": [
-        "000-10",
-        "060-10"
       ]
     },
     {
@@ -4687,7 +4583,7 @@ window.LECTURE = {
     {
       "id": "mer-notion-som-anteckningar",
       "sektion": "950",
-      "titel": "Notion som anteckningar",
+      "titel": "Notion blev första AI-skolan",
       "begrepp": [
         "Notion",
         "skolan",
@@ -4824,92 +4720,5 @@ window.LECTURE = {
     }
   ],
   "stigar": [],
-  "undertitel": "Logik är universell",
-  "standardlankar": [
-    [
-      "Översikt",
-      "#oversikt"
-    ],
-    [
-      "Biblioteket",
-      "#biblioteket"
-    ],
-    [
-      "Bloggen",
-      "https://wisdom-streamer.lovable.app/"
-    ],
-    [
-      "AiNNOVA AB",
-      "https://ainnova.se/"
-    ],
-    [
-      "Anna Malmberg · LinkedIn",
-      "https://www.linkedin.com/in/annamalmberg2"
-    ]
-  ],
-  "allaBilder": [
-    "30 steg – två sätt att växa (nattvariant).png",
-    "30 steg – två sätt att växa.png",
-    "Ada och Alan – tidslinjen.png",
-    "AI Anna Intelligens.jpg",
-    "AiNNOVA – vad jag erbjuder.png",
-    "AlphaFold – proteinernas gåta.png",
-    "Anna framför sin roll-up.jpg",
-    "Anna möter maskinen – vid go-brädet.jpg",
-    "Aristoteles – first principles.png",
-    "Aristoteles – reel.png",
-    "Bias – när mönstret lurar oss.jpg",
-    "Bloggen.png",
-    "Bokföring med AI.png",
-    "Deep Blue vs Kasparov 1997.png",
-    "Detektiven.png",
-    "Engagerad publik.jpg",
-    "Ett spel – vem ska man lita på.png",
-    "Exponentiellt tänkande.png",
-    "Fei-Fei Li.png",
-    "Fikaföreläsning.jpg",
-    "Framtiden byggs tillsammans – bron.png",
-    "Från regler till språk – maskinens resa.jpg",
-    "Handslag på svenska.png",
-    "Handslaget – appen.png",
-    "Hedvig behövs.png",
-    "HurDetFunkar.png",
-    "Inte bara ett bolag – hela armén.png",
-    "Jocke – en kvinna i dans.png",
-    "Jocke – med pensel.jpg",
-    "Kaptenen till sjöss.png",
-    "Konst – schack.png",
-    "Kunskapens fyra epoker.jpg",
-    "Logik är universell – AI Sverige.png",
-    "Logik är universell.jpg",
-    "Lovable – bygg med en mening.png",
-    "Läror och mönster.png",
-    "Mitt profilfoto som grund.jpeg",
-    "Momo och de grå herrarna.png",
-    "Mona Lisa Anna.png",
-    "Målningen – kvinnan lyfter mannen.png",
-    "Mönster är vackra, bevis är sanning.png",
-    "Nobelpriset i ekonomi 2026.png",
-    "Notion som anteckningar.png",
-    "När intelligensen lämnade spelbordet – tidslinje.jpg",
-    "Orienteraren på vift.png",
-    "Patent – kunskapens ekonomi.jpg",
-    "Rallyt – gamla kartan gäller ej.png",
-    "Schack – Anna möter maskinen.png",
-    "Schack vs Go.png",
-    "Skaparkaos.png",
-    "Sköldbondens schack.png",
-    "Strid eller Astrid.png",
-    "Svampskogen – ett växande mycel att odla.png",
-    "Svampskogen – inte en maskin, ett mycel.png",
-    "Tillsammans för bästa beslut.png",
-    "Tokens, kontext och det svåraste jobbet.jpg",
-    "Traktens.png",
-    "Tre lager – en livsresa.png",
-    "Under föreläsningen.jpg",
-    "Under huven – hårdvara och mjukvara.jpg",
-    "Veckolåtar.png",
-    "Verkligheten kom – vi firade med burgare.png",
-    "Verkligheten kommer på besök.png"
-  ]
+  "undertitel": "Logik är universell"
 };
