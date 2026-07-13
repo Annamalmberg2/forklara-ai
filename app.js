@@ -111,7 +111,7 @@
 
     const sek = sektioner.get(k.sektion) || { namn: "" };
 
-    // Bild eller textkort
+    // Bild, bildförslag (fråga som väntar på bild) eller textkort
     const ram = $("bildram");
     ram.innerHTML = "";
     if (bilderAv(k).length) {
@@ -119,6 +119,11 @@
       img.src = bildUrl(k, 0);
       img.alt = k.titel;
       ram.appendChild(img);
+    } else if (k.bildforslag && !k.text) {
+      const f = el("div", "bildforslag");
+      f.appendChild(el("div", "bf-etikett", "Bildförslag"));
+      f.appendChild(el("div", "bf-text", k.bildforslag));
+      ram.appendChild(f);
     } else {
       const t = el("div", "textkort");
       String(k.text || "").split(/\n\s*\n/).forEach(stycke => {
@@ -163,6 +168,8 @@
       }
     };
     $("korttitel").textContent = k.titel;
+    $("kortsvar").textContent = k.svar || "";
+    $("kortsvar").hidden = !k.svar;
     $("sektionsnamn").textContent = sek.namn;
 
     // Panelen
@@ -324,7 +331,10 @@
       const rubrik = el("div", "oversikt-sektionsrubrik");
       rubrik.appendChild(el("span", "nr", sek.id));
       rubrik.appendChild(el("h2", null, sek.namn));
-      rubrik.appendChild(el("span", "antal", korten.length + (korten.length === 1 ? " kort" : " kort")));
+      const bildAntal = korten.reduce((s, k) => s + bilderAv(k).length, 0);
+      rubrik.appendChild(el("span", "antal",
+        korten.length + (korten.length === 1 ? " berättelse" : " berättelser") +
+        " · " + bildAntal + (bildAntal === 1 ? " bild" : " bilder")));
       del.appendChild(rubrik);
 
       const grid = el("div", "kortgrid");
@@ -389,7 +399,7 @@
     set("btn-bibliotek", påBibliotek);
 
     if (påLabbet) {
-      prog.textContent = "Labbet — välj en stig eller ett kapitel";
+      prog.textContent = "Labbet — välj en fråga eller följ berättelsen";
       prog.onclick = () => öppnaÖversikt(null);
       rensaRäls();
     } else if (bibÖversikt) {
@@ -410,9 +420,10 @@
       } else {
         const lista = berättelseKort();
         const bi = lista.findIndex(x => x.id === aktuellId);
-        prog.textContent = stigNamn() + " · " + (bi >= 0
-          ? (bi + 1) + " / " + lista.length + " · " + sek.namn
-          : "utanför stigen · " + sek.namn);
+        const pos = bi >= 0 ? (bi + 1) + " / " + lista.length : "utanför";
+        prog.textContent = STIGAR.length
+          ? stigNamn() + " · " + pos + " · " + sek.namn
+          : sek.namn + " · " + pos;
         prog.onclick = () => öppnaÖversikt(null);
         uppdateraRail(kortNu.sektion);
       }
@@ -439,31 +450,36 @@
     $("trad-titel").textContent = L.fraga || L.titel;
     $("trad-under").textContent =
       (L.undertitel ? L.undertitel + ". " : "") +
-      "Välj en stig — eller vandra hela berättelsen. Varje kapitel går att fälla ut.";
+      (STIGAR.length
+        ? "Välj en stig — eller vandra hela berättelsen. Varje kapitel går att fälla ut."
+        : "Sök din fråga, eller fäll ut ett tema. Allt är också sökbart.");
 
-    // Stigvalet — samma skog, olika vandringar
+    // Stigvalet — samma skog, olika vandringar (döljs om inga stigar finns)
     const val = $("stigval");
     val.innerHTML = "";
-    const chip = (id, namn, beskrivning) => {
-      const b = el("button", "stig-chip" + (((id || null) === (stig || null)) ? " aktiv" : ""));
-      b.dataset.stig = id || "";
-      const antal = kort.filter(k => !(sektioner.get(k.sektion) || {}).bakom &&
-        (!id || (k.stigar || []).includes(id))).length;
-      b.appendChild(el("span", "stig-namn", namn));
-      b.appendChild(el("span", "stig-info",
-        (beskrivning ? beskrivning + " · " : "") + antal + " berättelser"));
-      b.onclick = () => sättStig(id || null);
-      val.appendChild(b);
-    };
-    chip(null, "Hela berättelsen", "Alla kapitel, i din ordning");
-    STIGAR.forEach(s => chip(s.id, s.namn, s.beskrivning));
+    val.hidden = !STIGAR.length;
+    if (STIGAR.length) {
+      const chip = (id, namn, beskrivning) => {
+        const b = el("button", "stig-chip" + (((id || null) === (stig || null)) ? " aktiv" : ""));
+        b.dataset.stig = id || "";
+        const antal = kort.filter(k => !(sektioner.get(k.sektion) || {}).bakom &&
+          (!id || (k.stigar || []).includes(id))).length;
+        b.appendChild(el("span", "stig-namn", namn));
+        b.appendChild(el("span", "stig-info",
+          (beskrivning ? beskrivning + " · " : "") + antal + " berättelser"));
+        b.onclick = () => sättStig(id || null);
+        val.appendChild(b);
+      };
+      chip(null, "Hela berättelsen", "Alla kapitel, i din ordning");
+      STIGAR.forEach(s => chip(s.id, s.namn, s.beskrivning));
+    }
 
-    // Startknappen — vandringen börjar med ett klick
+    // Startknappen — börja där berättelsen börjar
     const startKnapp = $("stig-start");
     const startLista = berättelseKort();
     startKnapp.textContent = startLista.length
-      ? "→ Börja vandringen: " + startLista[0].titel
-      : "Inga berättelser på den här stigen ännu";
+      ? "→ Börja från början: " + startLista[0].titel
+      : "Inga berättelser ännu";
     startKnapp.onclick = () => { if (startLista.length) { stängAllt(); visa(startLista[0].id); } };
 
     const yta = $("trad-lista");
@@ -482,8 +498,10 @@
       txt.appendChild(el("h3", null, sek.namn));
       txt.appendChild(el("p", null, sek.tes));
       const antal = kapitelKort.length;
+      const bilder = kapitelKort.reduce((s, k) => s + bilderAv(k).length, 0);
       const visaKnapp = el("button", "trad-visa",
-        "▸ fäll ut — " + antal + (antal === 1 ? " berättelse" : " berättelser"));
+        "▸ fäll ut — " + antal + (antal === 1 ? " berättelse" : " berättelser") +
+        " · " + bilder + (bilder === 1 ? " bild" : " bilder"));
       visaKnapp.onclick = e => { e.stopPropagation(); växlaUtfall(kapitel, sek, visaKnapp); };
       txt.appendChild(visaKnapp);
       rad.appendChild(txt);
@@ -591,7 +609,7 @@
         personer: (k.personer || []).map(normalisera),
         begrepp: (k.begrepp || []).map(normalisera),
         sektion: normalisera(sek.namn),
-        brödtext: normalisera((k.anteckningar || "") + " " + (k.text || "") +
+        brödtext: normalisera((k.svar || "") + " " + (k.anteckningar || "") + " " + (k.text || "") +
           " " + (k.fordjupning || "") +
           " " + (k.lankar || []).map(l => l[0] + " " + (l[2] || "")).join(" "))
       };
@@ -922,6 +940,7 @@
   document.body.classList.remove("panel-dold");  // panelen ska alltid synas (som för besökaren)
   if (typeof minne.stig === "string" && STIGAR.some(s => s.id === minne.stig)) stig = minne.stig;
   byggStigmeny();
+  $("stigmeny").hidden = !STIGAR.length;   // ingen stigväljare i menyn utan stigar
   uppdateraStigUI();
   byggRail();
 

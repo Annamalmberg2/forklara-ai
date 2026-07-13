@@ -230,11 +230,32 @@
       return;
     }
 
-    // Titel
+    // Titel (frågan)
     const titel = el("input");
     titel.value = k.titel;
     titel.onchange = () => { k.titel = titel.value; sparaUtkast(); window.APP.uppdatera(); };
-    box.appendChild(fält("Titel", titel));
+    box.appendChild(fält("Frågan (titel)", titel));
+
+    // Svaret på ett andetag
+    const svar = el("textarea");
+    svar.rows = 2;
+    svar.value = k.svar || "";
+    svar.placeholder = "En mening — det du säger om du bara har tio sekunder.";
+    svar.onchange = () => {
+      if (svar.value.trim()) k.svar = svar.value.trim(); else delete k.svar;
+      sparaUtkast(); window.APP.uppdatera();
+    };
+    box.appendChild(fält("Svaret på ett andetag", svar));
+
+    // Bildförslag (om bild saknas)
+    const bf = el("input");
+    bf.value = k.bildforslag || "";
+    bf.placeholder = "Beskriv bilden som skulle bära frågan (tills du lägger in en riktig).";
+    bf.onchange = () => {
+      if (bf.value.trim()) k.bildforslag = bf.value.trim(); else delete k.bildforslag;
+      sparaUtkast(); window.APP.uppdatera();
+    };
+    box.appendChild(fält("Bildförslag", bf));
 
     // Kapitel — flytta kortet till rätt serie
     const val = el("select");
