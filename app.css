@@ -606,6 +606,19 @@ body.bara-bild #panel { display: none; }
 body.bara-bild #kortyta { padding: 24px; }
 body.bara-bild #bildram img { box-shadow: none; }
 
+/* Zoom i scenläget — klicka för att förstora, dra för att panorera */
+body.bara-bild #bildram { overflow: hidden; }
+body.bara-bild #bildram img { cursor: zoom-in; }
+body.bara-bild #bildram.zoomad { display: block; overflow: auto; }
+body.bara-bild #bildram.zoomad img {
+  max-width: none;
+  max-height: none;
+  width: auto;
+  height: auto;
+  cursor: grab;
+}
+body.zoomad #klickzon-bak, body.zoomad #klickzon-fram { pointer-events: none; }
+
 /* ---------- Den gyllene röda tråden ---------- */
 
 :root {

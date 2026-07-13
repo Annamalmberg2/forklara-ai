@@ -105,6 +105,7 @@
     const föregående = aktuellId;
     aktuellId = id;
     bildIx = 0;
+    nollställZoom();
     if (!frånHash) history.replaceState(null, "", "#" + encodeURIComponent(id));
     spara({ senast: id });
 
@@ -685,12 +686,30 @@
   }
 
   // ---------- lägen ----------
-  function växlaPanel() {
-    document.body.classList.toggle("panel-dold");
-    const dold = document.body.classList.contains("panel-dold");
-    spara({ panelDold: dold });
+  function växlaBaraBild() {
+    document.body.classList.toggle("bara-bild");
+    if (!document.body.classList.contains("bara-bild")) nollställZoom();
   }
-  function växlaBaraBild() { document.body.classList.toggle("bara-bild"); }
+
+  // ---------- zoom i scenläget: klicka för att förstora, dra för att panorera ----------
+  let _pan = { on: false, flyttad: false, sx: 0, sy: 0, sl: 0, st: 0 };
+  function nollställZoom() {
+    const ram = $("bildram");
+    document.body.classList.remove("zoomad");
+    ram.classList.remove("zoomad");
+    ram.scrollLeft = 0; ram.scrollTop = 0;
+  }
+  function växlaZoom(fx, fy) {
+    const ram = $("bildram");
+    const på = ram.classList.toggle("zoomad");
+    document.body.classList.toggle("zoomad", på);
+    if (på) {
+      requestAnimationFrame(() => {
+        ram.scrollLeft = (fx == null ? 0.5 : fx) * ram.scrollWidth - ram.clientWidth / 2;
+        ram.scrollTop = (fy == null ? 0.5 : fy) * ram.scrollHeight - ram.clientHeight / 2;
+      });
+    } else { ram.scrollLeft = 0; ram.scrollTop = 0; }
+  }
   function scenläge(på) {
     document.body.classList.toggle("bara-bild", på);
     if (på) document.documentElement.requestFullscreen().catch(() => {});
@@ -766,7 +785,7 @@
       case "Home": visa(berättelseKort()[0].id); e.preventDefault(); break;
       case "g": case "G": växlaÖversikt(); break;
       case "r": case "R": öppnaTråd(); break;
-      case "n": case "N": växlaPanel(); break;
+      case "z": case "Z": if (document.body.classList.contains("bara-bild")) växlaZoom(); break;
       case "b": case "B": växlaBaraBild(); break;
       case "f": case "F": växlaHelskärm(); break;
       case "?": $("hjalp").hidden = !$("hjalp").hidden; break;
@@ -792,6 +811,34 @@
   $("btn-oversikt").onclick = () => öppnaÖversikt(null);
   $("btn-bibliotek").onclick = () => öppnaÖversikt("130");
   $("progress").title = "Klicka för att zooma ut till översikten";
+
+  // Zoom/panorering i scenläget
+  (function () {
+    const ram = $("bildram");
+    ram.addEventListener("pointerdown", e => {
+      if (!document.body.classList.contains("bara-bild") || !ram.classList.contains("zoomad")) return;
+      _pan.on = true; _pan.flyttad = false;
+      _pan.sx = e.clientX; _pan.sy = e.clientY;
+      _pan.sl = ram.scrollLeft; _pan.st = ram.scrollTop;
+      try { ram.setPointerCapture(e.pointerId); } catch (x) {}
+    });
+    ram.addEventListener("pointermove", e => {
+      if (!_pan.on) return;
+      const dx = e.clientX - _pan.sx, dy = e.clientY - _pan.sy;
+      if (Math.abs(dx) + Math.abs(dy) > 6) _pan.flyttad = true;
+      ram.scrollLeft = _pan.sl - dx;
+      ram.scrollTop = _pan.st - dy;
+    });
+    ram.addEventListener("pointerup", () => { _pan.on = false; });
+    ram.addEventListener("click", e => {
+      if (!document.body.classList.contains("bara-bild")) return;
+      if (_pan.flyttad) { _pan.flyttad = false; return; }   // det var en panorering, inte ett klick
+      const img = ram.querySelector("img");
+      if (!img) return;
+      const r = img.getBoundingClientRect();
+      växlaZoom((e.clientX - r.left) / r.width, (e.clientY - r.top) / r.height);
+    });
+  })();
   $("trad-sok").onclick = () => öppnaPalett();
   $("btn-scen").onclick = () => scenläge(true);
   $("btn-avsluta-scen").onclick = () => scenläge(false);
@@ -819,7 +866,7 @@
   // ---------- start ----------
   document.title = L.titel + " — föreläsningsverktyg";
   const minne = sparat();
-  if (minne.panelDold) document.body.classList.add("panel-dold");
+  document.body.classList.remove("panel-dold");  // panelen ska alltid synas (som för besökaren)
   if (typeof minne.stig === "string" && STIGAR.some(s => s.id === minne.stig)) stig = minne.stig;
   byggStigmeny();
   uppdateraStigUI();

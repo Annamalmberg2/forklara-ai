@@ -1685,9 +1685,15 @@ window.LECTURE = {
           "https://youtu.be/5mfwXuS06Ok",
           "Riktigt bra exempel och råd som du bör känna till.",
           "Sandeep Swadia"
+        ],
+        [
+          "AI and Robotics - Cyberpunk or Paradise - Dr Waku Explains the AI future",
+          "https://youtu.be/tagoeAxQ7rQ",
+          "Dr Waku är min favorit i alla kategorier vad gäller att förstå och förklara AI. Hans kanal finns med på min Youtube lista men det här är en intervju från någon som ser mer än andra.",
+          "DR Waku intervju"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 17 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 18 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-40",
@@ -3157,12 +3163,17 @@ window.LECTURE = {
         [
           "Framtid – Judith Wolst",
           "https://sv.wikipedia.org/wiki/Judith_Wolst",
-          "En bonusbok om framtid, teknik och samhällsutveckling."
+          "En bok om framtid, teknik och samhällsutveckling."
         ],
         [
           "Fermats gåta – Simon Singh",
           "https://en.wikipedia.org/wiki/Simon_Singh",
-          "En lättläst och populärvetenskaplig bok om matematikens historia och jakten på Fermats sista sats. Talet 333 333 331, trehundratrettiotre miljoner trehundratrettiotre tusen trehundratrettioen."
+          "En lättläst och populärvetenskaplig bok om matematikens historia och jakten på Fermats sista sats. Talet 333 333 331, trehundratrettiotre miljoner trehundratrettiotre tusen trehundratrettioen hittade jag i den boken. Ett tal jag nyttjade länge för att se hur AI utvecklades matematiskt."
+        ],
+        [
+          "Kodboken – Simon Singh",
+          "https://en.wikipedia.org/wiki/Simon_Singh",
+          "En bok om kryptografi och hemlig kommunikation."
         ],
         [
           "Big Bang – Simon Singh",
@@ -3235,7 +3246,7 @@ window.LECTURE = {
           "I Sanningsministeriet är protagonisten Winston Smith en tjänsteman som ansvarar för att bevara Partiets propaganda genom att ändra historien för att visa att Partiet alltid har rätt och är allvetande. Hans torftiga tillvaro desillusionerar honom till den grad att han vill göra uppror mot Storebror, som är Partiets ledare. Från 1984 har vi bland annat fått uttrycket \"Storebror ser dig\" (Big Brother is watching you)."
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 21 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 22 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-90",
@@ -3296,6 +3307,12 @@ window.LECTURE = {
           "https://en.wikipedia.org/wiki/Alec_Radford",
           "En av OpenAI:s absolut viktigaste kärnforskare och hjärnan bakom arkitekturen för de tidiga GPT-modellerna samt CLIP. kvar på OpenAI",
           "Manliga forskare och profiler inom AI"
+        ],
+        [
+          "Alex Finn",
+          "https://x.com/alexfinnery",
+          "AI-entreprenör, strateg och digital kreatör. Känd för att dela konkreta guider, workflows och tips kring hur företag kan använda AI för automatisering och tillväxt. Stark profil inom AI-business och praktiska verktyg. Mästare på PenClaw och Hermes.",
+          "Internationella manliga influencers inom AI"
         ],
         [
           "Alex Krizhevsky",
@@ -3690,8 +3707,8 @@ window.LECTURE = {
         [
           "Dr Waku",
           "https://www.youtube.com/@DrWaku",
-          "Forskare inom datasäkerhet och AI, känd för att skapa innehåll om cybersäkerhet och AI:s samhällspåverkan.",
-          "Internationella manliga influencers inom AI"
+          "Forskare inom datasäkerhet och AI. Enastående pedagog som kombinerar teknisk expertis med en unik förmåga att förklara komplexa koncept kring cybersäkerhet och AI:s samhällspåverkan. Känd för sina djupa analyser; rekommenderas även i \"The Mind Blowers Podcast\".",
+          "Känd för sina djupa analyser; rekommenderas även i \"The Mind Blowers Podcast\"."
         ],
         [
           "Dustin W. Stout",
@@ -3728,6 +3745,12 @@ window.LECTURE = {
           "https://brightact.org/",
           "Grundare av BrightAct, bygger AI-baserad teknik för att bekämpa våld i hemmet och digital innovation inom offentlig sektor.",
           "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Elizabeth Weil",
+          "https://www.thecut.com/author/elizabeth-weil/",
+          "Journalist och skribent. Känd för sina djupt humanistiska och kritiska reportage om människorna och filosofin bakom AI-boomen. Skriver fantastiska AI-reportage.",
+          "Kvinnliga forskare och profiler inom AI"
         ],
         [
           "Elon Musk",
@@ -3838,6 +3861,12 @@ window.LECTURE = {
           "Manliga forskare och profiler inom AI"
         ],
         [
+          "Greg Isenberg",
+          "https://x.com/gregisenberg",
+          "Entreprenör och produktdesigner som automatiserar arbetsflöden och delar AI-tips för företagare.",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
           "Gwen Brannen",
           "https://en.wikipedia.org/wiki/Anthropic",
           "Head of Operations på Anthropic. Ansvarar för den operativa driften, tillväxten och uppskalningen av ett av världens ledande AI-säkerhets- och forskningsbolag.",
@@ -3848,12 +3877,6 @@ window.LECTURE = {
           "https://gwern.net/",
           "Pseudonym oberoende forskare, skribent och AI-tänkare. Hans webbplats gwern.net är känd för sina extremt djupgående och banbrytande analyser av tidig generativ AI, LLM-skalning och statistik. Aktiv och levande, men helt anonym/pseudonym profil. https://youtu.be/a42key59cZQ",
           "Manliga forskare och profiler inom AI"
-        ],
-        [
-          "Greg Isenberg",
-          "https://x.com/gregisenberg",
-          "Entreprenör och produktdesigner som automatiserar arbetsflöden och delar AI-tips för företagare.",
-          "Internationella manliga influencers inom AI"
         ],
         [
           "Harper Carroll",
@@ -3944,6 +3967,12 @@ window.LECTURE = {
           "https://se.linkedin.com/in/jakobiwars",
           "Jurist och expert på AI-juridik, hjälper företag att navigera lagstiftning och etiska frågor kring AI.",
           "Svenska manliga influencers inom AI"
+        ],
+        [
+          "Janelle Shane",
+          "https://aiweirdness.com/",
+          "Forskare och författare till \"You Look Like a Thing and I Love You\". Använder humor för att visa AI-modellers brister och konstiga logik. Skaparen av AI Weirdness.",
+          "Kvinnliga forskare och profiler inom AI"
         ],
         [
           "Jaron Zepel Lanier",
@@ -4102,6 +4131,12 @@ window.LECTURE = {
           "Svenska manliga influencers inom AI"
         ],
         [
+          "Joscha Bach",
+          "https://en.wikipedia.org/wiki/Joscha_Bach",
+          "Kognitionsvetare och AI-forskare. Utforskar AI genom filosofi, medvetande och kognitiva modeller. En av de mest djuptänkta rösterna kring vad maskinellt medvetande innebär. Helt unik filosofisk röst inom AI.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
           "Josefin Rosén",
           "https://se.linkedin.com/in/josefinrosen",
           "AI & Data Science Lead på SAS Institute, ofta omnämnd i branschmedia och finalist till Årets AI-svensk 2022.",
@@ -4246,6 +4281,12 @@ window.LECTURE = {
           "Svenska kvinnliga influencers inom AI"
         ],
         [
+          "Leopold Aschenbrenner",
+          "https://situational-awareness.ai/",
+          "Tidigare OpenAI-forskare. Författare till det inflytelserika dokumentet \"Situational Awareness\" om vägen till AGI och geopolitisk AI-säkerhet.",
+          "Manliga forskare och profiler inom AI"
+        ],
+        [
           "Liam Ottley",
           "https://www.youtube.com/@LiamOttley",
           "AI-strateg och rådgivare, hjälper företag att implementera AI-lösningar och optimera arbetsflöden.",
@@ -4304,6 +4345,12 @@ window.LECTURE = {
           "https://zimply.ai/",
           "VD för Zimply.ai, driver AI-utveckling med fokus på inkludering och hållbarhet.",
           "Svenska kvinnliga influencers inom AI"
+        ],
+        [
+          "Marc Andreessen",
+          "https://en.wikipedia.org/wiki/Marc_Andreessen",
+          "Riskkapitalist och tech-pionjär. Författare till \"The Techno-Optimist Manifesto\" och en av de starkaste rösterna för AI-acceleration. Ledande tekno-optimist.",
+          "Manliga forskare och profiler inom AI"
         ],
         [
           "Margaret Mitchell",
@@ -4436,6 +4483,12 @@ window.LECTURE = {
           "https://en.wikipedia.org/wiki/Naomi_Wu",
           "Kinesisk maker och YouTuber med över en miljon följare. Skapar videor om robotik, AI och teknikprojekt för DIY-communityn.",
           "Internationella kvinnliga influencers inom AI"
+        ],
+        [
+          "NetworkChuck",
+          "https://networkchuck.com/",
+          "IT- och nätverkspedagog samt enorm YouTube-profil. Gör extremt energiska och praktiska guider om hur man kör lokala LLM:er, sätter upp AI-servrar hemma och använder AI i IT-miljöer. Fantastisk för att lära sig köra AI lokalt och bygga hårdvara.",
+          "Internationella manliga influencers inom AI"
         ],
         [
           "Nick Bostrom",
@@ -4576,6 +4629,12 @@ window.LECTURE = {
           "Kvinnliga forskare och profiler inom AI"
         ],
         [
+          "Ras Mic",
+          "https://www.youtube.com/@rasmic",
+          "Full Stack-ingenjör, utvecklare och YouTuber. Känd för sina konkreta och pedagogiska genomgångar av hur man i praktiken bygger system, SaaS-appar och gränssnitt med AI-agenter och moderna arbetsflöden. Expert på praktisk \"agentic engineering\" och AI-workflows som ofta intervjuas av Riley Brown",
+          "Internationella manliga influencers inom AI"
+        ],
+        [
           "Raymond Kurzweil",
           "https://sv.wikipedia.org/wiki/Ray_Kurzweil",
           "Raymond ”Ray” Kurzweil- Singularity",
@@ -4592,6 +4651,12 @@ window.LECTURE = {
           "https://www.youtube.com/@rileybrownai",
           "Programmerare och AI-expert, särskilt uppskattad bland kodare för sina pedagogiska genomgångar.",
           "Internationella manliga influencers inom AI"
+        ],
+        [
+          "Rob Miles",
+          "https://www.youtube.com/@RobertMilesAI",
+          "AI-säkerhetsforskare och YouTuber. Världens främsta pedagog inom AI-alignment. Känd för sina briljanta visuella förklaringar av existentiell risk och hur vi kontrollerar framtida superintelligens. Helt oumbärlig röst för AI-säkerhet",
+          "Manliga forskare och profiler inom AI"
         ],
         [
           "Rodney Brooks",
@@ -4864,7 +4929,7 @@ window.LECTURE = {
           "Manliga forskare och profiler inom AI"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 270 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 279 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "900-10",
