@@ -786,7 +786,7 @@ body.zoomad #klickzon-bak, body.zoomad #klickzon-fram { pointer-events: none; }
 
 .trad-rad {
   display: grid;
-  grid-template-columns: 18px 44px 1fr 132px;
+  grid-template-columns: 18px 1fr 132px;
   gap: 0 18px;
   align-items: center;
   width: 100%;
@@ -863,7 +863,7 @@ body.zoomad #klickzon-bak, body.zoomad #klickzon-fram { pointer-events: none; }
   background: var(--paper-2);
 }
 @media (max-width: 680px) {
-  .trad-rad { grid-template-columns: 18px 44px 1fr; }
+  .trad-rad { grid-template-columns: 18px 1fr; }
   .trad-bild { display: none; }
 }
 

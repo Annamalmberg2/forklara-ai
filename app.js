@@ -321,7 +321,7 @@
         bakomTillagd = true;
       }
 
-      const chip = el("button", "chip", sek.id + " " + sek.namn);
+      const chip = el("button", "chip", sek.namn);
       chip.onclick = () => $("sek-" + sek.id).scrollIntoView({ block: "start" });
       nav.appendChild(chip);
 
