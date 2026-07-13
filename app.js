@@ -691,29 +691,72 @@
     if (!document.body.classList.contains("bara-bild")) nollställZoom();
   }
 
-  // ---------- zoom i scenläget: klicka för att förstora, dra för att panorera ----------
-  let _pan = { on: false, flyttad: false, sx: 0, sy: 0, sl: 0, st: 0 };
-  function nollställZoom() {
-    const ram = $("bildram");
-    document.body.classList.remove("zoomad");
-    ram.classList.remove("zoomad");
-    ram.scrollLeft = 0; ram.scrollTop = 0;
+  // ---------- zoom i scenläget: pinch (fingrar), mushjul, klicka & dra ----------
+  // Bilden ritas i naturlig upplösning och transformeras (translate+scale) — så
+  // kan man zooma djupt och panorera runt. scale = Z.fit betyder "passa skärmen".
+  const Z = { fit: 1, scale: 1, tx: 0, ty: 0, klar: false };
+  const zoomImg = () => $("bildram").querySelector("img");
+  const maxScale = () => Math.max(4, Z.fit * 2);   // ända upp till 4× naturlig storlek
+
+  function initZoom() {
+    const ram = $("bildram"), img = zoomImg();
+    if (!img || !img.naturalWidth) return;
+    const cw = ram.clientWidth, ch = ram.clientHeight;
+    if (cw < 20 || ch < 20) return;   // containern inte färdigmätt ännu — försök igen nästa gång
+    const nw = img.naturalWidth, nh = img.naturalHeight;
+    Z.fit = Math.min(cw / nw, ch / nh);
+    Z.scale = Z.fit;
+    Z.tx = (cw - nw * Z.fit) / 2;
+    Z.ty = (ch - nh * Z.fit) / 2;
+    img.style.cssText = "position:absolute;left:0;top:0;max-width:none;max-height:none;" +
+      "width:" + nw + "px;height:" + nh + "px;transform-origin:0 0;box-shadow:none;";
+    Z.klar = true;
+    tillämpaZoom();
   }
-  function växlaZoom(fx, fy) {
+  function säkerställInit() { if (!Z.klar) initZoom(); return Z.klar; }
+  function tillämpaZoom() {
+    const img = zoomImg();
+    if (!img) return;
+    img.style.transform = "translate(" + Z.tx + "px," + Z.ty + "px) scale(" + Z.scale + ")";
+    const inzoomad = Z.scale > Z.fit * 1.01;
+    document.body.classList.toggle("zoomad", inzoomad);
+    img.style.cursor = inzoomad ? "grab" : "zoom-in";
+  }
+  function zoomaVid(cx, cy, faktor) {
+    const ram = $("bildram"), img = zoomImg();
+    if (!img) return;
+    const ns = Math.max(Z.fit, Math.min(maxScale(), Z.scale * faktor));
+    Z.tx = cx - (cx - Z.tx) * (ns / Z.scale);
+    Z.ty = cy - (cy - Z.ty) * (ns / Z.scale);
+    Z.scale = ns;
+    if (Z.scale <= Z.fit * 1.001) {   // snäpp tillbaka till centrerad passform
+      Z.scale = Z.fit;
+      Z.tx = (ram.clientWidth - img.naturalWidth * Z.fit) / 2;
+      Z.ty = (ram.clientHeight - img.naturalHeight * Z.fit) / 2;
+    }
+    tillämpaZoom();
+  }
+  function nollställZoom() {
+    document.body.classList.remove("zoomad");
+    Z.klar = false;
+    const img = zoomImg();
+    if (img) img.style.cssText = "";
+  }
+  function växlaZoom() {   // Z-tangent: snabbväxla passform ↔ 3×
+    if (!säkerställInit()) return;
     const ram = $("bildram");
-    const på = ram.classList.toggle("zoomad");
-    document.body.classList.toggle("zoomad", på);
-    if (på) {
-      requestAnimationFrame(() => {
-        ram.scrollLeft = (fx == null ? 0.5 : fx) * ram.scrollWidth - ram.clientWidth / 2;
-        ram.scrollTop = (fy == null ? 0.5 : fy) * ram.scrollHeight - ram.clientHeight / 2;
-      });
-    } else { ram.scrollLeft = 0; ram.scrollTop = 0; }
+    zoomaVid(ram.clientWidth / 2, ram.clientHeight / 2,
+      Z.scale > Z.fit * 1.01 ? 0.001 : 3 / Z.scale);
   }
   function scenläge(på) {
     document.body.classList.toggle("bara-bild", på);
-    if (på) document.documentElement.requestFullscreen().catch(() => {});
-    else if (document.fullscreenElement) document.exitFullscreen();
+    if (på) {
+      Z.klar = false;   // frisk zoom-init vid nästa interaktion
+      document.documentElement.requestFullscreen().catch(() => {});
+    } else {
+      nollställZoom();
+      if (document.fullscreenElement) document.exitFullscreen();
+    }
   }
   function växlaHelskärm() {
     if (document.fullscreenElement) document.exitFullscreen();
@@ -812,31 +855,41 @@
   $("btn-bibliotek").onclick = () => öppnaÖversikt("130");
   $("progress").title = "Klicka för att zooma ut till översikten";
 
-  // Zoom/panorering i scenläget
+  // Zoom & panorering i scenläget — pinch, mushjul, klicka & dra
   (function () {
     const ram = $("bildram");
+    const iScen = () => document.body.classList.contains("bara-bild");
+    let drag = { on: false, flyttad: false, x: 0, y: 0, tx: 0, ty: 0 };
+
+    ram.addEventListener("wheel", e => {
+      if (!iScen()) return;
+      e.preventDefault();                 // pinch (ctrl+wheel) och hjul zoomar
+      if (!säkerställInit()) return;
+      const r = ram.getBoundingClientRect();
+      zoomaVid(e.clientX - r.left, e.clientY - r.top, Math.pow(1.0022, -e.deltaY));
+    }, { passive: false });
+
     ram.addEventListener("pointerdown", e => {
-      if (!document.body.classList.contains("bara-bild") || !ram.classList.contains("zoomad")) return;
-      _pan.on = true; _pan.flyttad = false;
-      _pan.sx = e.clientX; _pan.sy = e.clientY;
-      _pan.sl = ram.scrollLeft; _pan.st = ram.scrollTop;
+      if (!iScen() || !säkerställInit()) return;
+      drag.on = true; drag.flyttad = false;
+      drag.x = e.clientX; drag.y = e.clientY; drag.tx = Z.tx; drag.ty = Z.ty;
       try { ram.setPointerCapture(e.pointerId); } catch (x) {}
     });
     ram.addEventListener("pointermove", e => {
-      if (!_pan.on) return;
-      const dx = e.clientX - _pan.sx, dy = e.clientY - _pan.sy;
-      if (Math.abs(dx) + Math.abs(dy) > 6) _pan.flyttad = true;
-      ram.scrollLeft = _pan.sl - dx;
-      ram.scrollTop = _pan.st - dy;
+      if (!drag.on) return;
+      const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+      if (Math.abs(dx) + Math.abs(dy) > 5) drag.flyttad = true;
+      if (Z.scale > Z.fit * 1.01) { Z.tx = drag.tx + dx; Z.ty = drag.ty + dy; tillämpaZoom(); }
     });
-    ram.addEventListener("pointerup", () => { _pan.on = false; });
+    ram.addEventListener("pointerup", () => { drag.on = false; });
+
     ram.addEventListener("click", e => {
-      if (!document.body.classList.contains("bara-bild")) return;
-      if (_pan.flyttad) { _pan.flyttad = false; return; }   // det var en panorering, inte ett klick
-      const img = ram.querySelector("img");
-      if (!img) return;
-      const r = img.getBoundingClientRect();
-      växlaZoom((e.clientX - r.left) / r.width, (e.clientY - r.top) / r.height);
+      if (!iScen()) return;
+      if (drag.flyttad) { drag.flyttad = false; return; }   // det var en panorering
+      if (!säkerställInit()) return;
+      const r = ram.getBoundingClientRect();
+      const cx = e.clientX - r.left, cy = e.clientY - r.top;
+      zoomaVid(cx, cy, Z.scale > Z.fit * 1.01 ? 0.001 : 2.6 / Z.scale);  // in mot punkten / ut
     });
   })();
   $("trad-sok").onclick = () => öppnaPalett();

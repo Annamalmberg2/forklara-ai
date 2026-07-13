@@ -1699,18 +1699,18 @@ window.LECTURE = {
       "id": "130-40",
       "sektion": "130",
       "titel": "Artiklar & Nobelpris",
-      "text": "Det är dags för mig att börja samla bra artiklar och det är för mig så spännande att se hur långt AI kommit i vetenskap och matematik. Matematik var det första jag trodde AI skulle vara bra på men så var det inte. AI har lärt sig. Det första AI lärde sig var det talade språket i all dess former. Ganska konstigt ändå för det är ju rörigt. Matematikens språk är ju logiskt.",
+      "text": "Några av många bra artiklar och nobelpris jag vill uppmärksamma. Vi är många som finner det otroligt spännande att se hur långt AI kommit i vetenskap och matematik. Matematik var det första jag trodde AI skulle vara bra på men så var det inte, AI har lärt sig. Det första AI lärde sig var det talade språket i all dess former. Ganska konstigt ändå för det är ju rörigt. Matematikens språk är logiskt men det heter ju stora språkmodeller av en anledning.",
       "lankar": [
         [
           "AI löser ett 80 år gammalt Erdős-problem",
           "https://openai.com/sv-SE/index/model-disproves-discrete-geometry-conjecture/?_bhlid=ce428ef5d6ec4bf7e3c73cc22e06de72ddc4d120",
-          "OpenAI uppges ha löst enhetsavståndsproblemet, ett känt problem som Paul Erdős formulerade 1946 och som stått olöst i omkring 80 år. Lösningen beskrivs som ett nytt bevis/motbevis som imponerade på matematiker. [web:41][web:44][web:46]",
+          "OpenAI uppges ha löst enhetsavståndsproblemet, ett känt problem som Paul Erdős formulerade 1946 och som stått olöst i omkring 80 år. Lösningen beskrivs som ett nytt bevis/motbevis som imponerade på matematiker.",
           "AI-genombrott"
         ],
         [
           "AI hittar bortglömda bevis i gamla papper",
           "https://www.warpnews.se/artificiell-intelligens/ai-hjalper-matematiker-losa-problem-som-varit-olosta-i-artionden/",
-          "Språkmodeller har hjälpt matematiker att leta fram lösningar som redan fanns, men låg gömda i äldre litteratur. Enligt rapporter har AI bidragit till att flytta omkring 100 av Paul Erdős problem till kategorin “lösta”. [web:41][web:43]",
+          "Språkmodeller har hjälpt matematiker att leta fram lösningar som redan fanns, men låg gömda i äldre litteratur. Enligt rapporter har AI bidragit till att flytta omkring 100 av Paul Erdős problem till kategorin “lösta”.",
           "AI-genombrott"
         ],
         [
@@ -1734,18 +1734,18 @@ window.LECTURE = {
         [
           "AI och vetenskapliga genombrott",
           "https://news.microsoft.com/sv-se/2025/12/08/ai-och-vetenskapliga-genombrott-microsofts-tio-storsta-upptackter-2025/",
-          "Microsoft lyfter flera exempel där AI används för proteinanalys, materialutveckling, diagnostik, väderprognoser och andra vetenskapliga genombrott. [web:51]",
+          "Microsoft lyfter flera exempel där AI används för proteinanalys, materialutveckling, diagnostik, väderprognoser och andra vetenskapliga genombrott.",
           "AI och vetenskapliga genombrott"
         ],
         [
           "AI blir billigare och snabbare",
           "https://ainyheterna.se/artikel/2026-04-10-fyra-genombrott-gor-ai-dramatiskt-billigare-och-snabbare",
-          "Ny forskning pekar på stora kostnads- och hastighetsvinster i AI-system, med metoder som minskar minnesanvändning kraftigt och gör modeller effektivare. [web:59]",
+          "Ny forskning pekar på stora kostnads- och hastighetsvinster i AI-system, med metoder som minskar minnesanvändning kraftigt och gör modeller effektivare.",
           "AI blir billigare och snabbare"
         ],
         [
           "Lovable",
-          "https://www.youtube.com/watch?v=kWO0Krq_51c",
+          "https://youtu.be/0NDFrrQXPkk",
           "Lovable, grundat av Anton Osika och Fabian Hedin, presenteras charmigt av Mauri. Jag har träffat flera ur teamet IRL. De är skickliga, charmiga och väckte stort förtroende. Gör din egen bedömning. Testa gärna att bygga med deras verktyg men gå via min affilalänk så får du mer krediter att bygga med https://vision-setter.lovable.app/",
           "Personlig rekommendation och ett starkt exempel på svensk AI-entreprenörsanda."
         ],
