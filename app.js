@@ -106,8 +106,7 @@
     aktuellId = id;
     bildIx = 0;
     nollställZoom();
-    if (!frånHash) history.replaceState(null, "", "#" + encodeURIComponent(id));
-    spara({ senast: id });
+    spara({ senast: id });   // adressen sätts av uppdateraNav (en enda plats)
 
     const sek = sektioner.get(k.sektion) || { namn: "" };
 
@@ -377,10 +376,21 @@
     else { $("oversikt").hidden = true; uppdateraNav(); }
   }
 
+  // Varje VY har en egen adress (#hem, #oversikt, #biblioteket) — precis som
+  // varje berättelse har sitt #kort-id. Så visar länken alltid var man är.
+  let _router = false;
+  function nuvarandeHash() {
+    if (!$("trad").hidden) return "hem";
+    if (!$("oversikt").hidden) return oversiktFilter === "130" ? "biblioteket" : "oversikt";
+    if (aktuellId != null) return aktuellId;
+    return "hem";
+  }
+
   // Menyn ska visa VAR du är — markera Hem / Översikt / Biblioteket
   // ETT enda ställe som styr både övre menyn OCH sidfoten — de kan aldrig
   // säga olika saker. Var du än är: toppen och botten berättar detsamma.
   function uppdateraNav() {
+    if (!_router) history.replaceState(null, "", "#" + encodeURIComponent(nuvarandeHash()));
     const påLabbet = !$("trad").hidden;
     const påÖversikt = !påLabbet && !$("oversikt").hidden;
     const bibÖversikt = påÖversikt && oversiktFilter === "130";
@@ -920,8 +930,16 @@
   $("hjalptips").style.cursor = "pointer";
   $("hjalptips").onclick = () => { $("hjalp").hidden = false; };
   window.addEventListener("hashchange", () => {
-    const id = decodeURIComponent(location.hash.slice(1));
-    if (index.has(id) && id !== aktuellId) visa(id, true);
+    const h = decodeURIComponent(location.hash.slice(1));
+    _router = true;
+    if (h === "hem") öppnaTråd();
+    else if (h === "oversikt") öppnaÖversikt(null);
+    else if (h === "biblioteket") öppnaÖversikt("130");
+    else if (index.has(h)) {
+      $("trad").hidden = true; $("oversikt").hidden = true;
+      if (h !== aktuellId) visa(h); else uppdateraNav();
+    }
+    _router = false;
   });
 
   // ---------- klockan: alltid veta hur länge man pratat ----------
@@ -942,18 +960,14 @@
   uppdateraStigUI();
   byggRail();
 
-  const hadeDjuplänk = index.has(decodeURIComponent(location.hash.slice(1)));
-  const startId = (() => {
-    const h = decodeURIComponent(location.hash.slice(1));
-    if (index.has(h)) return h;
-    if (minne.senast && index.has(minne.senast)) return minne.senast;
-    return berättelseKort()[0].id;
-  })();
-  visa(startId);
-
-  // Man landar alltid på den röda tråden — hela historien först,
-  // detaljerna ett Enter bort. (Djuplänkar med #kort-id går direkt.)
-  if (!hadeDjuplänk) öppnaTråd();
+  // Routa efter adressen: #hem / #oversikt / #biblioteket / #kort-id
+  const h0 = decodeURIComponent(location.hash.slice(1));
+  const kortUnder = (minne.senast && index.has(minne.senast)) ? minne.senast : berättelseKort()[0].id;
+  visa(index.has(h0) ? h0 : kortUnder);
+  if (h0 === "oversikt") öppnaÖversikt(null);
+  else if (h0 === "biblioteket") öppnaÖversikt("130");
+  else if (!index.has(h0)) öppnaTråd();   // #hem, tomt eller okänt → labbet
+  // (är h0 ett kort-id visas kortet redan, utan lager ovanpå)
 
   // Liten API-yta för redigeringsläget (redigering.js)
   window.APP = {
