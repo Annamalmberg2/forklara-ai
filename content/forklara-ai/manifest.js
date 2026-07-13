@@ -4331,7 +4331,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "000-10",
+      "id": "mer-logik-ar-universell",
       "fordjupning": "Matematikens språk är detsamma i Kiruna som i Kalifornien — och detsamma inuti en dator som i ett klassrum. Ett neuralt nätverk bryter inte mot logikens lagar; det är byggt av dem: addition, multiplikation, derivator. Det är därför en matte- och fysiklärare kan förklara AI utan att vara programmerare.\n\nDet är också tröstande: AI är inte magi som kräver invigda. Den som förstår procent, sannolikhet och funktioner har redan verktygen för att förstå det viktigaste.",
       "sektion": "950",
       "titel": "Logik är universell",
@@ -4344,7 +4344,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "000-50",
+      "id": "mer-logik-ar-universell-ai-sverige",
       "fordjupning": "Ny teknik lärs bäst i sällskap. När många delar misstag och genombrott samtidigt går inlärningen fort — samma nätverkseffekt som tekniken själv bygger på.\n\nVuxna lär sig ny teknik bäst tillsammans; det sociala sammanhanget avgör om den fastnar. Fråga gärna publiken: vem är din AI-kompis?",
       "sektion": "950",
       "titel": "Logik är universell – AI Sverige",
@@ -4376,7 +4376,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "010-20",
+      "id": "mer-gamla-kartan-galler-ej",
       "fordjupning": "Kartläsarens jobb är inte att minnas vägen — det är att läsa rätt karta i rätt ögonblick. När terrängen ritas om blir gamla meriter en risk: man svänger självsäkert åt fel håll.\n\nÖversatt till arbetslivet: erfarenhet är fortfarande guld, men som förmåga att navigera — inte som memorerad väg. Fråga inte 'vad kan jag?' utan 'hur uppdaterar jag min karta?'.\n\nSjökort uppdateras ständigt — grund flyttar sig, farleder muddras om. En kapten som seglar på förra årets kort är inte erfaren, bara farlig.\n\nSamma sak med AI: det som var sant om verktygen i fjol (priser, förmågor, begränsningar) är ofta fel i år. Kolla datumet på din kunskap.\n\nI orientering vinner inte den som springer fortast, utan den som hittar rätt när kartan och verkligheten skaver. Färdigheten heter kartkontakt: att ständigt jämföra det man ser med det man tror.\n\nDet är kanske den viktigaste AI-färdigheten också: jämför alltid modellens svar med verkligheten. Springer du fort på fel kurs kommer du snabbt — fel.",
       "sektion": "950",
       "titel": "Gamla kartan gäller ej",
@@ -4392,7 +4392,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "020-20",
+      "id": "mer-aristoteles-first-principles",
       "fordjupning": "First principles: skala bort allt du antagit och bygg från det som bevisligen är sant. Aristoteles gjorde det med naturen; dagens ingenjörer gör det med raketer och batterier.\n\nPå AI: i stället för att fråga 'vad säger folk om ChatGPT?' — fråga 'vad ÄR det här i grunden?'. Svaret (en funktion som gissar nästa ord, tränad på enorma mängder text) förklarar både styrkorna och misstagen bättre än all hajp.",
       "sektion": "950",
       "titel": "Aristoteles – first principles",
@@ -4409,7 +4409,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "030-20",
+      "id": "mer-deep-blue-vs-kasparov-1997",
       "fordjupning": "Deep Blue räknade omkring 200 miljoner ställningar i sekunden — rå styrka och handbyggda schackregler, ingen 'förståelse'. Kasparov vann mötet 1996; returmatchen 1997 slutade 3,5–2,5 till maskinen.\n\nIntressantast är Kasparovs slutsats efteråt: han blev förespråkare för 'centaur-schack' — människa och maskin som lag, vilket ofta slår båda var för sig. Det är fortfarande den bästa arbetsmodellen, långt utanför schacket.",
       "sektion": "950",
       "titel": "Deep Blue vs Kasparov 1997",
@@ -4428,7 +4428,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "030-30",
+      "id": "mer-alphago-vs-lee-sedol-2016",
       "fordjupning": "Go kan inte råräknas — brädet rymmer fler möjliga ställningar än det finns atomer i universum. AlphaGo tränade i stället upp mönsterkänsla genom miljontals partier mot sig själv.\n\nDrag 37 i parti två: kommentatorerna dömde först ut det som ett misstag — sedan tystnade de. Maskinen bedömde själv att en människa bara hade spelat det en gång på tiotusen. Lee Sedol svarade i parti fyra med drag 78 — 'Guds beröring' — och vann människans enda parti.\n\nBåda dragen hör till berättelsen: maskinen överraskade oss, och pressad av maskinen överträffade människan sig själv.",
       "sektion": "950",
       "titel": "AlphaGo vs Lee Sedol 2016",
@@ -4448,7 +4448,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "040-20",
+      "id": "mer-svampskogen-ett-vaxande-mycel-att-odla",
       "fordjupning": "På skogspromenaden ser du svamparna — men organismen är mycelet: kilometervis av trådar under marken. AI är likadant. Chattbotten du ser är fruktkroppen; mycelet är datacenter, forskningslabb, öppna modeller och miljontals utvecklare.\n\nDärför går det inte att 'stänga av AI:n' — det finns ingen enskild svamp att plocka. Och därför fortsätter det växa även när enskilda bolag snubblar.",
       "sektion": "950",
       "titel": "Svampskogen – ett växande mycel att odla",
@@ -4466,7 +4466,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "050-40",
+      "id": "mer-patent-kunskapens-ekonomi",
       "fordjupning": "Vem äger kunskap som en maskin destillerat ur mänsklighetens samlade texter? Frågorna staplas på varandra: upphovsrätt på träningsdata, patent på arkitekturer, licensvillkor på öppna modeller — och juridiken springer efter tekniken.\n\nSamtidigt märks kunskapens nya ekonomi i plånboken: efterfrågan på beräkningskraft och minne pressar priserna (sommaren 2026: uppåt). Kunskap har bokstavligen blivit en råvara med dagspris.",
       "sektion": "950",
       "titel": "Patent – kunskapens ekonomi",
@@ -4481,7 +4481,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "070-10",
+      "id": "mer-mona-lisa-anna",
       "fordjupning": "Bild-AI har 'sett' miljontals konstverk och lärt sig sambanden mellan ord och bild. Den lagrar inga kopior — men den bär stilarna. Att sätta in ett nytt ansikte i en klassiker tar sekunder.\n\nDet öppnar tre frågor på en gång: Vad är ett original? Var går gränsen mellan hyllning och stöld? Och kan någon äga en stil? Jurister och konstnärer sliter med alla tre. Publiken kan börja med den enklaste: blev det konst?",
       "sektion": "950",
       "titel": "Mona Lisa Anna",
@@ -4498,7 +4498,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "070-60",
+      "id": "mer-skaparkaos",
       "fordjupning": "Så här ser AI-skapande faktiskt ut: hundra varianter, nittiosju i papperskorgen. Maskinen är generös men omdömeslös — urvalet är fortfarande hantverket.\n\nDet gäller all AI-användning: värdet uppstår i din gallring, din smak, ditt nej. Guldkorn i kaos — men bara för den som orkar sålla.",
       "sektion": "950",
       "titel": "Skaparkaos",
@@ -4512,7 +4512,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "070-70",
+      "id": "mer-imagenet-fei-fei-li",
       "fordjupning": "Fei-Fei Lis insikt var kontroversiell på sin tid: kollegorna jagade bättre algoritmer — hon byggde bättre data. 14 miljoner bilder, märkta för hand av tusentals människor.\n\n2012 vann AlexNet (Geoffrey Hintons studenter) tävlingen med djupinlärning på grafikkort och sänkte felprocenten dramatiskt. Tre ingredienser möttes: data (ImageNet), beräkningskraft (GPU:er) och algoritm (neurala nät). Ingen av dem var ny. Kombinationen förändrade allt.",
       "sektion": "950",
       "titel": "ImageNet & Fei-Fei Li",
@@ -4539,7 +4539,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "080-30",
+      "id": "mer-hurdetfunkar",
       "sektion": "950",
       "titel": "HurDetFunkar",
       "begrepp": [
@@ -4562,7 +4562,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "080-40",
+      "id": "mer-traktens",
       "sektion": "950",
       "titel": "Traktens",
       "begrepp": [
@@ -4581,7 +4581,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "080-50",
+      "id": "mer-notion-som-anteckningar",
       "sektion": "950",
       "titel": "Notion som anteckningar",
       "begrepp": [
@@ -4601,7 +4601,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "080-60",
+      "id": "mer-bloggen",
       "sektion": "950",
       "titel": "Bloggen",
       "begrepp": [
@@ -4624,7 +4624,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "080-70",
+      "id": "mer-veckolatar",
       "sektion": "950",
       "titel": "Veckolåtar",
       "begrepp": [
@@ -4647,7 +4647,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "080-80",
+      "id": "mer-skoldbondens-schack",
       "sektion": "950",
       "titel": "Sköldbondens schack",
       "begrepp": [
@@ -4666,7 +4666,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "080-85",
+      "id": "mer-handslaget-avtal-mellan-manniskor",
       "sektion": "950",
       "titel": "Handslaget – avtal mellan människor",
       "begrepp": [
@@ -4686,7 +4686,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "090-20",
+      "id": "mer-tillsammans-for-basta-beslut",
       "sektion": "950",
       "titel": "Tillsammans för bästa beslut",
       "begrepp": [
@@ -4701,7 +4701,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "090-30",
+      "id": "mer-tre-lager-en-livsresa",
       "fordjupning": "Tanken bakom de tre lagren: ett arbetsminne (det AI:n ser just nu), en aktiv position (mina mål och beslut) och ett arkiv (allt, för alltid). Det är samma arkitektur som språkmodellernas kontextfönster plus databas — fast för ett människoliv.\n\nDe svåra frågorna är inte tekniska: Vem äger arkivet? Vad får AI:n lyfta fram ur det — och åt vem? Och vad händer med det när jag inte längre finns? Jag vill hinna välja svaren själv.",
       "sektion": "950",
       "titel": "Tre lager – en livsresa",

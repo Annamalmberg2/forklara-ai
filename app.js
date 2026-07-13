@@ -158,7 +158,7 @@
     }
     ritaPrickar(k);
 
-    $("eyebrow").textContent = k.sektion + " · " + sek.namn;
+    $("eyebrow").textContent = sek.namn;
     $("eyebrow").onclick = () => {
       if (sek.bakom) öppnaÖversikt(k.sektion);       // biblioteket/dokumentation → egen översikt
       else {
@@ -329,7 +329,6 @@
       del.id = "sek-" + sek.id;
 
       const rubrik = el("div", "oversikt-sektionsrubrik");
-      rubrik.appendChild(el("span", "nr", sek.id));
       rubrik.appendChild(el("h2", null, sek.namn));
       const bildAntal = korten.reduce((s, k) => s + bilderAv(k).length, 0);
       rubrik.appendChild(el("span", "antal",
@@ -493,7 +492,6 @@
       rad.setAttribute("role", "button");
       rad.tabIndex = 0;
       rad.appendChild(el("span", "trad-nod"));
-      rad.appendChild(el("span", "trad-nr", sek.id));
       const txt = el("div", "trad-text");
       txt.appendChild(el("h3", null, sek.namn));
       txt.appendChild(el("p", null, sek.tes));
