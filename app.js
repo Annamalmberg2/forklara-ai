@@ -392,12 +392,12 @@
       const rubrik = el("div", "oversikt-sektionsrubrik");
       rubrik.appendChild(el("h2", null, "Alla bilder"));
       rubrik.appendChild(el("span", "antal", window.BILDER.length + " bilder · fria att välja ur"));
-      if (document.body.classList.contains("redigerar") && window.oppnaBankhantering) {
-        const hant = el("button", "vbtn", "＋ Lägg till / ta bort bilder");
-        hant.title = "Lägg till nya bilder i banken eller arkivera bilder du vill kasta";
-        hant.onclick = window.oppnaBankhantering;
-        rubrik.appendChild(hant);
-      }
+      // Knappen ligger alltid i DOM:en — CSS visar den bara i redigeringsläget.
+      // (Gate:a inte på klassen här; översikten ritas inte om när Redigera slås på.)
+      const hant = el("button", "vbtn bank-hantera", "＋ Lägg till / ta bort bilder");
+      hant.title = "Lägg till nya bilder i banken eller arkivera bilder du vill kasta";
+      hant.onclick = () => { if (window.oppnaBankhantering) window.oppnaBankhantering(); };
+      rubrik.appendChild(hant);
       del.appendChild(rubrik);
       const grid = el("div", "bildbank");
       window.BILDER.forEach(fil => {

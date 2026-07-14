@@ -1001,6 +1001,11 @@ body.zoomad #klickzon-bak, body.zoomad #klickzon-fram { pointer-events: none; }
   box-shadow: 0 24px 70px -20px rgba(28, 34, 30, 0.45);
 }
 .bank-box .bankbild { border: 1px solid var(--hair); background: none; padding: 0; cursor: pointer; width: 100%; }
+/* "+ Lägg till / ta bort bilder" — syns bara när Redigera är på.
+   Styrs av CSS (inte av JS vid ritning) så den dyker upp direkt när läget slås på. */
+.bank-hantera { display: none; }
+body.redigerar .bank-hantera { display: inline-block; margin-left: auto; }
+
 /* En cell i banken: bilden + en liten ✕ för att ta bort ur banken */
 .bankcell { position: relative; }
 .bankcell.fri .bankbild { border-color: var(--guld); border-style: dashed; }

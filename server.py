@@ -173,7 +173,17 @@ if __name__ == "__main__":
     try:
         server = Server(("127.0.0.1", PORT), Hanterare)
     except OSError:
-        # Motorn kör redan — öppna bara verktyget.
+        # En motor kör redan på porten. Öppna verktyget — men säg TYDLIGT ifrån,
+        # för den gamla motorn kör gammal kod och nya funktioner syns då inte.
+        print("!" * 60)
+        print("En motor kör REDAN på " + ADRESS + " — den här startade alltså inte.")
+        print("Kör den sedan tidigare har den GAMMAL kod, och nya knappar")
+        print("(t.ex. i bildbanken) svarar inte.")
+        print("")
+        print("Så här gör du: stäng det ANDRA terminalfönstret som står och kör,")
+        print("eller kör raden nedan och dubbelklicka sedan på ikonen igen:")
+        print("    kill $(lsof -ti :" + str(PORT) + ")")
+        print("!" * 60)
         webbrowser.open(ADRESS)
         raise SystemExit(0)
 
