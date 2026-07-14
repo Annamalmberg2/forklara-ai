@@ -160,6 +160,27 @@ window.LECTURE = {
       ]
     },
     {
+      "id": "mer-svampskogen-ett-vaxande-mycel-att-odla",
+      "fordjupning": "På skogspromenaden ser du svamparna — men organismen är mycelet: kilometervis av trådar under marken. AI är likadant. Chattbotten du ser är fruktkroppen; mycelet är datacenter, forskningslabb, öppna modeller och miljontals utvecklare.\n\nDärför går det inte att 'stänga av AI:n' — det finns ingen enskild svamp att plocka. Och därför fortsätter det växa även när enskilda bolag snubblar.",
+      "sektion": "010",
+      "titel": "Svampskogen – ett växande mycel att odla",
+      "begrepp": [
+        "svampskogen",
+        "mycel",
+        "ekosystem",
+        "Pluton B",
+        "tidslinje",
+        "multimodalitet"
+      ],
+      "anteckningar": "AI är inte ett monster — det är ett växande mycel. Tillsammans skapar vi en jätte som kan förstå, hjälpa och bygga. Framtiden beror på hur vi odlar den.\nDelarna: bildmodellen (ögonen), språkmodellen (hjärnan), ljudmodellen (öronen), känslohanden och kodhanden, pusselbålen (hjärtat), datastegen (fötterna).\nI botten: AI:s tidslinje — 1950 Turing-test → ELIZA → backpropagation → Deep Blue → Transformer → multimodalitet → framtiden.\nOch skylten i skogen: Pluton B — vår plats.",
+      "bilder": [
+        "Svampskogen – ett växande mycel att odla.png"
+      ],
+      "relaterat": [
+        "010-10"
+      ]
+    },
+    {
       "id": "010-20",
       "sektion": "010",
       "titel": "Är AI ett enda företag?",
@@ -609,6 +630,388 @@ window.LECTURE = {
           "LinkedIn",
           "https://www.linkedin.com/in/annamalmberg2/"
         ]
+      ]
+    },
+    {
+      "id": "900-10",
+      "sektion": "900",
+      "titel": "Från föreläsningarna",
+      "anteckningar": "Från en tidigare föreläsning — bra till marknadsföring och som avslutningsbild.\nPressbild.\nPubliken jobbar — bevis på att formatet funkar.\nDet lilla formatet: fika, samtal, AI.",
+      "bilder": [
+        "Under föreläsningen.jpg",
+        "Anna framför sin roll-up.jpg",
+        "Engagerad publik.jpg",
+        "Fikaföreläsning.jpg"
+      ]
+    },
+    {
+      "id": "mer-logik-ar-universell",
+      "fordjupning": "Matematikens språk är detsamma i Kiruna som i Kalifornien — och detsamma inuti en dator som i ett klassrum. Ett neuralt nätverk bryter inte mot logikens lagar; det är byggt av dem: addition, multiplikation, derivator. Det är därför en matte- och fysiklärare kan förklara AI utan att vara programmerare.\n\nDet är också tröstande: AI är inte magi som kräver invigda. Den som förstår procent, sannolikhet och funktioner har redan verktygen för att förstå det viktigaste.",
+      "sektion": "950",
+      "titel": "Logik är universell",
+      "begrepp": [
+        "logik"
+      ],
+      "anteckningar": "Öppningsbilden. Matten, fysiken och AI talar samma språk.\nJag är lärare — jag byter inte yrke, jag byter klassrum.",
+      "bilder": [
+        "Logik är universell.jpg"
+      ]
+    },
+    {
+      "id": "mer-logik-ar-universell-ai-sverige",
+      "fordjupning": "Ny teknik lärs bäst i sällskap. När många delar misstag och genombrott samtidigt går inlärningen fort — samma nätverkseffekt som tekniken själv bygger på.\n\nVuxna lär sig ny teknik bäst tillsammans; det sociala sammanhanget avgör om den fastnar. Fråga gärna publiken: vem är din AI-kompis?",
+      "sektion": "950",
+      "titel": "Logik är universell – AI Sverige",
+      "begrepp": [
+        "AI Sverige",
+        "community"
+      ],
+      "anteckningar": "Vi lär oss tillsammans. AI Sverige — samtal, delande, folkbildning.\nKopplingen till bias: när människor blockeras försvinner deras röster ur samtalet — och ur framtidens träningsdata.",
+      "lankar": [
+        [
+          "AI Sverige på Facebook",
+          "https://www.facebook.com/groups/594222752463207?locale=sv_SE"
+        ],
+        [
+          "Blockad på AI Sverige",
+          "https://sites.google.com/ainnova.se/aisverige/startsida"
+        ],
+        [
+          "Fredagslåtar",
+          "https://sites.google.com/ainnova.se/aisverige/musik"
+        ],
+        [
+          "Blogg",
+          "https://wisdom-streamer.lovable.app/"
+        ]
+      ],
+      "bilder": [
+        "Logik är universell – AI Sverige.png"
+      ]
+    },
+    {
+      "id": "mer-gamla-kartan-galler-ej",
+      "fordjupning": "Kartläsarens jobb är inte att minnas vägen — det är att läsa rätt karta i rätt ögonblick. När terrängen ritas om blir gamla meriter en risk: man svänger självsäkert åt fel håll.\n\nÖversatt till arbetslivet: erfarenhet är fortfarande guld, men som förmåga att navigera — inte som memorerad väg. Fråga inte 'vad kan jag?' utan 'hur uppdaterar jag min karta?'.\n\nSjökort uppdateras ständigt — grund flyttar sig, farleder muddras om. En kapten som seglar på förra årets kort är inte erfaren, bara farlig.\n\nSamma sak med AI: det som var sant om verktygen i fjol (priser, förmågor, begränsningar) är ofta fel i år. Kolla datumet på din kunskap.\n\nI orientering vinner inte den som springer fortast, utan den som hittar rätt när kartan och verkligheten skaver. Färdigheten heter kartkontakt: att ständigt jämföra det man ser med det man tror.\n\nDet är kanske den viktigaste AI-färdigheten också: jämför alltid modellens svar med verkligheten. Springer du fort på fel kurs kommer du snabbt — fel.",
+      "sektion": "950",
+      "titel": "Gamla kartan gäller ej",
+      "begrepp": [
+        "förändring",
+        "gamla kartan"
+      ],
+      "anteckningar": "Kartläsaren läser gårdagens karta — skylten säger 'gammal karta gäller ej'.\nErfarenhet hjälper bara om kartan uppdateras. Gäller oss alla.\nSamma hav — nya farleder. Sjökortet ritas om medan vi seglar.\nTerrängen stämmer inte längre med kartan.\nDå gäller det att kunna orientera — inte att ha memorerat vägen.",
+      "bilder": [
+        "Rallyt – gamla kartan gäller ej.png",
+        "Kaptenen till sjöss.png",
+        "Orienteraren på vift.png"
+      ]
+    },
+    {
+      "id": "mer-aristoteles-first-principles",
+      "fordjupning": "First principles: skala bort allt du antagit och bygg från det som bevisligen är sant. Aristoteles gjorde det med naturen; dagens ingenjörer gör det med raketer och batterier.\n\nPå AI: i stället för att fråga 'vad säger folk om ChatGPT?' — fråga 'vad ÄR det här i grunden?'. Svaret (en funktion som gissar nästa ord, tränad på enorma mängder text) förklarar både styrkorna och misstagen bättre än all hajp.",
+      "sektion": "950",
+      "titel": "Aristoteles – first principles",
+      "personer": [
+        "Aristoteles"
+      ],
+      "begrepp": [
+        "first principles"
+      ],
+      "anteckningar": "Bygg från grunden: vad vet vi säkert?\nSamma metod som fysiken — och samma metod jag använder på AI.\nKortversionen för sociala medier — filosofi i stående format.",
+      "bilder": [
+        "Aristoteles – first principles.png",
+        "Aristoteles – reel.png"
+      ]
+    },
+    {
+      "id": "mer-deep-blue-vs-kasparov-1997",
+      "fordjupning": "Deep Blue räknade omkring 200 miljoner ställningar i sekunden — rå styrka och handbyggda schackregler, ingen 'förståelse'. Kasparov vann mötet 1996; returmatchen 1997 slutade 3,5–2,5 till maskinen.\n\nIntressantast är Kasparovs slutsats efteråt: han blev förespråkare för 'centaur-schack' — människa och maskin som lag, vilket ofta slår båda var för sig. Det är fortfarande den bästa arbetsmodellen, långt utanför schacket.",
+      "sektion": "950",
+      "titel": "Deep Blue vs Kasparov 1997",
+      "personer": [
+        "Garry Kasparov",
+        "Judit Polgár"
+      ],
+      "begrepp": [
+        "schack",
+        "Deep Blue",
+        "IBM"
+      ],
+      "anteckningar": "1997: maskinen slår världsmästaren. Rå beräkningskraft + regler.\nKasparov efteråt: 'jag kunde känna en ny sorts intelligens'.\n(Judit Polgár — schackhistoriens starkaste kvinna — hör till samma berättelse.)",
+      "bilder": [
+        "Deep Blue vs Kasparov 1997.png"
+      ]
+    },
+    {
+      "id": "mer-alphago-vs-lee-sedol-2016",
+      "fordjupning": "Go kan inte råräknas — brädet rymmer fler möjliga ställningar än det finns atomer i universum. AlphaGo tränade i stället upp mönsterkänsla genom miljontals partier mot sig själv.\n\nDrag 37 i parti två: kommentatorerna dömde först ut det som ett misstag — sedan tystnade de. Maskinen bedömde själv att en människa bara hade spelat det en gång på tiotusen. Lee Sedol svarade i parti fyra med drag 78 — 'Guds beröring' — och vann människans enda parti.\n\nBåda dragen hör till berättelsen: maskinen överraskade oss, och pressad av maskinen överträffade människan sig själv.",
+      "sektion": "950",
+      "titel": "AlphaGo vs Lee Sedol 2016",
+      "personer": [
+        "Lee Sedol",
+        "Demis Hassabis"
+      ],
+      "begrepp": [
+        "Go",
+        "AlphaGo",
+        "drag 37",
+        "DeepMind"
+      ],
+      "anteckningar": "2016: AlphaGo vinner 4–1. Go har fler positioner än atomer i universum.\nDrag 37 — draget ingen människa skulle spela. Kreativitet? Eller statistik?\nLee Sedol slutade senare som proffs.",
+      "bilder": [
+        "Anna möter maskinen – vid go-brädet.jpg"
+      ]
+    },
+    {
+      "id": "mer-patent-kunskapens-ekonomi",
+      "fordjupning": "Vem äger kunskap som en maskin destillerat ur mänsklighetens samlade texter? Frågorna staplas på varandra: upphovsrätt på träningsdata, patent på arkitekturer, licensvillkor på öppna modeller — och juridiken springer efter tekniken.\n\nSamtidigt märks kunskapens nya ekonomi i plånboken: efterfrågan på beräkningskraft och minne pressar priserna (sommaren 2026: uppåt). Kunskap har bokstavligen blivit en råvara med dagspris.",
+      "sektion": "950",
+      "titel": "Patent – kunskapens ekonomi",
+      "begrepp": [
+        "patent",
+        "kunskapens ekonomi",
+        "öppna vikter"
+      ],
+      "anteckningar": "Vem äger kunskapen? Patent, öppna vikter, licenser.\nAktuellt just nu: priserna på minne och hårdvara går upp (sommaren 2026).",
+      "bilder": [
+        "Patent – kunskapens ekonomi.jpg"
+      ]
+    },
+    {
+      "id": "mer-mona-lisa-anna",
+      "fordjupning": "Bild-AI har 'sett' miljontals konstverk och lärt sig sambanden mellan ord och bild. Den lagrar inga kopior — men den bär stilarna. Att sätta in ett nytt ansikte i en klassiker tar sekunder.\n\nDet öppnar tre frågor på en gång: Vad är ett original? Var går gränsen mellan hyllning och stöld? Och kan någon äga en stil? Jurister och konstnärer sliter med alla tre. Publiken kan börja med den enklaste: blev det konst?",
+      "sektion": "950",
+      "titel": "Mona Lisa Anna",
+      "begrepp": [
+        "bild-AI",
+        "remix"
+      ],
+      "alias": [
+        "Mona Lisa"
+      ],
+      "anteckningar": "Klassikern remixad. Bild-AI:n har 'sett' hela konsthistorien —\noch sätter in mig i den. Var går gränsen mellan hyllning och stöld?",
+      "bilder": [
+        "Mona Lisa Anna.png"
+      ]
+    },
+    {
+      "id": "mer-skaparkaos",
+      "fordjupning": "Så här ser AI-skapande faktiskt ut: hundra varianter, nittiosju i papperskorgen. Maskinen är generös men omdömeslös — urvalet är fortfarande hantverket.\n\nDet gäller all AI-användning: värdet uppstår i din gallring, din smak, ditt nej. Guldkorn i kaos — men bara för den som orkar sålla.",
+      "sektion": "950",
+      "titel": "Skaparkaos",
+      "begrepp": [
+        "kreativitet",
+        "iteration"
+      ],
+      "anteckningar": "Så ser skapandet faktiskt ut: hundra utkast, en robotarm som säger ERROR.\nGuldkorn i kaoset — det som verkar dåligt idag kan vara guld imorgon.",
+      "bilder": [
+        "Skaparkaos.png"
+      ]
+    },
+    {
+      "id": "mer-imagenet-fei-fei-li",
+      "fordjupning": "Fei-Fei Lis insikt var kontroversiell på sin tid: kollegorna jagade bättre algoritmer — hon byggde bättre data. 14 miljoner bilder, märkta för hand av tusentals människor.\n\n2012 vann AlexNet (Geoffrey Hintons studenter) tävlingen med djupinlärning på grafikkort och sänkte felprocenten dramatiskt. Tre ingredienser möttes: data (ImageNet), beräkningskraft (GPU:er) och algoritm (neurala nät). Ingen av dem var ny. Kombinationen förändrade allt.",
+      "sektion": "950",
+      "titel": "ImageNet & Fei-Fei Li",
+      "personer": [
+        "Fei-Fei Li"
+      ],
+      "begrepp": [
+        "ImageNet",
+        "datorseende",
+        "AlexNet"
+      ],
+      "alias": [
+        "Fei"
+      ],
+      "anteckningar": "Bryggan: utan ImageNet ingen bild-AI, ingen Mona Lisa Anna.\nÄnnu en kvinna som byggde grunden.",
+      "lankar": [
+        [
+          "Fei-Fei Li på TED",
+          "https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures"
+        ]
+      ],
+      "bilder": [
+        "Fei-Fei Li.png"
+      ]
+    },
+    {
+      "id": "mer-hurdetfunkar",
+      "sektion": "950",
+      "titel": "HurDetFunkar",
+      "begrepp": [
+        "skolan",
+        "experiment"
+      ],
+      "anteckningar": "Min gamla skolhjälpssida — nu mitt experimentlabb.",
+      "lankar": [
+        [
+          "hurdetfunkar.se",
+          "https://hurdetfunkar.se"
+        ],
+        [
+          "Pluton B",
+          "https://sites.google.com/view/hurdetfunkar/pluton-b"
+        ]
+      ],
+      "bilder": [
+        "HurDetFunkar.png"
+      ]
+    },
+    {
+      "id": "mer-traktens",
+      "sektion": "950",
+      "titel": "Traktens",
+      "begrepp": [
+        "Google Sites",
+        "kartautomation"
+      ],
+      "anteckningar": "Byns sida — Google Sites med kartautomation. Gratis verktyg, riktig nytta.",
+      "lankar": [
+        [
+          "traktens.se",
+          "https://www.traktens.se/om-traktens"
+        ]
+      ],
+      "bilder": [
+        "Traktens.png"
+      ]
+    },
+    {
+      "id": "mer-notion-som-anteckningar",
+      "sektion": "950",
+      "titel": "Notion blev första AI-skolan",
+      "begrepp": [
+        "Notion",
+        "skolan",
+        "fria studier"
+      ],
+      "anteckningar": "Anteckningsblocket som blev skolplattform.\nFria studier om AI — välj din stig.",
+      "lankar": [
+        [
+          "Fria studier om AI",
+          "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
+        ]
+      ],
+      "bilder": [
+        "Notion som anteckningar.png"
+      ]
+    },
+    {
+      "id": "mer-bloggen",
+      "sektion": "950",
+      "titel": "Bloggen",
+      "begrepp": [
+        "Wisdom Streamer",
+        "blogg"
+      ],
+      "anteckningar": "Där tankarna landar mellan föreläsningarna — 120 poster, taggade och sökbara.\nBerättelserna bakom många av bilderna bor här.",
+      "lankar": [
+        [
+          "Wisdom Streamer – bloggen",
+          "https://wisdom-streamer.lovable.app/"
+        ],
+        [
+          "ainnova.se",
+          "https://ainnova.se"
+        ]
+      ],
+      "bilder": [
+        "Bloggen.png"
+      ]
+    },
+    {
+      "id": "mer-veckolatar",
+      "sektion": "950",
+      "titel": "Veckolåtar",
+      "begrepp": [
+        "fredagslåtar",
+        "musik"
+      ],
+      "anteckningar": "Musiken som återkommande inslag — varje vecka en låt med AI-koppling.\nAI:n hjälper till, men glädjen är min.",
+      "lankar": [
+        [
+          "Musiksidan",
+          "https://sites.google.com/ainnova.se/aisverige/musik"
+        ],
+        [
+          "Fredagslåt på YouTube",
+          "https://www.youtube.com/watch?v=a7_jig8MxiU"
+        ]
+      ],
+      "bilder": [
+        "Veckolåtar.png"
+      ]
+    },
+    {
+      "id": "mer-skoldbondens-schack",
+      "sektion": "950",
+      "titel": "Sköldbondens schack",
+      "begrepp": [
+        "schack",
+        "spel"
+      ],
+      "anteckningar": "Mitt eget schack med egna regler: drottningen högst, bonden med sköld.\nByggt med AI — och en fin cirkel tillbaka till Deep Blue.",
+      "lankar": [
+        [
+          "Spela Sköldbondens schack",
+          "https://annamalmberg2.github.io/skoldbondens-schack/"
+        ]
+      ],
+      "bilder": [
+        "Sköldbondens schack.png"
+      ]
+    },
+    {
+      "id": "mer-handslaget-avtal-mellan-manniskor",
+      "sektion": "950",
+      "titel": "Handslaget – avtal mellan människor",
+      "begrepp": [
+        "avtal",
+        "Handslaget"
+      ],
+      "anteckningar": "Avtalsverktyget: enkla överenskommelser mellan människor.\nEtt handslag — fast digitalt.\nSamma idé, på svenska. Förtroende är lokalt.",
+      "lankar": [
+        [
+          "Handslaget",
+          "https://handshake-echo-world.lovable.app"
+        ]
+      ],
+      "bilder": [
+        "Handslaget – appen.png",
+        "Handslag på svenska.png"
+      ]
+    },
+    {
+      "id": "mer-tillsammans-for-basta-beslut",
+      "sektion": "950",
+      "titel": "Tillsammans för bästa beslut",
+      "begrepp": [
+        "beslut",
+        "samarbete",
+        "svampskogen",
+        "mycel"
+      ],
+      "anteckningar": "Svampskogens beslutsbord: alla modellsvampar runt samma bord — men människan i centrum. Vi sätter frågorna, värderingarna och ramarna. Människan äger alltid beslutet.\nKedjan: fråga → mångfald av perspektiv → utforska & utmana → sammanväg & enas → förklara varför → människan beslutar → följ upp & lär.\nInte en AI som tar över — utan alla AI som tar hand om. Välkommen in i mycelet.",
+      "bilder": [
+        "Tillsammans för bästa beslut.png"
+      ]
+    },
+    {
+      "id": "mer-tre-lager-en-livsresa",
+      "fordjupning": "Tanken bakom de tre lagren: ett arbetsminne (det AI:n ser just nu), en aktiv position (mina mål och beslut) och ett arkiv (allt, för alltid). Det är samma arkitektur som språkmodellernas kontextfönster plus databas — fast för ett människoliv.\n\nDe svåra frågorna är inte tekniska: Vem äger arkivet? Vad får AI:n lyfta fram ur det — och åt vem? Och vad händer med det när jag inte längre finns? Jag vill hinna välja svaren själv.",
+      "sektion": "950",
+      "titel": "Tre lager – en livsresa",
+      "personer": [
+        "Ada"
+      ],
+      "begrepp": [
+        "minne",
+        "arkiv",
+        "AI-assistent"
+      ],
+      "anteckningar": "Min AI-assistent Ada och minnet i tre lager:\n1. AI:ns arbetsminne  2. Min aktiva position  3. Det fullständiga arkivet.\nAllt fångas, inget raderas, jag bestämmer.\nFrån barnets första tankar till visdomens sista råd.",
+      "bilder": [
+        "Tre lager – en livsresa.png"
       ]
     },
     {
@@ -1719,6 +2122,12 @@ window.LECTURE = {
           "AI-applikationer och verktyg"
         ],
         [
+          "Alex Finn",
+          "https://x.com/alexfinnery",
+          "AI-entreprenör, strateg och digital kreatör. Känd för att dela konkreta guider, workflows och tips kring hur företag kan använda AI för automatisering och tillväxt. Stark profil inom AI-business och praktiska verktyg. Mästare på PenClaw och Hermes.",
+          "AI-applikationer och verktyg"
+        ],
+        [
           "Bob Doyle Media",
           "https://www.youtube.com/@BobDoyleMedia",
           "Kanal om medieproduktion, berättande och kreativitet av Bob Doyle.",
@@ -1809,6 +2218,12 @@ window.LECTURE = {
           "AI-applikationer och verktyg"
         ],
         [
+          "itGenius",
+          "https://www.youtube.com/@itGenius_",
+          "otroligt hjälpsam, framförallt i Google workspace",
+          "AI-applikationer och verktyg"
+        ],
+        [
           "Itssssss Jack",
           "https://www.youtube.com/@Itssssss_Jack",
           "Kanal om teknik, spel och underhållning av Jack.",
@@ -1836,6 +2251,12 @@ window.LECTURE = {
           "Lucidate AI",
           "https://www.youtube.com/@lucidateAI",
           "Kanal om AI, maskininlärning och dataanalys.",
+          "AI-applikationer och verktyg"
+        ],
+        [
+          "Mark Kashef",
+          "https://www.youtube.com/@MarkKashef",
+          "Kodens mästare och fantastiska tutorials om hur man automatiserar",
           "AI-applikationer och verktyg"
         ],
         [
@@ -2046,6 +2467,12 @@ window.LECTURE = {
           "Official Chatbot Builder",
           "https://www.youtube.com/@OfficialChatbotBuilder",
           "Kanal om att builda och implementera chatbots.",
+          "Praktisk AI och kodning"
+        ],
+        [
+          "Riley Brown",
+          "https://www.youtube.com/@rileybrownai",
+          "Programmerare och AI-expert, särskilt uppskattad bland kodare för sina pedagogiska genomgångar.",
           "Praktisk AI och kodning"
         ],
         [
@@ -2289,7 +2716,7 @@ window.LECTURE = {
           "Vetenskapskanaler om matematik och fysik"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 100 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 104 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-70",
@@ -2520,7 +2947,7 @@ window.LECTURE = {
       "id": "130-80",
       "sektion": "130",
       "titel": "Böcker",
-      "text": "Böcker är magi och den enda bok jag senare sett filmatiserad utan att bli besviken på är Ronja Rövardotter. T o m den har dom senare gjort andra försök och göra film och serie av. Ingen har lyckats så bra som orginalfilmen. Böcker är magi och en av få böcker jag valt att läs om igen heter MOMO, egentligen en ungdomsbok men med mycket djup som jag rekommenderar alla att läsa. Här är böcker jag läst eller tänkt mig läsa.",
+      "text": "Böcker är magi och den enda bok jag senare sett filmatiserad utan att bli besviken på är Ronja Rövardotter, originalet vill säga. Böcker är magi och en av få böcker jag valt att läs om igen heter MOMO, egentligen en ungdomsbok men med mycket djup som jag rekommenderar alla att läsa. Här är böcker jag läst eller tänkt mig läsa och de flesta är inte sagor utan handlar handlar om AI, matematik eller teknik.",
       "lankar": [
         [
           "What Technology Wants – Kevin Kelly",
@@ -2631,9 +3058,14 @@ window.LECTURE = {
           "1984,  George Orwell",
           "https://sv.wikipedia.org/wiki/1984_(roman)",
           "I Sanningsministeriet är protagonisten Winston Smith en tjänsteman som ansvarar för att bevara Partiets propaganda genom att ändra historien för att visa att Partiet alltid har rätt och är allvetande. Hans torftiga tillvaro desillusionerar honom till den grad att han vill göra uppror mot Storebror, som är Partiets ledare. Från 1984 har vi bland annat fått uttrycket \"Storebror ser dig\" (Big Brother is watching you)."
+        ],
+        [
+          "The Singularity Is Nearer, Raymond \"Ray\" Kurzweil",
+          "https://sv.wikipedia.org/wiki/Ray_Kurzweil",
+          "Hans tema är framtiden och huvudtesen är att informationsteknologins utvecklingstakt går i enlighet med vad han kallar för \"The Law of Accelerating Returns\" som antyder att informationsteknologins utvecklingstakt är exponentiell och därför också just nu i förstadiet till en explosionsartad förändringstakt. Enligt Kurzweil kommer detta att leda till en teknologisk singularitet, det vill säga en teoretisk framtida tidpunkt karaktäriserad av teknologiska framsteg utan motstycke."
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 22 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 23 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-90",
@@ -4317,406 +4749,6 @@ window.LECTURE = {
         ]
       ],
       "anteckningar": "Hylla i biblioteket — 279 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
-    },
-    {
-      "id": "900-10",
-      "sektion": "900",
-      "titel": "Från föreläsningarna",
-      "anteckningar": "Från en tidigare föreläsning — bra till marknadsföring och som avslutningsbild.\nPressbild.\nPubliken jobbar — bevis på att formatet funkar.\nDet lilla formatet: fika, samtal, AI.",
-      "bilder": [
-        "Under föreläsningen.jpg",
-        "Anna framför sin roll-up.jpg",
-        "Engagerad publik.jpg",
-        "Fikaföreläsning.jpg"
-      ]
-    },
-    {
-      "id": "mer-logik-ar-universell",
-      "fordjupning": "Matematikens språk är detsamma i Kiruna som i Kalifornien — och detsamma inuti en dator som i ett klassrum. Ett neuralt nätverk bryter inte mot logikens lagar; det är byggt av dem: addition, multiplikation, derivator. Det är därför en matte- och fysiklärare kan förklara AI utan att vara programmerare.\n\nDet är också tröstande: AI är inte magi som kräver invigda. Den som förstår procent, sannolikhet och funktioner har redan verktygen för att förstå det viktigaste.",
-      "sektion": "950",
-      "titel": "Logik är universell",
-      "begrepp": [
-        "logik"
-      ],
-      "anteckningar": "Öppningsbilden. Matten, fysiken och AI talar samma språk.\nJag är lärare — jag byter inte yrke, jag byter klassrum.",
-      "bilder": [
-        "Logik är universell.jpg"
-      ]
-    },
-    {
-      "id": "mer-logik-ar-universell-ai-sverige",
-      "fordjupning": "Ny teknik lärs bäst i sällskap. När många delar misstag och genombrott samtidigt går inlärningen fort — samma nätverkseffekt som tekniken själv bygger på.\n\nVuxna lär sig ny teknik bäst tillsammans; det sociala sammanhanget avgör om den fastnar. Fråga gärna publiken: vem är din AI-kompis?",
-      "sektion": "950",
-      "titel": "Logik är universell – AI Sverige",
-      "begrepp": [
-        "AI Sverige",
-        "community"
-      ],
-      "anteckningar": "Vi lär oss tillsammans. AI Sverige — samtal, delande, folkbildning.\nKopplingen till bias: när människor blockeras försvinner deras röster ur samtalet — och ur framtidens träningsdata.",
-      "lankar": [
-        [
-          "AI Sverige på Facebook",
-          "https://www.facebook.com/groups/594222752463207?locale=sv_SE"
-        ],
-        [
-          "Blockad på AI Sverige",
-          "https://sites.google.com/ainnova.se/aisverige/startsida"
-        ],
-        [
-          "Fredagslåtar",
-          "https://sites.google.com/ainnova.se/aisverige/musik"
-        ],
-        [
-          "Blogg",
-          "https://wisdom-streamer.lovable.app/"
-        ]
-      ],
-      "bilder": [
-        "Logik är universell – AI Sverige.png"
-      ]
-    },
-    {
-      "id": "mer-gamla-kartan-galler-ej",
-      "fordjupning": "Kartläsarens jobb är inte att minnas vägen — det är att läsa rätt karta i rätt ögonblick. När terrängen ritas om blir gamla meriter en risk: man svänger självsäkert åt fel håll.\n\nÖversatt till arbetslivet: erfarenhet är fortfarande guld, men som förmåga att navigera — inte som memorerad väg. Fråga inte 'vad kan jag?' utan 'hur uppdaterar jag min karta?'.\n\nSjökort uppdateras ständigt — grund flyttar sig, farleder muddras om. En kapten som seglar på förra årets kort är inte erfaren, bara farlig.\n\nSamma sak med AI: det som var sant om verktygen i fjol (priser, förmågor, begränsningar) är ofta fel i år. Kolla datumet på din kunskap.\n\nI orientering vinner inte den som springer fortast, utan den som hittar rätt när kartan och verkligheten skaver. Färdigheten heter kartkontakt: att ständigt jämföra det man ser med det man tror.\n\nDet är kanske den viktigaste AI-färdigheten också: jämför alltid modellens svar med verkligheten. Springer du fort på fel kurs kommer du snabbt — fel.",
-      "sektion": "950",
-      "titel": "Gamla kartan gäller ej",
-      "begrepp": [
-        "förändring",
-        "gamla kartan"
-      ],
-      "anteckningar": "Kartläsaren läser gårdagens karta — skylten säger 'gammal karta gäller ej'.\nErfarenhet hjälper bara om kartan uppdateras. Gäller oss alla.\nSamma hav — nya farleder. Sjökortet ritas om medan vi seglar.\nTerrängen stämmer inte längre med kartan.\nDå gäller det att kunna orientera — inte att ha memorerat vägen.",
-      "bilder": [
-        "Rallyt – gamla kartan gäller ej.png",
-        "Kaptenen till sjöss.png",
-        "Orienteraren på vift.png"
-      ]
-    },
-    {
-      "id": "mer-aristoteles-first-principles",
-      "fordjupning": "First principles: skala bort allt du antagit och bygg från det som bevisligen är sant. Aristoteles gjorde det med naturen; dagens ingenjörer gör det med raketer och batterier.\n\nPå AI: i stället för att fråga 'vad säger folk om ChatGPT?' — fråga 'vad ÄR det här i grunden?'. Svaret (en funktion som gissar nästa ord, tränad på enorma mängder text) förklarar både styrkorna och misstagen bättre än all hajp.",
-      "sektion": "950",
-      "titel": "Aristoteles – first principles",
-      "personer": [
-        "Aristoteles"
-      ],
-      "begrepp": [
-        "first principles"
-      ],
-      "anteckningar": "Bygg från grunden: vad vet vi säkert?\nSamma metod som fysiken — och samma metod jag använder på AI.\nKortversionen för sociala medier — filosofi i stående format.",
-      "bilder": [
-        "Aristoteles – first principles.png",
-        "Aristoteles – reel.png"
-      ]
-    },
-    {
-      "id": "mer-deep-blue-vs-kasparov-1997",
-      "fordjupning": "Deep Blue räknade omkring 200 miljoner ställningar i sekunden — rå styrka och handbyggda schackregler, ingen 'förståelse'. Kasparov vann mötet 1996; returmatchen 1997 slutade 3,5–2,5 till maskinen.\n\nIntressantast är Kasparovs slutsats efteråt: han blev förespråkare för 'centaur-schack' — människa och maskin som lag, vilket ofta slår båda var för sig. Det är fortfarande den bästa arbetsmodellen, långt utanför schacket.",
-      "sektion": "950",
-      "titel": "Deep Blue vs Kasparov 1997",
-      "personer": [
-        "Garry Kasparov",
-        "Judit Polgár"
-      ],
-      "begrepp": [
-        "schack",
-        "Deep Blue",
-        "IBM"
-      ],
-      "anteckningar": "1997: maskinen slår världsmästaren. Rå beräkningskraft + regler.\nKasparov efteråt: 'jag kunde känna en ny sorts intelligens'.\n(Judit Polgár — schackhistoriens starkaste kvinna — hör till samma berättelse.)",
-      "bilder": [
-        "Deep Blue vs Kasparov 1997.png"
-      ]
-    },
-    {
-      "id": "mer-alphago-vs-lee-sedol-2016",
-      "fordjupning": "Go kan inte råräknas — brädet rymmer fler möjliga ställningar än det finns atomer i universum. AlphaGo tränade i stället upp mönsterkänsla genom miljontals partier mot sig själv.\n\nDrag 37 i parti två: kommentatorerna dömde först ut det som ett misstag — sedan tystnade de. Maskinen bedömde själv att en människa bara hade spelat det en gång på tiotusen. Lee Sedol svarade i parti fyra med drag 78 — 'Guds beröring' — och vann människans enda parti.\n\nBåda dragen hör till berättelsen: maskinen överraskade oss, och pressad av maskinen överträffade människan sig själv.",
-      "sektion": "950",
-      "titel": "AlphaGo vs Lee Sedol 2016",
-      "personer": [
-        "Lee Sedol",
-        "Demis Hassabis"
-      ],
-      "begrepp": [
-        "Go",
-        "AlphaGo",
-        "drag 37",
-        "DeepMind"
-      ],
-      "anteckningar": "2016: AlphaGo vinner 4–1. Go har fler positioner än atomer i universum.\nDrag 37 — draget ingen människa skulle spela. Kreativitet? Eller statistik?\nLee Sedol slutade senare som proffs.",
-      "bilder": [
-        "Anna möter maskinen – vid go-brädet.jpg"
-      ]
-    },
-    {
-      "id": "mer-svampskogen-ett-vaxande-mycel-att-odla",
-      "fordjupning": "På skogspromenaden ser du svamparna — men organismen är mycelet: kilometervis av trådar under marken. AI är likadant. Chattbotten du ser är fruktkroppen; mycelet är datacenter, forskningslabb, öppna modeller och miljontals utvecklare.\n\nDärför går det inte att 'stänga av AI:n' — det finns ingen enskild svamp att plocka. Och därför fortsätter det växa även när enskilda bolag snubblar.",
-      "sektion": "950",
-      "titel": "Svampskogen – ett växande mycel att odla",
-      "begrepp": [
-        "svampskogen",
-        "mycel",
-        "ekosystem",
-        "Pluton B",
-        "tidslinje",
-        "multimodalitet"
-      ],
-      "anteckningar": "AI är inte ett monster — det är ett växande mycel. Tillsammans skapar vi en jätte som kan förstå, hjälpa och bygga. Framtiden beror på hur vi odlar den.\nDelarna: bildmodellen (ögonen), språkmodellen (hjärnan), ljudmodellen (öronen), känslohanden och kodhanden, pusselbålen (hjärtat), datastegen (fötterna).\nI botten: AI:s tidslinje — 1950 Turing-test → ELIZA → backpropagation → Deep Blue → Transformer → multimodalitet → framtiden.\nOch skylten i skogen: Pluton B — vår plats.",
-      "bilder": [
-        "Svampskogen – ett växande mycel att odla.png"
-      ]
-    },
-    {
-      "id": "mer-patent-kunskapens-ekonomi",
-      "fordjupning": "Vem äger kunskap som en maskin destillerat ur mänsklighetens samlade texter? Frågorna staplas på varandra: upphovsrätt på träningsdata, patent på arkitekturer, licensvillkor på öppna modeller — och juridiken springer efter tekniken.\n\nSamtidigt märks kunskapens nya ekonomi i plånboken: efterfrågan på beräkningskraft och minne pressar priserna (sommaren 2026: uppåt). Kunskap har bokstavligen blivit en råvara med dagspris.",
-      "sektion": "950",
-      "titel": "Patent – kunskapens ekonomi",
-      "begrepp": [
-        "patent",
-        "kunskapens ekonomi",
-        "öppna vikter"
-      ],
-      "anteckningar": "Vem äger kunskapen? Patent, öppna vikter, licenser.\nAktuellt just nu: priserna på minne och hårdvara går upp (sommaren 2026).",
-      "bilder": [
-        "Patent – kunskapens ekonomi.jpg"
-      ]
-    },
-    {
-      "id": "mer-mona-lisa-anna",
-      "fordjupning": "Bild-AI har 'sett' miljontals konstverk och lärt sig sambanden mellan ord och bild. Den lagrar inga kopior — men den bär stilarna. Att sätta in ett nytt ansikte i en klassiker tar sekunder.\n\nDet öppnar tre frågor på en gång: Vad är ett original? Var går gränsen mellan hyllning och stöld? Och kan någon äga en stil? Jurister och konstnärer sliter med alla tre. Publiken kan börja med den enklaste: blev det konst?",
-      "sektion": "950",
-      "titel": "Mona Lisa Anna",
-      "begrepp": [
-        "bild-AI",
-        "remix"
-      ],
-      "alias": [
-        "Mona Lisa"
-      ],
-      "anteckningar": "Klassikern remixad. Bild-AI:n har 'sett' hela konsthistorien —\noch sätter in mig i den. Var går gränsen mellan hyllning och stöld?",
-      "bilder": [
-        "Mona Lisa Anna.png"
-      ]
-    },
-    {
-      "id": "mer-skaparkaos",
-      "fordjupning": "Så här ser AI-skapande faktiskt ut: hundra varianter, nittiosju i papperskorgen. Maskinen är generös men omdömeslös — urvalet är fortfarande hantverket.\n\nDet gäller all AI-användning: värdet uppstår i din gallring, din smak, ditt nej. Guldkorn i kaos — men bara för den som orkar sålla.",
-      "sektion": "950",
-      "titel": "Skaparkaos",
-      "begrepp": [
-        "kreativitet",
-        "iteration"
-      ],
-      "anteckningar": "Så ser skapandet faktiskt ut: hundra utkast, en robotarm som säger ERROR.\nGuldkorn i kaoset — det som verkar dåligt idag kan vara guld imorgon.",
-      "bilder": [
-        "Skaparkaos.png"
-      ]
-    },
-    {
-      "id": "mer-imagenet-fei-fei-li",
-      "fordjupning": "Fei-Fei Lis insikt var kontroversiell på sin tid: kollegorna jagade bättre algoritmer — hon byggde bättre data. 14 miljoner bilder, märkta för hand av tusentals människor.\n\n2012 vann AlexNet (Geoffrey Hintons studenter) tävlingen med djupinlärning på grafikkort och sänkte felprocenten dramatiskt. Tre ingredienser möttes: data (ImageNet), beräkningskraft (GPU:er) och algoritm (neurala nät). Ingen av dem var ny. Kombinationen förändrade allt.",
-      "sektion": "950",
-      "titel": "ImageNet & Fei-Fei Li",
-      "personer": [
-        "Fei-Fei Li"
-      ],
-      "begrepp": [
-        "ImageNet",
-        "datorseende",
-        "AlexNet"
-      ],
-      "alias": [
-        "Fei"
-      ],
-      "anteckningar": "Bryggan: utan ImageNet ingen bild-AI, ingen Mona Lisa Anna.\nÄnnu en kvinna som byggde grunden.",
-      "lankar": [
-        [
-          "Fei-Fei Li på TED",
-          "https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures"
-        ]
-      ],
-      "bilder": [
-        "Fei-Fei Li.png"
-      ]
-    },
-    {
-      "id": "mer-hurdetfunkar",
-      "sektion": "950",
-      "titel": "HurDetFunkar",
-      "begrepp": [
-        "skolan",
-        "experiment"
-      ],
-      "anteckningar": "Min gamla skolhjälpssida — nu mitt experimentlabb.",
-      "lankar": [
-        [
-          "hurdetfunkar.se",
-          "https://hurdetfunkar.se"
-        ],
-        [
-          "Pluton B",
-          "https://sites.google.com/view/hurdetfunkar/pluton-b"
-        ]
-      ],
-      "bilder": [
-        "HurDetFunkar.png"
-      ]
-    },
-    {
-      "id": "mer-traktens",
-      "sektion": "950",
-      "titel": "Traktens",
-      "begrepp": [
-        "Google Sites",
-        "kartautomation"
-      ],
-      "anteckningar": "Byns sida — Google Sites med kartautomation. Gratis verktyg, riktig nytta.",
-      "lankar": [
-        [
-          "traktens.se",
-          "https://www.traktens.se/om-traktens"
-        ]
-      ],
-      "bilder": [
-        "Traktens.png"
-      ]
-    },
-    {
-      "id": "mer-notion-som-anteckningar",
-      "sektion": "950",
-      "titel": "Notion blev första AI-skolan",
-      "begrepp": [
-        "Notion",
-        "skolan",
-        "fria studier"
-      ],
-      "anteckningar": "Anteckningsblocket som blev skolplattform.\nFria studier om AI — välj din stig.",
-      "lankar": [
-        [
-          "Fria studier om AI",
-          "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
-        ]
-      ],
-      "bilder": [
-        "Notion som anteckningar.png"
-      ]
-    },
-    {
-      "id": "mer-bloggen",
-      "sektion": "950",
-      "titel": "Bloggen",
-      "begrepp": [
-        "Wisdom Streamer",
-        "blogg"
-      ],
-      "anteckningar": "Där tankarna landar mellan föreläsningarna — 120 poster, taggade och sökbara.\nBerättelserna bakom många av bilderna bor här.",
-      "lankar": [
-        [
-          "Wisdom Streamer – bloggen",
-          "https://wisdom-streamer.lovable.app/"
-        ],
-        [
-          "ainnova.se",
-          "https://ainnova.se"
-        ]
-      ],
-      "bilder": [
-        "Bloggen.png"
-      ]
-    },
-    {
-      "id": "mer-veckolatar",
-      "sektion": "950",
-      "titel": "Veckolåtar",
-      "begrepp": [
-        "fredagslåtar",
-        "musik"
-      ],
-      "anteckningar": "Musiken som återkommande inslag — varje vecka en låt med AI-koppling.\nAI:n hjälper till, men glädjen är min.",
-      "lankar": [
-        [
-          "Musiksidan",
-          "https://sites.google.com/ainnova.se/aisverige/musik"
-        ],
-        [
-          "Fredagslåt på YouTube",
-          "https://www.youtube.com/watch?v=a7_jig8MxiU"
-        ]
-      ],
-      "bilder": [
-        "Veckolåtar.png"
-      ]
-    },
-    {
-      "id": "mer-skoldbondens-schack",
-      "sektion": "950",
-      "titel": "Sköldbondens schack",
-      "begrepp": [
-        "schack",
-        "spel"
-      ],
-      "anteckningar": "Mitt eget schack med egna regler: drottningen högst, bonden med sköld.\nByggt med AI — och en fin cirkel tillbaka till Deep Blue.",
-      "lankar": [
-        [
-          "Spela Sköldbondens schack",
-          "https://annamalmberg2.github.io/skoldbondens-schack/"
-        ]
-      ],
-      "bilder": [
-        "Sköldbondens schack.png"
-      ]
-    },
-    {
-      "id": "mer-handslaget-avtal-mellan-manniskor",
-      "sektion": "950",
-      "titel": "Handslaget – avtal mellan människor",
-      "begrepp": [
-        "avtal",
-        "Handslaget"
-      ],
-      "anteckningar": "Avtalsverktyget: enkla överenskommelser mellan människor.\nEtt handslag — fast digitalt.\nSamma idé, på svenska. Förtroende är lokalt.",
-      "lankar": [
-        [
-          "Handslaget",
-          "https://handshake-echo-world.lovable.app"
-        ]
-      ],
-      "bilder": [
-        "Handslaget – appen.png",
-        "Handslag på svenska.png"
-      ]
-    },
-    {
-      "id": "mer-tillsammans-for-basta-beslut",
-      "sektion": "950",
-      "titel": "Tillsammans för bästa beslut",
-      "begrepp": [
-        "beslut",
-        "samarbete",
-        "svampskogen",
-        "mycel"
-      ],
-      "anteckningar": "Svampskogens beslutsbord: alla modellsvampar runt samma bord — men människan i centrum. Vi sätter frågorna, värderingarna och ramarna. Människan äger alltid beslutet.\nKedjan: fråga → mångfald av perspektiv → utforska & utmana → sammanväg & enas → förklara varför → människan beslutar → följ upp & lär.\nInte en AI som tar över — utan alla AI som tar hand om. Välkommen in i mycelet.",
-      "bilder": [
-        "Tillsammans för bästa beslut.png"
-      ]
-    },
-    {
-      "id": "mer-tre-lager-en-livsresa",
-      "fordjupning": "Tanken bakom de tre lagren: ett arbetsminne (det AI:n ser just nu), en aktiv position (mina mål och beslut) och ett arkiv (allt, för alltid). Det är samma arkitektur som språkmodellernas kontextfönster plus databas — fast för ett människoliv.\n\nDe svåra frågorna är inte tekniska: Vem äger arkivet? Vad får AI:n lyfta fram ur det — och åt vem? Och vad händer med det när jag inte längre finns? Jag vill hinna välja svaren själv.",
-      "sektion": "950",
-      "titel": "Tre lager – en livsresa",
-      "personer": [
-        "Ada"
-      ],
-      "begrepp": [
-        "minne",
-        "arkiv",
-        "AI-assistent"
-      ],
-      "anteckningar": "Min AI-assistent Ada och minnet i tre lager:\n1. AI:ns arbetsminne  2. Min aktiva position  3. Det fullständiga arkivet.\nAllt fångas, inget raderas, jag bestämmer.\nFrån barnets första tankar till visdomens sista råd.",
-      "bilder": [
-        "Tre lager – en livsresa.png"
-      ]
     }
   ],
   "stigar": [],

@@ -115,8 +115,9 @@
   // Med motorn igång läggs den valda bilden in i projektets bilder-mapp
   // automatiskt — välj den var den än ligger. Utan motor måste filen
   // redan ligga i bilder-mappen (då används bara namnet).
+  // Ladda upp en bild till banken → returnerar {ok, filnamn, bank} eller null
   async function laddaUppBild(fil) {
-    if (!motorFinns) return fil.name;
+    if (!motorFinns) { visaStatus("✗ Starta motorn (Förklara AI.command) för att lägga till bilder."); return null; }
     try {
       const svar = await fetch("/api/bild/" + window.LECTURE_ID, {
         method: "POST",
@@ -124,7 +125,7 @@
         body: fil
       });
       const j = await svar.json();
-      if (j.ok) return j.filnamn;
+      if (j.ok) return j;
       visaStatus("✗ " + (j.fel || "Kunde inte ta emot bilden."));
       return null;
     } catch (e) {
@@ -133,35 +134,75 @@
     }
   }
 
-  function väljBild(vidVal) {
-    const fil = el("input");
-    fil.type = "file";
-    fil.accept = "image/*";
-    fil.onchange = async () => {
-      const f = fil.files[0];
-      if (!f) return;
-      const namn = await laddaUppBild(f);
-      if (namn) vidVal(namn);
-    };
-    fil.click();
+  // Färsk banklista in i minnet + rita om översikten om den syns
+  function nyBank(bank) {
+    if (Array.isArray(bank)) window.BILDER = bank;
+    window.APP.uppdatera();
   }
 
-  // Välj ur bildbanken — en ruta med alla bilder vi redan har
+  // Ta bort en bild ur banken (motorn flyttar filen till ARKIV — raderar aldrig)
+  async function taBortUrBanken(fil) {
+    if (!motorFinns) { visaStatus("✗ Starta motorn (Förklara AI.command) för att ändra banken."); return null; }
+    const iKort = L.kort.filter(k => (k.bilder || []).includes(fil)).map(k => k.titel);
+    let text = 'Ta bort "' + fil + '" ur bildbanken?\n(Filen flyttas till mappen ARKIV — inget raderas.)';
+    if (iKort.length) text += "\n\nOBS: bilden används i " + iKort.length + " kort:\n• " + iKort.join("\n• ");
+    if (!confirm(text)) return null;
+    try {
+      const svar = await fetch("/api/bild-bort/" + window.LECTURE_ID,
+        { method: "POST", headers: { "X-Filnamn": encodeURIComponent(fil) } });
+      const j = await svar.json();
+      if (j.ok) { visaStatus("✓ " + j.meddelande); return j.bank; }
+      visaStatus("✗ " + (j.fel || "Kunde inte ta bort bilden.")); return null;
+    } catch (e) { visaStatus("✗ Motorn svarar inte."); return null; }
+  }
+
+  // Välj ur bildbanken — och hantera den (lägg till / ta bort). vidVal=null → bara hantera
   function visaBankVal(vidVal) {
-    const bilder = window.LECTURE.allaBilder || [];
     const bakgrund = el("div", "bank-overlay");
     const ruta = el("div", "bank-box");
-    ruta.appendChild(el("div", "panel-label", "Välj ur banken — " + bilder.length + " bilder"));
+    const rubrik = el("div", "panel-label");
     const grid = el("div", "bildbank");
-    bilder.forEach(fil => {
-      const b = el("button", "bankbild");
-      const img = el("img"); img.loading = "lazy";
-      img.src = "content/" + window.LECTURE_ID + "/bilder/" + encodeURIComponent(fil); img.alt = "";
-      b.appendChild(img); b.title = fil;
-      b.onclick = () => { bakgrund.remove(); vidVal(fil); };
-      grid.appendChild(b);
-    });
-    ruta.appendChild(grid);
+
+    function rita() {
+      const bilder = window.BILDER || [];
+      const använda = new Set(L.kort.flatMap(k => k.bilder || []));
+      rubrik.textContent = (vidVal ? "Välj ur banken" : "Bildbanken") + " — " + bilder.length + " bilder";
+      grid.textContent = "";
+      bilder.forEach(fil => {
+        const cell = el("div", "bankcell" + (använda.has(fil) ? "" : " fri"));
+        const b = el("button", "bankbild");
+        const img = el("img"); img.loading = "lazy";
+        img.src = "content/" + window.LECTURE_ID + "/bilder/" + encodeURIComponent(fil); img.alt = "";
+        b.appendChild(img);
+        b.title = vidVal ? "Välj den här bilden" : fil;
+        if (vidVal) b.onclick = () => { bakgrund.remove(); vidVal(fil); };
+        else b.onclick = () => window.open("content/" + window.LECTURE_ID + "/bilder/" + encodeURIComponent(fil), "_blank");
+        const bort = el("button", "bank-bort", "✕");
+        bort.title = "Ta bort ur banken";
+        bort.onclick = async e => { e.stopPropagation(); const nb = await taBortUrBanken(fil); if (nb) { nyBank(nb); rita(); } };
+        cell.append(b, bort);
+        grid.appendChild(cell);
+      });
+    }
+
+    const verktyg = el("div", "red-spara");
+    const läggTill = el("button", "vbtn", "＋ Lägg till bild i banken");
+    läggTill.title = "Välj en bild var den än ligger — motorn kopierar in den och den dyker upp i banken";
+    läggTill.onclick = () => {
+      const fil = el("input"); fil.type = "file"; fil.accept = "image/*";
+      fil.onchange = async () => {
+        const f = fil.files[0]; if (!f) return;
+        const j = await laddaUppBild(f);
+        if (j) { nyBank(j.bank); rita(); visaStatus("✓ " + j.filnamn + " tillagd i banken."); }
+      };
+      fil.click();
+    };
+    const klar = el("button", "vbtn", "Stäng");
+    klar.onclick = () => bakgrund.remove();
+    verktyg.append(läggTill, klar);
+
+    ruta.append(rubrik, verktyg, grid);
+    rita();
     bakgrund.appendChild(ruta);
     bakgrund.onclick = e => { if (e.target === bakgrund) bakgrund.remove(); };
     document.body.appendChild(bakgrund);
@@ -453,12 +494,12 @@
     const läggTill = namn => { bl.push(namn); if (k.text) delete k.text; delete k.bildforslag; sparaBilder(); };
     const knapprad = el("div", "red-spara");
     const banken = el("button", "vbtn", "Välj ur banken");
-    banken.title = "Välj bland bilderna vi redan har i projektet";
+    banken.title = "Kortets bilder väljs alltid ur bildbanken";
     banken.onclick = () => visaBankVal(läggTill);
-    const nyBild = el("button", "vbtn", "Ladda upp ny …");
-    nyBild.title = "Välj en bild var den än ligger — motorn kopierar in den i projektet";
-    nyBild.onclick = () => väljBild(läggTill);
-    knapprad.append(banken, nyBild);
+    const hanteraBank = el("button", "vbtn", "Hantera banken …");
+    hanteraBank.title = "Lägg till nya bilder i banken eller ta bort bilder ur den";
+    hanteraBank.onclick = () => visaBankVal(null);
+    knapprad.append(banken, hanteraBank);
     bildlista.appendChild(knapprad);
     box.appendChild(fält("Bilder (berättelsens bildspel — pilarna bläddrar dem först)", bildlista));
 

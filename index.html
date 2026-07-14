@@ -13,6 +13,8 @@
   // ?v=tidsstämpel tvingar webbläsaren att alltid läsa färskt innehåll —
   // annars kan "jag sparade men inget händer" uppstå ur cachen.
   document.write('<script src="content/' + window.LECTURE_ID + '/manifest.js?v=' + Date.now() + '"><\/script>');
+  // Bildbankens lista bor i en egen fil — så en Spara aldrig kan radera den
+  document.write('<script src="content/' + window.LECTURE_ID + '/bilder.js?v=' + Date.now() + '"><\/script>');
 </script>
 <script>
   // Finns ett osparat utkast från redigeringsläget? Då gäller det.

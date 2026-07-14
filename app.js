@@ -375,15 +375,15 @@
     });
 
     // Bildbanken längst ner — alla bilder vi har, fria att välja ur (bara i full översikt)
-    if (!oversiktFilter && (L.allaBilder || []).length) {
+    if (!oversiktFilter && (window.BILDER || []).length) {
       const använda = new Set(kort.flatMap(k => k.bilder || []));
       const del = el("section", "oversikt-sektion");
       const rubrik = el("div", "oversikt-sektionsrubrik");
       rubrik.appendChild(el("h2", null, "Alla bilder"));
-      rubrik.appendChild(el("span", "antal", L.allaBilder.length + " bilder · fria att välja ur"));
+      rubrik.appendChild(el("span", "antal", window.BILDER.length + " bilder · fria att välja ur"));
       del.appendChild(rubrik);
       const grid = el("div", "bildbank");
-      L.allaBilder.forEach(fil => {
+      window.BILDER.forEach(fil => {
         const ruta = el("a", "bankbild" + (använda.has(fil) ? "" : " fri"));
         ruta.href = BILDVAG + encodeURIComponent(fil);
         ruta.target = "_blank"; ruta.rel = "noopener";

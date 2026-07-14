@@ -28,6 +28,18 @@ def git(*args):
     return subprocess.run(["git", *args], cwd=ROT, capture_output=True, text=True)
 
 
+def synka_bilder(forelasning):
+    """Skriv om bilder.js från bilder-mappen och ge tillbaka listan."""
+    r = subprocess.run(["python3", os.path.join(ROT, "scripts", "synka_bilder.py"), forelasning],
+                       cwd=ROT, capture_output=True, text=True, timeout=30)
+    fil = os.path.join(ROT, "content", forelasning, "bilder.js")
+    try:
+        txt = open(fil, encoding="utf-8").read()
+        return json.loads(txt[txt.index("["):txt.rindex("]") + 1])
+    except Exception:
+        return []
+
+
 class Hanterare(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *a, **kw):
         super().__init__(*a, directory=ROT, **kw)
@@ -93,7 +105,34 @@ class Hanterare(http.server.SimpleHTTPRequestHandler):
                 n += 1
             with open(mal, "wb") as f:
                 f.write(kropp_bytes)
-            return self.svara({"ok": True, "filnamn": namn})
+            return self.svara({"ok": True, "filnamn": namn, "bank": synka_bilder(forelasning)})
+
+        if self.path.startswith("/api/bild-bort/"):
+            forelasning = self.path.rsplit("/", 1)[-1]
+            if not re.fullmatch(r"[A-Za-z0-9_-]+", forelasning):
+                return self.svara({"ok": False, "fel": "Ogiltigt föreläsningsnamn."}, 400)
+            mapp = os.path.join(ROT, "content", forelasning, "bilder")
+            from urllib.parse import unquote
+            namn = os.path.basename(unquote(self.headers.get("X-Filnamn") or ""))
+            kalla = os.path.join(mapp, namn)
+            if not namn or not os.path.isfile(kalla):
+                return self.svara({"ok": False, "fel": "Hittar inte bilden: " + namn}, 404)
+            arkiv = os.path.join(mapp, "ARKIV")           # radera aldrig — flytta undan
+            os.makedirs(arkiv, exist_ok=True)
+            mal = os.path.join(arkiv, namn)
+            m = 2
+            while os.path.exists(mal):
+                stam, ea = os.path.splitext(namn)
+                mal = os.path.join(arkiv, f"{stam} {m}{ea}"); m += 1
+            os.rename(kalla, mal)
+            return self.svara({"ok": True, "meddelande": namn + " flyttad till ARKIV.",
+                               "bank": synka_bilder(forelasning)})
+
+        if self.path.startswith("/api/synka-bilder/"):
+            forelasning = self.path.rsplit("/", 1)[-1]
+            if not re.fullmatch(r"[A-Za-z0-9_-]+", forelasning):
+                return self.svara({"ok": False, "fel": "Ogiltigt föreläsningsnamn."}, 400)
+            return self.svara({"ok": True, "bank": synka_bilder(forelasning)})
 
         if self.path == "/api/biblioteket":
             r = subprocess.run(["python3", os.path.join(ROT, "scripts", "bibliotek.py")],
@@ -104,6 +143,10 @@ class Hanterare(http.server.SimpleHTTPRequestHandler):
             return self.svara({"ok": True, "meddelande": rader[0] if rader else "Biblioteket uppdaterat från arket."})
 
         if self.path == "/api/publicera":
+            innehall = os.path.join(ROT, "content")
+            for f in os.listdir(innehall):            # banken alltid färsk i det som pushas
+                if os.path.isdir(os.path.join(innehall, f, "bilder")):
+                    synka_bilder(f)
             git("add", "-A")
             if git("diff", "--cached", "--quiet").returncode == 0:
                 git("pull", "--rebase")  # hämta ev. nyheter även när inget ska upp
