@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-14 14:42:33)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-14 14:47:19)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -660,35 +660,6 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "060-20",
-      "sektion": "060",
-      "titel": "Tack — och sen?",
-      "svar": "Tack för att ni följde med. På återseende — och hör av er.",
-      "bilder": [
-        "AiNNOVA – vad jag erbjuder.png"
-      ],
-      "anteckningar": "Sex ben: AI-konsultation, utbildning & coachning, innehållsproduktion,\nwebb & kommunikation, marknadsföring, specialiserade AI-lösningar.\nTack — och på återseende!",
-      "begrepp": [
-        "AiNNOVA",
-        "konsultation",
-        "utbildning"
-      ],
-      "lankar": [
-        [
-          "ainnova.se",
-          "https://ainnova.se"
-        ],
-        [
-          "anna@ainnova.se",
-          "mailto:anna@ainnova.se"
-        ],
-        [
-          "LinkedIn",
-          "https://www.linkedin.com/in/annamalmberg2/"
-        ]
-      ]
-    },
-    {
       "id": "900-10",
       "sektion": "900",
       "titel": "Från föreläsningarna",
@@ -697,7 +668,8 @@ window.LECTURE = {
         "Under föreläsningen.jpg",
         "Anna framför sin roll-up.jpg",
         "Engagerad publik.jpg",
-        "Fikaföreläsning.jpg"
+        "Fikaföreläsning.jpg",
+        "Anna framför sin roll-up.jpg"
       ]
     },
     {
