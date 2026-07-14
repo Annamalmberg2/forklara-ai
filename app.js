@@ -18,6 +18,16 @@
   const BILDVAG = "content/" + window.LECTURE_ID + "/bilder/";
   const MINNE = "forklara-ai:" + window.LECTURE_ID;
 
+  // Genvägarna som ska finnas på VARJE kort — en fast reserv så de aldrig
+  // kan trilla ur när innehållsfilen sparas om. (Interna #-länkar hoppar i verktyget.)
+  const STANDARDLANKAR = [
+    ["Översikt", "#oversikt"],
+    ["Biblioteket", "#biblioteket"],
+    ["Bloggen", "https://wisdom-streamer.lovable.app/"],
+    ["AiNNOVA AB", "https://ainnova.se/"],
+    ["Anna Malmberg · LinkedIn", "https://www.linkedin.com/in/annamalmberg2"]
+  ];
+
   const sektioner = new Map(L.sektioner.map(s => [s.id, s]));
   const kort = L.kort; // delas med redigeringsläget — samma array
   let index;
@@ -259,7 +269,8 @@
     // Genvägar — samma på varje kort (interna hoppar i verktyget, externa i ny flik)
     const gv = $("panel-genvagar");
     gv.innerHTML = "";
-    (L.standardlankar || []).forEach(([namn, url]) => {
+    const genvagar = (L.standardlankar && L.standardlankar.length) ? L.standardlankar : STANDARDLANKAR;
+    genvagar.forEach(([namn, url]) => {
       const a = el("a", null, namn);
       a.href = url;
       if (!url.startsWith("#")) { a.target = "_blank"; a.rel = "noopener"; }
@@ -381,6 +392,12 @@
       const rubrik = el("div", "oversikt-sektionsrubrik");
       rubrik.appendChild(el("h2", null, "Alla bilder"));
       rubrik.appendChild(el("span", "antal", window.BILDER.length + " bilder · fria att välja ur"));
+      if (document.body.classList.contains("redigerar") && window.oppnaBankhantering) {
+        const hant = el("button", "vbtn", "＋ Lägg till / ta bort bilder");
+        hant.title = "Lägg till nya bilder i banken eller arkivera bilder du vill kasta";
+        hant.onclick = window.oppnaBankhantering;
+        rubrik.appendChild(hant);
+      }
       del.appendChild(rubrik);
       const grid = el("div", "bildbank");
       window.BILDER.forEach(fil => {

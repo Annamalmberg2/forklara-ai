@@ -208,6 +208,9 @@
     document.body.appendChild(bakgrund);
   }
 
+  // Nås även direkt från "Alla bilder" i Översikten (app.js), inte bara inifrån ett kort
+  window.oppnaBankhantering = () => visaBankVal(null);
+
   // ---------- redigeringsknappen ----------
   const btn = el("button", "vbtn", harUtkast() ? "Redigera ●" : "Redigera");
   btn.id = "btn-redigera";

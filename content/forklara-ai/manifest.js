@@ -660,6 +660,35 @@ window.LECTURE = {
       ]
     },
     {
+      "id": "060-20",
+      "sektion": "060",
+      "titel": "Tack — och sen?",
+      "svar": "Tack för att ni följde med. På återseende — och hör av er.",
+      "bilder": [
+        "AiNNOVA – vad jag erbjuder.png"
+      ],
+      "anteckningar": "Sex ben: AI-konsultation, utbildning & coachning, innehållsproduktion,\nwebb & kommunikation, marknadsföring, specialiserade AI-lösningar.\nTack — och på återseende!",
+      "begrepp": [
+        "AiNNOVA",
+        "konsultation",
+        "utbildning"
+      ],
+      "lankar": [
+        [
+          "ainnova.se",
+          "https://ainnova.se"
+        ],
+        [
+          "anna@ainnova.se",
+          "mailto:anna@ainnova.se"
+        ],
+        [
+          "LinkedIn",
+          "https://www.linkedin.com/in/annamalmberg2/"
+        ]
+      ]
+    },
+    {
       "id": "900-10",
       "sektion": "900",
       "titel": "Från föreläsningarna",
@@ -4748,5 +4777,27 @@ window.LECTURE = {
     }
   ],
   "stigar": [],
-  "undertitel": "Logik är universell"
+  "undertitel": "Logik är universell",
+  "standardlankar": [
+    [
+      "Översikt",
+      "#oversikt"
+    ],
+    [
+      "Biblioteket",
+      "#biblioteket"
+    ],
+    [
+      "Bloggen",
+      "https://wisdom-streamer.lovable.app/"
+    ],
+    [
+      "AiNNOVA AB",
+      "https://ainnova.se/"
+    ],
+    [
+      "Anna Malmberg · LinkedIn",
+      "https://www.linkedin.com/in/annamalmberg2"
+    ]
+  ]
 };
