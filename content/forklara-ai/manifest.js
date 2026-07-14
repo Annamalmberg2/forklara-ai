@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-14 14:39:51)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-14 14:42:33)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -306,21 +306,6 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "020-20",
-      "sektion": "020",
-      "titel": "Ärver den våra fördomar?",
-      "svar": "Ja — den lär av oss, inklusive det vi borde ha slutat med. Fråga alltid: vad tränades den på?",
-      "bilder": [
-        "Bias – när mönstret lurar oss.jpg"
-      ],
-      "fordjupning": "En modell lär sig av det vi gjort — inklusive det vi borde sluta göra. Klassikern: rekryteringsverktyget som lärde sig av historiska anställningar och därför sorterade bort kvinnor. Mönstret var korrekt inlärt — och fel.\n\nBias syns sällan i ett enskilt svar; den syns i statistiken över tusen. Därför två frågor att alltid ställa: Vad tränades den på? Och vem finns inte i datan? En modell tränad mest på engelska ser världen genom engelska ögon.",
-      "anteckningar": "AI ärver våra skevheter ur datan.\nMönstret ser övertygande ut — precis som primtalen.\nFråga alltid: vad tränades den på?",
-      "begrepp": [
-        "bias",
-        "träningsdata"
-      ]
-    },
-    {
       "id": "020-30",
       "sektion": "020",
       "titel": "Hur vet jag vad som är sant?",
@@ -383,6 +368,21 @@ window.LECTURE = {
         "Logik är universell – AI Sverige.png"
       ],
       "svar": "I maskiner kan man träna bort bias. Det är inte alltid lika enkelt med människor."
+    },
+    {
+      "id": "020-20",
+      "sektion": "020",
+      "titel": "Ärver den våra fördomar?",
+      "svar": "Ja — den lär av oss, inklusive det vi borde ha slutat med. Fråga alltid: vad tränades den på?",
+      "bilder": [
+        "Bias – när mönstret lurar oss.jpg"
+      ],
+      "fordjupning": "En modell lär sig av det vi gjort — inklusive det vi borde sluta göra. Klassikern: rekryteringsverktyget som lärde sig av historiska anställningar och därför sorterade bort kvinnor. Mönstret var korrekt inlärt — och fel.\n\nBias syns sällan i ett enskilt svar; den syns i statistiken över tusen. Därför två frågor att alltid ställa: Vad tränades den på? Och vem finns inte i datan? En modell tränad mest på engelska ser världen genom engelska ögon.",
+      "anteckningar": "AI ärver våra skevheter ur datan.\nMönstret ser övertygande ut — precis som primtalen.\nFråga alltid: vad tränades den på?",
+      "begrepp": [
+        "bias",
+        "träningsdata"
+      ]
     },
     {
       "id": "030-10",
