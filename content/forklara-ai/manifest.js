@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-14 14:37:53)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-14 14:39:51)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -491,27 +491,6 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "040-20",
-      "sektion": "040",
-      "titel": "Är rädslan för det nya ny?",
-      "svar": "Sokrates fruktade skriften: 'den försvagar minnet'. Varje epok, samma oro.",
-      "bilder": [
-        "Kunskapens fyra epoker.jpg"
-      ],
-      "fordjupning": "I Platons dialog Faidros varnar Sokrates för skriften: den ger 'sken av visdom' och försvagar minnet. Han fick delvis rätt — vi minns sämre utantill — och ändå fel: skriften byggde vetenskapen.\n\nSamma mönster vid varje skifte: tryckpressen skulle dränka världen i dåliga böcker (det gjorde den — och i oumbärliga), internet skulle göra oss ytliga. Varje gång förlorade vi något och vann mer. Frågan är aldrig 'är den nya tekniken farlig?' utan 'vad väljer vi att bevara medvetet?'.",
-      "anteckningar": "Handskrift → tryckpress → internet → AI.\nSokrates var skeptisk till det skrivna ordet: 'det försvagar minnet'.\nVarje epok fick samma kritik. AI är nästa steg på samma resa.",
-      "personer": [
-        "Sokrates"
-      ],
-      "begrepp": [
-        "skriftspråket",
-        "boktryckarkonsten",
-        "internet",
-        "kunskapens epoker",
-        "tidslinje"
-      ]
-    },
-    {
       "id": "040-30",
       "sektion": "040",
       "titel": "När blev maskinen bättre än oss?",
@@ -550,6 +529,27 @@ window.LECTURE = {
         "AlphaFold",
         "proteinveckning",
         "Nobelpriset"
+      ]
+    },
+    {
+      "id": "040-20",
+      "sektion": "040",
+      "titel": "Är rädslan för det nya ny?",
+      "svar": "Sokrates fruktade skriften: 'den försvagar minnet'. Varje epok, samma oro.",
+      "bilder": [
+        "Kunskapens fyra epoker.jpg"
+      ],
+      "fordjupning": "I Platons dialog Faidros varnar Sokrates för skriften: den ger 'sken av visdom' och försvagar minnet. Han fick delvis rätt — vi minns sämre utantill — och ändå fel: skriften byggde vetenskapen.\n\nSamma mönster vid varje skifte: tryckpressen skulle dränka världen i dåliga böcker (det gjorde den — och i oumbärliga), internet skulle göra oss ytliga. Varje gång förlorade vi något och vann mer. Frågan är aldrig 'är den nya tekniken farlig?' utan 'vad väljer vi att bevara medvetet?'.",
+      "anteckningar": "Handskrift → tryckpress → internet → AI.\nSokrates var skeptisk till det skrivna ordet: 'det försvagar minnet'.\nVarje epok fick samma kritik. AI är nästa steg på samma resa.",
+      "personer": [
+        "Sokrates"
+      ],
+      "begrepp": [
+        "skriftspråket",
+        "boktryckarkonsten",
+        "internet",
+        "kunskapens epoker",
+        "tidslinje"
       ]
     },
     {
