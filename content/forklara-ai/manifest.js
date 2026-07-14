@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-14 14:32:05)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-14 14:36:38)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -355,7 +355,7 @@ window.LECTURE = {
       "id": "mer-logik-ar-universell-ai-sverige",
       "fordjupning": "Ny teknik lärs bäst i sällskap. När många delar misstag och genombrott samtidigt går inlärningen fort — samma nätverkseffekt som tekniken själv bygger på.\n\nVuxna lär sig ny teknik bäst tillsammans; det sociala sammanhanget avgör om den fastnar. Fråga gärna publiken: vem är din AI-kompis?",
       "sektion": "020",
-      "titel": "Logik är universell – AI Sverige",
+      "titel": "Kan man alltid lita på må människor?",
       "begrepp": [
         "AI Sverige",
         "community"
@@ -382,7 +382,7 @@ window.LECTURE = {
       "bilder": [
         "Logik är universell – AI Sverige.png"
       ],
-      "svar": "Nog är det märkligt hur många som verkligen vägrar att inse ett så självklart faktum."
+      "svar": "I maskiner kan man träna bort bias. Det är inte alltid lika enkelt med människor."
     },
     {
       "id": "030-10",
