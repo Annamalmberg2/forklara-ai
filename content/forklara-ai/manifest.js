@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-14 13:14:44)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-14 14:32:05)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -352,6 +352,39 @@ window.LECTURE = {
       ]
     },
     {
+      "id": "mer-logik-ar-universell-ai-sverige",
+      "fordjupning": "Ny teknik lärs bäst i sällskap. När många delar misstag och genombrott samtidigt går inlärningen fort — samma nätverkseffekt som tekniken själv bygger på.\n\nVuxna lär sig ny teknik bäst tillsammans; det sociala sammanhanget avgör om den fastnar. Fråga gärna publiken: vem är din AI-kompis?",
+      "sektion": "020",
+      "titel": "Logik är universell – AI Sverige",
+      "begrepp": [
+        "AI Sverige",
+        "community"
+      ],
+      "anteckningar": "Vi lär oss tillsammans. AI Sverige — samtal, delande, folkbildning.\nKopplingen till bias: när människor blockeras försvinner deras röster ur samtalet, och ur framtidens träningsdata. Fast nu kan vi göra träningsdata av själva blockaden.",
+      "lankar": [
+        [
+          "AI Sverige på Facebook",
+          "https://www.facebook.com/groups/594222752463207?locale=sv_SE"
+        ],
+        [
+          "Blockad på AI Sverige",
+          "https://sites.google.com/ainnova.se/aisverige/startsida"
+        ],
+        [
+          "Fredagslåtar",
+          "https://sites.google.com/ainnova.se/aisverige/musik"
+        ],
+        [
+          "Blogg",
+          "https://wisdom-streamer.lovable.app/"
+        ]
+      ],
+      "bilder": [
+        "Logik är universell – AI Sverige.png"
+      ],
+      "svar": "Nog är det märkligt hur många som verkligen vägrar att inse ett så självklart faktum."
+    },
+    {
       "id": "030-10",
       "sektion": "030",
       "titel": "Tar den mitt jobb?",
@@ -678,38 +711,6 @@ window.LECTURE = {
       "anteckningar": "Öppningsbilden. Matten, fysiken och AI talar samma språk.\nJag är lärare — jag byter inte yrke, jag byter klassrum.",
       "bilder": [
         "Logik är universell.jpg"
-      ]
-    },
-    {
-      "id": "mer-logik-ar-universell-ai-sverige",
-      "fordjupning": "Ny teknik lärs bäst i sällskap. När många delar misstag och genombrott samtidigt går inlärningen fort — samma nätverkseffekt som tekniken själv bygger på.\n\nVuxna lär sig ny teknik bäst tillsammans; det sociala sammanhanget avgör om den fastnar. Fråga gärna publiken: vem är din AI-kompis?",
-      "sektion": "950",
-      "titel": "Logik är universell – AI Sverige",
-      "begrepp": [
-        "AI Sverige",
-        "community"
-      ],
-      "anteckningar": "Vi lär oss tillsammans. AI Sverige — samtal, delande, folkbildning.\nKopplingen till bias: när människor blockeras försvinner deras röster ur samtalet — och ur framtidens träningsdata.",
-      "lankar": [
-        [
-          "AI Sverige på Facebook",
-          "https://www.facebook.com/groups/594222752463207?locale=sv_SE"
-        ],
-        [
-          "Blockad på AI Sverige",
-          "https://sites.google.com/ainnova.se/aisverige/startsida"
-        ],
-        [
-          "Fredagslåtar",
-          "https://sites.google.com/ainnova.se/aisverige/musik"
-        ],
-        [
-          "Blogg",
-          "https://wisdom-streamer.lovable.app/"
-        ]
-      ],
-      "bilder": [
-        "Logik är universell – AI Sverige.png"
       ]
     },
     {
