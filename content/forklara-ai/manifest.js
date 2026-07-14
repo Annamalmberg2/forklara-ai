@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-14 13:04:48)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-14 13:14:44)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -591,8 +591,9 @@ window.LECTURE = {
       ],
       "lankar": [
         [
-          "Lovable",
-          "https://lovable.dev"
+          "On Boarding",
+          "https://vision-setter.lovable.app/",
+          "Gå via min affilatelänk till Lovable \"övre högra hörnet\" så får du mer poäng att bygga för. Testa bygga appar själv eller hjälp mig att hjälpa dig via min \"Harness för att maxa\" d v s ta till vara på tekniken."
         ],
         [
           "Mauri presenterar Lovable",
@@ -1057,7 +1058,7 @@ window.LECTURE = {
         [
           "Agent OS",
           "https://docs.google.com/document/d/12WiYicvBsX399xJrA0TEEpuazCxSZBifi9meyANOVjw/edit?usp=sharing",
-          "Grunden till att jobba mer agentiskt men även en kort sammanställning om grunden. Agentiskt operativsystem.",
+          "Viktigt att tänka på om du ska jobba mer agentiskt men även en kort sammanställning om grunden till allt. Agentiskt operativsystem.",
           "Lärande"
         ],
         [
