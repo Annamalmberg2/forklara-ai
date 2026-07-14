@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-14 00:12:09)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-14 13:04:48)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -524,10 +524,32 @@ window.LECTURE = {
       "sektion": "050",
       "titel": "Hur börjar jag — på riktigt?",
       "svar": "En bra grundprompt och nyfikenhet. Börja idag; i soffan går bra.",
-      "bildforslag": "Någon som tryggt tar sitt allra första AI-samtal vid köksbordet.",
       "relaterat": [
-        "050-40"
-      ]
+        "050-40",
+        "050-20"
+      ],
+      "bilder": [
+        "Notion som anteckningar.png"
+      ],
+      "anteckningar": "Det roligaste är nog att börja prata med AI i telefonen och se hur det synkar med med dator o s v förutsatt att du alltid loggar in med samma google- eller applekonto.",
+      "lankar": [
+        [
+          "AI skolan i Notion",
+          "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0",
+          "En bra grund att stå på med olika sigar. Fäll ut innehåll och stäng med pil"
+        ],
+        [
+          "Min AI start",
+          "https://docs.google.com/document/d/13Q-FUfK8_VHq9uWUMA0BP3z8uiJzJa03M7WpiuDRzDc/edit?tab=t.0",
+          "En grundprompt eller custom instructions. Kopiera och sätt in egna data."
+        ],
+        [
+          "Agent OS",
+          "https://docs.google.com/document/d/12WiYicvBsX399xJrA0TEEpuazCxSZBifi9meyANOVjw/edit?tab=t.0",
+          "Viktigt att tänka på om du ska jobba mer agentiskt men även en kort sammanställning om grunden till allt. Agentiskt operativsystem."
+        ]
+      ],
+      "fordjupning": "När du börjar jobba med olika AI-verktyg så förenklar det om du har ett google- eller applekonto som verkligen är du. AI söker mönster i allt och ju fler pusselbitar som stämmer överens ju mer slappnar AI av och koncentrerar sig på de uppgifter du ger den. Själv jobbar jag alltid helst i min äldsta priva googleprofil med tvåfaktorsautentisering. Nästan det enda jag kan lösenordet till men ett lösenord jag inte delar med någon utom google. Det är med själva profilen jag loggar in överallt till olika verktyg"
     },
     {
       "id": "050-30",
