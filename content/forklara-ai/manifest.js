@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-19 07:18:24)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-19 07:48:40)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1006,8 +1006,6 @@ window.LECTURE = {
         ]
       ],
       "bilder": [
-        "Handslaget – appen.png",
-        "Handslag på svenska.png",
         "handslaget.png",
         "handslaget  diplom.png"
       ]
