@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-19 20:10:32)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-19 20:11:14)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -125,7 +125,7 @@ window.LECTURE = {
       "id": "000-30",
       "sektion": "000",
       "titel": "Gör AI oss dummare — eller tvingas vi bli smartare?",
-      "svar": "Det är hela frågan. Och svaret är inte maskinens — det är vårt. maskinen har dock potentialen i en utsträckning vi aldrig räck till för som människor.",
+      "svar": "Det är hela frågan. Och svaret är inte maskinens — det är vårt. Maskinen har dock potentialen i en utsträckning vi aldrig räck till för som människor.",
       "relaterat": [
         "020-10",
         "030-50"
