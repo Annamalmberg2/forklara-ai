@@ -130,6 +130,14 @@ window.LECTURE = {
       "relaterat": [
         "020-10",
         "030-50"
+      ],
+      "anteckningar": "Det här är frågan hela föreläsningen hänger på — och den har inget färdigt svar.\nAI kan bli en krycka som gör oss lata, eller ett bryne som tvingar fram skarpare frågor.\nSkillnaden är inte tekniken. Det är hur vi väljer att använda den.\nMaskinen gör mönster. Vi gör mening. Det är det jag vill att ni bär med er härifrån.",
+      "fordjupning": "Räknedosan gjorde oss inte sämre på matematik — den flyttade tänkandet uppåt, från siffror till samband. Men bara för den som fortsatte förstå vad hon räknade. Den som slutade tänka fick en svart låda.\n\nSå är det med AI. Låter vi den svara åt oss slutar vi öva det som gör oss kloka. Låter vi den ifrågasätta oss, föreslå motargument och tvinga fram nästa fråga — då blir vi vassare än förr. Verktyget avgör ingenting. Vanan gör det.\n\nMin arbetstes: AI gör oss varken dummare eller smartare av sig själv. Den förstärker den riktning vi redan går. Därför är den enda intressanta frågan inte vad maskinen kan — utan vad vi väljer att fortsätta göra själva.",
+      "begrepp": [
+        "röda tråden",
+        "mönster och mening",
+        "kritiskt tänkande",
+        "bildning"
       ]
     },
     {
@@ -315,6 +323,15 @@ window.LECTURE = {
       ],
       "relaterat": [
         "010-40"
+      ],
+      "anteckningar": "Var detektiv — lita, men verifiera.\nDeepfakes: rösten kan låta som mammas, ansiktet kan vara ditt. Bilden ljuger numera lika bra som texten.\nEtt kodord i familjen — en enkel fråga bara ni kan svaret på — slår all teknik.\nFråga publiken: vem har fått ett samtal som lät precis rätt?",
+      "fordjupning": "En övertygande lögn har aldrig varit billigare att tillverka. En röst kan klonas ur några sekunder ljud, ett ansikte läggas på en främmande kropp, en 'nyhet' skrivas i tusental på en eftermiddag. Det som förr krävde en studio gör vem som helst nu på en telefon.\n\nDärför flyttar bevisbördan. Fråga inte 'ser det äkta ut?' — det gör det alltid. Fråga 'var kommer det ifrån, vem tjänar på att jag tror det, och kan jag nå källan en annan väg?'. Ring numret du redan har, inte det du fick. Ha ett kodord hemma.\n\nMin arbetstes: sanning är inte längre något man ser, det är något man kontrollerar. Detektivens vana — ett steg till innan man tror — är den nya grundkunskapen.",
+      "begrepp": [
+        "deepfake",
+        "källkritik",
+        "verifiera",
+        "kodord",
+        "desinformation"
       ]
     },
     {
@@ -465,6 +482,14 @@ window.LECTURE = {
       "bildforslag": "Två vägar sida vid sida: en hjärna som somnar in vid skärmen vs en som vaknar och frågar.",
       "relaterat": [
         "000-30"
+      ],
+      "anteckningar": "Samma fråga som på framsidan, men nu alldeles nära: din egen hjärna.\nGPS-effekten: vi hittar sämre själva sedan vi slutade läsa kartan. Det vi lägger ut, tappar vi.\nMen den som använder AI för att bolla, ifrågasätta och lära sig — tränar tvärtom.\nUppmaning: lägg ut det mekaniska, behåll tänkandet.",
+      "fordjupning": "Hjärnan är lat på ett klokt sätt: det den slipper göra, slutar den öva. Vi minns färre telefonnummer sedan mobilen minns dem, hittar sämre sedan GPS:en pekar. Forskarna kallar det kognitiv avlastning — och AI är den kraftigaste avlastaren hittills.\n\nMen avlastning är inte detsamma som förfall. En miniräknare gör dig inte sämre på matte om du använder den för att slippa räkna för hand och i stället grubbla på problemet. Skadan sitter i vad du slutar göra, inte i verktyget.\n\nMin arbetstes: lägg ut det mekaniska — stavning, sammanfattning, första utkast — men behåll omdömet, urvalet och den sista frågan hos dig själv. Använd AI som en sparringpartner som säger emot, inte som ett facit som avslutar tanken. Då blir du skarpare, inte slöare.",
+      "begrepp": [
+        "kognitiv avlastning",
+        "GPS-effekten",
+        "vanor",
+        "kritiskt tänkande"
       ]
     },
     {
@@ -582,7 +607,13 @@ window.LECTURE = {
           "Viktigt att tänka på om du ska jobba mer agentiskt men även en kort sammanställning om grunden till allt. Agentiskt operativsystem."
         ]
       ],
-      "fordjupning": "När du börjar jobba med olika AI-verktyg så förenklar det om du har ett google- eller applekonto som verkligen är du. AI söker mönster i allt och ju fler pusselbitar som stämmer överens ju mer slappnar AI av och koncentrerar sig på de uppgifter du ger den. Själv jobbar jag alltid helst i min äldsta priva googleprofil med tvåfaktorsautentisering. Nästan det enda jag kan lösenordet till men ett lösenord jag inte delar med någon utom google. Det är med själva profilen jag loggar in överallt till olika verktyg"
+      "fordjupning": "När du börjar jobba med olika AI-verktyg så förenklar det om du har ett google- eller applekonto som verkligen är du. AI söker mönster i allt och ju fler pusselbitar som stämmer överens ju mer slappnar AI av och koncentrerar sig på de uppgifter du ger den. Själv jobbar jag alltid helst i min äldsta priva googleprofil med tvåfaktorsautentisering. Nästan det enda jag kan lösenordet till men ett lösenord jag inte delar med någon utom google. Det är med själva profilen jag loggar in överallt till olika verktyg",
+      "begrepp": [
+        "kom igång",
+        "grundprompt",
+        "google-konto",
+        "apple-konto"
+      ]
     },
     {
       "id": "050-30",
@@ -643,7 +674,14 @@ window.LECTURE = {
         "Biblioteket.png"
       ],
       "anteckningar": "Jag följer många insatta inom AI och i biblioteket finns mycket som du kan ha nytta av. Det finns också extra info, extra länkar på de olika berättelsekorten precis som detta. Ser du något du gillar så kan du alltid fördjupa dig genom att fälla ut inhållet med pilen nedan.",
-      "fordjupning": "Det fins fördjupningar på varje berättelsekort inom kort. Du hittar mycket för att själv komma igång på fliken \"Kom igång & bygg själv."
+      "fordjupning": "Det fins fördjupningar på varje berättelsekort inom kort. Du hittar mycket för att själv komma igång på fliken \"Kom igång & bygg själv.",
+      "begrepp": [
+        "biblioteket",
+        "verktyg",
+        "poddar",
+        "böcker",
+        "kom igång"
+      ]
     },
     {
       "id": "060-10",
@@ -690,7 +728,8 @@ window.LECTURE = {
           "LinkedIn",
           "https://www.linkedin.com/in/annamalmberg2/"
         ]
-      ]
+      ],
+      "fordjupning": "AiNNOVA står på sex ben, och de hänger ihop: AI-konsultation, utbildning & coachning, innehållsproduktion, webb & kommunikation, marknadsföring och specialiserade AI-lösningar. Poängen är inte att göra allt — det är att möta dig där du står och bygga vidare därifrån.\n\nJag är själv en lärare som blev nyfiken och inte slutade. Vill du fortsätta samtalet, boka en föreläsning eller bara bolla en idé — hör av dig. Det roligaste börjar oftast efter sista bilden."
     },
     {
       "id": "900-10",
