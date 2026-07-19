@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-19 20:11:14)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-19 20:22:17)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -481,7 +481,6 @@ window.LECTURE = {
       "sektion": "030",
       "titel": "Gör den oss verkligen dummare?",
       "svar": "Om vi låter den tänka åt oss, ja. Om den tvingar oss till bättre frågor — nej. Vi väljer.",
-      "bildforslag": "Två vägar sida vid sida: en hjärna som somnar in vid skärmen vs en som vaknar och frågar.",
       "relaterat": [
         "000-30"
       ],
@@ -492,6 +491,9 @@ window.LECTURE = {
         "GPS-effekten",
         "vanor",
         "kritiskt tänkande"
+      ],
+      "bilder": [
+        "Gör den oss verkligen dummare.png"
       ]
     },
     {
