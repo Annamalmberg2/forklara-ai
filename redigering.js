@@ -28,13 +28,39 @@
   let motorFinns = false;
   fetch("/api/status").then(r => r.json()).then(j => {
     motorFinns = !!(j && j.ok);
+    // Med motorn igång är FILEN sanningen (allt autosparas dit). Ligger det ändå
+    // kvar ett gammalt utkast är det en skugga från förr — läs om från filen så
+    // inget spökar, och så att en gammal version aldrig skriver över den färska.
+    if (motorFinns && harUtkast()) {
+      localStorage.removeItem(UTKAST);
+      location.reload();
+      return;
+    }
     if (motorFinns && document.body.classList.contains("redigerar")) byggEditor();
   }).catch(() => {});
 
-  // ---------- utkast ----------
+  // ---------- utkast + autospar ----------
+  const klockan = () => new Date().toLocaleTimeString("sv-SE", { hour: "2-digit", minute: "2-digit" });
+
+  // Med motorn igång sparas varje ändring direkt i filen (och utkastet rensas)
+  // så inget gammalt utkast kan byggas upp och spöka nästa gång.
+  let autoTimer = null;
+  function autoSpara() {
+    clearTimeout(autoTimer);
+    autoTimer = setTimeout(async () => {
+      try {
+        const svar = await fetch("/api/spara/" + window.LECTURE_ID, { method: "POST", body: generera() });
+        const j = await svar.json();
+        if (j.ok) { localStorage.removeItem(UTKAST); visaStatus("✓ Sparat " + klockan() + " — klicka Publicera när du vill uppdatera webblänken."); }
+        else visaStatus("✗ " + (j.fel || "Kunde inte spara automatiskt."));
+      } catch (e) { visaStatus("✗ Motorn svarar inte — starta om via 'Förklara AI.command'."); }
+    }, 800);
+  }
+
   function sparaUtkast() {
     try { localStorage.setItem(UTKAST, JSON.stringify(L)); } catch (e) {}
-    visaStatus("● Utkast — sparat i webbläsaren, inte i filen än");
+    if (motorFinns) { visaStatus("✎ Sparar …"); autoSpara(); }
+    else visaStatus("● Utkast — sparat i webbläsaren, inte i filen än (motorn är inte igång)");
   }
   function harUtkast() { return !!localStorage.getItem(UTKAST); }
 
