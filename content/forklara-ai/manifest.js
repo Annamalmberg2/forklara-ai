@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-20 12:08:03)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-20 12:10:14)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -699,7 +699,7 @@ window.LECTURE = {
       "id": "050-40",
       "sektion": "050",
       "titel": "Var hittar jag allt du visat?",
-      "svar": "I Biblioteket — verktyg, poddar, böcker, personer och mycket som jag byggt. Klicka Biblioteket i menyn.",
+      "svar": "I Biblioteket — verktyg, poddar, böcker, personer och mycket som jag byggt. Klicka Biblioteket i menyn. PS! Glöm inte att min kunskap om AI är långt mycket större så har du en fråga så vet du vem du ska fråga.",
       "bilder": [
         "Biblioteket.png"
       ],
