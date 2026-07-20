@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-20 12:14:11)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-20 12:20:10)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -736,7 +736,7 @@ window.LECTURE = {
         "Nobelpriset i ekonomi 2026.png"
       ],
       "fordjupning": "Skämtet har en udd: rädslan att ha fel är den dyraste känslan i en exponentiell tid. Den som måste ha rätt från början vågar aldrig testa.\n\nAI sänker priset på misstag dramatiskt — ett utkast kostar sekunder, en prototyp en kväll. Då blir modet att ha fel snabbt en konkurrensfördel. Felen är inte motsatsen till kunskap. De är råvaran.",
-      "anteckningar": "Med glimten i ögat: 'för upptäckten att människor hellre misslyckas med att ha rätt\nän lyckas efter att ha haft fel.'\nAlla vill ha rätt från början. AI låter oss ha fel — snabbare och billigare.\nDärför lär vi oss mer.",
+      "anteckningar": "AI blir bara bättre och dess kapacitet växer exponentiellt. \"Den AI du har idag är den sämsta du någonsin kommer att ha. \"\n\nMed glimten i ögat: 'för upptäckten att människor hellre misslyckas med att ha rätt\nän lyckas efter att ha haft fel.'\nAlla vill ha rätt från början. AI låter oss ha fel — snabbare och billigare.\nDärför lär vi oss mer.",
       "personer": [
         "Claude"
       ],
