@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-20 12:10:14)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-20 12:13:37)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -751,6 +751,7 @@ window.LECTURE = {
       "titel": "Tack — och sen?",
       "svar": "Tack för att ni följde med. På återseende — och hör av er.",
       "bilder": [
+        "Anna framför sin roll-up.jpg",
         "AiNNOVA – vad jag erbjuder.png"
       ],
       "anteckningar": "Sex ben: AI-konsultation, utbildning & coachning, innehållsproduktion,\nwebb & kommunikation, marknadsföring, specialiserade AI-lösningar.\nTack — och på återseende!",
