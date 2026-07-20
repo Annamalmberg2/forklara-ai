@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-20 12:02:53)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-20 12:05:00)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -711,6 +711,20 @@ window.LECTURE = {
         "poddar",
         "böcker",
         "kom igång"
+      ],
+      "lankar": [
+        [
+          "AI skolan i Notion",
+          "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
+        ],
+        [
+          "Min AI start",
+          "https://docs.google.com/document/d/13Q-FUfK8_VHq9uWUMA0BP3z8uiJzJa03M7WpiuDRzDc/edit?tab=t.0"
+        ],
+        [
+          "Agen OS",
+          "https://docs.google.com/document/d/12WiYicvBsX399xJrA0TEEpuazCxSZBifi9meyANOVjw/edit?tab=t.0"
+        ]
       ]
     },
     {
