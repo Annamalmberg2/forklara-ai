@@ -96,10 +96,19 @@ class Hanterare(http.server.SimpleHTTPRequestHandler):
             from urllib.parse import unquote
             namn = os.path.basename(unquote(self.headers.get("X-Filnamn") or "bild.png"))
             namn = re.sub(r'[/\\:*?"<>|]', "", namn).strip() or "bild.png"
+            # Är EXAKT samma bild redan i banken? Återanvänd den — skapa aldrig en
+            # tvilling. (Samma storlek + samma innehåll = samma bild, oavsett namn.)
+            for f in os.listdir(mapp):
+                sokv = os.path.join(mapp, f)
+                if os.path.isfile(sokv) and os.path.getsize(sokv) == len(kropp_bytes):
+                    with open(sokv, "rb") as befintlig:
+                        if befintlig.read() == kropp_bytes:
+                            return self.svara({"ok": True, "filnamn": f, "redan": True,
+                                               "bank": synka_bilder(forelasning)})
             stam, andelse = os.path.splitext(namn)
             mal = os.path.join(mapp, namn)
             n = 2
-            while os.path.exists(mal):  # skriv aldrig över en befintlig bild
+            while os.path.exists(mal):  # samma namn men ANNAT innehåll → egen fil
                 namn = f"{stam} {n}{andelse}"
                 mal = os.path.join(mapp, namn)
                 n += 1
