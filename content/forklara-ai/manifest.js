@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-22 15:43:18)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-22 15:47:56)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -111,8 +111,8 @@ window.LECTURE = {
       "bilder": [
         "Hedvig behövs.png"
       ],
-      "fordjupning": "På 70-talet tog svensk tv folkbildningen på allvar: teknik och samhälle förklarades så att både barn och vuxna hängde med — utan att någon kände sig dum. Det är den traditionen AI-Sverige behöver nu. Inte fler experter som imponerar, utan fler Hedvig som förklarar.\n\nGapet idag är nämligen inte tekniskt utan pedagogiskt: de flesta vuxna använder redan AI dagligen (sökmotorer, autokorrigering, rekommendationer) utan att veta om det.",
-      "anteckningar": "1975 satt barn på golvet och försökte förstå vuxna.\n2026 sitter vuxna och försöker förstå teknik.\nFrån A till Ö var mitt första sci-fi-äventyr: videosamtal med mor, inte låta sig luras av svåra ord.\nVi behövde Hedvig då. Vi behöver henne igen — och hon håller.",
+      "fordjupning": "På 70-talet tog svensk TV folkbildningen på allvar: teknik och samhälle förklarades så att både barn och vuxna hängde med — utan att någon kände sig dum. \n\nDet är den traditionen AI-Sverige behöver nu. Inte fler experter som imponerar, utan fler Hedvig som förklarar.\n\nGapet idag är nämligen inte tekniskt utan pedagogiskt: de flesta vuxna använder redan AI dagligen (sökmotorer, autokorrigering, rekommendationer) utan att veta om det.",
+      "anteckningar": "1975 satt barn på golvet och försökte förstå vuxna.\n2026 sitter vuxna och försöker förstå teknik.\n\nFrån A till Ö var mitt första sci-fi-äventyr: videosamtal med mor, inte låta sig luras av svåra ord.\n\nVi behövde Hedvig då. Idag är det jag som får förklara — och jag ska hålla ihop det lika pedagogiskt som henne och ugglan.",
       "personer": [
         "Hedvig"
       ],
