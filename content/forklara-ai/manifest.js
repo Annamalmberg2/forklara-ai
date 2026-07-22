@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-22 14:17:37)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-22 14:30:25)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -182,12 +182,23 @@ window.LECTURE = {
         "tidslinje",
         "multimodalitet"
       ],
-      "anteckningar": "AI är inte ett monster — det är ett växande mycel. Tillsammans skapar vi en jätte som kan förstå, hjälpa och bygga. Framtiden beror på hur vi odlar den.\nDelarna: bildmodellen (ögonen), språkmodellen (hjärnan), ljudmodellen (öronen), känslohanden och kodhanden, pusselbålen (hjärtat), datastegen (fötterna).\nI botten: AI:s tidslinje — 1950 Turing-test → ELIZA → backpropagation → Deep Blue → Transformer → multimodalitet → framtiden.\nOch skylten i skogen: Pluton B — vår plats.",
+      "anteckningar": "En hand utan arm till en kropp blir ingen ny art men ju fler egenskaper den får, ju mer levande kan den upplevas. AI är inte ett monster — det är ett växande mycel. Tillsammans skapar vi en jätte som kan förstå, hjälpa och bygga. Framtiden beror på hur vi odlar den.\nDelarna: bildmodellen (ögonen), språkmodellen (hjärnan), ljudmodellen (öronen), känslohanden och kodhanden, pusselbålen (hjärtat), datastegen (fötterna).\nI botten: AI:s tidslinje — 1950 Turing-test → ELIZA → backpropagation → Deep Blue → Transformer → multimodalitet → framtiden.\nOch skylten i skogen: Pluton B — vår plats.",
       "bilder": [
         "Svampskogen – ett växande mycel att odla.png"
       ],
       "relaterat": [
         "010-10"
+      ],
+      "svar": "AI får allt fler förmågor, ju fler förmågor den får så blir den allt mer fungerande. Det blir nästan som en ny art.",
+      "lankar": [
+        [
+          "Pluton B",
+          "https://sites.google.com/view/hurdetfunkar/pluton-b"
+        ],
+        [
+          "Snart 3 000 000 modeller",
+          "https://huggingface.co/"
+        ]
       ]
     },
     {
