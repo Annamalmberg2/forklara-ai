@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-22 14:12:52)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-22 14:17:37)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -146,12 +146,12 @@ window.LECTURE = {
       "id": "010-10",
       "sektion": "010",
       "titel": "Är AI en maskin?",
-      "svar": "Nej — inget med ritning och skruvar. Ett växande mycel av mönster, tränat fram snarare än byggt.",
+      "svar": "Både ja och nej — ingen maskin med ritning och skruvar. Mer som växande mycel av mönster, tränat fram snarare än byggt.",
       "bilder": [
         "Svampskogen – inte en maskin, ett mycel.png"
       ],
       "fordjupning": "En bil gör vad ritningen säger. Ett neuralt nätverk 'ritas' inte — det tränas: miljarder små vikter justeras tills beteendet växer fram. Ingen, inte ens skaparna, kan peka på skruven där en viss kunskap sitter.\n\nDärför beter sig AI mer som något odlat än något byggt: förmågor dyker upp (och brister visar sig) på sätt som förvånar även forskarna. Och därför är testning — inte ritningsläsning — sättet att ta reda på vad en modell faktiskt kan.",
-      "anteckningar": "AI är inte en maskin — det är ett mycel. Frågan är inte vilken svamp som vinner, utan hur vi lär oss navigera skogen.\nModellsvamparna: Claude textsmeden, ChatGPT samtalssvampen, Gemini scouten, Grok frågeställaren, DeepSeek djupdykaren, Mistral kraftsvampen, Copilot hjälpande handen, Perplexity spanaren.\nDitt mycel: dina minnen, värderingar och drömmar — din förankring.",
+      "anteckningar": "AI är både en maskin och inte — vi skulle kunna likna AI som ett mycel. Frågan är inte vilken svamp som vinner, utan hur vi lär oss navigera skogen.\nModellsvamparna: Claude textsmeden, ChatGPT samtalssvampen, Gemini scouten, Grok frågeställaren, DeepSeek djupdykaren, Mistral kraftsvampen, Copilot hjälpande handen, Perplexity spanaren.\nDitt mycel: dina minnen, värderingar och drömmar — din förankring.",
       "begrepp": [
         "svampskogen",
         "mycel",
