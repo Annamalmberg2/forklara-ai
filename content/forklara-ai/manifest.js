@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 00:10:30)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 00:26:50)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -150,8 +150,8 @@ window.LECTURE = {
       "bilder": [
         "Svampskogen – inte en maskin, ett mycel.png"
       ],
-      "fordjupning": "En bil gör vad ritningen säger. Ett neuralt nätverk 'ritas' inte — det tränas: miljarder små vikter justeras tills beteendet växer fram. Ingen, inte ens skaparna, kan peka på skruven där en viss kunskap sitter.\n\nDärför beter sig AI mer som något odlat än något byggt: förmågor dyker upp (och brister visar sig) på sätt som förvånar även forskarna. Och därför är testning — inte ritningsläsning — sättet att ta reda på vad en modell faktiskt kan.",
-      "anteckningar": "AI är både en maskin och inte — vi skulle kunna likna AI som ett mycel. Frågan är inte vilken svamp som vinner, utan hur vi lär oss navigera skogen.\nModellsvamparna: Claude textsmeden, ChatGPT samtalssvampen, Gemini scouten, Grok frågeställaren, DeepSeek djupdykaren, Mistral kraftsvampen, Copilot hjälpande handen, Perplexity spanaren.\nDitt mycel: dina minnen, värderingar och drömmar — din förankring.",
+      "fordjupning": "Du kan gasa, bromsa och styra en bil  och den gör exakt vad mekaniken och ritningen tillåter. Det finns en färdig kedja för varje skruv.\n\nMed ett neuralt nätverk styr du också ingången (din prompt), men det som händer 'under huven' är inte ritat, det är odlat. Miljarder små mönster och vikter samverkar på sätt som inte ens skaparna helt kan förutsäga. Du styr riktningen, men AI:n navigerar i sitt eget mycel.\n\nIngen, inte ens skaparna, kan peka på skruven där en viss kunskap sitter.\n\nFörmågor dyker upp (och brister visar sig) på sätt som förvånar även de mest insatta forskarna. Man kan bara försöka testa sig fram vad en AI kan, det finns ingen färdig manual.",
+      "anteckningar": "AI är både en maskin och inte. Vi skulle kunna likna AI som ett mycel. \n\nFrågan är inte vilken svamp som vinner, utan hur vi lär oss navigera skogen.\n\nModellsvamparna: Claude textsmeden, ChatGPT samtalssvampen, Gemini scouten, Grok frågeställaren, DeepSeek djupdykaren, Mistral kraftsvampen, Copilot hjälpande handen, Perplexity spanaren.\n\nDitt mycel: dina minnen, värderingar och drömmar, din förankring.",
       "begrepp": [
         "svampskogen",
         "mycel",
