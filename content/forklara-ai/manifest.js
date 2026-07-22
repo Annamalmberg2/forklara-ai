@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-22 14:36:19)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-22 14:55:08)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -283,12 +283,12 @@ window.LECTURE = {
       "id": "010-40",
       "sektion": "010",
       "titel": "Tänker den?",
-      "svar": "Nej — den gissar nästa ord, förbluffande bra. Inget medvetande, bara mönster.",
+      "svar": "Nej — den gissar nästa ord, förbluffande bra. Inte medvetande medvetande som vårt men en fena på mönster.",
       "bilder": [
         "Tokens, kontext och det svåraste jobbet.jpg"
       ],
-      "fordjupning": "Modellen läser inte ord utan tokens — bitar av ord. 'Föreläsning' kan bli tre bitar. Svenska kostar ofta fler tokens än engelska; därför kan modeller kännas lite 'dummare' på svenska.\n\nKontextfönstret är modellens arbetsminne: allt den ser just nu. Det som inte ryms finns inte för modellen — den 'minns' inte ert förra samtal om det inte skickas med igen. Många AI-besvikelser är egentligen kontextmissar: modellen fick aldrig se det du trodde den visste.",
-      "anteckningar": "AI läser i tokens, inte i ord.\nKontextfönstret = arbetsminnet. Det svåraste jobbet: hålla tråden.\n(Precis som jag på scen.)",
+      "fordjupning": "Modellen läser inte ord utan tokens — bitar av ord. 'Föreläsning' kan bli tre bitar. Svenska kostar ofta fler tokens än engelska; därför kan modeller kännas lite 'dummare' på svenska. Samtidigt kan den förstå felstavad värmländska när den har dig och uppgifter du vill att den ska hantera i kontext.\n\nKontextfönstret är modellens arbetsminne: allt den ser just nu. Det som inte ryms finns inte för modellen — den 'minns' inte ert förra samtal om det inte skickas med igen. Många AI-besvikelser är egentligen kontextmissar: modellen fick aldrig se det du trodde den visste.",
+      "anteckningar": "AI läser i tokens, inte i ord.\nKontextfönstret = arbetsminnet. Det svåraste jobbet: hålla tråden och komma på vad man vi be den att göra. Bara fansin sätter dina gränser på vad den faktiskt kan göra.",
       "begrepp": [
         "tokens",
         "kontextfönster"
