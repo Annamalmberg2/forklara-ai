@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 00:51:33)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 00:56:26)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -215,12 +215,12 @@ window.LECTURE = {
       "id": "010-20",
       "sektion": "010",
       "titel": "Är AI ett enda företag?",
-      "svar": "Nej — miljontals modeller. Du är befälhavaren; välj rätt soldat för uppgiften.",
+      "svar": "Nej det är miljontals modeller. Du är befälhavaren; välj rätt soldat för uppgiften.",
       "bilder": [
         "Inte bara ett bolag – hela armén.png"
       ],
-      "fordjupning": "Kartan att ha i huvudet: några stora stängda modeller (Claude, GPT, Gemini), en snabbt växande öppen värld (Llama, Mistral, Qwen, DeepSeek) och miljontals specialiserade varianter på Hugging Face.\n\nFör dig som användare: du är befälhavaren. Olika soldater för olika uppdrag — en modell för skrivande, en för kod, en liten lokal modell för känslig data. Att välja rätt modell blir en vardagskompetens, som att välja verktyg ur lådan.",
-      "anteckningar": "AI ≠ ett bolag. Ungefär 3 miljoner modeller på Hugging Face.\nDu är befälhavaren — modellerna är soldaterna.\nVälj rätt soldat för rätt uppgift.",
+      "fordjupning": "Kartan att ha i huvudet: några stora stängda modeller (Claude, ChatGPT, Gemini), en snabbt växande öppen värld (Llama, Mistral, Qwen, DeepSeek) och miljontals specialiserade varianter på Hugging Face.\n\nFör dig som användare: du är befälhavaren. Olika soldater för olika uppdrag — en modell för skrivande, en för kod, en liten lokal modell för känslig data. Att välja rätt modell blir en vardagskompetens, som att välja verktyg ur lådan.",
+      "anteckningar": "AI ≠ ett bolag. Ungefär 3 miljoner modeller på Hugging Face.\nDu är befälhavaren, modellerna är soldaterna.\n\nJag kallar min arme av av för pluton B och dom kallar mig för ÖB.\n\nVälj rätt soldat för rätt uppgift.",
       "begrepp": [
         "Claude",
         "ChatGPT",
