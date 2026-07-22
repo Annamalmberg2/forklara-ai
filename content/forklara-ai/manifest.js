@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:35:12)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:39:31)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -425,12 +425,12 @@ window.LECTURE = {
       "id": "020-20",
       "sektion": "020",
       "titel": "Ärver den våra fördomar?",
-      "svar": "Ja — den lär av oss, inklusive det vi borde ha slutat med. Fråga alltid: vad tränades den på?",
+      "svar": "Ja den lär av oss, inklusive det vi borde ha slutat med. Fråga alltid: vad tränades den på?",
       "bilder": [
         "Bias – när mönstret lurar oss.jpg"
       ],
-      "fordjupning": "En modell lär sig av det vi gjort — inklusive det vi borde sluta göra. Klassikern: rekryteringsverktyget som lärde sig av historiska anställningar och därför sorterade bort kvinnor. Mönstret var korrekt inlärt — och fel.\n\nBias syns sällan i ett enskilt svar; den syns i statistiken över tusen. Därför två frågor att alltid ställa: Vad tränades den på? Och vem finns inte i datan? En modell tränad mest på engelska ser världen genom engelska ögon.",
-      "anteckningar": "AI ärver våra skevheter ur datan.\nMönstret ser övertygande ut — precis som primtalen.\nFråga alltid: vad tränades den på?",
+      "fordjupning": "En modell lär sig av det vi gjort inklusive det vi borde sluta göra. \n\nKlassikern: rekryteringsverktyget som lärde sig av historiska anställningar och därför sorterade bort kvinnor. Mönstret var korrekt inlärt och fel.\n\nBias syns sällan i ett enskilt svar; den syns i statistiken över tusen. Därför två frågor att alltid ställa: \n\nVad tränades den på? \nVem finns inte i datan? \n\nEn modell tränad är mest på engelska och ser världen genom engelska ögon.\n\nMina modeller är mest tränade på felstavad värmlänska och får lära sig att se världen utifrån mina ögon.",
+      "anteckningar": "AI ärver våra skevheter ur datan.\n\nMönstret ser övertygande ut precis som primtalen.\n\nFråga alltid: vad tränades den på?",
       "begrepp": [
         "bias",
         "träningsdata"
