@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:24:29)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:30:41)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -352,15 +352,15 @@ window.LECTURE = {
       "id": "020-30",
       "sektion": "020",
       "titel": "Hur vet jag vad som är sant?",
-      "svar": "Var detektiv. Deepfakes och övertygande mönster — lita, men verifiera. Ha ett kodord i familjen.",
+      "svar": "Var detektiv. Deepfakes och övertygande mönster, verifiera. Ha ett kodord i familjen.",
       "bilder": [
         "Detektiven.png"
       ],
       "relaterat": [
         "010-40"
       ],
-      "anteckningar": "Var detektiv — lita, men verifiera.\nDeepfakes: rösten kan låta som mammas, ansiktet kan vara ditt. Bilden ljuger numera lika bra som texten.\nEtt kodord i familjen — en enkel fråga bara ni kan svaret på — slår all teknik.\nFråga publiken: vem har fått ett samtal som lät precis rätt?",
-      "fordjupning": "En övertygande lögn har aldrig varit billigare att tillverka. En röst kan klonas ur några sekunder ljud, ett ansikte läggas på en främmande kropp, en 'nyhet' skrivas i tusental på en eftermiddag. Det som förr krävde en studio gör vem som helst nu på en telefon.\n\nDärför flyttar bevisbördan. Fråga inte 'ser det äkta ut?' — det gör det alltid. Fråga 'var kommer det ifrån, vem tjänar på att jag tror det, och kan jag nå källan en annan väg?'. Ring numret du redan har, inte det du fick. Ha ett kodord hemma.\n\nMin arbetstes: sanning är inte längre något man ser, det är något man kontrollerar. Detektivens vana — ett steg till innan man tror — är den nya grundkunskapen.",
+      "anteckningar": "Var detektiv, fundera och verifiera.\nDeepfakes: rösten kan låta som mammas, ansiktet kan vara ditt. Bilden ljuger numera lika bra som texten.\n\nEtt kodord i familjen, en enkel fråga bara ni kan svaret på. Det slår all teknik.\n\nHur många har fått konstiga samtal?",
+      "fordjupning": "En övertygande lögn har aldrig varit billigare att tillverka. \n\nEn röst kan klonas ur några sekunder ljud, ett ansikte läggas på en främmande kropp, en 'nyhet' skrivas i tusental på en eftermiddag. Det som förr krävde en studio gör vem som helst nu på en telefon.\n\nDärför flyttar bevisbördan. Fråga inte 'ser det äkta ut?', det gör det alltid. Fråga 'var kommer det ifrån, vem tjänar på att jag tror det, och kan jag nå källan en annan väg?'. Ring numret du redan har, inte det du fick. Ha ett kodord hemma.\n\nMin arbetstes: sanning är inte längre något man ser, det är något man kontrollerar. Detektivens vana, ett steg till innan du tror. Det är den nya grundkursen.",
       "begrepp": [
         "deepfake",
         "källkritik",
