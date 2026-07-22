@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-22 14:34:27)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-22 14:36:19)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -235,19 +235,23 @@ window.LECTURE = {
       "lankar": [
         [
           "ChatGPT",
-          "https://chatgpt.com"
+          "https://chatgpt.com",
+          "Bra att starta med tillsammans med Gemini"
         ],
         [
           "Google Gemini",
-          "https://gemini.google.com"
+          "https://gemini.google.com",
+          "Bra att starta med tillsammans med ChatGPT"
         ],
         [
           "Pluton B",
-          "https://sites.google.com/view/hurdetfunkar/pluton-b"
+          "https://sites.google.com/view/hurdetfunkar/pluton-b",
+          "Några fler modeller"
         ],
         [
           "Snart 3000 000 modeller",
-          "https://huggingface.co/"
+          "https://huggingface.co/",
+          "Många fler modeller"
         ]
       ]
     },
