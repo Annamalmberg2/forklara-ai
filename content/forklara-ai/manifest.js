@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-22 14:30:25)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-22 14:32:20)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -167,6 +167,16 @@ window.LECTURE = {
       ],
       "relaterat": [
         "010-20"
+      ],
+      "lankar": [
+        [
+          "Pluton B",
+          "https://sites.google.com/view/hurdetfunkar/pluton-b"
+        ],
+        [
+          "Snart 3 000 000 modeller",
+          "https://huggingface.co/"
+        ]
       ]
     },
     {
