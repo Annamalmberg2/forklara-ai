@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:39:31)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:42:35)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -440,12 +440,12 @@ window.LECTURE = {
       "id": "030-10",
       "sektion": "030",
       "titel": "Tar den mitt jobb?",
-      "svar": "Den tar mönstren. Kvar blir omdömet, frågorna och ansvaret — det som är vi. Värdet skapas i mötet.",
+      "svar": "Den tar mönstren. Kvar blir omdömet, frågorna och ansvaret, det som är vi. Värdet skapas i mötet.",
       "bilder": [
         "Framtiden byggs tillsammans – bron.png"
       ],
-      "fordjupning": "Forskning om människa–AI-samarbete visar ett obekvämt mönster: människa plus AI kan bli sämre än AI ensam — när människan bara gummistämplar maskinens förslag. Laget vinner först när rollerna är tydliga: maskinen föreslår, människan förstår uppgiften och äger beslutet.\n\nDet som håller bron uppe är alltså inte tekniken utan arbetsformen: lyssna, fråga, granska, ansvara. Förtroende är en konstruktion — bokstavligen.",
-      "anteckningar": "Varken människor eller AI når framtiden själva — värdet skapas i mötet.\nMänniskor: erfarenhet, intuition, empati, ansvar. AI: data, mönster, hastighet.\nDet som håller bron uppe: lyssna, fråga, samverka, ansvara, lära, överlämna.",
+      "fordjupning": "Forskning om människa och AI-samarbete visar ett obekvämt mönster: människa plus AI kan bli sämre än AI ensam när människan bara gummistämplar maskinens förslag. \n\nLaget vinner först när rollerna är tydliga: maskinen föreslår, människan förstår uppgiften och äger beslutet.\n\nDet som håller bron uppe är alltså inte tekniken utan arbetsformen: lyssna, fråga, granska, ansvara. \n\nFörtroende är i sig en konstruktion som måste byggas.",
+      "anteckningar": "Varken människor eller AI når framtiden själva, värdet skapas i mötet.\n\nMänniskor: erfarenhet, intuition, empati, ansvar. AI: data, mönster, hastighet.\n\nDet som håller bron uppe: lyssna, fråga, samverka, ansvara, lära, överlämna.",
       "begrepp": [
         "samarbete",
         "förtroende",
