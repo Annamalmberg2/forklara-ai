@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-20 12:30:04)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-22 14:12:52)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -125,7 +125,7 @@ window.LECTURE = {
       "id": "000-30",
       "sektion": "000",
       "titel": "Gör AI oss dummare — eller tvingas vi bli smartare?",
-      "svar": "Det är hela frågan. Och svaret är inte maskinens — det är vårt. Maskinen har dock potentialen i en utsträckning vi aldrig räck till för som människor.",
+      "svar": "Det är hela frågan. Och svaret är inte maskinens — det är vårt. Maskinen har dock potentialen i en utsträckning vi aldrig räckt till för som människor.",
       "relaterat": [
         "020-10",
         "030-50"
@@ -1154,7 +1154,7 @@ window.LECTURE = {
         [
           "On Boarding",
           "https://vision-setter.lovable.app/",
-          "Gå via min affilatelänk så får du mer poäng att bygga för. Testa bygga appar själv eller hjälp mig hjälpa dig via min \"Harness för att maxa\" d v s ta till vara på tekniken eller utnyttja tekniken i din favör.",
+          "Gå via min affilatelänk till Lovable \"övre högra hörnet\" så får du mer poäng att bygga för. Testa bygga appar själv eller hjälp mig att hjälpa dig via min \"Harness för att maxa\" d v s ta till vara på tekniken.",
           "Testa bygga appar själv"
         ],
         [
@@ -1273,12 +1273,6 @@ window.LECTURE = {
           "https://docs.google.com/document/d/1hBVbuWp3Be7dKPFcnNjaIo3X3usnfx7FRyzPoknqTAo/edit?usp=sharing",
           "Lite kort om vad jag erbjuder",
           "Anna Malmberg"
-        ],
-        [
-          "Annas minne",
-          "https://sites.google.com/view/hurdetfunkar/mitt-minne",
-          "Skriv upp det medan du minns det",
-          "Minne"
         ],
         [
           "Erbjudanden",
@@ -1443,21 +1437,21 @@ window.LECTURE = {
           "Några byggen"
         ],
         [
-          "Gammal pizza design",
-          "https://xn--rvensbistro-l8a.se/",
-          "När är ett handslag ett handslag",
-          "Några byggen"
-        ],
-        [
-          "Ny pizzadesign, trodde vi skulle köra en inbakad",
-          "https://ravensbistro.com/",
+          "Pizzadesign, trodde vi skulle köra en inbakad",
+          "https://rävensbistro.se",
           "https://fox-whisper-remix.lovable.app",
           "Några byggen"
         ],
         [
-          "Första siten",
+          "Bästa mekanikern",
+          "https://emilfixar.com/",
+          "Endast ett foto i all hast, en logga och info från alla bolag och hitta.",
+          "Några byggen"
+        ],
+        [
+          "Första siten till snickare",
           "https://www.walldone.se/",
-          "Då kunden ville ha allt samlat i Google",
+          "Då kunden ville ha allt samlat i Google byggde vi i Google Site",
           "Några byggen"
         ],
         [
@@ -1477,9 +1471,27 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai",
           "Föreläsning som är interaktiv där man kan välja olika stigar, den första jag byggt i filsystem på min egen dator.",
           "Föreläsningar"
+        ],
+        [
+          "Välingeveckan",
+          "https://valingeveckan.wordpress.com/",
+          "Vårt gamla ridläger",
+          "Kärt minne"
+        ],
+        [
+          "Gitarrperioden",
+          "https://drive.google.com/file/d/1f9_OV-rZ6-lIrIibDKP6dQ6RAekmutpp/view?usp=sharing",
+          "När jag försökte lära mig spela gitarr",
+          "Kärt minne"
+        ],
+        [
+          "Annas minne",
+          "https://sites.google.com/view/hurdetfunkar/mitt-minne",
+          "Skriv upp det medan du minns det",
+          "Ska en AI kunna påminna mig om saker när jag blir äldre så måste den ju veta vad den ska påminna mig."
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 39 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 41 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-30",
