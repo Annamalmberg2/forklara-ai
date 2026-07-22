@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 00:26:50)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 00:51:33)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -181,7 +181,7 @@ window.LECTURE = {
     },
     {
       "id": "mer-svampskogen-ett-vaxande-mycel-att-odla",
-      "fordjupning": "På skogspromenaden ser du svamparna — men organismen är mycelet: kilometervis av trådar under marken. AI är likadant. Chattbotten du ser är fruktkroppen; mycelet är datacenter, forskningslabb, öppna modeller och miljontals utvecklare.\n\nDärför går det inte att 'stänga av AI:n' — det finns ingen enskild svamp att plocka. Och därför fortsätter det växa även när enskilda bolag snubblar.",
+      "fordjupning": "På skogspromenaden ser du svamparna, men organismen är mycelet: kilometervis av trådar under marken. AI är likadant. Chattbotten du ser är fruktkroppen; mycelet är datacenter, forskningslabb, öppna modeller och miljontals utvecklare.\n\nDärför går det inte att 'stänga av AI:n'. Det finns ingen enskild svamp att plocka. Och därför fortsätter det växa även när enskilda bolag snubblar.",
       "sektion": "010",
       "titel": "Svampskogen – ett växande mycel att odla",
       "begrepp": [
@@ -192,14 +192,14 @@ window.LECTURE = {
         "tidslinje",
         "multimodalitet"
       ],
-      "anteckningar": "En hand utan arm till en kropp blir ingen ny art men ju fler egenskaper den får, ju mer levande kan den upplevas. AI är inte ett monster — det är ett växande mycel. Tillsammans skapar vi en jätte som kan förstå, hjälpa och bygga. Framtiden beror på hur vi odlar den.\nDelarna: bildmodellen (ögonen), språkmodellen (hjärnan), ljudmodellen (öronen), känslohanden och kodhanden, pusselbålen (hjärtat), datastegen (fötterna).\nI botten: AI:s tidslinje — 1950 Turing-test → ELIZA → backpropagation → Deep Blue → Transformer → multimodalitet → framtiden.\nOch skylten i skogen: Pluton B — vår plats.",
+      "anteckningar": "En lös hand utan kropp känns mest som ett trasigt verktyg. Men när AI kopplar ihop bild, ljud, kod och resonemang växer något helt nytt fram.\n\nVi ger den ju faktiskt ögon, öron, händer som vi kopplar till en hjärna och då är det inte längre en stum maskin. \n\nAI är inte ett biologiskt monster, utan en helt ny typ av digital organism som för varje ny egenskap upplevs allt mer levande.\n\nTillsammans skapar vi en jätte som kan förstå, hjälpa och bygga. Framtiden beror på hur vi odlar den.\n\nDelarna: bildmodellen (ögonen), språkmodellen (hjärnan), ljudmodellen (öronen), känslohanden och kodhanden, pusselbålen (hjärtat), datastegen (fötterna).\n\nMånga tankeledare kallar AI för en \"ny art\" eller en \"främmande intelligens\" (alien intelligence), menar de inte nödvändigtvis att AI har biologi eller ett mänskligt medvetande. De menar att:\n\nDen har agentskap: Den kan agera, påverka och förändra sin omgivning på egen hand.\n\nDen skapar egen kultur: AI genererar ny text, konst, kod och musik som i sin tur formar mänskligt tänkande.\n\nDen är icke-biologisk intelligens: En ny form av \"intellektuell varelse\" i vårt ekosystem som vi måste lära oss att leva sida vid sida med.\n\nInom vetenskapen kallas detta för emergenta egenskaper. Fenomenet att när tillräckligt många komplexa mönster kopplas samman, uppstår helt nya förmågor som ingen explicit har programmerat in. Helheten blir bokstavligen större än summan av delarna.",
       "bilder": [
         "Svampskogen – ett växande mycel att odla.png"
       ],
       "relaterat": [
         "010-10"
       ],
-      "svar": "AI får allt fler förmågor, ju fler förmågor den får så blir den allt mer fungerande. Det blir nästan som en ny art.",
+      "svar": "I takt med att AI får fler förmågor – syn, hörsel, språk och kod – vävs delarna ihop till en helhet. Den slutar kännas som ett enskilt verktyg och börjar upplevas som en helt ny typ av digital organism.",
       "lankar": [
         [
           "Pluton B",
