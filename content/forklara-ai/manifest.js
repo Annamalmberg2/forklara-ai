@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:55:11)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:58:10)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -513,12 +513,12 @@ window.LECTURE = {
       "id": "030-50",
       "sektion": "030",
       "titel": "Gör den oss verkligen dummare?",
-      "svar": "Om vi låter den tänka åt oss, ja. Om den tvingar oss till bättre frågor — nej. Vi väljer.",
+      "svar": "Om vi låter den tänka åt oss, ja. Om den tvingar oss till bättre frågor, nej. Vi väljer.",
       "relaterat": [
         "000-30"
       ],
-      "anteckningar": "Samma fråga som på framsidan, men nu alldeles nära: din egen hjärna.\nGPS-effekten: vi hittar sämre själva sedan vi slutade läsa kartan. Det vi lägger ut, tappar vi.\nMen den som använder AI för att bolla, ifrågasätta och lära sig — tränar tvärtom.\nUppmaning: lägg ut det mekaniska, behåll tänkandet.",
-      "fordjupning": "Hjärnan är lat på ett klokt sätt: det den slipper göra, slutar den öva. Vi minns färre telefonnummer sedan mobilen minns dem, hittar sämre sedan GPS:en pekar. Forskarna kallar det kognitiv avlastning — och AI är den kraftigaste avlastaren hittills.\n\nMen avlastning är inte detsamma som förfall. En miniräknare gör dig inte sämre på matte om du använder den för att slippa räkna för hand och i stället grubbla på problemet. Skadan sitter i vad du slutar göra, inte i verktyget.\n\nMin arbetstes: lägg ut det mekaniska — stavning, sammanfattning, första utkast — men behåll omdömet, urvalet och den sista frågan hos dig själv. Använd AI som en sparringpartner som säger emot, inte som ett facit som avslutar tanken. Då blir du skarpare, inte slöare.",
+      "anteckningar": "Samma fråga som på framsidan, men nu alldeles nära: din egen hjärna.\n\nGPS-effekten: vi hittar sämre själva sedan vi slutade läsa kartan. Det vi lägger ut, tappar vi.\n\nMen den som använder AI för att bolla, ifrågasätta och lära sig tränar tvärtom.\n\nUppmaning: lägg ut det mekaniska, behåll tänkandet.",
+      "fordjupning": "Hjärnan är lat på ett klokt sätt: det den slipper göra, slutar den öva. \n\nVi minns färre telefonnummer sedan mobilen minns dem, hittar sämre sedan \n\nGPS:en pekar. Forskarna kallar det kognitiv avlastning  och AI är den kraftigaste avlastaren hittills.\n\nMen avlastning är inte detsamma som förfall. En miniräknare gör dig inte sämre på matte om du använder den för att slippa räkna för hand och i stället grubbla på problemet. \n\nSkadan sitter i vad du slutar göra, inte i verktyget.\n\nMin arbetstes: lägg ut det mekaniska: stavning, sammanfattning, första utkast men behåll omdömet, urvalet och den sista frågan hos dig själv. \n\nAnvänd AI som en sparringpartner som säger emot, inte som ett facit som avslutar tanken. Då blir du skarpare, inte slöare.",
       "begrepp": [
         "kognitiv avlastning",
         "GPS-effekten",
