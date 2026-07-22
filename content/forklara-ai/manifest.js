@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:30:41)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:32:40)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -373,12 +373,12 @@ window.LECTURE = {
       "id": "020-40",
       "sektion": "020",
       "titel": "Är det farligt?",
-      "svar": "Tekniken är neutral. Strid eller Astrid — rå kraft eller mänsklig värme. Vi väljer.",
+      "svar": "Tekniken är neutral. Strid eller Astrid, rå kraft eller mänsklig värme. Vi väljer.",
       "bilder": [
         "Strid eller Astrid.png"
       ],
-      "fordjupning": "Tekniken i vänstra och högra bilden är samma teknik. Skillnaden är beställningen. AI optimerar det vi ber om — så den verkliga frågan är vad vi som samhälle beställer: övervakning eller folkbildning, rädsla eller folkvett.\n\nDärför är AI-politik ingen teknikfråga utan en värderingsfråga, och 'vi väljer' är bokstavligt: upphandlingar, lagar, skolplaner. Astrid-vägen kräver att vanligt folk förstår tekniken. Annars väljer någon annan åt oss.",
-      "anteckningar": "Samma teknik — två vägar.\nStrid: rå kapacitet, rädsla, varningsskyltar.\nAstrid: mänsklig värme, folkvett, sagor för barnen.\nVi väljer. Det är hela poängen.",
+      "fordjupning": "Tekniken i vänstra och högra bilden är samma teknik. Skillnaden är beställningen. \n\nAI optimerar det vi ber om så den verkliga frågan är vad vi som samhälle beställer: övervakning eller folkbildning, rädsla eller folkvett.\n\nDärför är AI-politik ingen teknikfråga utan en värderingsfråga, och 'vi väljer' är bokstavligt: upphandlingar, lagar, skolplaner. \n\nAstrid-vägen kräver att vanligt folk förstår tekniken. Annars väljer någon annan åt oss.",
+      "anteckningar": "Samma teknik, två vägar.\nStrid: rå kapacitet, rädsla, varningsskyltar.\n\nAstrid: mänsklig värme, folkvett, sagor för barnen.\n\nVi väljer. Det är hela poängen.",
       "personer": [
         "Astrid Lindgren"
       ],
