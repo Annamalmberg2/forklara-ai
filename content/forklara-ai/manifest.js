@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:53:17)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:55:11)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -497,13 +497,13 @@ window.LECTURE = {
     {
       "id": "030-40",
       "sektion": "030",
-      "titel": "Kan den göra bilder av mig — utan att jag vet?",
+      "titel": "Kan den göra bilder av mig utan att jag vet?",
       "svar": "Ett suddigt foto räcker. Lita inte på bild eller röst som bevis. Bestäm ett kodord.",
       "bilder": [
         "Mitt profilfoto som grund.jpeg"
       ],
-      "fordjupning": "Ett enda suddigt foto räcker som utgångspunkt för en modern bildmodell — den 'vet' redan hur människor ser ut och fyller i resten. Det är verktygets styrka och dess varning i samma mening.\n\nVarningen konkret: samma teknik gör förfalskade bilder och röster till vardagsmat, och ett foto från sociala medier räcker. Rimlig husregel hemma: lita inte på bild eller röst som identitetsbevis — bestäm ett kodord i familjen redan idag.",
-      "anteckningar": "Ett dåligt pixlat foto räckte.\nAlla AI-bilder av mig i föreläsningen utgår från det här originalet.\nVisa originalet — visa sedan varianterna. Publiken brukar flämta.",
+      "fordjupning": "Ett enda suddigt foto räcker som utgångspunkt för en modern bildmodell, den 'vet' redan hur människor ser ut och fyller i resten. Det är verktygets styrka och dess varning i samma mening.\n\nVarningen konkret: samma teknik gör förfalskade bilder och röster till vardagsmat, och ett foto från sociala medier räcker. \n\nRimlig husregel hemma: lita inte på bild eller röst som identitetsbevis, bestäm ett kodord i familjen redan idag.",
+      "anteckningar": "Ett dåligt pixlat foto räckte.\n\nAlla AI-bilder av mig i föreläsningen utgår från det här originalet.",
       "begrepp": [
         "bildgenerering",
         "träningsbild"
