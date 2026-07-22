@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:42:35)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:51:03)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -456,14 +456,14 @@ window.LECTURE = {
       "id": "030-20",
       "sektion": "030",
       "titel": "Vad händer med konsten?",
-      "svar": "Maskinen målar vad som helst. Frågan är vem som håller penseln — och vem som menar något.",
+      "svar": "Maskinen målar vad som helst. Frågan är vem som håller penseln och vem som menar något.",
       "bilder": [
         "Jocke – en kvinna i dans.png",
         "Jocke – med pensel.jpg",
         "Målningen – kvinnan lyfter mannen.png"
       ],
-      "fordjupning": "Den här hänger i en ateljé på riktigt: olja, duk, veckor av arbete. Häng den bredvid AI-bilderna i samma kapitel och känn efter var skillnaden sitter — kanske inte i ytan, men i avsikten.\n\nMin arbetstes: AI:n kan härma uttryck men inte mena något. Konstnären väljer, ångrar, offrar. Om någon i publiken protesterar — utmärkt, då har vi ett samtal.",
-      "anteckningar": "Joakim 'Jocke' Johansson — konstnären.\nVad händer med konsten när maskinen målar?\nMänniskan bakom verket.\nAI:n kan imitera stilen — men vem håller penseln?\nRiktig olja på duk — kvinnan i rött lyfter kostymmannen.\nStäll frågan till publiken: kan en maskin mena något?",
+      "fordjupning": "Det var helt omöjligt att få en AI att måla en kvinna som i dans kunde lyfta en man tills jag kom på att jag kunde träna AI:n på jockes konst där han svävar.\n\nAI tog fram bilden med hjälp av Jockes konst. Nu målar Jocke den på riktigt.\n\nDen kommer att hänga i en ateljé på riktigt: olja, duk, veckor av arbete. \n\nHäng den bredvid AI-bilderna i samma kapitel och känn efter var skillnaden sitter, kanske inte i ytan, men i avsikten.\n\nMin arbetstes: AI:n kan härma uttryck men inte mena något. Konstnären väljer, ångrar, offrar. Om någon i publiken protesterar, utmärkt, då har vi ett samtal.",
+      "anteckningar": "AI tog fram bilden med hjälp av Jockes konst. Nu målar Joke den på riktigt.\n\nJoakim 'Jocke' Johansson, konstnären.\n\nVad händer med konsten när maskinen målar?\n\nMänniskan bakom verket.\nAI:n kan imitera stilen men vem håller penseln?\n\nRiktig olja på duk, kvinnan i rött lyfter kostymmannen.",
       "personer": [
         "Joakim Johansson"
       ],
