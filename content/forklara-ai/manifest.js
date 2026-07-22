@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:19:23)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:24:29)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -331,12 +331,12 @@ window.LECTURE = {
       "id": "020-10",
       "sektion": "020",
       "titel": "Kan man lita på den?",
-      "svar": "Den är vacker på mönster, blind för sanning. 333 333 331 ser ut som primtal — men är 17 × 19 607 843.",
+      "svar": "Den är vacker på mönster, blind för sanning. 333 333 331 ser ut som primtal men är 17 × 19 607 843.",
       "bilder": [
         "Mönster är vackra, bevis är sanning.png"
       ],
-      "fordjupning": "Följden bildas genom att skjuta in en trea i taget: 31, 331, 3331, 33331 … De åtta första talen är alla primtal. Det nionde, 333 333 331, ser precis likadant ut — men är 17 × 19 607 843.\n\nSå ser AI:s misstag ofta ut: mönstret håller precis länge nog för att vi ska sluta kontrollera. Ett snabbt primtalstest (som Miller–Rabin) svarar 'troligen primtal' med hög säkerhet — men 'troligen' är inte 'bevisat'. Skillnaden mellan statistik och bevis är exakt skillnaden mellan en språkmodells gissning och matematikens sanning.\n\nNörddetalj: att pröva delbarhet med små primtal (7, 11, 13, 17 …) avslöjar bluffen snabbt — redan 17 fäller talet. Det som ser oövervinnerligt ut faller ofta för det enklaste verktyget i lådan.",
-      "anteckningar": "31, 331, 3331, 33331 … alla primtal!\nAI:n: '333 333 331 är troligen primtal — 98,7 % säkert.'\nSanningen: 333 333 331 = 17 × 19 607 843.\nMönster är vackra. Bevis är sanning. Så startade jag — och så granskar jag AI.",
+      "fordjupning": "Talföljden bildas genom att skjuta in en trea i taget: 31, 331, 3331, 33331 … De åtta första talen är alla primtal. Det nionde, 333 333 331, ser precis likadant ut — men är 17 × 19 607 843.\n\nSå ser AI:s misstag ofta ut: mönstret håller precis länge nog för att vi ska sluta kontrollera. \n\nEtt snabbt primtalstest (som Miller–Rabin) svarar 'troligen primtal' med hög säkerhet. Men 'troligen' är inte 'bevisat'. \n\nSkillnaden mellan statistik och bevis är exakt skillnaden mellan en språkmodells gissning och matematikens sanning.\n\nNörddetalj: att pröva delbarhet med små primtal (7, 11, 13, 17 …) avslöjar bluffen snabbt , redan 17 fäller talet. Det som ser oövervinnerligt ut faller ofta för det enklaste verktyget i lådan.",
+      "anteckningar": "31, 331, 3331, 33331 … alla primtal!\nAI:n: '333 333 331 är troligen primtal enligt AI:n 98,7 % säkert, tänkte tidigare modeller.\n\nSanningen: 333 333 331 = 17 × 19 607 843.\n\nMönster är vackra. Bevis är sanning. \n\nSå startade jag och så granskar jag AI än idag om jag funderar på om modellen kan räkna.",
       "begrepp": [
         "primtal",
         "mönster",
