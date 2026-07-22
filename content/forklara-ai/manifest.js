@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 00:56:26)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:13:02)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -215,12 +215,12 @@ window.LECTURE = {
       "id": "010-20",
       "sektion": "010",
       "titel": "Är AI ett enda företag?",
-      "svar": "Nej det är miljontals modeller. Du är befälhavaren; välj rätt soldat för uppgiften.",
+      "svar": "Nej det är miljontals modeller. Du är befälhavaren; välj rätt modell för uppgiften. Du är dirigenten till denna orkester.",
       "bilder": [
         "Inte bara ett bolag – hela armén.png"
       ],
-      "fordjupning": "Kartan att ha i huvudet: några stora stängda modeller (Claude, ChatGPT, Gemini), en snabbt växande öppen värld (Llama, Mistral, Qwen, DeepSeek) och miljontals specialiserade varianter på Hugging Face.\n\nFör dig som användare: du är befälhavaren. Olika soldater för olika uppdrag — en modell för skrivande, en för kod, en liten lokal modell för känslig data. Att välja rätt modell blir en vardagskompetens, som att välja verktyg ur lådan.",
-      "anteckningar": "AI ≠ ett bolag. Ungefär 3 miljoner modeller på Hugging Face.\nDu är befälhavaren, modellerna är soldaterna.\n\nJag kallar min arme av av för pluton B och dom kallar mig för ÖB.\n\nVälj rätt soldat för rätt uppgift.",
+      "fordjupning": "Kartan att ha i huvudet: några stora stängda modeller (Claude, ChatGPT, Gemini), en snabbt växande öppen värld (Llama, Mistral, Qwen, DeepSeek) och miljontals specialiserade varianter på Hugging Face.\n\nFör dig som användare: du är befälhavaren. Olika modeller för olika uppdrag: en modell för skrivande, en för kod, en liten lokal modell för känslig data. \n\nAtt välja rätt modell blir en vardagskompetens, som att välja verktyg ur lådan.",
+      "anteckningar": "AI ≠ ett bolag. Ungefär 3 miljoner modeller på Hugging Face.\nDu är befälhavaren, modellerna behöver dina komnandon.\n\nJag kallar min arme av AI för pluton B och dom kallar mig för ÖB. Det är ibland vårt lekfulla sätt att sätta en riktning eller fördela uppdrag\n\nSom vilken dirigent som helst så njuter jag när plutonen spelar i samklang och det gäller att vara snabb när någon börjar spela falskt eller fått fel noter med sig.",
       "begrepp": [
         "Claude",
         "ChatGPT",
