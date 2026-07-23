@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 23:49:02)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 23:56:58)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -975,18 +975,19 @@ window.LECTURE = {
     },
     {
       "id": "mer-patent-kunskapens-ekonomi",
-      "fordjupning": "Vem äger kunskap som en maskin destillerat ur mänsklighetens samlade texter? Frågorna staplas på varandra: upphovsrätt på träningsdata, patent på arkitekturer, licensvillkor på öppna modeller — och juridiken springer efter tekniken.\n\nSamtidigt märks kunskapens nya ekonomi i plånboken: efterfrågan på beräkningskraft och minne pressar priserna (sommaren 2026: uppåt). Kunskap har bokstavligen blivit en råvara med dagspris.",
+      "fordjupning": "Vem äger kunskap som en maskin destillerat ur mänsklighetens samlade texter? \n\nFrågorna staplas på varandra: upphovsrätt på träningsdata, patent på arkitekturer, licensvillkor på öppna modeller — och juridiken springer efter tekniken.\n\nSamtidigt märks kunskapens nya ekonomi i plånboken: efterfrågan på beräkningskraft och minne pressar priserna (sommaren 2026: uppåt). \n\nKunskap har bokstavligen blivit en råvara med dagspris.\n\nMin spaning är att priserna går ner p g a att det finns så oändligt många alternativ och de smartare lösningarnas tid är snart här.",
       "sektion": "950",
-      "titel": "Patent – kunskapens ekonomi",
+      "titel": "Men vad händer med vår ekonomi och alla våra patent?",
       "begrepp": [
         "patent",
         "kunskapens ekonomi",
         "öppna vikter"
       ],
-      "anteckningar": "Vem äger kunskapen? Patent, öppna vikter, licenser.\nAktuellt just nu: priserna på minne och hårdvara går upp (sommaren 2026).",
+      "anteckningar": "Vem äger kunskapen? Patent, öppna vikter, licenser.\n\nDen här programvaran har jag med hjälp av AI skapat men vems är den? Kan den gynna fler?\n\nDen här frågan har i dagsläget mer frågor än svar.",
       "bilder": [
         "Patent – kunskapens ekonomi.jpg"
-      ]
+      ],
+      "svar": "Patent har mer begränsat än gynnat mänskligheten. Det kan ha gynnat företag men sällan människor."
     },
     {
       "id": "mer-mona-lisa-anna",
