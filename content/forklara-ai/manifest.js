@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 23:06:35)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 23:16:43)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -916,9 +916,9 @@ window.LECTURE = {
     },
     {
       "id": "mer-aristoteles-first-principles",
-      "fordjupning": "First principles: skala bort allt du antagit och bygg från det som bevisligen är sant. Aristoteles gjorde det med naturen; dagens ingenjörer gör det med raketer och batterier.\n\nPå AI: i stället för att fråga 'vad säger folk om ChatGPT?' — fråga 'vad ÄR det här i grunden?'. Svaret (en funktion som gissar nästa ord, tränad på enorma mängder text) förklarar både styrkorna och misstagen bättre än all hajp.",
+      "fordjupning": "First principles: skala bort allt du antagit och bygg från det som bevisligen är sant. \n\nFirst Principles: hur enkel mekanik blir till komplext tänkande.\n\nFirst principles handlar om att skala bort antaganden och bygga sitt tänkande från det som bevisligen är sant. Aristoteles gjorde det med naturen, och moderna ingenjörer gör det när de skalar bort gamla sanningar för att bygga återanvändbara raketer.\n\nApplicerar vi detta på AI frågar vi inte \"vad säger rubrikerna?\", utan \"vad ÄR den här koden i sin absoluta grund?\"\n\nSvaret på lägsta nivå är: en funktion som beräknar vilket ord som bäst bör följa på det förra.\n\nMen här uppstår magin: För att kunna förutsäga nästa ord i en komplex text – entydigt, logiskt och meningsfullt – räcker det inte att bara titta på statistik över enstaka ord. För att gissa rätt på nästa ord i ett filosofiskt resonemang eller en kodremsa måste modellen bygga en inre mönstermodell av hela världen.\n\nVarför den upplevs tänkande (Emergens): Genom att träna på att gissa nästa ord på miljarder texter uppstår emergenta egenskaper. \n\nModellen lär sig logik, orsak och verkan, samt abstrakt resonerande, inte för att någon programmerade det, utan för att det var det enda sättet att gissa rätt!\n\nVarför den ibland misslyckas: Eftersom den styrs av sannolikhet och mönster snarare än en uppslagsbok saknar den en inbyggd \"stoppknapp\" för sanning. \nAI försöker alltid väva ihop den mest logiska fortsättningen – även när den saknar hårddata.\n\nUtgår du från First Principles ser du att AI varken är en stum papegoja eller ett biologiskt medvetande: det är en mönstermotor där en enkel grundmekanism har vuxit till ett komplext tänkande.",
       "sektion": "950",
-      "titel": "Aristoteles – first principles",
+      "titel": "Vad menade Aristoteles med first principles?",
       "personer": [
         "Aristoteles"
       ],
@@ -929,7 +929,8 @@ window.LECTURE = {
       "bilder": [
         "Aristoteles – first principles.png",
         "Aristoteles – reel.png"
-      ]
+      ],
+      "svar": "Skala bort allt du antagit och bygg från det som bevisligen är sant."
     },
     {
       "id": "mer-deep-blue-vs-kasparov-1997",
