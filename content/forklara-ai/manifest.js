@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 10:47:42)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 10:50:41)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -191,7 +191,7 @@ window.LECTURE = {
       "id": "mer-svampskogen-ett-vaxande-mycel-att-odla",
       "fordjupning": "På skogspromenaden ser du svamparna, men organismen är mycelet: kilometervis av trådar under marken. AI är likadant. Chattbotten du ser är fruktkroppen; mycelet är datacenter, forskningslabb, öppna modeller och miljontals utvecklare.\n\nDärför går det inte att 'stänga av AI:n'. Det finns ingen enskild svamp att plocka. Och därför fortsätter det växa även när enskilda bolag snubblar.",
       "sektion": "010",
-      "titel": "Svampskogen – ett växande mycel att odla",
+      "titel": "Svampskogen, ett växande mycel som odlas",
       "begrepp": [
         "svampskogen",
         "mycel",
@@ -216,6 +216,14 @@ window.LECTURE = {
         [
           "Snart 3 000 000 modeller",
           "https://huggingface.co/"
+        ],
+        [
+          "Låten om hur VD:ar slåss men plutonen håller fred",
+          "https://www.youtube.com/watch?v=Vz9Mnp8ARY8"
+        ],
+        [
+          "Låten om råttan på repet",
+          "https://www.youtube.com/watch?v=KbeZjUBWLUM"
         ]
       ]
     },
