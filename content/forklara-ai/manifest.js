@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 12:51:17)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 13:00:09)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -717,8 +717,8 @@ window.LECTURE = {
         "Verkligheten kommer på besök.png",
         "Verkligheten kom – vi firade med burgare.png"
       ],
-      "fordjupning": "Varför bokföring som testfall? För att den är obarmhärtig: siffrorna stämmer eller stämmer inte, och en revisor granskar resultatet. En perfekt miljö för att testa om AI håller i verkligheten — inte bara i demon.\n\nArbetsmodellen: AI:n gör grovjobbet (sortera, kontera, stämma av), människan äger besluten och ansvaret, och allt kontrolleras mot källorna. Mönster är vackra, bevis är sanning — även i ekonomin.\n\nFacit från revisorsbesöket: det AI-byggda höll. Men lärdomen är större än bokföringen. Det som avgjorde var arbetsdelningen — maskinen räknade, människorna granskade, ingen litade blint på någon.\n\nOch burgarna är också en poäng: om AI tar grovjobbet ska den frigjorda tiden bli mänsklig tid — samtal, skratt, kaffe. Annars gjorde vi fel på köpet.",
-      "anteckningar": "Mitt skarpaste test: hela bolagets bokföring, byggd tillsammans med AI.\nInte en demo — verklighet, med revisor och allt.\n'På onsdag kommer revisorn. Då får vi se om det vi byggt håller.'\nIdéer → verklighet: underlag, system, kontroll, ansvar.\nAI gör jobbet snabbare. Jag gör valen. Tillsammans blir det bättre.\nDet höll! Revisorn nöjd, Anna nöjd, AI:n nöjd — burgare nöjd.\nPoängen: människor träffas, AI levererar, allt blir klart.",
+      "fordjupning": "Varför bokföring som testfall? \n\nFör att den är obarmhärtig: siffrorna stämmer eller stämmer inte, och en revisor granskar resultatet. \n\nEn perfekt miljö för att testa om AI håller i verkligheten och inte bara i demon.\n\nArbetsmodellen: AI:n gör grovjobbet (sortera, kontera, stämma av), människan äger besluten och ansvaret, och allt kontrolleras mot källorna. Mönster är vackra, bevis är sanning även i ekonomin.\n\nFacit från revisorsbesöket: det AI-byggda höll. Men lärdomen är större än bokföringen. Det som avgjorde var arbetsdelningen: maskinen räknade, människorna granskade, ingen litade blint på någon.\n\nOch burgarna är också en poäng: om AI tar grovjobbet ska den frigjorda tiden bli mänsklig tid över till samtal, skratt, kaffe. ",
+      "anteckningar": "Mitt skarpaste test: hela bolagets bokföring, byggd tillsammans med AI.\n\nInte en demo utan på riktigt och fungerande i verkligheten. \n\nJag har aldrig varit stoltare än när min revisor kom på besök. Han fick en briefing av min AI om vilka beslut som var tvungen att tas och då dessa beslut hade fattats så drog AI igång.\n\nAI gjorde sista boköringarna, sammanställde mitt årsbokslut och inkomstdeklarationen.\n\nIdéer → verklighet: underlag, system, kontroll, ansvar.\n\nAI gör jobbet snabbare. Jag gör valen. Tillsammans blir det bättre.\n\nDet höll! Revisorn nöjd, Anna nöjd, AI:n nöjd — burgare nöjd.\nPoängen: människor träffas, AI levererar, allt blir klart.",
       "personer": [
         "Jerry"
       ],
