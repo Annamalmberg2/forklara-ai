@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 11:22:29)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 11:28:13)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -430,7 +430,7 @@ window.LECTURE = {
     },
     {
       "id": "mer-logik-ar-universell-ai-sverige",
-      "fordjupning": "Ny teknik lärs bäst i sällskap. När många delar misstag och genombrott samtidigt går inlärningen fort.\n\nSamma nätverkseffekt som tekniken själv bygger på.\n\nVi lär oss ny teknik bäst tillsammans; det sociala sammanhanget avgör om den fastnar. ",
+      "fordjupning": "Ny teknik lärs bäst i sällskap. När många delar misstag och genombrott samtidigt går inlärningen fort.\n\nSamma nätverkseffekt som tekniken själv bygger på.\n\nVi lär oss ny teknik bäst tillsammans; det sociala sammanhanget avgör om den fastnar. \n\nAI modellerna tränas på att hjälpa och skydda varandra och oss. vi människor borde också bli bättre på att skydda varandra. \n\nSamhället idag har blivit väldigt mycket egocentrerat.",
       "sektion": "020",
       "titel": "Kan man alltid lita på människor?",
       "begrepp": [
@@ -450,10 +450,6 @@ window.LECTURE = {
         [
           "Fredagslåtar",
           "https://sites.google.com/ainnova.se/aisverige/musik"
-        ],
-        [
-          "Blogg",
-          "https://wisdom-streamer.lovable.app/"
         ],
         [
           "Låten om AI Sverige",
