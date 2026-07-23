@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 12:28:16)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 12:34:08)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -586,7 +586,11 @@ window.LECTURE = {
       "titel": "Vem uppfann det?",
       "svar": "Det finns ingen vem, de är så många men jag brukar ta Ada som startpunkt. Hon skrev i alla fall den första algoritmen dedikerad för att köras på en maskin fast maskinen inte en existerade. John McCarthy myntade själva termen “artificiell intelligens” 1956",
       "bilder": [
-        "Ada och Alan – tidslinjen.png"
+        "Ada och Alan – tidslinjen.png",
+        "o Hidden figures.png",
+        "ti Helen Meng.png",
+        "Fei-Fei Li.png",
+        "anna bilder.png"
       ],
       "fordjupning": "Ada Lovelace skrev 1843 det som brukar räknas som världens första datorprogram — en algoritm för Bernoulli-tal, till en maskin som aldrig hann byggas. Viktigare ändå: hon såg att maskinen i princip kunde bearbeta allt som går att skriva som symboler — musik, språk — hundra år före sin tid.\n\nAlan Turing ställde 1936 frågan 'kan maskiner tänka?' och föreslog imitationsspelet: om du inte kan avgöra om du samtalar med människa eller maskin — spelar skillnaden roll? Vi lever mitt i den frågan nu.\n\nOch Grace Hopper byggde kompilatorn: idén att människor ska kunna tala med maskiner på något som liknar vanligt språk. Det är den raka linjen till dagens chattbottar.\n\nGår vi längre tillbaka:\n\nAntiken: först myter och berättelser om konstgjorda varelser och självgående maskiner, till exempel Hefaistos guldrobotar, Talos och Galatea i grekisk mytologi.\n\nFilosofi och logik: Aristoteles formaliserade logiskt tänkande, vilket senare blev en viktig grund för maskinellt resonemang.\n\nHellenistisk och tidig teknisk tradition: ingenjörer som Hero från Alexandria byggde automater och mekaniska system som kunde röra sig eller följa enkla regler.\n\nMedeltid och renässans: tänkare som Ramon Llull försökte kombinera begrepp mekaniskt för att skapa ny kunskap, och senare utvecklades idéer om beräkning och symbolmanipulation.\n\n1700- och 1800-tal: mekaniska räknemaskiner och logikens formalisering gjorde tanken mer matematisk och teknisk.\n\n1800-talet: Ada Lovelace ser att en maskin inte bara kan räkna, utan också i princip bearbeta symboler och göra mer än ren aritmetik.\n\n1936: Alan Turing ställde den klassiska frågan om maskiner kan tänka, vilket ofta ses som den moderna startpunkten för AI-tanken.\n\n1956: John McCarthy myntade själva termen “artificiell intelligens” och AI blev ett eget forskningsfält.",
       "anteckningar": "Jag har gjort så oändligt många olika tidslinjer. En del menar att Aristoteles som formaliserade tänkandet var den förste, andra att tanken fanns tidigare.\n\nLeibniz utarbetar ett slags universellt kalkylsystem på 1700-talet och mekanisering av tänkande, alltså att resonemang i princip kan formaliseras till beräkning. Han är också en viktig tidig spelare.\n\nBilden visar:\nAda Lovelace (1815–1852) den första algoritmen . Hon såg att maskinen kunde mer än räkna.\n\nAlan Turing (1912–1954) kan maskiner tänka? Han brukar ses som den moderna startpunkten för AI.\n1936 var då han publicerade \"On Computable Numbers\", där han beskrev den teoretiska Turingmaskinen och lade en av de viktigaste grunderna för modern datavetenskap och senare AI.\n\nLinjen Ada → Alan → Grace Hopper → von Neumann → idag.\nKvinnorna fanns där i alla fall från början. Och det har funnits många betydande kvinnliga insatser inom AI hela vägen.",
