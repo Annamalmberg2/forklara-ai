@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 11:49:01)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 11:50:51)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -552,6 +552,12 @@ window.LECTURE = {
       "begrepp": [
         "bildgenerering",
         "träningsbild"
+      ],
+      "lankar": [
+        [
+          "Daisy, lurendrejarnas största skräck",
+          "https://www.youtube.com/watch?v=RV_SdCfZ-0s"
+        ]
       ]
     },
     {
