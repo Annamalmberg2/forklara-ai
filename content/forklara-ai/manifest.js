@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 01:58:10)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 10:13:55)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -73,7 +73,7 @@ window.LECTURE = {
       "id": "000-10",
       "sektion": "000",
       "titel": "Vem är jag att prata om AI?",
-      "svar": "En lärare i matematik och fysik som bytte klassrum — inte yrke.",
+      "svar": "En lärare i matematik och fysik som bytte klassrum inte yrke.",
       "bilder": [
         "AI Anna Intelligens.jpg"
       ],
@@ -87,16 +87,16 @@ window.LECTURE = {
       ],
       "lankar": [
         [
-          "ainnova.se",
-          "https://ainnova.se"
+          "Mitt gamla CV med lärarlegitimation och utdrag ur belastningsregistret",
+          "https://docs.google.com/document/d/1fveAwEzDnfayn210UlQ7hU5KHXFC6zzV8hEaBWlTqGU/edit?tab=t.0"
         ],
         [
-          "LinkedIn",
-          "https://www.linkedin.com/in/annamalmberg2/"
+          "Konsultprofil",
+          "https://docs.google.com/document/d/1hBVbuWp3Be7dKPFcnNjaIo3X3usnfx7FRyzPoknqTAo/edit?tab=t.0"
         ],
         [
-          "Blogg",
-          "https://wisdom-streamer.lovable.app/"
+          "Första gången en AI presenterade mig",
+          "https://gamma.app/docs/Ai-Anna-j55lfjpqxbcqb9s?mode=doc"
         ]
       ],
       "relaterat": [
