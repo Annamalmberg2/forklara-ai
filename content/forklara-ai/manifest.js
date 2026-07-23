@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 10:38:19)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 10:43:33)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -426,6 +426,10 @@ window.LECTURE = {
         [
           "Blogg",
           "https://wisdom-streamer.lovable.app/"
+        ],
+        [
+          "Låten om AI Sverige",
+          "https://www.youtube.com/watch?v=FEhGlwIpXlo"
         ]
       ],
       "bilder": [
