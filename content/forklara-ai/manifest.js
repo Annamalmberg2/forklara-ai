@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 10:52:01)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 10:53:38)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -291,7 +291,7 @@ window.LECTURE = {
       "bilder": [
         "Från regler till språk – maskinens resa.jpg"
       ],
-      "fordjupning": "Den gamla AI:n (expertsystem) fick sina regler av oss: 'OM feber OCH utslag SÅ …'. Den kollapsade under verklighetens alla undantag. Maskininlärningen vände på steken: visa exempel och låt maskinen hitta reglerna själv.\n\nSpråkmodellerna tog sista steget: träna på ofattbara mängder text med en enda uppgift — gissa nästa ord. Det visade sig att den som gissar nästa ord riktigt, riktigt bra måste 'kunna' grammatik, fakta, logik och stil. Inte för att vi la in det — utan för att gissningen kräver det.",
+      "fordjupning": "Den gamla AI:n (expertsystem) fick sina regler av oss: 'OM feber OCH utslag SÅ …'. Den kollapsade under verklighetens alla undantag. \n\nMaskininlärningen vände på steken: visa exempel och låt maskinen hitta reglerna själv.\n\nSpråkmodellerna tog sista steget: träna på ofattbara mängder text med en enda uppgift, gissa nästa ord. \n\nDet visade sig att den som gissar nästa ord riktigt, riktigt bra måste 'kunna' grammatik, fakta, logik och stil. Inte för att vi la in det utan för att gissningen kräver det.",
       "anteckningar": "Hårda regler → lärande ur exempel → språk.\nVi slutade programmera svar och började träna förståelse.",
       "begrepp": [
         "regelbaserad AI",
