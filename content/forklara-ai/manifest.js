@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 13:37:26)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 22:03:37)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -189,7 +189,7 @@ window.LECTURE = {
     },
     {
       "id": "mer-svampskogen-ett-vaxande-mycel-att-odla",
-      "fordjupning": "På skogspromenaden ser du svamparna, men organismen är mycelet: kilometervis av trådar under marken. AI är likadant. Chattbotten du ser är fruktkroppen; mycelet är datacenter, forskningslabb, öppna modeller och miljontals utvecklare.\n\nDärför går det inte att 'stänga av AI:n'. Det finns ingen enskild svamp att plocka. Och därför fortsätter det växa även när enskilda bolag snubblar.",
+      "fordjupning": "På skogspromenaden ser du svamparna, men organismen är mycelet: kilometervis av trådar under marken. AI är likadant. Chattbotten du ser är fruktkroppen; mycelet är datacenter, forskningslabb, öppna modeller och miljontals utvecklare.\n\nDärför går det inte att 'stänga av AI:n'. Det finns ingen enskild svamp att plocka. Och därför fortsätter det växa även när enskilda bolag snubblar.\n\nFör och emot emergens – Kampen om AI:s inre liv\n\nEmergens? Uppstår nytt tänkande eller är det en optisk villa?\n\nFrågan om AI faktiskt \"tänker\" kokar ner till begreppet emergens: att helt nya, oprogrammerade förmågor plötsligt uppstår när modellerna skalas upp.\n\nSidan FÖR (som Hinton, Sutskever och Hassabis): Menar att emergens är på riktigt. När ett neuralt nätverk tränas på hela mänsklighetens data uppstår dolda mönster och logiska strukturer som gör att modellen kan resonera, lösa obekanta problem och förstå sammanhang. För dem är AI långt ifrån en minnesmaskin – den bygger en inre modell av verkligheten.\n\nSidan EMOT (som LeCun och Bender): Avfärdar detta och kallar AI för en \"stokastisk papegoja\". De hävdar att det vi kallar emergens bara är en avancerad form av statistisk härmning (eller att vi mäter förmågorna på fel sätt). Enligt dem saknar modellen en riktig förankring i verkligheten och kan därför aldrig genuint \"tänka\", hur stor den än blir.\n\nSvaret avgör allt: Om emergens är på riktigt har vi odlat fram en ny form av tänkande; om det är en illusion har vi bara byggt världens mest sofistikerade spegel.\n\nAtt avfärda AI som \"bara algoritmer\" blir lite som att avfärda människan som \"bara kemiska reaktioner och psykologiska vanor\". \n\nVisst, på den lägsta nivån stämmer det, men det missar helt den levande helheten som uppstår i stunden.",
       "sektion": "010",
       "titel": "Svampskogen, ett växande mycel som odlas",
       "begrepp": [
