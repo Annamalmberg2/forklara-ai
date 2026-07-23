@@ -174,8 +174,12 @@ class Hanterare(http.server.SimpleHTTPRequestHandler):
         self.svara({"ok": False, "fel": "Okänd adress."}, 404)
 
 
-class Server(socketserver.TCPServer):
+class Server(socketserver.ThreadingMixIn, socketserver.TCPServer):
+    # Flertrådad: kan servera flera bilder samtidigt (ett kort kan ha 5 stora
+    # bilder som webbläsaren hämtar på en gång). Enkeltrådat köade dem → någon
+    # timeade ut och visade bildsymbolen i stället, "ibland funkar det".
     allow_reuse_address = True
+    daemon_threads = True
 
 
 if __name__ == "__main__":
