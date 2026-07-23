@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 11:07:11)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 11:15:17)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -342,13 +342,13 @@ window.LECTURE = {
     {
       "id": "010-60",
       "sektion": "010",
-      "titel": "Hur snabbt går det egentligen?",
-      "svar": "Exponentiellt. Trettio steg och du är förbi månen. Vår intuition är linjär.",
+      "titel": "Hur snabbt går AI utvecklingen egentligen?",
+      "svar": "Exponentiellt. Trettio steg och du är förbi månen. Vår intuition är linjär få om någon kan tänka exponentiellt.",
       "bilder": [
         "30 steg – två sätt att växa.png"
       ],
       "fordjupning": "Räkningen: 30 linjära steg à en meter är 30 meter. \n\n30 exponentiella steg med fördubbling är 2⁰ + 2¹ + … + 2²⁹ \n= 2³⁰ − 1 ≈ 1,07 miljarder meter. Det är över en miljon kilometer. Månen ligger på 384 000 km.\n\nPoängen är psykologisk, inte matematisk: hjärnan är tränad på linjära förlopp (gå, växa, spara). \n\nExponentiella förlopp känns fel ända tills de plötsligt är överallt. Därför överraskar både pandemier och teknikskiften oss.\n\nKlassikern att bjuda på: schackbrädet och riskornen. Ett korn på första rutan, dubbelt på nästa. Vid ruta 64 behövs mer ris än världen producerar.",
-      "anteckningar": "30 linjära steg = 30 meter. 30 exponentiella steg = förbi månen (1,07 miljoner km).\n\nVår intuition är linjär. AI-utvecklingen är det inte.\n\nMatte på tavlan: aritmetisk vs geometrisk summa ",
+      "anteckningar": "30 linjära steg = 30 meter. 30 exponentiella steg = förbi månen (1,07 miljoner km).\n\nVår intuition är linjär. AI-utvecklingen är det inte.\n\nAI-utvecklingen går så snabbt att allt färre kan ge prognos ens ett år framöver.\n\nInom AI-världen pratar man ofta om en \"inflektionspunkt\" (inflection point) som den tidpunkt då tekniken går från linjär till exponentiell tillväxt, förändrar hur vi lever och arbetar, eller när AI-drivna agenter (Agentic AI) tar över mer avancerade uppgifter och skapar nya marknader.\n\nDet går inte att förutse vad som änder bortom inflektionspunkten nästan som att det inte går att se innanför händelsehorisonten vid ett svart hål.\n\nMatte på tavlan: aritmetisk vs geometrisk summa ",
       "begrepp": [
         "exponentiell utveckling",
         "linjärt",
