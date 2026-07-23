@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 13:15:33)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 13:18:29)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -787,12 +787,12 @@ window.LECTURE = {
       "id": "050-40",
       "sektion": "050",
       "titel": "Var hittar jag allt du visat?",
-      "svar": "I Biblioteket — verktyg, poddar, böcker, personer och mycket som jag byggt. Klicka Biblioteket i menyn. PS! Glöm inte att min kunskap om AI är långt mycket större så har du en fråga så vet du vem du ska fråga.",
+      "svar": "I Biblioteket: verktyg, poddar, böcker, personer och mycket som jag byggt. Klicka Biblioteket i menyn. \n\nPS! Glöm inte att min kunskap om AI är långt mycket större än sådant du hittar här så har du en fråga så vet du vem du ska fråga.",
       "bilder": [
         "Biblioteket.png"
       ],
-      "anteckningar": "Jag följer många insatta inom AI och i biblioteket finns mycket som du kan ha nytta av. Det finns också extra info, extra länkar på de olika berättelsekorten precis som detta. Ser du något du gillar så kan du alltid fördjupa dig genom att fälla ut inhållet med pilen nedan.",
-      "fordjupning": "Det fins fördjupningar på varje berättelsekort inom kort. Du hittar mycket för att själv komma igång på fliken \"Kom igång & bygg själv.",
+      "anteckningar": "Jag följer många insatta inom AI och i biblioteket finns mycket som du kan ha nytta av. \n\nDet finns också extra info, extra länkar på de olika berättelsekorten precis som detta. Ser du något du gillar så kan du alltid fördjupa dig genom att fälla ut inhållet med pilen nedan.",
+      "fordjupning": "Det fins fördjupningar på varje berättelsekort inom kort. \n\nDu hittar mycket för att själv komma igång på fliken \"Kom igång & bygg själv eller genom att bara följa länkarna nedan.",
       "begrepp": [
         "biblioteket",
         "verktyg",
