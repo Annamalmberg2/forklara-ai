@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 11:44:44)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 11:49:01)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -519,7 +519,7 @@ window.LECTURE = {
       "id": "030-30",
       "sektion": "030",
       "titel": "Vem äger tiden den ger mig?",
-      "svar": "Momo och de grå herrarna: låt ingen stjäla tiden i effektivitetens namn.",
+      "svar": "Momo och de grå herrarna: låt ingen stjäla tiden i effektivitetens namn. Glöm heller inte hur mycket teknik har betytt för oss. Jag tror att få av oss skulle ha svårt att överleva bara några decennier eller århundraden bak i tiden.",
       "bilder": [
         "Momo och de grå herrarna.png",
         "Hjulet & sjöfarten.png",
