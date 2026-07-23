@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 10:29:25)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 10:37:13)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -146,7 +146,7 @@ window.LECTURE = {
       "id": "010-10",
       "sektion": "010",
       "titel": "Är AI en maskin?",
-      "svar": "Både ja och nej — ingen maskin med ritning och skruvar. Mer som växande mycel av mönster, tränat fram snarare än byggt.",
+      "svar": "Både ja och nej. Ingen maskin med ritning och skruvar. Mer som växande mycel av mönster, tränat fram snarare än byggt. Nästan som något som har odlats fram",
       "bilder": [
         "Svampskogen – inte en maskin, ett mycel.png"
       ],
@@ -367,6 +367,12 @@ window.LECTURE = {
         "verifiera",
         "kodord",
         "desinformation"
+      ],
+      "lankar": [
+        [
+          "Daisy en lurendrejares största mardröm",
+          "https://www.youtube.com/watch?v=RV_SdCfZ-0s"
+        ]
       ]
     },
     {
