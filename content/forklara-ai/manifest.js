@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 23:48:13)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 23:49:02)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -967,7 +967,7 @@ window.LECTURE = {
         "drag 37",
         "DeepMind"
       ],
-      "anteckningar": "AlphaGo vs Lee Sedol 2016\n\nAlphaGo vinner 4–1. Go spelet har i motsats till schack fler positioner än atomer i universum. Rå beräkningsstyrka räcker inte längre.\n\nDrag 37, draget ingen människa skulle spela. Kreativitet? Eller statistik?\n\nLee Sedol slutade senare som proffs.",
+      "anteckningar": "AlphaGo vs Lee Sedol 2016\n\nAlphaGo vinner 4–1. Go spelet har i motsats till schack fler positioner än atomer i universum. Rå beräkningsstyrka räcker inte längre.\n\nDrag 37, draget ingen människa skulle spela. Kreativitet? Eller statistik?",
       "bilder": [
         "Anna möter maskinen – vid go-brädet.jpg"
       ],
