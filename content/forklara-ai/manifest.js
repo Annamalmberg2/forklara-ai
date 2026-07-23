@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 23:37:05)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 23:41:20)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -887,15 +887,15 @@ window.LECTURE = {
       "id": "mer-logik-ar-universell",
       "fordjupning": "Matematikens språk är detsamma i Kiruna som i Kalifornien och detsamma inuti en dator som i ett klassrum. Ett neuralt nätverk bryter inte mot logikens lagar; det är byggt av dem: addition, multiplikation, derivator. Det är därför en matte- och fysiklärare kan förklara AI utan att vara programmerare.\n\nDet är också tröstande: AI är inte magi som kräver invigda. Den som förstår procent, sannolikhet och funktioner har redan verktygen för att förstå det viktigaste.",
       "sektion": "950",
-      "titel": "Logik är universell",
+      "titel": "Men det är väl bar män som kodar?",
       "begrepp": [
         "logik"
       ],
-      "anteckningar": "Öppningsbilden. Matten, fysiken och AI talar samma språk.\nJag är lärare jag byter inte yrke, jag byter klassrum.",
+      "anteckningar": "Matten, fysiken och AI talar samma språk.\n\nJag är lärare jag byter inte yrke, jag byter klassrum.",
       "bilder": [
         "Logik är universell.jpg"
       ],
-      "svar": "För de flesta är det självklart men lyssna på poddar, se vilka som presenteraras. Läs på för det finns för många som hävdar att kvinnor inte skulle vara med i racet."
+      "svar": "Att logik är universell är för de flesta självklart men lyssna på poddar, se vilka som presenteraras. Läs på för det finns för många som hävdar att kvinnor inte skulle vara med i racet. Kvinnor kodar minst lika bra som män."
     },
     {
       "id": "mer-gamla-kartan-galler-ej",
