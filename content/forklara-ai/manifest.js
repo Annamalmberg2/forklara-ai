@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 12:35:36)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 12:39:12)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -611,12 +611,12 @@ window.LECTURE = {
       "id": "040-30",
       "sektion": "040",
       "titel": "När blev maskinen bättre än oss?",
-      "svar": "1997 i schack, 2016 i go med ett drag ingen skulle spelat — sen lämnade den spelbordet.",
+      "svar": "1997 i schack, 2016 i go med ett drag ingen skulle spelat. Sen lämnade den spelbordet och började göra verklig nytta.",
       "bilder": [
         "När intelligensen lämnade spelbordet – tidslinje.jpg"
       ],
-      "fordjupning": "Varför just spel? För att de har tydliga regler och tydlig vinst — perfekta träningsläger där en AI kan öva mot sig själv miljontals gånger, dygnet runt. Schack, go, tv-spel: alla föll i tur och ordning.\n\nDet stora skiftet var när samma metoder klev från brädet ut i verkligheten — proteiner, språk, kod. Spelen var aldrig målet. De var körskolan.",
-      "anteckningar": "Spelens tidslinje: 1997 schack (rå beräkningskraft) → 2016 go (neurala nätverk och intuition) → 2020 AlphaFold (från spel till biologi) → 2022 generativ AI (språk, kod, kreativitet) → 2026+ agentisk AI (handling — med mänskligt ansvar).\nSpelen var träningsläger. Sedan lämnade intelligensen spelbordet.",
+      "fordjupning": "Varför just spel? För att de har tydliga regler och tydlig vinst.\n\nSpel är perfekta träningsläger där en AI kan öva mot sig själv miljontals gånger, dygnet runt. Schack, go, tv-spel: alla föll i tur och ordning.\n\nDet stora skiftet var när samma metoder klev från brädet ut i verkligheten — proteiner, språk, kod. Spelen var aldrig målet. De var körskolan.",
+      "anteckningar": "Spelens tidslinje: 1997 schack (rå beräkningskraft) → 2016 go (neurala nätverk och intuition) → 2020 AlphaFold (från spel till biologi) → 2022 generativ AI (språk, kod, kreativitet) → 2026+ agentisk AI (handling, med mänskligt ansvar).\n\nSpelen var träningsläger. Sedan lämnade intelligensen spelbordet.",
       "begrepp": [
         "spel",
         "AGI",
