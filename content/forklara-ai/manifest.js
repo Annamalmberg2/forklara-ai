@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 11:38:33)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 11:44:44)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -521,7 +521,11 @@ window.LECTURE = {
       "titel": "Vem äger tiden den ger mig?",
       "svar": "Momo och de grå herrarna: låt ingen stjäla tiden i effektivitetens namn.",
       "bilder": [
-        "Momo och de grå herrarna.png"
+        "Momo och de grå herrarna.png",
+        "Hjulet & sjöfarten.png",
+        "Ångmasinen & elektriciteten.png",
+        "Kyl & frys.png",
+        "Tvätt & diskmaskin.png"
       ],
       "fordjupning": "Michael Endes 'Momo' kom 1973: de grå herrarna övertalar människor att 'spara tid' och stjäl den. \n\nDe sparade timmarna kommer aldrig tillbaka. Känns det igen? \n\nVarje effektivitetsteknik har lovat oss fritid och levererat högre tempo.\n\nAI blir det stora testet: om den gör din vecka fyra timmar snabbare, vart går timmarna? \n\nOm svaret är 'fler möten' har de grå herrarna vunnit igen. \n\nMomos superkraft var att lyssna på riktigt. Behåll den.",
       "anteckningar": "Michael Endes 'Momo': de grå herrarna stjäl tid i effektivitetens namn. \n\nPortföljerna är märkta ROI, growth, efficiency.\n\nOm AI ger oss tid tillbaka: låt ingen stjäla den.\n\nMomo lyssnade. Det är superkraften.",
