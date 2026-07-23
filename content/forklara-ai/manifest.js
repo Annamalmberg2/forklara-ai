@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 10:15:57)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 10:26:55)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -107,12 +107,12 @@ window.LECTURE = {
       "id": "000-20",
       "sektion": "000",
       "titel": "Vem eller vad bildar oss idag?",
-      "svar": "1975 satt barn på golvet och försökte förstå vuxna. 2026 sitter vuxna och försöker förstå tekniken.",
+      "svar": "Jag har haft många bra lärare genom mitt liv och många betydande personer, idag lär jag mig mest av maskin. När jag som barn såg Hedvig prata i videotelefon så tänkte jag att det nog är långt in i framtiden. Vad fel jag hade.",
       "bilder": [
         "Hedvig behövs.png"
       ],
-      "fordjupning": "När jag var barn tog svensk TV folkbildningen på allvar: teknik och samhälle förklarades så att både barn och vuxna hängde med, utan att någon kände sig dum. \n\nDet är den traditionen AI-Sverige behöver nu. Inte fler experter som imponerar, utan fler Hedvig som förklarar.\n\nGapet idag är nämligen inte tekniskt utan pedagogiskt: de flesta vuxna använder redan AI dagligen (sökmotorer, autokorrigering, rekommendationer) utan att veta om det.",
-      "anteckningar": "1975 satt barn på golvet och försökte förstå vuxna.\n2026 sitter vuxna och försöker förstå teknik.\n\nFrån A till Ö var mitt första sci-fi-äventyr: videosamtal med mor, inte låta sig luras av svåra ord.\n\nVi behövde Hedvig då. Idag är det jag som får förklara. Jag ska hålla ihop det här AI-snacket lika pedagogiskt som hon och ugglan.",
+      "fordjupning": "När jag var barn tog svensk TV folkbildningen på allvar: teknik och samhälle förklarades så att både barn och vuxna hängde med. Oftast förklarat på ett sätt så du som lyssnade slapp känna dig dum.\n\nDet är den traditionen AI-Sverige behöver nu. Inte fler experter som imponerar, utan fler Hedvig som förklarar.\n\nGapet idag är nämligen inte tekniskt utan pedagogiskt: de flesta vuxna använder redan AI dagligen (sökmotorer, autokorrigering, rekommendationer) utan att veta om det.\n\nFå har förstått vidden av den nya teknikens potential. Utnyttja tekniken själv att att förstå tekniken. Så har jag lärt mig och så kan du lära dig.",
+      "anteckningar": "1975 satt barn på golvet och försökte förstå vuxna. 2026 sitter vi många och försöker förstå den nya tekniken som går under samlingsnamnet AI.\n\nFrån A till Ö var mitt första sci-fi-äventyr: videosamtal med mor, inte låta sig luras av svåra ord.\n\nVi behövde Hedvig då. Idag är det jag som får förklara. Jag ska hålla ihop det här AI-snacket lika pedagogiskt som hon och ugglan.",
       "personer": [
         "Hedvig"
       ],
