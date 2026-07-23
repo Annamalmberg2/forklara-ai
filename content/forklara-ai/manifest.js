@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 23:00:18)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 23:06:35)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -899,19 +899,20 @@ window.LECTURE = {
     },
     {
       "id": "mer-gamla-kartan-galler-ej",
-      "fordjupning": "Kartläsarens jobb är inte att minnas vägen — det är att läsa rätt karta i rätt ögonblick. När terrängen ritas om blir gamla meriter en risk: man svänger självsäkert åt fel håll.\n\nÖversatt till arbetslivet: erfarenhet är fortfarande guld, men som förmåga att navigera — inte som memorerad väg. Fråga inte 'vad kan jag?' utan 'hur uppdaterar jag min karta?'.\n\nSjökort uppdateras ständigt — grund flyttar sig, farleder muddras om. En kapten som seglar på förra årets kort är inte erfaren, bara farlig.\n\nSamma sak med AI: det som var sant om verktygen i fjol (priser, förmågor, begränsningar) är ofta fel i år. Kolla datumet på din kunskap.\n\nI orientering vinner inte den som springer fortast, utan den som hittar rätt när kartan och verkligheten skaver. Färdigheten heter kartkontakt: att ständigt jämföra det man ser med det man tror.\n\nDet är kanske den viktigaste AI-färdigheten också: jämför alltid modellens svar med verkligheten. Springer du fort på fel kurs kommer du snabbt — fel.",
+      "fordjupning": "Kartläsarens jobb är inte att minnas vägen, det är att läsa rätt karta i rätt ögonblick. När terrängen ritas om blir gamla meriter en risk: man svänger självsäkert åt fel håll.\n\nÖversatt till arbetslivet: erfarenhet är fortfarande guld, men som förmåga att navigera inte som memorerad väg. Fråga inte 'vad kan jag?' utan 'hur uppdaterar jag min karta?'.\n\nSjökort uppdateras ständigt, grund flyttar sig, farleder muddras om. En kapten som seglar på förra årets kort är inte erfaren, bara farlig.\n\nSamma sak med AI: det som var sant om verktygen i fjol (priser, förmågor, begränsningar) är ofta fel i år. Kolla datumet på din kunskap.\n\nI orientering vinner inte den som springer fortast, utan den som hittar rätt när kartan och verkligheten skaver. Färdigheten heter kartkontakt: att ständigt jämföra det man ser med det man tror.\n\nDet är kanske den viktigaste AI-färdigheten också: jämför alltid modellens svar med verkligheten. Springer du fort på fel kurs kommer du snabbt fel.",
       "sektion": "950",
-      "titel": "Gamla kartan gäller ej",
+      "titel": "Hur läser du nya kartan med den gamla i din hand?",
       "begrepp": [
         "förändring",
         "gamla kartan"
       ],
-      "anteckningar": "Kartläsaren läser gårdagens karta — skylten säger 'gammal karta gäller ej'.\nErfarenhet hjälper bara om kartan uppdateras. Gäller oss alla.\nSamma hav — nya farleder. Sjökortet ritas om medan vi seglar.\nTerrängen stämmer inte längre med kartan.\nDå gäller det att kunna orientera — inte att ha memorerat vägen.",
+      "anteckningar": "Kartläsaren läser gårdagens karta, skylten säger \"gammal karta gäller ej\".\n\nErfarenhet hjälper bara om kartan uppdateras. Det gäller oss alla.\n\nSamma hav, nya farleder. Sjökortet ritas om medan vi seglar.\n\nTerrängen stämmer inte längre med kartan.\n\nDå gäller det att kunna orientera, inte att ha memorerat vägen.",
       "bilder": [
         "Rallyt – gamla kartan gäller ej.png",
         "Kaptenen till sjöss.png",
         "Orienteraren på vift.png"
-      ]
+      ],
+      "svar": "Gamla kartan gäller inte längre. Vägarna och spelreglerna har förändrats"
     },
     {
       "id": "mer-aristoteles-first-principles",
