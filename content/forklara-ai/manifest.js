@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 10:50:41)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 10:52:01)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -268,6 +268,18 @@ window.LECTURE = {
           "Snart 3000 000 modeller",
           "https://huggingface.co/",
           "Många fler modeller"
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "Låten om hur VD:ar slåss och plutonen håller fred",
+          "https://www.youtube.com/watch?v=Vz9Mnp8ARY8"
+        ],
+        [
+          "Låten om råttan på repet",
+          "https://www.youtube.com/watch?v=KbeZjUBWLUM"
         ]
       ]
     },
