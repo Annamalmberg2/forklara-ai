@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 12:45:24)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 12:51:17)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -681,7 +681,7 @@ window.LECTURE = {
       "bilder": [
         "Notion som anteckningar.png"
       ],
-      "anteckningar": "Det roligaste är nog att börja prata med AI i telefonen och se hur det synkar med med dator o s v förutsatt att du alltid loggar in med samma google- eller applekonto.",
+      "anteckningar": "Det roligaste är nog att börja prata med AI i telefonen och se hur det synkar med med dator o s v.\n\nDetta förutsätter att du alltid loggar in med samma google- eller applekonto.\n\nSe även de länkar jag delar här så får du både AI skola, grundprompt och saker att tänka på om du vill jobba mer agentiskt.",
       "lankar": [
         [
           "AI skolan i Notion",
@@ -699,7 +699,7 @@ window.LECTURE = {
           "Viktigt att tänka på om du ska jobba mer agentiskt men även en kort sammanställning om grunden till allt. Agentiskt operativsystem."
         ]
       ],
-      "fordjupning": "När du börjar jobba med olika AI-verktyg så förenklar det om du har ett google- eller applekonto som verkligen är du. AI söker mönster i allt och ju fler pusselbitar som stämmer överens ju mer slappnar AI av och koncentrerar sig på de uppgifter du ger den. Själv jobbar jag alltid helst i min äldsta priva googleprofil med tvåfaktorsautentisering. Nästan det enda jag kan lösenordet till men ett lösenord jag inte delar med någon utom google. Det är med själva profilen jag loggar in överallt till olika verktyg",
+      "fordjupning": "När du börjar jobba med olika AI-verktyg så förenklar det om du har ett google- eller applekonto som verkligen är du. \n\nAI söker mönster i allt och ju fler pusselbitar som stämmer överens ju mer slappnar AI av och koncentrerar sig på de uppgifter du ger den. \n\nSjälv jobbar jag alltid helst i min äldsta privata googleprofil med tvåfaktorsautentisering. Nästan det enda jag kan lösenordet till men ett lösenord jag inte delar med någon utom google. \n\nDet är med själva profilen jag loggar in överallt till olika verktyg och det har varit säkert i alla lägen och fungerat förträffligt.",
       "begrepp": [
         "kom igång",
         "grundprompt",
