@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 11:33:01)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 11:38:33)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -500,10 +500,11 @@ window.LECTURE = {
       "bilder": [
         "Jocke – en kvinna i dans.png",
         "Jocke – med pensel.jpg",
-        "Målningen – kvinnan lyfter mannen.png"
+        "Målningen – kvinnan lyfter mannen.png",
+        "Mona Lisa Anna.png"
       ],
-      "fordjupning": "Det var helt omöjligt att få en AI att måla en kvinna som i dans kunde lyfta en man tills jag kom på att jag kunde träna AI:n på jockes konst där han svävar.\n\nAI tog fram bilden med hjälp av Jockes konst. Nu målar Jocke den på riktigt.\n\nDen kommer att hänga i en ateljé på riktigt: olja, duk, veckor av arbete. \n\nHäng den bredvid AI-bilderna i samma kapitel och känn efter var skillnaden sitter, kanske inte i ytan, men i avsikten.\n\nMin arbetstes: AI:n kan härma uttryck men inte mena något. Konstnären väljer, ångrar, offrar. Om någon i publiken protesterar, utmärkt, då har vi ett samtal.",
-      "anteckningar": "AI tog fram bilden med hjälp av Jockes konst. Nu målar Joke den på riktigt.\n\nJoakim 'Jocke' Johansson, konstnären.\n\nVad händer med konsten när maskinen målar?\n\nMänniskan bakom verket.\nAI:n kan imitera stilen men vem håller penseln?\n\nRiktig olja på duk, kvinnan i rött lyfter kostymmannen.",
+      "fordjupning": "Det var helt omöjligt att få en AI att måla en kvinna som i dans kunde lyfta en man tills jag kom på att jag kunde träna AI:n på jockes konst där han svävar.\n\nAI tog fram bilden med hjälp av Jockes konst. Nu målar Jocke den på riktigt.\n\nDen kommer att hänga i en ateljé på riktigt: olja, duk, veckor av arbete. \n\nHäng den bredvid AI-bilderna i samma kapitel och känn efter var skillnaden sitter, kanske inte i ytan, men i avsikten.\n\nDet brukade kosta en förmögenhet att bli avporträtterad.\n\nFörr var ett målat porträtt ett privilegium.\nEtt tecken på makt, pengar eller historisk betydelse.\n\nIdag kan vem som helst skapa ett porträtt på några sekunder.\nTekniken har demokratiserat det som en gång var reserverat för kungar.\n\nDet säger något om vår tid, iInte bara om AI.  Utan om tillgång.\n\nFrågan är inte längre:\n“Vem har råd att bli sedd?”\n\nFrågan är:\n“Vad väljer vi att visa?” När kostnaden sjunker förändras makten.\n\nMin arbetstes: AI:n kan härma uttryck men inte mena något. Konstnären väljer, ångrar, offrar. Om någon i publiken protesterar, utmärkt, då har vi ett samtal.",
+      "anteckningar": "AI tog fram bilden med hjälp av Jockes konst. Nu målar Joke den på riktigt.\n\nJoakim 'Jocke' Johansson, konstnären.\n\nVad händer med konsten när maskinen målar?\n\nMänniskan bakom verket.\nAI:n kan imitera stilen men vem håller penseln?\n\nAlla kan få sitt porträtt.",
       "personer": [
         "Joakim Johansson"
       ],
