@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 13:00:09)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 13:14:55)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -745,12 +745,12 @@ window.LECTURE = {
       "id": "050-20",
       "sektion": "050",
       "titel": "Kan jag bygga något själv?",
-      "svar": "Beskriv vad du vill ha — så bygger den. En app på en kväll ('vibe coding').",
+      "svar": "Beskriv vad du vill ha så bygger den. En app på en kväll ('vibe coding').",
       "bilder": [
         "Lovable – bygg med en mening.png"
       ],
-      "fordjupning": "'Vibe coding' — Andrej Karpathys ord för att bygga program genom att beskriva vad man vill ha, på vanligt språk. Tröskeln som föll var inte teknisk utan språklig: svenska blev ett programmeringsspråk.\n\nRealistisk förväntan: prototyper och personliga verktyg på en kväll. Riktiga produkter kräver fortfarande omsorg om säkerhet, data och underhåll. Men avståndet från idé till 'titta, den funkar!' har aldrig varit kortare.",
-      "anteckningar": "Verktyget som bygger webbappar av en mening ('vibe coding' — Karpathys ord).\nAllt ni sett ikväll kan ni börja bygga själva — ikväll.",
+      "fordjupning": "'Vibe coding' - Andrej Karpathys ord för att bygga program genom att beskriva vad man vill ha, på vanligt språk. \n\nTröskeln som föll var inte teknisk utan språklig: svenska blev ett programmeringsspråk.\n\nRealistisk förväntan: prototyper och personliga verktyg på en kväll. \n\nRiktiga produkter kräver fortfarande omsorg om säkerhet, data och underhåll. Inte så mycket i själva appens funktioner men för den praktiska användningen och publiceringen.\n\nAvståndet från idé till 'titta, den funkar!' har aldrig varit kortare.",
+      "anteckningar": "Verktyget som bygger webbappar av en mening kallas ('vibe coding' - Karpathys ord).\n\nAllt ni sett ikväll kan ni börja bygga själva. Ikväll!\n\nGår ni via min affilatelänk uppe till höger i OnBoarding appen så får ni extra gratispoäng så att ni faktiskt kan bygga något på riktigt.\n\nJag glömmer aldrig när jag bara skulle ställa en fråga till en AI men råkade skriva frågan i min byggar AI och den satte igång att bygga en DNS förflyttare.\n\nKastar du en pinne till en AI kastar den sig iväg som en glad apporterande labrador. I den apporten vet jag aldrig riktigt vad AI kommer att överaska mig med.\n\nDet är skillnad när jag jobbar med en sak som bokföring. Då jobbar AI bara i min mapp för ekonomi. Lika ivrigt som när AI apporterar fritt älskar den att ska system i det område den tilldelats.",
       "personer": [
         "Andrej Karpathy",
         "Mauri"
