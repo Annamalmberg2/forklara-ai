@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 22:48:05)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 23:00:18)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -651,8 +651,8 @@ window.LECTURE = {
     {
       "id": "040-20",
       "sektion": "040",
-      "titel": "Är rädslan för det nya ny?",
-      "svar": "Sokrates fruktade skriften: 'den försvagar minnet'. Varje epok, samma oro.",
+      "titel": "Är rädslan för det nya nytt? Eller är det lönt att strejka?",
+      "svar": "Sokrates fruktade skriften: \"den försvagar minnet\". Varje epok, samma oro. \n\nTänk att det förr fanns operatörer vid varje hiss. Dom försvann när hissarna förenklades och det var inte lönt att strejka över det.",
       "bilder": [
         "Kunskapens fyra epoker.jpg"
       ],
@@ -667,6 +667,12 @@ window.LECTURE = {
         "internet",
         "kunskapens epoker",
         "tidslinje"
+      ],
+      "lankar": [
+        [
+          "Joakim Jardenbergs podd om hisstrejken",
+          "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-4-9/328559221-44100-2-4907b14f1ae12.mp3"
+        ]
       ]
     },
     {
