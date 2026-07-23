@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 22:33:19)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 22:48:05)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -235,8 +235,8 @@ window.LECTURE = {
       "bilder": [
         "Inte bara ett bolag – hela armén.png"
       ],
-      "fordjupning": "Kartan att ha i huvudet: några stora stängda modeller (Claude, ChatGPT, Gemini), en snabbt växande öppen värld (Llama, Mistral, Qwen, DeepSeek) och miljontals specialiserade varianter på Hugging Face.\n\nFör dig som användare: du är befälhavaren. Olika modeller för olika uppdrag: en modell för skrivande, en för kod, en liten lokal modell för känslig data. \n\nAtt välja rätt modell blir en vardagskompetens, som att välja verktyg ur lådan.",
-      "anteckningar": "AI ≠ ett bolag. Ungefär 3 miljoner modeller på Hugging Face.\nDu är befälhavaren, modellerna behöver dina komnandon.\n\nJag kallar min arme av AI för pluton B och dom kallar mig för ÖB. Det är ibland vårt lekfulla sätt att sätta en riktning eller fördela uppdrag\n\nSom vilken dirigent som helst så njuter jag när plutonen spelar i samklang och det gäller att vara snabb när någon börjar spela falskt eller fått fel noter med sig.",
+      "fordjupning": "Kartan att ha i huvudet: \n\nNågra stora stängda modeller (Claude, ChatGPT, Gemini), \n\nEn snabbt växande öppen värld (Llama, Mistral, Qwen, DeepSeek) och miljontals specialiserade varianter på Hugging Face.\n\nFör dig som användare: \n\nDu är befälhavaren. Olika modeller för olika uppdrag, en modell för skrivande, en för kod och en liten lokal modell för känslig data. \n\nAtt välja rätt modell blir en vardagskompetens, som att välja verktyg ur lådan.",
+      "anteckningar": "AI ≠ ett bolag. Ungefär 3 miljoner modeller på Hugging Face.\nDu är befälhavaren, modellerna behöver dina komnandon.\n\nJag kallar min arme av AI för pluton B och dom kallar mig för ÖB. Det är ibland vårt lekfulla sätt att sätta en riktning eller fördela uppdrag\n\nSom vilken dirigent som helst så njuter jag när plutonen spelar i samklang och det gäller att vara snabb när någon börjar spela falskt eller fått fel noter med sig.\n\nHar en snickare bytt hammaren mot spikpistol så byter få tillbaka. Fler och fler förstår att AI förbättrar och effektiviserar arbete. Jag visar på fördelarna och potentialen med AI, samtidigt som jag bemöter oro och missförstånd. \n\nJag öppnar ögonen även på de mest skeptiska ”gamla rävarna”. Ingen skulle komma på tanken att kalla spikpistolen för fusk och jag har aldrig hört någon fråga om vissa spikar satts på plats med hammare eller maskin. \n\nGränser suddas ut, för även om det i dag finns data i bilder som kan identifiera en AI genererad bild från ett rent foto så finns det AI i kameran  redan när bilden tas. Det blir svårare att hitta gränserna när min robot målar konstverk i olja.\n\nDet enda jag är väldigt nogräknad med är att inte göra all min satsning i ett enda AI stall.",
       "begrepp": [
         "Claude",
         "ChatGPT",
