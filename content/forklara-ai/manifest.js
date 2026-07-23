@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 11:00:38)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 11:07:11)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -325,13 +325,13 @@ window.LECTURE = {
     {
       "id": "010-50",
       "sektion": "010",
-      "titel": "Varför pratar alla om NVIDIA?",
-      "svar": "För att tänkandet är gigantisk matematik — och grafikkort råkar vara byggda för just det.",
+      "titel": "CPU, GPU, TPU, NPU mm",
+      "svar": "Tänkandet är gigantiskt och matematiskt. Vanliga spel-grafikkort råkar vara byggda för just det.",
       "bilder": [
         "Under huven – hårdvara och mjukvara.jpg"
       ],
-      "fordjupning": "Träningen: månader, tiotusentals grafikkort, kostnader i miljardklassen — en gång. Användningen: millisekunder och ören — miljarder gånger om dagen. Den ekonomin formar hela branschen.\n\nDärför NVIDIA: neurala nätverk är i grunden gigantisk matrismultiplikation, och grafikkort råkar vara byggda för exakt det. Spelindustrin subventionerade AI-revolutionens hårdvara i tjugo år utan att veta om det.",
-      "anteckningar": "Hårdvaran: GPU:er — därför pratar alla om NVIDIA.\nMjukvaran: miljarder parametrar.\nTräningen tar månader och kostar miljarder. Att fråga tar sekunder.",
+      "fordjupning": "Träningen: månader, tiotusentals grafikkort, kostnader i miljardklassen en gång. \n\nAnvändningen: millisekunder och ören fast miljarder gånger om dagen. Den ekonomin formar hela branschen.\n\nDärför NVIDIA: neurala nätverk är i grunden gigantisk matrismultiplikation, och grafikkort råkar vara byggda för exakt det. \n\nSpelindustrin subventionerade AI-revolutionens hårdvara i tjugo år utan att veta om det.",
+      "anteckningar": "Hårdvaran: GPU:er är därför pratar alla om NVIDIA.\n\nMjukvaran: miljarder parametrar.\nTräningen tar månader och kostar miljarder. Att fråga tar sekunder och tar inte så mycket ström som många tror.",
       "begrepp": [
         "GPU",
         "NVIDIA",
