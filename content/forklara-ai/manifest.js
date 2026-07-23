@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 10:53:38)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 11:00:38)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -311,12 +311,12 @@ window.LECTURE = {
       "id": "010-40",
       "sektion": "010",
       "titel": "Tänker den?",
-      "svar": "Nej — den gissar nästa ord, förbluffande bra. Inte medvetande som vårt men en fena på mönster.",
+      "svar": "Nja, den gissar nästa ord, förbluffande bra. Inte medvetande som vårt men den är en fena på mönster.",
       "bilder": [
         "Tokens, kontext och det svåraste jobbet.jpg"
       ],
-      "fordjupning": "Modellen läser inte ord utan tokens — bitar av ord. 'Föreläsning' kan bli tre bitar. \n\nSvenska kostar ofta fler tokens än engelska; därför kan modeller kännas lite 'dummare' på svenska. Samtidigt kan den förstå felstavad värmländska när den har dig och uppgifter du vill att den ska hantera i kontext.\n\nKontextfönstret är modellens arbetsminne: allt den ser just nu. Det som inte ryms finns inte för modellen — den 'minns' inte ert förra samtal om det inte skickas med igen. Många AI-besvikelser är egentligen kontextmissar: modellen fick aldrig se det du trodde den visste.",
-      "anteckningar": "AI läser i tokens, inte i ord.\nKontextfönstret = arbetsminnet. \n\nDet svåraste jobbet: hålla tråden och komma på vad man vi be den att göra. \n\nBara din fantasi sätter gränser på vad den faktiskt kan göra.",
+      "fordjupning": "Modellen läser inte ord utan tokens, bitar av ord. 'Föreläsning' kan bli tre bitar. \n\nSvenska kostar ofta fler tokens än engelska; därför kan modeller kännas lite 'dummare' på svenska. Samtidigt kan den förstå felstavad värmländska när den har dig och uppgifter du vill att den ska hantera i kontext.\n\nKontextfönstret är modellens arbetsminne: allt den ser just nu. Det som inte ryms finns inte för modellen — den 'minns' inte ert förra samtal om det inte skickas med igen. \n\nMånga AI-besvikelser är egentligen kontextmissar: modellen fick aldrig se det du trodde den visste.",
+      "anteckningar": "AI läser i tokens, inte i ord.\nKontextfönstret = arbetsminnet. \n\nDet svåraste jobbet: hålla tråden och komma på vad man vi be den att göra. \n\nDet finns en anledning till varför jag delar allt så öppet. Det är ett sätt för mig att på olika sätt, sätta mig i kontext för AI:n\n\nEn människa skulle nog ha svårt att hänga med i allt jag gör men för en AI är det inga problem.\n\nJu mer data en AI har ju mindre behöver den gissa och läsa mellan raderna.\n\nBara din fantasi sätter gränser på vad den faktiskt kan göra.",
       "begrepp": [
         "tokens",
         "kontextfönster"
