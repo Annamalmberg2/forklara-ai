@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 23:41:20)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 23:48:13)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -954,9 +954,9 @@ window.LECTURE = {
     },
     {
       "id": "mer-alphago-vs-lee-sedol-2016",
-      "fordjupning": "Go kan inte råräknas — brädet rymmer fler möjliga ställningar än det finns atomer i universum. AlphaGo tränade i stället upp mönsterkänsla genom miljontals partier mot sig själv.\n\nDrag 37 i parti två: kommentatorerna dömde först ut det som ett misstag — sedan tystnade de. Maskinen bedömde själv att en människa bara hade spelat det en gång på tiotusen. Lee Sedol svarade i parti fyra med drag 78 — 'Guds beröring' — och vann människans enda parti.\n\nBåda dragen hör till berättelsen: maskinen överraskade oss, och pressad av maskinen överträffade människan sig själv.",
+      "fordjupning": "Go kan inte råräknas — brädet rymmer fler möjliga ställningar än det finns atomer i universum. AlphaGo tränade i stället upp mönsterkänsla genom miljontals partier mot sig själv.\n\nDrag 37 i parti två: kommentatorerna dömde först ut det som ett misstag — sedan tystnade de. Maskinen bedömde själv att en människa bara hade spelat det en gång på tiotusen. Lee Sedol svarade i parti fyra med drag 78 — 'Guds beröring' — och vann människans enda parti.\n\nBåda dragen hör till berättelsen: maskinen överraskade oss.",
       "sektion": "950",
-      "titel": "AlphaGo vs Lee Sedol 2016",
+      "titel": "Vad var skillnaden från schack då Lee Sedol förlorade mot AlphaGoo?",
       "personer": [
         "Lee Sedol",
         "Demis Hassabis"
@@ -967,10 +967,11 @@ window.LECTURE = {
         "drag 37",
         "DeepMind"
       ],
-      "anteckningar": "2016: AlphaGo vinner 4–1. Go har fler positioner än atomer i universum.\nDrag 37 — draget ingen människa skulle spela. Kreativitet? Eller statistik?\nLee Sedol slutade senare som proffs.",
+      "anteckningar": "AlphaGo vs Lee Sedol 2016\n\nAlphaGo vinner 4–1. Go spelet har i motsats till schack fler positioner än atomer i universum. Rå beräkningsstyrka räcker inte längre.\n\nDrag 37, draget ingen människa skulle spela. Kreativitet? Eller statistik?\n\nLee Sedol slutade senare som proffs.",
       "bilder": [
         "Anna möter maskinen – vid go-brädet.jpg"
-      ]
+      ],
+      "svar": "Nu var det inte rå beräkningskraft. Nu var det ett självlärt system"
     },
     {
       "id": "mer-patent-kunskapens-ekonomi",
