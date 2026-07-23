@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 23:27:57)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 23:37:05)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -934,9 +934,9 @@ window.LECTURE = {
     },
     {
       "id": "mer-deep-blue-vs-kasparov-1997",
-      "fordjupning": "Deep Blue räknade omkring 200 miljoner ställningar i sekunden — rå styrka och handbyggda schackregler, ingen 'förståelse'. Kasparov vann mötet 1996; returmatchen 1997 slutade 3,5–2,5 till maskinen.\n\nIntressantast är Kasparovs slutsats efteråt: han blev förespråkare för 'centaur-schack' — människa och maskin som lag, vilket ofta slår båda var för sig. Det är fortfarande den bästa arbetsmodellen, långt utanför schacket.",
+      "fordjupning": "Deep Blue räknade omkring 200 miljoner ställningar i sekunden. det var rå styrka och handbyggda schackregler, ingen 'förståelse'. Kasparov vann mötet 1996; returmatchen 1997 slutade 3,5–2,5 till maskinen.\n\nIntressantast är Kasparovs slutsats efteråt: han blev förespråkare för 'centaur-schack' d v s människa och maskin som lag, vilket ofta slår båda var för sig. Det är fortfarande den bästa arbetsmodellen, långt utanför schacket.",
       "sektion": "950",
-      "titel": "Deep Blue vs Kasparov 1997",
+      "titel": "Hur var den där historien om Deep Blue vs Kasparov?",
       "personer": [
         "Garry Kasparov",
         "Judit Polgár"
@@ -946,10 +946,11 @@ window.LECTURE = {
         "Deep Blue",
         "IBM"
       ],
-      "anteckningar": "1997: maskinen slår världsmästaren. Rå beräkningskraft + regler.\nKasparov efteråt: 'jag kunde känna en ny sorts intelligens'.\n(Judit Polgár — schackhistoriens starkaste kvinna — hör till samma berättelse.)",
+      "anteckningar": "Deep Blue vs Kasparov 1997\n\n1997: maskinen slår världsmästaren. Rå beräkningskraft + regler.\nKasparov efteråt: 'jag kunde känna en ny sorts intelligens'.\n\nJag älskar schack och mina favoritfilmer är dramatiseringen \"The Queen's Gambit\" samt \"Queen of Chess\" en amerikansk dokumentärfilm från 2026 som utforskar den ungerska schackstormästaren Judit Polgárs liv och karriär. \n\n1997 slog Deep Blue Kasparov och 2002 blev han även tillslut slagen av Judit. \n\nJudit var med och tränade Deep Blue och det är mycket möjligt att hon hade kunnat vinna över Kasparov tidigare om han inte hade gjort ett väldigt ogentlemanigt fusk. \n\nFantastiska spelare ändå båda två.",
       "bilder": [
         "Deep Blue vs Kasparov 1997.png"
-      ]
+      ],
+      "svar": "Jag kunde känna en ny sorts intelligens sa Kasparov, Ändå var det rå beräkningskraft som den gången gjorde att maskinen vann"
     },
     {
       "id": "mer-alphago-vs-lee-sedol-2016",
