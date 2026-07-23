@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 12:39:12)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 12:43:31)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -636,8 +636,8 @@ window.LECTURE = {
       "bilder": [
         "AlphaFold – proteinernas gåta.png"
       ],
-      "fordjupning": "Ett proteins form avgör dess funktion — och att förutsäga formen ur aminosyrasekvensen stod olöst i 50 år. 2020 krossade AlphaFold utvärderingen CASP med nära experimentell precision.\n\nDeepMind släppte sedan strukturförutsägelser för över 200 miljoner proteiner fritt till världens forskare. Nobelpriset i kemi 2024 delades av Demis Hassabis och John Jumper (AlphaFold) och David Baker (proteindesign).\n\nPoängen för publiken: detta är inte chatt-AI som kan hitta på — det är AI som vetenskapligt verktyg, där varje svar kan kontrolleras mot verkligheten.",
-      "anteckningar": "50 år av proteingåta — löst.\n200 miljoner proteinstrukturer, fritt tillgängliga för världens forskare.\nNobelpriset i kemi 2024. Spelen blev vetenskap.",
+      "fordjupning": "Ett proteins form avgör dess funktion och att förutsäga formen ur aminosyrasekvensen stod olöst i 50 år. 2020 krossade AlphaFold utvärderingen CASP med nära experimentell precision.\n\nDeepMind släppte sedan strukturförutsägelser för över 200 miljoner proteiner fritt till världens forskare. Nobelpriset i kemi 2024 delades av Demis Hassabis och John Jumper (AlphaFold) och David Baker (proteindesign).\n\nPoängen för publiken: detta är inte chatt-AI som kan hitta på. Det är AI som vetenskapligt verktyg, där varje svar kan kontrolleras mot verkligheten.",
+      "anteckningar": "50 år av proteingåta löstes som genom ett trollslag.\n\n200 miljoner proteinstrukturer, fritt tillgängliga för världens forskare.\n\nNobelpriset i kemi 2024. Spelen blev vetenskap.",
       "personer": [
         "Demis Hassabis",
         "John Jumper"
