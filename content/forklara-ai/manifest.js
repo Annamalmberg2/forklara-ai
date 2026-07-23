@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 13:20:58)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-23 13:29:34)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -836,13 +836,13 @@ window.LECTURE = {
     {
       "id": "060-20",
       "sektion": "060",
-      "titel": "Tack — och sen?",
-      "svar": "Tack för att ni följde med. På återseende — och hör av er.",
+      "titel": "Tack och sen?",
+      "svar": "Tack för att ni följde med och på återseende . Hör av er om både fler föreläsningar och om ni vill ha hjälp med eget byggande eller lägga byggandet på mig. Jag kan bygga vad som helst exakt som du vill ha det eller överaska dig att det gick att bygga ännu bättre.",
       "bilder": [
         "Anna framför sin roll-up.jpg",
         "AiNNOVA – vad jag erbjuder.png"
       ],
-      "anteckningar": "Sex ben: AI-konsultation, utbildning & coachning, innehållsproduktion,\nwebb & kommunikation, marknadsföring, specialiserade AI-lösningar.\nTack — och på återseende!",
+      "anteckningar": "Sex ben: \n\nAI-konsultation\n\nUtbildning & coachning\n\nInnehållsproduktion\n\nWebb & kommunikation\n\nMarknadsföring\n\nSpecialiserade AI-lösningar",
       "begrepp": [
         "AiNNOVA",
         "konsultation",
@@ -862,7 +862,7 @@ window.LECTURE = {
           "https://www.linkedin.com/in/annamalmberg2/"
         ]
       ],
-      "fordjupning": "AiNNOVA står på sex ben, och de hänger ihop: AI-konsultation, utbildning & coachning, innehållsproduktion, webb & kommunikation, marknadsföring och specialiserade AI-lösningar. Poängen är inte att göra allt — det är att möta dig där du står och bygga vidare därifrån.\n\nJag är själv en lärare som blev nyfiken och inte slutade. Vill du fortsätta samtalet, boka en föreläsning eller bara bolla en idé — hör av dig. Det roligaste börjar oftast efter sista bilden."
+      "fordjupning": "AiNNOVA står på sex ben, och de hänger ihop: AI-konsultation, utbildning & coachning, innehållsproduktion, webb & kommunikation, marknadsföring och specialiserade AI-lösningar. \n\nPoängen är inte att göra allt, det är att möta dig där du står och bygga vidare därifrån.\n\nJag är själv en lärare som blev nyfiken och efter det så tycker jag att AI är det mest spännande som finns. \n\nVill du fortsätta samtalet, boka en föreläsning eller bara bolla en idé?\n\n- hör av dig! \n\nDet roligaste börjar oftast efter sista bilden."
     },
     {
       "id": "900-10",
