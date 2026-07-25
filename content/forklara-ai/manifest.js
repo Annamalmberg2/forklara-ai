@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 11:52:51)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 11:54:07)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -325,7 +325,7 @@ window.LECTURE = {
     {
       "id": "010-50",
       "sektion": "010",
-      "titel": "CPU, GPU, TPU, NPU mm",
+      "titel": "CPU, GPU, TPU, NPU mm. Vad babblar folk om?",
       "svar": "Tänkandet är gigantiskt och matematiskt. Vanliga spel-grafikkort råkar vara byggda för just det.",
       "bilder": [
         "Under huven – hårdvara och mjukvara.jpg"
