@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 10:48:51)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 10:54:26)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -310,8 +310,8 @@ window.LECTURE = {
     {
       "id": "010-40",
       "sektion": "010",
-      "titel": "Tänker den?",
-      "svar": "Nja, den gissar nästa ord, förbluffande bra. Inte medvetande som vårt men den är en fena på mönster.",
+      "titel": "Vad är det där tokens och alla andra konstiga ord?",
+      "svar": "AI kalkylerar sannolikheten för nästa ord, förbluffande bra. Inte på samma sätt som vi men den är en fena på mönster.",
       "bilder": [
         "Tokens, kontext och det svåraste jobbet.jpg"
       ],
