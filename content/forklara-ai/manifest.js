@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 13:22:22)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 13:59:58)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1153,12 +1153,12 @@ window.LECTURE = {
     {
       "id": "mer-handslaget-avtal-mellan-manniskor",
       "sektion": "950",
-      "titel": "Handslaget – avtal mellan människor",
+      "titel": "Läser du det finstilta i alla 100 sidor långa kontrakt du skriver på?",
       "begrepp": [
         "avtal",
         "Handslaget"
       ],
-      "anteckningar": "Avtalsverktyget: enkla överenskommelser mellan människor.\nEtt handslag — fast digitalt.\nSamma idé, på svenska. Förtroende är lokalt.",
+      "anteckningar": "Avtalsverktyget: enkla överenskommelser mellan människor.\n\nEtt handslag fast digitalt.\nSamma idé, på svenska. Förtroende är lokalt.",
       "lankar": [
         [
           "Handslaget",
@@ -1168,7 +1168,9 @@ window.LECTURE = {
       "bilder": [
         "handslaget.png",
         "handslaget  diplom.png"
-      ]
+      ],
+      "svar": "Handslaget är ett avtal mellan människor. I Sverige är ett muntligt avtal mellan två företagare bindande men det kan vara smart att dokumentera det med ett digitalt handslag.",
+      "fordjupning": "Idén bakom Handslaget\n\nI Sverige är ett muntligt avtal mellan två företagare bindande. Det har varit så i över hundra år sedan Avtalslagen (1915:218) trädde i kraft. \n\nÄndå skriver vi idag på 100-sidiga kontrakt fyllda av finstilta villkor som ingen läser. Handslaget vill vända på detta: tillbaka till avtalets kärna, överenskommelsen mellan två människor. Men med digital trygghet.\n\n\"Ett avtal blir bindande när parterna är överens, inte när bläck möter papper.\"\n\nDen juridiska grunden\nMuntliga avtal är giltiga\nEnligt 1 § Avtalslagen uppstår ett avtal i två steg: anbud (någon lämnar ett erbjudande) och accept (motparten godkänner). \n\nSå snart båda stegen är uppfyllda finns ett bindande avtal. Oavsett om det skedde muntligt, via SMS, genom en nickning eller ett handslag. \n\nPrincipen kallas \"pacta sunt servanda\". Avtal ska hållas.\n\nDet finns inget krav på skriftlighet för att ett avtal ska vara giltigt, med undantag för ett fåtal specialfall:\n\nKräver skriftlig form: \"Fastighetsköp, Testamente, Framtidsfullmakt, Gåvobrev av fast, \nÄktenskapsförord\"\n\nFör allt annat: \"konsultavtal, samarbetsavtal, köp av lös egendom, uppdrag\"  räcker ett muntligt avtal.\n\nProblemet: beviset\nDet juridiska problemet med muntliga avtal är inte giltigheten, utan beviset. Den som hävdar att ett avtal finns har bevisbördan. Ord-mot-ord-situationer uppstår. Minnesfel, tolkningar och partiska återgivningar gör muntliga avtal sårbara.\n\nDet är här Handslaget kommer in.\n\nVad Handslaget löser:\n\nTre pelare\n1. Enkelhet — dokumentera överenskommelsen på sekunder. Kärnvillkor: vad, när, hur mycket, vem. Inte mer.\n\n2. Trygghet — varje handslag tidsstämplas, identifierar parterna och låses kryptografiskt. Starkare bevisvärde än ett papper som kan förfalskas.\n\n3. Mänsklighet — ett avtal mellan människor, inte mellan juridiska entiteter i 12 punkters småtryck. Förtroende först, formaliteterna i bakgrunden.\n\nHandslagets värdeerbjudande:\nFör småföretagare och frilansare\nAvsluta ett samarbete på 30 sekunder, inte 30 dagar\n\nSlipp advokatarvoden för enkla överenskommelser\n\nFå bevis på vad ni kom överens om, utan 100 sidor finstilta\n\nProfessionellt intryck utan byråkrati\n\nFör privatpersoner\nKöp och sälj tryggt på Blocket, Facebook Marketplace, mellan vänner\n\nHyresavtal för andrahandsuthyrning på sekunder\n\nLån mellan familjemedlemmar dokumenterade\n\nFör samarbeten\nKompanjonsavtal i sin enklaste form\n\nUppdragsbeskrivningar mellan konsulter\n\nNDA utan juristkrångel\n\nFramtid: AI som förstärker handslaget\n\n1. Opartisk sammanfattning — AI sammanfattar i tre meningar vad ni kom överens om. Båda parter ser samma sammanfattning innan signering. Minimerar missförstånd.\n\n2. Konfliktvarning — AI flaggar om formuleringar är tvetydiga eller saknar pris, tidsram eller ansvarsfördelning.\n\n3. Juridisk rådgivning vid behov — AI bedömer avtalets tydlighet och rekommenderar medling vid tvist.\n\n4. Språköversättning — för internationella samarbeten kan avtalet signeras på båda språken parallellt.\n\n5. Versionshantering — ändringar skapar ett nytt handslag som refererar till det ursprungliga. AI håller reda på historiken.\n\nSlutsats\nHandslaget står på en juridiskt stabil grund. Svensk avtalsrätt är ovanligt liberal. Avtal är giltiga så snart parterna är överens, oavsett form. \n\nUtmaningen har aldrig varit giltigheten, utan beviset och tydligheten."
     },
     {
       "id": "mer-tillsammans-for-basta-beslut",
