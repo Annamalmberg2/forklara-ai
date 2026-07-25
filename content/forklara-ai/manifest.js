@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 12:30:47)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 12:41:59)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1107,12 +1107,12 @@ window.LECTURE = {
     {
       "id": "mer-veckolatar",
       "sektion": "950",
-      "titel": "Veckolåtar",
+      "titel": "Gör du fredags låtarna själv?",
       "begrepp": [
         "fredagslåtar",
         "musik"
       ],
-      "anteckningar": "Musiken som återkommande inslag — varje vecka en låt med AI-koppling.\nAI:n hjälper till, men glädjen är min.",
+      "anteckningar": "Musiken som återkommande inslag varje vecka.\n\nEn fredagslåt som sammanfattar veckans tema och inlägg på sociala media. \n\nMartin Lönnstam tolkar fritt och gör en låt i Suno.",
       "lankar": [
         [
           "Musiksidan",
@@ -1125,7 +1125,9 @@ window.LECTURE = {
       ],
       "bilder": [
         "Veckolåtar.png"
-      ]
+      ],
+      "svar": "Jag har gjort många låtar själv men fredagslåtarna kom sig av att Martin Lönnstam kände sig inspirerad av det jag hade lagt ut vecka 20 och gjorde en låt av det. Sedan har vi bara fortsatt så.",
+      "fordjupning": "Det finns de som menar att AI inte kan skapa eget, att den bara kan härma som en stokatisk papegoja.\n\nJag har gjort sånger som blivit bra genom att t e x bara be om att få en sång om en hästs stamtavla och jag har testat massa olika varianter som jag aldrig trodde skulle kunna bli sång men så blev det ändå bra.\n\nAI kommer bara att bli bättre på att skapa. Som alltid \"Den AI du har idag är den sämsta du någonsin kommer att ha\""
     },
     {
       "id": "mer-skoldbondens-schack",
