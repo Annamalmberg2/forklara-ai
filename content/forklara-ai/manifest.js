@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 12:21:27)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 12:30:47)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1082,12 +1082,12 @@ window.LECTURE = {
     {
       "id": "mer-bloggen",
       "sektion": "950",
-      "titel": "Bloggen",
+      "titel": "Varför bygga blogg när du har en FB sida?",
       "begrepp": [
         "Wisdom Streamer",
         "blogg"
       ],
-      "anteckningar": "Där tankarna landar mellan föreläsningarna — 120 poster, taggade och sökbara.\nBerättelserna bakom många av bilderna bor här.",
+      "anteckningar": "Är det något jag har lärt mig så är det att plattformar dör.\n\nMånga tror att alla har FB men då har byggt din sanning på en falsk bubbla.\n\nJa det är enklare att dela på FB och LinkedIn än att bygga eget men bygger du eget så kan det aldrig tas ifrån dig.\n\nDen blogg jag byggt har jag bara synkat med FB som ett sätt att säkra det jag lägger ut. \n\nDessutom kan den som vägrar använda sociala media ändå ta ta del.",
       "lankar": [
         [
           "Wisdom Streamer – bloggen",
@@ -1100,7 +1100,9 @@ window.LECTURE = {
       ],
       "bilder": [
         "Bloggen.png"
-      ]
+      ],
+      "svar": "En Blogg kan alla läsa. En Facebook sida kan bara de facebook se",
+      "fordjupning": "Vill du också tanka ur dina sociala media så är det görbart.\n\nBygg aldrig grunden för din verksamhet på någon annas plattform.\n\n"
     },
     {
       "id": "mer-veckolatar",
