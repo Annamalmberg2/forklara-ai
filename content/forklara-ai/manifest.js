@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 11:50:42)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 11:52:19)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1023,12 +1023,12 @@ window.LECTURE = {
     {
       "id": "mer-hurdetfunkar",
       "sektion": "950",
-      "titel": "Hur började jag första gången bygga på webben",
+      "titel": "Hur började jag första gången bygga på webben?",
       "begrepp": [
         "skolan",
         "experiment"
       ],
-      "anteckningar": "Min gamla skolhjälpssida — nu mitt experimentlabb.\n\n2011 byggdes sidan första gången i Wordpress under \n\nfölj länken \"Intervju om mina första steg på webben 2011\" så får du grundhistorien.\n\nI denna intervju hamnar vi \"mitt i smeten\" hos Lag HurDetFunkar som aldrig träffats innan Carlstad Code Camp drog igång. Lagledaren Anna berättar om hur det gick till när de blev ett lag via twitter.",
+      "anteckningar": "Min gamla skolhjälpssida är nu mitt experimentlabb.\n\n2011 byggdes sidan första gången i Wordpress under \n\nfölj länken \"Intervju om mina första steg på webben 2011\" så får du grundhistorien.\n\nI denna intervju hamnar vi \"mitt i smeten\" hos Lag HurDetFunkar som aldrig träffats innan Carlstad Code Camp drog igång. Lagledaren Anna berättar om hur det gick till när de blev ett lag via twitter.",
       "lankar": [
         [
           "hurdetfunkar.se",
