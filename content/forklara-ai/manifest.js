@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 14:03:26)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 14:16:46)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -513,6 +513,16 @@ window.LECTURE = {
       ],
       "alias": [
         "Jocke"
+      ],
+      "lankar": [
+        [
+          "Målningar av Joakim Johansson",
+          "https://www.facebook.com/media/set/?set=a.1077298669634&type=3"
+        ],
+        [
+          "AI baserad musik är också konst",
+          "https://sites.google.com/ainnova.se/aisverige/musik"
+        ]
       ]
     },
     {
