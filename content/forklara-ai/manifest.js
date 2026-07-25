@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 11:39:44)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 11:49:39)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1052,21 +1052,27 @@ window.LECTURE = {
     {
       "id": "mer-traktens",
       "sektion": "950",
-      "titel": "Traktens",
+      "titel": "Vad är det där Traktens du har med på ditt reklammaterial?",
       "begrepp": [
         "Google Sites",
         "kartautomation"
       ],
-      "anteckningar": "Byns sida — Google Sites med kartautomation. Gratis verktyg, riktig nytta.",
+      "anteckningar": "Byns sida — Google Sites med kartautomation. Gratis verktyg, riktig nytta.\n\nDen 16 oktober 2025 har vi sökt stöd från jordbruksverket för att säkerställa att traktens.se skulle få den rätta knuffen för att utvecklas och växa, tyvärr fick vi avslag på ansökan 10 februari 2026.  Eftersom sidan är byggd med smarta automationer, utan webhotell och gratis api så kommer sidan ändå att finnas kvar och utvecklas i takt med att producenter på egen hand registrerar sina vreksamheter.",
       "lankar": [
         [
           "traktens.se",
+          "https://www.traktens.se/om-traktens"
+        ],
+        [
+          "Om traktens",
           "https://www.traktens.se/om-traktens"
         ]
       ],
       "bilder": [
         "Traktens.png"
-      ]
+      ],
+      "svar": "Den 16 oktober 2025 har vi sökt stöd från jordbruksverket för att säkerställa att traktens.se skulle få den rätta knuffen för att utvecklas och växa, tyvärr fick vi avslag på ansökan 10 februari 2026.  Men eftersom sidan är byggd med smarta automationer, utan webhotell och gratis api så kommer sidan ändå att finnas kvar och utvecklas i takt med att producenter på egen hand registrerar sina vreksamheter.",
+      "fordjupning": "👉Vi bygger kartor över lokal mat och lokala förmågor i hela landet. \n\nDu kan helt gratis registrera din verksamhet för att nå precis dom som söker dina produkter eller tjänster. Det är så mycket roligare att handla av dom man har i sin egen trakt än att beställa hem färdiga matkassar. Du får den äventyrliga resan istället för maten.\n\n\nMat och verksamheter från människor – med maskiner som verktyg, inte som mellanhand. Utan filter. Utan styrande algoritmer. För dig som vill stärka det mänskliga och marken under våra fötter.\n\n🔨 VAD VI HAR BYGGT\n\n🟢 Interaktiva kartor för alla områden i menyn\n\n🟢 Enkelt att själv lägga till sin gård eller verksamhet\n\n🟢 Allt byggt med öppenhet, omtanke och en gnutta envishet\n\n🟢 Översiktskartan med alla,  fler sökmöjligheter på kategorikartorna.\n\nVad vi kartlägger:\n\nMatrelaterade:\n🍺 Dryck & Bryggeri · 🥩 Kött & Chark · 🐟 Fisk & Skaldjur · 🥚 Ägg & Mejeri & Honung · 🥬 Grönsaker & Rotfrukter & Baljväxter · 🍓 Frukt & Bär & Svamp · 🌾 Spannmål & Bröd & Kvarnar  · 🔄 REKO-ringar & Andelsjordbruk \n\nDe finns i din trakt och vi behöver dom så ofta:\n🛍️ Loppis · 🐕 Djur & Veterinär · 🧶 Hantverk & Skinn & Ull · 🌸 Blommor & Trädgård · 🌱 Jord & Gödsel & Odlingstjänster · 🚛 Transport & Maskinuthyrning · 🔨 Bygg & Reparation · 🌲 Skog & Energi 🏠 Boende & Upplevelser  \n\nErbjudes eller sökes:\n🩺 Alternativvård & Läkarvård · 🏹 Jakt & Arrenden & Hundar · 🤝 Grannhjälp & Överskott & Utbyte · 💼 Arbete & Praktik · 📚 Läxhjälp & IT-stöd · 🚀 Starta eget & Accelerator\n\n"
     },
     {
       "id": "mer-notion-som-anteckningar",
@@ -1384,6 +1390,11 @@ window.LECTURE = {
           "Gamla skolhjälpen slarvigt nerkopierad från wordpress"
         ],
         [
+          "Intervjun 2011 om HurDetFunkar",
+          "https://youtu.be/Wevp_q7-1c0",
+          "Carlstad Code Camp, Lena och Tobias som under 24 timmar lärde mig allt värt att veta om webb."
+        ],
+        [
           "TRAKTENS",
           "https://www.traktens.se/startsida",
           "Lokala producenters plattform",
@@ -1570,7 +1581,7 @@ window.LECTURE = {
           "Ska en AI kunna påminna mig om saker när jag blir äldre så måste den ju veta vad den ska påminna mig."
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 41 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 42 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-30",
