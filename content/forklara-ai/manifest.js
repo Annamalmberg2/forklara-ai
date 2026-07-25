@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 11:49:57)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 11:50:42)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -887,7 +887,7 @@ window.LECTURE = {
       "id": "mer-logik-ar-universell",
       "fordjupning": "Matematikens språk är detsamma i Kiruna som i Kalifornien och detsamma inuti en dator som i ett klassrum. Ett neuralt nätverk bryter inte mot logikens lagar; det är byggt av dem: addition, multiplikation, derivator. Det är därför en matte- och fysiklärare kan förklara AI utan att vara programmerare.\n\nDet är också tröstande: AI är inte magi som kräver invigda. Den som förstår procent, sannolikhet och funktioner har redan verktygen för att förstå det viktigaste.",
       "sektion": "950",
-      "titel": "Men det är väl bar män som kodar?",
+      "titel": "Men det är väl bara män som kodar?",
       "begrepp": [
         "logik"
       ],
