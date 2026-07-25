@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 11:10:43)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 11:39:44)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1021,41 +1021,14 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "mer-imagenet-fei-fei-li",
-      "fordjupning": "Fei-Fei Lis insikt var kontroversiell på sin tid: kollegorna jagade bättre algoritmer — hon byggde bättre data. 14 miljoner bilder, märkta för hand av tusentals människor.\n\n2012 vann AlexNet (Geoffrey Hintons studenter) tävlingen med djupinlärning på grafikkort och sänkte felprocenten dramatiskt. Tre ingredienser möttes: data (ImageNet), beräkningskraft (GPU:er) och algoritm (neurala nät). Ingen av dem var ny. Kombinationen förändrade allt.",
-      "sektion": "950",
-      "titel": "ImageNet & Fei-Fei Li",
-      "personer": [
-        "Fei-Fei Li"
-      ],
-      "begrepp": [
-        "ImageNet",
-        "datorseende",
-        "AlexNet"
-      ],
-      "alias": [
-        "Fei"
-      ],
-      "anteckningar": "Bryggan: utan ImageNet ingen bild-AI, ingen Mona Lisa Anna.\nÄnnu en kvinna som byggde grunden.",
-      "lankar": [
-        [
-          "Fei-Fei Li på TED",
-          "https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures"
-        ]
-      ],
-      "bilder": [
-        "Fei-Fei Li.png"
-      ]
-    },
-    {
       "id": "mer-hurdetfunkar",
       "sektion": "950",
-      "titel": "HurDetFunkar",
+      "titel": "Hur började jag första gången bygga på webben",
       "begrepp": [
         "skolan",
         "experiment"
       ],
-      "anteckningar": "Min gamla skolhjälpssida — nu mitt experimentlabb.",
+      "anteckningar": "Min gamla skolhjälpssida — nu mitt experimentlabb.\n\n2011 byggdes sidan första gången i Wordpress under \n\nfölj länken \"Intervju om mina första steg på webben 2011\" så får du grundhistorien.\n\nI denna intervju hamnar vi \"mitt i smeten\" hos Lag HurDetFunkar som aldrig träffats innan Carlstad Code Camp drog igång. Lagledaren Anna berättar om hur det gick till när de blev ett lag via twitter.",
       "lankar": [
         [
           "hurdetfunkar.se",
@@ -1064,11 +1037,17 @@ window.LECTURE = {
         [
           "Pluton B",
           "https://sites.google.com/view/hurdetfunkar/pluton-b"
+        ],
+        [
+          "Intervju om mina första steg på webben 2011",
+          "https://youtu.be/Wevp_q7-1c0"
         ]
       ],
       "bilder": [
         "HurDetFunkar.png"
-      ]
+      ],
+      "svar": "HurDetFunkar byggdes första gången på 24 timmar under en kodtävling",
+      "fordjupning": "2011 gjordes alla läroplaner om och vi lade upp samtliga på HurDetFunkar som då blev väldigt välbesökt eftersom skolverkets egen sida ofta krachade.\n\nJag lärde mig grunderna att bygga webb med Lena och Tobias. Efter det har HurDetFunkar byggts om många gånger. Rivits het och byggts om.\n\nDen sista versionen av skolhjälpen stuvade jag jag undan på GoogleSite och byggde för första gångenhelt nytt i filsystem på webbhotell. Den här presentationen är också byggt som filsystem men denna presentation är byggd på min dator. För att gör den publik har vi sedan puchat koden till GitHub."
     },
     {
       "id": "mer-traktens",
