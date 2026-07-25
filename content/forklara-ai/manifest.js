@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 12:11:10)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 12:21:27)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -967,20 +967,6 @@ window.LECTURE = {
       "svar": "Jag kunde känna en ny sorts intelligens sa Kasparov, Ändå var det rå beräkningskraft som den gången gjorde att maskinen vann"
     },
     {
-      "id": "mer-skaparkaos",
-      "fordjupning": "Så här ser AI-skapande faktiskt ut: hundra varianter, nittiosju i papperskorgen. Maskinen är generös men omdömeslös — urvalet är fortfarande hantverket.\n\nDet gäller all AI-användning: värdet uppstår i din gallring, din smak, ditt nej. Guldkorn i kaos — men bara för den som orkar sålla.",
-      "sektion": "950",
-      "titel": "Skaparkaos",
-      "begrepp": [
-        "kreativitet",
-        "iteration"
-      ],
-      "anteckningar": "Så ser skapandet faktiskt ut: hundra utkast, en robotarm som säger ERROR.\nGuldkorn i kaoset — det som verkar dåligt idag kan vara guld imorgon.",
-      "bilder": [
-        "Skaparkaos.png"
-      ]
-    },
-    {
       "id": "mer-alphago-vs-lee-sedol-2016",
       "fordjupning": "Go kan inte råräknas — brädet rymmer fler möjliga ställningar än det finns atomer i universum. AlphaGo tränade i stället upp mönsterkänsla genom miljontals partier mot sig själv.\n\nDrag 37 i parti två: kommentatorerna dömde först ut det som ett misstag — sedan tystnade de. Maskinen bedömde själv att en människa bara hade spelat det en gång på tiotusen. Lee Sedol svarade i parti fyra med drag 78 — 'Guds beröring' — och vann människans enda parti.\n\nBåda dragen hör till berättelsen: maskinen överraskade oss.",
       "sektion": "950",
@@ -1016,23 +1002,6 @@ window.LECTURE = {
         "Patent – kunskapens ekonomi.jpg"
       ],
       "svar": "Patent har mer begränsat än gynnat mänskligheten. Det kan ha gynnat företag men sällan människor."
-    },
-    {
-      "id": "mer-mona-lisa-anna",
-      "fordjupning": "Bild-AI har 'sett' miljontals konstverk och lärt sig sambanden mellan ord och bild. Den lagrar inga kopior — men den bär stilarna. Att sätta in ett nytt ansikte i en klassiker tar sekunder.\n\nDet öppnar tre frågor på en gång: Vad är ett original? Var går gränsen mellan hyllning och stöld? Och kan någon äga en stil? Jurister och konstnärer sliter med alla tre. Publiken kan börja med den enklaste: blev det konst?",
-      "sektion": "950",
-      "titel": "Mona Lisa Anna",
-      "begrepp": [
-        "bild-AI",
-        "remix"
-      ],
-      "alias": [
-        "Mona Lisa"
-      ],
-      "anteckningar": "Klassikern remixad. Bild-AI:n har 'sett' hela konsthistorien —\noch sätter in mig i den. Var går gränsen mellan hyllning och stöld?",
-      "bilder": [
-        "Mona Lisa Anna.png"
-      ]
     },
     {
       "id": "mer-hurdetfunkar",
@@ -1091,13 +1060,13 @@ window.LECTURE = {
     {
       "id": "mer-notion-som-anteckningar",
       "sektion": "950",
-      "titel": "Notion blev första AI-skolan",
+      "titel": "Kan jag få ett examenbevis?",
       "begrepp": [
         "Notion",
         "skolan",
         "fria studier"
       ],
-      "anteckningar": "Anteckningsblocket som blev skolplattform.\nFria studier om AI — välj din stig.",
+      "anteckningar": "Anteckningsblocket som blev skolplattform.\n\nFria studier om AI — välj din stig.\n\nDenna utbildning kom sig av att jag testade att publicera lite anteckningar jag hade gjort.\n\nFaktum är att då jag nu går tillbaka och tittar så finns det en hel del bra för att komma igång så förse dig av valfria tips.\n\nDu kan t o m skriva ut ditt eget examnsbevis.",
       "lankar": [
         [
           "Fria studier om AI",
@@ -1106,7 +1075,9 @@ window.LECTURE = {
       ],
       "bilder": [
         "Notion som anteckningar.png"
-      ]
+      ],
+      "svar": "Ja du kan själv gå denna kurs och skriva ut ditt examensbevis",
+      "fordjupning": "Notion är ett fantastiskt verktyg att samla anteckningar mm.\n\nDet var i Notion jag började bygga mina första databaser och mitt första CRM.\n\nCRM står för Customer Relationship Management och är ett verktyg för att hantera kundkontakter, sälja mer och förbättra service. Det samlar all information om dina kunder på ett enda ställe. "
     },
     {
       "id": "mer-bloggen",
