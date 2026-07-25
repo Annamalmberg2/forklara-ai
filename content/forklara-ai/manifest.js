@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 12:56:59)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 13:22:22)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1173,23 +1173,25 @@ window.LECTURE = {
     {
       "id": "mer-tillsammans-for-basta-beslut",
       "sektion": "950",
-      "titel": "Tillsammans för bästa beslut",
+      "titel": "Skulle TV-debatter och beslut se annorlunda ut om en AI sammanfattade?",
       "begrepp": [
         "beslut",
         "samarbete",
         "svampskogen",
         "mycel"
       ],
-      "anteckningar": "Svampskogens beslutsbord: alla modellsvampar runt samma bord — men människan i centrum. Vi sätter frågorna, värderingarna och ramarna. Människan äger alltid beslutet.\nKedjan: fråga → mångfald av perspektiv → utforska & utmana → sammanväg & enas → förklara varför → människan beslutar → följ upp & lär.\nInte en AI som tar över — utan alla AI som tar hand om. Välkommen in i mycelet.",
+      "anteckningar": "Vi sätter frågorna, värderingarna och ramarna. Människan äger alltid beslutet.\n\nKedjan: fråga → mångfald av perspektiv → utforska & utmana → sammanväg & enas → förklara varför → människan beslutar → följ upp & lär.\n\nInte en AI som tar över, utan alla AI som tar hand om. ",
       "bilder": [
         "Tillsammans för bästa beslut.png"
-      ]
+      ],
+      "svar": "Jag skulle gärna se en opartisk AI sammanfatta och ifrågasätta både debatter och beslut.",
+      "fordjupning": "Skulle TV-debatter och beslut se annorlunda ut med AI?\n\nJa och det börjar redan hända.\n\nAI som sammanfattar och ifrågasätter debatter:\n\nTaiwan (Taiwan) är kanske det mest kända exemplet. En AI-förstärkt plattform som främjar konstruktiv dialog, identifierar gemensam mark och strukturerar debatter för att undvika polarisering.\n\nPanoramic av Make.org använder AI för att sammanfatta parlamentariskt språk och göra det tillgängligt för en bredare publik.\n\nMAPLE (Massachusetts) använder AI för att sammanfatta och kategorisera medborgarnas yttranden så att beslutsfattare får tydliga, organiserade insikter i folkopinionen.\n\nHansard Researcher (Australien, lanserades juli 2026) är en öppen källkods-pipeline som samlar 21 års parlamentsdebatter. 6,4 miljoner stycken, 1,25 miljoner talomgångar, 891 000 omröstningar, och gör dem sökbara och analysbara i realtid med live-dashboards.\n\nOECD analyserade 50 AI-användningsfall från 22 medlemsländer och identifierade nio kategorier, inklusive \"sense-making\" (att hjälpa till att analysera stora mängder text), \"moderation\" (förhindra spam, hat och manipulation) och \"facilitation\" (identifiera gemensam mark i live-debatter).\n\nPolyfact (Frankrike) transkriberar och sammanfattar varje debatt i nationalförsamlingen, senaten och EU-institutionerna i Bryssel med tidsstämplar så att man kan klicka på en mening och hamna på exakt den sekund i videon där det sades.\n\nEn forskargrupp vid University of Passau har studerat hur AI kan argumentera i politiska debatter, med BBC's Question Time som modell och funnit att AI kan vara övertygande även i policydebatter.\n\nEn opartisk AI som sammanfattar och ifrågasätter är inte science fiction. Det är ett naturlig nästa steg som flera länder redan rör sig mot. Men det finns viktiga utmaningar:\n\nVad som fungerar redan idag:\n\nAI kan transkribera debatter i realtid och sammanfatta dem\n\nAI kan identifiera logiska fel, motsägelser och sakfel i påståenden\n\nAI kan kategorisera argument och visa vilka som stöds av bevis\n\nAI kan göra komplexa beslut tillgängliga för vanliga medborgare\n\nVad som fortfarande är svårt:\n\n\"OpArtighet\" ingen AI är helt opartisk. Träningsdata, designval och prompt-konstruktion påverkar alltid resultatet\n\n\"Kontextförståelse\" politisk retorik bygger på underförstådda budskap som AI kan missa\n\n\"Maktbalans\" vem äger AI-systemet? Vem granskar granskaren?\n\nMen jämfört med dagens läge där debatter sammanfattas av journalister med egna vinklar, redaktioner med ägarintressen och algoritmer optimerade för engagemang snarare än förståelse, skulle en väl designad AI med transparent metod och mänsklig granskning vara ett betydligt mer opartiskt alternativ.\n\nVad Sverige gör (eller snarare inte gör). Det slående är att Sverige knappt syns i dessa sammanställningar. Norge leder världen i ansvarsfull AI, Estland rankas 10:e, Finland nämns bland pionjärerna men Sverige saknas. \n\nDet finns ett verkligt behov av en plattform som gör AI tillgänglig för medborgare, inte bara för storföretag och myndigheter.\n\nTänk dig en AI som sammanfattar och ifrågasätter svenska debatter och beslut i realtid?\n\n"
     },
     {
       "id": "mer-tre-lager-en-livsresa",
-      "fordjupning": "Tanken bakom de tre lagren: ett arbetsminne (det AI:n ser just nu), en aktiv position (mina mål och beslut) och ett arkiv (allt, för alltid). Det är samma arkitektur som språkmodellernas kontextfönster plus databas — fast för ett människoliv.\n\nDe svåra frågorna är inte tekniska: Vem äger arkivet? Vad får AI:n lyfta fram ur det — och åt vem? Och vad händer med det när jag inte längre finns? Jag vill hinna välja svaren själv.",
+      "fordjupning": "Tanken bakom de tre lagren: ett arbetsminne (det AI:n ser just nu), en aktiv position (mina mål och beslut) och ett arkiv (allt, för alltid). Det är samma arkitektur som språkmodellernas kontextfönster plus databas — fast för ett människoliv.\n\nDe svåra frågorna är inte tekniska: Vem äger arkivet? Vad får AI:n lyfta fram ur det och åt vem? Och vad händer med det när jag inte längre finns? Jag vill hinna välja svaren själv.",
       "sektion": "950",
-      "titel": "Tre lager – en livsresa",
+      "titel": "Kan jag idag träna min AI att ta hand om mig när jag blir äldre och glömsk?",
       "personer": [
         "Ada"
       ],
@@ -1198,10 +1200,11 @@ window.LECTURE = {
         "arkiv",
         "AI-assistent"
       ],
-      "anteckningar": "Min AI-assistent Ada och minnet i tre lager:\n1. AI:ns arbetsminne  2. Min aktiva position  3. Det fullständiga arkivet.\nAllt fångas, inget raderas, jag bestämmer.\nFrån barnets första tankar till visdomens sista råd.",
+      "anteckningar": "Min AI-assistent Ada och minnet i tre lager:\n\n1. AI:ns arbetsminne  \n2. Min aktiva position  \n3. Det fullständiga arkivet.\n\nAllt fångas, inget raderas, jag bestämmer. Från barnets första tankar till visdomens sista råd.",
       "bilder": [
         "Tre lager – en livsresa.png"
-      ]
+      ],
+      "svar": "Tre lager – en livsresa. Jag försöker bygga precis det just nu. Medan jag minns så petar jag in sådant en framtida AI kan påminna mig när jag blir gammal och ensam."
     },
     {
       "id": "130-10",
