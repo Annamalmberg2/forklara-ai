@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 12:41:59)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-25 12:56:59)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1132,12 +1132,12 @@ window.LECTURE = {
     {
       "id": "mer-skoldbondens-schack",
       "sektion": "950",
-      "titel": "Sköldbondens schack",
+      "titel": "Varför är kungen högst i alla schackspel?",
       "begrepp": [
         "schack",
         "spel"
       ],
-      "anteckningar": "Mitt eget schack med egna regler: drottningen högst, bonden med sköld.\nByggt med AI — och en fin cirkel tillbaka till Deep Blue.",
+      "anteckningar": "Mitt eget schack med samma regler som ett ordinarie schackspel.\n\nJag ville bara ha en annan design än de traditionella spelen så jag byggde ett eget.\n\nSka jag vara ärlig så har jag en hel del misslyckade försök men det här schackspelet fungerar verkligen.\n\nTesta att spela det.",
       "lankar": [
         [
           "Spela Sköldbondens schack",
@@ -1146,7 +1146,9 @@ window.LECTURE = {
       ],
       "bilder": [
         "Sköldbondens schack.png"
-      ]
+      ],
+      "svar": "I \"Sköldbondens schack\" är det damen som är högst för hon är farligast. bönderna har både sköld och grep men annars är reglerna lika.",
+      "fordjupning": "Legenden om riskornen och schackbrädet.\n\nEnligt legenden levde en vis man vid namn Sissa ben Dahir (eller Sissa ibn Dahir) i det forntida Indien. Han uppfann schackspelet och visade det för kungen, ibland kallad kung Shihram eller en rajah. Kungen blev så imponerad att han sade: \"Be om vilken belöning du vill.\"\n\nDen vise mannen svarade ödmjukt:\n\n\"Jag vill bara ha lite ris, ett riskorn på första rutan av schackbrädet, två på den andra, fyra på den tredje, och så vidare.\nDubbelt så många på varje ruta ända tills alla 64 rutor är fyllda.\"\n\nKungen skrattade åt vad som verkade vara en blygsam begäran och gick med på det omedelbart. Men när hans tjänare började räkna ut hur mycket ris det faktiskt blev, insåg de att det var en omöjlig mängd.\n\nMatematiken bakom\nDet handlar om summan av en geometrisk serie:\n\n2^0 + 2^1 + 2^2 + … + 2^63 =\n2^64 − 1\n\nTotalt blir det 18 446 744 073 709 551 615 riskorn, nästan 18,5 kvadriljoner.\n\nHur mycket ris är det?\nOm ett riskorn väger ungefär 0,02 gram blir den totala vikten ca 369 miljoner ton ris. \n\nDet skulle motsvara världens risproduktion många gånger över. Inte ens i dag skulle hela jordklotet kunna producera så mycket ris.\n\nHistorien används ofta som en varning för att underskatta exponentiell tillväxt. Det är relevant inom:\n\nEkonomi — ränta-på-ränta-effekten\n\nDatateknik — Moores lag och beräkningskraftens tillväxt\n\nEpidemiologi — hur smitta sprids\n\nAI-utveckling — hur kapacitet kan öva explosionsartat\n\nSchackbrädet har 64 rutor. Det som gör historien så kraftfull är att den första hälften av brädet (rutor 1–32) \"bara\" ger ca 4,3 miljarder riskorn — mycket, men hanterbart. \n\nDet är på den andra halvan som siffrorna löper iväg till astronomiska höjder. Detta är en insikt som ständigt återkommer när man försöker förstå exponentiell utveckling.\n\nDetta är precis den typen av tankeverktyg som är värdefullt att ha med sig när man försöker förstå AI:s utveckling. Vi befinner oss kanske fortfarande på \"första halvan av brädet\", och det är svårt att intuitivt förstå vad som händer när vi rundar ruta 32."
     },
     {
       "id": "mer-handslaget-avtal-mellan-manniskor",
