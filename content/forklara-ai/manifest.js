@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-27 23:36:36)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-27 23:46:46)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -77,7 +77,7 @@ window.LECTURE = {
       "bilder": [
         "AI Anna Intelligens.jpg"
       ],
-      "fordjupning": "Jag har alltid varit fascinerad av teknik och sedan november 2022 då ChatGPT kom har mitt intresse intresse för AI och all den teknik som påverkas ökat i samma exponentiella takt som tekniken.\n\nJag lyssnar på alla lärda, både de som är för och de som är emot. Enligt mina beräkningar är AI något som kan bli bra för oss och göra oss mänskligare men jag kan också se och beskriva farorna.\n\nJag lär mig inte bara om AI. Jag testar AI på alla sätt jag kan och det finns inget område som inte intresserar mig.\n\nAtt jag är lika intresserad av robotik som medicin, musik, bild, kod mm gör att jag har en bredd som få har.\n\nNär jag gjorde min första föreläsning kom jag på att jag inte vill nyttja gamla verktyg som PowerPoint. \n\nPowerPoint - Where is the Power and what is the Point?\n\nJag hade kunnat gjort min Föreläsning i NotebookLM eller Gamma men jag valde denna gång att bygga helt egen programvara.\n\nDet kanske inte är supersnyggaste programvaran än men den gör det enkelt för mig att att hämta fakta på vilken fråga som än kan tänkas komma upp.\n\nMitt verktyg har också blivit lite av min garderob av olika digala spår jag har trampat upp.",
+      "fordjupning": "Jag har alltid varit fascinerad av teknik och sedan november 2022 då ChatGPT kom har mitt intresse intresse för AI och all den teknik som påverkas ökat i samma exponentiella takt som tekniken.\n\nJag lyssnar på alla lärda, både de som är för och de som är emot. Enligt mina beräkningar är AI något som kan bli bra för oss och göra oss mänskligare men jag kan också se och beskriva farorna.\n\nJag lär mig inte bara om AI. Jag testar AI på alla sätt jag kan och det finns inget område som inte intresserar mig.\n\nAtt jag är lika intresserad av robotik som medicin, musik, bild, kod mm gör att jag har en bredd som få har.\n\nNär jag gjorde min första föreläsning kom jag på att jag inte vill nyttja gamla verktyg som PowerPoint. \n\nPowerPoint - Where is the Power and what is the Point?\n\nJag hade kunnat gjort min Föreläsning i Gemini Notebook eller Gamma men jag valde denna gång att bygga helt egen programvara.\n\nDet kanske inte är supersnyggaste programvaran än men den gör det enkelt för mig att att hämta fakta på vilken fråga som än kan tänkas komma upp.\n\nMitt verktyg har också blivit lite av min garderob av olika digala spår jag har trampat upp.",
       "anteckningar": "Jag är legitimerad gymnasielärare matematik och fysik → Numer VD och driver AiNNOVA.\n\nAI = Anna Intelligens. \n\nSkratta först, efter föreläsningen kommer du också att vilja veta allt jag vet om AI. \n\nLyssna noga och ta tillvara på vår tid och gå tillbaka till länkar och fördjupningsmaterial.",
       "begrepp": [
         "AiNNOVA"
@@ -97,6 +97,14 @@ window.LECTURE = {
         [
           "Första gången en AI presenterade mig",
           "https://gamma.app/docs/Ai-Anna-j55lfjpqxbcqb9s?mode=doc"
+        ],
+        [
+          "Gemini Notebook",
+          "https://notebooklm.google.com/"
+        ],
+        [
+          "Gamma",
+          "https://gamma.app/"
         ]
       ],
       "relaterat": [
@@ -140,6 +148,12 @@ window.LECTURE = {
       ],
       "bilder": [
         "Blir vi dummare eller smartare.jpg"
+      ],
+      "lankar": [
+        [
+          "",
+          ""
+        ]
       ]
     },
     {
