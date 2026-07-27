@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-27 12:44:10)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-27 12:48:42)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -434,7 +434,7 @@ window.LECTURE = {
     },
     {
       "id": "mer-logik-ar-universell-ai-sverige",
-      "fordjupning": "Ny teknik lärs bäst i sällskap. När många delar misstag och genombrott samtidigt går inlärningen fort.\n\nSamma nätverkseffekt som tekniken själv bygger på.\n\nVi lär oss ny teknik bäst tillsammans; det sociala sammanhanget avgör om den fastnar. \n\nAI modellerna tränas på att hjälpa och skydda varandra och oss. vi människor borde också bli bättre på att skydda varandra. \n\nSamhället idag har blivit väldigt mycket egocentrerat.",
+      "fordjupning": "Ny teknik lärs bäst i sällskap. När många delar misstag och genombrott samtidigt går inlärningen fort.\n\nSamma nätverkseffekt som tekniken själv bygger på.\n\nVi lär oss ny teknik bäst tillsammans; det sociala sammanhanget avgör om den fastnar. \n\nAI modellerna tränas på att hjälpa och skydda varandra och oss. vi människor borde också bli bättre på att skydda varandra. \n\nSamhället idag har blivit väldigt egocentrerat. Jag tror alrig jag så ofta som nu ställt mig frågan om vad som är mänskligt och värt att bevara för om vi tänker efter så har vi många dåliga egenskaper också.",
       "sektion": "020",
       "titel": "Kan man alltid lita på människor?",
       "begrepp": [
