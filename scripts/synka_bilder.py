@@ -8,6 +8,7 @@ import io
 import json
 import os
 import sys
+import unicodedata
 
 FÖRELÄSNING = sys.argv[1] if len(sys.argv) > 1 else "forklara-ai"
 ROT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -16,7 +17,9 @@ FIL = os.path.join(ROT, "content", FÖRELÄSNING, "bilder.js")
 
 
 def lista():
-    bilder = [f for f in os.listdir(MAPP)
+    # NFC-normalisera å/ä/ö — samma form som git lagrar filnamnen i, så bank­listan
+    # matchar filerna både lokalt och på webben (annars kan bilder falla på GitHub Pages).
+    bilder = [unicodedata.normalize("NFC", f) for f in os.listdir(MAPP)
               if f.lower().endswith((".png", ".jpg", ".jpeg", ".webp", ".gif"))]
     bilder.sort(key=lambda s: s.lower())
     return bilder

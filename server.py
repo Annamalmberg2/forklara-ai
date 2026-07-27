@@ -14,6 +14,7 @@ import http.server
 import json
 import os
 import re
+import shutil
 import socketserver
 import subprocess
 import threading
@@ -26,6 +27,28 @@ ADRESS = f"http://127.0.0.1:{PORT}/"
 
 def git(*args):
     return subprocess.run(["git", *args], cwd=ROT, capture_output=True, text=True)
+
+
+def krymp_bild(sokvag):
+    """Skala ner till max 1600 px och komprimera — så nya bilder blir webbvänliga
+    automatiskt. Ett fel här får ALDRIG stoppa uppladdningen; bilden ligger redan."""
+    try:
+        out = subprocess.run(["sips", "-g", "pixelWidth", "-g", "pixelHeight", sokvag],
+                             capture_output=True, text=True).stdout
+        matt = [int(l.split()[-1]) for l in out.splitlines() if "pixel" in l]
+        if matt and max(matt) > 1600:
+            subprocess.run(["sips", "-Z", "1600", sokvag], capture_output=True, text=True)
+        ext = os.path.splitext(sokvag)[1].lower()
+        if ext in (".jpg", ".jpeg"):
+            subprocess.run(["sips", "-s", "format", "jpeg", "-s", "formatOptions", "82", sokvag],
+                           capture_output=True, text=True)
+        elif ext == ".png":
+            pq = shutil.which("pngquant")
+            if pq:
+                subprocess.run([pq, "--quality=60-90", "--skip-if-larger", "--strip",
+                                "--force", "--ext", ".png", sokvag], capture_output=True, text=True)
+    except Exception:
+        pass
 
 
 def synka_bilder(forelasning):
@@ -114,6 +137,7 @@ class Hanterare(http.server.SimpleHTTPRequestHandler):
                 n += 1
             with open(mal, "wb") as f:
                 f.write(kropp_bytes)
+            krymp_bild(mal)   # gör den webbvänlig direkt — du behöver inte tänka på storlek
             return self.svara({"ok": True, "filnamn": namn, "bank": synka_bilder(forelasning)})
 
         if self.path.startswith("/api/bild-bort/"):

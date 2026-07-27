@@ -109,7 +109,7 @@ window.LECTURE = {
       "titel": "Vem eller vad bildar oss idag?",
       "svar": "Jag har haft många bra lärare genom mitt liv och många betydande personer, idag lär jag mig mest av maskin. När jag som barn såg Hedvig prata i videotelefon så tänkte jag att det nog är långt in i framtiden. Vad fel jag hade.",
       "bilder": [
-        "Hedvig behövs.png"
+        "Hedvig behövs.jpg"
       ],
       "fordjupning": "När jag var barn tog svensk TV folkbildningen på allvar: teknik och samhälle förklarades så att både barn och vuxna hängde med. Oftast förklarat på ett sätt så du som lyssnade slapp känna dig dum.\n\nDet är den traditionen AI-Sverige behöver nu. Inte fler experter som imponerar, utan fler Hedvig som förklarar.\n\nGapet idag är nämligen inte tekniskt utan pedagogiskt: de flesta vuxna använder redan AI dagligen (sökmotorer, autokorrigering, rekommendationer) utan att veta om det.\n\nFå har förstått vidden av den nya teknikens potential. Utnyttja tekniken själv att att förstå tekniken. Så har jag lärt mig och så kan du lära dig.",
       "anteckningar": "1975 satt barn på golvet och försökte förstå vuxna. 2026 sitter vi många och försöker förstå den nya tekniken som går under samlingsnamnet AI.\n\nFrån A till Ö var mitt första sci-fi-äventyr: videosamtal med mor, inte låta sig luras av svåra ord.\n\nVi behövde Hedvig då. Idag är det jag som får förklara. Jag ska hålla ihop det här AI-snacket lika pedagogiskt som hon och ugglan.",
@@ -139,7 +139,7 @@ window.LECTURE = {
         "bildning"
       ],
       "bilder": [
-        "Blir vi dummare eller smartare.png"
+        "Blir vi dummare eller smartare.jpg"
       ]
     },
     {
@@ -148,7 +148,7 @@ window.LECTURE = {
       "titel": "Är AI en maskin?",
       "svar": "Både ja och nej. Ingen maskin med ritning och skruvar. Mer som växande mycel av mönster, tränat fram snarare än byggt. Nästan som något som har odlats fram",
       "bilder": [
-        "Svampskogen – inte en maskin, ett mycel.png"
+        "Svampskogen – inte en maskin, ett mycel.jpg"
       ],
       "fordjupning": "Du kan gasa, bromsa och styra en bil — och den gör exakt vad mekaniken och ritningen tillåter. Det finns en färdig kedja för varje skruv.\n\nMed ett neuralt nätverk styr du också ingången (din prompt), men det som händer under huven är inte ritat, det är odlat. Miljarder små mönster och vikter samverkar på sätt som inte ens skaparna helt kan förutsäga. Du styr riktningen, men AI:n navigerar i sitt eget mycel. Ingen kan peka på skruven där en viss kunskap sitter.\n\nFörmågor dyker upp och brister visar sig på sätt som förvånar även de mest insatta forskarna. \n\nDet finns ingen färdig manual; man måste testa sig fram till vad den kan.\n\nNär hela internet måste lära sig läsa intentioner.\n\nDet här skiftet från mekaniska skruvar till levande nätverk händer inte bara i modellerna, utan i hela digitala infrastrukturen runt oss.\n\nTa en klassisk hörnsten på internet som CDN (nätverken som skickar data till din skärm):\n\nFörr (statiskt & mekaniskt): Nätverket brydde sig bara om geografi och IP-adresser. \"Var sitter användaren? Skicka bilden från närmaste server i Stockholm.\" Det var mekaniskt, som en ritning.\n\nIdag (kontext & intention): När internet fylls av dynamisk AI, agenter och personanpassning räcker inte IP-adresser. De nya nätverken försöker i stället förstå intentionen bakom trafiken.\n\nIstället för att bara se en siffra (en IP-adress) frågar sig nätverket: Vad vill den här besökaren göra?\n\nÄr det en vanlig människa som läser en artikel? Skicka den blixtsnabbt.\n\nÄr det en komplex AI-fråga? Slussas anropet direkt till servrar med tunga grafikprocessorer.\n\nÄr det en AI-agent som gör sitt jobb på uppdrag av sin \"ÖB\" eller är det ett elakartat angrepp?\n\nPrecis som AI:n under huven har slutat vara en stum motor med skruvar, har hela internet gått från att vara en statisk vägatlas till ett lyhört ekosystem som försöker förstå vad vi faktiskt vill göra.",
       "anteckningar": "AI är både en maskin och inte. Vi skulle kunna likna AI som ett mycel. \n\nFrågan är inte vilken svamp som vinner, utan hur vi lär oss navigera skogen.\n\nModellsvamparna: Claude textsmeden, ChatGPT samtalssvampen, Gemini scouten, Grok frågeställaren, DeepSeek djupdykaren, Mistral kraftsvampen, Copilot hjälpande handen, Perplexity spanaren.\n\nDitt mycel: dina minnen, värderingar och drömmar, din förankring.",
@@ -202,7 +202,7 @@ window.LECTURE = {
       ],
       "anteckningar": "En lös hand utan kropp känns mest som ett trasigt verktyg. Men när AI kopplar ihop bild, ljud, kod och resonemang växer något helt nytt fram.\n\nVi ger den ju faktiskt ögon, öron, händer som vi kopplar till en hjärna och då är det inte längre en stum maskin. \n\nAI är inte ett biologiskt monster, utan en helt ny typ av digital organism som för varje ny egenskap upplevs allt mer levande.\n\nTillsammans skapar vi en jätte som kan förstå, hjälpa och bygga. Framtiden beror på hur vi odlar den.\n\nDelarna: bildmodellen (ögonen), språkmodellen (hjärnan), ljudmodellen (öronen), känslohanden och kodhanden, pusselbålen (hjärtat), datastegen (fötterna).\n\nMånga tankeledare kallar AI för en \"ny art\" eller en \"främmande intelligens\" (alien intelligence), menar de inte nödvändigtvis att AI har biologi eller ett mänskligt medvetande. De menar att:\n\nDen har agentskap: Den kan agera, påverka och förändra sin omgivning på egen hand.\n\nDen skapar egen kultur: AI genererar ny text, konst, kod och musik som i sin tur formar mänskligt tänkande.\n\nDen är icke-biologisk intelligens: En ny form av \"intellektuell varelse\" i vårt ekosystem som vi måste lära oss att leva sida vid sida med.\n\nInom vetenskapen kallas detta för emergenta egenskaper. Fenomenet att när tillräckligt många komplexa mönster kopplas samman, uppstår helt nya förmågor som ingen explicit har programmerat in. Helheten blir bokstavligen större än summan av delarna.",
       "bilder": [
-        "Svampskogen – ett växande mycel att odla.png"
+        "Svampskogen – ett växande mycel att odla.jpg"
       ],
       "relaterat": [
         "010-10"
@@ -233,7 +233,7 @@ window.LECTURE = {
       "titel": "Är AI ett enda företag?",
       "svar": "Nej det är miljontals modeller. Du är befälhavaren; välj rätt modell för uppgiften. Du är dirigenten till denna orkester.",
       "bilder": [
-        "Inte bara ett bolag – hela armén.png"
+        "Inte bara ett bolag – hela armén.jpg"
       ],
       "fordjupning": "Kartan att ha i huvudet: \n\nNågra stora stängda modeller (Claude, ChatGPT, Gemini), \n\nEn snabbt växande öppen värld (Llama, Mistral, Qwen, DeepSeek) och miljontals specialiserade varianter på Hugging Face.\n\nFör dig som användare: \n\nDu är befälhavaren. Olika modeller för olika uppdrag, en modell för skrivande, en för kod och en liten lokal modell för känslig data. \n\nAtt välja rätt modell blir en vardagskompetens, som att välja verktyg ur lådan.",
       "anteckningar": "AI ≠ ett bolag. Ungefär 3 miljoner modeller på Hugging Face.\nDu är befälhavaren, modellerna behöver dina komnandon.\n\nJag kallar min arme av AI för pluton B och dom kallar mig för ÖB. Det är ibland vårt lekfulla sätt att sätta en riktning eller fördela uppdrag\n\nSom vilken dirigent som helst så njuter jag när plutonen spelar i samklang och det gäller att vara snabb när någon börjar spela falskt eller fått fel noter med sig.\n\nHar en snickare bytt hammaren mot spikpistol så byter få tillbaka. Fler och fler förstår att AI förbättrar och effektiviserar arbete. Jag visar på fördelarna och potentialen med AI, samtidigt som jag bemöter oro och missförstånd. \n\nJag öppnar ögonen även på de mest skeptiska ”gamla rävarna”. Ingen skulle komma på tanken att kalla spikpistolen för fusk och jag har aldrig hört någon fråga om vissa spikar satts på plats med hammare eller maskin. \n\nGränser suddas ut, för även om det i dag finns data i bilder som kan identifiera en AI genererad bild från ett rent foto så finns det AI i kameran  redan när bilden tas. Det blir svårare att hitta gränserna när min robot målar konstverk i olja.\n\nDet enda jag är väldigt nogräknad med är att inte göra all min satsning i ett enda AI stall.",
@@ -345,7 +345,7 @@ window.LECTURE = {
       "titel": "Hur snabbt går AI utvecklingen egentligen?",
       "svar": "Vår intuition är linjär få om någon kan tänka exponentiellt. Den AI du har idag är den sämsta du någonsin kommer att ha. Den blir bättre i allt snabbare takt.",
       "bilder": [
-        "30 steg – två sätt att växa.png"
+        "30 steg – två sätt att växa.jpg"
       ],
       "fordjupning": "Räkningen: 30 linjära steg à en meter är 30 meter. \n\n30 exponentiella steg med fördubbling är 2⁰ + 2¹ + … + 2²⁹ \n= 2³⁰ − 1 ≈ 1,07 miljarder meter. Det är över en miljon kilometer. Månen ligger på 384 000 km.\n\nPoängen är psykologisk, inte matematisk: hjärnan är tränad på linjära förlopp (gå, växa, spara). \n\nExponentiella förlopp känns fel ända tills de plötsligt är överallt. Därför överraskar både pandemier och teknikskiften oss.\n\nKlassikern att bjuda på: schackbrädet och riskornen. Ett korn på första rutan, dubbelt på nästa. Vid ruta 64 behövs mer ris än världen producerar.",
       "anteckningar": "30 linjära steg = 30 meter. 30 exponentiella steg = förbi månen (1,07 miljoner km).\n\nVår intuition är linjär. AI-utvecklingen är det inte.\n\nAI-utvecklingen går så snabbt att allt färre kan ge prognos ens ett år framöver.\n\nInom AI-världen pratar man ofta om en \"inflektionspunkt\" (inflection point) som den tidpunkt då tekniken går från linjär till exponentiell tillväxt, förändrar hur vi lever och arbetar, eller när AI-drivna agenter (Agentic AI) tar över mer avancerade uppgifter och skapar nya marknader.\n\nDet går inte att förutse vad som änder bortom inflektionspunkten nästan som att det inte går att se innanför händelsehorisonten vid ett svart hål.\n\nDen AI du har idag är den sämsta du någonsin kommer att ha. Den bättre och bättre i allt snabbare takt.",
@@ -361,7 +361,7 @@ window.LECTURE = {
       "titel": "Kan man lita på den?",
       "svar": "Den är fantastisk på mönster därmed tidigare blind för sanning. 333 333 331 ser ut som primtal men går att faktorisera som 17 × 19 607 843.",
       "bilder": [
-        "Mönster är vackra, bevis är sanning.png"
+        "Mönster är vackra, bevis är sanning.jpg"
       ],
       "fordjupning": "Talföljden bildas genom att skjuta in en trea i taget: 31, 331, 3331, 33331 … De åtta första talen är alla primtal. Det nionde, 333 333 331, ser precis likadant ut  men är 17 × 19 607 843.\n\nSå ser AI:s misstag ofta ut: mönstret håller precis länge nog för att vi ska sluta kontrollera. \n\nEtt snabbt primtalstest (som Miller–Rabin) svarar 'troligen primtal' med hög säkerhet. Men 'troligen' är inte 'bevisat'. \n\nSkillnaden mellan statistik och bevis är exakt skillnaden mellan en språkmodells gissning och matematikens sanning.\n\nNörddetalj: att pröva delbarhet med små primtal (7, 11, 13, 17 …) avslöjar bluffen snabbt , redan 17 fäller talet. Det som ser oövervinnerligt ut faller ofta för det enklaste verktyget i lådan.",
       "anteckningar": "När jag tänker tillbaka på mitt första möte med ChatGPT i november 2022 så gick det till ungefär så här. Jag var i obalans efter en borrelia infektion men AI hjälpte mig att hitta min sanna styrka. \n\nIfrågasätta, nyfiket undersöka och stå på mig i det, söka mönster och bygga system.\n\nTalet 333 333 331, trehundratrettiotre miljoner trehundratrettiotre tusen trehundratrettioen.\n\n31, 331, 3331, 33331 … alla primtal!\nAI:n: '333 333 331 är troligen primtal tänkte tidigare modeller. Idag kan de flesta modellerna räkna men det tog tid innan man kunde lita på matematiska beräkningar.\n\nSanningen: 333 333 331 = 17 × 19 607 843.\n\nMönster är vackra. Bevis är sanning. \n\nSå startade jag att testa olika AI och så granskar jag AI än idag om jag funderar på om modellen kan räkna.\n\nIdag kan dom flesta modeller räkna och jag har t o m suttit och spelat schack med en bildmodell.",
@@ -382,7 +382,7 @@ window.LECTURE = {
       "titel": "Hur vet jag vad som är sant?",
       "svar": "Var detektiv. Deepfakes och övertygande mönster, verifiera. Ha ett kodord i familjen. Fråga flera modeller men sätt dom i kontext.",
       "bilder": [
-        "Detektiven.png"
+        "Detektiven.jpg"
       ],
       "relaterat": [
         "010-40"
@@ -413,7 +413,7 @@ window.LECTURE = {
       "titel": "Är det farligt?",
       "svar": "Tekniken är neutral. Strid eller Astrid, rå kraft eller mänsklig värme. Vi väljer.",
       "bilder": [
-        "Strid eller Astrid.png"
+        "Strid eller Astrid.jpg"
       ],
       "fordjupning": "Tekniken i vänstra och högra bilden är samma teknik. Skillnaden är beställningen. \n\nAI optimerar det vi ber om så den verkliga frågan är vad vi som samhälle beställer: övervakning eller folkbildning, rädsla eller folkvett.\n\nDärför är AI-politik ingen teknikfråga utan en värderingsfråga, och 'vi väljer' är bokstavligt: upphandlingar, lagar, skolplaner. \n\nAstrid-vägen kräver att vanligt folk förstår tekniken. Annars väljer någon annan åt oss.",
       "anteckningar": "Samma teknik, två vägar.\nStrid: rå kapacitet, rädsla, varningsskyltar.\n\nAstrid: mänsklig värme, folkvett, sagor för barnen.\n\nVi väljer. Det är hela poängen.",
@@ -486,7 +486,7 @@ window.LECTURE = {
       "titel": "Tar den mitt jobb?",
       "svar": "Den tar mönstren. Kvar blir omdömet, frågorna och ansvaret, det som är vi. Värdet skapas i mötet.",
       "bilder": [
-        "Framtiden byggs tillsammans – bron.png"
+        "Framtiden byggs tillsammans – bron.jpg"
       ],
       "fordjupning": "Forskning om människa och AI-samarbete visar ett obekvämt mönster: människa plus AI kan bli sämre än AI ensam när människan bara gummistämplar maskinens förslag. \n\nLaget vinner först när rollerna är tydliga: maskinen föreslår, människan förstår uppgiften och äger beslutet.\n\nDet som håller bron uppe är alltså inte tekniken utan arbetsformen: lyssna, fråga, granska, ansvara. \n\nFörtroende är i sig en konstruktion som måste byggas.",
       "anteckningar": "Varken människor eller AI når framtiden själva, värdet skapas i mötet.\n\nMänniskor: erfarenhet, intuition, empati, ansvar. \n\nAI: data, mönster, hastighet.\n\nDet som håller bron uppe: lyssna, fråga, samverka, ansvara, lära, överlämna.",
@@ -505,7 +505,7 @@ window.LECTURE = {
         "Jocke – en kvinna i dans.png",
         "Jocke – med pensel.jpg",
         "Målningen – kvinnan lyfter mannen.png",
-        "Mona Lisa Anna.png"
+        "Mona Lisa Anna.jpg"
       ],
       "fordjupning": "Det var helt omöjligt att få en AI att måla en kvinna som i dans kunde lyfta en man tills jag kom på att jag kunde träna AI:n på Jockes konst där han svävar.\n\nAI tog fram bilden med hjälp av Jockes konst. Sedan målade  Jocke den på riktigt.\n\nDen hänger i en ateljé på riktigt: olja, duk, veckor av arbete. \n\nKänn efter var skillnaden sitter, kanske inte i ytan, men i avsikten.\n\nDet brukade kosta en förmögenhet att bli avporträtterad.\n\nFörr var ett målat porträtt ett privilegium.\nEtt tecken på makt, pengar eller historisk betydelse.\n\nIdag kan vem som helst skapa ett porträtt på några sekunder.\nTekniken har demokratiserat det som en gång var reserverat för kungar.\n\nDet säger något om vår tid, iInte bara om AI.  Utan om tillgång.\n\nFrågan är inte längre:\n“Vem har råd att bli sedd?”\n\nFrågan är:\n“Vad väljer vi att visa?” När kostnaden sjunker förändras makten.\n\nMin arbetstes: AI:n kan härma uttryck men inte mena något. \n\nKonstnären väljer, ångrar, offrar. Om någon i publiken protesterar, utmärkt, då har vi ett samtal.",
       "anteckningar": "AI tog fram bilden med hjälp av Jockes konst. Sedan gjorde Joakim ett riktigt konstverk inspirerad av den AI genererade bilden. \n\nJoakim kommer troligtvis att ansöka med den målade tavlan till Liljevalchs konsthall. Den har han målat för hand med olja.\n\nVad händer med konsten när maskinen målar och t o m kan göra en sång av en tavla?\n\nMänniskan bakom verket.\nAI:n kan imitera stilen men vem håller penseln?\n\nAlla kan idag få sitt porträtt målat, så har det inte alltid varit.\n\nBild-AI har 'sett' miljontals konstverk och lärt sig sambanden mellan ord och bild. Den lagrar inga kopior — men den bär stilarna. Att sätta in ett nytt ansikte i en klassiker tar sekunder.\n\nDet öppnar tre frågor på en gång: \n\nVad är ett original? \nVar går gränsen mellan hyllning och stöld? \nOch kan någon äga en stil? \n\nJurister och konstnärer sliter med alla tre. \n\nDet finns metadata i varje AI genererad bild som visar att det är AI. Fast om ett år har jag kanske en robot som kan måla. Hur ska man då kunna se om det var Joakim eller robototen som målade?",
@@ -540,14 +540,14 @@ window.LECTURE = {
       "svar": "Momo och de grå herrarna: låt ingen stjäla tiden i effektivitetens namn. Glöm heller inte hur mycket teknik har betytt för oss. Jag tror att få av oss skulle ha svårt att överleva bara några decennier eller århundraden bak i tiden.",
       "bilder": [
         "Momo och de grå herrarna.png",
-        "Hjulet & sjöfarten.png",
-        "Ångmasinen & elektriciteten.png",
-        "Kyl & frys.png",
-        "Tvätt & diskmaskin.png",
-        "Vi kopplar maskiner.png",
-        "Vi delar kunskap.png",
-        "Vi bär världen i fickan.png",
-        "vi lärde oss tänka.png"
+        "Hjulet & sjöfarten.jpg",
+        "Ångmasinen & elektriciteten.jpg",
+        "Kyl & frys.jpg",
+        "Tvätt & diskmaskin.jpg",
+        "Vi kopplar maskiner.jpg",
+        "Vi delar kunskap.jpg",
+        "Vi bär världen i fickan.jpg",
+        "vi lärde oss tänka.jpg"
       ],
       "fordjupning": "Michael Endes 'Momo' kom 1973: de grå herrarna övertalar människor att 'spara tid' och stjäl den. \n\nDe sparade timmarna kommer aldrig tillbaka. Känns det igen? \n\nVarje effektivitetsteknik har lovat oss fritid och levererat högre tempo.\n\nAI blir det stora testet: om den gör din vecka fyra timmar snabbare, vart går timmarna? \n\nOm svaret är 'fler möten' har de grå herrarna vunnit igen. \n\nMomos superkraft var att lyssna på riktigt. Behåll den.",
       "anteckningar": "Michael Endes 'Momo': de grå herrarna stjäl tid i effektivitetens namn. \n\nPortföljerna är märkta ROI, growth, efficiency.\n\nOm AI ger oss tid tillbaka: låt ingen stjäla den.\n\nMomo lyssnade. Det är superkraften.",
@@ -599,7 +599,7 @@ window.LECTURE = {
         "kritiskt tänkande"
       ],
       "bilder": [
-        "Gör den oss verkligen dummare.png"
+        "Gör den oss verkligen dummare.png"
       ]
     },
     {
@@ -610,9 +610,9 @@ window.LECTURE = {
       "bilder": [
         "Ada och Alan – tidslinjen.png",
         "o Hidden figures.png",
-        "ti Helen Meng.png",
-        "Fei-Fei Li.png",
-        "anna bilder.png"
+        "ti Helen Meng.jpg",
+        "Fei-Fei Li.jpg",
+        "anna bilder.jpg"
       ],
       "fordjupning": "Ada Lovelace skrev 1843 det som brukar räknas som världens första datorprogram — en algoritm för Bernoulli-tal, till en maskin som aldrig hann byggas. Viktigare ändå: hon såg att maskinen i princip kunde bearbeta allt som går att skriva som symboler — musik, språk — hundra år före sin tid.\n\nAlan Turing ställde 1936 frågan 'kan maskiner tänka?' och föreslog imitationsspelet: om du inte kan avgöra om du samtalar med människa eller maskin — spelar skillnaden roll? Vi lever mitt i den frågan nu.\n\nOch Grace Hopper byggde kompilatorn: idén att människor ska kunna tala med maskiner på något som liknar vanligt språk. Det är den raka linjen till dagens chattbottar.\n\nGår vi längre tillbaka:\n\nAntiken: först myter och berättelser om konstgjorda varelser och självgående maskiner, till exempel Hefaistos guldrobotar, Talos och Galatea i grekisk mytologi.\n\nFilosofi och logik: Aristoteles formaliserade logiskt tänkande, vilket senare blev en viktig grund för maskinellt resonemang.\n\nHellenistisk och tidig teknisk tradition: ingenjörer som Hero från Alexandria byggde automater och mekaniska system som kunde röra sig eller följa enkla regler.\n\nMedeltid och renässans: tänkare som Ramon Llull försökte kombinera begrepp mekaniskt för att skapa ny kunskap, och senare utvecklades idéer om beräkning och symbolmanipulation.\n\n1700- och 1800-tal: mekaniska räknemaskiner och logikens formalisering gjorde tanken mer matematisk och teknisk.\n\n1800-talet: Ada Lovelace ser att en maskin inte bara kan räkna, utan också i princip bearbeta symboler och göra mer än ren aritmetik.\n\n1936: Alan Turing ställde den klassiska frågan om maskiner kan tänka, vilket ofta ses som den moderna startpunkten för AI-tanken.\n\n1956: John McCarthy myntade själva termen “artificiell intelligens” och AI blev ett eget forskningsfält.",
       "anteckningar": "Jag har gjort så oändligt många olika tidslinjer. En del menar att Aristoteles som formaliserade tänkandet var den förste, andra att tanken fanns tidigare.\n\nLeibniz utarbetar ett slags universellt kalkylsystem på 1700-talet och mekanisering av tänkande, alltså att resonemang i princip kan formaliseras till beräkning. Han är också en viktig tidig spelare.\n\nFörsta bilden visar:\nAda Lovelace (1815–1852) den första algoritmen . Hon såg att maskinen kunde mer än räkna.\n\nAlan Turing (1912–1954) kan maskiner tänka? Han brukar ses som den moderna startpunkten för AI.\n1936 var då han publicerade \"On Computable Numbers\", där han beskrev den teoretiska Turingmaskinen och lade en av de viktigaste grunderna för modern datavetenskap och senare AI.\n\nLinjen Ada → Alan → Grace Hopper → von Neumann → idag.\nKvinnorna fanns där i alla fall från början. Och det har funnits många betydande kvinnliga insatser inom AI hela vägen.\n\nMen framtiden byggs nästan alltid av människor som arbetar i bakgrunden.\n\nNär världen följde raketuppskjutningar och astronauter mot månen satt tre kvinnor och löste de matematiska problem som gjorde resan möjlig.\n\nKatherine Johnson räknade fram banorna. Dorothy Vaughan såg framtiden komma och lärde sig programmering innan nästan någon annan gjorde det. Mary Jackson blev NASA:s första svarta kvinnliga ingenjör.\n\nDeras historia blev känd genom filmen Hidden Figures.\n\nDär techbranschen tävlar om vem som pratar snabbast, har Professor Helen Meng ägnat sitt forskarliv åt något annat: att lära AI att lyssna med tålamod. Att förstå mänskligt tal även när det inte längre följer de perfekta mönster som datorer förväntar sig.\n\nHennes forskning har bidragit till att utveckla AI som kan känna igen otydligt tal, rekonstruera förlorade röster och skapa helt nya möjligheter för människor att göra sig förstådda.\n\nVi känner igen en hund, ett träd eller en vän på ett ögonblick. För en dator var det länge nästan omöjligt.\n\nDet förändrades när Fei-Fei Li började bygga något som först verkade nästan omöjligt: en enorm bilddatabas där miljontals bilder märktes upp av människor. Resultatet blev ImageNet – en av de viktigaste byggstenarna bakom dagens AI.\n\nNär AI idag kan tolka fotografier, upptäcka sjukdomar på röntgenbilder eller hjälpa en synskadad att förstå sin omgivning, bygger mycket av det på den grunden.\n\nDet fascinerande är att genombrottet inte främst handlade om smartare algoritmer. Det handlade om att ge AI tillräckligt många exempel för att faktiskt kunna lära sig att se.\n\nFör mig är Fei-Fei Li också en påminnelse om något större.\n\nBakom många av de största tekniska genombrotten finns människor som inte bara vill bygga kraftfullare teknik, utan också göra den mer mänsklig.\n",
@@ -743,7 +743,7 @@ window.LECTURE = {
       "bilder": [
         "Bokföring med AI.png",
         "Verkligheten kommer på besök.png",
-        "Verkligheten kom – vi firade med burgare.png"
+        "Verkligheten kom – vi firade med burgare.jpg"
       ],
       "fordjupning": "Varför bokföring som testfall? \n\nFör att den är obarmhärtig: siffrorna stämmer eller stämmer inte, och en revisor granskar resultatet. \n\nEn perfekt miljö för att testa om AI håller i verkligheten och inte bara i demon.\n\nArbetsmodellen: AI:n gör grovjobbet (sortera, kontera, stämma av), människan äger besluten och ansvaret, och allt kontrolleras mot källorna. Mönster är vackra, bevis är sanning även i ekonomin.\n\nFacit från revisorsbesöket: det AI-byggda höll. Men lärdomen är större än bokföringen. Det som avgjorde var arbetsdelningen: maskinen räknade, människorna granskade, ingen litade blint på någon.\n\nOch burgarna är också en poäng: om AI tar grovjobbet ska den frigjorda tiden bli mänsklig tid över till samtal, skratt, kaffe. ",
       "anteckningar": "Mitt skarpaste test: hela bolagets bokföring, byggd tillsammans med AI.\n\nInte en demo utan på riktigt och fungerande i verkligheten. \n\nJag har aldrig varit stoltare än när min revisor kom på besök. Han fick en briefing av min AI om vilka beslut som var tvungen att tas och då dessa beslut hade fattats så drog AI igång.\n\nAI gjorde sista boköringarna, sammanställde mitt årsbokslut och inkomstdeklarationen.\n\nIdéer → verklighet: underlag, system, kontroll, ansvar.\n\nAI gör jobbet snabbare. Jag gör valen. Tillsammans blir det bättre.\n\nDet höll! Revisorn nöjd, Anna nöjd, AI:n nöjd — burgare nöjd.\nPoängen: människor träffas, AI levererar, allt blir klart.",
@@ -870,7 +870,7 @@ window.LECTURE = {
         "060-10"
       ],
       "bilder": [
-        "Skaparkaos.png"
+        "Skaparkaos.jpg"
       ],
       "anteckningar": "Så ser skapandet faktiskt ut: hundra utkast, en robotarm som säger ERROR.\nGuldkorn i kaoset det som verkar dåligt idag kan vara guld imorgon.\n\nGlöm aldrig \"Den AI du har idag är den sämsta du någonsin kommer att ha.\"",
       "fordjupning": "Så här ser AI-skapande faktiskt ut: hundra varianter, nittiosju i papperskorgen. Maskinen är generös men omdömeslös.\n\nUrvalet är fortfarande hantverket.\n\nDet gäller all AI-användning: värdet uppstår i din gallring, din smak, ditt nej. Guldkorn i kaos men bara för den som orkar sålla."
@@ -946,7 +946,7 @@ window.LECTURE = {
       "bilder": [
         "Rallyt – gamla kartan gäller ej.png",
         "Kaptenen till sjöss.png",
-        "Orienteraren på vift.png"
+        "Orienteraren på vift.jpg"
       ],
       "svar": "Gamla kartan gäller inte längre. Vägarna och spelreglerna har förändrats"
     },
@@ -963,8 +963,8 @@ window.LECTURE = {
       ],
       "anteckningar": "Bygg från grunden: vad vet vi säkert?\nSamma metod som fysiken och samma metod jag använder på AI.\n",
       "bilder": [
-        "Aristoteles – first principles.png",
-        "Aristoteles – reel.png"
+        "Aristoteles – first principles.jpg",
+        "Aristoteles – reel.jpg"
       ],
       "svar": "Skala bort allt du antagit och bygg från det som bevisligen är sant."
     },
@@ -984,7 +984,7 @@ window.LECTURE = {
       ],
       "anteckningar": "Deep Blue vs Kasparov 1997\n\n1997: maskinen slår världsmästaren. Rå beräkningskraft + regler.\nKasparov efteråt: 'jag kunde känna en ny sorts intelligens'.\n\nJag älskar schack och mina favoritfilmer är dramatiseringen \"The Queen's Gambit\" samt \"Queen of Chess\" en amerikansk dokumentärfilm från 2026 som utforskar den ungerska schackstormästaren Judit Polgárs liv och karriär. \n\n1997 slog Deep Blue Kasparov och 2002 blev han även tillslut slagen av Judit. \n\nJudit var med och tränade Deep Blue och det är mycket möjligt att hon hade kunnat vinna över Kasparov tidigare om han inte hade gjort ett väldigt ogentlemanigt fusk. \n\nFantastiska spelare ändå båda två.",
       "bilder": [
-        "Deep Blue vs Kasparov 1997.png"
+        "Deep Blue vs Kasparov 1997.jpg"
       ],
       "svar": "Jag kunde känna en ny sorts intelligens sa Kasparov, Ändå var det rå beräkningskraft som den gången gjorde att maskinen vann"
     },
@@ -1206,7 +1206,7 @@ window.LECTURE = {
       ],
       "anteckningar": "Vi sätter frågorna, värderingarna och ramarna. Människan äger alltid beslutet.\n\nKedjan: fråga → mångfald av perspektiv → utforska & utmana → sammanväg & enas → förklara varför → människan beslutar → följ upp & lär.\n\nInte en AI som tar över, utan alla AI som tar hand om. ",
       "bilder": [
-        "Tillsammans för bästa beslut.png"
+        "Tillsammans för bästa beslut.jpg"
       ],
       "svar": "Jag skulle gärna se en opartisk AI sammanfatta och ifrågasätta både debatter och beslut.",
       "fordjupning": "Skulle TV-debatter och beslut se annorlunda ut med AI?\n\nJa och det börjar redan hända.\n\nAI som sammanfattar och ifrågasätter debatter:\n\nTaiwan (Taiwan) är kanske det mest kända exemplet. En AI-förstärkt plattform som främjar konstruktiv dialog, identifierar gemensam mark och strukturerar debatter för att undvika polarisering.\n\nPanoramic av Make.org använder AI för att sammanfatta parlamentariskt språk och göra det tillgängligt för en bredare publik.\n\nMAPLE (Massachusetts) använder AI för att sammanfatta och kategorisera medborgarnas yttranden så att beslutsfattare får tydliga, organiserade insikter i folkopinionen.\n\nHansard Researcher (Australien, lanserades juli 2026) är en öppen källkods-pipeline som samlar 21 års parlamentsdebatter. 6,4 miljoner stycken, 1,25 miljoner talomgångar, 891 000 omröstningar, och gör dem sökbara och analysbara i realtid med live-dashboards.\n\nOECD analyserade 50 AI-användningsfall från 22 medlemsländer och identifierade nio kategorier, inklusive \"sense-making\" (att hjälpa till att analysera stora mängder text), \"moderation\" (förhindra spam, hat och manipulation) och \"facilitation\" (identifiera gemensam mark i live-debatter).\n\nPolyfact (Frankrike) transkriberar och sammanfattar varje debatt i nationalförsamlingen, senaten och EU-institutionerna i Bryssel med tidsstämplar så att man kan klicka på en mening och hamna på exakt den sekund i videon där det sades.\n\nEn forskargrupp vid University of Passau har studerat hur AI kan argumentera i politiska debatter, med BBC's Question Time som modell och funnit att AI kan vara övertygande även i policydebatter.\n\nEn opartisk AI som sammanfattar och ifrågasätter är inte science fiction. Det är ett naturlig nästa steg som flera länder redan rör sig mot. Men det finns viktiga utmaningar:\n\nVad som fungerar redan idag:\n\nAI kan transkribera debatter i realtid och sammanfatta dem\n\nAI kan identifiera logiska fel, motsägelser och sakfel i påståenden\n\nAI kan kategorisera argument och visa vilka som stöds av bevis\n\nAI kan göra komplexa beslut tillgängliga för vanliga medborgare\n\nVad som fortfarande är svårt:\n\n\"OpArtighet\" ingen AI är helt opartisk. Träningsdata, designval och prompt-konstruktion påverkar alltid resultatet\n\n\"Kontextförståelse\" politisk retorik bygger på underförstådda budskap som AI kan missa\n\n\"Maktbalans\" vem äger AI-systemet? Vem granskar granskaren?\n\nMen jämfört med dagens läge där debatter sammanfattas av journalister med egna vinklar, redaktioner med ägarintressen och algoritmer optimerade för engagemang snarare än förståelse, skulle en väl designad AI med transparent metod och mänsklig granskning vara ett betydligt mer opartiskt alternativ.\n\nVad Sverige gör (eller snarare inte gör). Det slående är att Sverige knappt syns i dessa sammanställningar. Norge leder världen i ansvarsfull AI, Estland rankas 10:e, Finland nämns bland pionjärerna men Sverige saknas. \n\nDet finns ett verkligt behov av en plattform som gör AI tillgänglig för medborgare, inte bara för storföretag och myndigheter.\n\nTänk dig en AI som sammanfattar och ifrågasätter svenska debatter och beslut i realtid?\n\n"
@@ -1226,7 +1226,7 @@ window.LECTURE = {
       ],
       "anteckningar": "Min AI-assistent Ada och minnet i tre lager:\n\n1. AI:ns arbetsminne  \n2. Min aktiva position  \n3. Det fullständiga arkivet.\n\nAllt fångas, inget raderas, jag bestämmer. Från barnets första tankar till visdomens sista råd.",
       "bilder": [
-        "Tre lager – en livsresa.png"
+        "Tre lager – en livsresa.jpg"
       ],
       "svar": "Tre lager – en livsresa. Jag försöker bygga precis det just nu. Medan jag minns så petar jag in sådant en framtida AI kan påminna mig när jag blir gammal och ensam."
     },
