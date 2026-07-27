@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-27 11:51:40)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-27 11:52:00)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -363,7 +363,7 @@ window.LECTURE = {
       "bilder": [
         "Mönster är vackra, bevis är sanning.png"
       ],
-      "fordjupning": "Talföljden bildas genom att skjuta in en trea i taget: 31, 331, 3331, 33331 … De åtta första talen är alla primtal. Det nionde, 333 333 331, ser precis likadant ut — men är 17 × 19 607 843.\n\nSå ser AI:s misstag ofta ut: mönstret håller precis länge nog för att vi ska sluta kontrollera. \n\nEtt snabbt primtalstest (som Miller–Rabin) svarar 'troligen primtal' med hög säkerhet. Men 'troligen' är inte 'bevisat'. \n\nSkillnaden mellan statistik och bevis är exakt skillnaden mellan en språkmodells gissning och matematikens sanning.\n\nNörddetalj: att pröva delbarhet med små primtal (7, 11, 13, 17 …) avslöjar bluffen snabbt , redan 17 fäller talet. Det som ser oövervinnerligt ut faller ofta för det enklaste verktyget i lådan.",
+      "fordjupning": "Talföljden bildas genom att skjuta in en trea i taget: 31, 331, 3331, 33331 … De åtta första talen är alla primtal. Det nionde, 333 333 331, ser precis likadant ut  men är 17 × 19 607 843.\n\nSå ser AI:s misstag ofta ut: mönstret håller precis länge nog för att vi ska sluta kontrollera. \n\nEtt snabbt primtalstest (som Miller–Rabin) svarar 'troligen primtal' med hög säkerhet. Men 'troligen' är inte 'bevisat'. \n\nSkillnaden mellan statistik och bevis är exakt skillnaden mellan en språkmodells gissning och matematikens sanning.\n\nNörddetalj: att pröva delbarhet med små primtal (7, 11, 13, 17 …) avslöjar bluffen snabbt , redan 17 fäller talet. Det som ser oövervinnerligt ut faller ofta för det enklaste verktyget i lådan.",
       "anteckningar": "31, 331, 3331, 33331 … alla primtal!\nAI:n: '333 333 331 är troligen primtal tänkte tidigare modeller. Idag kan de flesta modellerna räkna men det tog tid innan man kunde lita på matematiska beräkningar.\n\nSanningen: 333 333 331 = 17 × 19 607 843.\n\nMönster är vackra. Bevis är sanning. \n\nSå startade jag att testa olika AI och så granskar jag AI än idag om jag funderar på om modellen kan räkna.\n\nIdag kan dom flesta modeller räkna och jag har t o m suttit och spelat schack med en bildmodell.",
       "begrepp": [
         "primtal",
