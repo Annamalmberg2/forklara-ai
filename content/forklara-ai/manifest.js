@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-27 12:00:29)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-27 12:44:10)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -387,8 +387,8 @@ window.LECTURE = {
       "relaterat": [
         "010-40"
       ],
-      "anteckningar": "Var detektiv, fundera och verifiera.\nDeepfakes: rösten kan låta som mammas, ansiktet kan vara ditt. Bilden ljuger numera lika bra som texten.\n\nEtt kodord i familjen, en enkel fråga bara ni kan svaret på. Det slår all teknik.\n\nHur många har fått konstiga samtal?",
-      "fordjupning": "En övertygande lögn har aldrig varit billigare att tillverka. \n\nEn röst kan klonas ur några sekunder ljud, ett ansikte läggas på en främmande kropp, en 'nyhet' skrivas i tusental på en eftermiddag. Det som förr krävde en studio gör vem som helst nu på en telefon.\n\nDärför flyttar bevisbördan. Fråga inte 'ser det äkta ut?', det gör det alltid. Fråga 'var kommer det ifrån, vem tjänar på att jag tror det, och kan jag nå källan en annan väg?'. Ring numret du redan har, inte det du fick. Ha ett kodord hemma.\n\nMin arbetstes: sanning är inte längre något man ser, det är något man kontrollerar. Detektivens vana, ett steg till innan du tror. Det är den nya grundkursen.",
+      "anteckningar": "Var detektiv, fundera och verifiera.\nDeepfakes: rösten kan låta som mammas, ansiktet kan vara ditt. Bilden ljuger numera lika bra som texten.\n\nEtt kodord i familjen, en enkel fråga bara ni kan svaret på. Det slår all teknik.\n\nSe också skönheten i det AI skapar. \n\nIbland är det som att en del inte tycker något är vär för att det är skapat av AI. Själv tycker jag oftast det AI får ihop är fantastisk.\n\nJag lyssnar en hel del på AI genererade tutorials, AI genererad musik och fångas av AI genererade bilder.\n\nJag tror inte vi i framtiden kommer att fråga vad som är AI genererat. Jag tror dock att vi kommer att bli allt mer fachinerade av sådant som inte är genererat av AI.\n\n",
+      "fordjupning": "En övertygande lögn har aldrig varit billigare att tillverka. \n\nEn röst kan klonas ur några sekunder ljud, ett ansikte läggas på en främmande kropp, en 'nyhet' skrivas i tusental på en eftermiddag. Det som förr krävde en studio gör vem som helst nu på en telefon.\n\nDärför flyttar bevisbördan. Fråga inte 'ser det äkta ut?', det gör det alltid. Fråga 'var kommer det ifrån, vem tjänar på att jag tror det, och kan jag nå källan en annan väg?'. Ring numret du redan har, inte det du fick. Ha ett kodord hemma.\n\nMin arbetstes: sanning är inte längre något man ser, det är något man kontrollerar. Detektivens vana, ett steg till innan du tror. Det är den nya grundkursen.\n\nDeepfakes är inget nytt, 2020 gjorde MIT en deepfake av Obama med hjälp av masininlärning, https://youtu.be/l82PxsKHxYc. Då tog produktionen tid och kostade mycket pengar. Idag kan vem som helst göra det för låg kostnad och utan kodkunskaper. Tekniken har funnits där länge och idag har vi alla fått tillgång till den. \n\nDen här tekniken hade varit mycket farligare om bara några få hade fått nyttja den.\n\nVi är nog lite vilsna och söker äkthet samtidigt som andra tar det äkta för att medvetet få det att se ut som fake.\n\nDå jag var i Långbans gruvby så såg jag några fotmontage som såg helt AI genererade ut, det var dom inte. Skaparen av dom,  Larseric Vänerlöf var Lesjöfors stora bildskapare. Honstnärliga redskap var collage och fotomontage. ",
       "begrepp": [
         "deepfake",
         "källkritik",
@@ -400,6 +400,10 @@ window.LECTURE = {
         [
           "Daisy en lurendrejares största mardröm",
           "https://www.youtube.com/watch?v=RV_SdCfZ-0s"
+        ],
+        [
+          "MIT 202 Obama",
+          "https://youtu.be/l82PxsKHxYc"
         ]
       ]
     },
