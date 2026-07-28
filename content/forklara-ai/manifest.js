@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-28 09:23:26)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-28 09:34:53)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -575,7 +575,7 @@ window.LECTURE = {
       "id": "030-30",
       "sektion": "030",
       "titel": "Vem äger tiden den ger mig?",
-      "svar": "Momo och de grå herrarna: låt ingen stjäla tiden i effektivitetens namn. Glöm heller inte hur mycket teknik har betytt för oss. Jag tror att få av oss skulle ha svårt att överleva bara några decennier eller århundraden bak i tiden.",
+      "svar": "Låt ingen stjäla din tid i effektivitetens namn. Glöm heller inte hur mycket teknik har betytt för oss genom tiderna.",
       "bilder": [
         "Momo och de grå herrarna.png",
         "Hjulet & sjöfarten.jpg",
@@ -588,7 +588,7 @@ window.LECTURE = {
         "vi lärde oss tänka.jpg"
       ],
       "fordjupning": "Michael Endes 'Momo' kom 1973: de grå herrarna övertalar människor att 'spara tid' och stjäl den. \n\nDe sparade timmarna kommer aldrig tillbaka. Känns det igen? \n\nVarje effektivitetsteknik har lovat oss fritid och levererat högre tempo.\n\nAI blir det stora testet: om den gör din vecka fyra timmar snabbare, vart går timmarna? \n\nOm svaret är 'fler möten' har de grå herrarna vunnit igen. \n\nMomos superkraft var att lyssna på riktigt. Behåll den.",
-      "anteckningar": "Michael Endes 'Momo': de grå herrarna stjäl tid i effektivitetens namn. \n\nPortföljerna är märkta ROI, growth, efficiency.\n\nOm AI ger oss tid tillbaka: låt ingen stjäla den.\n\nMomo lyssnade. Det är superkraften.",
+      "anteckningar": "Michael Endes 'Momo' beskriver de grå herrarna som stjäl tid i effektivitetens namn. \n\nPortföljerna är märkta ROI, growth, efficiency.\n\nOm AI ger oss tid tillbaka, låt ingen stjäla den.\n\nMomo lyssnade. Det är superkraften.\n\nVi är nog alla glada för de flesta tekniksprång som skett som faktiskt förenklat våra liv och gjort vår värld större.\n\nDet teknikskifte vi nu står inför är annorlunda och enligt alla experter kommer det att bli det mest kännbara.\n\nJag vill lära mig nyttja tekniken så jag får mer tid över för äventyr och människor.\n\nJag vill också lära er att nytta den nya tekniken så att ni får tid över att hänga mer med mig.",
       "personer": [
         "Michael Ende",
         "Momo"
