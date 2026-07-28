@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-28 20:21:53)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-28 20:24:27)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -137,13 +137,13 @@ window.LECTURE = {
       "id": "000-30",
       "sektion": "000",
       "titel": "Gör AI oss dummare eller tvingas vi bli smartare?",
-      "svar": "Svaret är varken maskinens eller teknikens, det är vårt. Maskinen besitter en oändlig kapacitet att lära och lära ut ut, förklara om och anpassa sig på ett sätt som ingen mänsklig lärare, oavsett hur skicklig hon är.",
+      "svar": "Svaret är varken maskinens eller teknikens, det är vårt. Maskinen besitter en oändlig kapacitet att lära och lära ut ut, förklara om och anpassa sig på ett sätt som ingen mänsklig lärare, oavsett hur skicklig.",
       "relaterat": [
         "020-10",
         "030-50"
       ],
       "anteckningar": "Det här är frågan hela föreläsningen hänger på men den har inget färdigt svar.\n\nAI kan bli en krycka som gör oss lata, eller ett bryne som tvingar fram skarpare frågor.\n\nSkillnaden är inte tekniken. Det är hur vi väljer att använda den.\nMaskinen gör mönster. Vi gör mening. \n\nDet är det viktigaste jag vill att ni bär med er härifrån. Ändå har vi knappt börjat på denna resa.",
-      "fordjupning": "Räknedosan gjorde oss inte sämre på matematik, den flyttade tänkandet uppåt, från siffror till samband. Men bara för den som fortsatte förstå vad hon räknade. Den som slutade tänka fick en svart låda.\n\nSå är det med AI också. Låter vi den svara åt oss slutar vi öva det som gör oss kloka. \n\nLåter vi den ifrågasätta oss, föreslå motargument och tvinga fram nästa fråga, då blir vi vassare än förr. Verktyget avgör ingenting. Vanan gör det.\n\nAI gör oss varken dummare eller smartare av sig själv. Den förstärker den riktning vi redan går. Därför är den enda intressanta frågan inte vad maskinen kan, utan vad vi väljer att fortsätta göra själva.\n\nVi kan foksera på högre mål och låta AI göra saker som bara tar onödig tid i anspråk.",
+      "fordjupning": "Räknedosan gjorde oss inte sämre på matematik, den flyttade tänkandet uppåt, från siffror till samband. Men bara för den som fortsatte förstå vad hon räknade. Den som slutade tänka fick en svart låda.\n\nSå är det med AI också. Låter vi den svara åt oss slutar vi öva det som gör oss kloka. \n\nLåter vi den ifrågasätta oss, föreslå motargument och tvinga fram nästa fråga, då blir vi vassare än förr. Verktyget avgör ingenting. Vanan gör det.\n\nAI gör oss varken dummare eller smartare av sig själv. Den förstärker den riktning vi redan går. Därför är den enda intressanta frågan inte vad maskinen kan, utan vad vi väljer att fortsätta göra själva.\n\nVi kan foksera på högre mål och låta AI göra saker som bara tar onödig tid i anspråk.\n\nVåga tänk sade min storebror när jag tog mina stapplande första steg att försöka förstå matematik. Våga tänk är nog det bästa rådet jag någonsin fått.",
       "begrepp": [
         "röda tråden",
         "mönster och mening",
