@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-28 07:51:23)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-28 08:00:22)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -164,8 +164,8 @@ window.LECTURE = {
       "bilder": [
         "Svampskogen – inte en maskin, ett mycel.jpg"
       ],
-      "fordjupning": "Du kan gasa, bromsa och styra en bil — och den gör exakt vad mekaniken och ritningen tillåter. Det finns en färdig kedja för varje skruv.\n\nMed ett neuralt nätverk styr du också ingången (din prompt), men det som händer under huven är inte ritat, det är odlat. Miljarder små mönster och vikter samverkar på sätt som inte ens skaparna helt kan förutsäga. Du styr riktningen, men AI:n navigerar i sitt eget mycel. Ingen kan peka på skruven där en viss kunskap sitter.\n\nFörmågor dyker upp och brister visar sig på sätt som förvånar även de mest insatta forskarna. \n\nDet finns ingen färdig manual; man måste testa sig fram till vad den kan.\n\nNär hela internet måste lära sig läsa intentioner.\n\nDet här skiftet från mekaniska skruvar till levande nätverk händer inte bara i modellerna, utan i hela digitala infrastrukturen runt oss.",
-      "anteckningar": "AI är både en maskin och inte. Vi skulle kunna likna AI som ett mycel. \n\nFrågan är inte vilken svamp som vinner, utan hur vi lär oss navigera skogen.\n\nModellsvamparna: Claude textsmeden, ChatGPT samtalssvampen, Gemini scouten, Grok frågeställaren, DeepSeek djupdykaren, Mistral kraftsvampen, Copilot hjälpande handen, Perplexity spanaren.\n\nDitt mycel: dina minnen, värderingar och drömmar, din förankring.",
+      "fordjupning": "Du kan gasa, bromsa och styra en bil  och den gör exakt vad mekaniken och ritningen tillåter. Det finns en färdig kedja för varje skruv.\n\nMed ett neuralt nätverk styr du ingången (din prompt), men det som händer under huven är inte ritat, det är odlat. \n\nMiljarder små mönster och vikter samverkar på sätt som inte ens skaparna helt kan förutsäga. \n\nDu styr riktningen, men AI:n navigerar i sitt eget mycel. Ingen kan peka på skruven där en viss kunskap sitter.\n\nHur förmågor dyker upp, brister och visar sig på sätt som förvånar även de mest insatta forskarna. \n\nDet finns ingen färdig manual utan var och en måste testa sig fram för att optimera AI att hjälpa just dig på bästa sätt.\n\nDet här skiftet från mekaniska skruvar till levande nätverk händer inte bara i modellerna, utan i hela digitala infrastrukturen runt oss.\n\nHela internet börjar lära sig läsa intentioner och jobbar smartas med att ge din AI olika mål.",
+      "anteckningar": "AI är både en maskin och inte. Vi skulle kunna likna AI som ett mycel. \n\nAI är inte en modell det är olika modeller som vi ger olika verktyg.\n\nFrågan är inte vilken modell som vinner, utan hur vi lär oss navigera skogen.\n\nModellsvamparna: Claude textsmeden, ChatGPT samtalssvampen, Gemini scouten, Grok frågeställaren, DeepSeek djupdykaren, Mistral kraftsvampen, Copilot hjälpande handen, Perplexity spanaren.\n\nDitt mycel, dina minnen, värderingar och drömmar, din förankring.",
       "begrepp": [
         "svampskogen",
         "mycel",
