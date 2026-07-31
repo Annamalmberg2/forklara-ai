@@ -1013,13 +1013,13 @@ body.zoomad #klickzon-bak, body.zoomad #klickzon-fram { pointer-events: none; }
 /* Fördjupningen som lugn helsida */
 .ford-overlay {
   position: fixed; inset: 0; z-index: 60;
-  background: rgba(28, 34, 30, 0.55);
-  display: flex; justify-content: center;
+  background: rgba(24, 30, 26, 0.94);   /* nästan heltäckande — en lugn helsida, inget stör */
   padding: 0; overflow-y: auto;
 }
 .ford-sida {
   background: var(--paper); width: 100%; max-width: 760px;
-  min-height: 100%; padding: 72px clamp(24px, 6vw, 80px) 96px;
+  margin: 0 auto; min-height: 100vh;    /* block + margin auto: målar bakgrunden även vid scroll */
+  padding: 72px clamp(24px, 6vw, 80px) 96px;
   box-shadow: 0 0 80px -20px rgba(28, 34, 30, 0.5);
 }
 .ford-eyebrow {
@@ -1032,10 +1032,60 @@ body.zoomad #klickzon-bak, body.zoomad #klickzon-fram { pointer-events: none; }
   margin: 0 0 32px; padding-bottom: 24px; border-bottom: 1px solid var(--hair);
   font-style: italic;
 }
-.ford-text p {
+.ford-text > p {
   font-size: clamp(16px, 2.1vw, 19px); line-height: 1.72; margin: 0 0 20px;
   max-width: 62ch;
 }
+
+/* ---- Designsystem för rika fördjupningar (klistras in som HTML) ---- */
+.ford-sida .ingress { font-size: 16px; color: var(--ink-2, #555); line-height: 1.8; margin: 0 0 40px; max-width: 60ch; }
+.ford-sida .section { margin-bottom: 34px; }
+.ford-sida .section-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px; flex-wrap: wrap; }
+.ford-sida .num { font-size: 12px; font-weight: 700; color: var(--accent); min-width: 20px; }
+.ford-sida .concept { font-size: 18px; font-weight: 700; color: var(--ink, #111); }
+.ford-sida .tag { font-size: 11px; padding: 2px 10px; border-radius: 11px; border: 1px solid var(--hair); color: var(--ink-2, #666); }
+.ford-sida .body { font-size: 15.5px; color: #3a3a3a; line-height: 1.8; margin-left: 30px; max-width: 62ch; }
+.ford-sida .body strong { color: var(--ink, #111); font-weight: 600; }
+.ford-sida .body em { font-style: italic; color: #3a3a3a; }
+.ford-sida .why, .ford-sida .lost, .ford-sida .insight {
+  margin-left: 30px; margin-top: 12px; padding: 12px 16px;
+  border-left: 3px solid; border-radius: 0 8px 8px 0; max-width: 62ch;
+}
+.ford-sida .why { border-color: #b9c4bd; background: #f3f6f4; }
+.ford-sida .lost { border-color: #EF9F27; background: #fffaf1; }
+.ford-sida .insight { border-color: #7F77DD; background: #f5f4ff; }
+.ford-sida .why-label, .ford-sida .lost-label, .ford-sida .insight-label {
+  font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 5px;
+}
+.ford-sida .why-label { color: #3f6b52; }
+.ford-sida .lost-label { color: #854F0B; }
+.ford-sida .insight-label { color: #534AB7; }
+.ford-sida .why-text, .ford-sida .lost-text, .ford-sida .insight-text { font-size: 13.5px; color: #555; line-height: 1.65; }
+.ford-sida .why-text strong, .ford-sida .lost-text strong, .ford-sida .insight-text strong { color: var(--ink, #111); }
+.ford-sida hr { border: none; border-top: 1px solid var(--hair); margin: 40px 0; }
+.ford-sida .milestone-head, .ford-sida .extra-head, .ford-sida .future-head, .ford-sida .shield-label, .ford-sida .shield-sources-label {
+  font-size: 11px; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 16px;
+}
+.ford-sida .milestone { display: flex; gap: 14px; margin-bottom: 14px; align-items: baseline; }
+.ford-sida .m-name { font-size: 14px; font-weight: 700; color: var(--ink, #111); min-width: 140px; flex-shrink: 0; }
+.ford-sida .m-desc { font-size: 14px; color: #3a3a3a; line-height: 1.6; }
+.ford-sida .extra-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 34px; }
+.ford-sida .extra-name { font-size: 14px; font-weight: 700; color: var(--ink, #111); margin-bottom: 2px; }
+.ford-sida .extra-desc { font-size: 13px; color: #555; line-height: 1.55; }
+.ford-sida .future-box { background: #f3f6f4; border-radius: 12px; padding: 22px 24px; margin-top: 40px; }
+.ford-sida .future-body { font-size: 15px; color: #3a3a3a; line-height: 1.8; }
+.ford-sida .future-body strong { color: var(--ink, #111); font-weight: 600; }
+.ford-sida table { margin-left: 30px; margin-top: 14px; width: calc(100% - 30px); border-collapse: collapse; max-width: 62ch; }
+.ford-sida th { font-size: 11px; font-weight: 700; color: var(--accent); text-align: left; padding: 7px 11px; border-bottom: 1px solid var(--hair); text-transform: uppercase; letter-spacing: .04em; }
+.ford-sida td { font-size: 13.5px; color: #3a3a3a; padding: 9px 11px; border-bottom: 1px solid #eef1ef; line-height: 1.5; vertical-align: top; }
+.ford-sida td strong { color: var(--ink, #111); }
+.ford-sida .shield { margin: 40px 0; padding: 22px 24px; border: 2px solid var(--accent); border-radius: 12px; background: #fafbfa; }
+.ford-sida .shield-body { font-size: 15px; color: #333; line-height: 1.8; }
+.ford-sida .shield-body strong { color: var(--ink, #111); }
+.ford-sida .shield-sources { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--hair); }
+.ford-sida .source-item { font-size: 12px; color: #666; line-height: 1.6; margin-bottom: 5px; }
+.ford-sida .source-item a { color: #534AB7; text-decoration: none; }
+.ford-teaser { font-style: italic; color: var(--ink-2, #555); }
 .ford-stang {
   position: fixed; top: 18px; right: 22px; z-index: 61;
   background: var(--paper); border: 1px solid var(--hair); border-radius: 20px;

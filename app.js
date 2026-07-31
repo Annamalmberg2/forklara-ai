@@ -28,6 +28,9 @@
     ["Anna Malmberg · LinkedIn", "https://www.linkedin.com/in/annamalmberg2"]
   ];
 
+  // Innehåller fältet rik HTML (designsystemet) eller bara löptext?
+  const ärHtml = s => /<(div|p|table|section|h[1-6]|ul|ol|strong|br)[\s/>]/i.test(String(s || ""));
+
   // Fördjupningen som lugn, läsbar HELSIDA — för den som vill nörda i lugn och ro.
   function visaFordjupningHelsida(k) {
     const sek = sektioner.get(k.sektion);
@@ -38,8 +41,12 @@
     const rubrik = el("h1", "ford-rubrik", k.titel || "Fördjupning");
     const svar = k.svar ? el("p", "ford-svar", k.svar) : null;
     const text = el("div", "ford-text");
-    String(k.fordjupning || "").split(/\n\s*\n/).forEach(st =>
-      text.appendChild(el("p", null, st.replace(/\n/g, " "))));
+    if (ärHtml(k.fordjupning)) {
+      text.innerHTML = k.fordjupning;   // rik HTML — designsystemet renderas fullt ut
+    } else {
+      String(k.fordjupning || "").split(/\n\s*\n/).forEach(st =>
+        text.appendChild(el("p", null, st.replace(/\n/g, " "))));
+    }
     const stang = el("button", "ford-stang", "✕ Stäng");
     stang.onclick = () => bak.remove();
     sida.append(eyebrow, rubrik);
@@ -252,12 +259,21 @@
     ant.textContent = k.anteckningar || "";
     $("panel-anteckningar-block").hidden = !k.anteckningar;
 
-    // Fördjupningen — hopfälld tills någon vill nörda
+    // Fördjupningen — hopfälld tills någon vill nörda. Kan vara löptext ELLER
+    // rik HTML (designsystemet med rutor/tabeller). Rik HTML visas i sin fulla
+    // prakt på helsidan; i panelen räcker ingressen som smakprov.
     const ford = $("panel-fordjupning");
     ford.innerHTML = "";
     if (k.fordjupning) {
-      String(k.fordjupning).split(/\n\s*\n/).forEach(st =>
-        ford.appendChild(el("p", null, st.replace(/\n/g, " "))));
+      if (ärHtml(k.fordjupning)) {
+        const tmp = el("div"); tmp.innerHTML = k.fordjupning;
+        const ing = tmp.querySelector(".ingress");
+        const smak = ing ? ing.textContent : (tmp.textContent || "").trim().slice(0, 220) + " …";
+        ford.appendChild(el("p", "ford-teaser", smak));
+      } else {
+        String(k.fordjupning).split(/\n\s*\n/).forEach(st =>
+          ford.appendChild(el("p", null, st.replace(/\n/g, " "))));
+      }
       const helsida = el("button", "ford-helsida", "⤢ Läs som helsida");
       helsida.onclick = () => visaFordjupningHelsida(k);
       ford.appendChild(helsida);
