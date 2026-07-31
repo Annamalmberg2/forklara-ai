@@ -28,6 +28,30 @@
     ["Anna Malmberg · LinkedIn", "https://www.linkedin.com/in/annamalmberg2"]
   ];
 
+  // Fördjupningen som lugn, läsbar HELSIDA — för den som vill nörda i lugn och ro.
+  function visaFordjupningHelsida(k) {
+    const sek = sektioner.get(k.sektion);
+    const bak = el("div", "ford-overlay");
+    const sida = el("div", "ford-sida");
+    const eyebrow = el("div", "ford-eyebrow",
+      (sek && !sek.bakom ? sek.id + " · " : "") + (sek ? sek.namn : ""));
+    const rubrik = el("h1", "ford-rubrik", k.titel || "Fördjupning");
+    const svar = k.svar ? el("p", "ford-svar", k.svar) : null;
+    const text = el("div", "ford-text");
+    String(k.fordjupning || "").split(/\n\s*\n/).forEach(st =>
+      text.appendChild(el("p", null, st.replace(/\n/g, " "))));
+    const stang = el("button", "ford-stang", "✕ Stäng");
+    stang.onclick = () => bak.remove();
+    sida.append(eyebrow, rubrik);
+    if (svar) sida.appendChild(svar);
+    sida.appendChild(text);
+    bak.append(stang, sida);
+    bak.onclick = e => { if (e.target === bak) bak.remove(); };
+    const escStäng = e => { if (e.key === "Escape") { bak.remove(); document.removeEventListener("keydown", escStäng); } };
+    document.addEventListener("keydown", escStäng);
+    document.body.appendChild(bak);
+  }
+
   const sektioner = new Map(L.sektioner.map(s => [s.id, s]));
   const kort = L.kort; // delas med redigeringsläget — samma array
   let index;
@@ -234,6 +258,9 @@
     if (k.fordjupning) {
       String(k.fordjupning).split(/\n\s*\n/).forEach(st =>
         ford.appendChild(el("p", null, st.replace(/\n/g, " "))));
+      const helsida = el("button", "ford-helsida", "⤢ Läs som helsida");
+      helsida.onclick = () => visaFordjupningHelsida(k);
+      ford.appendChild(helsida);
     }
     $("fordjupning-details").open = false;
     $("panel-fordjupning-block").hidden = !k.fordjupning;
