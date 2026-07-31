@@ -445,6 +445,14 @@
     box.appendChild(fält("Anteckningar (dina minnesstöd)", ant));
 
     // Fördjupning — för publiken som vill nörda (syns även på webblänken)
+    // Är den formaterad som helsida (HTML)? Lugna redaktören — koden behöver inte röras.
+    if (/<(div|p|table|section|strong|br|h[1-6])[\s/>]/i.test(k.fordjupning || "")) {
+      const hint = el("div", "red-hint");
+      hint.innerHTML = "✨ Den här fördjupningen är formaterad som <strong>helsida</strong>. " +
+        "Du behöver inte röra koden nedan. Vill du skriva om den? Klistra in din råtext i " +
+        "rutan <strong>“Råtext att formatera”</strong> längre ner och be Claude — precis som med bilderna.";
+      box.appendChild(hint);
+    }
     const ford = el("textarea");
     ford.rows = 8;
     ford.placeholder = "Skriv fritt — tom rad ger nytt stycke. Visas hopfälld under 'Fördjupning' i panelen.";
@@ -455,6 +463,19 @@
       window.APP.uppdatera();
     };
     box.appendChild(fält("Fördjupning (för den som vill nörda — syns för publiken)", ford));
+
+    // Råtext att formatera — en trygg inkorg: klistra in rörig text (stavfel gör inget),
+    // be sedan Claude göra om den till en helsida i samma stil. Rör inte HTML:en ovan.
+    const rfDet = el("details", "red-raformat");
+    rfDet.appendChild(el("summary", null, "✨ Råtext att formatera (Claude gör om den till en helsida)"));
+    const rf = el("textarea");
+    rf.rows = 6;
+    rf.placeholder = "Klistra in råtext här — stavfel och rörighet gör inget. Säg sedan till Claude: " +
+      "”formatera fördjupningen på det här kortet”, så blir det en helsida med rutor, taggar och källor i samma stil.";
+    rf.value = k.raformat || "";
+    rf.onchange = () => { if (rf.value.trim()) k.raformat = rf.value; else delete k.raformat; sparaUtkast(); };
+    rfDet.appendChild(fält("", rf));
+    box.appendChild(rfDet);
 
     // Länkar — rubrik + adress, så många du vill
     const lankBox = el("div");

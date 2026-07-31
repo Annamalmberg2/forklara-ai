@@ -460,6 +460,17 @@ body.redigerar.panel-dold #panel { display: block; } /* editorn behöver panelen
 .red-flytt { display: flex; gap: 8px; }
 .red-ark { margin-bottom: 14px; }
 .red-ark .vbtn { width: 100%; padding: 9px; background: var(--accent-tint); border-color: var(--accent); color: var(--accent); }
+.red-hint {
+  font-size: 12px; line-height: 1.55; color: #6a5a2a;
+  background: #fffbf2; border: 1px solid #f0dfb8; border-radius: 8px;
+  padding: 9px 12px; margin-bottom: 12px;
+}
+.red-hint strong { color: #4a3d17; }
+.red-raformat { margin: 6px 0 14px; }
+.red-raformat summary {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--accent); cursor: pointer; margin-bottom: 10px;
+}
 .red-start { margin: 4px 0 16px; border-top: 1px solid var(--hair); padding-top: 12px; }
 .red-start summary {
   font-family: var(--mono);
