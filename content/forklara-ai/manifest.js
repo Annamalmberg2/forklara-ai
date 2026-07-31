@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-31 21:09:36)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-07-31 22:42:12)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -199,7 +199,8 @@ window.LECTURE = {
           "Låten om råttan på repet",
           "https://www.youtube.com/watch?v=KbeZjUBWLUM"
         ]
-      ]
+      ],
+      "raformat": "Du kan gasa, bromsa och styra en bil — och den gör exakt vad mekaniken och ritningen tillåter. Det finns en färdig kedja för varje skruv.\n\nMed ett neuralt nätverk styr du också ingången (din prompt), men det som händer under huven är inte ritat, det är odlat. Miljarder små mönster och vikter samverkar på sätt som inte ens skaparna helt kan förutsäga. Du styr riktningen, men AI:n navigerar i sitt eget mycel. Ingen kan peka på skruven där en viss kunskap sitter.\n\nFörmågor dyker upp och brister visar sig på sätt som förvånar även de mest insatta forskarna.\n\nDet finns ingen färdig manual; man måste testa sig fram till vad den kan.\n\nNär hela internet måste lära sig läsa intentioner.\n\nDet här skiftet från mekaniska skruvar till levande nätverk händer inte bara i modellerna, utan i hela digitala infrastrukturen runt oss."
     },
     {
       "id": "mer-svampskogen-ett-vaxande-mycel-att-odla",
