@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-02 01:00:07)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-02 01:17:07)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -347,7 +347,7 @@ window.LECTURE = {
       ],
       "lankar": [
         [
-          "Joakim Jardenbergs podd om hisstrejken",
+          "Joakim Jardenbergs podd om hiss-strejken",
           "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-4-9/328559221-44100-2-4907b14f1ae12.mp3"
         ]
       ]
@@ -1445,36 +1445,6 @@ window.LECTURE = {
         "Tre lager – en livsresa.jpg"
       ],
       "svar": "Tre lager – en livsresa. Jag försöker bygga precis det just nu. Medan jag minns så petar jag in sådant en framtida AI kan påminna mig när jag blir gammal och ensam."
-    },
-    {
-      "id": "mer-bankrelationen",
-      "sektion": "950",
-      "titel": "Bankrelationen — idéer att marinera",
-      "svar": "Råmaterial: hur en mänskligare bank skulle kunna byggas (DeepSeek + Anna).",
-      "anteckningar": "Annas minne: som barn en nära relation till banken, kunde springa in och fråga om vad som helst. Idag går det inte ens att ringa dem. Tema för kortet 'Tar den mitt jobb?' — augmentering kan göra närheten prisvärd igen.",
-      "fordjupning": "<p class=\"ingress\">Förslag från ett samtal med DeepSeek om hur en mänskligare bankrelation skulle kunna byggas igen. Sparat som råmaterial att marinera — realistiskt, med den ärliga haken att relationer kostar och måste väljas.</p><div class=\"section\"><div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Personliga bankombud igen</span><span class=\"tag\">Som en husläkare</span></div><div class=\"body\">Inte en robot-chatt, utan riktiga människor som tilldelas en fast grupp kunder. De lär känna familjens historia, mål och drömmar. Kontakten kan vara digital — men alltid med en person i andra änden som känner igen dig.</div></div><div class=\"section\"><div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Lokala filialer med \"öppet bank-kafé\"</span><span class=\"tag\">Mötesplats</span></div><div class=\"body\">Kombinera banktjänster med en plats för samtal, rådgivning och möten — inte bara transaktioner. En naturlig mötesplats i samhället, där bankpersonalen också är grannar.</div></div><div class=\"section\"><div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Digital plattform med \"mänskliga avtryck\"</span><span class=\"tag\">Relation, inte bara siffror</span></div><div class=\"body\">Låt kunden själv välja att dela berättelser, foton eller minnen kopplade till sitt sparande — så att banken får en relationell bild, inte bara en ekonomisk.</div></div><div class=\"why\"><div class=\"why-label\">Den ärliga haken</div><div class=\"why-text\">Allt detta kostar pengar och skalar dåligt — det var därför det rationaliserades bort. Poängen: AI kan sköta rutinen så att människan får råd att vara människa igen. Men det kräver att vi väljer och betalar för närheten.</div></div>",
-      "relaterat": [
-        "040-10"
-      ]
-    },
-    {
-      "id": "disk-jobb-governance",
-      "sektion": "960",
-      "titel": "Får jag använda det på jobbet? (kandidat: eget kapitel 060)",
-      "svar": "Frö till ett praktiskt kapitel om AI i organisationer: licenser, vad man får dela, dataskydd. Föreslås bli kapitel 060 (Vad tar jag med mig → 070).",
-      "anteckningar": "Annas idé: många i publiken (särskilt företag) undrar vad man FÅR göra — licenser, vad som får delas.\nRam: praktiskt, inte 'AI-säkerhet' (för brett). Lär ut principer + frågor att ställa, aldrig 'reglerna' (ändras snabbt).\nPlacering: kapitel 060, före avslutet.",
-      "fordjupning": "<p class=\"ingress\">Kandidat till ett eget kapitel 060 — det praktiska som varje organisation undrar över. Skiss på fråge-korten:</p><div class=\"section\"><div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Får jag ens använda AI på jobbet?</span><span class=\"tag\">Policy</span></div><div class=\"body\">Konsumentversion kontra företags-/API-version, \"shadow AI\" (folk använder det i smyg), och varför organisationen behöver en tydlig hållning.</div></div><div class=\"section\"><div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Vad får jag mata in — och vad stannar kvar?</span><span class=\"tag\">Data</span></div><div class=\"body\">Tränar modellen på min data? Sparas den? Personuppgifter/GDPR. Grundregel: klistra aldrig in hemligheter i en publik modell.</div></div><div class=\"section\"><div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Vem äger det jag skapar med den?</span><span class=\"tag\">Licenser</span></div><div class=\"body\">Upphovsrätt till AI-genererat, användarvillkor, vad du får sälja och sprida vidare.</div></div><div class=\"section\"><div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Hur skyddar vi oss?</span><span class=\"tag\">Skydd</span></div><div class=\"body\">En enkel AI-policy, privata/lokala modeller för känsligt, mänsklig granskning, medvetenhet om prompt injection.</div></div><div class=\"why\"><div class=\"why-label\">Vår hållning</div><div class=\"why-text\">Lär ut hur man tänker och vad man ska fråga sin arbetsgivare — aldrig tvärsäkra \"regler\". Reglerna skiljer sig mellan företag och ändras snabbt. Claude fyller på fakta; Anna ger rösten och varför det spelar roll.</div></div>",
-      "relaterat": []
-    },
-    {
-      "id": "disk-human-computers",
-      "sektion": "960",
-      "titel": "Kvinnor i dator-/rymdhistorien — parkerat (Hidden Figures m.fl.)",
-      "svar": "Parkerat ur historie-kapitlet: fantastiska kvinnor, men närmare rymd/beräkning än AI. Kandidat till eget kort om Anna vill.",
-      "anteckningar": "Flyttades ut ur 'Vem uppfann AI?' för att hålla historien stram och sann.\nHidden Figures: Katherine Johnson (räknade banorna), Dorothy Vaughan (lärde sig programmera tidigt), Mary Jackson (NASA:s första svarta kvinnliga ingenjör). Film: Hidden Figures.\nProfessor Helen Meng: forskning på tal-AI, att förstå otydligt tal, rekonstruera förlorade röster.\nBeslut (Claude, fria tyglar): starka historier men tangentiella till AI:s ursprung. Ada/Hopper/Fei-Fei bär kvinnotråden bättre. Kan bli eget kort ('human computers') om Anna vill — annars ligger de här.",
-      "relaterat": [
-        "010-15"
-      ]
     },
     {
       "id": "130-10",
