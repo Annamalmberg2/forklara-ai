@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-02 01:34:18)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-02 01:41:38)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -329,7 +329,7 @@ window.LECTURE = {
       "id": "010-20",
       "sektion": "010",
       "titel": "Är rädslan för det nya nytt? Eller är det lönt att strejka?",
-      "svar": "Sokrates fruktade skriften: 'den försvagar minnet'. Varje epok, samma oro. Frågan är aldrig om det nya är farligt — utan vad vi väljer att bevara.",
+      "svar": "Sokrates var lärare till Platon som var lärare till Aristoteles på bilden. Sokrates fruktade t o m skriften: \"den försvagar minnet\". Varje epok, samma oro. Frågan är aldrig om det nya är farligt — utan vad vi väljer att bevara.",
       "bilder": [
         "Kunskapens fyra epoker.jpg"
       ],
