@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-01 13:22:56)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-01 13:24:49)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -219,11 +219,24 @@ window.LECTURE = {
       ],
       "anteckningar": "Fråga: är det inte bara män bakom AI? Nej.\nAda Lovelace: första programmeraren, 1843, en kvinna före datorn.\nGrace Hopper: första kompilatorn — idén att tala med maskiner på människospråk.\nFei-Fei Li: ImageNet — datan som lärde maskinen att se.\nPoängen är inte kvot, utan sanning: bilden av det ensamma manliga geniet är faktiskt fel.",
       "bilder": [
-        "Logik är universell.jpg"
+        "Logik är universell.jpg",
+        "anna bilder.jpg",
+        "Fei-Fei Li.jpg",
+        "o Hidden figures.png"
       ],
       "svar": "Nej. Den första programmeraren var en kvinna — före maskinen ens fanns. Logik är universell, och talang är det också.",
       "relaterat": [
         "010-10"
+      ]
+    },
+    {
+      "id": "010-nymsaa930p",
+      "sektion": "010",
+      "titel": "Ny fråga",
+      "svar": "",
+      "bildforslag": "Beskriv bilden som skulle bära frågan.",
+      "relaterat": [
+        "010-15"
       ]
     },
     {
