@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-01 16:03:37)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-01 21:25:13)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -270,7 +270,7 @@ window.LECTURE = {
         "Deep Blue",
         "IBM"
       ],
-      "anteckningar": "1997: Deep Blue (IBM) slog regerande världsmästaren Garry Kasparov.\nRäknade ~200 miljoner ställningar i sekunden — men lärde sig ingenting.\nRå beräkning + expertregler = det gamla paradigmet. Byggt.\nKasparov skakades av ett drag, anklagade IBM för fusk.\nImponerande — men en återvändsgränd för generell intelligens.",
+      "anteckningar": "1997: Deep Blue (IBM) slog regerande världsmästaren Garry Kasparov.\nRäknade ~200 miljoner ställningar i sekunden — men lärde sig ingenting.\nRå beräkning + expertregler = det gamla paradigmet. Byggt.\nKasparov skakades av ett drag, anklagade IBM för fusk.\nImponerande — men en återvändsgränd för generell intelligens.\n\nEn enkel minnesregel\nDeep Blue = IBM + schack + 1997.\nDeepMind/AlphaGo = Google + Go + senare AI-era.",
       "bilder": [
         "Deep Blue vs Kasparov 1997.jpg"
       ],
