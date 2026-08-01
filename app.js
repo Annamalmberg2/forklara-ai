@@ -240,12 +240,22 @@
     const n = bilderAv(k).length;
     p.innerHTML = "";
     p.hidden = n < 2;
+    if (n < 2) return;
+    const bak = el("button", "bildnav", "‹");
+    bak.title = "Föregående bild";
+    bak.onclick = () => bytBild(-1);
+    p.appendChild(bak);
     for (let i = 0; i < n; i++) {
       const d = el("button", "prick" + (i === bildIx ? " aktiv" : ""));
       d.title = "Bild " + (i + 1) + " av " + n;
       d.onclick = () => { bildIx = i; visaBildIx(); };
       p.appendChild(d);
     }
+    const fram = el("button", "bildnav", "›");
+    fram.title = "Nästa bild";
+    fram.onclick = () => bytBild(1);
+    p.appendChild(fram);
+    p.appendChild(el("span", "bildrakn", (bildIx + 1) + " / " + n));
   }
   function visaBildIx() {
     const k = kort[index.get(aktuellId)];
@@ -345,14 +355,18 @@
     return lista[bi + riktning] || null;
   }
   function stega(riktning) {
-    // Först: bläddra inom berättelsens bildspel
-    const k = aktuellId != null && index.has(aktuellId) ? kort[index.get(aktuellId)] : null;
-    const antal = k ? bilderAv(k).length : 0;
-    if (riktning > 0 && bildIx < antal - 1) { bildIx++; visaBildIx(); return; }
-    if (riktning < 0 && bildIx > 0) { bildIx--; visaBildIx(); return; }
-    // Sedan: nästa berättelse
+    // Pilen (och fjärrklickaren) betyder ALLTID ny berättelse — aldrig nästa foto.
+    // Bilderna bläddras separat med prickarna och ‹ ›-knapparna nedanför.
     const g = nästaKort(riktning);
     if (g) visa(g.id);
+  }
+  // Bläddra bland berättelsens foton (cyklar runt) — påverkar aldrig vilket kort vi står på
+  function bytBild(steg) {
+    const k = aktuellId != null && index.has(aktuellId) ? kort[index.get(aktuellId)] : null;
+    const n = k ? bilderAv(k).length : 0;
+    if (n < 2) return;
+    bildIx = (bildIx + steg + n) % n;
+    visaBildIx();
   }
 
   // ---------- översikten ----------

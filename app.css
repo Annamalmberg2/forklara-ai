@@ -240,6 +240,15 @@ h4.lank-grupp:first-of-type { margin-top: 20px; }
 }
 .prick:hover { border-color: var(--accent); }
 .prick.aktiv { background: var(--accent); border-color: var(--accent); }
+/* Bläddra bland fotona — pilen ger alltid nytt kort, det här byter bild */
+#bildprickar { align-items: center; }
+.bildnav {
+  border: 1px solid var(--hair); background: var(--paper, #fff); color: var(--accent);
+  border-radius: 50%; width: 26px; height: 26px; line-height: 22px; padding: 0;
+  font-size: 17px; cursor: pointer;
+}
+.bildnav:hover { border-color: var(--accent); background: var(--paper-2, #f4f2ec); }
+.bildrakn { font-size: 11px; color: var(--muted); letter-spacing: .03em; margin-left: 4px; }
 body.bara-bild #bildprickar { padding-top: 8px; }
 
 #kortrubrik { padding-top: 20px; flex: none; }
