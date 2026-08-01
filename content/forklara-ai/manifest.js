@@ -870,7 +870,7 @@ window.LECTURE = {
       "titel": "Hur börjar jag — på riktigt?",
       "svar": "En bra grundprompt och nyfikenhet. Börja idag — i soffan går bra.",
       "relaterat": [
-        "050-40",
+        "070-30",
         "050-20"
       ],
       "bilder": [
@@ -964,38 +964,6 @@ window.LECTURE = {
           "Mauri presenterar Lovable",
           "https://youtu.be/0NDFrrQXPkk"
         ],
-        [
-          "AI skolan i Notion",
-          "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
-        ],
-        [
-          "Min AI start",
-          "https://docs.google.com/document/d/13Q-FUfK8_VHq9uWUMA0BP3z8uiJzJa03M7WpiuDRzDc/edit?tab=t.0"
-        ],
-        [
-          "Agent OS",
-          "https://docs.google.com/document/d/12WiYicvBsX399xJrA0TEEpuazCxSZBifi9meyANOVjw/edit?tab=t.0"
-        ]
-      ]
-    },
-    {
-      "id": "050-40",
-      "sektion": "050",
-      "titel": "Var hittar jag allt du visat?",
-      "svar": "I Biblioteket: verktyg, poddar, böcker, personer och mycket jag byggt. Klicka Översikt för att hitta — sök funkar också utmärkt.",
-      "bilder": [
-        "Biblioteket.png"
-      ],
-      "anteckningar": "Allt jag visat — och mycket mer — bor i Biblioteket. Nio hyllor.\nDet är lika mycket min egen garderob som er verktygslåda.\nÖversiktsknappen är alltid bäst när du letar; sökfunktionen funkar också utmärkt.\nVarje berättelsekort har egna extralänkar och en helsida att fälla ut.\nPS: min kunskap är större än vad som får plats här — då vet du vem du ska fråga.",
-      "fordjupning": "<p class=\"ingress\">Allt jag visat i kväll — och mycket, mycket mer — bor på ett ställe: Biblioteket. Det är till hälften din verktygslåda och till hälften min egen garderob, allt jag följer och använder, öppnad för dig. Så här hittar du in.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Vad Biblioteket är</span><span class=\"tag\">Min garderob, din verktygslåda</span></div>\n  <div class=\"body\">Det är en kurerad, ständigt växande samling, ordnad i <strong>nio hyllor</strong>: <em>Kom igång &amp; bygg själv, Egna data &amp; företag, Egen kanal, Artiklar &amp; Nobelpris, Poddar, YouTube, Film &amp; serier, Böcker</em> och <em>Personer</em>.<br><br>Jag ska vara ärlig: det började som <strong>min egen garderob</strong> — ett sätt att hålla ordning på allt jag läser, lyssnar på och lär mig av. Men det finns ingen anledning att hålla den stängd. Det som hjälper mig kan hjälpa dig.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Så hittar du in</span><span class=\"tag\">Översikt och Sök</span></div>\n  <div class=\"body\">Två vägar, båda bra:<br><br><strong>Översikt</strong>-knappen är alltid det bästa när du letar efter något — du får hela kartan framför dig, kapitel och hyllor, allt klickbart. Vill du bläddra och upptäcka är det här du börjar.<br><br><strong>Sök</strong> funkar också utmärkt när du vet ungefär vad du är ute efter — skriv ett namn, ett begrepp, en podd (\"Fei-Fei\", \"primtal\", \"Lovable\"), så dyker det upp. Och <strong>Biblioteket</strong>-knappen tar dig rakt in bland hyllorna.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Tumregeln</div><div class=\"insight-text\">Letar du brett — tryck Översikt. Vet du vad du söker — skriv i Sök. Du kan aldrig gå vilse; verktyget minns var du var.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Guldet ligger på korten</span><span class=\"tag\">Fördjupning och extralänkar</span></div>\n  <div class=\"body\">Missa inte att varje berättelsekort — precis som det här — har sina <strong>egna extralänkar</strong> och en <strong>fördjupning</strong> du kan fälla ut och läsa som helsida. Ser du något du gillar, dyk ner med pilen nedan.<br><br>Det mesta för att komma igång och bygga själv hittar du på hyllan \"Kom igång &amp; bygg själv\" — eller genom att bara följa länkarna på det här kortet.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Och vill du mer?</span><span class=\"tag\">Du vet vem du ska fråga</span></div>\n  <div class=\"body\">En sista sak, med glimten i ögat: min kunskap om AI är långt mycket större än vad som får plats i ett bibliotek. Så om du har en fråga, en idé eller något du vill bygga — <strong>då vet du vem du ska fråga.</strong><br><br>Biblioteket är kartan. Men det roligaste händer i samtalet.</div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Biblioteket</div><div class=\"extra-desc\">Nio hyllor med verktyg, poddar, böcker, personer och mycket mer. Din verktygslåda, min garderob.</div></div>\n  <div><div class=\"extra-name\">Översikt</div><div class=\"extra-desc\">Hela kartan, klickbar. Bäst när du letar brett eller vill upptäcka.</div></div>\n  <div><div class=\"extra-name\">Sök</div><div class=\"extra-desc\">Skriv ett namn eller begrepp. Bäst när du vet ungefär vad du vill hitta.</div></div>\n  <div><div class=\"extra-name\">Hyllor</div><div class=\"extra-desc\">Bibliotekets nio kategorier — från \"Kom igång\" till \"Personer\".</div></div>\n  <div><div class=\"extra-name\">Fördjupning</div><div class=\"extra-desc\">Helsidan bakom varje kort. Fäll ut med pilen och läs i lugn och ro.</div></div>\n  <div><div class=\"extra-name\">Självuppdaterande</div><div class=\"extra-desc\">Biblioteket växer när jag fyller på — nya boktips och länkar dyker upp automatiskt.</div></div>\n</div>",
-      "begrepp": [
-        "biblioteket",
-        "verktyg",
-        "poddar",
-        "böcker",
-        "kom igång"
-      ],
-      "lankar": [
         [
           "AI skolan i Notion",
           "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
@@ -1113,12 +1081,12 @@ window.LECTURE = {
       "id": "070-10",
       "sektion": "070",
       "titel": "Vad ska jag ta med mig?",
-      "svar": "Maskinen gör mönster. Du gör mening. Våga ha fel snabbare. Där börjar lärandet.",
+      "svar": "Maskinen gör mönster. Du gör mening. Våga ha fel snabbare — där börjar lärandet.",
       "bilder": [
         "Nobelpriset i ekonomi 2026.png"
       ],
-      "fordjupning": "Skämtet har en udd: rädslan att ha fel är den dyraste känslan i en exponentiell tid.\n\nDen som måste ha rätt från början vågar aldrig testa.\n\nAI sänker priset på misstag dramatiskt — ett utkast kostar sekunder, en prototyp en kväll. Då blir modet att ha fel snabbt en konkurrensfördel.\n\nFelen är inte motsatsen till kunskap. De är råvaran.",
-      "anteckningar": "AI blir bara bättre och dess kapacitet växer exponentiellt. \"Den AI du har idag är den sämsta du någonsin kommer att ha. \"\n\nMed glimten i ögat: 'för upptäckten att människor hellre misslyckas med att ha rätt än lyckas efter att ha haft fel.'\n\nAlla vill ha rätt från början. AI låter oss ha fel — snabbare och billigare.\n\nDärför lär vi oss mer.",
+      "fordjupning": "<p class=\"ingress\">Om du glömmer allt annat från i kväll, behåll det här. Hela föreläsningen kokar ner till en handfull sanningar — och de är värda mer än alla facktermer tillsammans.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Maskinen gör mönster, du gör mening</span><span class=\"tag\">Kärnan</span></div>\n  <div class=\"body\">Maskinen är oöverträffad på mönster, data och hastighet. Men <em>meningen</em> — varför något spelar roll, vad som är rätt men olämpligt, ansvaret för besluten — den är och förblir din.<br><br>Det är inte en tröst. Det är en arbetsfördelning. Låt maskinen göra mönstren, och håll själv i meningen.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Odlat, inte byggt</span><span class=\"tag\">Skiftet</span></div>\n  <div class=\"body\">Kom ihåg spelbordet: Deep Blue <em>räknade</em>, AlphaGo <em>lärde sig</em>. Dagens AI byggs inte regel för regel — den <strong>odlas</strong> fram. Förstår du den enda skillnaden förstår du hela skiftet, och varför tekniken beter sig som den gör: överraskande, kraftfull och omöjlig att helt förutsäga.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Mönster är vackra, bevis är sanning</span><span class=\"tag\">Granskningen</span></div>\n  <div class=\"body\">Den skarpaste vanan du kan ta med dig: lita, men verifiera. En modell ger dig vackra mönster gratis — sanningen kräver att du granskar. Det gäller primtalet, bokföringen och allt däremellan. <strong>Granskningen är din, inte maskinens.</strong></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Våga ha fel — snabbare</span><span class=\"tag\">Modet</span></div>\n  <div class=\"body\">Här är kanske den viktigaste av alla: rädslan att ha fel är den <strong>dyraste känslan</strong> i en exponentiell tid. Den som måste ha rätt från början vågar aldrig testa.<br><br>AI sänker priset på misstag dramatiskt — ett utkast kostar sekunder, en prototyp en kväll. Då blir modet att ha fel snabbt en superkraft. Felen är inte motsatsen till kunskap. <strong>De är råvaran.</strong></div>\n  <div class=\"insight\"><div class=\"insight-label\">Hela föreläsningen i en mening</div><div class=\"insight-text\">Maskinen gör mönster. Du gör mening. Resten är detaljer — och den AI du har idag är den sämsta du någonsin kommer att ha.</div></div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Trådarna att bära med sig</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Mönster och mening</div><div class=\"extra-desc\">Maskinen gör det ena, du det andra. Hela arbetsfördelningen.</div></div>\n  <div><div class=\"extra-name\">Odlat, inte byggt</div><div class=\"extra-desc\">AI tränas fram, inte programmeras. Skiftet som förklarar allt annat.</div></div>\n  <div><div class=\"extra-name\">Exponentiellt</div><div class=\"extra-desc\">Den AI du har idag är den sämsta du får. Döm den inte efter i dag.</div></div>\n  <div><div class=\"extra-name\">Bevis är sanning</div><div class=\"extra-desc\">Mönster är vackra, men granska alltid. Din vana, inte maskinens.</div></div>\n  <div><div class=\"extra-name\">Våga ha fel</div><div class=\"extra-desc\">Felen är råvaran. Modet att testa snabbt är den nya superkraften.</div></div>\n  <div><div class=\"extra-name\">Värdet i mötet</div><div class=\"extra-desc\">Varken människa eller AI når framtiden själv. Det skapas tillsammans.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Det enda du behöver göra</div>\n  <div class=\"future-body\">Du behöver inte förstå allt. Du behöver bara våga börja — sätta dig i soffan i kväll och skriva den första klumpiga frågan.<br><br>Maskinen gör mönster. Du gör mening. <strong>Gå och gör lite mening.</strong></div>\n</div>",
+      "anteckningar": "Om du glömmer allt annat: maskinen gör mönster, du gör mening.\nDen AI du har idag är den sämsta du någonsin kommer att ha.\nOdlat, inte byggt — det är hela skiftet.\nMönster är vackra, bevis är sanning — granska alltid.\nVåga ha fel snabbare. Felen är råvaran, inte motsatsen till kunskap.",
       "personer": [
         "Claude"
       ],
@@ -1131,26 +1099,58 @@ window.LECTURE = {
       "id": "070-nyms07ccap",
       "sektion": "070",
       "titel": "Skapar AI ordning eller kaos?",
-      "svar": "Både och tänker jag",
+      "svar": "Både och, tänker jag. AI ger dig kaoset — du gör ordningen. Skapande var alltid urval.",
       "relaterat": [
         "070-10"
       ],
       "bilder": [
         "Skaparkaos.jpg"
       ],
-      "anteckningar": "Så ser skapandet faktiskt ut: hundra utkast, en robotarm som säger ERROR.\nGuldkorn i kaoset det som verkar dåligt idag kan vara guld imorgon.\n\nGlöm aldrig \"Den AI du har idag är den sämsta du någonsin kommer att ha.\"",
-      "fordjupning": "Så här ser AI-skapande faktiskt ut: hundra varianter, nittiosju i papperskorgen. Maskinen är generös men omdömeslös.\n\nUrvalet är fortfarande hantverket.\n\nDet gäller all AI-användning: värdet uppstår i din gallring, din smak, ditt nej. Guldkorn i kaos men bara för den som orkar sålla."
+      "anteckningar": "Skapar AI ordning eller kaos? Både och.\nSå ser skapandet ut: hundra utkast, nittiosju i papperskorgen, en robotarm som säger ERROR.\nMaskinen är generös men omdömeslös — urvalet är hantverket.\nGuldkorn i kaoset: det som verkar dåligt idag kan vara guld imorgon.\nDin smak, din gallring, ditt nej — det är där värdet uppstår.",
+      "fordjupning": "<p class=\"ingress\">Skapar AI ordning eller kaos? Mitt ärliga svar är: både och. Och just den insikten är nyckeln till att använda den kreativt — för kaoset är inte problemet, det är råmaterialet.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Så ser skapandet faktiskt ut</span><span class=\"tag\">Hundra utkast</span></div>\n  <div class=\"body\">Glöm bilden av AI som en knapp där färdiga mästerverk trillar ut. Så här ser det ut i verkligheten: hundra varianter, nittiosju i papperskorgen, en robotarm som blinkar ERROR.<br><br>Maskinen är <strong>generös men omdömeslös</strong>. Den öser på — men den bryr sig inte det minsta om vilket av alla förslag som är bra.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Urvalet är hantverket</span><span class=\"tag\">Din smak</span></div>\n  <div class=\"body\">Och där kommer du in. Värdet uppstår inte i genereringen — den sköter maskinen. Det uppstår i <strong>din gallring, din smak, ditt nej</strong>. Att välja bort nittiosju för att lyfta fram tre.<br><br>Kreativitet var faktiskt alltid urval. AI har bara gjort mängden råmaterial oändlig — och därmed gjort ditt omdöme viktigare, inte överflödigt.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Här brukar folk tappa modet</div><div class=\"lost-text\">\"Jag är inte kreativ, jag kan inte det där.\" Men du behöver inte skapa ur intet — det gör maskinen. Du behöver <em>känna igen</em> det som är bra. Och det kan du, för din smak är din egen. Kaoset är maskinens jobb; ordningen är din gåva.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Guldkorn i kaoset</span><span class=\"tag\">Vad som verkar dåligt idag</span></div>\n  <div class=\"body\">En sista sak att spara på: släng inte allt som inte funkade. Det som verkar dåligt idag kan vara guld imorgon — särskilt när nästa modell är bättre, och när dina egna ögon lärt sig se.<br><br>Guldkorn finns i kaoset. Men bara för den som orkar sålla — och vågar behålla skräpet ett tag till.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">AI ger dig kaoset. Du ger den ordningen. Det är inte en svaghet hos tekniken — det är precis där din roll blir oumbärlig.</div></div>\n</div>"
+    },
+    {
+      "id": "070-30",
+      "sektion": "070",
+      "titel": "Var hittar jag allt du visat?",
+      "svar": "I Biblioteket: verktyg, poddar, böcker, personer och mycket jag byggt. Klicka Översikt för att hitta — sök funkar också utmärkt.",
+      "bilder": [
+        "Biblioteket.png"
+      ],
+      "anteckningar": "Allt jag visat — och mycket mer — bor i Biblioteket. Nio hyllor.\nDet är lika mycket min egen garderob som er verktygslåda.\nÖversiktsknappen är alltid bäst när du letar; sökfunktionen funkar också utmärkt.\nVarje berättelsekort har egna extralänkar och en helsida att fälla ut.\nPS: min kunskap är större än vad som får plats här — då vet du vem du ska fråga.",
+      "fordjupning": "<p class=\"ingress\">Allt jag visat i kväll — och mycket, mycket mer — bor på ett ställe: Biblioteket. Det är till hälften din verktygslåda och till hälften min egen garderob, allt jag följer och använder, öppnad för dig. Så här hittar du in.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Vad Biblioteket är</span><span class=\"tag\">Min garderob, din verktygslåda</span></div>\n  <div class=\"body\">Det är en kurerad, ständigt växande samling, ordnad i <strong>nio hyllor</strong>: <em>Kom igång &amp; bygg själv, Egna data &amp; företag, Egen kanal, Artiklar &amp; Nobelpris, Poddar, YouTube, Film &amp; serier, Böcker</em> och <em>Personer</em>.<br><br>Jag ska vara ärlig: det började som <strong>min egen garderob</strong> — ett sätt att hålla ordning på allt jag läser, lyssnar på och lär mig av. Men det finns ingen anledning att hålla den stängd. Det som hjälper mig kan hjälpa dig.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Så hittar du in</span><span class=\"tag\">Översikt och Sök</span></div>\n  <div class=\"body\">Två vägar, båda bra:<br><br><strong>Översikt</strong>-knappen är alltid det bästa när du letar efter något — du får hela kartan framför dig, kapitel och hyllor, allt klickbart. Vill du bläddra och upptäcka är det här du börjar.<br><br><strong>Sök</strong> funkar också utmärkt när du vet ungefär vad du är ute efter — skriv ett namn, ett begrepp, en podd (\"Fei-Fei\", \"primtal\", \"Lovable\"), så dyker det upp. Och <strong>Biblioteket</strong>-knappen tar dig rakt in bland hyllorna.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Tumregeln</div><div class=\"insight-text\">Letar du brett — tryck Översikt. Vet du vad du söker — skriv i Sök. Du kan aldrig gå vilse; verktyget minns var du var.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Guldet ligger på korten</span><span class=\"tag\">Fördjupning och extralänkar</span></div>\n  <div class=\"body\">Missa inte att varje berättelsekort — precis som det här — har sina <strong>egna extralänkar</strong> och en <strong>fördjupning</strong> du kan fälla ut och läsa som helsida. Ser du något du gillar, dyk ner med pilen nedan.<br><br>Det mesta för att komma igång och bygga själv hittar du på hyllan \"Kom igång &amp; bygg själv\" — eller genom att bara följa länkarna på det här kortet.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Och vill du mer?</span><span class=\"tag\">Du vet vem du ska fråga</span></div>\n  <div class=\"body\">En sista sak, med glimten i ögat: min kunskap om AI är långt mycket större än vad som får plats i ett bibliotek. Så om du har en fråga, en idé eller något du vill bygga — <strong>då vet du vem du ska fråga.</strong><br><br>Biblioteket är kartan. Men det roligaste händer i samtalet.</div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Biblioteket</div><div class=\"extra-desc\">Nio hyllor med verktyg, poddar, böcker, personer och mycket mer. Din verktygslåda, min garderob.</div></div>\n  <div><div class=\"extra-name\">Översikt</div><div class=\"extra-desc\">Hela kartan, klickbar. Bäst när du letar brett eller vill upptäcka.</div></div>\n  <div><div class=\"extra-name\">Sök</div><div class=\"extra-desc\">Skriv ett namn eller begrepp. Bäst när du vet ungefär vad du vill hitta.</div></div>\n  <div><div class=\"extra-name\">Hyllor</div><div class=\"extra-desc\">Bibliotekets nio kategorier — från \"Kom igång\" till \"Personer\".</div></div>\n  <div><div class=\"extra-name\">Fördjupning</div><div class=\"extra-desc\">Helsidan bakom varje kort. Fäll ut med pilen och läs i lugn och ro.</div></div>\n  <div><div class=\"extra-name\">Självuppdaterande</div><div class=\"extra-desc\">Biblioteket växer när jag fyller på — nya boktips och länkar dyker upp automatiskt.</div></div>\n</div>",
+      "begrepp": [
+        "biblioteket",
+        "verktyg",
+        "poddar",
+        "böcker",
+        "kom igång"
+      ],
+      "lankar": [
+        [
+          "AI skolan i Notion",
+          "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
+        ],
+        [
+          "Min AI start",
+          "https://docs.google.com/document/d/13Q-FUfK8_VHq9uWUMA0BP3z8uiJzJa03M7WpiuDRzDc/edit?tab=t.0"
+        ],
+        [
+          "Agent OS",
+          "https://docs.google.com/document/d/12WiYicvBsX399xJrA0TEEpuazCxSZBifi9meyANOVjw/edit?tab=t.0"
+        ]
+      ]
     },
     {
       "id": "070-20",
       "sektion": "070",
       "titel": "Tack och sen?",
-      "svar": "Tack för att ni följde med och på återseende .\n\nHör av er om både föreläsningar och om ni vill ha hjälp med eget byggande. Eller lägg byggandet på mina axlar. Jag kan bygga vad som helst exakt som du vill ha det eller överraska dig att det gick att bygga ännu bättre.",
+      "svar": "Tack för att ni följde med — och på återseende. Hör av er, det roligaste börjar oftast efter sista bilden.",
       "bilder": [
         "Anna framför sin roll-up.jpg",
         "AiNNOVA – vad jag erbjuder.png"
       ],
-      "anteckningar": "Sex ben:\n\nAI-konsultation\n\nUtbildning & coachning\n\nInnehållsproduktion\n\nWebb & kommunikation\n\nMarknadsföring\n\nSpecialiserade AI-lösningar",
+      "anteckningar": "Tack för att ni följde med. På återseende.\nAiNNOVA står på sex ben — men poängen är att möta dig där du står.\nJag är en lärare som blev nyfiken och inte slutade.\nVill du fortsätta samtalet, boka en föreläsning eller bygga något — hör av dig.\nEller lägg byggandet på mina axlar. Det roligaste börjar efter sista bilden.",
       "begrepp": [
         "AiNNOVA",
         "konsultation",
@@ -1170,7 +1170,7 @@ window.LECTURE = {
           "https://www.linkedin.com/in/annamalmberg2/"
         ]
       ],
-      "fordjupning": "AiNNOVA står på sex ben, och de hänger ihop: AI-konsultation, utbildning & coachning, innehållsproduktion, webb & kommunikation, marknadsföring och specialiserade AI-lösningar.\n\nPoängen är inte att göra allt, det är att möta dig där du står och bygga vidare därifrån.\n\nJag är själv en lärare som blev nyfiken och efter det så tycker jag att AI är det mest spännande som finns.\n\nVill du fortsätta samtalet, boka en föreläsning eller bara bolla en idé?\n\n- hör av dig!\n\nDet roligaste börjar oftast efter sista bilden."
+      "fordjupning": "<p class=\"ingress\">Tack för att ni följde med hela vägen — från Aristoteles till drag 37, från primtalet till burgarna. Nu är föreläsningen slut. Men om jag ska vara ärlig börjar det roligaste oftast just här, efter sista bilden.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">En lärare som blev nyfiken</span><span class=\"tag\">Vem jag är</span></div>\n  <div class=\"body\">Jag är ingen datavetare. Jag är en lärare i matematik och fysik som blev nyfiken på AI och inte slutade — och som numera tycker att det är det mest spännande som finns.<br><br>Allt du sett i kväll, det här verktyget inräknat, har jag byggt själv, med AI, i min egen takt. Om jag kan, kan du.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Möta dig där du står</span><span class=\"tag\">AiNNOVA</span></div>\n  <div class=\"body\">AiNNOVA står på sex ben, och de hänger ihop. Poängen är inte att göra allt — det är att möta dig där du är och bygga vidare därifrån.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Sex ben, en tanke</div><div class=\"insight-text\">Vare sig du vill lära dig, bygga något, eller lägga byggandet på mina axlar — det finns en väg in. Jag kan bygga i stort sett vad som helst, exakt som du vill ha det, eller överraska dig med att det gick att bygga ännu bättre.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Hör av dig</span><span class=\"tag\">På återseende</span></div>\n  <div class=\"body\">Så: vill du fortsätta samtalet, boka en föreläsning eller bara bolla en idé — hör av dig. Trådarna vi vävt i kväll behöver inte klippas av bara för att lamporna tänds.<br><br>Maskinen gör mönster. Du gör mening. Gå och gör lite mening — och hör gärna av dig på vägen.</div>\n</div>\n\n<hr>\n<div class=\"extra-head\">AiNNOVA — sex ben som hänger ihop</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">AI-konsultation</div><div class=\"extra-desc\">Hjälp att komma igång, välja rätt och undvika fallgroparna.</div></div>\n  <div><div class=\"extra-name\">Utbildning &amp; coachning</div><div class=\"extra-desc\">Föreläsningar och handledning — som den här kvällen.</div></div>\n  <div><div class=\"extra-name\">Innehållsproduktion</div><div class=\"extra-desc\">Text, bild och material, byggt med AI och mänskligt omdöme.</div></div>\n  <div><div class=\"extra-name\">Webb &amp; kommunikation</div><div class=\"extra-desc\">Sajter och verktyg — som det du precis använt.</div></div>\n  <div><div class=\"extra-name\">Marknadsföring</div><div class=\"extra-desc\">Att synas och nå fram, med tekniken som hävstång.</div></div>\n  <div><div class=\"extra-name\">Specialiserade AI-lösningar</div><div class=\"extra-desc\">Skräddarsytt för just ditt behov — lägg byggandet på mina axlar.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Det sista jag vill säga</div>\n  <div class=\"future-body\">Var inte rädd. Var nyfiken. Börja i soffan i kväll, våga ha fel snabbare, och kom ihåg att din kurva är din egen.<br><br>Tack för i kväll — och på återseende. 💚</div>\n</div>"
     },
     {
       "id": "mer-gamla-kartan-galler-ej",
