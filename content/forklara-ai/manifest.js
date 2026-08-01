@@ -48,9 +48,15 @@ window.LECTURE = {
     },
     {
       "id": "060",
+      "namn": "Får jag använda det på jobbet?",
+      "tes": "Det praktiska varje organisation undrar: vad du får, vad du ska dela, och hur ni skyddar er.",
+      "nyckel": "060-10"
+    },
+    {
+      "id": "070",
       "namn": "Vad tar jag med mig?",
       "tes": "Maskinen gör mönster. Du gör mening.",
-      "nyckel": "060-10"
+      "nyckel": "070-10"
     },
     {
       "id": "950",
@@ -1006,7 +1012,102 @@ window.LECTURE = {
     },
     {
       "id": "060-10",
+      "titel": "Privatperson eller företag — vad är skillnaden?",
+      "svar": "För dig själv räcker en knapp i inställningarna. För ett företag krävs ett avtal — för då hanterar ni andras personuppgifter.",
+      "anteckningar": "Den viktigaste skillnaden i hela kapitlet.\nPrivatperson: en knapp — stäng av 'använd min data för att träna modellen'. Räcker juridiskt för dig.\nFöretag: ett avtal (DPA), för ni är ansvariga för andras personuppgifter.\nKrävs: Enterprise/Business-plan, signerat DPA, EU-hosting/SCC, intern policy.\nVanligaste felet: använda ett gratis privatkonto för företagsdata.",
+      "relaterat": [
+        "060-20",
+        "060-30"
+      ],
       "sektion": "060",
+      "lankar": [
+        [
+          "AI Compliance Guide (min egen)",
+          "https://confy-ai-path.lovable.app/",
+          "Min verifierade guide: privatperson vs företag, de fem kriterierna och en färsk plattformsjämförelse.",
+          "Guide"
+        ]
+      ],
+      "fordjupning": "<p class=\"ingress\">Om du bara tar med dig en sak från det här kapitlet, låt det vara den här: reglerna är <strong>helt olika</strong> för dig som privatperson och för ett företag. För dig själv är det en knapp i inställningarna. För ett företag som hanterar andras personuppgifter är det ett juridiskt avtal. Blanda ihop dem, och det blir fel.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">För dig själv — en knapp</span><span class=\"tag\">Privatperson</span></div>\n  <div class=\"body\">Som privatperson räcker det långt att gå in i inställningarna och stänga av att din data får användas för att träna modellen. Leta efter <em>Data Controls</em> eller <em>Privacy</em>, och bocka ur \"improve the model for everyone\" (eller motsvarande).<br><br>Det finns inget avtal att signera, ingen jurist att ringa. <strong>En knapp, och du är i hamn</strong> — för dina egna uppgifter.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">För ett företag — ett avtal</span><span class=\"tag\">Företag</span></div>\n  <div class=\"body\">Så fort personuppgifter eller företagshemligheter är inblandade blir det allvar. Då blir ditt företag <strong>personuppgiftsansvarig</strong> och AI-leverantören <strong>personuppgiftsbiträde</strong> — och det kräver mer än en knapp:<br><br>• En <strong>Enterprise- eller Business-plan</strong> — konsumentkonton räcker inte.<br>• Ett signerat <strong>DPA</strong> (Data Processing Agreement) enligt GDPR artikel 28.<br>• <strong>EU-hosting eller SCC</strong> om data lämnar EU/EES.<br>• En intern <strong>AI-policy</strong> — vad får anställda mata in?<br>• Ett uppdaterat <strong>register</strong> över personuppgiftsbehandling.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Varför skillnaden?</span><span class=\"tag\">Ansvar</span></div>\n  <div class=\"body\">Logiken är enkel när man ser den: som privatperson riskerar du bara <em>din egen</em> data. Som företag är du ansvarig för <strong>andras</strong> — dina kunders, dina anställdas. Därför är lagen strängare.<br><br>Det är samma princip som löper genom hela föreläsningen: ju mer du agerar för andras räkning, desto mer ansvar bär du.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Det vanligaste och dyraste misstaget</div><div class=\"lost-text\">Att använda ett gratis eller privat konto (Free/Pro/Plus) för företagsdata. Det ger sällan samma skydd, och er data kan hamna där ni inte vill. Regeln är enkel: <strong>företagsdata hör hemma på en företagsplan med signerat DPA.</strong></div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Vad du gör nu</span><span class=\"tag\">Handling</span></div>\n  <div class=\"body\"><strong>För dig själv:</strong> gå in och stäng av träningsknappen idag. Klart.<br><br><strong>För din organisation:</strong> kolla att ni är på rätt plan, se till att DPA:t är signerat, och skriv en enkel intern policy (mer om den senare i kapitlet). I min egen guide finns en färsk jämförelse av vilka tjänster som uppfyller kraven — länken finns här nedanför.</div>\n  <div class=\"why\"><div class=\"why-label\">En ärlig brasklapp</div><div class=\"why-text\">Det här är en pedagogisk överblick, inte juridisk rådgivning. Villkoren ändras, och skiljer sig mellan tjänster och länder. <strong>Verifiera alltid mot leverantörens egen dokumentation innan ni signerar något.</strong> Det är just därför jag lär ut principerna här och håller detaljerna levande i guiden.</div></div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">DPA</div><div class=\"extra-desc\">Data Processing Agreement. Avtalet som krävs enligt GDPR när ett biträde hanterar era personuppgifter.</div></div>\n  <div><div class=\"extra-name\">Personuppgiftsansvarig</div><div class=\"extra-desc\">Den som bestämmer över uppgifterna — ert företag. Bär huvudansvaret.</div></div>\n  <div><div class=\"extra-name\">Personuppgiftsbiträde</div><div class=\"extra-desc\">Den som behandlar uppgifterna åt er — AI-leverantören. Bunden av DPA:t.</div></div>\n  <div><div class=\"extra-name\">GDPR</div><div class=\"extra-desc\">EU:s dataskyddsförordning. Styr hur personuppgifter får hanteras.</div></div>\n  <div><div class=\"extra-name\">Enterprise/Business-plan</div><div class=\"extra-desc\">Företagsversionen med avtal och skydd. Konsumentkonton räcker inte för företagsdata.</div></div>\n  <div><div class=\"extra-name\">SCC</div><div class=\"extra-desc\">Standardavtalsklausuler — krävs om data lämnar EU/EES. Alternativ: EU-hosting.</div></div>\n  <div><div class=\"extra-name\">Register (Art. 30)</div><div class=\"extra-desc\">Er dokumentation över vilken personuppgiftsbehandling som sker. Uppdateras löpande.</div></div>\n  <div><div class=\"extra-name\">Konsumentkonto</div><div class=\"extra-desc\">Gratis/privat plan. Bra för dig själv — men inte för företagets data.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Ta med dig detta</div>\n  <div class=\"future-body\">En knapp för dig, ett avtal för företaget. Det är hela grundskillnaden, och den räddar de flesta från de dyra misstagen.<br><br>Vill du se exakt vilka tjänster som uppfyller kraven — och hur de rankas på de fem kriterierna — finns min färska, verifierade jämförelse i länken. Detaljerna lever där; principerna lever här.</div>\n</div>"
+    },
+    {
+      "id": "060-20",
+      "titel": "Vad får jag skriva in — och vad stannar kvar?",
+      "svar": "Grundregeln: klistra aldrig in hemligheter i en publik AI. Fråga alltid: tränas den på min data, och hur länge sparas den?",
+      "anteckningar": "Klistra aldrig in det du inte vill se läcka.\nTvå frågor: tränas modellen på det jag skriver? Hur länge sparas det (retention)?\nPersonuppgifter = GDPR. Företagshemligheter = risk.\nPå rätt plan + DPA bekräftas att er data INTE tränas på.\nFyll ut: det praktiska — vad som är ok och inte.",
+      "relaterat": [
+        "060-10",
+        "060-30"
+      ],
+      "sektion": "060",
+      "lankar": [
+        [
+          "AI Compliance Guide (min egen)",
+          "https://confy-ai-path.lovable.app/",
+          "Min verifierade guide: privatperson vs företag, de fem kriterierna och en färsk plattformsjämförelse.",
+          "Guide"
+        ]
+      ]
+    },
+    {
+      "id": "060-30",
+      "titel": "Hur vet jag om en AI-tjänst är företagsklar?",
+      "svar": "Fem kriterier avgör: företagsavtal & DPA, GDPR/EU, interna dokument, ingen träning på er data, och isolering. Se min guide.",
+      "anteckningar": "De fem kriterierna (från min guide):\n1. Enterprise-plan & DPA  2. GDPR/EU-kompatibel  3. Interna dokument  4. Tränas EJ på er data  5. Retention/isolering.\nGuiden jämför ChatGPT, Claude, Gemini, Copilot, Mistral, Grok, Perplexity.\nBokmärk två sidor per tjänst: villkoren och prenumerationen — där ändras saker först.\nOBS: överblick, inte juridisk rådgivning — verifiera mot leverantörens egna villkor.",
+      "relaterat": [
+        "060-10",
+        "060-20"
+      ],
+      "sektion": "060",
+      "lankar": [
+        [
+          "AI Compliance Guide (min egen)",
+          "https://confy-ai-path.lovable.app/",
+          "Min verifierade guide: privatperson vs företag, de fem kriterierna och en färsk plattformsjämförelse.",
+          "Guide"
+        ]
+      ]
+    },
+    {
+      "id": "060-40",
+      "titel": "Vem äger det jag skapar med den?",
+      "svar": "Oftast du — men användarvillkoren varierar och området är i rörelse. Läs det finstilta, särskilt om du ska sälja vidare.",
+      "anteckningar": "Vem äger AI-genererad text/bild/kod? Oftast du — men villkoren skiljer sig.\nSkillnad på privat och företagsplan, och på vad du får sälja/sprida.\nOmrådet är rättsligt i rörelse — flera processer pågår.\nFyll ut: principer + frågor att ställa, inte tvärsäkra 'regler'.",
+      "relaterat": [
+        "060-30"
+      ],
+      "sektion": "060",
+      "lankar": [
+        [
+          "AI Compliance Guide (min egen)",
+          "https://confy-ai-path.lovable.app/",
+          "Min verifierade guide: privatperson vs företag, de fem kriterierna och en färsk plattformsjämförelse.",
+          "Guide"
+        ]
+      ]
+    },
+    {
+      "id": "060-50",
+      "titel": "Behöver vi en AI-policy?",
+      "svar": "Ja — en enkel, tydlig sådan. Vem får använda vad, vad får matas in, och en människa som granskar.",
+      "anteckningar": "En AI-policy behöver inte vara tjock — den behöver vara tydlig.\nVem får använda vilka verktyg? Vad får matas in? Vem granskar?\nKänsligt → privata/EU-baserade eller självhostade modeller.\nVar medveten om att man kan lura AI:n (prompt injection) och om läckor.\nKonstruktiv avslutning: det här gör AI tryggt att använda på riktigt.",
+      "relaterat": [
+        "060-10",
+        "060-30"
+      ],
+      "sektion": "060",
+      "lankar": [
+        [
+          "AI Compliance Guide (min egen)",
+          "https://confy-ai-path.lovable.app/",
+          "Min verifierade guide: privatperson vs företag, de fem kriterierna och en färsk plattformsjämförelse.",
+          "Guide"
+        ]
+      ]
+    },
+    {
+      "id": "070-10",
+      "sektion": "070",
       "titel": "Vad ska jag ta med mig?",
       "svar": "Maskinen gör mönster. Du gör mening. Våga ha fel snabbare. Där börjar lärandet.",
       "bilder": [
@@ -1023,12 +1124,12 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "060-nyms07ccap",
-      "sektion": "060",
+      "id": "070-nyms07ccap",
+      "sektion": "070",
       "titel": "Skapar AI ordning eller kaos?",
       "svar": "Både och tänker jag",
       "relaterat": [
-        "060-10"
+        "070-10"
       ],
       "bilder": [
         "Skaparkaos.jpg"
@@ -1037,8 +1138,8 @@ window.LECTURE = {
       "fordjupning": "Så här ser AI-skapande faktiskt ut: hundra varianter, nittiosju i papperskorgen. Maskinen är generös men omdömeslös.\n\nUrvalet är fortfarande hantverket.\n\nDet gäller all AI-användning: värdet uppstår i din gallring, din smak, ditt nej. Guldkorn i kaos men bara för den som orkar sålla."
     },
     {
-      "id": "060-20",
-      "sektion": "060",
+      "id": "070-20",
+      "sektion": "070",
       "titel": "Tack och sen?",
       "svar": "Tack för att ni följde med och på återseende .\n\nHör av er om både föreläsningar och om ni vill ha hjälp med eget byggande. Eller lägg byggandet på mina axlar. Jag kan bygga vad som helst exakt som du vill ha det eller överraska dig att det gick att bygga ännu bättre.",
       "bilder": [
@@ -1324,6 +1425,25 @@ window.LECTURE = {
       "fordjupning": "<p class=\"ingress\">Det här låg tidigare som fördjupning på \"Vem är jag?\" — en bred AI-primer. Den passar egentligen bättre som ett eget kort, eller infälld i kapitel 010. Jag har flyttat hit den för beslut: eget kort, ihopslagen, eller bort? (Rensad från en främmande AI-röst som smugit sig in.)</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">De tre nivåerna av AI</span><span class=\"tag\">ANI · AGI · ASI</span></div>\n  <div class=\"body\"><strong>Snäv AI (ANI)</strong> — den vi har idag. Specialiserad på en uppgift: översätta text, känna igen ansikten, spela schack. Kan vara lysande på just sin sak, hjälplös på allt annat. Inom snäv AI har det ändå skett enorma kliv, från regelbaserade system (Deep Blue) till dagens general purpose-modeller som hanterar tusentals uppgifter.<br><br><strong>Generell AI (AGI)</strong> — en AI med mänsklig bredd, som kan lära, förstå och tillämpa kunskap inom vilket område som helst. Existerar inte ännu.<br><br><strong>Superintelligens (ASI)</strong> — hypotetisk: en AI klart smartare än hela mänskligheten tillsammans, på alla områden.</div>\n</div>",
       "relaterat": [
         "020-10"
+      ]
+    },
+    {
+      "id": "disk-jobb-governance",
+      "sektion": "960",
+      "titel": "Får jag använda det på jobbet? (kandidat: eget kapitel 060)",
+      "svar": "Frö till ett praktiskt kapitel om AI i organisationer: licenser, vad man får dela, dataskydd. Föreslås bli kapitel 060 (Vad tar jag med mig → 070).",
+      "anteckningar": "Annas idé: många i publiken (särskilt företag) undrar vad man FÅR göra — licenser, vad som får delas.\nRam: praktiskt, inte 'AI-säkerhet' (för brett). Lär ut principer + frågor att ställa, aldrig 'reglerna' (ändras snabbt).\nPlacering: kapitel 060, före avslutet.",
+      "fordjupning": "<p class=\"ingress\">Kandidat till ett eget kapitel 060 — det praktiska som varje organisation undrar över. Skiss på fråge-korten:</p><div class=\"section\"><div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Får jag ens använda AI på jobbet?</span><span class=\"tag\">Policy</span></div><div class=\"body\">Konsumentversion kontra företags-/API-version, \"shadow AI\" (folk använder det i smyg), och varför organisationen behöver en tydlig hållning.</div></div><div class=\"section\"><div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Vad får jag mata in — och vad stannar kvar?</span><span class=\"tag\">Data</span></div><div class=\"body\">Tränar modellen på min data? Sparas den? Personuppgifter/GDPR. Grundregel: klistra aldrig in hemligheter i en publik modell.</div></div><div class=\"section\"><div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Vem äger det jag skapar med den?</span><span class=\"tag\">Licenser</span></div><div class=\"body\">Upphovsrätt till AI-genererat, användarvillkor, vad du får sälja och sprida vidare.</div></div><div class=\"section\"><div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Hur skyddar vi oss?</span><span class=\"tag\">Skydd</span></div><div class=\"body\">En enkel AI-policy, privata/lokala modeller för känsligt, mänsklig granskning, medvetenhet om prompt injection.</div></div><div class=\"why\"><div class=\"why-label\">Vår hållning</div><div class=\"why-text\">Lär ut hur man tänker och vad man ska fråga sin arbetsgivare — aldrig tvärsäkra \"regler\". Reglerna skiljer sig mellan företag och ändras snabbt. Claude fyller på fakta; Anna ger rösten och varför det spelar roll.</div></div>",
+      "relaterat": []
+    },
+    {
+      "id": "disk-human-computers",
+      "sektion": "960",
+      "titel": "Kvinnor i dator-/rymdhistorien — parkerat (Hidden Figures m.fl.)",
+      "svar": "Parkerat ur historie-kapitlet: fantastiska kvinnor, men närmare rymd/beräkning än AI. Kandidat till eget kort om Anna vill.",
+      "anteckningar": "Flyttades ut ur 'Vem uppfann AI?' för att hålla historien stram och sann.\nHidden Figures: Katherine Johnson (räknade banorna), Dorothy Vaughan (lärde sig programmera tidigt), Mary Jackson (NASA:s första svarta kvinnliga ingenjör). Film: Hidden Figures.\nProfessor Helen Meng: forskning på tal-AI, att förstå otydligt tal, rekonstruera förlorade röster.\nBeslut (Claude, fria tyglar): starka historier men tangentiella till AI:s ursprung. Ada/Hopper/Fei-Fei bär kvinnotråden bättre. Kan bli eget kort ('human computers') om Anna vill — annars ligger de här.",
+      "relaterat": [
+        "010-15"
       ]
     },
     {
@@ -5090,25 +5210,6 @@ window.LECTURE = {
         "Engagerad publik.jpg",
         "Fikaföreläsning.jpg",
         "Anna framför sin roll-up.jpg"
-      ]
-    },
-    {
-      "id": "disk-jobb-governance",
-      "sektion": "960",
-      "titel": "Får jag använda det på jobbet? (kandidat: eget kapitel 060)",
-      "svar": "Frö till ett praktiskt kapitel om AI i organisationer: licenser, vad man får dela, dataskydd. Föreslås bli kapitel 060 (Vad tar jag med mig → 070).",
-      "anteckningar": "Annas idé: många i publiken (särskilt företag) undrar vad man FÅR göra — licenser, vad som får delas.\nRam: praktiskt, inte 'AI-säkerhet' (för brett). Lär ut principer + frågor att ställa, aldrig 'reglerna' (ändras snabbt).\nPlacering: kapitel 060, före avslutet.",
-      "fordjupning": "<p class=\"ingress\">Kandidat till ett eget kapitel 060 — det praktiska som varje organisation undrar över. Skiss på fråge-korten:</p><div class=\"section\"><div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Får jag ens använda AI på jobbet?</span><span class=\"tag\">Policy</span></div><div class=\"body\">Konsumentversion kontra företags-/API-version, \"shadow AI\" (folk använder det i smyg), och varför organisationen behöver en tydlig hållning.</div></div><div class=\"section\"><div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Vad får jag mata in — och vad stannar kvar?</span><span class=\"tag\">Data</span></div><div class=\"body\">Tränar modellen på min data? Sparas den? Personuppgifter/GDPR. Grundregel: klistra aldrig in hemligheter i en publik modell.</div></div><div class=\"section\"><div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Vem äger det jag skapar med den?</span><span class=\"tag\">Licenser</span></div><div class=\"body\">Upphovsrätt till AI-genererat, användarvillkor, vad du får sälja och sprida vidare.</div></div><div class=\"section\"><div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Hur skyddar vi oss?</span><span class=\"tag\">Skydd</span></div><div class=\"body\">En enkel AI-policy, privata/lokala modeller för känsligt, mänsklig granskning, medvetenhet om prompt injection.</div></div><div class=\"why\"><div class=\"why-label\">Vår hållning</div><div class=\"why-text\">Lär ut hur man tänker och vad man ska fråga sin arbetsgivare — aldrig tvärsäkra \"regler\". Reglerna skiljer sig mellan företag och ändras snabbt. Claude fyller på fakta; Anna ger rösten och varför det spelar roll.</div></div>",
-      "relaterat": []
-    },
-    {
-      "id": "disk-human-computers",
-      "sektion": "960",
-      "titel": "Kvinnor i dator-/rymdhistorien — parkerat (Hidden Figures m.fl.)",
-      "svar": "Parkerat ur historie-kapitlet: fantastiska kvinnor, men närmare rymd/beräkning än AI. Kandidat till eget kort om Anna vill.",
-      "anteckningar": "Flyttades ut ur 'Vem uppfann AI?' för att hålla historien stram och sann.\nHidden Figures: Katherine Johnson (räknade banorna), Dorothy Vaughan (lärde sig programmera tidigt), Mary Jackson (NASA:s första svarta kvinnliga ingenjör). Film: Hidden Figures.\nProfessor Helen Meng: forskning på tal-AI, att förstå otydligt tal, rekonstruera förlorade röster.\nBeslut (Claude, fria tyglar): starka historier men tangentiella till AI:s ursprung. Ada/Hopper/Fei-Fei bär kvinnotråden bättre. Kan bli eget kort ('human computers') om Anna vill — annars ligger de här.",
-      "relaterat": [
-        "010-15"
       ]
     }
   ],
