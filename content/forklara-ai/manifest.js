@@ -5082,6 +5082,15 @@ window.LECTURE = {
         "Fikaföreläsning.jpg",
         "Anna framför sin roll-up.jpg"
       ]
+    },
+    {
+      "id": "disk-jobb-governance",
+      "sektion": "960",
+      "titel": "Får jag använda det på jobbet? (kandidat: eget kapitel 060)",
+      "svar": "Frö till ett praktiskt kapitel om AI i organisationer: licenser, vad man får dela, dataskydd. Föreslås bli kapitel 060 (Vad tar jag med mig → 070).",
+      "anteckningar": "Annas idé: många i publiken (särskilt företag) undrar vad man FÅR göra — licenser, vad som får delas.\nRam: praktiskt, inte 'AI-säkerhet' (för brett). Lär ut principer + frågor att ställa, aldrig 'reglerna' (ändras snabbt).\nPlacering: kapitel 060, före avslutet.",
+      "fordjupning": "<p class=\"ingress\">Kandidat till ett eget kapitel 060 — det praktiska som varje organisation undrar över. Skiss på fråge-korten:</p><div class=\"section\"><div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Får jag ens använda AI på jobbet?</span><span class=\"tag\">Policy</span></div><div class=\"body\">Konsumentversion kontra företags-/API-version, \"shadow AI\" (folk använder det i smyg), och varför organisationen behöver en tydlig hållning.</div></div><div class=\"section\"><div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Vad får jag mata in — och vad stannar kvar?</span><span class=\"tag\">Data</span></div><div class=\"body\">Tränar modellen på min data? Sparas den? Personuppgifter/GDPR. Grundregel: klistra aldrig in hemligheter i en publik modell.</div></div><div class=\"section\"><div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Vem äger det jag skapar med den?</span><span class=\"tag\">Licenser</span></div><div class=\"body\">Upphovsrätt till AI-genererat, användarvillkor, vad du får sälja och sprida vidare.</div></div><div class=\"section\"><div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Hur skyddar vi oss?</span><span class=\"tag\">Skydd</span></div><div class=\"body\">En enkel AI-policy, privata/lokala modeller för känsligt, mänsklig granskning, medvetenhet om prompt injection.</div></div><div class=\"why\"><div class=\"why-label\">Vår hållning</div><div class=\"why-text\">Lär ut hur man tänker och vad man ska fråga sin arbetsgivare — aldrig tvärsäkra \"regler\". Reglerna skiljer sig mellan företag och ändras snabbt. Claude fyller på fakta; Anna ger rösten och varför det spelar roll.</div></div>",
+      "relaterat": []
     }
   ],
   "stigar": [],
