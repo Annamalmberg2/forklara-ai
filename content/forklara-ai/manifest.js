@@ -1317,7 +1317,10 @@ window.LECTURE = {
           "Lovable App"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 17 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 17 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik.",
+      "bilder": [
+        "Biblioteket.png"
+      ]
     },
     {
       "id": "130-20",
@@ -1577,7 +1580,10 @@ window.LECTURE = {
           "Ska en AI kunna påminna mig om saker när jag blir äldre så måste den ju veta vad den ska påminna mig."
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 42 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 42 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik.",
+      "bilder": [
+        "Biblioteket.png"
+      ]
     },
     {
       "id": "130-30",
@@ -1694,7 +1700,10 @@ window.LECTURE = {
           "DR Waku intervju"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 18 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 18 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik.",
+      "bilder": [
+        "Biblioteket.png"
+      ]
     },
     {
       "id": "130-40",
@@ -1925,7 +1934,10 @@ window.LECTURE = {
           "Hmmm"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 37 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 37 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik.",
+      "bilder": [
+        "Biblioteket.png"
+      ]
     },
     {
       "id": "130-50",
@@ -2294,7 +2306,10 @@ window.LECTURE = {
           "Utlänsk"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 60 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 60 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik.",
+      "bilder": [
+        "Biblioteket.png"
+      ]
     },
     {
       "id": "130-60",
@@ -2927,7 +2942,10 @@ window.LECTURE = {
           "Vetenskapskanaler om matematik och fysik"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 104 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 104 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik.",
+      "bilder": [
+        "Biblioteket.png"
+      ]
     },
     {
       "id": "130-70",
@@ -3152,7 +3170,10 @@ window.LECTURE = {
           "Serier"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 36 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 36 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik.",
+      "bilder": [
+        "Biblioteket.png"
+      ]
     },
     {
       "id": "130-80",
@@ -3276,7 +3297,10 @@ window.LECTURE = {
           "Hans tema är framtiden och huvudtesen är att informationsteknologins utvecklingstakt går i enlighet med vad han kallar för \"The Law of Accelerating Returns\" som antyder att informationsteknologins utvecklingstakt är exponentiell och därför också just nu i förstadiet till en explosionsartad förändringstakt. Enligt Kurzweil kommer detta att leda till en teknologisk singularitet, det vill säga en teoretisk framtida tidpunkt karaktäriserad av teknologiska framsteg utan motstycke."
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 23 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 23 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik.",
+      "bilder": [
+        "Biblioteket.png"
+      ]
     },
     {
       "id": "130-90",
@@ -4959,7 +4983,10 @@ window.LECTURE = {
           "Manliga forskare och profiler inom AI"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 279 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 279 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik.",
+      "bilder": [
+        "Biblioteket.png"
+      ]
     },
     {
       "id": "900-10",
