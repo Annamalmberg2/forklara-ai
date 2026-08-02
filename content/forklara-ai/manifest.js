@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-02 18:33:59)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-02 19:32:27)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -5188,6 +5188,10 @@ window.LECTURE = {
         [
           "Fredagslåt på YouTube",
           "https://www.youtube.com/watch?v=a7_jig8MxiU"
+        ],
+        [
+          "Mina egna första trevande försök att göra AI musik",
+          "https://www.youtube.com/playlist?list=PLrae5R3oQJre3W1pp-CTQrvI-6DObBl0c"
         ]
       ],
       "bilder": [
