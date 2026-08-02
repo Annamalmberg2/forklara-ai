@@ -60,13 +60,13 @@ window.LECTURE = {
     },
     {
       "id": "950",
-      "namn": "Mer — sparat material",
+      "namn": "Extra föreläsning",
       "bakom": true,
       "nyckel": null
     },
     {
       "id": "960",
-      "namn": "Att diskutera — kandidater",
+      "namn": "Extra egna byggen",
       "bakom": true,
       "nyckel": null
     },
@@ -1207,244 +1207,6 @@ window.LECTURE = {
         ]
       ],
       "fordjupning": "<p class=\"ingress\">Tack för att ni följde med hela vägen — från Aristoteles till drag 37, från primtalet till burgarna. Nu är föreläsningen slut. Men om jag ska vara ärlig börjar det roligaste oftast just här, efter sista bilden.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">En lärare som blev nyfiken</span><span class=\"tag\">Vem jag är</span></div>\n  <div class=\"body\">Jag är ingen datavetare. Jag är en lärare i matematik och fysik som blev nyfiken på AI och inte slutade — och som numera tycker att det är det mest spännande som finns.<br><br>Allt du sett i kväll, det här verktyget inräknat, har jag byggt själv, med AI, i min egen takt. Om jag kan, kan du.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Möta dig där du står</span><span class=\"tag\">AiNNOVA</span></div>\n  <div class=\"body\">AiNNOVA står på sex ben, och de hänger ihop. Poängen är inte att göra allt — det är att möta dig där du är och bygga vidare därifrån.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Sex ben, en tanke</div><div class=\"insight-text\">Vare sig du vill lära dig, bygga något, eller lägga byggandet på mina axlar — det finns en väg in. Jag kan bygga i stort sett vad som helst, exakt som du vill ha det, eller överraska dig med att det gick att bygga ännu bättre.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Hör av dig</span><span class=\"tag\">På återseende</span></div>\n  <div class=\"body\">Så: vill du fortsätta samtalet, boka en föreläsning eller bara bolla en idé — hör av dig. Trådarna vi vävt i kväll behöver inte klippas av bara för att lamporna tänds.<br><br>Maskinen gör mönster. Du gör mening. Gå och gör lite mening — och hör gärna av dig på vägen.</div>\n</div>\n\n<hr>\n<div class=\"extra-head\">AiNNOVA — sex ben som hänger ihop</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">AI-konsultation</div><div class=\"extra-desc\">Hjälp att komma igång, välja rätt och undvika fallgroparna.</div></div>\n  <div><div class=\"extra-name\">Utbildning &amp; coachning</div><div class=\"extra-desc\">Föreläsningar och handledning — som den här kvällen.</div></div>\n  <div><div class=\"extra-name\">Innehållsproduktion</div><div class=\"extra-desc\">Text, bild och material, byggt med AI och mänskligt omdöme.</div></div>\n  <div><div class=\"extra-name\">Webb &amp; kommunikation</div><div class=\"extra-desc\">Sajter och verktyg — som det du precis använt.</div></div>\n  <div><div class=\"extra-name\">Marknadsföring</div><div class=\"extra-desc\">Att synas och nå fram, med tekniken som hävstång.</div></div>\n  <div><div class=\"extra-name\">Specialiserade AI-lösningar</div><div class=\"extra-desc\">Skräddarsytt för just ditt behov — lägg byggandet på mina axlar.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Det sista jag vill säga</div>\n  <div class=\"future-body\">Var inte rädd. Var nyfiken. Börja i soffan i kväll, våga ha fel snabbare, och kom ihåg att din kurva är din egen.<br><br>Tack för i kväll — och på återseende. 💚</div>\n</div>"
-    },
-    {
-      "id": "mer-gamla-kartan-galler-ej",
-      "fordjupning": "Kartläsarens jobb är inte att minnas vägen, det är att läsa rätt karta i rätt ögonblick. När terrängen ritas om blir gamla meriter en risk: man svänger självsäkert åt fel håll.\n\nÖversatt till arbetslivet: erfarenhet är fortfarande guld, men som förmåga att navigera inte som memorerad väg. Fråga inte 'vad kan jag?' utan 'hur uppdaterar jag min karta?'.\n\nSjökort uppdateras ständigt, grund flyttar sig, farleder muddras om. En kapten som seglar på förra årets kort är inte erfaren, bara farlig.\n\nSamma sak med AI: det som var sant om verktygen i fjol (priser, förmågor, begränsningar) är ofta fel i år. Kolla datumet på din kunskap.\n\nI orientering vinner inte den som springer fortast, utan den som hittar rätt när kartan och verkligheten skaver. Färdigheten heter kartkontakt: att ständigt jämföra det man ser med det man tror.\n\nDet är kanske den viktigaste AI-färdigheten också: jämför alltid modellens svar med verkligheten. Springer du fort på fel kurs kommer du snabbt fel.\n\nAtt gå från gammal karta till levande nätverk påverkar hela digitala infrastrukturen runt oss.\n\nTa en klassisk hörnsten på internet som CDN (nätverken som skickar data till din skärm):\n\nFörr (statiskt & mekaniskt): Nätverket brydde sig bara om geografi och IP-adresser. \"Var sitter användaren? Skicka bilden från närmaste server i Stockholm.\" Det var mekaniskt, som en ritning.\n\nIdag (kontext & intention): När internet fylls av dynamisk AI, agenter och personanpassning räcker inte IP-adresser. De nya nätverken försöker i stället förstå intentionen bakom trafiken.\n\nIstället för att bara se en siffra (en IP-adress) frågar sig nätverket: Vad vill den här besökaren göra?\n\nÄr det en vanlig människa som läser en artikel? Skicka den blixtsnabbt.\n\nÄr det en komplex AI-fråga? Slussas anropet direkt till servrar med tunga grafikprocessorer.\n\nÄr det en AI-agent som gör sitt jobb på uppdrag av sin \"ÖB\" eller är det ett elakartat angrepp?\n\nPrecis som AI:n under huven har slutat vara en stum motor med skruvar, har hela internet gått från att vara en statisk vägatlas till ett lyhört ekosystem som försöker förstå vad vi faktiskt vill göra.",
-      "sektion": "950",
-      "titel": "Hur läser du nya kartan med den gamla i din hand?",
-      "begrepp": [
-        "förändring",
-        "gamla kartan"
-      ],
-      "anteckningar": "Kartläsaren läser gårdagens karta, skylten säger \"gammal karta gäller ej\".\n\nErfarenhet hjälper bara om kartan uppdateras. Det gäller oss alla.\n\nSamma hav, nya farleder. Sjökortet ritas om medan vi seglar.\n\nTerrängen stämmer inte längre med kartan.\n\nDå gäller det att kunna orientera, inte att ha memorerat vägen.",
-      "bilder": [
-        "Rallyt – gamla kartan gäller ej.png",
-        "Kaptenen till sjöss.png",
-        "Orienteraren på vift.jpg"
-      ],
-      "svar": "Gamla kartan gäller inte längre. Vägarna och spelreglerna har förändrats"
-    },
-    {
-      "id": "mer-patent-kunskapens-ekonomi",
-      "fordjupning": "<p class=\"ingress\">Patenttänket byggdes för en värld där kunskap var knapp och kopiering kostade. Trycka en bok, tillverka en maskin, sprida en uppfinning — det tog tid och pengar. Skyddet gav mening. Men den världen finns inte längre. Kod kopieras på en sekund. En idé sprids globalt på ett dygn. Och ändå håller vi fast vid ett system som är konstruerat för att bromsa just det. Det är inte ondska. Det är eftersläpning. Och eftersläpning har ett pris.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Vad patent egentligen är — och vad det inte är</span><span class=\"tag\">Immaterialrätt</span></div>\n  <div class=\"body\">\n    Ett patent är ett tidsbegränsat monopol. Staten säger: du fick tänka tanken först, du får äga den i ett antal år, ingen annan får använda den utan din tillåtelse. I utbyte publicerar du uppfinningen — så att andra kan bygga vidare när skyddet löper ut.<br><br>\n    Tanken är god. Belöna den som tar risken att uppfinna. Ge incitament att investera i forskning. Låt sedan kunskapen bli allmän egendom.<br><br>\n    Problemet är att systemet i praktiken ofta fungerar tvärtom. <strong>Den som kommer först äger lösningen — inte den som har den bästa.</strong> Den som har råd med juridiken skyddar sig — inte den som har den viktigaste idén. Och den som köper upp patent för att blockera konkurrenter bidrar inte till innovation alls. Det är ett skyddssystem som skyddar position, inte framsteg.\n  </div>\n  <div class=\"why\"><div class=\"why-label\">Vad vi vet</div><div class=\"why-text\">Det råder bred akademisk enighet om att en stor majoritet av alla beviljade patent aldrig kommersialiseras — aldrig resulterar i en produkt, en tjänst eller ett licensavtal. Exakta siffror varierar mellan studier och branscher, men riktningen är tydlig och väldokumenterad. <strong>De flesta patent används inte. De existerar.</strong></div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Den inbyggda dummheten</span><span class=\"tag\">Systemkritik</span></div>\n  <div class=\"body\">\n    Det finns en logik i patenttänket som verkar rimlig på ytan: om du investerar i en uppfinning ska du ha rätt att tjäna på den innan konkurrenterna kopierar dig. Men logiken har en inbyggd blindhet.<br><br>\n    Den förutsätter att den som kom först hade den bästa lösningen. Det stämmer sällan. Den förutsätter att blockerade vägar inte leder någonstans — men vi vet aldrig vad som hade uppfunnits om vägen varit öppen. Vi ser bara det som faktiskt hände, aldrig det som hindrades.<br><br>\n    <strong>Det är den verkliga kostnaden med ett bromssystem: den är osynlig.</strong> Vi räknar inte upp de mediciner som aldrig utvecklades för att ett patent låste in en delkomponent. Vi ser inte de lösningar som aldrig uppstod för att grundteknik ägdes av någon som inte hade för avsikt att använda den.<br><br>\n    Och i en digital värld där kunskapen rör sig snabbare än patentkontoren kan handlägga ansökningar — där en AI kan tränas på ett halvårs forskning på en vecka — är eftersläpningen inte längre ett administrativt problem. Det är ett strukturellt hinder.\n  </div>\n  <div class=\"lost\"><div class=\"lost-label\">Här brukar folk fastna</div><div class=\"lost-text\">Argumentet för patent är alltid \"men utan skydd vågar ingen investera.\" Det är inte fel. Men det är inte hela bilden. Många av de största innovationerna i vår tid — internet, Linux, världens webbstandard, moderna AI-modeller — byggdes utan patent som drivkraft. Öppenhet är också ett incitament. Ibland ett starkare.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">När delning visade sig fungera</span><span class=\"tag\">Öppen innovation</span></div>\n  <div class=\"body\">\n    Det finns väldokumenterade fall där öppenhet inte bara fungerade — utan accelererade hela branschen på ett sätt som slutet ägande aldrig hade gjort.<br><br>\n    <strong>Linux</strong> byggdes öppet, av frivilliga, utan patent, och blev ryggraden i det moderna internet — i servrar, i Android, i stora delar av AI-infrastrukturen. Ingen planerade det. Det växte ur delningskulturen.<br><br>\n    <strong>Tesla</strong> öppnade sina patent 2014 med motiveringen att elbilsmarknaden var för liten — de behövde fler aktörer, inte färre. I åren som följde växte marknaden dramatiskt. Hur mycket som berodde på Teslas beslut och hur mycket som berodde på andra faktorer är svårt att säga med säkerhet. Men Tesla tog inte skada av att dela. De tog marknadsandel.<br><br>\n    <strong>AlphaFold</strong> publicerade sina proteinstrukturdata öppet. Biologivärlden fick tillgång till ett decenniums forskning på en gång. Takten på medicinsk forskning accelererade på ett sätt som aldrig hade skett om resultaten låsts in bakom patent.<br><br>\n    Det är inte bevis för att patent alltid är fel. Det är bevis för att delning ibland är smartare än skydd — och att vi sällan räknar på det alternativet.\n  </div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Värdet i dessa fall låg inte i att äga idén. Det låg i att vara den som kunde implementera den bäst, snabbast och med störst trovärdighet. <strong>Ägandet av idén var inte fördelen. Förmågan att omsätta den var.</strong></div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Vad som ersätter patent — generositetens ekonomi</span><span class=\"tag\">Post-patent modeller</span></div>\n  <div class=\"body\">\n    Om inte patent, vad då? Det är den rimliga frågan. Och svaret är inte ett enda nytt system — det är en förändrad förståelse av var värdet faktiskt sitter.<br><br>\n    I en digital värld är idén sällan det svåraste. Det svåraste är att <strong>implementera</strong> — att ta en idé från tanke till fungerande lösning som faktiskt hjälper någon. Den förmågan kan ingen kopiera med ett klick. Den sitter i erfarenhet, i förtroendet du byggt, i din förmåga att förstå problemet inifrån.<br><br>\n    Det öppnar för vad vi kan kalla <strong>generositetens ekonomi</strong>: dela idén generöst, men bygg ditt värde i genomförandet. WordPress är gratis. Företagen som bygger på WordPress och kan implementera det för kunder tar betalt. Arduino är öppet. Kunskapen om hur man använder det skapar affärer. Linux är fritt. Experterna på Linux har aldrig haft mer jobb.<br><br>\n    Det är inte idealism. Det är en affärsmodell som fungerar — och som dessutom råkar vara bättre för världen än ett system där kunskap låses in.\n  </div>\n  <div class=\"why\"><div class=\"why-label\">Varför det inte passar alla</div><div class=\"why-text\">Generositetens ekonomi kräver att du har en röst, ett nätverk, en plattform att synas från. Den som uppfinner något briljant i tysthet och delar det generöst riskerar att någon med större plattform tar creden. Det är ett verkligt problem. Öppen delning utan attribution är inte generositet — det är osynlighet. <strong>Delning och synlighet måste hänga ihop.</strong></div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Patentpoddar — en bro mellan systemen</span><span class=\"tag\">Kollektivt ägande</span></div>\n  <div class=\"body\">\n    Det finns en mellanlösning som redan existerar och fungerar: <strong>patentpoddar</strong>. Grupper av aktörer som samlar sina patent i en gemensam pool och ger varandra fri tillgång — som ett kollektivt skydd snarare än ett individuellt vapen.<br><br>\n    <strong>Open Invention Network</strong> byggdes för att skydda Linux-ekosystemet. Tusentals medlemmar — inklusive stora teknikbolag — bidrar med patent och lovar att inte stämma varandra för intrång inom det definierade området. Resultatet: ett starkt kollektiv som faktiskt möjliggör öppen innovation utan att lämna deltagarna rättslösa mot externa angrepp.<br><br>\n    Det är inte post-patent. Det är patent som används på ett annat sätt — som sköld istället för svärd. Och det visar att systemet kan böjas i en annan riktning utan att helt monteras ner.<br><br>\n    <strong>LOT Network</strong> är ett annat exempel: om ett patent säljs till ett patenttroll blir det automatiskt tillgängligt för alla medlemmar. Det tar bort incitamentet att spekulera i patent som vapen. Enkelt, elegant, ingen ny lagstiftning krävs.\n  </div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Förändringen behöver inte vara revolution. Den kan vara ett steg i taget — från individuellt vapen till kollektivt skydd till öppen standard. <strong>Linux visade att det går. Tesla visade att det kan löna sig. AlphaFold visade att det kan rädda liv.</strong></div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">6</span><span class=\"concept\">AI och det kollektiva minnet</span><span class=\"tag\">Kunskapens ursprung</span></div>\n  <div class=\"body\">\n    Det finns en ironi i att diskutera patent i en tid av AI. De stora språkmodellerna — Claude, ChatGPT, Gemini — tränades på text som miljoner människor skrivit och delat. Forskare, lärare, programmerare, poeter, vanliga människor med vanliga tankar. Ingen av dem fick betalt för sitt bidrag. Ingen fick frågan om de ville vara med.<br><br>\n    Det är inte nödvändigtvis rätt. Det är en olöst fråga om vem som äger det kollektiva minnet. Men det illustrerar något fundamentalt: <strong>kunskap har aldrig uppstått ur ingenting hos en enskild person vid ett enskilt tillfälle.</strong> Den föds alltid ur allt som kom före.<br><br>\n    Newton sa att han stod på jättars axlar. Det gäller alla uppfinnare, alla forskare, alla innovatörer — och alla AI-modeller. Patenttänket låtsas att kunskap föds ur ett vakuum och tillhör den som \"kom på det.\" Verkligheten är mer generös och mer komplicerad än så.<br><br>\n    Att börja ta den komplexiteten på allvar — att fråga vem som egentligen bidrog, vem som förtjänar cred, hur vi skapar system som belönar delning lika högt som uppfinning — det är en av de viktigaste frågorna för den digitala eran. Och vi är precis i början av att försöka svara på den.\n  </div>\n  <div class=\"lost\"><div class=\"lost-label\">Frågan ingen har löst</div><div class=\"lost-text\">Hur ger man cred och ägande i en delningskultur? Attribution fungerar delvis — du får synas, du bygger rykte, du får förtroende. Men det hjälper inte Kalle från Torsby som uppfann något briljant innan han hade en plattform. Det är det verkliga problemet. Inte om vi ska dela — utan hur vi säkerställer att de som delar inte försvinner i osynligheten.</div></div>\n</div>\n\n<hr>\n\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Patent</div><div class=\"extra-desc\">Tidsbegränsat monopol på en uppfinning. Kräver publicering — i utbyte mot skydd. Löper vanligen ut efter 20 år.</div></div>\n  <div><div class=\"extra-name\">Defensivt patent</div><div class=\"extra-desc\">Patent som söks för att blockera konkurrenter, inte för att använda uppfinningen. Vanligt i stora techbolag.</div></div>\n  <div><div class=\"extra-name\">Patenttroll</div><div class=\"extra-desc\">Aktör som köper patent utan avsikt att använda dem — bara för att stämma andra för intrång. Parasitär men legal.</div></div>\n  <div><div class=\"extra-name\">Patentpodd</div><div class=\"extra-desc\">Gemensam pool av patent där medlemmar ger varandra fri tillgång. Sköld snarare än svärd.</div></div>\n  <div><div class=\"extra-name\">Open Invention Network</div><div class=\"extra-desc\">Världens största patentpodd, skapad för att skydda Linux-ekosystemet. Tusentals medlemmar, noll rättsfall internt.</div></div>\n  <div><div class=\"extra-name\">Upphovsrätt</div><div class=\"extra-desc\">Skyddar konstnärliga och litterära verk — böcker, musik, kod. Uppstår automatiskt, kräver ingen ansökan.</div></div>\n  <div><div class=\"extra-name\">Creative Commons</div><div class=\"extra-desc\">Licenser som låter upphovspersoner dela sitt verk med specificerade villkor — t.ex. fritt att använda men med attribution.</div></div>\n  <div><div class=\"extra-name\">Attribution</div><div class=\"extra-desc\">Att ge cred till den som bidragit. Inte juridiskt bindande som patent — men kulturellt kraftfullt i delningsekonomin.</div></div>\n  <div><div class=\"extra-name\">Öppen innovation</div><div class=\"extra-desc\">Affärsstrategi där man aktivt delar kunskap utåt och tar in kunskap utifrån. Motsatsen till slutet IP-tänk.</div></div>\n  <div><div class=\"extra-name\">Freemium</div><div class=\"extra-desc\">Grundfunktion gratis, avancerade funktioner kostar. En av de vanligaste modellerna för att tjäna pengar utan patent.</div></div>\n  <div><div class=\"extra-name\">LOT Network</div><div class=\"extra-desc\">Nätverk där patent automatiskt blir tillgängliga för alla medlemmar om de säljs till patenttroll. Tar bort vapnet.</div></div>\n  <div><div class=\"extra-name\">Generositetens ekonomi</div><div class=\"extra-desc\">Idén att dela kunskap generöst bygger rykte, förtroende och nätverk — som på sikt är mer värt än att äga idén.</div></div>\n</div>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Vad vi inte vet — men tycker är värt att fundera på</div>\n  <div class=\"future-body\">\n    Patenttänket kommer inte försvinna. Det är för inbyggt i finansieringssystem, riskkapital och juridisk tradition för att monteras ner snabbt. Men det kan böjas — och det böjs redan, långsamt, av öppen källkod, patentpoddar och företag som lärt sig att delning kan vara smartare än stängning.<br><br>\n    Det som förändras snabbare är kulturen. Fler ser att rykte och implementeringsförmåga är mer hållbara fördelar än ett juridiskt skydd som kostar mer att försvara än det ger tillbaka. Fler förstår att en marknad som växer för att du delade är bättre än en liten marknad du äger ensam.<br><br>\n    <strong>Den stora olösta frågan är attribution i skala.</strong> Hur ger vi cred i en värld där kunskap flödar fritt? Hur säkerställer vi att de som bidrar syns — inte bara de som råkar ha störst plattform när bidraget sker? Det är inte en juridisk fråga längre. Det är en kulturell och teknisk fråga som AI, blockkedjor och nya plattformsmodeller försöker svara på — med varierande framgång.<br><br>\n    Det vi vet är att frågan inte försvinner. Kunskap har aldrig tillhört en enda person. Den har alltid byggts på allt som kom före. Att hitta system som hedrar det — istället för att låtsas att uppfinning sker i ett vakuum — är en av de viktigaste utmaningarna för den era vi befinner oss i.<br><br>\n    <strong>Delar du, eller snålar du? Det är egentligen hela frågan. Resten är detaljer.</strong>\n  </div>\n</div>\n\n<div class=\"shield\">\n  <div class=\"shield-label\">Vad som faktiskt är belagt — om du tvekar</div>\n  <div class=\"shield-body\">\n    <strong>Vad vi vet och kan belägga:</strong> En stor majoritet av alla beviljade patent kommersialiseras aldrig. Det är väldokumenterat i flera oberoende studier och bekräftat av bl.a. National Science Foundation. Exakta procentsatser varierar — definitionen av \"används\" spelar roll — men riktningen är konsekvent: de flesta patent resulterar inte i produkter, tjänster eller licensintäkter.<br><br>\n    <strong>Vad som är dokumenterat men inte isolerat:</strong> Tesla öppnade sina patent 2014. Elbilsmarknaden växte dramatiskt i åren som följde. Att det finns ett samband är rimligt. Att Teslas beslut ensamt orsakade tillväxten går inte att bevisa — för mycket hände samtidigt. Vi påstår sambandet, inte enorsaksförklaringen.<br><br>\n    <strong>Vad som är rimlig slutsats, inte bevisat faktum:</strong> Att patenttänket bromsar innovation mer än det stimulerar den i snabbrörliga digitala branscher. Det är en välgrundad tes med stöd i forskning, men det finns också forskning som pekar åt andra hållet — särskilt inom läkemedel och hårdvara med höga utvecklingskostnader.<br><br>\n    <strong>Vad som är vår position:</strong> Att delningskulturen är ett bättre system för kunskapsintensiva branscher i en digital era. Det är ett värdeståndpunkt, inte ett faktapåstående. Vi försvarar det med argument, inte med siffror.\n  </div>\n  <div class=\"shield-sources\">\n    <div class=\"shield-sources-label\">Källor</div>\n    <div class=\"source-item\">NSF Science & Engineering Indicators — \"most patented inventions are never commercialized\" · <a href=\"https://www.nsf.gov/statistics/2018/nsb20181/\" target=\"_blank\">nsf.gov</a></div>\n    <div class=\"source-item\">Giuri et al. (2007), Nagaoka & Walsh (2009) — studier om oanvända patent · <a href=\"https://www.sciencedirect.com/science/article/abs/pii/S0048733316300440\" target=\"_blank\">sciencedirect.com</a></div>\n    <div class=\"source-item\">Tesla Patent Pledge (2014) · <a href=\"https://www.tesla.com/legal/additional-resources\" target=\"_blank\">tesla.com</a></div>\n    <div class=\"source-item\">Open Invention Network — Linux-patentpoolen · <a href=\"https://openinventionnetwork.com\" target=\"_blank\">openinventionnetwork.com</a></div>\n    <div class=\"source-item\">AlphaFold — DeepMinds publicering av proteinstrukturdata · <a href=\"https://alphafold.ebi.ac.uk\" target=\"_blank\">alphafold.ebi.ac.uk</a></div>\n  </div>\n</div>",
-      "sektion": "950",
-      "titel": "Men vad händer med vår ekonomi och alla våra patent?",
-      "begrepp": [
-        "patent",
-        "kunskapens ekonomi",
-        "öppna vikter"
-      ],
-      "anteckningar": "Vem äger kunskapen? Patent, öppna vikter, licenser.\n\nDen här programvaran har jag med hjälp av AI skapat men vems är den? Kan den gynna fler?\n\nDen här frågan har i dagsläget mer frågor än svar.",
-      "bilder": [
-        "Patent – kunskapens ekonomi.jpg"
-      ],
-      "svar": "Patent har mer begränsat än gynnat mänskligheten. Det kan ha gynnat företag men sällan människor."
-    },
-    {
-      "id": "mer-hurdetfunkar",
-      "sektion": "950",
-      "titel": "Hur började jag första gången bygga på webben?",
-      "begrepp": [
-        "skolan",
-        "experiment"
-      ],
-      "anteckningar": "Min gamla skolhjälpssida är nu mitt experimentlabb.\n\n2011 byggdes sidan första gången i Wordpress under\n\nfölj länken \"Intervju om mina första steg på webben 2011\" så får du grundhistorien.\n\nI denna intervju hamnar vi \"mitt i smeten\" hos Lag HurDetFunkar som aldrig träffats innan Carlstad Code Camp drog igång. Lagledaren Anna berättar om hur det gick till när de blev ett lag via twitter.",
-      "lankar": [
-        [
-          "hurdetfunkar.se",
-          "https://hurdetfunkar.se"
-        ],
-        [
-          "Pluton B",
-          "https://sites.google.com/view/hurdetfunkar/pluton-b"
-        ],
-        [
-          "Intervju om mina första steg på webben 2011",
-          "https://youtu.be/Wevp_q7-1c0"
-        ]
-      ],
-      "bilder": [
-        "HurDetFunkar.png"
-      ],
-      "svar": "HurDetFunkar byggdes första gången på 24 timmar under en kodtävling",
-      "fordjupning": "2011 gjordes alla läroplaner om och vi lade upp samtliga på HurDetFunkar som då blev väldigt välbesökt eftersom skolverkets egen sida ofta krachade.\n\nJag lärde mig grunderna att bygga webb med Lena och Tobias. Efter det har HurDetFunkar byggts om många gånger. Rivits het och byggts om.\n\nDen sista versionen av skolhjälpen stuvade jag jag undan på GoogleSite och byggde för första gångenhelt nytt i filsystem på webbhotell. Den här presentationen är också byggt som filsystem men denna presentation är byggd på min dator. För att gör den publik har vi sedan puchat koden till GitHub."
-    },
-    {
-      "id": "mer-traktens",
-      "sektion": "950",
-      "titel": "Vad är det där Traktens du har med på ditt reklammaterial?",
-      "begrepp": [
-        "Google Sites",
-        "kartautomation"
-      ],
-      "anteckningar": "Traktens sida är byggd i Google Sites med kartautomation. Gratis verktyg, riktig nytta.\n\nDen 16 oktober 2025 sökte vi stöd från jordbruksverket för att säkerställa att traktens.se skulle få den rätta knuffen för att utvecklas och växa, tyvärr fick vi avslag på ansökan 10 februari 2026.  Eftersom sidan är byggd med smarta automationer, utan webhotell och gratis api så kommer sidan ändå att finnas kvar och utvecklas i takt med att producenter på egen hand registrerar sina vreksamheter.\n\nVi lade ner en del jobb på ansökan. Avslaget däremot innehöll ingenting, var inte ens undertecknat. Nog är det väl märkligt att Jordbruksverket som hantear bidrag för miljoner inte ens bemödar sig med att förklara varför ansökan fick avslag. Sidan finns nu ändå och kanske jag gör något mer av den i framtiden.",
-      "lankar": [
-        [
-          "traktens.se",
-          "https://www.traktens.se/om-traktens"
-        ],
-        [
-          "Om traktens",
-          "https://www.traktens.se/om-traktens"
-        ]
-      ],
-      "bilder": [
-        "Traktens.png"
-      ],
-      "svar": "Den 16 oktober 2025 sökte jag och två sammarbetsgårdar stöd från jordbruksverket för att säkerställa att traktens.se skulle få den rätta knuffen för att utvecklas och växa, tyvärr fick vi avslag på ansökan 10 februari 2026.  Men eftersom sidan är byggd med smarta automationer, utan webhotell och gratis api så kommer sidan ändå att finnas kvar och utvecklas i takt med att producenter på egen hand registrerar sina vreksamheter.",
-      "fordjupning": "👉Traktens bygger kartor över lokal mat och lokala förmågor i hela landet.\n\nDu kan helt gratis registrera din verksamhet för att nå precis dom som söker dina produkter eller tjänster. Det är så mycket roligare att handla av dom man har i sin egen trakt än att beställa hem färdiga matkassar. Du får den äventyrliga resan istället för maten.\n\nMat och verksamheter från människor – med maskiner som verktyg, inte som mellanhand. Utan filter. Utan styrande algoritmer. För dig som vill stärka det mänskliga och marken under våra fötter.\n\n🔨 VAD JAG HAR BYGGT\n\n🟢 Interaktiva kartor för alla områden i menyn\n\n🟢 Enkelt att själv lägga till sin gård eller verksamhet\n\n🟢 Allt byggt med öppenhet, omtanke och en gnutta envishet\n\n🟢 Översiktskartan med alla,  fler sökmöjligheter på kategorikartorna.\n\nVad jag kartlägger:\n\nMatrelaterade:\n🍺 Dryck & Bryggeri · 🥩 Kött & Chark · 🐟 Fisk & Skaldjur · 🥚 Ägg & Mejeri & Honung · 🥬 Grönsaker & Rotfrukter & Baljväxter · 🍓 Frukt & Bär & Svamp · 🌾 Spannmål & Bröd & Kvarnar  · 🔄 REKO-ringar & Andelsjordbruk\n\nDe finns i din trakt och vi behöver dom så ofta:\n🛍️ Loppis · 🐕 Djur & Veterinär · 🧶 Hantverk & Skinn & Ull · 🌸 Blommor & Trädgård · 🌱 Jord & Gödsel & Odlingstjänster · 🚛 Transport & Maskinuthyrning · 🔨 Bygg & Reparation · 🌲 Skog & Energi 🏠 Boende & Upplevelser\n\nErbjudes eller sökes:\n🩺 Alternativvård & Läkarvård · 🏹 Jakt & Arrenden & Hundar · 🤝 Grannhjälp & Överskott & Utbyte · 💼 Arbete & Praktik · 📚 Läxhjälp & IT-stöd · 🚀 Starta eget & Accelerator"
-    },
-    {
-      "id": "mer-notion-som-anteckningar",
-      "sektion": "950",
-      "titel": "Kan jag få ett examenbevis?",
-      "begrepp": [
-        "Notion",
-        "skolan",
-        "fria studier"
-      ],
-      "anteckningar": "Anteckningsblocket som blev skolplattform.\n\nFria studier om AI — välj din stig.\n\nDenna utbildning kom sig av att jag testade att publicera lite anteckningar jag hade gjort.\n\nFaktum är att då jag nu går tillbaka och tittar så finns det en hel del bra för att komma igång så förse dig av valfria tips.\n\nDu kan t o m skriva ut ditt eget examnsbevis.",
-      "lankar": [
-        [
-          "Fria studier om AI",
-          "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
-        ]
-      ],
-      "bilder": [
-        "Notion som anteckningar.png"
-      ],
-      "svar": "Ja du kan själv gå denna kurs och skriva ut ditt examensbevis",
-      "fordjupning": "Notion är ett fantastiskt verktyg att samla anteckningar mm.\n\nDet var i Notion jag började bygga mina första databaser och mitt första CRM.\n\nCRM står för Customer Relationship Management och är ett verktyg för att hantera kundkontakter, sälja mer och förbättra service. Det samlar all information om dina kunder på ett enda ställe."
-    },
-    {
-      "id": "mer-bloggen",
-      "sektion": "950",
-      "titel": "Varför bygga blogg när du har en FB sida?",
-      "begrepp": [
-        "Wisdom Streamer",
-        "blogg"
-      ],
-      "anteckningar": "Är det något jag har lärt mig så är det att plattformar dör.\n\nMånga tror att alla har FB men då har byggt din sanning på en falsk bubbla.\n\nJa det är enklare att dela på FB och LinkedIn än att bygga eget men bygger du eget så kan det aldrig tas ifrån dig.\n\nDen blogg jag byggt har jag bara synkat med FB som ett sätt att säkra det jag lägger ut.\n\nDessutom kan den som vägrar använda sociala media ändå ta ta del.",
-      "lankar": [
-        [
-          "Wisdom Streamer – bloggen",
-          "https://wisdom-streamer.lovable.app/"
-        ],
-        [
-          "ainnova.se",
-          "https://ainnova.se"
-        ]
-      ],
-      "bilder": [
-        "Bloggen.png"
-      ],
-      "svar": "En Blogg kan alla läsa. En Facebook sida kan bara de facebook se",
-      "fordjupning": "Vill du också tanka ur dina sociala media så är det görbart.\n\nBygg aldrig grunden för din verksamhet på någon annas plattform."
-    },
-    {
-      "id": "mer-veckolatar",
-      "sektion": "950",
-      "titel": "Gör du fredags låtarna själv?",
-      "begrepp": [
-        "fredagslåtar",
-        "musik"
-      ],
-      "anteckningar": "Musiken som återkommande inslag varje vecka.\n\nEn fredagslåt som sammanfattar veckans tema och inlägg på sociala media.\n\nMartin Lönnstam tolkar fritt och gör en låt i Suno.",
-      "lankar": [
-        [
-          "Musiksidan",
-          "https://sites.google.com/ainnova.se/aisverige/musik"
-        ],
-        [
-          "Fredagslåt på YouTube",
-          "https://www.youtube.com/watch?v=a7_jig8MxiU"
-        ]
-      ],
-      "bilder": [
-        "Veckolåtar.png"
-      ],
-      "svar": "Jag har gjort många låtar själv men fredagslåtarna kom sig av att Martin Lönnstam kände sig inspirerad av det jag hade lagt ut vecka 20 och gjorde en låt av det. Sedan har vi bara fortsatt så.",
-      "fordjupning": "Det finns de som menar att AI inte kan skapa eget, att den bara kan härma som en stokatisk papegoja.\n\nJag har gjort sånger som blivit bra genom att t e x bara be om att få en sång om en hästs stamtavla och jag har testat massa olika varianter som jag aldrig trodde skulle kunna bli sång men så blev det ändå bra.\n\nAI kommer bara att bli bättre på att skapa. Som alltid \"Den AI du har idag är den sämsta du någonsin kommer att ha\""
-    },
-    {
-      "id": "mer-skoldbondens-schack",
-      "sektion": "950",
-      "titel": "Varför är kungen högst i alla schackspel?",
-      "begrepp": [
-        "schack",
-        "spel"
-      ],
-      "anteckningar": "Mitt eget schack med samma regler som ett ordinarie schackspel.\n\nJag ville bara ha en annan design än de traditionella spelen så jag byggde ett eget.\n\nSka jag vara ärlig så har jag en hel del misslyckade försök men det här schackspelet fungerar verkligen.\n\nTesta att spela det.",
-      "lankar": [
-        [
-          "Spela Sköldbondens schack",
-          "https://annamalmberg2.github.io/skoldbondens-schack/"
-        ]
-      ],
-      "bilder": [
-        "Sköldbondens schack.png"
-      ],
-      "svar": "I \"Sköldbondens schack\" är det damen som är högst för hon är farligast. bönderna har både sköld och grep men annars är reglerna lika.",
-      "fordjupning": "Legenden om riskornen och schackbrädet.\n\nEnligt legenden levde en vis man vid namn Sissa ben Dahir (eller Sissa ibn Dahir) i det forntida Indien. Han uppfann schackspelet och visade det för kungen, ibland kallad kung Shihram eller en rajah. Kungen blev så imponerad att han sade: \"Be om vilken belöning du vill.\"\n\nDen vise mannen svarade ödmjukt:\n\n\"Jag vill bara ha lite ris, ett riskorn på första rutan av schackbrädet, två på den andra, fyra på den tredje, och så vidare.\nDubbelt så många på varje ruta ända tills alla 64 rutor är fyllda.\"\n\nKungen skrattade åt vad som verkade vara en blygsam begäran och gick med på det omedelbart. Men när hans tjänare började räkna ut hur mycket ris det faktiskt blev, insåg de att det var en omöjlig mängd.\n\nMatematiken bakom\nDet handlar om summan av en geometrisk serie:\n\n2^0 + 2^1 + 2^2 + … + 2^63 =\n2^64 − 1\n\nTotalt blir det 18 446 744 073 709 551 615 riskorn, nästan 18,5 kvadriljoner.\n\nHur mycket ris är det?\nOm ett riskorn väger ungefär 0,02 gram blir den totala vikten ca 369 miljoner ton ris.\n\nDet skulle motsvara världens risproduktion många gånger över. Inte ens i dag skulle hela jordklotet kunna producera så mycket ris.\n\nHistorien används ofta som en varning för att underskatta exponentiell tillväxt. Det är relevant inom:\n\nEkonomi — ränta-på-ränta-effekten\n\nDatateknik — Moores lag och beräkningskraftens tillväxt\n\nEpidemiologi — hur smitta sprids\n\nAI-utveckling — hur kapacitet kan öva explosionsartat\n\nSchackbrädet har 64 rutor. Det som gör historien så kraftfull är att den första hälften av brädet (rutor 1–32) \"bara\" ger ca 4,3 miljarder riskorn — mycket, men hanterbart.\n\nDet är på den andra halvan som siffrorna löper iväg till astronomiska höjder. Detta är en insikt som ständigt återkommer när man försöker förstå exponentiell utveckling.\n\nDetta är precis den typen av tankeverktyg som är värdefullt att ha med sig när man försöker förstå AI:s utveckling. Vi befinner oss kanske fortfarande på \"första halvan av brädet\", och det är svårt att intuitivt förstå vad som händer när vi rundar ruta 32."
-    },
-    {
-      "id": "mer-handslaget-avtal-mellan-manniskor",
-      "sektion": "950",
-      "titel": "Läser du det finstilta i alla 100 sidor långa kontrakt du skriver på?",
-      "begrepp": [
-        "avtal",
-        "Handslaget"
-      ],
-      "anteckningar": "Avtalsverktyget: enkla överenskommelser mellan människor.\n\nEtt handslag fast digitalt.\nSamma idé, på svenska. Förtroende är lokalt.",
-      "lankar": [
-        [
-          "Handslaget",
-          "https://handshake-echo-world.lovable.app"
-        ]
-      ],
-      "bilder": [
-        "handslaget.png",
-        "handslaget  diplom.png"
-      ],
-      "svar": "Handslaget är ett avtal mellan människor. I Sverige är ett muntligt avtal mellan två företagare bindande men det kan vara smart att dokumentera det med ett digitalt handslag.",
-      "fordjupning": "Idén bakom Handslaget\n\nI Sverige är ett muntligt avtal mellan två företagare bindande. Det har varit så i över hundra år sedan Avtalslagen (1915:218) trädde i kraft.\n\nÄndå skriver vi idag på 100-sidiga kontrakt fyllda av finstilta villkor som ingen läser. Handslaget vill vända på detta: tillbaka till avtalets kärna, överenskommelsen mellan två människor. Men med digital trygghet.\n\n\"Ett avtal blir bindande när parterna är överens, inte när bläck möter papper.\"\n\nDen juridiska grunden\nMuntliga avtal är giltiga\nEnligt 1 § Avtalslagen uppstår ett avtal i två steg: anbud (någon lämnar ett erbjudande) och accept (motparten godkänner).\n\nSå snart båda stegen är uppfyllda finns ett bindande avtal. Oavsett om det skedde muntligt, via SMS, genom en nickning eller ett handslag.\n\nPrincipen kallas \"pacta sunt servanda\". Avtal ska hållas.\n\nDet finns inget krav på skriftlighet för att ett avtal ska vara giltigt, med undantag för ett fåtal specialfall:\n\nKräver skriftlig form: \"Fastighetsköp, Testamente, Framtidsfullmakt, Gåvobrev av fast,\nÄktenskapsförord\"\n\nFör allt annat: \"konsultavtal, samarbetsavtal, köp av lös egendom, uppdrag\"  räcker ett muntligt avtal.\n\nProblemet: beviset\nDet juridiska problemet med muntliga avtal är inte giltigheten, utan beviset. Den som hävdar att ett avtal finns har bevisbördan. Ord-mot-ord-situationer uppstår. Minnesfel, tolkningar och partiska återgivningar gör muntliga avtal sårbara.\n\nDet är här Handslaget kommer in.\n\nVad Handslaget löser:\n\nTre pelare\n1. Enkelhet — dokumentera överenskommelsen på sekunder. Kärnvillkor: vad, när, hur mycket, vem. Inte mer.\n\n2. Trygghet — varje handslag tidsstämplas, identifierar parterna och låses kryptografiskt. Starkare bevisvärde än ett papper som kan förfalskas.\n\n3. Mänsklighet — ett avtal mellan människor, inte mellan juridiska entiteter i 12 punkters småtryck. Förtroende först, formaliteterna i bakgrunden.\n\nHandslagets värdeerbjudande:\nFör småföretagare och frilansare\nAvsluta ett samarbete på 30 sekunder, inte 30 dagar\n\nSlipp advokatarvoden för enkla överenskommelser\n\nFå bevis på vad ni kom överens om, utan 100 sidor finstilta\n\nProfessionellt intryck utan byråkrati\n\nFör privatpersoner\nKöp och sälj tryggt på Blocket, Facebook Marketplace, mellan vänner\n\nHyresavtal för andrahandsuthyrning på sekunder\n\nLån mellan familjemedlemmar dokumenterade\n\nFör samarbeten\nKompanjonsavtal i sin enklaste form\n\nUppdragsbeskrivningar mellan konsulter\n\nNDA utan juristkrångel\n\nFramtid: AI som förstärker handslaget\n\n1. Opartisk sammanfattning — AI sammanfattar i tre meningar vad ni kom överens om. Båda parter ser samma sammanfattning innan signering. Minimerar missförstånd.\n\n2. Konfliktvarning — AI flaggar om formuleringar är tvetydiga eller saknar pris, tidsram eller ansvarsfördelning.\n\n3. Juridisk rådgivning vid behov — AI bedömer avtalets tydlighet och rekommenderar medling vid tvist.\n\n4. Språköversättning — för internationella samarbeten kan avtalet signeras på båda språken parallellt.\n\n5. Versionshantering — ändringar skapar ett nytt handslag som refererar till det ursprungliga. AI håller reda på historiken.\n\nSanningen är att hela det juridiska komplexiteten vilar på en paradox: lagen säger att avtal är giltiga så snart ni är överens — men sedan bygger vi system som kräver 47 paragrafer för att känna oss trygga. Advokaterna har inte krånglat till det av elakhet, utan av rädsla för det som muntliga avtal saknar: beviset.\n\nMen nu finns tekniken för att lösa just det — Handslaet ger starkare bevis än en pappersunderskrift, och det tar 10 sekunder. Kvarstår bara viljan att våga lita på att ett avtal mellan människor kan vara enkelt.\n\nDet är precis den vändningen Handslaget gör: istället för att bygga fler murar mot misstro, bygger vi en bro för förtroende. Enkelt, tryggt, mänskligt.\n\nSlutsats\nHandslaget står på en juridiskt stabil grund. Svensk avtalsrätt är ovanligt liberal. Avtal är giltiga så snart parterna är överens, oavsett form.\n\nUtmaningen har aldrig varit giltigheten, utan beviset och tydligheten."
-    },
-    {
-      "id": "mer-tillsammans-for-basta-beslut",
-      "sektion": "950",
-      "titel": "Skulle TV-debatter och beslut se annorlunda ut om en AI sammanfattade?",
-      "begrepp": [
-        "beslut",
-        "samarbete",
-        "svampskogen",
-        "mycel"
-      ],
-      "anteckningar": "Vi sätter frågorna, värderingarna och ramarna. Människan äger alltid beslutet.\n\nKedjan: fråga → mångfald av perspektiv → utforska & utmana → sammanväg & enas → förklara varför → människan beslutar → följ upp & lär.\n\nInte en AI som tar över, utan alla AI som tar hand om.",
-      "bilder": [
-        "Tillsammans för bästa beslut.jpg"
-      ],
-      "svar": "Jag skulle gärna se en opartisk AI sammanfatta och ifrågasätta både debatter och beslut.",
-      "fordjupning": "Skulle TV-debatter och beslut se annorlunda ut med AI?\n\nJa och det börjar redan hända.\n\nAI som sammanfattar och ifrågasätter debatter:\n\nTaiwan (Taiwan) är kanske det mest kända exemplet. En AI-förstärkt plattform som främjar konstruktiv dialog, identifierar gemensam mark och strukturerar debatter för att undvika polarisering.\n\nPanoramic av Make.org använder AI för att sammanfatta parlamentariskt språk och göra det tillgängligt för en bredare publik.\n\nMAPLE (Massachusetts) använder AI för att sammanfatta och kategorisera medborgarnas yttranden så att beslutsfattare får tydliga, organiserade insikter i folkopinionen.\n\nHansard Researcher (Australien, lanserades juli 2026) är en öppen källkods-pipeline som samlar 21 års parlamentsdebatter. 6,4 miljoner stycken, 1,25 miljoner talomgångar, 891 000 omröstningar, och gör dem sökbara och analysbara i realtid med live-dashboards.\n\nOECD analyserade 50 AI-användningsfall från 22 medlemsländer och identifierade nio kategorier, inklusive \"sense-making\" (att hjälpa till att analysera stora mängder text), \"moderation\" (förhindra spam, hat och manipulation) och \"facilitation\" (identifiera gemensam mark i live-debatter).\n\nPolyfact (Frankrike) transkriberar och sammanfattar varje debatt i nationalförsamlingen, senaten och EU-institutionerna i Bryssel med tidsstämplar så att man kan klicka på en mening och hamna på exakt den sekund i videon där det sades.\n\nEn forskargrupp vid University of Passau har studerat hur AI kan argumentera i politiska debatter, med BBC's Question Time som modell och funnit att AI kan vara övertygande även i policydebatter.\n\nEn opartisk AI som sammanfattar och ifrågasätter är inte science fiction. Det är ett naturlig nästa steg som flera länder redan rör sig mot. Men det finns viktiga utmaningar:\n\nVad som fungerar redan idag:\n\nAI kan transkribera debatter i realtid och sammanfatta dem\n\nAI kan identifiera logiska fel, motsägelser och sakfel i påståenden\n\nAI kan kategorisera argument och visa vilka som stöds av bevis\n\nAI kan göra komplexa beslut tillgängliga för vanliga medborgare\n\nVad som fortfarande är svårt:\n\n\"OpArtighet\" ingen AI är helt opartisk. Träningsdata, designval och prompt-konstruktion påverkar alltid resultatet\n\n\"Kontextförståelse\" politisk retorik bygger på underförstådda budskap som AI kan missa\n\n\"Maktbalans\" vem äger AI-systemet? Vem granskar granskaren?\n\nMen jämfört med dagens läge där debatter sammanfattas av journalister med egna vinklar, redaktioner med ägarintressen och algoritmer optimerade för engagemang snarare än förståelse, skulle en väl designad AI med transparent metod och mänsklig granskning vara ett betydligt mer opartiskt alternativ.\n\nVad Sverige gör (eller snarare inte gör). Det slående är att Sverige knappt syns i dessa sammanställningar. Norge leder världen i ansvarsfull AI, Estland rankas 10:e, Finland nämns bland pionjärerna men Sverige saknas.\n\nDet finns ett verkligt behov av en plattform som gör AI tillgänglig för medborgare, inte bara för storföretag och myndigheter.\n\nTänk dig en AI som sammanfattar och ifrågasätter svenska debatter och beslut i realtid?"
-    },
-    {
-      "id": "mer-tre-lager-en-livsresa",
-      "fordjupning": "Tanken bakom de tre lagren: ett arbetsminne (det AI:n ser just nu), en aktiv position (mina mål och beslut) och ett arkiv (allt, för alltid). Det är samma arkitektur som språkmodellernas kontextfönster plus databas — fast för ett människoliv.\n\nDe svåra frågorna är inte tekniska: Vem äger arkivet? Vad får AI:n lyfta fram ur det och åt vem? Och vad händer med det när jag inte längre finns? Jag vill hinna välja svaren själv.",
-      "sektion": "950",
-      "titel": "Kan jag idag träna min AI att ta hand om mig när jag blir äldre och glömsk?",
-      "personer": [
-        "Ada"
-      ],
-      "begrepp": [
-        "minne",
-        "arkiv",
-        "AI-assistent"
-      ],
-      "anteckningar": "Min AI-assistent Ada och minnet i tre lager:\n\n1. AI:ns arbetsminne\n2. Min aktiva position\n3. Det fullständiga arkivet.\n\nAllt fångas, inget raderas, jag bestämmer. Från barnets första tankar till visdomens sista råd.",
-      "bilder": [
-        "Tre lager – en livsresa.jpg"
-      ],
-      "svar": "Tre lager – en livsresa. Jag försöker bygga precis det just nu. Medan jag minns så petar jag in sådant en framtida AI kan påminna mig när jag blir gammal och ensam."
     },
     {
       "id": "130-10",
@@ -5211,6 +4973,244 @@ window.LECTURE = {
         "Fikaföreläsning.jpg",
         "Anna framför sin roll-up.jpg"
       ]
+    },
+    {
+      "id": "mer-gamla-kartan-galler-ej",
+      "fordjupning": "<p class=\"ingress\">När världen ändras griper vi instinktivt efter den karta vi redan har. Men den nya terrängen stämmer inte — och ju hårdare vi håller fast vid den gamla kartan, desto vilsnare blir vi. Det är den djupaste utmaningen med AI: inte tekniken, utan våra egna mentala kartor.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Rallyt och den gamla kartan</span><span class=\"tag\">Metaforen</span></div>\n  <div class=\"body\">Tänk en rallyförare med en föråldrad karta. Vägen har byggts om, men hon litar på de gamla linjerna — och hamnar i diket. Inte för att hon kör dåligt, utan för att hon läser rätt karta över fel verklighet.<br><br>Så gör vi med varje ny teknik. Vi försöker förstå det nya med det gamlas ögon, och undrar sedan varför det inte stämmer.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Varför experter ibland har det svårast</span><span class=\"tag\">Avlärande</span></div>\n  <div class=\"body\">Här är det bakvända: nybörjaren anpassar sig ofta <em>snabbare</em> än experten. Expertens gamla karta är djupare, mer beprövad, hårdare att släppa. Att <strong>avlära</strong> är svårare än att lära.<br><br>Därför måste man tänka som Aristoteles first principles: inte fråga \"vad liknar det här?\", utan \"vad <em>är</em> det, i grunden?\". Annars ritar man bara in det nya på den gamla kartan.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Här brukar folk tappa det</div><div class=\"lost-text\">\"AI är väl bara en bättre sökmotor\" eller \"en chattande Google\". Det är att läsa den nya kartan med den gamla i handen. Det är inte en snabbare häst — det är en bil. En ny kategori, inte en förbättring av den gamla.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Kartan är inte terrängen</span><span class=\"tag\">Modeller</span></div>\n  <div class=\"body\">Alla våra mentala modeller är kartor — användbara, men aldrig samma sak som marken de beskriver. Konsten är inte att äga den rätta kartan. Det är att veta <strong>när den ska ritas om</strong>.<br><br>Och just nu ritas terrängen om snabbare än på mycket länge. Den som klamrar sig fast vid sin gamla karta kör i diket. Den som vågar rita en ny hittar vägar ingen annan ser.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Den värdefullaste förmågan i en tid av förändring är inte kunskap. Det är modet att erkänna att din karta är föråldrad — och rita en ny.</div></div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Mental modell</div><div class=\"extra-desc\">Kartan i huvudet vi förstår världen med. Ovärderlig — tills världen ändras.</div></div>\n  <div><div class=\"extra-name\">Avlärande</div><div class=\"extra-desc\">Att släppa det man redan \"vet\". Svårare än att lära nytt — särskilt för experten.</div></div>\n  <div><div class=\"extra-name\">First principles</div><div class=\"extra-desc\">Fråga \"vad ÄR det?\" i stället för \"vad liknar det?\". Sättet att rita en ny karta.</div></div>\n  <div><div class=\"extra-name\">Kartan ≠ terrängen</div><div class=\"extra-desc\">Modellen är inte verkligheten. Nyttig, men aldrig hela sanningen.</div></div>\n  <div><div class=\"extra-name\">Paradigmskifte</div><div class=\"extra-desc\">När den gamla kartan inte längre går att lappa. En ny kategori, inte en förbättring.</div></div>\n  <div><div class=\"extra-name\">Nybörjarsinne</div><div class=\"extra-desc\">Att möta det nya utan att veta bäst. Ofta snabbare än expertens tunga karta.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Ta med dig detta</div>\n  <div class=\"future-body\">Du kommer att frestas att förstå AI genom det du redan kan. Ibland hjälper det. Men de största misstagen kommer av att envist läsa den nya kartan med den gamla i handen.<br><br>Våga lägga ner den gamla ett ögonblick. Fråga vad det <em>är</em>, inte vad det liknar. Där börjar den nya vägen.</div>\n</div>",
+      "sektion": "950",
+      "titel": "Hur läser du nya kartan med den gamla i din hand?",
+      "begrepp": [
+        "förändring",
+        "gamla kartan"
+      ],
+      "anteckningar": "När världen ändras griper vi instinktivt efter den gamla kartan.\nSom rallyföraren som litar på gamla väglinjer fast vägen byggts om — rakt i diket.\nExperter har ibland svårast: deras gamla karta sitter djupast.\nAvlärande är svårare än lärande.\nDen viktigaste förmågan i förändring: att våga rita om kartan.",
+      "bilder": [
+        "Rallyt – gamla kartan gäller ej.png",
+        "Kaptenen till sjöss.png",
+        "Orienteraren på vift.jpg"
+      ],
+      "svar": "Vi läser en ny värld med en gammal karta i handen — och kör i diket. Det svåra med AI är inte tekniken, utan att rita om kartan."
+    },
+    {
+      "id": "mer-patent-kunskapens-ekonomi",
+      "fordjupning": "<p class=\"ingress\">Patenttänket byggdes för en värld där kunskap var knapp och kopiering kostade. Trycka en bok, tillverka en maskin, sprida en uppfinning — det tog tid och pengar. Skyddet gav mening. Men den världen finns inte längre. Kod kopieras på en sekund. En idé sprids globalt på ett dygn. Och ändå håller vi fast vid ett system som är konstruerat för att bromsa just det. Det är inte ondska. Det är eftersläpning. Och eftersläpning har ett pris.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Vad patent egentligen är — och vad det inte är</span><span class=\"tag\">Immaterialrätt</span></div>\n  <div class=\"body\">\n    Ett patent är ett tidsbegränsat monopol. Staten säger: du fick tänka tanken först, du får äga den i ett antal år, ingen annan får använda den utan din tillåtelse. I utbyte publicerar du uppfinningen — så att andra kan bygga vidare när skyddet löper ut.<br><br>\n    Tanken är god. Belöna den som tar risken att uppfinna. Ge incitament att investera i forskning. Låt sedan kunskapen bli allmän egendom.<br><br>\n    Problemet är att systemet i praktiken ofta fungerar tvärtom. <strong>Den som kommer först äger lösningen — inte den som har den bästa.</strong> Den som har råd med juridiken skyddar sig — inte den som har den viktigaste idén. Och den som köper upp patent för att blockera konkurrenter bidrar inte till innovation alls. Det är ett skyddssystem som skyddar position, inte framsteg.\n  </div>\n  <div class=\"why\"><div class=\"why-label\">Vad vi vet</div><div class=\"why-text\">Det råder bred akademisk enighet om att en stor majoritet av alla beviljade patent aldrig kommersialiseras — aldrig resulterar i en produkt, en tjänst eller ett licensavtal. Exakta siffror varierar mellan studier och branscher, men riktningen är tydlig och väldokumenterad. <strong>De flesta patent används inte. De existerar.</strong></div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Den inbyggda dummheten</span><span class=\"tag\">Systemkritik</span></div>\n  <div class=\"body\">\n    Det finns en logik i patenttänket som verkar rimlig på ytan: om du investerar i en uppfinning ska du ha rätt att tjäna på den innan konkurrenterna kopierar dig. Men logiken har en inbyggd blindhet.<br><br>\n    Den förutsätter att den som kom först hade den bästa lösningen. Det stämmer sällan. Den förutsätter att blockerade vägar inte leder någonstans — men vi vet aldrig vad som hade uppfunnits om vägen varit öppen. Vi ser bara det som faktiskt hände, aldrig det som hindrades.<br><br>\n    <strong>Det är den verkliga kostnaden med ett bromssystem: den är osynlig.</strong> Vi räknar inte upp de mediciner som aldrig utvecklades för att ett patent låste in en delkomponent. Vi ser inte de lösningar som aldrig uppstod för att grundteknik ägdes av någon som inte hade för avsikt att använda den.<br><br>\n    Och i en digital värld där kunskapen rör sig snabbare än patentkontoren kan handlägga ansökningar — där en AI kan tränas på ett halvårs forskning på en vecka — är eftersläpningen inte längre ett administrativt problem. Det är ett strukturellt hinder.\n  </div>\n  <div class=\"lost\"><div class=\"lost-label\">Här brukar folk fastna</div><div class=\"lost-text\">Argumentet för patent är alltid \"men utan skydd vågar ingen investera.\" Det är inte fel. Men det är inte hela bilden. Många av de största innovationerna i vår tid — internet, Linux, världens webbstandard, moderna AI-modeller — byggdes utan patent som drivkraft. Öppenhet är också ett incitament. Ibland ett starkare.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">När delning visade sig fungera</span><span class=\"tag\">Öppen innovation</span></div>\n  <div class=\"body\">\n    Det finns väldokumenterade fall där öppenhet inte bara fungerade — utan accelererade hela branschen på ett sätt som slutet ägande aldrig hade gjort.<br><br>\n    <strong>Linux</strong> byggdes öppet, av frivilliga, utan patent, och blev ryggraden i det moderna internet — i servrar, i Android, i stora delar av AI-infrastrukturen. Ingen planerade det. Det växte ur delningskulturen.<br><br>\n    <strong>Tesla</strong> öppnade sina patent 2014 med motiveringen att elbilsmarknaden var för liten — de behövde fler aktörer, inte färre. I åren som följde växte marknaden dramatiskt. Hur mycket som berodde på Teslas beslut och hur mycket som berodde på andra faktorer är svårt att säga med säkerhet. Men Tesla tog inte skada av att dela. De tog marknadsandel.<br><br>\n    <strong>AlphaFold</strong> publicerade sina proteinstrukturdata öppet. Biologivärlden fick tillgång till ett decenniums forskning på en gång. Takten på medicinsk forskning accelererade på ett sätt som aldrig hade skett om resultaten låsts in bakom patent.<br><br>\n    Det är inte bevis för att patent alltid är fel. Det är bevis för att delning ibland är smartare än skydd — och att vi sällan räknar på det alternativet.\n  </div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Värdet i dessa fall låg inte i att äga idén. Det låg i att vara den som kunde implementera den bäst, snabbast och med störst trovärdighet. <strong>Ägandet av idén var inte fördelen. Förmågan att omsätta den var.</strong></div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Vad som ersätter patent — generositetens ekonomi</span><span class=\"tag\">Post-patent modeller</span></div>\n  <div class=\"body\">\n    Om inte patent, vad då? Det är den rimliga frågan. Och svaret är inte ett enda nytt system — det är en förändrad förståelse av var värdet faktiskt sitter.<br><br>\n    I en digital värld är idén sällan det svåraste. Det svåraste är att <strong>implementera</strong> — att ta en idé från tanke till fungerande lösning som faktiskt hjälper någon. Den förmågan kan ingen kopiera med ett klick. Den sitter i erfarenhet, i förtroendet du byggt, i din förmåga att förstå problemet inifrån.<br><br>\n    Det öppnar för vad vi kan kalla <strong>generositetens ekonomi</strong>: dela idén generöst, men bygg ditt värde i genomförandet. WordPress är gratis. Företagen som bygger på WordPress och kan implementera det för kunder tar betalt. Arduino är öppet. Kunskapen om hur man använder det skapar affärer. Linux är fritt. Experterna på Linux har aldrig haft mer jobb.<br><br>\n    Det är inte idealism. Det är en affärsmodell som fungerar — och som dessutom råkar vara bättre för världen än ett system där kunskap låses in.\n  </div>\n  <div class=\"why\"><div class=\"why-label\">Varför det inte passar alla</div><div class=\"why-text\">Generositetens ekonomi kräver att du har en röst, ett nätverk, en plattform att synas från. Den som uppfinner något briljant i tysthet och delar det generöst riskerar att någon med större plattform tar creden. Det är ett verkligt problem. Öppen delning utan attribution är inte generositet — det är osynlighet. <strong>Delning och synlighet måste hänga ihop.</strong></div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Patentpoddar — en bro mellan systemen</span><span class=\"tag\">Kollektivt ägande</span></div>\n  <div class=\"body\">\n    Det finns en mellanlösning som redan existerar och fungerar: <strong>patentpoddar</strong>. Grupper av aktörer som samlar sina patent i en gemensam pool och ger varandra fri tillgång — som ett kollektivt skydd snarare än ett individuellt vapen.<br><br>\n    <strong>Open Invention Network</strong> byggdes för att skydda Linux-ekosystemet. Tusentals medlemmar — inklusive stora teknikbolag — bidrar med patent och lovar att inte stämma varandra för intrång inom det definierade området. Resultatet: ett starkt kollektiv som faktiskt möjliggör öppen innovation utan att lämna deltagarna rättslösa mot externa angrepp.<br><br>\n    Det är inte post-patent. Det är patent som används på ett annat sätt — som sköld istället för svärd. Och det visar att systemet kan böjas i en annan riktning utan att helt monteras ner.<br><br>\n    <strong>LOT Network</strong> är ett annat exempel: om ett patent säljs till ett patenttroll blir det automatiskt tillgängligt för alla medlemmar. Det tar bort incitamentet att spekulera i patent som vapen. Enkelt, elegant, ingen ny lagstiftning krävs.\n  </div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Förändringen behöver inte vara revolution. Den kan vara ett steg i taget — från individuellt vapen till kollektivt skydd till öppen standard. <strong>Linux visade att det går. Tesla visade att det kan löna sig. AlphaFold visade att det kan rädda liv.</strong></div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">6</span><span class=\"concept\">AI och det kollektiva minnet</span><span class=\"tag\">Kunskapens ursprung</span></div>\n  <div class=\"body\">\n    Det finns en ironi i att diskutera patent i en tid av AI. De stora språkmodellerna — Claude, ChatGPT, Gemini — tränades på text som miljoner människor skrivit och delat. Forskare, lärare, programmerare, poeter, vanliga människor med vanliga tankar. Ingen av dem fick betalt för sitt bidrag. Ingen fick frågan om de ville vara med.<br><br>\n    Det är inte nödvändigtvis rätt. Det är en olöst fråga om vem som äger det kollektiva minnet. Men det illustrerar något fundamentalt: <strong>kunskap har aldrig uppstått ur ingenting hos en enskild person vid ett enskilt tillfälle.</strong> Den föds alltid ur allt som kom före.<br><br>\n    Newton sa att han stod på jättars axlar. Det gäller alla uppfinnare, alla forskare, alla innovatörer — och alla AI-modeller. Patenttänket låtsas att kunskap föds ur ett vakuum och tillhör den som \"kom på det.\" Verkligheten är mer generös och mer komplicerad än så.<br><br>\n    Att börja ta den komplexiteten på allvar — att fråga vem som egentligen bidrog, vem som förtjänar cred, hur vi skapar system som belönar delning lika högt som uppfinning — det är en av de viktigaste frågorna för den digitala eran. Och vi är precis i början av att försöka svara på den.\n  </div>\n  <div class=\"lost\"><div class=\"lost-label\">Frågan ingen har löst</div><div class=\"lost-text\">Hur ger man cred och ägande i en delningskultur? Attribution fungerar delvis — du får synas, du bygger rykte, du får förtroende. Men det hjälper inte Kalle från Torsby som uppfann något briljant innan han hade en plattform. Det är det verkliga problemet. Inte om vi ska dela — utan hur vi säkerställer att de som delar inte försvinner i osynligheten.</div></div>\n</div>\n\n<hr>\n\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Patent</div><div class=\"extra-desc\">Tidsbegränsat monopol på en uppfinning. Kräver publicering — i utbyte mot skydd. Löper vanligen ut efter 20 år.</div></div>\n  <div><div class=\"extra-name\">Defensivt patent</div><div class=\"extra-desc\">Patent som söks för att blockera konkurrenter, inte för att använda uppfinningen. Vanligt i stora techbolag.</div></div>\n  <div><div class=\"extra-name\">Patenttroll</div><div class=\"extra-desc\">Aktör som köper patent utan avsikt att använda dem — bara för att stämma andra för intrång. Parasitär men legal.</div></div>\n  <div><div class=\"extra-name\">Patentpodd</div><div class=\"extra-desc\">Gemensam pool av patent där medlemmar ger varandra fri tillgång. Sköld snarare än svärd.</div></div>\n  <div><div class=\"extra-name\">Open Invention Network</div><div class=\"extra-desc\">Världens största patentpodd, skapad för att skydda Linux-ekosystemet. Tusentals medlemmar, noll rättsfall internt.</div></div>\n  <div><div class=\"extra-name\">Upphovsrätt</div><div class=\"extra-desc\">Skyddar konstnärliga och litterära verk — böcker, musik, kod. Uppstår automatiskt, kräver ingen ansökan.</div></div>\n  <div><div class=\"extra-name\">Creative Commons</div><div class=\"extra-desc\">Licenser som låter upphovspersoner dela sitt verk med specificerade villkor — t.ex. fritt att använda men med attribution.</div></div>\n  <div><div class=\"extra-name\">Attribution</div><div class=\"extra-desc\">Att ge cred till den som bidragit. Inte juridiskt bindande som patent — men kulturellt kraftfullt i delningsekonomin.</div></div>\n  <div><div class=\"extra-name\">Öppen innovation</div><div class=\"extra-desc\">Affärsstrategi där man aktivt delar kunskap utåt och tar in kunskap utifrån. Motsatsen till slutet IP-tänk.</div></div>\n  <div><div class=\"extra-name\">Freemium</div><div class=\"extra-desc\">Grundfunktion gratis, avancerade funktioner kostar. En av de vanligaste modellerna för att tjäna pengar utan patent.</div></div>\n  <div><div class=\"extra-name\">LOT Network</div><div class=\"extra-desc\">Nätverk där patent automatiskt blir tillgängliga för alla medlemmar om de säljs till patenttroll. Tar bort vapnet.</div></div>\n  <div><div class=\"extra-name\">Generositetens ekonomi</div><div class=\"extra-desc\">Idén att dela kunskap generöst bygger rykte, förtroende och nätverk — som på sikt är mer värt än att äga idén.</div></div>\n</div>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Vad vi inte vet — men tycker är värt att fundera på</div>\n  <div class=\"future-body\">\n    Patenttänket kommer inte försvinna. Det är för inbyggt i finansieringssystem, riskkapital och juridisk tradition för att monteras ner snabbt. Men det kan böjas — och det böjs redan, långsamt, av öppen källkod, patentpoddar och företag som lärt sig att delning kan vara smartare än stängning.<br><br>\n    Det som förändras snabbare är kulturen. Fler ser att rykte och implementeringsförmåga är mer hållbara fördelar än ett juridiskt skydd som kostar mer att försvara än det ger tillbaka. Fler förstår att en marknad som växer för att du delade är bättre än en liten marknad du äger ensam.<br><br>\n    <strong>Den stora olösta frågan är attribution i skala.</strong> Hur ger vi cred i en värld där kunskap flödar fritt? Hur säkerställer vi att de som bidrar syns — inte bara de som råkar ha störst plattform när bidraget sker? Det är inte en juridisk fråga längre. Det är en kulturell och teknisk fråga som AI, blockkedjor och nya plattformsmodeller försöker svara på — med varierande framgång.<br><br>\n    Det vi vet är att frågan inte försvinner. Kunskap har aldrig tillhört en enda person. Den har alltid byggts på allt som kom före. Att hitta system som hedrar det — istället för att låtsas att uppfinning sker i ett vakuum — är en av de viktigaste utmaningarna för den era vi befinner oss i.<br><br>\n    <strong>Delar du, eller snålar du? Det är egentligen hela frågan. Resten är detaljer.</strong>\n  </div>\n</div>\n\n<div class=\"shield\">\n  <div class=\"shield-label\">Vad som faktiskt är belagt — om du tvekar</div>\n  <div class=\"shield-body\">\n    <strong>Vad vi vet och kan belägga:</strong> En stor majoritet av alla beviljade patent kommersialiseras aldrig. Det är väldokumenterat i flera oberoende studier och bekräftat av bl.a. National Science Foundation. Exakta procentsatser varierar — definitionen av \"används\" spelar roll — men riktningen är konsekvent: de flesta patent resulterar inte i produkter, tjänster eller licensintäkter.<br><br>\n    <strong>Vad som är dokumenterat men inte isolerat:</strong> Tesla öppnade sina patent 2014. Elbilsmarknaden växte dramatiskt i åren som följde. Att det finns ett samband är rimligt. Att Teslas beslut ensamt orsakade tillväxten går inte att bevisa — för mycket hände samtidigt. Vi påstår sambandet, inte enorsaksförklaringen.<br><br>\n    <strong>Vad som är rimlig slutsats, inte bevisat faktum:</strong> Att patenttänket bromsar innovation mer än det stimulerar den i snabbrörliga digitala branscher. Det är en välgrundad tes med stöd i forskning, men det finns också forskning som pekar åt andra hållet — särskilt inom läkemedel och hårdvara med höga utvecklingskostnader.<br><br>\n    <strong>Vad som är vår position:</strong> Att delningskulturen är ett bättre system för kunskapsintensiva branscher i en digital era. Det är ett värdeståndpunkt, inte ett faktapåstående. Vi försvarar det med argument, inte med siffror.\n  </div>\n  <div class=\"shield-sources\">\n    <div class=\"shield-sources-label\">Källor</div>\n    <div class=\"source-item\">NSF Science & Engineering Indicators — \"most patented inventions are never commercialized\" · <a href=\"https://www.nsf.gov/statistics/2018/nsb20181/\" target=\"_blank\">nsf.gov</a></div>\n    <div class=\"source-item\">Giuri et al. (2007), Nagaoka & Walsh (2009) — studier om oanvända patent · <a href=\"https://www.sciencedirect.com/science/article/abs/pii/S0048733316300440\" target=\"_blank\">sciencedirect.com</a></div>\n    <div class=\"source-item\">Tesla Patent Pledge (2014) · <a href=\"https://www.tesla.com/legal/additional-resources\" target=\"_blank\">tesla.com</a></div>\n    <div class=\"source-item\">Open Invention Network — Linux-patentpoolen · <a href=\"https://openinventionnetwork.com\" target=\"_blank\">openinventionnetwork.com</a></div>\n    <div class=\"source-item\">AlphaFold — DeepMinds publicering av proteinstrukturdata · <a href=\"https://alphafold.ebi.ac.uk\" target=\"_blank\">alphafold.ebi.ac.uk</a></div>\n  </div>\n</div>",
+      "sektion": "950",
+      "titel": "Men vad händer med vår ekonomi och alla våra patent?",
+      "begrepp": [
+        "patent",
+        "kunskapens ekonomi",
+        "öppna vikter"
+      ],
+      "anteckningar": "Vem äger kunskapen? Patent, öppna vikter, licenser.\n\nDen här programvaran har jag med hjälp av AI skapat men vems är den? Kan den gynna fler?\n\nDen här frågan har i dagsläget mer frågor än svar.",
+      "bilder": [
+        "Patent – kunskapens ekonomi.jpg"
+      ],
+      "svar": "Patent har mer begränsat än gynnat mänskligheten. Det kan ha gynnat företag men sällan människor."
+    },
+    {
+      "id": "mer-tillsammans-for-basta-beslut",
+      "sektion": "950",
+      "titel": "Skulle TV-debatter och beslut se annorlunda ut om en AI sammanfattade?",
+      "begrepp": [
+        "beslut",
+        "samarbete",
+        "svampskogen",
+        "mycel"
+      ],
+      "anteckningar": "Drömmen: en AI som faktagranskar debatter i realtid och sammanfattar rättvist.\nFaran: vem vaktar sammanfattaren? En skev sammanfattning blir det yttersta spinnet.\nAutomation bias: om AI:n 'avgör' slutar vi tänka.\nBäst: AI ger alla samma fakta, människan äger omdömet och beslutet.\nMålet är inte en AI som säger vem som har rätt — utan som låter oisamma-fakta ge ärlig oenighet.",
+      "bilder": [
+        "Tillsammans för bästa beslut.jpg"
+      ],
+      "svar": "Tänk en debatt där en neutral AI markerade vad som var fakta, vad som var spin och vad som lämnades osagt. Lockande — och farligt.",
+      "fordjupning": "<p class=\"ingress\">Tänk dig en debatt där en neutral AI, efter varje påstående, tyst noterade vad som var belagt, vad som var spin, och vad som lämnades osagt. Skulle våra beslut bli bättre? Det är en lockande tanke — och en farlig.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Drömmen: en ärlig sammanfattare</span><span class=\"tag\">Möjligheten</span></div>\n  <div class=\"body\">AI skulle kunna faktagranska i realtid, sammanfatta rättvist, lyfta fram det som utelämnas och översätta krångel till klarspråk. En debatt skulle kunna handla mindre om vem som skriker högst, och mer om vad som faktiskt sägs.<br><br>Samma sak i ett styrelserum eller vid ett myndighetsbeslut: alla utgår från samma underlag, och det tysta blir synligt.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Faran: vem vaktar sammanfattaren?</span><span class=\"tag\">Risken</span></div>\n  <div class=\"body\">Men vem avgör vad som är \"rättvist\"? En skev sammanfattare blir det yttersta spinnet — orättvisa med neutral röst. Och om vi låter AI:n <em>avgöra</em> debatten slutar vi tänka själva.<br><br>Den som sammanfattar har makten. En sammanfattning är alltid ett val om vad som är viktigt — och det valet är politiskt.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Här brukar folk tappa det</div><div class=\"lost-text\">Frestelsen att låta AI:n \"reda ut\" vem som har rätt. Men \"objektiv\" är inte samma sak som rättvis. En modell tränad på en viss världsbild sammanfattar den världsbilden — och gör det med en auktoritet ingen ifrågasätter.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Bäst: verktyg, inte domare</span><span class=\"tag\">Balansen</span></div>\n  <div class=\"body\">Det bästa är inte en AI som talar om vem som har rätt. Det är en AI som ger <strong>alla samma fakta</strong> och synliggör det som göms — men där omdömet, värderingarna och beslutet förblir mänskliga och öppna för insyn.<br><br>Tillsammans för bästa beslut: maskinen informerar, människorna avgör. Då blir oenigheten åtminstone <em>ärlig</em> — den handlar om värderingar, inte om vem som fick sista ordet om fakta.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Målet är inte en AI som avgör debatten, utan en som låter oss gräla utifrån samma fakta. Att vara oense om värderingar är demokrati. Att vara oense om verkligheten är sönderfall.</div></div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Faktagranskning</div><div class=\"extra-desc\">Att pröva påståenden mot verkligheten. AI kan hjälpa — men får inte äga domen.</div></div>\n  <div><div class=\"extra-name\">Deliberation</div><div class=\"extra-desc\">Gemensamt övervägande inför ett beslut. Bättre med samma fakta på bordet.</div></div>\n  <div><div class=\"extra-name\">Sammanfattaren</div><div class=\"extra-desc\">Den som väljer vad som är viktigt. Har makt — och den makten är politisk.</div></div>\n  <div><div class=\"extra-name\">Automation bias</div><div class=\"extra-desc\">Att lita blint på AI:ns sammanfattning och sluta tänka. Faran med en \"domare\".</div></div>\n  <div><div class=\"extra-name\">Transparens</div><div class=\"extra-desc\">Att det går att se hur en sammanfattning gjordes. Utan den, ingen tillit.</div></div>\n  <div><div class=\"extra-name\">Samma fakta</div><div class=\"extra-desc\">Grunden för ärlig oenighet. AI:ns bästa bidrag till ett beslut.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Något att fundera på</div>\n  <div class=\"future-body\">Vi går mot en tid då AI kan sammanfatta vad som helst på sekunder. Frågan är inte om vi ska använda det i våra debatter och beslut — det kommer att ske. Frågan är om vi bygger det som ett <em>verktyg</em> som ger oss samma fakta, eller som en <em>domare</em> vi slutar ifrågasätta.<br><br>Vi väljer. Igen.</div>\n</div>"
+    },
+    {
+      "id": "mer-tre-lager-en-livsresa",
+      "fordjupning": "<p class=\"ingress\">En öm och verklig fråga. Kan jag lära min AI, redan nu, vem jag är — mina minnen, mina värderingar, min röst — så att den en dag, när jag börjar glömma, kan hjälpa mig minnas? Svaret är \"delvis, redan\" — och det öppnar något både vackert och ömtåligt.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Vad som redan går</span><span class=\"tag\">Idag</span></div>\n  <div class=\"body\">Du kan redan börja bygga upp kontext: en personlig AI som känner din historia, dina vanor, dina människor och ditt sätt att tänka (grundprompt, minne, dina egna dokument). Ju mer du delar över tid, desto mer lär den känna dig.<br><br>Det är inte science fiction. Det är att, lite i taget, samla vem du är på ett ställe där en maskin kan hjälpa dig hålla ihop det.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Tre lager — en livsresa</span><span class=\"tag\">Din bild</span></div>\n  <div class=\"body\">Tänk ett liv i tre lager: <strong>vad du gjort</strong>, <strong>vad du värderar</strong>, och <strong>vad du drömmer om</strong>. En AI som håller alla tre kan påminna dig inte bara om fakta — vilken medicin, vilken tid — utan om <em>vem du är</em>, när dagarna blir grumliga.<br><br>Det är skillnaden mellan en anteckningsbok och en följeslagare: den ena minns <em>vad</em>, den andra hjälper dig minnas <em>vem</em>.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Det vackra och det ömtåliga</span><span class=\"tag\">Etiken</span></div>\n  <div class=\"body\">Det vackra: värdighet i att åldras, en följeslagare som minns när du inte kan, som talar i din egen ton. Det ömtåliga: det är en <em>modell</em> av dig — inte du. Vem kontrollerar den? Vem ärver den? Vad händer när den \"talar för dig\"?<br><br>Och det djupaste: den kan hålla dina minnen. Den kan inte hålla din hand.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Bygg en sådan AI som ett <strong>stöd för de människor</strong> som ska finnas där — inte som en ersättning för dem. Den ska hjälpa din dotter, din vårdare, dig själv att minnas vem du är. Aldrig ta deras plats.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Så börjar du</span><span class=\"tag\">Praktiskt</span></div>\n  <div class=\"body\">Börja nu, medan du är klar: håll ett levande dokument om vem du är — dina berättelser, dina val, det som betyder något. Använd en personlig AI som synkar och minns. Skriv ner det du inte vill ska glömmas.<br><br>Du bygger ingen ersättning. Du bygger en <strong>bro</strong> — mellan den du är idag och den hjälp du kan behöva imorgon.</div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Personlig AI</div><div class=\"extra-desc\">En AI som lär känna just dig över tid. Grunden för allt det här.</div></div>\n  <div><div class=\"extra-name\">Minne / kontext</div><div class=\"extra-desc\">Det AI:n vet om dig. Ju rikare, desto mer kan den hjälpa dig hålla ihop din historia.</div></div>\n  <div><div class=\"extra-name\">Digital tvilling</div><div class=\"extra-desc\">En modell av dig. Kraftfull — men aldrig du. Vem äger den är en öppen fråga.</div></div>\n  <div><div class=\"extra-name\">Värdighet</div><div class=\"extra-desc\">Att åldras och glömma med bevarad person. Det denna teknik ska tjäna.</div></div>\n  <div><div class=\"extra-name\">Digital kvarlåtenskap</div><div class=\"extra-desc\">Vad som händer med din data och din \"röst\" när du inte längre för den själv.</div></div>\n  <div><div class=\"extra-name\">Bro, inte ersättning</div><div class=\"extra-desc\">Bygg tekniken för att stötta människorna runt dig — inte för att ta deras plats.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Något att bära med sig</div>\n  <div class=\"future-body\">Vi är precis i början av personliga AI:er som verkligen känner oss. Det kommer att förändra hur vi åldras, minns och tar hand om varandra — på gott och ont.<br><br>Det goda får vi bara om vi bygger dem med värdighet: som ett stöd för den mänskliga närheten, aldrig som en ursäkt att dra sig undan den. En AI kan minnas ditt liv. Att <em>leva</em> det, in i det sista, förblir ditt — och de dinas.</div>\n</div>",
+      "sektion": "950",
+      "titel": "Kan jag idag träna min AI att ta hand om mig när jag blir äldre och glömsk?",
+      "personer": [
+        "Ada"
+      ],
+      "begrepp": [
+        "minne",
+        "arkiv",
+        "AI-assistent"
+      ],
+      "anteckningar": "Kan jag träna min AI att ta hand om mig när jag blir äldre och glömsk? Delvis — redan idag.\nBygg upp kontext: din historia, dina värderingar, dina människor. Den lär känna dig över tid.\nTre lager i ett liv: vad du gjort, vad du värderar, vad du drömmer.\nDet ömtåliga: det är en modell av dig, inte du. Vem äger den, vem ärver den?\nDen kan hålla dina minnen — men inte din hand. Bygg den som stöd för människorna, inte ersättning.",
+      "bilder": [
+        "Tre lager – en livsresa.jpg"
+      ],
+      "svar": "Delvis, redan idag. Du kan lära din AI vem du är — men den kan hålla dina minnen, inte din hand."
+    },
+    {
+      "id": "mer-hurdetfunkar",
+      "sektion": "960",
+      "titel": "Hur började jag första gången bygga på webben?",
+      "begrepp": [
+        "skolan",
+        "experiment"
+      ],
+      "anteckningar": "Min gamla skolhjälpssida är nu mitt experimentlabb.\n\n2011 byggdes sidan första gången i Wordpress under\n\nfölj länken \"Intervju om mina första steg på webben 2011\" så får du grundhistorien.\n\nI denna intervju hamnar vi \"mitt i smeten\" hos Lag HurDetFunkar som aldrig träffats innan Carlstad Code Camp drog igång. Lagledaren Anna berättar om hur det gick till när de blev ett lag via twitter.",
+      "lankar": [
+        [
+          "hurdetfunkar.se",
+          "https://hurdetfunkar.se"
+        ],
+        [
+          "Pluton B",
+          "https://sites.google.com/view/hurdetfunkar/pluton-b"
+        ],
+        [
+          "Intervju om mina första steg på webben 2011",
+          "https://youtu.be/Wevp_q7-1c0"
+        ]
+      ],
+      "bilder": [
+        "HurDetFunkar.png"
+      ],
+      "svar": "HurDetFunkar byggdes första gången på 24 timmar under en kodtävling",
+      "fordjupning": "2011 gjordes alla läroplaner om och vi lade upp samtliga på HurDetFunkar som då blev väldigt välbesökt eftersom skolverkets egen sida ofta krachade.\n\nJag lärde mig grunderna att bygga webb med Lena och Tobias. Efter det har HurDetFunkar byggts om många gånger. Rivits het och byggts om.\n\nDen sista versionen av skolhjälpen stuvade jag jag undan på GoogleSite och byggde för första gångenhelt nytt i filsystem på webbhotell. Den här presentationen är också byggt som filsystem men denna presentation är byggd på min dator. För att gör den publik har vi sedan puchat koden till GitHub."
+    },
+    {
+      "id": "mer-traktens",
+      "sektion": "960",
+      "titel": "Vad är det där Traktens du har med på ditt reklammaterial?",
+      "begrepp": [
+        "Google Sites",
+        "kartautomation"
+      ],
+      "anteckningar": "Traktens sida är byggd i Google Sites med kartautomation. Gratis verktyg, riktig nytta.\n\nDen 16 oktober 2025 sökte vi stöd från jordbruksverket för att säkerställa att traktens.se skulle få den rätta knuffen för att utvecklas och växa, tyvärr fick vi avslag på ansökan 10 februari 2026.  Eftersom sidan är byggd med smarta automationer, utan webhotell och gratis api så kommer sidan ändå att finnas kvar och utvecklas i takt med att producenter på egen hand registrerar sina vreksamheter.\n\nVi lade ner en del jobb på ansökan. Avslaget däremot innehöll ingenting, var inte ens undertecknat. Nog är det väl märkligt att Jordbruksverket som hantear bidrag för miljoner inte ens bemödar sig med att förklara varför ansökan fick avslag. Sidan finns nu ändå och kanske jag gör något mer av den i framtiden.",
+      "lankar": [
+        [
+          "traktens.se",
+          "https://www.traktens.se/om-traktens"
+        ],
+        [
+          "Om traktens",
+          "https://www.traktens.se/om-traktens"
+        ]
+      ],
+      "bilder": [
+        "Traktens.png"
+      ],
+      "svar": "Den 16 oktober 2025 sökte jag och två sammarbetsgårdar stöd från jordbruksverket för att säkerställa att traktens.se skulle få den rätta knuffen för att utvecklas och växa, tyvärr fick vi avslag på ansökan 10 februari 2026.  Men eftersom sidan är byggd med smarta automationer, utan webhotell och gratis api så kommer sidan ändå att finnas kvar och utvecklas i takt med att producenter på egen hand registrerar sina vreksamheter.",
+      "fordjupning": "👉Traktens bygger kartor över lokal mat och lokala förmågor i hela landet.\n\nDu kan helt gratis registrera din verksamhet för att nå precis dom som söker dina produkter eller tjänster. Det är så mycket roligare att handla av dom man har i sin egen trakt än att beställa hem färdiga matkassar. Du får den äventyrliga resan istället för maten.\n\nMat och verksamheter från människor – med maskiner som verktyg, inte som mellanhand. Utan filter. Utan styrande algoritmer. För dig som vill stärka det mänskliga och marken under våra fötter.\n\n🔨 VAD JAG HAR BYGGT\n\n🟢 Interaktiva kartor för alla områden i menyn\n\n🟢 Enkelt att själv lägga till sin gård eller verksamhet\n\n🟢 Allt byggt med öppenhet, omtanke och en gnutta envishet\n\n🟢 Översiktskartan med alla,  fler sökmöjligheter på kategorikartorna.\n\nVad jag kartlägger:\n\nMatrelaterade:\n🍺 Dryck & Bryggeri · 🥩 Kött & Chark · 🐟 Fisk & Skaldjur · 🥚 Ägg & Mejeri & Honung · 🥬 Grönsaker & Rotfrukter & Baljväxter · 🍓 Frukt & Bär & Svamp · 🌾 Spannmål & Bröd & Kvarnar  · 🔄 REKO-ringar & Andelsjordbruk\n\nDe finns i din trakt och vi behöver dom så ofta:\n🛍️ Loppis · 🐕 Djur & Veterinär · 🧶 Hantverk & Skinn & Ull · 🌸 Blommor & Trädgård · 🌱 Jord & Gödsel & Odlingstjänster · 🚛 Transport & Maskinuthyrning · 🔨 Bygg & Reparation · 🌲 Skog & Energi 🏠 Boende & Upplevelser\n\nErbjudes eller sökes:\n🩺 Alternativvård & Läkarvård · 🏹 Jakt & Arrenden & Hundar · 🤝 Grannhjälp & Överskott & Utbyte · 💼 Arbete & Praktik · 📚 Läxhjälp & IT-stöd · 🚀 Starta eget & Accelerator"
+    },
+    {
+      "id": "mer-notion-som-anteckningar",
+      "sektion": "960",
+      "titel": "Kan jag få ett examenbevis?",
+      "begrepp": [
+        "Notion",
+        "skolan",
+        "fria studier"
+      ],
+      "anteckningar": "Anteckningsblocket som blev skolplattform.\n\nFria studier om AI — välj din stig.\n\nDenna utbildning kom sig av att jag testade att publicera lite anteckningar jag hade gjort.\n\nFaktum är att då jag nu går tillbaka och tittar så finns det en hel del bra för att komma igång så förse dig av valfria tips.\n\nDu kan t o m skriva ut ditt eget examnsbevis.",
+      "lankar": [
+        [
+          "Fria studier om AI",
+          "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
+        ]
+      ],
+      "bilder": [
+        "Notion som anteckningar.png"
+      ],
+      "svar": "Ja du kan själv gå denna kurs och skriva ut ditt examensbevis",
+      "fordjupning": "Notion är ett fantastiskt verktyg att samla anteckningar mm.\n\nDet var i Notion jag började bygga mina första databaser och mitt första CRM.\n\nCRM står för Customer Relationship Management och är ett verktyg för att hantera kundkontakter, sälja mer och förbättra service. Det samlar all information om dina kunder på ett enda ställe."
+    },
+    {
+      "id": "mer-bloggen",
+      "sektion": "960",
+      "titel": "Varför bygga blogg när du har en FB sida?",
+      "begrepp": [
+        "Wisdom Streamer",
+        "blogg"
+      ],
+      "anteckningar": "Är det något jag har lärt mig så är det att plattformar dör.\n\nMånga tror att alla har FB men då har byggt din sanning på en falsk bubbla.\n\nJa det är enklare att dela på FB och LinkedIn än att bygga eget men bygger du eget så kan det aldrig tas ifrån dig.\n\nDen blogg jag byggt har jag bara synkat med FB som ett sätt att säkra det jag lägger ut.\n\nDessutom kan den som vägrar använda sociala media ändå ta ta del.",
+      "lankar": [
+        [
+          "Wisdom Streamer – bloggen",
+          "https://wisdom-streamer.lovable.app/"
+        ],
+        [
+          "ainnova.se",
+          "https://ainnova.se"
+        ]
+      ],
+      "bilder": [
+        "Bloggen.png"
+      ],
+      "svar": "En Blogg kan alla läsa. En Facebook sida kan bara de facebook se",
+      "fordjupning": "Vill du också tanka ur dina sociala media så är det görbart.\n\nBygg aldrig grunden för din verksamhet på någon annas plattform."
+    },
+    {
+      "id": "mer-veckolatar",
+      "sektion": "960",
+      "titel": "Gör du fredags låtarna själv?",
+      "begrepp": [
+        "fredagslåtar",
+        "musik"
+      ],
+      "anteckningar": "Musiken som återkommande inslag varje vecka.\n\nEn fredagslåt som sammanfattar veckans tema och inlägg på sociala media.\n\nMartin Lönnstam tolkar fritt och gör en låt i Suno.",
+      "lankar": [
+        [
+          "Musiksidan",
+          "https://sites.google.com/ainnova.se/aisverige/musik"
+        ],
+        [
+          "Fredagslåt på YouTube",
+          "https://www.youtube.com/watch?v=a7_jig8MxiU"
+        ]
+      ],
+      "bilder": [
+        "Veckolåtar.png"
+      ],
+      "svar": "Jag har gjort många låtar själv men fredagslåtarna kom sig av att Martin Lönnstam kände sig inspirerad av det jag hade lagt ut vecka 20 och gjorde en låt av det. Sedan har vi bara fortsatt så.",
+      "fordjupning": "Det finns de som menar att AI inte kan skapa eget, att den bara kan härma som en stokatisk papegoja.\n\nJag har gjort sånger som blivit bra genom att t e x bara be om att få en sång om en hästs stamtavla och jag har testat massa olika varianter som jag aldrig trodde skulle kunna bli sång men så blev det ändå bra.\n\nAI kommer bara att bli bättre på att skapa. Som alltid \"Den AI du har idag är den sämsta du någonsin kommer att ha\""
+    },
+    {
+      "id": "mer-skoldbondens-schack",
+      "sektion": "960",
+      "titel": "Varför är kungen högst i alla schackspel?",
+      "begrepp": [
+        "schack",
+        "spel"
+      ],
+      "anteckningar": "Mitt eget schack med samma regler som ett ordinarie schackspel.\n\nJag ville bara ha en annan design än de traditionella spelen så jag byggde ett eget.\n\nSka jag vara ärlig så har jag en hel del misslyckade försök men det här schackspelet fungerar verkligen.\n\nTesta att spela det.",
+      "lankar": [
+        [
+          "Spela Sköldbondens schack",
+          "https://annamalmberg2.github.io/skoldbondens-schack/"
+        ]
+      ],
+      "bilder": [
+        "Sköldbondens schack.png"
+      ],
+      "svar": "I \"Sköldbondens schack\" är det damen som är högst för hon är farligast. bönderna har både sköld och grep men annars är reglerna lika.",
+      "fordjupning": "Legenden om riskornen och schackbrädet.\n\nEnligt legenden levde en vis man vid namn Sissa ben Dahir (eller Sissa ibn Dahir) i det forntida Indien. Han uppfann schackspelet och visade det för kungen, ibland kallad kung Shihram eller en rajah. Kungen blev så imponerad att han sade: \"Be om vilken belöning du vill.\"\n\nDen vise mannen svarade ödmjukt:\n\n\"Jag vill bara ha lite ris, ett riskorn på första rutan av schackbrädet, två på den andra, fyra på den tredje, och så vidare.\nDubbelt så många på varje ruta ända tills alla 64 rutor är fyllda.\"\n\nKungen skrattade åt vad som verkade vara en blygsam begäran och gick med på det omedelbart. Men när hans tjänare började räkna ut hur mycket ris det faktiskt blev, insåg de att det var en omöjlig mängd.\n\nMatematiken bakom\nDet handlar om summan av en geometrisk serie:\n\n2^0 + 2^1 + 2^2 + … + 2^63 =\n2^64 − 1\n\nTotalt blir det 18 446 744 073 709 551 615 riskorn, nästan 18,5 kvadriljoner.\n\nHur mycket ris är det?\nOm ett riskorn väger ungefär 0,02 gram blir den totala vikten ca 369 miljoner ton ris.\n\nDet skulle motsvara världens risproduktion många gånger över. Inte ens i dag skulle hela jordklotet kunna producera så mycket ris.\n\nHistorien används ofta som en varning för att underskatta exponentiell tillväxt. Det är relevant inom:\n\nEkonomi — ränta-på-ränta-effekten\n\nDatateknik — Moores lag och beräkningskraftens tillväxt\n\nEpidemiologi — hur smitta sprids\n\nAI-utveckling — hur kapacitet kan öva explosionsartat\n\nSchackbrädet har 64 rutor. Det som gör historien så kraftfull är att den första hälften av brädet (rutor 1–32) \"bara\" ger ca 4,3 miljarder riskorn — mycket, men hanterbart.\n\nDet är på den andra halvan som siffrorna löper iväg till astronomiska höjder. Detta är en insikt som ständigt återkommer när man försöker förstå exponentiell utveckling.\n\nDetta är precis den typen av tankeverktyg som är värdefullt att ha med sig när man försöker förstå AI:s utveckling. Vi befinner oss kanske fortfarande på \"första halvan av brädet\", och det är svårt att intuitivt förstå vad som händer när vi rundar ruta 32."
+    },
+    {
+      "id": "mer-handslaget-avtal-mellan-manniskor",
+      "sektion": "960",
+      "titel": "Läser du det finstilta i alla 100 sidor långa kontrakt du skriver på?",
+      "begrepp": [
+        "avtal",
+        "Handslaget"
+      ],
+      "anteckningar": "Avtalsverktyget: enkla överenskommelser mellan människor.\n\nEtt handslag fast digitalt.\nSamma idé, på svenska. Förtroende är lokalt.",
+      "lankar": [
+        [
+          "Handslaget",
+          "https://handshake-echo-world.lovable.app"
+        ]
+      ],
+      "bilder": [
+        "handslaget.png",
+        "handslaget  diplom.png"
+      ],
+      "svar": "Handslaget är ett avtal mellan människor. I Sverige är ett muntligt avtal mellan två företagare bindande men det kan vara smart att dokumentera det med ett digitalt handslag.",
+      "fordjupning": "Idén bakom Handslaget\n\nI Sverige är ett muntligt avtal mellan två företagare bindande. Det har varit så i över hundra år sedan Avtalslagen (1915:218) trädde i kraft.\n\nÄndå skriver vi idag på 100-sidiga kontrakt fyllda av finstilta villkor som ingen läser. Handslaget vill vända på detta: tillbaka till avtalets kärna, överenskommelsen mellan två människor. Men med digital trygghet.\n\n\"Ett avtal blir bindande när parterna är överens, inte när bläck möter papper.\"\n\nDen juridiska grunden\nMuntliga avtal är giltiga\nEnligt 1 § Avtalslagen uppstår ett avtal i två steg: anbud (någon lämnar ett erbjudande) och accept (motparten godkänner).\n\nSå snart båda stegen är uppfyllda finns ett bindande avtal. Oavsett om det skedde muntligt, via SMS, genom en nickning eller ett handslag.\n\nPrincipen kallas \"pacta sunt servanda\". Avtal ska hållas.\n\nDet finns inget krav på skriftlighet för att ett avtal ska vara giltigt, med undantag för ett fåtal specialfall:\n\nKräver skriftlig form: \"Fastighetsköp, Testamente, Framtidsfullmakt, Gåvobrev av fast,\nÄktenskapsförord\"\n\nFör allt annat: \"konsultavtal, samarbetsavtal, köp av lös egendom, uppdrag\"  räcker ett muntligt avtal.\n\nProblemet: beviset\nDet juridiska problemet med muntliga avtal är inte giltigheten, utan beviset. Den som hävdar att ett avtal finns har bevisbördan. Ord-mot-ord-situationer uppstår. Minnesfel, tolkningar och partiska återgivningar gör muntliga avtal sårbara.\n\nDet är här Handslaget kommer in.\n\nVad Handslaget löser:\n\nTre pelare\n1. Enkelhet — dokumentera överenskommelsen på sekunder. Kärnvillkor: vad, när, hur mycket, vem. Inte mer.\n\n2. Trygghet — varje handslag tidsstämplas, identifierar parterna och låses kryptografiskt. Starkare bevisvärde än ett papper som kan förfalskas.\n\n3. Mänsklighet — ett avtal mellan människor, inte mellan juridiska entiteter i 12 punkters småtryck. Förtroende först, formaliteterna i bakgrunden.\n\nHandslagets värdeerbjudande:\nFör småföretagare och frilansare\nAvsluta ett samarbete på 30 sekunder, inte 30 dagar\n\nSlipp advokatarvoden för enkla överenskommelser\n\nFå bevis på vad ni kom överens om, utan 100 sidor finstilta\n\nProfessionellt intryck utan byråkrati\n\nFör privatpersoner\nKöp och sälj tryggt på Blocket, Facebook Marketplace, mellan vänner\n\nHyresavtal för andrahandsuthyrning på sekunder\n\nLån mellan familjemedlemmar dokumenterade\n\nFör samarbeten\nKompanjonsavtal i sin enklaste form\n\nUppdragsbeskrivningar mellan konsulter\n\nNDA utan juristkrångel\n\nFramtid: AI som förstärker handslaget\n\n1. Opartisk sammanfattning — AI sammanfattar i tre meningar vad ni kom överens om. Båda parter ser samma sammanfattning innan signering. Minimerar missförstånd.\n\n2. Konfliktvarning — AI flaggar om formuleringar är tvetydiga eller saknar pris, tidsram eller ansvarsfördelning.\n\n3. Juridisk rådgivning vid behov — AI bedömer avtalets tydlighet och rekommenderar medling vid tvist.\n\n4. Språköversättning — för internationella samarbeten kan avtalet signeras på båda språken parallellt.\n\n5. Versionshantering — ändringar skapar ett nytt handslag som refererar till det ursprungliga. AI håller reda på historiken.\n\nSanningen är att hela det juridiska komplexiteten vilar på en paradox: lagen säger att avtal är giltiga så snart ni är överens — men sedan bygger vi system som kräver 47 paragrafer för att känna oss trygga. Advokaterna har inte krånglat till det av elakhet, utan av rädsla för det som muntliga avtal saknar: beviset.\n\nMen nu finns tekniken för att lösa just det — Handslaet ger starkare bevis än en pappersunderskrift, och det tar 10 sekunder. Kvarstår bara viljan att våga lita på att ett avtal mellan människor kan vara enkelt.\n\nDet är precis den vändningen Handslaget gör: istället för att bygga fler murar mot misstro, bygger vi en bro för förtroende. Enkelt, tryggt, mänskligt.\n\nSlutsats\nHandslaget står på en juridiskt stabil grund. Svensk avtalsrätt är ovanligt liberal. Avtal är giltiga så snart parterna är överens, oavsett form.\n\nUtmaningen har aldrig varit giltigheten, utan beviset och tydligheten."
     }
   ],
   "stigar": [],
