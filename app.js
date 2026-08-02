@@ -344,13 +344,14 @@
     const lista = berättelseKort();
     let bi = lista.findIndex(x => x.id === aktuellId);
     if (bi < 0) {
-      // Vi står utanför nivån (djupare kort, reserv, dokumentation) —
-      // hitta närmsta hemväg tillbaka in i berättelsen.
-      const i = index.get(aktuellId);
-      for (let j = i + riktning; j >= 0 && j < kort.length; j += riktning) {
-        if (iBerättelsen(kort[j])) return kort[j];
-      }
-      return lista[riktning > 0 ? 0 : lista.length - 1];
+      // Vi står på ett bakom-kort (Extra-tråd, bibliotek, dokumentation).
+      // Pilarna bläddrar då INOM samma tråd — aldrig tillbaka till berättelsens 00.
+      // Vägen hem till stigen går via "Tillbaka till stigen"-bandet.
+      const nuv = index.has(aktuellId) ? kort[index.get(aktuellId)] : null;
+      if (!nuv) return null;
+      const tråd = kort.filter(k => k.sektion === nuv.sektion);
+      const ti = tråd.findIndex(x => x.id === aktuellId);
+      return tråd[ti + riktning] || null;   // stannar vid trådens kanter
     }
     return lista[bi + riktning] || null;
   }
@@ -394,7 +395,7 @@
       if (!korten.length) return;
 
       if (sek.bakom && !bakomTillagd && !oversiktFilter) {
-        yta.appendChild(el("div", null, "Bakom scenen — nås via sök och översikt, ligger utanför pilbläddringen"))
+        yta.appendChild(el("div", null, "Bakom scenen — egna trådar du når via sök och översikt. Pilarna bläddrar inom varje tråd."))
           .id = "bakom-scenen-rubrik";
         bakomTillagd = true;
       }
