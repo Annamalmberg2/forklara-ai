@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-02 10:06:02)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-02 10:07:01)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -356,7 +356,7 @@ window.LECTURE = {
       "id": "020-10",
       "sektion": "020",
       "titel": "Är AI en maskin?",
-      "svar": "Både ja och nej. Ingen maskin med ritning och skruvar — mer ett växande mycel av mönster, odlat snarare än byggt.",
+      "svar": "Ingen maskin med ritning och skruvar — mer ett växande mycel av mönster, odlat snarare än byggt.",
       "bilder": [
         "Svampskogen – inte en maskin, ett mycel.jpg"
       ],
