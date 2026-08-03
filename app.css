@@ -1354,3 +1354,14 @@ body.redigerar .bank-hantera { display: inline-block; margin-left: auto; }
   .ford-sida .milestone { flex-direction: column; gap: 2px; }
   .ford-sida .m-name { min-width: 0; }
 }
+
+/* Transparensnotis på startsidan (labbet) — diskret, alltid synlig vid ingång */
+#trad-ai-notis {
+  margin-top: 40px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  opacity: 0.8;
+  max-width: 60ch;
+}
