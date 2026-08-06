@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-06 14:45:56)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-06 14:47:42)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -697,6 +697,10 @@ window.LECTURE = {
         [
           "Daisy, en lurendrejares största mardröm",
           "https://www.youtube.com/watch?v=RV_SdCfZ-0s"
+        ],
+        [
+          "Alla fredagslåtarna",
+          "https://sites.google.com/ainnova.se/aisverige/musik"
         ]
       ]
     },
