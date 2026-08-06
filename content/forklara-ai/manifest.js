@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-06 14:29:33)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-06 14:43:22)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1381,7 +1381,12 @@ window.LECTURE = {
         "Andrea Ghez",
         "Anne L'Huillier"
       ],
-      "lankar": [],
+      "lankar": [
+        [
+          "Alla fredagslåtar",
+          "https://sites.google.com/ainnova.se/aisverige/musik"
+        ]
+      ],
       "relaterat": [
         "010-15",
         "010-10"
