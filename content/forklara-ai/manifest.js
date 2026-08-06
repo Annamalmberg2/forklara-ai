@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-06 22:22:27)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-06 23:20:22)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1599,8 +1599,12 @@ window.LECTURE = {
         "000-30",
         "030-50"
       ],
-      "bilder": [],
-      "bildforslag": "Till vänster ett tomt bankfönster med lapp 'stängt' och en kylig blankett; till höger två människor som faktiskt möts över ett bord i varmt ljus. Frånvaron och närvaron sida vid sida."
+      "bilder": [
+        "o verklighet.png",
+        "m bilden 27.png",
+        "ti ljud.png",
+        "to kropp.png"
+      ]
     },
     {
       "id": "mer-hurdetfunkar",
