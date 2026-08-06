@@ -1347,6 +1347,42 @@ window.LECTURE = {
       "svar": "Delvis, redan idag. Du kan lära din AI vem du är — men den kan hålla dina minnen, inte din hand."
     },
     {
+      "id": "mer-kvinnor-och-logik",
+      "sektion": "950",
+      "titel": "Är logik verkligen en manlig historia?",
+      "svar": "Nej. Kvinnorna fanns där från allra första början — Ada, Hopper, Hidden Figures, Fei-Fei Li, Helen Meng — och skrevs sedan ut. Logik är universell; obalansen var social, inte logisk.",
+      "anteckningar": "Frågan: är inte logik och kod ändå en manlig historia? Nej.\nAda skrev första programmet — före maskinen fanns. Hopper gav oss kompilatorn och språket.\nHidden Figures: Katherine Johnson, Dorothy Vaughan, Mary Jackson räknade fram månen.\nFei-Fei Li lärde AI att se (ImageNet). Helen Meng lärde AI att lyssna — ge rösten tillbaka.\nVi strävar balans — men historien var inte balanserad. Just därför lätt att visa. 'Computer' betydde förr en kvinna.",
+      "fordjupning": "<p class=\"ingress\">Förr eller senare kommer frågan: är inte logik och kod ändå en manlig historia? Det korta svaret är nej — och det långa är vackrare. Kvinnorna fanns där från allra första början, och skrevs sedan ut. Vi strävar efter balans idag. Men just för att historien inte var balanserad är sanningen så lätt att visa. Här är några av dem.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Ada Lovelace</span><span class=\"tag\">Första programmet, 1843</span></div>\n  <div class=\"body\">Hundra år innan den första datorn byggdes skrev Ada Lovelace ett program för en maskin som bara fanns på ritbordet. Och hon såg något ingen annan gjorde: att maskinen kunde bearbeta <strong>allt som går att uttrycka i symboler</strong> — musik, språk, konst, inte bara siffror.<br><br>En av teknikhistoriens mest visionära tankar. Tänkt av en kvinna, i en tid som inte gav henne utrymmet.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Grace Hopper</span><span class=\"tag\">Hon gav oss språket, 1950-talet</span></div>\n  <div class=\"body\">Grace Hopper byggde den första kompilatorn och drev den då tokstolliga idén att människor borde få tala med datorer på något som liknar vanligt språk. Kollegor sa att det var omöjligt. Hon gjorde det ändå — och banade väg för att du idag kan skriva en fråga i vanlig svenska till en AI.<br><br>Kontreamiral i flottan, orädd chef, och den som avskydde frasen \"så har vi alltid gjort\" — enligt henne språkets farligaste.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Hidden Figures</span><span class=\"tag\">De som räknade fram månen</span></div>\n  <div class=\"body\">Medan världen följde raketerna satt tre kvinnor och löste matematiken som gjorde resan möjlig. <strong>Katherine Johnson</strong> räknade fram banorna. <strong>Dorothy Vaughan</strong> såg framtiden komma och lärde sig programmering före nästan alla andra. <strong>Mary Jackson</strong> blev NASA:s första svarta kvinnliga ingenjör.<br><br>Deras historia blev känd genom filmen <em>Hidden Figures</em> — men den handlar egentligen inte om rymden. Den handlar om alla som gör skillnad långt innan världen märker det.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Fei-Fei Li</span><span class=\"tag\">Hon lärde AI att se, 2009</span></div>\n  <div class=\"body\">Länge var det nästan omöjligt att få en dator att känna igen en hund eller en vän på ett foto. Fei-Fei Li vände på problemet: i stället för smartare algoritmer byggde hon <strong>ImageNet</strong> — miljontals bilder, uppmärkta av människor.<br><br>Det blev bränslet. När AI idag tolkar röntgenbilder eller hjälper en synskadad att förstå sin omgivning vilar mycket på den grunden. Genombrottet handlade inte om smartare kod — utan om att ge AI tillräckligt många exempel för att lära sig <em>se</em>.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Helen Meng</span><span class=\"tag\">Hon lärde AI att lyssna</span></div>\n  <div class=\"body\">Där mycket av branschen tävlar om vem som pratar snabbast, har professor Helen Meng ägnat sin forskning åt något annat: att lära AI att lyssna med <strong>tålamod</strong> — att förstå tal även när en stroke, Parkinson eller ALS gjort orden svårare att forma. Att känna igen otydligt tal, och hjälpa människor att göra sig hörda.<br><br>Inte en ersättare för människan — en bro för att bli hörd.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">AI är som bäst när den inte bara optimerar samtalet — utan räddar det. Att någon får tillbaka möjligheten att säga: \"jag vill berätta något.\"</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">6</span><span class=\"concept\">Obalansen var social, inte logisk</span><span class=\"tag\">Sanningen, inte kvoten</span></div>\n  <div class=\"body\">I datorns barndom betydde ordet \"computer\" en <em>person</em> som räknade — oftast en kvinna. När yrket blev prestigefyllt och välbetalt tog männen platsen i rampljuset, och kvinnorna hamnade i fotnoterna. Jag lyfter inte fram det för balansens skull, utan för att den vanliga berättelsen — det ensamma manliga geniet — helt enkelt inte stämmer.<br><br>Vi strävar efter balans idag. Men historien var inte balanserad — och just därför är den så lätt att visa. Logik är universell. Talang är det också. Obalansen satt i samhället, aldrig i logiken.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Läs mig rätt</div><div class=\"lost-text\">Den som tror att AI är en manlig historia har fått en redigerad version. Du förtjänar originalet — och det är rikare, inte fattigare.</div></div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Ada Lovelace</div><div class=\"extra-desc\">Första programmet, 1843. Såg att maskinen kunde bearbeta symboler, inte bara siffror.</div></div>\n  <div><div class=\"extra-name\">Grace Hopper</div><div class=\"extra-desc\">Första kompilatorn. Idén att tala med maskiner på människospråk — vägen till chatten.</div></div>\n  <div><div class=\"extra-name\">Hidden Figures</div><div class=\"extra-desc\">Johnson, Vaughan, Jackson: matematiken och koden bakom månresan.</div></div>\n  <div><div class=\"extra-name\">Fei-Fei Li</div><div class=\"extra-desc\">ImageNet (2009): datan som lärde AI att se. Bränsle, inte bara smartare kod.</div></div>\n  <div><div class=\"extra-name\">Helen Meng</div><div class=\"extra-desc\">AI som lyssnar med tålamod och ger rösten tillbaka. En bro för att bli hörd.</div></div>\n  <div><div class=\"extra-name\">\"Human computers\"</div><div class=\"extra-desc\">\"Computer\" betydde förr en människa — ofta en kvinna — som räknade för hand.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Om frågan kommer</div>\n  <div class=\"future-body\">Nästa gång någon säger \"AI byggdes av några genier i Silicon Valley\", vet du att det är en förkortad, skev version. Den byggdes av en lång, blandad kedja — och kvinnorna fanns där från allra första början, ofta i skuggan.<br><br>Att se hela bilden är inte politik. Det är att ha koll på fakta. Vi strävar balans — och sanningen råkar redan vara på dess sida.</div>\n</div>",
+      "begrepp": [
+        "kvinnor i tekniken",
+        "logik",
+        "Hidden Figures",
+        "ImageNet",
+        "kompilator"
+      ],
+      "personer": [
+        "Ada Lovelace",
+        "Grace Hopper",
+        "Katherine Johnson",
+        "Dorothy Vaughan",
+        "Mary Jackson",
+        "Fei-Fei Li",
+        "Helen Meng"
+      ],
+      "lankar": [],
+      "relaterat": [
+        "010-15",
+        "010-10"
+      ],
+      "bilder": [
+        "Logik är universell.jpg",
+        "o Hidden figures.png",
+        "Fei-Fei Li.jpg",
+        "ti Helen Meng.jpg"
+      ],
+      "bildforslag": ""
+    },
+    {
       "id": "mer-hurdetfunkar",
       "sektion": "960",
       "titel": "Hur började jag första gången bygga på webben?",
