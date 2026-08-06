@@ -95,7 +95,11 @@ window.LECTURE = {
       "fordjupning": "<p class=\"ingress\">Jag är ingen datavetare. Jag är lärare i matematik och fysik som blev nyfiken och inte slutade. Och det visade sig vara en fördel — för det största gapet kring AI är inte tekniskt. Det är pedagogiskt.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Från klassrum till AiNNOVA</span><span class=\"tag\">Läraren</span></div>\n  <div class=\"body\">Legitimerad gymnasielärare i matematik och fysik, numera VD för AiNNOVA. Jag bytte <strong>klassrum, inte yrke</strong> — jag förklarar fortfarande, bara med andra verktyg och för en annan publik.<br><br>AI = Anna Intelligens. Skratta gärna åt det. Men jag menar allvar med att jag numera lär mig snabbast av maskinen — och att det är den erfarenheten jag vill ge vidare.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Varför en lärare, inte en ingenjör</span><span class=\"tag\">Pedagogik</span></div>\n  <div class=\"body\">Gapet kring AI är inte att tekniken är för svår. Det är att den ofta förklaras av experter som vill <em>imponera</em> snarare än få dig att <em>förstå</em>. Min uppgift är den omvända: att göra det begripligt utan att du ska behöva känna dig dum.<br><br>Det är samma folkbildningstradition jag växte upp med — mer om den på nästa kort.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Här brukar folk tappa det</div><div class=\"lost-text\">Många tror att man måste kunna koda för att förstå AI. Det behöver man inte. Man behöver nyfikenhet och mod att ha fel. Resten kan du faktiskt använda AI:n själv för att förstå — det är så jag lärt mig.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Min metod: mönster är vackra, bevis är sanning</span><span class=\"tag\">Matematikern</span></div>\n  <div class=\"body\">Matematiken gav mig ett sätt att granska AI. Modellen är en fena på mönster men var länge blind för sanning. Jag testar en modell ungefär som en matematiklärare rättar ett prov — jag letar efter mönstret som håller precis länge nog att lura oss (se kortet om primtalet 333 333 331).<br><br>Regeln jag lever efter, och som jag vill ge dig: <strong>lita, men verifiera.</strong></div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Jag lär mig AI genom att använda AI. Utnyttja tekniken för att förstå tekniken — så har jag lärt mig, och så kan du.</div></div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Bytte klassrum, inte yrke</div><div class=\"extra-desc\">Jag förklarar fortfarande — bara med nya verktyg och en annan publik.</div></div>\n  <div><div class=\"extra-name\">Folkbildning</div><div class=\"extra-desc\">Att förklara så alla hänger med, utan att någon behöver känna sig dum.</div></div>\n  <div><div class=\"extra-name\">Lita, men verifiera</div><div class=\"extra-desc\">Regeln jag lever efter. Ta hjälpen — men granska alltid resultatet.</div></div>\n  <div><div class=\"extra-name\">Mönster vs bevis</div><div class=\"extra-desc\">Modellen är en fena på mönster men blind för sanning. Granskningen är din.</div></div>\n  <div><div class=\"extra-name\">Lära av maskinen</div><div class=\"extra-desc\">Jag lär mig AI genom att använda AI. Utnyttja tekniken för att förstå tekniken.</div></div>\n  <div><div class=\"extra-name\">Nyfikenhet + mod</div><div class=\"extra-desc\">Det som faktiskt krävs — inte kod. Mod att ha fel och fråga vidare.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Vad jag lovar dig</div>\n  <div class=\"future-body\">Jag är inte här för att imponera. Jag är här för att göra AI begripligt — utan att du ska behöva känna dig dum, och utan att du behöver kunna en rad kod.<br><br>Om en mattelärare kunde bli nyfiken och inte sluta, kan du också. Det är hela poängen med att vi ses.</div>\n</div>",
       "anteckningar": "Legitimerad gymnasielärare i matematik och fysik → numera VD för AiNNOVA.\nAI = Anna Intelligens. Skratta gärna först.\nEfter det här vill du också veta allt jag vet om AI.\nLyssna noga, ta vara på tiden — allt finns kvar i länkar och fördjupningar.\nSå: vad är egentligen AI?",
       "begrepp": [
-        "AiNNOVA"
+        "AiNNOVA",
+        "folkbildning",
+        "lita men verifiera",
+        "mönster vs bevis",
+        "lärare"
       ],
       "alias": [
         "Anna Malmberg"
@@ -145,7 +149,11 @@ window.LECTURE = {
       ],
       "begrepp": [
         "folkbildning",
-        "Från A till Ö"
+        "Från A till Ö",
+        "algoritmisk kurering",
+        "osynlig AI",
+        "minne vs insikt",
+        "Sadhguru"
       ]
     },
     {
@@ -222,7 +230,10 @@ window.LECTURE = {
         "Aristoteles"
       ],
       "begrepp": [
-        "first principles"
+        "first principles",
+        "logik",
+        "syllogism",
+        "Aristoteles"
       ],
       "anteckningar": "Drömmen om att mekanisera tänkandet är ~2400 år gammal.\nSyllogismen (konkret): Alla människor är dödliga → Sokrates är människa → Sokrates är dödlig.\nSanningen har en FORM — det är den första 'koden'.\nFirst principles: skala bort antaganden, tänk från grunden (som när Musk byggde raketer).\nFällan: vi trodde intelligens = tillräckligt många regler (Deep Blue). Verkligheten var för stor — vi fick låta maskinen skaffa egna erfarenheter.",
       "bilder": [
@@ -271,7 +282,13 @@ window.LECTURE = {
       "sektion": "010",
       "titel": "Men är det inte bara män som kodar?",
       "begrepp": [
-        "logik"
+        "logik",
+        "Ada Lovelace",
+        "Grace Hopper",
+        "Fei-Fei Li",
+        "Hidden Figures",
+        "kompilator",
+        "kvinnor i tekniken"
       ],
       "anteckningar": "Fråga: är det inte bara män bakom AI? Nej.\nAda Lovelace: första programmeraren, 1843, en kvinna före datorn.\nGrace Hopper: första kompilatorn — idén att tala med maskiner på människospråk.\nFei-Fei Li: ImageNet — datan som lärde maskinen att se.\nPoängen är inte kvot, utan sanning: bilden av det ensamma manliga geniet är faktiskt fel.",
       "bilder": [
@@ -591,7 +608,10 @@ window.LECTURE = {
       "anteckningar": "AI läser i tokens, inte i ord.\nKontextfönstret = arbetsminnet.\nDet svåraste jobbet: att hålla tråden och veta vad man ska be den om.\nJu mer den vet om dig och uppgiften, desto mindre behöver den gissa.\nBara din fantasi sätter gränsen.",
       "begrepp": [
         "tokens",
-        "kontextfönster"
+        "kontextfönster",
+        "kontext",
+        "tokenisering",
+        "embeddings"
       ]
     },
     {
@@ -715,7 +735,10 @@ window.LECTURE = {
       "titel": "Kan man alltid lita på människor?",
       "begrepp": [
         "AI Sverige",
-        "community"
+        "community",
+        "logik",
+        "tillit",
+        "mänskliga fel"
       ],
       "anteckningar": "Vi lär oss tillsammans. AI Sverige, samtal, delande, folkbildning.\n\nNär människor blockeras försvinner deras röster ur samtalet, och ur framtidens träningsdata. Fast nu kan vi göra träningsdata av själva blockaden.",
       "lankar": [
@@ -753,7 +776,9 @@ window.LECTURE = {
       "anteckningar": "AI ärver våra skevheter ur datan.\n\nMönstret ser övertygande ut precis som primtalen.\n\nFråga alltid: vad tränades den på?",
       "begrepp": [
         "bias",
-        "träningsdata"
+        "träningsdata",
+        "fördomar",
+        "representation"
       ]
     },
     {
@@ -789,7 +814,11 @@ window.LECTURE = {
         "Joakim Johansson"
       ],
       "begrepp": [
-        "konst"
+        "konst",
+        "kreativitet",
+        "generativ AI",
+        "upphovsrätt",
+        "musik"
       ],
       "alias": [
         "Jocke"
@@ -853,7 +882,12 @@ window.LECTURE = {
       "anteckningar": "Ett dåligt pixlat foto räckte.\n\nAlla AI-bilder av mig i föreläsningen utgår från det här originalet.",
       "begrepp": [
         "bildgenerering",
-        "träningsbild"
+        "träningsbild",
+        "deepfake",
+        "syntetisk media",
+        "samtycke",
+        "kodord",
+        "bildmanipulation"
       ],
       "lankar": [
         [
@@ -1042,7 +1076,9 @@ window.LECTURE = {
       ],
       "begrepp": [
         "bokföring",
-        "vardagsnytta"
+        "vardagsnytta",
+        "automation",
+        "revisor"
       ],
       "lankar": [
         [
@@ -1075,7 +1111,9 @@ window.LECTURE = {
       ],
       "begrepp": [
         "Lovable",
-        "vibe coding"
+        "vibe coding",
+        "no-code",
+        "prototyp"
       ],
       "lankar": [
         [
@@ -1262,7 +1300,12 @@ window.LECTURE = {
       ],
       "begrepp": [
         "humor",
-        "Pluton B"
+        "Pluton B",
+        "mönster vs mening",
+        "våga ha fel",
+        "granskning",
+        "odlat inte byggt",
+        "exponentiellt"
       ]
     },
     {
@@ -1368,7 +1411,11 @@ window.LECTURE = {
       "titel": "Hur läser du nya kartan med den gamla i din hand?",
       "begrepp": [
         "förändring",
-        "gamla kartan"
+        "gamla kartan",
+        "mental modell",
+        "avlärande",
+        "paradigmskifte",
+        "first principles"
       ],
       "anteckningar": "När världen ändras griper vi instinktivt efter den gamla kartan.\nSom rallyföraren som litar på gamla väglinjer fast vägen byggts om — rakt i diket.\nExperter har ibland svårast: deras gamla karta sitter djupast.\nAvlärande är svårare än lärande.\nDen viktigaste förmågan i förändring: att våga rita om kartan.",
       "bilder": [
@@ -1486,7 +1533,11 @@ window.LECTURE = {
       "titel": "Hur började jag första gången bygga på webben?",
       "begrepp": [
         "skolan",
-        "experiment"
+        "experiment",
+        "no-code",
+        "Lovable",
+        "learning by building",
+        "Google Sites"
       ],
       "anteckningar": "Jag är mattelärare, inte utvecklare — och ändå började jag bygga på webben.\nFörsta bygget föddes ur en fråga: hur funkar det här egentligen?\nInsikten: man behöver inte längre kunna koda för att bygga.\nNo-code + AI gjorde tröskeln nästan noll.\nDet viktigaste var inte tekniken — det var att jag vågade börja.",
       "lankar": [
@@ -1515,7 +1566,11 @@ window.LECTURE = {
       "titel": "Vad är det där Traktens du har med på ditt reklammaterial?",
       "begrepp": [
         "Google Sites",
-        "kartautomation"
+        "kartautomation",
+        "närproducerat",
+        "beredskap",
+        "lokal marknadsplats",
+        "AiNNOVA"
       ],
       "anteckningar": "Traktens = en digital marknadsplats för lokal mat och närproducerat.\nKopplar ihop lokala bönder och producenter med oss som vill handla nära.\nVarför: levande bondekultur, öppna marker, beredskap, nyttig och god mat.\nByggt på smarta automationer — utan webhotell, med gratis api. Sponsras av AiNNOVA.\nVi sökte 5,2 miljoner i stöd. Ett stort bygge, och en hjärtefråga.",
       "lankar": [
@@ -1562,7 +1617,11 @@ window.LECTURE = {
       "titel": "Varför bygga blogg när du har en FB sida?",
       "begrepp": [
         "Wisdom Streamer",
-        "blogg"
+        "blogg",
+        "äga vs hyra",
+        "plattformsrisk",
+        "algoritmen",
+        "SEO"
       ],
       "anteckningar": "FB-sidan hyr jag — bloggen äger jag.\nPå Facebook bestämmer algoritmen vem som ser dig, och när.\nBlir du blockad eller ändrar de reglerna — då är din publik borta.\nBloggen är sökbar, långsiktig, min egen adress. Ingen kan slänga ut mig.\nBåde och: FB för räckvidd, bloggen för hem. Men hemmet först. De flesta jag känner har inte FB och kan inte se vad jag skriver där. Alla kan se och läsa bloggen.",
       "lankar": [
@@ -1587,7 +1646,12 @@ window.LECTURE = {
       "titel": "Gör du fredags låtarna själv?",
       "begrepp": [
         "fredagslåtar",
-        "musik"
+        "musik",
+        "AI-musik",
+        "Suno",
+        "upphovsmannaskap",
+        "Martin Lönnstam",
+        "kurering"
       ],
       "anteckningar": "Nej — fredagslåtarna gör Martin Lönnstam, med hjälp av Suno. Riktigt bra.\nHan bygger dem på det jag lägger ut under veckan — jag ger temat, han gör låten.\nMaskinen gör mönstret; människan gör meningen. Precis vår röda tråd.\n'Gör du dem själv?' — nej, och det är det ärliga svaret. Upphovet är Martins.\nVi blir allt mer samspelta — och Martin kan göra en låt på ditt material också.",
       "lankar": [
@@ -1616,7 +1680,10 @@ window.LECTURE = {
       "titel": "Varför är kungen högst i alla schackspel?",
       "begrepp": [
         "schack",
-        "spel"
+        "spel",
+        "hierarki",
+        "spel som modell",
+        "Sköldbondens schack"
       ],
       "anteckningar": "I vanligt schack är kungen 'högst' — fast han är svagast och drottningen gör jobbet.\nKungen är den man måste skydda; faller han är spelet slut.\nJag vände på det: Sköldbondens schack — drottningen högst, bonden en hedrad sköld.\nPoängen: vem vi sätter överst avslöjar vad vi faktiskt värderar.\nSpela det själv — länk finns. Med en kommentator som pratar under tiden.",
       "lankar": [
@@ -1637,7 +1704,11 @@ window.LECTURE = {
       "titel": "Läser du det finstilta i alla 100 sidor långa kontrakt du skriver på?",
       "begrepp": [
         "avtal",
-        "Handslaget"
+        "Handslaget",
+        "digitalt handslag",
+        "pacta sunt servanda",
+        "formkrav",
+        "tillit"
       ],
       "anteckningar": "Ärligt: nej, ingen läser allt finstilt i 100-sidorskontrakt. Det är själva problemet.\nJag byggde Handslaget efter att kunder beställt — och sen låtsats att de inte gjort det när fakturan kom.\nEtt digitalt handslag: ni loggar in, skriver vad ni kom överens om, systemet stämplar tid + namn.\n'En bro mellan två personer — istället för ett hundrasidigt kontrakt.'\nErsätter inte formella avtal där lagen kräver det — men fångar det mänskliga: vad vi faktiskt sa ja till.\nHuvudregel: handslag är lika bindande som papper. Undantag som kräver skriftligt: fastighet, bostadsrätt, testamente, äktenskapsförord, samboavtal.",
       "lankar": [
