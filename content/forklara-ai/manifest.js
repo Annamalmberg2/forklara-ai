@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-06 14:43:22)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-06 14:44:26)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -944,6 +944,12 @@ window.LECTURE = {
         "Toleransparadoxen & Moravecs.png",
         "Kunskapsparadoxen & Dunning & Skeppet Theseus.png",
         "The Paradox of Choice &Buridans åsna & Automatiseringsparadoxen.png"
+      ],
+      "lankar": [
+        [
+          "Alla fredagslåtar",
+          "https://sites.google.com/ainnova.se/aisverige/musik"
+        ]
       ]
     },
     {
