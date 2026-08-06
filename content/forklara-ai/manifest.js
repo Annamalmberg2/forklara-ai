@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-06 14:02:27)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-06 14:04:49)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1381,14 +1381,14 @@ window.LECTURE = {
         "010-10"
       ],
       "bilder": [
-        "Logik är universell.jpg",
+        "Kaos och papper på ett annat sätt.png",
         "o Hidden figures.png",
-        "Fei-Fei Li.jpg",
-        "ti Helen Meng.jpg",
         "Nobelpris i fysik.png",
-        "Nobelpis i kemi.png",
         "Förbesedda i fysik.png",
-        "Förändrade världen.png"
+        "Nobelpis i kemi.png",
+        "Förändrade världen.png",
+        "ti Helen Meng.jpg",
+        "Fei-Fei Li.jpg"
       ]
     },
     {
