@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-02 19:32:27)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-06 09:59:33)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -741,6 +741,10 @@ window.LECTURE = {
         [
           "Jockes sjungande tavla",
           "https://www.youtube.com/shorts/cdh1HTGz69s?feature=share"
+        ],
+        [
+          "Mitt första försök att rita hästar i olika stilar",
+          "https://docs.google.com/document/d/1lMleOBLgKxlslpp-sTEnwjX--6SfeP_aqs2pjbsOIww/edit?usp=sharing"
         ]
       ]
     },
