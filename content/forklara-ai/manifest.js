@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-06 14:04:49)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-06 14:29:33)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -228,6 +228,12 @@ window.LECTURE = {
       "svar": "Att tänkandet kan följa regler — det är AI:s äldsta rot. Aristoteles formaliserade logiken för 2400 år sedan.",
       "relaterat": [
         "010-10"
+      ],
+      "lankar": [
+        [
+          "Designprinciper",
+          "https://sites.google.com/view/hurdetfunkar/tankar/designprinciper"
+        ]
       ]
     },
     {
