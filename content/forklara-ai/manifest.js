@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-06 11:47:28)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-06 11:48:27)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1232,7 +1232,8 @@ window.LECTURE = {
       "svar": "Tack för att ni följde med — och på återseende. Hör av er, det roligaste börjar oftast efter sista bilden.",
       "bilder": [
         "Anna framför sin roll-up.jpg",
-        "AiNNOVA – vad jag erbjuder.png"
+        "AiNNOVA – vad jag erbjuder.png",
+        "Ge mig en gilla på linkedIn.png"
       ],
       "anteckningar": "Tack för att ni följde med. På återseende.\nAiNNOVA står på sex ben — men poängen är att möta dig där du står.\nJag är en lärare som blev nyfiken och inte slutade.\nVill du fortsätta samtalet, boka en föreläsning eller bygga något — hör av dig.\nEller lägg byggandet på mina axlar. Det roligaste börjar efter sista bilden.",
       "begrepp": [
