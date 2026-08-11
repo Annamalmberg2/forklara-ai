@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-11 11:42:14)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-11 11:42:39)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1177,6 +1177,10 @@ window.LECTURE = {
         [
           "Agent OS",
           "https://docs.google.com/document/d/12WiYicvBsX399xJrA0TEEpuazCxSZBifi9meyANOVjw/edit?tab=t.0"
+        ],
+        [
+          "Pluton B",
+          "https://sites.google.com/view/hurdetfunkar/pluton-b"
         ]
       ]
     },
