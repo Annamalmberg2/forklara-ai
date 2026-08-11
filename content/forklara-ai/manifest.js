@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-11 11:38:42)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-11 11:39:27)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -158,6 +158,12 @@ window.LECTURE = {
         "osynlig AI",
         "minne vs insikt",
         "Sadhguru"
+      ],
+      "lankar": [
+        [
+          "Pluton B",
+          "https://sites.google.com/view/hurdetfunkar/pluton-b"
+        ]
       ]
     },
     {
