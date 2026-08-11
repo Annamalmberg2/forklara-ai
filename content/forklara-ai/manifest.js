@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-11 11:37:46)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-11 11:38:42)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -128,6 +128,10 @@ window.LECTURE = {
         [
           "Alla fredagslåtarna",
           "https://sites.google.com/ainnova.se/aisverige/musik"
+        ],
+        [
+          "Pluton B",
+          "https://sites.google.com/view/hurdetfunkar/pluton-b"
         ]
       ],
       "relaterat": [
