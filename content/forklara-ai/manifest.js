@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-11 11:40:03)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-11 11:40:36)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -221,6 +221,10 @@ window.LECTURE = {
         [
           "Intervjun med Max och Rman",
           "https://youtu.be/ZO38I5UZBpg"
+        ],
+        [
+          "Pluton B",
+          "https://sites.google.com/view/hurdetfunkar/pluton-b"
         ]
       ],
       "relaterat": [
