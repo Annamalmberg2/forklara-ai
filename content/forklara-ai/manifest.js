@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-11 12:15:26)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-11 12:17:02)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -962,7 +962,8 @@ window.LECTURE = {
       ],
       "anteckningar": "AI delas i tre nivåer: snäv (ANI, den vi har), generell (AGI, finns ej), super (ASI, hypotetisk).\nPopulärkulturen fruktar ASI. Men den finns inte.\nFaran som redan drabbar människor är SNÄV AI + dålig data + inget mänskligt omdöme.\nEn smart AI oroar mig mindre — så länge den inte vill vilseleda oss.\nEn dum modell som får bestämma över en människa oroar mig desto mer.",
       "bilder": [
-        "agi.png"
+        "agi.png",
+        "grisen.png"
       ],
       "begrepp": [
         "ANI",
