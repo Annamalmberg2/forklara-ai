@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-11 12:22:19)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-11 12:35:23)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -854,7 +854,7 @@ window.LECTURE = {
       "id": "040-20",
       "sektion": "040",
       "titel": "Vad händer med konsten & musiken?",
-      "svar": "Maskinen målar vad som helst och kan gör sång. Frågan är vem som håller penseln, mikrofonen och vem som menar något.",
+      "svar": "Maskinen målar vad som helst och kan skapa sång & musik. Frågan är vem som håller penseln, mikrofonen och vem som menar något.",
       "bilder": [
         "Jocke – en kvinna i dans.png",
         "Jocke – med pensel.jpg",
