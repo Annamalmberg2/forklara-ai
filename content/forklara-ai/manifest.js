@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-12 16:18:27)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-12 16:27:15)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -307,7 +307,7 @@ window.LECTURE = {
         "kompilator",
         "kvinnor i tekniken"
       ],
-      "anteckningar": "Fråga: är det inte bara män bakom AI? Nej.\nAda Lovelace: första programmeraren, 1843, en kvinna före datorn.\nGrace Hopper: första kompilatorn — idén att tala med maskiner på människospråk.\nFei-Fei Li: ImageNet — datan som lärde maskinen att se.\nPoängen är inte kvot, utan sanning: bilden av det ensamma manliga geniet är faktiskt fel.",
+      "anteckningar": "Fråga: är det inte bara män bakom AI? Nej.\n\nAda Lovelace: första programmeraren, 1843, en kvinna före datorn.\n\nGrace Hopper: första kompilatorn — idén att tala med maskiner på människospråk.\n\nFei-Fei Li: ImageNet — datan som lärde maskinen att se.\n\nPoängen är inte kvot, utan sanning: bilden av det ensamma manliga geniet är faktiskt fel.\n\nDet går att rada upp lika många kvinnor som män. Det kan bero på både slöhet och okunskap att det inte görs. \n\nFör det kan väl aldrig vara så att man vill bygga in det som sanning genom att som ett mantra bara prata om männens bidrag till AI tekniken. \n\nAI tränas ju på mönster och det är ett mönster många känner sig bekväma i.",
       "bilder": [
         "Logik är universell.jpg",
         "anna bilder.jpg",
