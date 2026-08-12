@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-12 16:10:45)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-12 16:17:12)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -252,7 +252,7 @@ window.LECTURE = {
         "syllogism",
         "Aristoteles"
       ],
-      "anteckningar": "Drömmen om att mekanisera tänkandet är ~2400 år gammal.\nSyllogismen (konkret): Alla människor är dödliga → Sokrates är människa → Sokrates är dödlig.\nSanningen har en FORM — det är den första 'koden'.\nFirst principles: skala bort antaganden, tänk från grunden (som när Musk byggde raketer).\nFällan: vi trodde intelligens = tillräckligt många regler (Deep Blue). Verkligheten var för stor — vi fick låta maskinen skaffa egna erfarenheter.",
+      "anteckningar": "Drömmen om att mekanisera tänkandet är ~2400 år gammal.\n\nSyllogismen (konkret): Alla människor är dödliga → Sokrates är människa → Sokrates är dödlig.\nSanningen har en FORM — det är den första 'koden'.\n\nFirst principles: skala bort antaganden, tänk från grunden (som när Musk byggde raketer).\n\nFällan: vi trodde intelligens = tillräckligt många regler (Deep Blue). Verkligheten var för stor — vi fick låta maskinen skaffa egna erfarenheter.",
       "bilder": [
         "Aristoteles – first principles.jpg",
         "Aristoteles – reel.jpg"
