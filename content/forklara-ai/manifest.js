@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-12 16:36:43)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-12 16:40:57)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -390,7 +390,7 @@ window.LECTURE = {
         "drag 37",
         "DeepMind"
       ],
-      "anteckningar": "2016: AlphaGo (DeepMind) slog go-mästaren Lee Sedol 4–1.\nGo har fler ställningar än atomer i universum — brute force omöjligt, kräver intuition.\nAlphaGo lärde sig genom SJÄLVSPEL (förstärkningslärande), ingen kodade 'bra drag'.\nDrag 37: ett drag ingen människa skulle spelat — först kallat misstag, sen geni.\nLee Sedols drag 78 vann ett parti — den mänskliga gnistan finns kvar.",
+      "anteckningar": "2016: AlphaGo (DeepMind) slog go-mästaren Lee Sedol 4–1.\n\nGo har fler ställningar än atomer i universum — brute force omöjligt, kräver intuition.\n\nAlphaGo lärde sig genom SJÄLVSPEL (förstärkningslärande), ingen kodade 'bra drag'.\n\nDrag 37: ett drag ingen människa skulle spelat — först kallat misstag, sen genidrag.\n\nLee Sedols drag 78 vann ett parti — den mänskliga gnistan finns kvar.",
       "bilder": [
         "Anna möter maskinen – vid go-brädet.jpg"
       ],
