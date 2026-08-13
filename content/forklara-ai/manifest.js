@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:38:37)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:44:03)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1427,7 +1427,7 @@ window.LECTURE = {
         "AiNNOVA – vad jag erbjuder.png",
         "Ge mig en gilla på linkedIn.png"
       ],
-      "anteckningar": "Tack för att ni följde med. På återseende.\nAiNNOVA står på sex ben — men poängen är att möta dig där du står.\nJag är en lärare som blev nyfiken och inte slutade.\nVill du fortsätta samtalet, boka en föreläsning eller bygga något — hör av dig.\nEller lägg byggandet på mina axlar. Det roligaste börjar efter sista bilden.",
+      "anteckningar": "Tack för att ni följde med. På återseende.\n\nAiNNOVA står på sex ben — men poängen är att möta dig där du står.\n\nJag är en lärare som blev nyfiken och inte slutade.\n\nVill du fortsätta samtalet, boka en föreläsning eller bygga något — hör av dig.\n\nDu kan också tryggt lägga byggandet på mina axlar. Jag vet flera som inte se åt en dator. Då bygger jag allt men det jag bygger blir så lättskött att de flesta tar över det jag byggt.\n\nPowerPoint, where is the power an what is the point. Gör som jag, bygg ditt eget.",
       "begrepp": [
         "AiNNOVA",
         "konsultation",
