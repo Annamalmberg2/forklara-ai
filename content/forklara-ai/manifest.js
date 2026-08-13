@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 15:01:45)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 15:03:05)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1742,7 +1742,7 @@ window.LECTURE = {
         "algoritmen",
         "SEO"
       ],
-      "anteckningar": "FB-sidan hyr jag — bloggen äger jag.\nPå Facebook bestämmer algoritmen vem som ser dig, och när.\nBlir du blockad eller ändrar de reglerna — då är din publik borta.\nBloggen är sökbar, långsiktig, min egen adress. Ingen kan slänga ut mig.\nBåde och: FB för räckvidd, bloggen för hem. Men hemmet först. De flesta jag känner har inte FB och kan inte se vad jag skriver där. Alla kan se och läsa bloggen.",
+      "anteckningar": "FB-sidan hyr jag — bloggen äger jag.\n\nPå Facebook bestämmer algoritmen vem som ser dig, och när.\n\nBlir du blockad eller ändrar de reglerna — då är din publik borta.\n\nBloggen är sökbar, långsiktig, min egen adress. Ingen kan slänga ut mig.\n\nBåde och: FB för räckvidd, bloggen för hem. Men hemmet först. \n\nDe flesta jag känner har inte FB och kan inte se vad jag skriver där. \n\nAlla kan se och läsa bloggen.",
       "lankar": [
         [
           "Wisdom Streamer – bloggen",
