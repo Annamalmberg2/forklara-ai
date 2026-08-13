@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:59:33)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 15:01:45)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1716,7 +1716,7 @@ window.LECTURE = {
         "skolan",
         "fria studier"
       ],
-      "anteckningar": "Notion är min 'andra hjärna' — där samlar jag allt jag lär mig och bygger.\nAnteckningar, kunskap, källor, projekt — allt sökbart på ett ställe.\nOch ja: därifrån kan du själv skapa ett examensbevis åt dig.\n\nDet är inte magi — det är ordning + sök + lite automation.",
+      "anteckningar": "Notion är min 'andra hjärna' — där samlar jag allt jag lär mig och bygger.\n\nDet har blivit till något av en AI-kurs där du själv kan avlägga en examen och avlägga ditt examensbevis.\n\nDet är inte magi — det är ordning + sök + lite automation.",
       "lankar": [
         [
           "Fria studier om AI",
