@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:24:59)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:26:05)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1073,7 +1073,7 @@ window.LECTURE = {
         "logga in.png",
         "Notion som anteckningar.png"
       ],
-      "anteckningar": "Svaret är inte ett knep eller ett verktyg — det är att våga börja. Idag.\nBörja prata med AI i telefonen; logga in med samma google-/applekonto överallt så synkar det.\nDin kurva är din egen: beror på förkunskaper OCH hur många problem du brottats med.\nDet bygger på sig självt — ju mer ni löst ihop, desto bättre hjälper den dig.\nEn grundprompt som säger vem du är ger AI:n en flygande start. (Se länkarna.)",
+      "anteckningar": "Svaret är inte ett knep eller ett verktyg — det är att våga börja. Idag.\n\nBörja prata med AI i telefonen; logga in med samma google-/applekonto överallt så synkar det.\n\nDin kurva är din egen: beror på förkunskaper OCH hur många problem du brottats med.\n\nDet bygger på sig självt — ju mer ni löst ihop, desto bättre hjälper den dig.\n\nEn grundprompt som säger vem du är ger AI:n en flygande start. (Se länkarna.)",
       "lankar": [
         [
           "AI skolan i Notion",
