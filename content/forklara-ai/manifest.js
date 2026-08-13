@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:34:02)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:34:32)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1283,7 +1283,7 @@ window.LECTURE = {
       "id": "060-40",
       "titel": "Vem äger det jag skapar med den?",
       "svar": "Oftast du — men användarvillkoren varierar och området är i rörelse. Läs det finstilta, särskilt om du ska sälja vidare.",
-      "anteckningar": "Vem äger AI-genererad text/bild/kod? Oftast du — men villkoren skiljer sig.\nSkillnad på privat och företagsplan, och på vad du får sälja/sprida.\nOmrådet är rättsligt i rörelse — flera processer pågår.\nFyll ut: principer + frågor att ställa, inte tvärsäkra 'regler'.",
+      "anteckningar": "Vem äger AI-genererad text/bild/kod? Oftast du — men villkoren skiljer sig.\n\nSkillnad på privat och företagsplan, och på vad du får sälja/sprida.\nOmrådet är rättsligt i rörelse — flera processer pågår.\n\nFyll ut: principer + frågor att ställa, inte tvärsäkra 'regler'.",
       "relaterat": [
         "060-30"
       ],
