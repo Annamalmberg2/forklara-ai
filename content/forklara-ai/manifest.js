@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 15:04:11)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 15:04:59)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1804,7 +1804,7 @@ window.LECTURE = {
         "spel som modell",
         "Sköldbondens schack"
       ],
-      "anteckningar": "I vanligt schack är kungen 'högst' — fast han är svagast och drottningen gör jobbet.\nKungen är den man måste skydda; faller han är spelet slut.\nJag vände på det: Sköldbondens schack — drottningen högst, bonden en hedrad sköld.\nPoängen: vem vi sätter överst avslöjar vad vi faktiskt värderar.\nSpela det själv — länk finns. Med en kommentator som pratar under tiden.",
+      "anteckningar": "I vanligt schack är kungen 'högst' — fast han är svagast och drottningen gör jobbet.\n\nKungen är den man måste skydda; faller han är spelet slut.\n\nJag vände på det: Sköldbondens schack — drottningen högst, bonden en hedrad sköld.\n\nPoängen: vem vi sätter överst avslöjar vad vi faktiskt värderar.\n\nSpela det själv — länk finns. Med en kommentator som pratar under tiden.",
       "lankar": [
         [
           "Spela Sköldbondens schack",
