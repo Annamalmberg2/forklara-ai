@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 11:26:14)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 11:27:04)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -506,7 +506,7 @@ window.LECTURE = {
         "tidslinje",
         "multimodalitet"
       ],
-      "anteckningar": "En lös hand utan kropp är bara ett trasigt verktyg.\nMen koppla ihop bild, ljud, kod och resonemang — då växer något nytt fram.\nÖgon, öron, händer kopplade till en hjärna: inte längre en stum maskin.\nInte ett biologiskt monster — en ny sorts digital organism.\nDelarna: bildmodellen (ögonen), språkmodellen (hjärnan), ljudmodellen (öronen), händerna, hjärtat, fötterna.\nFramtiden beror på hur vi odlar den.",
+      "anteckningar": "En lös hand utan kropp är bara ett trasigt verktyg. Men koppla ihop bild, ljud, kod och resonemang — då växer något nytt fram.\n\nÖgon, öron, händer kopplade till en hjärna: inte längre en stum maskin.\nInte ett biologiskt monster — en ny sorts digital organism.\n\nDelarna: bildmodellen (ögonen), språkmodellen (hjärnan), ljudmodellen (öronen), händerna, hjärtat, fötterna.\n\nFramtiden beror på hur vi odlar den.",
       "bilder": [
         "Svampskogen – ett växande mycel att odla.jpg"
       ],
