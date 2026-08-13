@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 13:59:14)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:06:46)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -758,7 +758,7 @@ window.LECTURE = {
         "tillit",
         "mänskliga fel"
       ],
-      "anteckningar": "Vi lär oss tillsammans. AI Sverige, samtal, delande, folkbildning.\n\nNär människor blockeras försvinner deras röster ur samtalet, och ur framtidens träningsdata. Fast nu kan vi göra träningsdata av själva blockaden.",
+      "anteckningar": "I maskiner kan man mäta och träna bort skevheter.\n\nHos oss människor sitter fördomarna ofta fast – försvarade av prestige.\n\nVi lägger enormt mycket tid på att diskutera om vi kan lita på AI. Men den mest obekväma spegelvändningen är: kan vi alltid lita på oss själva? Människan är full av osynliga låsningar – bekräftelsebias, ekokammare och grupptänk.\n\nNär en AI har bias kan den mätas, korrigeras och tränas om över en natt. Genom målinriktad \"uppfostran\" (mänsklig feedback och belöningssystem) formas modellens \"inre kompass\" till att vara hjälpsam och opartisk. Den har ingen prestige att försvara och inget behov av att ha \"rätt\". En människa som får sin fördom påpekad gör oftast tvärtom: går i försvar.\n\nDe viktigaste insikterna:\n\n• Prestige vs. Justering: Maskinens fel är lätta att komma åt och koda om. Mänskliga fel försvaras ofta av stolthet och tradition.\n\n• Den inre kompassen: AI har ingen egen moral, men den är tränad att spela rollen av en balanserad samtalspartner.\n\n• Exkludering i datan: När röster tystas eller blockeras i samhället försvinner de ur framtidens träningsdata. Vem vi släpper in i samtalet formar vad maskinen lär sig.\n\nVi kräver att AI:n ska vara rättvis, ärlig och hjälpsam. Det är bra – men den riktigt intressanta frågan är om vi vågar ställa exakt samma krav på oss själva.\n\nSjälv gör jag ofta träningsdata av vad eller vilka som faltiskt blokerar och utesluter och vilka sanningar som man försöker göra mönster av.",
       "lankar": [
         [
           "AI Sverige på Facebook",
