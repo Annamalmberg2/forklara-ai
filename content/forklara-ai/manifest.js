@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 15:03:05)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 15:04:11)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1772,7 +1772,7 @@ window.LECTURE = {
         "Martin Lönnstam",
         "kurering"
       ],
-      "anteckningar": "Nej — fredagslåtarna gör Martin Lönnstam, med hjälp av Suno. Riktigt bra.\nHan bygger dem på det jag lägger ut under veckan — jag ger temat, han gör låten.\nMaskinen gör mönstret; människan gör meningen. Precis vår röda tråd.\n'Gör du dem själv?' — nej, och det är det ärliga svaret. Upphovet är Martins.\nVi blir allt mer samspelta — och Martin kan göra en låt på ditt material också.",
+      "anteckningar": "Nej — fredagslåtarna gör Martin Lönnstam, med hjälp av Suno. Riktigt bra.\n\nHan bygger dem på det jag lägger ut under veckan — jag ger temat, han gör låten.\n\nMaskinen gör mönstret; människan gör meningen. \n\nPrecis vår röda tråd.\n'Gör du dem själv?' — nej, och det är det ärliga svaret. Upphovet är Martins.\n\nVi blir allt mer samspelta — och Martin kan göra en låt på ditt material också.",
       "lankar": [
         [
           "Musiksidan",
