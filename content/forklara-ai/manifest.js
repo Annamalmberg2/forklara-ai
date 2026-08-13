@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:52:55)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:54:04)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1529,7 +1529,7 @@ window.LECTURE = {
         "arkiv",
         "AI-assistent"
       ],
-      "anteckningar": "Kan jag träna min AI att ta hand om mig när jag blir äldre och glömsk? Delvis — redan idag.\nBygg upp kontext: din historia, dina värderingar, dina människor. Den lär känna dig över tid.\nTre lager i ett liv: vad du gjort, vad du värderar, vad du drömmer.\nDet ömtåliga: det är en modell av dig, inte du. Vem äger den, vem ärver den?\nDen kan hålla dina minnen — men inte din hand. Bygg den som stöd för människorna, inte ersättning.",
+      "anteckningar": "Kan jag träna min AI att ta hand om mig när jag blir äldre och glömsk? \n\nDelvis — redan idag.\n\nBygg upp kontext: din historia, dina värderingar, dina människor. Den lär känna dig över tid.\n\nTre lager i ett liv: vad du gjort, vad du värderar, vad du drömmer.\n\nDet ömtåliga: det är en modell av dig, inte du. Vem äger den, vem ärver den?\n\nDen kan hålla dina minnen — men inte din hand. Bygg den som stöd för människorna, inte ersättning.",
       "bilder": [
         "Tre lager – en livsresa.jpg"
       ],
