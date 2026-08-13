@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 10:45:35)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 10:54:28)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -390,7 +390,7 @@ window.LECTURE = {
         "drag 37",
         "DeepMind"
       ],
-      "anteckningar": "2016: AlphaGo (DeepMind) slog go-mästaren Lee Sedol 4–1.\n\nGo har fler ställningar än atomer i universum — brute force omöjligt, kräver intuition.\n\nAlphaGo lärde sig genom SJÄLVSPEL (förstärkningslärande), ingen kodade 'bra drag'.\n\nDrag 37: ett drag ingen människa skulle spelat — först kallat misstag, sen genidrag.\n\nLee Sedols drag 78 vann ett parti — den mänskliga gnistan finns kvar.",
+      "anteckningar": "2016: AlphaGo (DeepMind) slog go-mästaren Lee Sedol 4–1.\n\nGo har fler ställningar än atomer i universum — brute force omöjligt, kräver intuition.\n\nAlphaGo lärde sig genom SJÄLVSPEL (förstärkningslärande), ingen kodade 'bra drag'.\n\nDrag 37: ett drag ingen människa skulle spelat — först kallat misstag, sen genidrag.\n\n• Den kontextuella blindfläcken: AlphaGo var tränad på miljontals mänskliga partier kombinerat med självspel. Men Lee Sedols kil-drag (Drag 78) låg så långt utanför vad AlphaGo någonsin hade \"sett\" eller värderat som meningsfullt att systemets internmodell kollapsade.\n\n• Kaskadeffekten: Precis som en prompt injection får en LLM att hallucinera eller spåra ur, fick Drag 78 AlphaGos Monte Carlo-trudsökning att gå helt bananas. Datorn trodde att den fortfarande ledde (med över 70 % vinstchans), men i själva verket började den göra helt obegripliga och svaga drag under de följande 20 dragen innan den till slut insåg att den förlorat.\n\n• Exploatering av sannolikhetsmodeller: Både dagens LLM:er och AlphaGos neuronnät bygger på sannolikheter. Om du matar in en sekvens med extremt låg sannolikhet (som AlphaGo värderade till < 0,007 %) tvingar du modellen ut ur sitt optimerade tillstånd och in i en \"out-of-distribution\"-zon där den inte längre vet hur den ska agera.",
       "bilder": [
         "Anna möter maskinen – vid go-brädet.jpg"
       ],
