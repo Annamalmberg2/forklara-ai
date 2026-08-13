@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:50:17)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:52:55)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1509,7 +1509,7 @@ window.LECTURE = {
         "svampskogen",
         "mycel"
       ],
-      "anteckningar": "Drömmen: en AI som faktagranskar debatter i realtid och sammanfattar rättvist.\nFaran: vem vaktar sammanfattaren? En skev sammanfattning blir det yttersta spinnet.\nAutomation bias: om AI:n 'avgör' slutar vi tänka.\nBäst: AI ger alla samma fakta, människan äger omdömet och beslutet.\nMålet är inte en AI som säger vem som har rätt — utan som låter oisamma-fakta ge ärlig oenighet.",
+      "anteckningar": "Drömmen: en AI som faktagranskar debatter i realtid och sammanfattar rättvist.\n\nFaran: vem vaktar sammanfattaren? En skev sammanfattning blir det yttersta spinnet.\n\nAutomation bias: om AI:n 'avgör' slutar vi tänka.\n\nBäst: AI ger alla samma fakta, människan äger omdömet och beslutet.\n\nMålet är inte en AI som säger vem som har rätt.",
       "bilder": [
         "Tillsammans för bästa beslut.jpg"
       ],
