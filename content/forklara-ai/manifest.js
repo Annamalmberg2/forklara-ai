@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:44:03)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:48:47)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1475,7 +1475,7 @@ window.LECTURE = {
         "paradigmskifte",
         "first principles"
       ],
-      "anteckningar": "När världen ändras griper vi instinktivt efter den gamla kartan.\nSom rallyföraren som litar på gamla väglinjer fast vägen byggts om — rakt i diket.\nExperter har ibland svårast: deras gamla karta sitter djupast.\nAvlärande är svårare än lärande.\nDen viktigaste förmågan i förändring: att våga rita om kartan.",
+      "anteckningar": "När världen ändras griper vi instinktivt efter den gamla kartan.\n\nSom rallyföraren som litar på gamla väglinjer fast vägen byggts om — rakt i diket.\n\nExperter har ibland svårast: deras gamla karta sitter djupast.\n\nAvlärande är svårare än lärande.\nDen viktigaste förmågan i förändring: att våga rita om kartan.",
       "bilder": [
         "Rallyt – gamla kartan gäller ej.png",
         "Kaptenen till sjöss.png",
