@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:30:29)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:31:26)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1195,7 +1195,7 @@ window.LECTURE = {
       "id": "060-10",
       "titel": "Privatperson eller företag — vad är skillnaden?",
       "svar": "För dig själv räcker en knapp i inställningarna. För ett företag krävs ett avtal — för då hanterar ni andras personuppgifter.",
-      "anteckningar": "Den viktigaste skillnaden i hela kapitlet.\nPrivatperson: en knapp — stäng av 'använd min data för att träna modellen'. Räcker juridiskt för dig.\nFöretag: ett avtal (DPA), för ni är ansvariga för andras personuppgifter.\nKrävs: Enterprise/Business-plan, signerat DPA, EU-hosting/SCC, intern policy.\nVanligaste felet: använda ett gratis privatkonto för företagsdata.",
+      "anteckningar": "Den viktigaste skillnaden i hela kapitlet.\n\nPrivatperson: en knapp — stäng av 'använd min data för att träna modellen'. Räcker juridiskt för dig.\n\nFöretag: ett avtal (DPA), för ni är ansvariga för andras personuppgifter.\n\nKrävs: Enterprise/Business-plan, signerat DPA, EU-hosting/SCC, intern policy.\n\nVanligaste felet: använda ett gratis privatkonto för företagsdata.",
       "relaterat": [
         "060-20",
         "060-30"
