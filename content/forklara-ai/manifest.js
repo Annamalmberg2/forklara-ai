@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 15:04:59)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 15:06:13)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1829,7 +1829,7 @@ window.LECTURE = {
         "formkrav",
         "tillit"
       ],
-      "anteckningar": "Ärligt: nej, ingen läser allt finstilt i 100-sidorskontrakt. Det är själva problemet.\nJag byggde Handslaget efter att kunder beställt — och sen låtsats att de inte gjort det när fakturan kom.\nEtt digitalt handslag: ni loggar in, skriver vad ni kom överens om, systemet stämplar tid + namn.\n'En bro mellan två personer — istället för ett hundrasidigt kontrakt.'\nErsätter inte formella avtal där lagen kräver det — men fångar det mänskliga: vad vi faktiskt sa ja till.\nHuvudregel: handslag är lika bindande som papper. Undantag som kräver skriftligt: fastighet, bostadsrätt, testamente, äktenskapsförord, samboavtal.",
+      "anteckningar": "Ärligt: nej, ingen läser allt finstilt i 100-sidorskontrakt. Det är själva problemet.\n\nJag byggde Handslaget efter att kunder beställt — och sen låtsats att de inte gjort det när fakturan kom.\n\nEtt digitalt handslag: ni loggar in, skriver vad ni kom överens om, systemet stämplar tid + namn.\n\n'En bro mellan två personer — istället för ett hundrasidigt kontrakt.'\n\nErsätter inte formella avtal där lagen kräver det — men fångar det mänskliga: vad vi faktiskt sa ja till.\n\nHuvudregel: handslag är lika bindande som papper. Undantag som kräver skriftligt: fastighet, bostadsrätt, testamente, äktenskapsförord, samboavtal.",
       "lankar": [
         [
           "Handslaget",
