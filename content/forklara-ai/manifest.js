@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:31:26)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:32:32)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1224,7 +1224,7 @@ window.LECTURE = {
       "id": "060-20",
       "titel": "Vad får jag skriva in — och vad stannar kvar?",
       "svar": "Grundregeln: klistra aldrig in hemligheter i en publik AI. Fråga alltid: tränas den på min data, och hur länge sparas den?",
-      "anteckningar": "Klistra aldrig in det du inte vill se läcka.\nTvå frågor: tränas modellen på det jag skriver? Hur länge sparas det (retention)?\nPersonuppgifter = GDPR. Företagshemligheter = risk.\nPå rätt plan + DPA bekräftas att er data INTE tränas på.\nFyll ut: det praktiska — vad som är ok och inte.",
+      "anteckningar": "Klistra aldrig in det du inte vill se läcka.\n\nTvå frågor: tränas modellen på det jag skriver? Hur länge sparas det (retention)?\n\nPersonuppgifter = GDPR. Företagshemligheter = risk.\nPå rätt plan + DPA bekräftas att er data INTE tränas på.\n\nFyll ut: det praktiska — vad som är ok och inte.",
       "relaterat": [
         "060-10",
         "060-30"
