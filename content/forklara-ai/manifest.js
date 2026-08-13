@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:32:32)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:34:02)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1253,7 +1253,7 @@ window.LECTURE = {
       "id": "060-30",
       "titel": "Hur vet jag om en AI-tjänst är företagsklar?",
       "svar": "Fem kriterier avgör: företagsavtal & DPA, GDPR/EU, interna dokument, ingen träning på er data, och isolering. Se min guide.",
-      "anteckningar": "De fem kriterierna (från min guide):\n1. Enterprise-plan & DPA  2. GDPR/EU-kompatibel  3. Interna dokument  4. Tränas EJ på er data  5. Retention/isolering.\nGuiden jämför ChatGPT, Claude, Gemini, Copilot, Mistral, Grok, Perplexity.\nBokmärk två sidor per tjänst: villkoren och prenumerationen — där ändras saker först.\nOBS: överblick, inte juridisk rådgivning — verifiera mot leverantörens egna villkor.",
+      "anteckningar": "De fem kriterierna (från min guide):\n\n1. Enterprise-plan & DPA  \n2. GDPR/EU-kompatibel  \n3. Interna dokument  \n4. Tränas EJ på er data  \n5. Retention/isolering.\n\nGuiden jämför ChatGPT, Claude, Gemini, Copilot, Mistral, Grok, Perplexity.\n\nBokmärk två sidor per tjänst: villkoren och prenumerationen — där ändras saker först.\n\nOBS: överblick, inte juridisk rådgivning — verifiera mot leverantörens egna villkor.",
       "relaterat": [
         "060-10",
         "060-20"
