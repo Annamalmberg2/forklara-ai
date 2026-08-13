@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:21:42)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:22:58)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -982,7 +982,7 @@ window.LECTURE = {
       "sektion": "040",
       "titel": "När en dum modell får bestämma över en människa",
       "svar": "En statistisk modell mäter medelvärdet — aldrig människan framför sig. Och den avgörande människan måste ges mandatet att tänka själv.",
-      "anteckningar": "En statistisk modell mäter medelvärdet — ser aldrig den enskilda människan.\nHar hänt: nederländska barnbidragsskandalen (26 000 familjer, regeringen föll 2021).\nEn människa i loopen räcker inte om hon bara får trycka 'godkänn'.\nDjupaste faran: inte att maskinen bestämmer — utan att människan inte längre FÅR tänka.\nVägen framåt: augmentering + en tränad människa med mandat + öppenhet i stället för misstänksamhet. Öppna dörren-eran.",
+      "anteckningar": "En statistisk modell mäter medelvärdet — ser aldrig den enskilda människan.\n\nHar hänt: nederländska barnbidragsskandalen (26 000 familjer, regeringen föll 2021).\n\nEn människa i loopen räcker inte om hon bara får trycka 'godkänn'.\nDjupaste faran: inte att maskinen bestämmer — utan att människan inte längre FÅR tänka.\n\nVägen framåt: augmentering + en tränad människa med mandat + öppenhet i stället för misstänksamhet. \n\nÖppna dörren-eran.",
       "relaterat": [
         "040-55",
         "040-nyms3bb950",
