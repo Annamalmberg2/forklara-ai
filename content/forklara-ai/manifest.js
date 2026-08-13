@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:57:03)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:58:43)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1657,7 +1657,7 @@ window.LECTURE = {
         "learning by building",
         "Google Sites"
       ],
-      "anteckningar": "Jag är mattelärare, inte utvecklare — och ändå började jag bygga på webben.\nFörsta bygget föddes ur en fråga: hur funkar det här egentligen?\nInsikten: man behöver inte längre kunna koda för att bygga.\nNo-code + AI gjorde tröskeln nästan noll.\nDet viktigaste var inte tekniken — det var att jag vågade börja.",
+      "anteckningar": "Jag är mattelärare, inte utvecklare — och ändå började jag bygga på webben.\n\nFörsta bygget föddes ur en fråga: hur funkar det här egentligen?\nInsikten: man behöver inte längre kunna koda för att bygga.\n\nNo-code + AI gjorde tröskeln nästan noll.\n\nDet viktigaste var inte tekniken — det var att jag vågade börja.",
       "lankar": [
         [
           "hurdetfunkar.se",
