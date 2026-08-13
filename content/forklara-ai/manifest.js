@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-12 16:42:03)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 10:45:35)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -365,7 +365,7 @@ window.LECTURE = {
         "Deep Blue",
         "IBM"
       ],
-      "anteckningar": "1997: Deep Blue (IBM) slog regerande världsmästaren Garry Kasparov.\n\nRäknade ~200 miljoner ställningar i sekunden — men lärde sig ingenting.\nRå beräkning + expertregler = det gamla paradigmet. Byggt.\n\nKasparov skakades av ett drag, anklagade IBM för fusk. \n\nAnklagelserna handlade inte om att datorn använde otillåtna hjälpmedel, utan om att mänskliga stormästare ska ha lagt sig i och påverkat datorns drag i realtid.\n\nImponerande — men också en återvändsgränd för endast rå beräkningskraft i nästa steg. Beräkningarna höll för schack men det behövdes något annat för Go.\n\nEn enkel minnesregel\nDeep Blue = IBM + schack + 1997.\nDeepMind/AlphaGo = Google + Go + 2016. senare AI-era.",
+      "anteckningar": "1997: Deep Blue (IBM) slog regerande världsmästaren Garry Kasparov.\n\nRäknade ~200 miljoner ställningar i sekunden — men lärde sig ingenting.\nRå beräkning + expertregler = det gamla paradigmet. Byggt.\n\nKasparov skakades av ett drag, anklagade IBM för fusk. \n\nAnklagelserna handlade inte om att datorn använde otillåtna hjälpmedel, utan om att mänskliga stormästare ska ha lagt sig i och påverkat datorns drag i realtid.\n\nHan kan ha befarat att Judit Polgár satt vid spakarna. Hade hon suttit där bakom kulisserna hade Kasparov förmodligen förlorat långt tidigare än i det sjätte partiet.\n\nI deras allra första parti \"\"Touch-move\"-incidenten i Linares 1994\" släppte Kasparov en springare i ett bråkdel av en sekund, insåg att det var en tavla, och flyttade den snabbt till en annan ruta. Domaren ingrep inte, och Polgár (som då var 17 år) kunde inte bevisa det på plats. \n\nVideokameror visade senare att Kasparov faktiskt släppt pjäsen. Incidenten ledde till att de knappt pratade med varandra på flera år.  Revenschen 2002: Polgár fick till slut sin ultimata upprättelse när hon besegrade Kasparov i en snabbmatch i Moskva 2002 – första gången någonsin som en kvinna slog den dåvarande världsettan.  Se gärna dokumentären \"\"Queen of Chess\" \n\nImponerande part mot dator vs människa — men också en återvändsgränd för endast rå beräkningskraft i nästa steg. \n\nBeräkningarna höll för schack men det behövdes något nytt för spelet GO för Go.\n\nEn enkel minnesregel\nDeep Blue = IBM + schack + 1997.\nDeepMind/AlphaGo = Google + Go + 2016. senare AI-era.",
       "bilder": [
         "Deep Blue vs Kasparov 1997.jpg"
       ],
