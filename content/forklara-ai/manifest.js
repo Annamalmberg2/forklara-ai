@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:34:32)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-13 14:35:15)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1311,7 +1311,7 @@ window.LECTURE = {
       "id": "060-50",
       "titel": "Behöver vi en AI-policy?",
       "svar": "Ja — en enkel, tydlig sådan. Vem får använda vad, vad får matas in, och en människa som granskar.",
-      "anteckningar": "En AI-policy behöver inte vara tjock — den behöver vara tydlig.\nVem får använda vilka verktyg? Vad får matas in? Vem granskar?\nKänsligt → privata/EU-baserade eller självhostade modeller.\nVar medveten om att man kan lura AI:n (prompt injection) och om läckor.\nKonstruktiv avslutning: det här gör AI tryggt att använda på riktigt.",
+      "anteckningar": "En AI-policy behöver inte vara tjock — den behöver vara tydlig.\n\nVem får använda vilka verktyg? Vad får matas in? Vem granskar?\n\nKänsligt → privata/EU-baserade eller självhostade modeller.\n\nVar medveten om att man kan lura AI:n (prompt injection) och om läckor.\n\nKonstruktiv avslutning: det här gör AI tryggt att använda på riktigt.",
       "relaterat": [
         "060-10",
         "060-30"
