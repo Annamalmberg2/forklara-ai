@@ -14,49 +14,49 @@ window.LECTURE = {
       "id": "000",
       "namn": "Var vi börjar",
       "tes": "Vem jag är — och den enda frågan som spelar roll.",
-      "nyckel": "000-30"
+      "nyckel": "dummare-eller-smartare"
     },
     {
       "id": "010",
       "namn": "Var kommer det ifrån?",
       "tes": "Från Ada till Nobelpris — samma dröm, samma oro.",
-      "nyckel": "010-30"
+      "nyckel": "nar-blev-maskinen-battre"
     },
     {
       "id": "020",
       "namn": "Vad är det egentligen?",
       "tes": "Avmystifiera maskinen: vad den är, och inte är.",
-      "nyckel": "020-10"
+      "nyckel": "ar-ai-en-maskin"
     },
     {
       "id": "030",
       "namn": "Kan man lita på den?",
       "tes": "Mönster är vackra. Bevis är sanning. Skillnaden avgör.",
-      "nyckel": "030-10"
+      "nyckel": "kan-man-lita-pa-den"
     },
     {
       "id": "040",
       "namn": "Vad betyder det för oss?",
       "tes": "Jobb, konst, tid, sanning — vad vi väljer att behålla.",
-      "nyckel": "040-10"
+      "nyckel": "tar-den-mitt-jobb"
     },
     {
       "id": "050",
       "namn": "Hur börjar jag?",
       "tes": "Från nyfiken till igång — ikväll.",
-      "nyckel": "050-30"
+      "nyckel": "funkar-det-i-vardagen"
     },
     {
       "id": "060",
       "namn": "Får jag använda det på jobbet?",
       "tes": "Det praktiska varje organisation undrar: vad du får, vad du ska dela, och hur ni skyddar er.",
-      "nyckel": "060-10"
+      "nyckel": "privat-eller-foretag"
     },
     {
       "id": "070",
       "namn": "Vad tar jag med mig?",
       "tes": "Maskinen gör mönster. Du gör mening.",
-      "nyckel": "070-10"
+      "nyckel": "vad-tar-jag-med-mig"
     },
     {
       "id": "950",
@@ -85,7 +85,7 @@ window.LECTURE = {
   ],
   "kort": [
     {
-      "id": "000-10",
+      "id": "vem-ar-jag",
       "sektion": "000",
       "titel": "Vem är jag att prata om AI?",
       "svar": "En lärare i matematik och fysik som bytte klassrum, inte yrke.",
@@ -135,11 +135,11 @@ window.LECTURE = {
         ]
       ],
       "relaterat": [
-        "000-20"
+        "vem-bildar-oss"
       ]
     },
     {
-      "id": "000-20",
+      "id": "vem-bildar-oss",
       "sektion": "000",
       "titel": "Vem eller vad bildar oss idag?",
       "svar": "Förr lärde jag mig mest av människor. Idag lär jag mig mest av maskinen.",
@@ -167,13 +167,13 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "000-30",
+      "id": "dummare-eller-smartare",
       "sektion": "000",
       "titel": "Gör AI oss dummare eller tvingas vi bli smartare?",
       "svar": "Varken eller — av sig själv. Låter vi den göra allt tänkande åt oss blir vi slöare; låter vi den utmana oss blir vi skarpare.",
       "relaterat": [
-        "030-10",
-        "000-30"
+        "kan-man-lita-pa-den",
+        "dummare-eller-smartare"
       ],
       "anteckningar": "Gör AI oss dummare — eller hjälpa oss bli smartare? Svaret beror på hur vi nyttjar den.\n\nGPS-effekten: vi hittar sämre sedan vi slutade läsa kartan (kognitiv avlastning).\n\nLondons taxichaufförers hjärna växte av staden utantill — hjärnan växer det den används.\n\nAvlastning är inte förfall — skadan sitter i vad du slutar göra. Lägg ut det mekaniska, behåll den sista frågan. \n\nFråga 'vad har jag missat?', inte 'ge mig svaret'.\n\nRätt använt kan vårt tänkande nå nya niver.",
       "fordjupning": "<p class=\"ingress\">Gör AI oss dummare — eller tvingas vi bli smartare? Det är kärnfrågan, och svaret finns inte i tekniken, utan i vad vi slutar göra själva. Och hjärnforskningen har mer att säga om det än man tror.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">GPS-effekten</span><span class=\"tag\">Kognitiv avlastning</span></div>\n  <div class=\"body\">Vi hittar sämre själva sedan vi slutade läsa kartan. Vi minns färre telefonnummer sedan mobilen minns dem. Forskarna kallar det <strong>kognitiv avlastning</strong> — vi lägger ut minne och tänkande på tekniken.<br><br>En känd studie (Sparrow m.fl., 2011) visade det tydligt: när vi vet att en uppgift finns sparad i datorn minns vi <em>var</em> den finns — men inte själva uppgiften. Vi har outsourcat minnet. Populärt kallas det digital amnesi.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Hjärnan växer det den använder</span><span class=\"tag\">Neuroplasticitet</span></div>\n  <div class=\"body\">Här är det fascinerande: hjärnan är inte statisk, den formas av bruk. Ett berömt exempel är Londons taxichaufförer, som förr måste lära sig hela stadens gatunät utantill (\"the Knowledge\"). Hjärnforskaren Eleanor Maguire visade att deras <strong>hippocampus</strong> — hjärnans karta- och minnescentrum — var mätbart större än hos andra.<br><br>Slutsatsen skär åt båda håll: det vi övar växer. Det vi slutar öva krymper.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Här brukar folk tappa det</div><div class=\"lost-text\">\"Alltså gör tekniken oss dummare!\" — inte så snabbt. Hjärnan frigör också kapacitet när den slipper det mekaniska. Frågan är inte <em>om</em> vi avlastar, utan <em>vad vi gör</em> med den frigjorda kraften.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Avlastning är inte förfall</span><span class=\"tag\">Nyansen</span></div>\n  <div class=\"body\">En miniräknare gör dig inte sämre på matematik — om du använder den för att slippa räkna för hand och i stället grubbla på <em>problemet</em>. Den gör dig sämre om du slutar förstå vad du räknar.<br><br>Skadan sitter alltså aldrig i verktyget. Den sitter i <strong>vad du slutar göra själv.</strong></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Lägg ut det mekaniska, behåll tänkandet</span><span class=\"tag\">Praktiken</span></div>\n  <div class=\"body\">Så här gör jag: lägg ut det mekaniska — stavning, sammanfattning, ett första utkast. Men behåll omdömet, urvalet och den <em>sista</em> frågan hos dig själv.<br><br>Använd AI som en sparringpartner som säger emot — inte som ett facit som avslutar tanken. Den som ber AI:n \"ge mig svaret\" slutar tänka. Den som ber \"vad har jag missat?\" tänker skarpare.</div>\n  <div class=\"why\"><div class=\"why-label\">Vad forskningen börjar se</div><div class=\"why-text\">Studier har börjat antyda att den som <em>litar för mycket</em> på AI övar sitt kritiska tänkande mindre — medan den som använder den för att ifrågasätta tvärtom skärper det. Fältet är ungt och resultaten preliminära, men riktningen rimmar med allt vi vet om hjärnan: <strong>använd den, annars tappar du den.</strong></div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Den utvidgade hjärnan</span><span class=\"tag\">Ett annat sätt att se det</span></div>\n  <div class=\"body\">Filosoferna Clark och Chalmers föreslog redan 1998 tanken om \"det utvidgade medvetandet\": anteckningsboken, kalendern, sedermera mobilen är i praktiken delar av vårt tänkande, utanför skallen. AI är nästa, kraftfullaste steget.<br><br>Sett så är frågan inte om vi blir dummare, utan om vi lär oss använda vår nya, utvidgade hjärna klokt — eller lat.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Ta med dig detta</div><div class=\"insight-text\">AI gör dig inte dummare eller smartare. Du gör det — genom vad du väljer att fortsätta öva. Lägg ut det tråkiga, behåll tänkandet, så blir du skarpare, inte slöare.</div></div>\n</div>\n\n<hr>\n\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Kognitiv avlastning</div><div class=\"extra-desc\">Att lägga ut minne och tänkande på tekniken. Frigör kraft — eller låter förmågan förtvina.</div></div>\n  <div><div class=\"extra-name\">Google-effekten</div><div class=\"extra-desc\">Vi minns var informationen finns, inte informationen själv. Visat av Sparrow m.fl. 2011.</div></div>\n  <div><div class=\"extra-name\">Digital amnesi</div><div class=\"extra-desc\">Populärt namn på att vi glömmer det vi vet att tekniken minns åt oss.</div></div>\n  <div><div class=\"extra-name\">Neuroplasticitet</div><div class=\"extra-desc\">Hjärnans förmåga att formas av bruk. Det vi övar växer; det vi slutar öva krymper.</div></div>\n  <div><div class=\"extra-name\">Hippocampus</div><div class=\"extra-desc\">Hjärnans karta- och minnescentrum. Större hos Londons taxichaufförer — hjärnan växer det den använder.</div></div>\n  <div><div class=\"extra-name\">Utvidgat medvetande</div><div class=\"extra-desc\">Idén (Clark & Chalmers 1998) att våra verktyg är delar av tänkandet. AI är det senaste.</div></div>\n  <div><div class=\"extra-name\">Metakognition</div><div class=\"extra-desc\">Att tänka om sitt eget tänkande. Förmågan att ställa den sista frågan själv.</div></div>\n  <div><div class=\"extra-name\">Sparringpartner</div><div class=\"extra-desc\">AI som säger emot och skärper dig — motsatsen till ett facit som avslutar tanken.</div></div>\n</div>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Vad vi inte vet ännu</div>\n  <div class=\"future-body\">Vi har ännu inte facit på vad en uppväxt med AI gör med tänkande, minne och koncentration — de barn som växer upp nu är den första generationen i experimentet. Forskningen är i sin linda.<br><br>Det <strong>vet</strong> vi: hjärnan lyder samma regel som en muskel. Använd den — särskilt till det svåra, det du frestas att lägga ut — så behåller du den. Låt AI ta det mekaniska, men aldrig den sista frågan.</div>\n</div>",
@@ -196,7 +196,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "000-40",
+      "id": "starka-kanslor",
       "sektion": "000",
       "titel": "Varför väcker AI så starka och olika känslor?",
       "svar": "För att var och en ser sin egen del av elefanten — de som skrämde oss mest pekar nu mot en hoppfullare väg, fast det sällan hörs.",
@@ -228,10 +228,10 @@ window.LECTURE = {
         ]
       ],
       "relaterat": [
-        "020-60",
-        "010-20",
-        "060-50",
-        "040-56"
+        "hur-snabbt-gar-utvecklingen",
+        "radsla-for-det-nya",
+        "ai-policy",
+        "dum-modell-over-manniska"
       ],
       "bilder": [
         "Av med masken.png",
@@ -239,7 +239,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "010-05",
+      "id": "aristoteles-first-principles",
       "fordjupning": "<p class=\"ingress\">AI känns som något splitternytt. Men drömmen — att tänkandet kan fångas i regler och utföras av något utanför en mänsklig hjärna — är 2400 år gammal. Den börjar med en grekisk filosof och en till synes enkel fråga: <strong>vad gör ett argument garanterat sant?</strong></p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Logiken Aristoteles fann</span><span class=\"tag\">Den första koden</span></div>\n  <div class=\"body\">Aristoteles (~350 f.Kr.) var först med att formalisera hur vi drar korrekta slutsatser. Han skapade <strong>syllogismen</strong> — ett regelverk för själva tänkandet. Glöm bokstäver och formler; tänk så här:<br><br>• Alla människor är dödliga.<br>• Sokrates är en människa.<br>• Alltså: <strong>Sokrates är dödlig.</strong><br><br>Det spelar ingen roll vad du stoppar in — människor, råvaror eller ettor och nollor. Följer du formen stämmer slutsatsen. Sanningen har alltså en <em>form</em>. Och det, om man tänker efter, är den allra första \"koden\".</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">First principles — att tänka från grunden</span><span class=\"tag\">Grunden</span></div>\n  <div class=\"body\">Aristoteles gav oss också begreppet <strong>first principles</strong>: att skala bort alla antaganden och gissningar tills du står kvar vid de mest grundläggande sanningarna — och bygga upp därifrån. Skillnaden i praktiken:<br><br><em>Analogi:</em> \"Bilar drivs med bensin, så vi gör en snålare bensinbil.\"<br><em>First principles:</em> \"Vad <strong>är</strong> en bil i sin minsta beståndsdel? Metall och energi. Hur förflyttar vi det mest effektivt enligt fysikens lagar?\"<br><br>Det är så Elon Musk lär ha resonerat när han fick raketer att bli dramatiskt billigare. Och det är precis så vi måste tänka om något så nytt som AI: inte \"vad liknar det?\", utan \"vad <em>är</em> det, i grunden?\".</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Från regel till maskin</span><span class=\"tag\">Den långa tråden</span></div>\n  <div class=\"body\">Om tänkandet följer regler — kan då inte en maskin utföra tänkandet åt oss? Den frågan har drivit oss sedan dess:<br><br><strong>Leibniz</strong> (1600-talet) drömde om en \"tankekalkyl\" — en miniräknare för sanning.<br><strong>George Boole</strong> (1854) översatte Aristoteles logik till matematik: sant och falskt blev 1 och 0.<br><strong>Alan Turing</strong> (1936) ritade den teoretiska maskin som kunde utföra just de ettorna och nollorna.<br><br>Och där, till slut, står datorn — och AI.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">AI föddes inte i ett garage i Silicon Valley. Den föddes när en grek frågade hur tänkande fungerar i sin minsta beståndsdel — och 2400 år av tänkare byggde vidare på svaret, ett steg i taget. Du står i slutet av en mycket lång tråd.</div></div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Syllogism</div><div class=\"extra-desc\">Aristoteles regel för giltig slutledning. Sanning som följer formen, inte innehållet.</div></div>\n  <div><div class=\"extra-name\">Formell logik</div><div class=\"extra-desc\">Att tänka enligt regler som kan skrivas ner — och en dag utföras av en maskin.</div></div>\n  <div><div class=\"extra-name\">First principles</div><div class=\"extra-desc\">Att tänka från grunden i stället för från antaganden. Nyckeln till att förstå det nya.</div></div>\n  <div><div class=\"extra-name\">Leibniz</div><div class=\"extra-desc\">Drömde på 1600-talet om att räkna sig fram till sanning — en tankekalkyl.</div></div>\n  <div><div class=\"extra-name\">Boole</div><div class=\"extra-desc\">Gjorde logiken till matematik 1854. Sant och falskt blev 1 och 0 — datorns språk.</div></div>\n  <div><div class=\"extra-name\">Deduktion</div><div class=\"extra-desc\">Att härleda en säker slutsats ur givna premisser. Aristoteles gåva till oss alla.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Fällan — och vändpunkten</div>\n  <div class=\"future-body\">Här kommer det som gör hela föreläsningen till en sammanhängande tråd. I decennier trodde vi att intelligens <em>bara</em> handlade om detta: skriva tillräckligt många regler. \"Om detta händer, gör detta.\" Så byggde vi schackdatorn Deep Blue.<br><br>Men världen visade sig vara <strong>för komplex för att handkoda varje regel</strong>. För att nå riktig AI måste vi till slut släppa Aristoteles regelsystem — och lära maskinerna att skaffa sig <em>egna</em> erfarenheter. Det är vändpunkten (se spelen, längre fram). Men allt började här, med en grek och en fråga om vad som gör ett argument sant.</div>\n</div>",
       "sektion": "010",
       "titel": "Vad menade Aristoteles med first principles?",
@@ -259,7 +259,7 @@ window.LECTURE = {
       ],
       "svar": "Att tänkandet kan följa regler — det är AI:s äldsta rot. Aristoteles formaliserade logiken för 2400 år sedan.",
       "relaterat": [
-        "010-10"
+        "vem-uppfann-ai"
       ],
       "lankar": [
         [
@@ -269,7 +269,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "010-10",
+      "id": "vem-uppfann-ai",
       "sektion": "010",
       "titel": "Vem uppfann AI?",
       "svar": "Det finns ingen ensam uppfinnare. AI är en stafett över sekler — Ada, Turing, von Neumann, Hopper och McCarthy är några av de tydligaste löparna.",
@@ -294,7 +294,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "010-15",
+      "id": "bara-man-som-kodar",
       "fordjupning": "<p class=\"ingress\">\"Är det inte bara män som kodar?\" Nej. Den allra första programmeraren var en kvinna — innan datorn ens fanns. Och några av AI:s största språng kom från kvinnor som historien ofta skrivit ut. Det här är inte en kvotfråga. Det är en sanningsfråga: berättelsen om det ensamma manliga geniet är helt enkelt felaktig.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Ada Lovelace — den första programmeraren</span><span class=\"tag\">1843</span></div>\n  <div class=\"body\">Hundra år innan den första datorn byggdes skrev Ada Lovelace ett program för en maskin som bara fanns på ritbordet. Och hon förstod något ingen annan gjorde: att en sådan maskin inte bara kunde räkna, utan bearbeta <strong>vad som helst som går att uttrycka i symboler</strong> — musik, språk, konst.<br><br>Det är en av de mest visionära tankarna i teknikhistorien. Och den tänktes av en kvinna, i en tid som inte gav henne utrymmet.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Grace Hopper — att tala med maskiner</span><span class=\"tag\">1950-talet</span></div>\n  <div class=\"body\">Grace Hopper byggde den första <strong>kompilatorn</strong> (A-0) — och drev den då tokstolliga idén att människor borde få tala med datorer på något som liknar vanligt språk, inte i ettor och nollor. Det ledde vidare till COBOL, som än idag kör i bankernas innersta. Varje gång du skriver en fråga i vanlig svenska till en AI går du på en väg Grace Hopper bröt.<br><br>Hon var också en lysande pedagog och en orädd chef. För att förklara varför signaler tar tid höll hon upp en 30 cm lång tråd — \"så långt hinner ljuset på en nanosekund\". Hon avskydde frasen \"så har vi alltid gjort\", kallade den språkets farligaste, och hade en klocka på kontoret som gick baklänges. Kontreamiral i flottan, i tjänst till 79 års ålder.<br><br>Och ordet \"bug\"? Hon myntade det inte — det fanns redan — men när hennes team 1947 hittade en riktig mal i datorn och tejpade fast den i loggboken (\"first actual case of bug being found\") gjorde hon uttrycket odödligt.</div>\n  <div class=\"why\"><div class=\"why-label\">Varför just hennes idé var radikal</div><div class=\"why-text\">På den tiden var tanken att datorn skulle anpassa sig efter människan, inte tvärtom, nästan kättersk. Idag är det självklart — och det är kärnan i varför AI plötsligt är för alla, inte bara för ingenjörer.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Fei-Fei Li — att lära maskinen se</span><span class=\"tag\">ImageNet, 2009</span></div>\n  <div class=\"body\">Länge var det nästan omöjligt att få en dator att känna igen en hund, ett träd eller en vän på ett foto. Fei-Fei Li vände på problemet: i stället för smartare algoritmer byggde hon <strong>ImageNet</strong> — en enorm databas med miljontals bilder, uppmärkta av människor.<br><br>Det blev bränslet. När datorer idag tolkar röntgenbilder, upptäcker sjukdomar eller hjälper en synskadad att förstå sin omgivning, vilar mycket av det på den grunden. Genombrottet handlade inte främst om smartare kod — utan om att ge AI <strong>tillräckligt många exempel för att lära sig se</strong>.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Varför de skrevs ut</span><span class=\"tag\">Sanningen, inte kvoten</span></div>\n  <div class=\"body\">I datorns barndom betydde ordet \"computer\" faktiskt en <em>person</em> som räknade — och det var oftast kvinnor. När yrket blev prestigefyllt och välbetalt tog männen platsen i rampljuset, och kvinnorna hamnade i fotnoterna.<br><br>Jag lyfter inte fram det för balansens skull. Jag gör det för att den vanliga berättelsen — det ensamma manliga geniet — helt enkelt inte stämmer. Sanningen är rikare, och därför bättre.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Logik är universell. Talang är det också. Den som tror att AI är en manlig historia har fått en redigerad version — och du förtjänar originalet.</div></div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Ada Lovelace</div><div class=\"extra-desc\">Första programmeraren, 1843. Såg att maskinen kunde bearbeta all slags symboler.</div></div>\n  <div><div class=\"extra-name\">Grace Hopper</div><div class=\"extra-desc\">Byggde första kompilatorn. Idén att tala med maskiner på människospråk — vägen till chatten.</div></div>\n  <div><div class=\"extra-name\">Kompilator</div><div class=\"extra-desc\">Översätter människospråk till maskinkod. Gör programmering möjlig för fler än ingenjörer.</div></div>\n  <div><div class=\"extra-name\">Fei-Fei Li</div><div class=\"extra-desc\">Ledde bygget av ImageNet — datan som lärde maskinen att se.</div></div>\n  <div><div class=\"extra-name\">ImageNet</div><div class=\"extra-desc\">Enorm uppmärkt bilddatabas (2009). Bränslet bakom modern bildigenkänning.</div></div>\n  <div><div class=\"extra-name\">\"Så har vi alltid gjort\"</div><div class=\"extra-desc\">Hoppers \"farligaste fras\". Klockan på hennes kontor gick baklänges för att påminna om det.</div></div>\n  <div><div class=\"extra-name\">\"Human computers\"</div><div class=\"extra-desc\">Förr betydde \"computer\" en person — ofta en kvinna — som räknade för hand.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Något att bära med sig</div>\n  <div class=\"future-body\">Varje gång du hör \"AI byggdes av några genier i Silicon Valley\", vet du nu att det är en förkortad och skev version. Den byggdes av en lång, blandad kedja — och kvinnorna fanns där från allra första början, ofta i skuggan.<br><br>Att se hela bilden är inte politik. Det är att ha koll på fakta.</div>\n</div>",
       "sektion": "010",
       "titel": "Men är det inte bara män som kodar?",
@@ -316,7 +316,7 @@ window.LECTURE = {
       ],
       "svar": "Nej. Den första programmeraren var en kvinna — före maskinen ens fanns. Logik är universell, och talang är det också.",
       "relaterat": [
-        "010-10"
+        "vem-uppfann-ai"
       ],
       "personer": [
         "Ada Lovelace",
@@ -331,7 +331,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "010-30",
+      "id": "nar-blev-maskinen-battre",
       "sektion": "010",
       "titel": "När blev maskinen bättre än oss?",
       "svar": "1997 i schack, 2016 i go med ett drag ingen skulle spelat. Sen lämnade den spelbordet och började göra verklig nytta.",
@@ -348,11 +348,11 @@ window.LECTURE = {
         "agentisk AI"
       ],
       "relaterat": [
-        "010-40"
+        "nar-blev-den-vetenskap"
       ]
     },
     {
-      "id": "010-40",
+      "id": "nar-blev-den-vetenskap",
       "sektion": "010",
       "titel": "När blev den vetenskap?",
       "svar": "2020 löste AlphaFold en 50-årig proteingåta. Nobelpris 2024. Spelen var körskolan — nu gör AI:n verklig vetenskap.",
@@ -372,7 +372,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "010-20",
+      "id": "radsla-for-det-nya",
       "sektion": "010",
       "titel": "Är rädslan för det nya nytt? Eller är det lönt att strejka?",
       "svar": "Varje epok, samma oro. Frågan är aldrig om det nya är farligt — utan vad vi väljer att bevara.",
@@ -399,7 +399,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "020-10",
+      "id": "ar-ai-en-maskin",
       "sektion": "020",
       "titel": "Är AI en maskin?",
       "svar": "Ingen maskin med ritning och skruvar — mer ett växande mycel av mönster, odlat snarare än byggt.",
@@ -422,7 +422,7 @@ window.LECTURE = {
         "Perplexity"
       ],
       "relaterat": [
-        "020-20"
+        "ett-enda-foretag"
       ],
       "lankar": [
         [
@@ -462,7 +462,7 @@ window.LECTURE = {
         "Svampskogen – ett växande mycel att odla.jpg"
       ],
       "relaterat": [
-        "020-10"
+        "ar-ai-en-maskin"
       ],
       "svar": "Ju fler förmågor den får — syn, hörsel, språk, kod — desto mindre känns den som ett verktyg och mer som en ny sorts digital organism.",
       "lankar": [
@@ -485,7 +485,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "020-20",
+      "id": "ett-enda-foretag",
       "sektion": "020",
       "titel": "Är AI ett enda företag?",
       "svar": "Nej — miljontals modeller. Du är befälhavaren och dirigenten; välj rätt modell för uppgiften.",
@@ -541,7 +541,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "020-30",
+      "id": "hur-larde-den-sig",
       "sektion": "020",
       "titel": "Hur lärde den sig?",
       "svar": "Vi slutade skriva regler och började visa exempel. Från regler till språk.",
@@ -565,7 +565,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "020-40",
+      "id": "tokens-och-konstiga-ord",
       "sektion": "020",
       "titel": "Vad är det där tokens och alla andra konstiga ord?",
       "svar": "AI räknar ut sannolikheten för nästa ord — förbluffande bra. Inte som vi, men en fena på mönster.",
@@ -583,7 +583,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "020-60",
+      "id": "hur-snabbt-gar-utvecklingen",
       "sektion": "020",
       "titel": "Hur snabbt går AI utvecklingen egentligen?",
       "svar": "Vår intuition är linjär, få kan tänka exponentiellt. Den AI du har idag är den sämsta du någonsin kommer att ha.",
@@ -599,7 +599,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "030-10",
+      "id": "kan-man-lita-pa-den",
       "sektion": "030",
       "titel": "Kan man lita på den?",
       "svar": "Den är fantastisk på mönster därmed tidigare blind för sanning. 333 333 331 ser ut som primtal men går att faktorisera som 17 × 19 607 843.",
@@ -620,7 +620,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "030-30",
+      "id": "vad-ar-sant",
       "sektion": "030",
       "titel": "Hur vet jag vad som är sant?",
       "svar": "Var detektiv. Deepfakes och övertygande mönster, verifiera. Ha ett kodord i familjen. Fråga flera modeller men sätt dom i kontext.",
@@ -628,7 +628,7 @@ window.LECTURE = {
         "Detektiven.jpg"
       ],
       "relaterat": [
-        "020-40"
+        "tokens-och-konstiga-ord"
       ],
       "anteckningar": "Var detektiv, fundera och verifiera.\nDeepfakes: rösten kan låta som mammas, ansiktet kan vara ditt. Bilden ljuger numera lika bra som texten.\n\nEtt kodord i familjen, en enkel fråga bara ni kan svaret på. Det slår all teknik.\n\nSe också skönheten i det AI skapar.\n\nIbland är det som att en del inte tycker något är värt för att det är skapat av AI. Själv tycker jag oftast det AI får ihop är fantastisk.\n\nJag lyssnar en hel del på AI genererade tutorials, AI genererad musik och fångas av AI genererade bilder.\n\nJag tror inte vi i framtiden kommer att fråga vad som är AI genererat och inte i det vardagliga. \n\nJag tror dock att vi kommer att bli allt mer fascinerade av mänsklig talang och söka allt mer mänsklig kontakt.",
       "fordjupning": "<p class=\"ingress\">Var detektiv. En övertygande lögn har aldrig varit billigare att tillverka — men det betyder inte att sanningen är förlorad. Det betyder att bevisbördan flyttat: från att <em>se</em> till att <em>kontrollera</em>.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Bevisbördan flyttar</span><span class=\"tag\">Deepfakes</span></div>\n  <div class=\"body\">Det som förr krävde en studio gör vem som helst nu på en telefon. Därför duger inte längre frågan \"ser det äkta ut?\" — det gör det alltid.<br><br>Fråga istället: <strong>var kommer det ifrån, vem tjänar på att jag tror det, och kan jag nå källan en annan väg?</strong> Sanning är inte längre något man ser. Det är något man kontrollerar.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Rösten, ansiktet, texten</span><span class=\"tag\">Hur det görs</span></div>\n  <div class=\"body\"><strong>Röst:</strong> en klon kan skapas ur några sekunders ljud — nog för ett \"hej mamma, jag har tappat min telefon\".<br><strong>Ansikte:</strong> ett ansikte läggs på en främmande kropp i rörlig bild, allt jämnare i realtid.<br><strong>Text:</strong> en \"nyhet\" skrivs i tusental exemplar på en eftermiddag, var och en lite olika för att slippa upptäckt.<br><br>Ingen av delarna kräver längre kodkunskap. Det är det som är nytt.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Husregeln hemma</div><div class=\"insight-text\">Ring numret du redan har, inte det du fick. Och bestäm ett <strong>kodord i familjen</strong> — en enkel fråga bara ni kan svaret på. Det slår all teknik, för det finns inte i någon data att stjäla.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Tekniken är inte ny — spridningen är det</span><span class=\"tag\">Historik</span></div>\n  <div class=\"body\">Deepfakes fanns långt före dagens verktyg. Redan 2018 gjorde BuzzFeed en berömd deepfake där Jordan Peele talade som Obama; 2020 gjorde MIT en av Nixon (\"In Event of Moon Disaster\"). Då tog det tid och kostade mycket.<br><br>Tekniken hade varit långt farligare om bara några få behärskat den. Nu har vi alla fått den — och det tvingar oss alla att bli lite klokare läsare.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Lögnarens utdelning</span><span class=\"tag\">Baksidan</span></div>\n  <div class=\"body\">Det finns en baksida som är minst lika farlig som själva förfalskningarna: när <em>allt</em> kan vara fejk kan också det <strong>äkta</strong> avfärdas som fejk.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Här brukar folk tappa det</div><div class=\"lost-text\">Forskare kallar det \"lögnarens utdelning\" (the liar's dividend): den som ertappas på en äkta film säger bara \"det där är en deepfake\" — och sår tvivel nog för att slippa undan. Att kunna lita på något blir en bristvara, och tvivlet självt blir ett vapen.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Kommer sanningen tillbaka?</span><span class=\"tag\">Forskningsfront</span></div>\n  <div class=\"body\">Det svar som växer fram är <strong>härkomst</strong> (provenance): att märka äkta bilder och filmer med en osynlig innehållsstämpel som visar var de kommer ifrån och om AI varit inblandad — standarden C2PA, \"Content Credentials\".<br><br>Parallellt pågår en kapplöpning mellan detektorer som ska avslöja fejk och generatorer som blir bättre på att undgå dem. Ingendera är vattentät. <strong>Härkomst är lovande men ung.</strong></div>\n  <div class=\"why\"><div class=\"why-label\">Varför tekniken inte räcker ensam</div><div class=\"why-text\">En stämpel kan tas bort, en detektor kan luras. Det som håller längst är den mänskliga vanan: ett steg till innan man tror. Verktygen hjälper — men detektiven är du.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">6</span><span class=\"concept\">Se också skönheten</span><span class=\"tag\">Äkthet</span></div>\n  <div class=\"body\">Mitt i all misstänksamhet — glöm inte att njuta. Jag fångas ofta av det AI skapar: bilder, musik, tutorials. Jag tror inte vi i framtiden frågar \"är det här AI-genererat?\" — men jag tror vi blir allt mer fascinerade av det som <em>inte</em> är det.<br><br>I Långbans gruvby såg jag fotomontage som såg helt AI-genererade ut. De var det inte — de var Larseric Vänerlöfs konst, gjord för hand. Vi är lite vilsna och söker äkthet, samtidigt som andra tar det äkta och får det att se fejkat ut.</div>\n</div>\n\n<hr>\n\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Deepfake</div><div class=\"extra-desc\">AI-skapad eller -manipulerad bild, film eller röst som utger sig för att vara äkta.</div></div>\n  <div><div class=\"extra-name\">Röstkloning</div><div class=\"extra-desc\">Att återskapa en persons röst ur en kort ljudinspelning. Räcker med några sekunder.</div></div>\n  <div><div class=\"extra-name\">Härkomst (provenance)</div><div class=\"extra-desc\">Spårbar historik för en fil: var den kommer ifrån och om den redigerats. Grunden för tillit.</div></div>\n  <div><div class=\"extra-name\">C2PA / Content Credentials</div><div class=\"extra-desc\">Standarden för att märka äkta innehåll med en osynlig ursprungsstämpel.</div></div>\n  <div><div class=\"extra-name\">Vattenmärkning</div><div class=\"extra-desc\">Osynlig markör inbäddad i AI-genererat innehåll. Hjälper — men kan tas bort.</div></div>\n  <div><div class=\"extra-name\">Lögnarens utdelning</div><div class=\"extra-desc\">När möjligheten till fejk låter den skyldige avfärda äkta bevis som falskt.</div></div>\n  <div><div class=\"extra-name\">Detektionskapplöpning</div><div class=\"extra-desc\">Den ständiga kampen mellan avslöjande detektorer och allt skickligare förfalskningar.</div></div>\n  <div><div class=\"extra-name\">Kodord</div><div class=\"extra-desc\">En hemlig fråga i familjen. Lågteknologiskt och oslagbart — det finns inte i någon data.</div></div>\n</div>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Vad vi inte vet ännu</div>\n  <div class=\"future-body\">Om härkomst och vattenmärkning blir tillräckligt utbredda och robusta för att vända kapplöpningen — eller om vi går in i en tid då bevisbördan ligger helt på betraktaren.<br><br>Det <strong>vet</strong> vi: den som har en enkel vana — ett steg till innan man tror, ett kodord hemma — står stadigare än den som litar på ögat. Detektivens lugn är den nya grundkunskapen.</div>\n</div>",
@@ -651,7 +651,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "030-40",
+      "id": "ar-det-farligt",
       "sektion": "030",
       "titel": "Är det farligt?",
       "svar": "Tekniken är neutral. Strid eller Astrid, rå kraft eller mänsklig värme. Vi väljer.",
@@ -717,7 +717,7 @@ window.LECTURE = {
       "svar": "I maskiner kan man träna bort bias. Det är inte alltid lika enkelt med människor."
     },
     {
-      "id": "030-20",
+      "id": "arver-den-vara-fordomar",
       "sektion": "030",
       "titel": "Ärver den våra fördomar?",
       "svar": "Ja den lär av oss, inklusive det vi borde ha slutat med. Fråga alltid: vad tränades den på? Dock har AI inte samma prestige och bias går att träna bort.",
@@ -734,7 +734,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "030-50",
+      "id": "lar-eller-lurar",
       "sektion": "030",
       "titel": "Lär den oss — eller lurar den oss?",
       "svar": "Samma förmåga — att tala med var och en på deras eget språk — gör den till en fantastisk lärmaskin och en farlig manipulationsmaskin. Det är samma kraft.",
@@ -756,9 +756,9 @@ window.LECTURE = {
       ],
       "lankar": [],
       "relaterat": [
-        "030-10",
-        "040-56",
-        "000-30"
+        "kan-man-lita-pa-den",
+        "dum-modell-over-manniska",
+        "dummare-eller-smartare"
       ],
       "bilder": [
         "bamse.jpg",
@@ -770,7 +770,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "040-10",
+      "id": "tar-den-mitt-jobb",
       "sektion": "040",
       "titel": "Tar den mitt jobb?",
       "svar": "Den tar mönstren. Kvar blir omdömet, frågorna och ansvaret, det som är vi. Värdet skapas i mötet.",
@@ -786,7 +786,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "040-20",
+      "id": "konsten-och-musiken",
       "sektion": "040",
       "titel": "Vad händer med konsten & musiken?",
       "svar": "Maskinen målar vad som helst och kan skapa sång & musik. Frågan är vem som håller penseln, mikrofonen och vem som menar något.",
@@ -832,7 +832,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "040-30",
+      "id": "vem-ager-tiden",
       "sektion": "040",
       "titel": "Vem äger tiden den ger mig?",
       "svar": "Momo och de grå herrarna: låt ingen stjäla tiden i effektivitetens namn. Glöm heller inte hur mycket teknik har betytt för oss. Jag tror att få av oss skulle ha svårt att överleva bara några decennier eller århundraden bak i tiden.",
@@ -860,7 +860,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "040-40",
+      "id": "bilder-av-mig-deepfake",
       "sektion": "040",
       "titel": "Kan den göra bilder av mig utan att jag vet?",
       "svar": "Ett suddigt foto räcker. Lita inte på bild eller röst som bevis. \n\nBestäm ett kodord.",
@@ -887,14 +887,14 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "040-55",
+      "id": "de-tre-nivaerna",
       "sektion": "040",
       "titel": "De tre nivåerna — och varför vi fruktar fel sak",
       "svar": "Snäv, generell, super. Filmerna fruktar den översta — men faran som redan drabbar oss sitter längst ner.",
       "fordjupning": "<p class=\"ingress\">Forskningen delar AI i tre nivåer. Populärkulturen skräms med den översta. Men den faran finns inte ännu — och medan vi tittar upp mot himlen missar vi den som redan sitter vid vårt köksbord.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Snäv AI</span><span class=\"tag\">ANI — den vi har</span></div>\n  <div class=\"body\">Den AI vi faktiskt har idag är <strong>snäv</strong>: specialiserad på en sak. Den översätter text, känner igen ansikten, spelar schack, sorterar ansökningar. Lysande på just sin uppgift — hjälplös på allt annat.<br><br>Även en imponerande chatt är i den här meningen snäv. Kraftfull, men snäv. Det är viktigt att minnas, för det är just <em>snävheten</em> som gör den farlig på fel plats.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Generell och super</span><span class=\"tag\">AGI · ASI</span></div>\n  <div class=\"body\"><strong>Generell AI (AGI)</strong> — en maskin med mänsklig bredd, som kan lära, förstå och tillämpa inom vilket område som helst. Den finns inte. Den är på forskningshorisonten.<br><br><strong>Superintelligens (ASI)</strong> — en AI klart smartare än hela mänskligheten tillsammans. Ren hypotes. Det är den här nivån filmerna handlar om — den gudalika maskinen som tar över.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Vi fruktar fel sak</span><span class=\"tag\">Omkastningen</span></div>\n  <div class=\"body\">Här är poängen som få säger högt. Vi skräms av superintelligensen längst upp — men den är inte här. Det som <em>är</em> här, och redan avgör människors liv, sitter längst ner: den <strong>snäva, dumma</strong> AI:n, matad med dålig data och använd utan mänskligt omdöme.<br><br>Jag oroar mig ärligt talat mindre för en riktigt <em>smart</em> AI — så länge den inte vill vilseleda oss. Det som verkligen skaver är när en myndighet fattar beslut om en människa utifrån en snäv modell som inte är smart alls.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Faran är inte framtidens superhjärna. Den är nutidens dumma modell — använd utan en människa som äger beslutet. Vi tittar åt fel håll. Nästa kort visar vad jag menar.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Har vi redan nått AGI?</span><span class=\"tag\">Den ärliga striden</span></div>\n  <div class=\"body\">Här vågar jag säga något många i Sverige tassar kring: beroende på hur man definierar AGI kan vi redan vara <em>där</em> — eller mycket nära. Dagens bästa modeller resonerar, skriver kod, klarar matematikolympiader och löser problem tvärs över områden. På ett forskarlags AGI-mått nådde GPT-4 runt en fjärdedel, senare modeller drygt hälften — och gapet stängs snabbt.<br><br>Det finns ingen konsensus, och själva definitionen är stridsfrågan. Men att avfärda det som \"långt borta\" är inte längre ärligt. Vi står, med Max Tegmarks ord, <em>obekvämt nära</em>.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Där jag är ärlig — och lite modigare</div><div class=\"lost-text\">\"Vi har nått AGI\" är en <strong>hållning</strong>, inte ett bevisat faktum — för det finns inget överenskommet mått. Jag lutar åt att vi redan lever i AGI:s gryning; andra seriösa röster säger några år till. Poängen är att sluta låtsas att frågan är avlägsen.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Agentisk AI — nästa våg</span><span class=\"tag\">Den som gör, inte bara svarar</span></div>\n  <div class=\"body\">Nästa steg är redan här: <strong>agentisk AI</strong> — modeller som inte bara svarar utan <em>utför</em>. De planerar, använder verktyg, kodar, klickar och tar flera steg på egen hand mot ett mål du gett dem.<br><br>Det är där både kraften och ansvaret växer mest. En modell som bara svarar är ett råd. En agent som handlar är en medarbetare — och en medarbetare måste ha ett mandat, gränser och en människa som svarar för resultatet.</div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Snäv AI (ANI)</div><div class=\"extra-desc\">Specialiserad på en uppgift. All AI vi har idag. Lysande smalt, hjälplös brett.</div></div>\n  <div><div class=\"extra-name\">Generell AI (AGI)</div><div class=\"extra-desc\">Mänsklig bredd — kan lära vad som helst. Finns inte ännu.</div></div>\n  <div><div class=\"extra-name\">Superintelligens (ASI)</div><div class=\"extra-desc\">Smartare än hela mänskligheten. Hypotetisk — och det filmerna fruktar.</div></div>\n  <div><div class=\"extra-name\">Två sorters rädsla</div><div class=\"extra-desc\">Smart AI som vilseleder (se \"Är det farligt?\") vs dum AI som beslutar om dig. Motsatta ändar.</div></div>\n  <div><div class=\"extra-name\">Snäv men mäktig</div><div class=\"extra-desc\">En modell behöver inte vara klok för att få stor makt över en människa.</div></div>\n  <div><div class=\"extra-name\">Omkalibrera rädslan</div><div class=\"extra-desc\">Rikta oron dit den hör hemma: mot dumma modeller på fel plats, inte mot sci-fi.</div></div>\n  <div><div class=\"extra-name\">AGI-debatten</div><div class=\"extra-desc\">Har vi redan nått mänsklig bredd? Ingen konsensus — men inte längre \"långt borta\".</div></div>\n  <div><div class=\"extra-name\">Agentisk AI</div><div class=\"extra-desc\">AI som utför uppgifter själv, inte bara svarar. Nästa våg — kräver mänskligt mandat.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Ta med dig detta</div>\n  <div class=\"future-body\">Det finns två helt olika saker att vara vaksam på: en <em>smart</em> AI som skulle kunna vilseleda oss (det handlar \"Är det farligt?\" om), och en <em>dum</em> AI som redan fattar beslut om oss (det handlar nästa kort om).<br><br>Sci-fi har lärt oss frukta den ena. Verkligheten borde få oss att bry oss om den andra.</div>\n</div>",
       "relaterat": [
-        "040-56",
-        "020-10"
+        "dum-modell-over-manniska",
+        "ar-ai-en-maskin"
       ],
       "anteckningar": "AI delas i tre nivåer: snäv (ANI, den vi har), generell (AGI, finns ej), super (ASI, hypotetisk).\n\nPopulärkulturen fruktar ASI. Men den finns inte.\n\nFaran som redan drabbar människor är SNÄV AI + dålig data + inget mänskligt omdöme.\n\nEn smart AI oroar mig mindre — så länge den inte vill vilseleda oss.\n\nEn dum modell som får bestämma över en människa oroar mig desto mer.",
       "bilder": [
@@ -912,15 +912,15 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "040-56",
+      "id": "dum-modell-over-manniska",
       "sektion": "040",
       "titel": "När en dum modell får bestämma över en människa",
       "svar": "En statistisk modell mäter medelvärdet — aldrig människan framför sig. Och den avgörande människan måste ges mandatet att tänka själv.",
       "anteckningar": "En statistisk modell mäter medelvärdet — ser aldrig den enskilda människan.\n\nHar hänt: nederländska barnbidragsskandalen (26 000 familjer, regeringen föll 2021).\n\nEn människa i loopen räcker inte om hon bara får trycka 'godkänn'.\nDjupaste faran: inte att maskinen bestämmer — utan att människan inte längre FÅR tänka.\n\nVägen framåt: augmentering + en tränad människa med mandat + öppenhet i stället för misstänksamhet. \n\nÖppna dörren-eran.",
       "relaterat": [
-        "040-55",
-        "040-ansvar",
-        "030-20"
+        "de-tre-nivaerna",
+        "ansvar-nar-tekniken-agerar",
+        "arver-den-vara-fordomar"
       ],
       "fordjupning": "<p class=\"ingress\">Vi bygger just nu de system som ska möta människor i deras svåraste stunder — hos banken, myndigheten, vården. Frågan är inte om AI ska vara med; den är redan här. Frågan är om människan bakom beslutet får vara människa. Och hur vi bäst förbereder oss för det.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Modellen mäter medelvärdet</span><span class=\"tag\">Den ser inte dig</span></div>\n  <div class=\"body\">En statistisk bedömningsmodell kan bara en sak: räkna på hur det brukar vara. Den mäter <strong>medelvärdet</strong>, mönstret, gruppen. Den kan aldrig se den specifika, komplexa, verkliga människan framför sig — hennes historia, hennes skäl, hennes sammanhang.<br><br>När ett tal får sista ordet blir människan <strong>bunden vid en siffra</strong> hon inte känner igen sig i, och skevheten syns inte i det enskilda beslutet — bara i statistiken över tusen. Precis som med primtalet ser mönstret rätt ut ända tills det inte är det.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Det har redan hänt</span><span class=\"tag\">Belagt</span></div>\n  <div class=\"body\">Det tydligaste exemplet är den nederländska <strong>barnbidragsskandalen</strong>: en riskmodell flaggade felaktigt runt 26 000 familjer som fuskare — oproportionerligt de med utländsk bakgrund. Människor ruinerades, barn omhändertogs, och det fällde regeringen 2021. En algoritm ingen förstod, ingen kunde överklaga mot.<br><br>Och samma väg vandrar många länder, Sverige inräknat: allt mer automatiserad, statistisk bedömning i välfärden.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Fällan som gör det lömskt</div><div class=\"lost-text\">Sådana system säljs som \"objektiva\" och \"rättvisa\". Men en modell tränad på en skev historia tvättar bara gammal orättvisa till en siffra som <em>känns</em> neutral. Det är inte rättvisa — det är orättvisa med bättre pokeransikte.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">En människa i loopen räcker inte</span><span class=\"tag\">Mandatet</span></div>\n  <div class=\"body\">Här är den djupaste faran — och den handlar inte om maskinen. Det räcker inte att sätta en människa <em>sist</em> i kedjan om den människan bara får trycka \"godkänn\" på modellens förslag. Då har vi inte en människa i loopen — vi har en <strong>maskin i människokostym</strong>.<br><br>Forskningen kallar det automation bias: vi litar reflexmässigt mer på modellen än på oss själva, särskilt när den låter säker. Och när regelverk, mätetal och tidspress dessutom <em>förbjuder</em> handläggaren att avvika, är beslutet redan fattat av algoritmen. Människan är kvar för syns skull.</div>\n  <div class=\"why\"><div class=\"why-label\">Det jag är mest rädd för</div><div class=\"why-text\">Inte att maskinen bestämmer — utan att människan inte längre <strong>får</strong> tänka. Den avgörande människan i en organisation måste ges mandatet att hålla med, att invända, att se undantaget och köra över modellen när logiken uppenbart brister. Och hon måste vara <em>tränad</em> för det. Den människa du möter ska vara tränad att fatta mänskliga beslut — inte att recitera maskinens.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Så förbereder vi oss — Öppna dörren-eran</span><span class=\"tag\">Vägen framåt</span></div>\n  <div class=\"body\">Det här är inte teknikfientlighet — tvärtom. Rätt byggt kan AI ge tillbaka det dålig automation strippade bort. Fyra saker att bygga in:<br><br><strong>Augmentering, inte automation</strong> — maskinen sköter rutinen, människan äger bedömningen.<br><strong>Mandat och träning</strong> — ge den beslutande människan rätten och förmågan att tänka själv och köra över modellen.<br><strong>Öppenhet i stället för misstänksamhet</strong> — börja i \"du är hederlig\", inte \"bevisa att du inte fuskar\".<br><strong>Alltid en människa och en överklagan</strong> — ett beslut om en människa ska gå att förklara och att pröva igen.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Öppna dörren-eran</div><div class=\"insight-text\">Det är dags att våga öppna dörren igen — inte var och en för sig, utan tillsammans. Att bygga system, och träna de människor som bemannar dem, så att de är värda en öppen dörr. Tekniken kan bära den öppenheten eller slå igen den. Vi väljer.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Bakom slöjan av okunnighet</span><span class=\"tag\">Rawls test</span></div>\n  <div class=\"body\">Hur vet vi om en regel är rättvis? Filosofen John Rawls gav oss ett förbluffande enkelt test. Vi är alla <em>jäviga</em> — den rike vill ha låga skatter, den sjuke vill ha resurser till vården. Så tänk dig att du ska sätta reglerna för ett helt samhälle, men bakom en <strong>slöja av okunnighet</strong>: du vet ännu inte vem du blir i det. Rik eller fattig, frisk eller sjuk, innanför eller utanför.<br><br>Vilka regler skulle du välja då? Rawls svar: du skulle bygga för den som har det <em>sämst</em> — utifall det blir du. Applicerat på våra system: utforma algoritmen som om du inte vet om du blir handläggaren eller den som modellen råkar få fel om.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Därför är det så svårt att agera rätt</div><div class=\"insight-text\">Rawls förklarar varför rättvisa är så svårt: vi dömer nästan alltid från vår egen plats. Slöjan är knepet som tvingar fram rättvisan — och den bästa fråga en systembyggare kan ställa: \"skulle jag godta det här om jag var den mest sårbara personen det gäller?\"</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">6</span><span class=\"concept\">Måttet på ett samhälle</span><span class=\"tag\">Ta med dig detta</span></div>\n  <div class=\"body\">Måttet på ett samhälle är inte hur det behandlar den som modellen råkade få <em>rätt</em> om. Det är hur det behandlar den som modellen fick <strong>fel</strong> om — undantaget, den ovanliga, den som föll utanför mönstret.<br><br>Sluta mät en riktig människa med en dum modell. Låt tekniken frigöra tid att <em>se</em> henne — och ge människan bakom beslutet mandatet att göra just det.</div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Statistisk bedömning</div><div class=\"extra-desc\">Att räkna på hur det brukar vara. Mäter gruppen — aldrig den enskilda människan.</div></div>\n  <div><div class=\"extra-name\">Automation bias</div><div class=\"extra-desc\">Vår tendens att lita blint på modellen. Gör \"människan i loopen\" till en gummistämpel.</div></div>\n  <div><div class=\"extra-name\">Mänskligt mandat</div><div class=\"extra-desc\">Rätten och förmågan att tänka själv och köra över modellen. Det som saknas idag.</div></div>\n  <div><div class=\"extra-name\">Augmentering</div><div class=\"extra-desc\">Maskinen tar rutinen, människan äger bedömningen. Motsatsen till att automatisera bort omdömet.</div></div>\n  <div><div class=\"extra-name\">Presumtion om god tro</div><div class=\"extra-desc\">Att börja i \"du är hederlig\". Kärnan i en öppen-dörr-era.</div></div>\n  <div><div class=\"extra-name\">Rätt att överklaga</div><div class=\"extra-desc\">Att en människa kan pröva beslutet igen. Den enkla, oumbärliga spärren.</div></div>\n  <div><div class=\"extra-name\">Slöjan av okunnighet</div><div class=\"extra-desc\">Rawls test: utforma reglerna som om du inte vet om du blir vinnaren eller den mest sårbara.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Öppna dörren-eran</div>\n  <div class=\"future-body\">Vi står vid en förgrening. Den ena vägen bygger in mer misstänksamhet, mer automatik, färre människor som får tänka. Den andra använder samma teknik för att frigöra människorna att verkligen möta oss — med öppenhet i stället för misstro.<br><br>Det är ingen teknikfråga. Det är en fråga om vad vi beställer. Låt oss våga öppna dörren igen — och bygga en värld, och träna de människor, som är värda det.</div>\n</div>",
       "bilder": [
@@ -938,12 +938,12 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "040-ansvar",
+      "id": "ansvar-nar-tekniken-agerar",
       "sektion": "040",
       "titel": "Hur är det och hur borde det vara?",
       "svar": "Om tekniken agerar för mig, då kan tekniken hållas ansvarig om den gör fel. Men om jag använder tekniken för att agera mot andra, då är det jag, människan, som bär ansvaret.",
       "relaterat": [
-        "040-10"
+        "tar-den-mitt-jobb"
       ],
       "bilder": [
         "Teknikens ansvar kontra mitt.png"
@@ -967,13 +967,13 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "050-10",
+      "id": "hur-borjar-jag",
       "sektion": "050",
       "titel": "Hur börjar jag — på riktigt?",
       "svar": "En bra grundprompt och nyfikenhet. Börja idag — i soffan går bra.",
       "relaterat": [
-        "070-30",
-        "050-20"
+        "var-hittar-jag-allt",
+        "bygga-nagot-sjalv"
       ],
       "bilder": [
         "logga in.png",
@@ -1010,7 +1010,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "050-30",
+      "id": "funkar-det-i-vardagen",
       "sektion": "050",
       "titel": "Funkar det på riktigt, i vardagen?",
       "svar": "Jag lät den bygga hela bokföringen. Revisorn nöjd. Vi firade med burgare.",
@@ -1050,7 +1050,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "050-20",
+      "id": "bygga-nagot-sjalv",
       "sektion": "050",
       "titel": "Kan jag bygga något själv?",
       "svar": "Beskriv vad du vill ha, så bygger den. En app på en kväll ('vibe coding'). Men du behöver inte jaga varje modeord.",
@@ -1098,13 +1098,13 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "060-10",
+      "id": "privat-eller-foretag",
       "titel": "Privatperson eller företag — vad är skillnaden?",
       "svar": "För dig själv räcker en knapp i inställningarna. För ett företag krävs ett avtal — för då hanterar ni andras personuppgifter.",
       "anteckningar": "Den viktigaste skillnaden i hela kapitlet.\n\nPrivatperson: en knapp — stäng av 'använd min data för att träna modellen'. Räcker juridiskt för dig.\n\nFöretag: ett avtal (DPA), för ni är ansvariga för andras personuppgifter.\n\nKrävs: Enterprise/Business-plan, signerat DPA, EU-hosting/SCC, intern policy.\n\nVanligaste felet: använda ett gratis privatkonto för företagsdata.",
       "relaterat": [
-        "060-20",
-        "060-30"
+        "vad-far-jag-skriva-in",
+        "foretagsklar-ai"
       ],
       "sektion": "060",
       "lankar": [
@@ -1127,13 +1127,13 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "060-20",
+      "id": "vad-far-jag-skriva-in",
       "titel": "Vad får jag skriva in — och vad stannar kvar?",
       "svar": "Grundregeln: klistra aldrig in hemligheter i en publik AI. Fråga alltid: tränas den på min data, och hur länge sparas den?",
       "anteckningar": "Klistra aldrig in det du inte vill se läcka.\n\nTvå frågor: tränas modellen på det jag skriver? Hur länge sparas det (retention)?\n\nPersonuppgifter = GDPR. Företagshemligheter = risk.\nPå rätt plan + DPA bekräftas att er data INTE tränas på.\n\nFyll ut: det praktiska — vad som är ok och inte.",
       "relaterat": [
-        "060-10",
-        "060-30"
+        "privat-eller-foretag",
+        "foretagsklar-ai"
       ],
       "sektion": "060",
       "lankar": [
@@ -1156,13 +1156,13 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "060-30",
+      "id": "foretagsklar-ai",
       "titel": "Hur vet jag om en AI-tjänst är företagsklar?",
       "svar": "Fem kriterier avgör: företagsavtal & DPA, GDPR/EU, interna dokument, ingen träning på er data, och isolering. Se min guide.",
       "anteckningar": "De fem kriterierna (från min guide):\n\n1. Enterprise-plan & DPA  \n2. GDPR/EU-kompatibel  \n3. Interna dokument  \n4. Tränas EJ på er data  \n5. Retention/isolering.\n\nGuiden jämför ChatGPT, Claude, Gemini, Copilot, Mistral, Grok, Perplexity.\n\nBokmärk två sidor per tjänst: villkoren och prenumerationen — där ändras saker först.\n\nOBS: överblick, inte juridisk rådgivning — verifiera mot leverantörens egna villkor.",
       "relaterat": [
-        "060-10",
-        "060-20"
+        "privat-eller-foretag",
+        "vad-far-jag-skriva-in"
       ],
       "sektion": "060",
       "lankar": [
@@ -1186,12 +1186,12 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "060-40",
+      "id": "vem-ager-det-jag-skapar",
       "titel": "Vem äger det jag skapar med den?",
       "svar": "Oftast du — men användarvillkoren varierar och området är i rörelse. Läs det finstilta, särskilt om du ska sälja vidare.",
       "anteckningar": "Vem äger AI-genererad text/bild/kod? Oftast du — men villkoren skiljer sig.\n\nSkillnad på privat och företagsplan, och på vad du får sälja/sprida.\nOmrådet är rättsligt i rörelse — flera processer pågår.\n\nFyll ut: principer + frågor att ställa, inte tvärsäkra 'regler'.",
       "relaterat": [
-        "060-30"
+        "foretagsklar-ai"
       ],
       "sektion": "060",
       "lankar": [
@@ -1217,13 +1217,13 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "060-50",
+      "id": "ai-policy",
       "titel": "Behöver vi en AI-policy?",
       "svar": "Ja — en enkel, tydlig sådan. Vem får använda vad, vad får matas in, och en människa som granskar.",
       "anteckningar": "En AI-policy behöver inte vara tjock — den behöver vara tydlig.\n\nVem får använda vilka verktyg? Vad får matas in? Vem granskar?\n\nKänsligt → privata/EU-baserade eller självhostade modeller.\n\nVar medveten om att man kan lura AI:n (prompt injection) och om läckor.\n\nKonstruktiv avslutning: det här gör AI tryggt att använda på riktigt.",
       "relaterat": [
-        "060-10",
-        "060-30"
+        "privat-eller-foretag",
+        "foretagsklar-ai"
       ],
       "sektion": "060",
       "lankar": [
@@ -1247,7 +1247,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "070-10",
+      "id": "vad-tar-jag-med-mig",
       "sektion": "070",
       "titel": "Vad ska jag ta med mig?",
       "svar": "Maskinen gör mönster. Du gör mening. Våga ha fel snabbare — där börjar lärandet.",
@@ -1276,12 +1276,12 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "070-ordning-kaos",
+      "id": "ordning-eller-kaos",
       "sektion": "070",
       "titel": "Skapar AI ordning eller kaos?",
       "svar": "Både och, tänker jag. AI ger dig kaoset — du gör ordningen. Skapande var alltid urval.",
       "relaterat": [
-        "070-10"
+        "vad-tar-jag-med-mig"
       ],
       "bilder": [
         "Skaparkaos.jpg"
@@ -1295,7 +1295,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "070-30",
+      "id": "var-hittar-jag-allt",
       "sektion": "070",
       "titel": "Var hittar jag allt du visat?",
       "svar": "I Biblioteket: verktyg, poddar, böcker, personer och mycket jag byggt. Klicka Översikt för att hitta vissa berättelsekort— sök funkar också utmärkt.",
@@ -1327,7 +1327,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "070-20",
+      "id": "tack-och-sen",
       "sektion": "070",
       "titel": "Tack och sen?",
       "svar": "Tack för att ni följde med — och på återseende. Hör av er, det roligaste börjar oftast efter sista bilden.",
@@ -1431,9 +1431,9 @@ window.LECTURE = {
       "titel": "Skulle man kunna skapa ett nytt parti av en tanke?",
       "svar": "Jag vet inte — men jag testade, och ut ur en tanke föddes Motvikten. Inte höger, inte vänster: ett gäng test som varje förslag, mitt eget först, måste tåla.",
       "relaterat": [
-        "040-56",
+        "dum-modell-over-manniska",
         "mer-tillsammans-for-basta-beslut",
-        "060-50"
+        "ai-policy"
       ],
       "fordjupning": "<p class=\"ingress\">Kan man bygga ett parti av en enda tanke? Jag skulle bara hänga tvätten — men råkade göra ett litet test. Ut ur det föddes Motvikten: inte höger, inte vänster, utan ett gäng <em>test</em> som varje förslag måste tåla. Det här är tankeleken — och dess maskinrum.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Det började med en tvätt</span><span class=\"tag\">Ursprunget</span></div>\n  <div class=\"body\">Jag skulle bara hänga tvätt. Råkade lyssna på ett TV-inslag om Försvarsmakten och lokal hockey — en som ville rädda liv, en som ville skjuta lite, en hockeyspelare som inte fick spela kvar — jag stod där med den blöta tvätten i handen medan hela Plutonen bad mig gå in som överbefälhavare, jag sätter på mig den hatten ibland.<br><br>Däremot råkade jag starta ett parti. Första versionen var full av vackra principer om makt och demokrati — men saknade maskineriet. Så här kommer maskinrummet.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Inte en ideologi — en uppsättning test</span><span class=\"tag\">Idén</span></div>\n  <div class=\"body\">Motvikten påstår sig inte ha hittat sanningen, och är inte ännu ett tjugopunktsprogram. Den är några <strong>test</strong> som varje förslag måste tåla — höger, vänster, AI-förslag, och Motviktens egna först.<br><br>Grundantagandet: nästa människa som får makten kan vara en dretstövel. Statsministern, miljardären, AI-företaget — eller Motviktens egen framtida ledare. Därför bygger vi inte system för den goda ledaren. <strong>Vi bygger system som överlever den dåliga.</strong></div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Vi behöver kanske inte uppfinna den perfekta politiken. Vi behöver uppfinna bättre sätt att slå sönder politiken — innan den slår sönder människor.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Dretstövel-testet</span><span class=\"tag\">Test 1 · Montesquieu</span></div>\n  <div class=\"body\">Montesquieu såg det för snart 300 år sedan: om samma grupp får skriva lagarna, verkställa dem <em>och</em> döma — spelar det nästan ingen roll hur hygglig ledaren är. Konstruktionen är farlig. Alltså måste makt begränsa makt.<br><br>Testet: <strong>skulle du fortfarande ge staten den här makten om din värsta politiska motståndare vann nästa val?</strong> Om svaret är \"då får vi hoppas att personen är ansvarsfull\" — är konstruktionen inte färdig.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Slöjan av okunnighet</span><span class=\"tag\">Test 2 · Rawls</span></div>\n  <div class=\"body\">Filosofen John Rawls frågar en annan sak: <strong>vilka regler skulle du välja om du inte visste vem du föddes som</strong> — rik eller fattig, frisk eller sjuk, med eller utan kontakter? Då blir det dumt att bygga ett samhälle där vinnaren tar allt — du vet ju inte om du blir vinnaren.<br><br>Men inte heller exakt lika åt alla. Rawls differensprincip: ojämlikhet får finnas <em>om</em> den också lyfter den som har det sämst, med verkligt lika möjligheter. Motviktens \"lyft, lyft, lyft\": inte tryck ner den som lyckas — bygg så att även den längst ner får ett rimligt liv. (Mer om slöjan på kortet om system som beslutar över människor.)</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Konsekvenstestet</span><span class=\"tag\">Test 3 · Det egna</span></div>\n  <div class=\"body\">Och ett test som växte fram ur resonemanget självt: <strong>om vi gör det här och har fel — vem får betala för vårt misstag?</strong><br><br>De tre testen tillsammans är mycket starkare än vart och ett för sig. De gör det svårare att fuska genom att välja just de principer som råkar gynna den plats man själv redan sitter på.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">6</span><span class=\"concept\">Den nya makten — därför angår det AI</span><span class=\"tag\">Maskinrummet</span></div>\n  <div class=\"body\">Här blir det intressant för en AI-föreläsning. Montesquieu delade makten när makten fanns hos <em>staten</em>. Men idag finns makt också hos kapital, plattformar, informationsflöden och AI — som kan påverka miljarder människor utan att vara vare sig riksdag, regering eller domstol. Nya sorters makt kräver nya motvikter.<br><br>Motviktens svar: <strong>AI ska inte bli en ny härskare — utan verktyget som gör de andra lättare att granska.</strong> Offentliga beslut publiceras med sitt underlag: vilket problem, vilka alternativ, vem vinner och förlorar, vad det kostar, hur det mäts, när det utvärderas. AI får hjälpa vem som helst att läsa och ifrågasätta — men AI:n får inte äga sanningen, och underlagen ska gå att nå även utan den.</div>\n  <div class=\"shield\">\n    <div class=\"shield-label\">En ärlig ram</div>\n    <div class=\"shield-body\">Det här är en <strong>tankelek</strong>, inte en valkampanj. Poängen är inte partiet Motvikten — den är <em>testen</em>. Och de gäller mig först: ingen enskild AI-leverantör ska bli statens osynliga sanningsministerium, och inget beslut om en människa ska kunna gömmas bakom \"datorn sade nej\". Någon människa måste bära mandatet — och ansvaret.</div>\n  </div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">7</span><span class=\"concept\">Testet gäller Motvikten själv</span><span class=\"tag\">Ödmjukheten</span></div>\n  <div class=\"body\">Det svåraste: testen gäller Motvikten först. Ingen ledare ska kunna göra partiet till sin egen rörelse; ekonomin ska granskas, intern kritik är inte illojalitet. Om Motvikten börjar säga \"lita på oss\" utan att i samma andetag säga \"så här kontrollerar ni oss\" — då har den misslyckats med sitt eget program.<br><br>Och ännu mer: Motvikten ska kunna <em>dö</em>. Sipprar idéerna in i andra partier och institutioner så väl att partiet inte behövs — utmärkt. Ett parti är ett verktyg, inte en religion.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Verkligheten har vetorätt. Motvikten kommer att ha fel — det är inte ett framtida haveri, det är ett konstruktionsvillkor. Den farligaste makthavaren är inte den som haft fel, utan den som inte längre kan erkänna det.</div></div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Motvikten</div><div class=\"extra-desc\">Parti-tanken: inte höger/vänster, utan test varje förslag måste tåla.</div></div>\n  <div><div class=\"extra-name\">Dretstövel-testet</div><div class=\"extra-desc\">Skulle du ge makten om din värsta motståndare vann? Montesquieu i en mening.</div></div>\n  <div><div class=\"extra-name\">Slöjan av okunnighet</div><div class=\"extra-desc\">Rawls: välj reglerna utan att veta vem du själv blir i samhället.</div></div>\n  <div><div class=\"extra-name\">Konsekvenstestet</div><div class=\"extra-desc\">Om vi har fel — vem får betala? Det tredje testet, ur resonemanget självt.</div></div>\n  <div><div class=\"extra-name\">Maktdelning 2.0</div><div class=\"extra-desc\">Montesquieu för en värld med kapital, plattformar och AI, inte bara staten.</div></div>\n  <div><div class=\"extra-name\">AI får inte äga sanningen</div><div class=\"extra-desc\">AI som verktyg för granskning — inte en ny härskare. Underlag åtkomliga även utan den.</div></div>\n  <div><div class=\"extra-name\">Lyft, lyft, lyft</div><div class=\"extra-desc\">Ge fler en bättre mikrofon — inte några få supermänniskor.</div></div>\n  <div><div class=\"extra-name\">Verkligheten har vetorätt</div><div class=\"extra-desc\">Bygg politik som kan erkänna att den haft fel — och ändra sig.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Kompassen</div>\n  <div class=\"future-body\">Motvikten lovar inte perfekta människor. Den försöker bygga robustare system för de människor som faktiskt finns:<br><br><em>Se människan. Granska handlingen. Följ konsekvensen. Dyrka ingen. Demonisera ingen. Lyft generöst. Ge makten hårt motstånd. Stoppa den som skadar. Krossa inte den som faller. Var aldrig naiv. Och kom alltid ihåg att du själv kan ha fel.</em><br><br>Inte höger. Inte vänster. Motvikt. Mindre storslaget än att lova en perfekt värld — men det har åtminstone ett maskinrum. (Och till mitt försvar: jag skulle bara hänga tvätten.) 🧺</div>\n</div>",
       "anteckningar": "Jag skulle bara hänga tvätt, hörde ett försvarsinslag på TV — och råkade starta ett parti: Motvikten.\n\nInte höger, inte vänster. Inte en ny ideologi — utan test varje förslag måste tåla.\n\nDretstövel-testet (Montesquieu): skulle du ge makten om din värsta motståndare vann? Rawls: välj reglerna utan att veta vem du blir. Konsekvenstestet: har vi fel — vem betalar?\n\nAI ska inte bli ny härskare — utan verktyget som gör makten granskningsbar. AI får inte äga sanningen.\n\nPoängen: inte perfekt politik, utan bättre sätt att slå sönder politiken innan den slår sönder människor. \n\nOch Motvikten ska kunna dö.",
@@ -1515,8 +1515,8 @@ window.LECTURE = {
         ]
       ],
       "relaterat": [
-        "010-15",
-        "010-10"
+        "bara-man-som-kodar",
+        "vem-uppfann-ai"
       ],
       "bilder": [
         "Kaos och papper på ett annat sätt.png",
@@ -1552,8 +1552,8 @@ window.LECTURE = {
         ]
       ],
       "relaterat": [
-        "020-60",
-        "040-55"
+        "hur-snabbt-gar-utvecklingen",
+        "de-tre-nivaerna"
       ],
       "bilder": [
         "våg.png",
@@ -1578,9 +1578,9 @@ window.LECTURE = {
       "personer": [],
       "lankar": [],
       "relaterat": [
-        "040-56",
-        "000-30",
-        "030-50"
+        "dum-modell-over-manniska",
+        "dummare-eller-smartare",
+        "lar-eller-lurar"
       ],
       "bilder": [
         "o verklighet.png",
@@ -1590,7 +1590,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "010-35",
+      "id": "deep-blue-vs-kasparov",
       "fordjupning": "<p class=\"ingress\">1997 hände det för första gången: en maskin slog en regerande världsmästare i schack. Men <em>hur</em> Deep Blue vann säger mer än <em>att</em> den vann — för det var den sista stora triumfen för den gamla sortens AI. Byggt, inte odlat.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Vad som hände 1997</span><span class=\"tag\">Dramat</span></div>\n  <div class=\"body\">IBM:s <strong>Deep Blue</strong> mötte <strong>Garry Kasparov</strong> — kanske tidernas störste schackspelare, regerande världsmästare. I en returmatch över sex partier vann maskinen. Det gick som en chockvåg genom världen: nu hade den mänskliga intelligensens finrum erövrats.<br><br>Kasparov skakades. Han såg ett drag som verkade <em>för</em> mänskligt, misstänkte fusk och tappade fattningen. Han förlorade lika mycket mot sina egna nerver som mot maskinen.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Hur den \"tänkte\"</span><span class=\"tag\">Rå beräkning</span></div>\n  <div class=\"body\">Deep Blue lärde sig ingenting. Den <strong>räknade</strong> — utvärderade i storleksordningen 200 miljoner ställningar i sekunden, sökte många drag framåt, och vägde varje ställning mot regler som mänskliga stormästare hade matat in.<br><br>Ingen intuition, ingen erfarenhet, inget lärande. Bara ofattbar beräkningskraft styrd av handskrivna expertråd.</div>\n  <div class=\"why\"><div class=\"why-label\">Därför var det en återvändsgränd</div><div class=\"why-text\">Schack är enormt men avgränsat. Man kan komma långt på ren beräkning. Men verkligheten går inte att handkoda regel för regel — den är för stor och för rörig. Deep Blues väg tog slut just där schackbrädet slutade.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Det gamla paradigmet</span><span class=\"tag\">Byggt</span></div>\n  <div class=\"body\">Deep Blue var AI precis som vi alltid föreställt oss den: <strong>regler plus hastighet</strong>. En maskin som gör exakt vad ingenjörerna sagt, bara oändligt snabbare. Imponerande hantverk — och samtidigt den byggda intelligensens sista stora seger.<br><br>För det som skulle förändra allt var inte en snabbare räknare. Det var en maskin som kunde <em>lära sig själv</em>. Den kom nitton år senare, vid ett annat bräde.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Här brukar folk tappa det</div><div class=\"lost-text\">Deep Blue \"förstod\" ingenting om schack — inte mer än en miniräknare förstår matematik. Den räknade. Det är därför 1997 är slutet på en epok, inte början på en ny. Den nya börjar med AlphaGo — se nästa kort.</div></div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Brute force</div><div class=\"extra-desc\">Att lösa ett problem med rå beräkningskraft — pröva enormt många möjligheter i stället för att förstå.</div></div>\n  <div><div class=\"extra-name\">Sökdjup</div><div class=\"extra-desc\">Hur många drag framåt en maskin räknar. Deep Blues styrka — och dess gräns.</div></div>\n  <div><div class=\"extra-name\">Evalueringsfunktion</div><div class=\"extra-desc\">Reglerna som avgör hur \"bra\" en ställning är. Hos Deep Blue handskrivna av stormästare.</div></div>\n  <div><div class=\"extra-name\">Expertsystem</div><div class=\"extra-desc\">AI byggd på mänskliga regler, inte lärande. Deep Blue var dess höjdpunkt.</div></div>\n  <div><div class=\"extra-name\">Kasparov</div><div class=\"extra-desc\">Världsmästaren som förlorade 1997 — delvis mot maskinen, delvis mot sina egna nerver.</div></div>\n  <div><div class=\"extra-name\">Byggt vs odlat</div><div class=\"extra-desc\">Deep Blue byggdes regel för regel. AlphaGo odlades genom självspel. Hela skiftet i två ord.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Vad Deep Blue lärde oss</div>\n  <div class=\"future-body\">Att man kan slå en mästare med ren beräkning — men att beräkning inte är förståelse, och att verkligheten är för stor för att handkoda. Deep Blue nådde taket för den byggda intelligensen.<br><br>Frågan blev: kan en maskin bli bra på något ingen kan skriva regler för? Svaret kom vid go-brädet.</div>\n</div>",
       "sektion": "950",
       "titel": "Hur var den där historien om Deep Blue vs Kasparov?",
@@ -1609,12 +1609,12 @@ window.LECTURE = {
       ],
       "svar": "1997 slog IBM:s Deep Blue schackvärldsmästaren Kasparov — inte genom att lära sig, utan genom att räkna. Den gamla skolans sista triumf.",
       "relaterat": [
-        "010-30",
-        "010-37"
+        "nar-blev-maskinen-battre",
+        "alphago-vs-lee-sedol"
       ]
     },
     {
-      "id": "010-37",
+      "id": "alphago-vs-lee-sedol",
       "fordjupning": "<p class=\"ingress\">Nitton år efter Deep Blue föll go — och skillnaden är allt. AlphaGo fick aldrig veta hur man spelar bra. Den <em>lärde sig själv</em>, genom att spela mot sig själv miljontals gånger. Och i parti två spelade den ett drag ingen människa skulle gjort. Det här är ögonblicket intelligens odlades fram, inte byggdes.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Varför go är svårare än schack</span><span class=\"tag\">Fler drag än atomer</span></div>\n  <div class=\"body\">Go ser enkelt ut — svarta och vita stenar på ett rutnät — men antalet möjliga ställningar är större än antalet atomer i det observerbara universum. <strong>Brute force är helt omöjligt.</strong> Du kan inte räkna dig igenom go.<br><br>Det som krävs är något som liknar <em>intuition</em> — en känsla för vad som ser rätt ut. Länge var det just därför go ansågs vara en mänsklig sista utpost.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Hur AlphaGo lärde sig</span><span class=\"tag\">Självspel</span></div>\n  <div class=\"body\">AlphaGo (byggd av DeepMind) fick börja med mänskliga partier — men det avgörande var nästa steg: den spelade <strong>mot sig själv</strong>, miljontals gånger, och blev lite bättre för varje parti. Det kallas förstärkningslärande: pröva, se om det ledde till vinst, justera.<br><br>Ingen programmerade in \"det här är ett bra drag\". Skickligheten <strong>växte fram</strong> ur självspelet. Odlat, inte byggt.</div>\n  <div class=\"why\"><div class=\"why-label\">Skillnaden mot Deep Blue i en mening</div><div class=\"why-text\">Deep Blue räknade det en människa lärt den. AlphaGo lärde sig sådant ingen människa kunde lära den. <strong>Den ena mindes; den andra upptäckte.</strong></div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Drag 37</span><span class=\"tag\">Ögonblicket</span></div>\n  <div class=\"body\">I parti två, drag nummer 37, la AlphaGo en sten på ett ställe som bröt mot århundraden av go-visdom. Kommentatorerna trodde först att det var ett <em>misstag</em> — en bugg. En av världens bästa spelare lämnade rummet för att hämta sig.<br><br>Men draget var inte ett misstag. Det var briljant, och det avgjorde partiet. En maskin hade spelat ett drag av <strong>skönhet och kreativitet</strong> som ingen människa hade tänkt på under tvåtusen år av spel. Det var där många av oss förstod att något nytt fötts.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Drag 37 är hela den här föreläsningen i ett drag: intelligens som <em>odlats</em> fram kan komma på sådant vi aldrig lärt den. Deep Blue kunde aldrig överraska oss så. AlphaGo gjorde det på drag 37.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Lee Sedols drag 78</span><span class=\"tag\">Den mänskliga gnistan</span></div>\n  <div class=\"body\">Historien slutar inte med maskinens seger. I parti fyra svarade Lee Sedol med sitt eget lysande drag — nummer 78, sedan kallat \"Guds drag\" — så oväntat att AlphaGo tappade tråden och förlorade partiet.<br><br>Slutresultatet blev 4–1 till maskinen. Men den där enda mänskliga segern, född ur press och genialitet, är lika viktig att berätta. <strong>Vi blev inte överflödiga. Vi fick sällskap.</strong></div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Självspel</div><div class=\"extra-desc\">Att en AI blir bättre genom att spela mot sig själv miljontals gånger. Motorn i AlphaGo.</div></div>\n  <div><div class=\"extra-name\">Förstärkningslärande</div><div class=\"extra-desc\">Lär av konsekvenser: pröva, få belöning eller straff, justera. Inte av färdiga svar.</div></div>\n  <div><div class=\"extra-name\">Drag 37</div><div class=\"extra-desc\">AlphaGos oväntade drag i parti 2 — odlad kreativitet, först kallat misstag, sen geni.</div></div>\n  <div><div class=\"extra-name\">Intuition</div><div class=\"extra-desc\">Känsla för vad som är rätt utan att räkna sig fram. Det go kräver — och det AlphaGo odlade.</div></div>\n  <div><div class=\"extra-name\">Guds drag (78)</div><div class=\"extra-desc\">Lee Sedols lysande svar i parti 4. Den mänskliga gnistan som vann ett parti.</div></div>\n  <div><div class=\"extra-name\">AlphaZero</div><div class=\"extra-desc\">Nästa steg: lärde sig helt från noll, utan mänskliga partier alls. Ännu starkare.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Vad som hände sedan</div>\n  <div class=\"future-body\">AlphaGo följdes av <strong>AlphaZero</strong>, som lärde sig go, schack och shogi helt från noll — utan att titta på ett enda mänskligt parti — och slog allt som fanns. Den byggde sin egen förståelse från grunden.<br><br>Och sedan lämnade metoderna spelbordet helt. Nästa kort: när samma sorts intelligens slutade spela och började göra vetenskap.</div>\n</div>",
       "sektion": "950",
       "titel": "Vad var skillnaden från schack då Lee Sedol förlorade mot AlphaGo?",
@@ -1634,12 +1634,12 @@ window.LECTURE = {
       ],
       "svar": "2016 slog AlphaGo Lee Sedol i go — men lärde sig själv, genom att spela mot sig själv miljontals gånger. Och drag 37 var ren, odlad intuition.",
       "relaterat": [
-        "010-30",
-        "010-35"
+        "nar-blev-maskinen-battre",
+        "deep-blue-vs-kasparov"
       ]
     },
     {
-      "id": "020-50",
+      "id": "cpu-gpu-tpu-npu",
       "sektion": "950",
       "titel": "CPU, GPU, TPU, NPU mm. Vad babblar folk om?",
       "svar": "Tänkandet är gigantiskt och matematiskt. Vanliga spel-grafikkort råkar vara byggda för just det.",
@@ -1661,7 +1661,7 @@ window.LECTURE = {
       "titel": "Blir det inte paradoxalt komplext?",
       "svar": "AI uppfinner inte våra paradoxer. Den gör dem bara omöjliga att ignorera.",
       "relaterat": [
-        "040-30"
+        "vem-ager-tiden"
       ],
       "anteckningar": "Åtta paradoxer, fyra nivåer: organisation, samhälle, kunskap, människa.\n\nNär det självklara visar sig vara fel förstår vi både AI och oss själva bättre.\n\nAbilene & Jevons · Tolerans & Moravec · Dunning–Kruger & kunskapsparadoxen · valparadoxen & automatiseringsparadoxen.\n\nAI uppfinner inte våra paradoxer — den gör dem omöjliga att ignorera.\n(Fråga publiken: när sa du senast vad du trodde gruppen ville höra?)",
       "fordjupning": "<p class=\"ingress\">AI uppfinner inte våra paradoxer. Den gör dem bara omöjliga att ignorera. Här är åtta av dem — fyra nivåer av att vara människa: hur grupper tänker, hur vi lever tillsammans, hur vi lär oss, och hur vi väljer. När det självklara visar sig vara fel förstår vi både AI och oss själva bättre.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Abileneparadoxen</span><span class=\"tag\">Organisation</span></div>\n  <div class=\"body\">Vi tror att grupper beslutar klokare än enskilda. Ibland stämmer det: när Francis Galton 1906 lät hundratals personer gissa vikten på en oxe var medelvärdet nästan exakt rätt — <em>Wisdom of Crowds</em>. Men det kräver ett villkor: att var och en tänker <strong>helt själv</strong>.<br><br>När vi i stället anpassar oss efter vad vi tror att andra tycker händer det omvända. Ett möte där alla nickar med om ett nytt, dyrt AI-verktyg — fast nästan alla i tysthet tvekar — för att var och en tror att de andra är positiva. <strong>Gruppen väljer det ingen egentligen ville.</strong> Det kallas Abileneparadoxen (Jerry Harvey, 1974).</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Jevons paradox</span><span class=\"tag\">Organisation</span></div>\n  <div class=\"body\">Varje effektivitetsteknik har lovat oss mer tid. Tvättmaskinen, e-posten — och nu AI. Men när en resurs blir effektivare <em>minskar</em> vi inte vår förbrukning av den. Den mångdubblas.<br><br>Ekonomen William Jevons såg det redan 1865: effektivare ångmaskiner ökade kolförbrukningen, den minskade inte. Vi vann tid och fyllde den direkt med mer. Kanske var det aldrig tiden som saknades. Kanske var det <strong>gränser</strong>.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Tanken som blev kvar</div><div class=\"insight-text\">Hur vet du egentligen när du uttrycker din egen uppriktiga åsikt — och när du bara upprepar vad du tror att gruppen vill höra?</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Toleransparadoxen</span><span class=\"tag\">Samhälle</span></div>\n  <div class=\"body\">Vi utgår gärna från att mer frihet alltid är vägen framåt. Men filosofen Karl Popper (1945) pekade på en fälla: om ett samhälle visar <em>obegränsad</em> tolerans, även mot de helt intoleranta, kommer de intoleranta till slut att utplåna det toleranta samhället.<br><br>Inom AI utspelar det sig dagligen. Släpp en modell helt utan spärrar \"för total frihet\", och de mest extrema aktörerna lär den genast producera hatpropaganda och nätfiske på industriell skala. <strong>AI måste begränsas för att vi över huvud taget ska våga använda dess frihet.</strong></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Moravecs paradox</span><span class=\"tag\">Samhälle</span></div>\n  <div class=\"body\">AI kan klara juristexamen på sekunder och krossa en världsmästare i schack. Men be samma AI att gå genom ett stökigt rum, plocka upp en strumpa från golvet eller vika en t-shirt — plötsligt är den hopplöst klumpig.<br><br>Det som är svårt för oss (avancerad logik) är lätt för datorn; det som är busenkelt för ett treårigt barn (känna igen ett ansikte, greppa en kopp) kräver enorm beräkningskraft. Robotforskaren Hans Moravec formulerade det 1988. <strong>Vår kropp bär på miljoner år av tyst, biologisk intelligens som ingen algoritm lätt kopierar.</strong></div>\n  <div class=\"insight\"><div class=\"insight-label\">Tanken som blev kvar</div><div class=\"insight-text\">Vad är egentligen sann intelligens? Att lösa teoretiska problem på en skärm — eller att kunna röra sig och leva i den verkliga världen?</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Dunning–Kruger-effekten</span><span class=\"tag\">Kunskap</span></div>\n  <div class=\"body\">Nybörjaren ser enkla mönster och tvärsäkra svar. Ju mindre vi kan om ett ämne, desto mer överskattar vi ofta vår egen kunskap (Dunning och Kruger, 1999).<br><br>När någon testar en AI-modell första gången väcks samma känsla: maskinen verkar allvetande. Nybörjaren ser magin — och missar sprickorna.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">6</span><span class=\"concept\">Kunskapsparadoxen och Skeppet Theseus</span><span class=\"tag\">Kunskap</span></div>\n  <div class=\"body\">Ju mer vi lär oss, desto större blir känslan av att vi knappt skrapat på ytan. Experter drabbas ofta av bedragarsyndrom just för att deras förståelse för ämnets storlek vuxit. Därför säger den som verkligen kan ett ämne oftast försiktigast: \"det beror på.\"<br><br>Och en äldre fråga väcks när AI polerar din text: enligt myten byttes planka efter planka på hjälten Theseus skepp tills ingen ursprunglig bit fanns kvar — <strong>var det fortfarande samma skepp?</strong> Hur mycket av din egen insats kan AI ersätta innan verket slutar vara ditt?</div>\n  <div class=\"insight\"><div class=\"insight-label\">Tanken som blev kvar</div><div class=\"insight-text\">Om AI hjälper dig att uttrycka dina tankar — var går då den osynliga gränsen mellan att få hjälp och att bli ersatt?</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">7</span><span class=\"concept\">Valparadoxen</span><span class=\"tag\">Människan</span></div>\n  <div class=\"body\">Vi drömmer om obegränsad valfrihet. Men står du framför hyllan med fyrtiotvå sorters müsli väljer du till slut samma paket som alltid — utmattad. Psykologen Barry Schwartz kallade det <em>The Paradox of Choice</em> (2004); en berömd studie med sylt (Iyengar och Lepper, 2000) visade att fler alternativ gav färre köp.<br><br>När AI svämmar över våra flöden med oändligt genererat innehåll slutar vi ofta välja alls — som Buridans åsna, som svälter mitt emellan hö och vatten för att den inte kan bestämma sig. (Tänk gärna \"valpparadoxen\": ju fler söta valpar, desto svårare att välja en.)</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">8</span><span class=\"concept\">Automatiseringsparadoxen</span><span class=\"tag\">Människan</span></div>\n  <div class=\"body\">Ju mer ett system automatiseras och görs felfritt, desto <em>mindre</em> tränade blir människorna som ska övervaka det. Och den sällsynta dag då tekniken ändå fallerar krävs mer av den mänskliga operatören än någonsin — men då har hon slutat öva.<br><br>Ingenjören Lisanne Bainbridge beskrev det redan 1983 som \"automatiseringens ironier\". Ju mer vi förlitar oss på maskinen, desto viktigare — och svårare — blir den mänskliga insatsen när det verkligen gäller.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Tanken som blev kvar</div><div class=\"insight-text\">Vilka mänskliga färdigheter vill du fortsätta hålla levande hos dig själv — även om en maskin kan göra dem snabbare?</div></div>\n</div>\n\n<hr>\n\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Wisdom of Crowds</div><div class=\"extra-desc\">Många oberoende gissningar blir tillsammans träffsäkra — men bara om var och en tänker själv.</div></div>\n  <div><div class=\"extra-name\">Abileneparadoxen</div><div class=\"extra-desc\">Gruppen väljer det ingen egentligen vill, för alla tror att de andra vill det.</div></div>\n  <div><div class=\"extra-name\">Jevons paradox</div><div class=\"extra-desc\">Effektivare resurs → mer förbrukning, inte mindre. Därför försvinner den vunna tiden.</div></div>\n  <div><div class=\"extra-name\">Toleransparadoxen</div><div class=\"extra-desc\">Obegränsad tolerans kan förstöra toleransen. Popper, 1945. Därför behöver AI spärrar.</div></div>\n  <div><div class=\"extra-name\">Moravecs paradox</div><div class=\"extra-desc\">Det lätta för människor är svårt för AI — och tvärtom. Kroppen bär tyst intelligens.</div></div>\n  <div><div class=\"extra-name\">Dunning–Kruger</div><div class=\"extra-desc\">Ju mindre vi kan, desto mer överskattar vi vår kunskap. Nybörjaren ser magin.</div></div>\n  <div><div class=\"extra-name\">Skeppet Theseus</div><div class=\"extra-desc\">Om varje del byts ut — är det samma sak kvar? Frågan när AI redigerar ditt verk.</div></div>\n  <div><div class=\"extra-name\">Valparadoxen</div><div class=\"extra-desc\">För många val ger beslutsförlamning, inte frihet. Schwartz, 2004.</div></div>\n  <div><div class=\"extra-name\">Automatiseringsparadoxen</div><div class=\"extra-desc\">Ju mer automatiserat, desto sämre tränad blir människan som ska rädda det när det brister.</div></div>\n  <div><div class=\"extra-name\">Buridans åsna</div><div class=\"extra-desc\">Svälter mellan hö och vatten för att den inte kan välja. Valfrihetens fälla i bild.</div></div>\n</div>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Det som binder ihop dem</div>\n  <div class=\"future-body\">Alla åtta paradoxer säger samma sak från olika håll: det självklara är ofta fel, och tekniken förstorar våra mänskliga mönster i stället för att skapa dem. Gruppen som inte vågar säga emot, tiden som aldrig räcker, kunskapen som gör oss ödmjuka, valet som förlamar.<br><br><strong>AI uppfinner inte våra paradoxer. Den gör dem bara omöjliga att ignorera.</strong> Och kanske är det den största gåvan: en spegel som tvingar oss att titta.</div>\n</div>",
@@ -1709,7 +1709,7 @@ window.LECTURE = {
         ]
       ],
       "relaterat": [
-        "060-40",
+        "vem-ager-det-jag-skapar",
         "mer-patent-kunskapens-ekonomi",
         "mer-handslaget-avtal-mellan-manniskor"
       ],
