@@ -1479,7 +1479,7 @@ window.LECTURE = {
       "lankar": [
         [
           "Läs Livets Bibel",
-          "https://claude.ai/code/artifact/c77f9d33-ffc7-4c17-87e1-c6739c381551"
+          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html"
         ]
       ],
       "relaterat": [
