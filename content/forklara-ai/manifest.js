@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-14 12:06:54)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-14 12:07:36)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1763,7 +1763,7 @@ window.LECTURE = {
       "id": "960-nymssrwmqs",
       "sektion": "960",
       "titel": "Skulle man kunna skapa ett nytt parti av en tanke?",
-      "svar": "Jag vet inte men gjorde ett litet test",
+      "svar": "Jag vet inte men gjorde ett litet test och skapade pariet MOTVIKTEN",
       "relaterat": [
         "mer-bloggen"
       ],
