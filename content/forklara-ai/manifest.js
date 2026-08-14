@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-14 12:47:17)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-14 14:57:13)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -1713,8 +1713,9 @@ window.LECTURE = {
         "mer-patent-kunskapens-ekonomi",
         "mer-handslaget-avtal-mellan-manniskor"
       ],
-      "bilder": [],
-      "bildforslag": "En glidande skala från ett låst hänglås (© alla rättigheter förbehållna) till en öppen hand som släpper fria fåglar (CC0/public domain), med CC-, MIT- och GPL-märken som hållplatser längs vägen."
+      "bilder": [
+        "Licenser.png"
+      ]
     },
     {
       "id": "mer-hurdetfunkar",
