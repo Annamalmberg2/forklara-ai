@@ -559,7 +559,14 @@
     nytt.title = "Skapar ett tomt kort direkt efter det här — du fyller i det själv";
     nytt.onclick = () => {
       const nyK = {
-        id: k.sektion + "-ny" + Date.now().toString(36),
+        // Läsligt länknamn i stället för kryptisk tidsstämpel.
+        // (Byt titel på kortet och be Claude "slugga id:t" för ett namn som matchar rubriken.)
+        id: (() => {
+          const bas = k.sektion + "-nytt-kort";
+          let id = bas, n = 2;
+          while (L.kort.some(x => x.id === id)) id = bas + "-" + (n++);
+          return id;
+        })(),
         sektion: k.sektion,
         titel: "Ny fråga",
         svar: "",
