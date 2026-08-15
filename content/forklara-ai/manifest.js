@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-15 14:50:01)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-15 14:50:17)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -178,7 +178,9 @@ window.LECTURE = {
       "sektion": "970",
       "titel": "Vad gör oss starka, kloka och fria?",
       "svar": "Kapitel III · Psykologi och självutveckling",
-      "bilder": [],
+      "bilder": [
+        "En bibel.png"
+      ],
       "begrepp": [
         "psykologi",
         "styrka",
