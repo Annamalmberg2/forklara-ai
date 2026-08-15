@@ -1365,3 +1365,74 @@ body.redigerar .bank-hantera { display: inline-block; margin-left: auto; }
   opacity: 0.8;
   max-width: 60ch;
 }
+
+/* ============================================================
+   MÖRKT LÄGE — additivt. Ljust läge är orört.
+   data-theme sätts i index.html (localStorage eller systemval).
+   Nya semantiska variabler (ofarliga i ljust läge):
+   ============================================================ */
+:root { --card: #fff; --on-accent: #fff; --ink-2: #555; }
+
+:root[data-theme="dark"] {
+  --paper: #1B1915;
+  --paper-2: #232019;
+  --ink: #ECE4D4;
+  --muted: #A29A87;
+  --accent: #7FB89C;
+  --accent-tint: #22302A;
+  --hair: #38342B;
+  --trad: #C96A54;
+  --guld: #D3AE63;
+  --card: #26231C;
+  --on-accent: #14110C;
+  --ink-2: #C2B9A6;
+  color-scheme: dark;
+}
+
+/* hårdkodade vita ytor → mörka kort */
+:root[data-theme="dark"] kbd,
+:root[data-theme="dark"] .vbtn,
+:root[data-theme="dark"] #nivavaljare button,
+:root[data-theme="dark"] .chip,
+:root[data-theme="dark"] #redigerare,
+:root[data-theme="dark"] .red-rel,
+:root[data-theme="dark"] #trad-sok,
+:root[data-theme="dark"] .stig-chip,
+:root[data-theme="dark"] #stigmeny { background: var(--card); }
+
+/* text på accent-färgen (mörk mot ljusgrönt) */
+:root[data-theme="dark"] #nivavaljare button.aktiv,
+:root[data-theme="dark"] .relaterat-chip:hover,
+:root[data-theme="dark"] .rail-seg.aktuell,
+:root[data-theme="dark"] .rail-seg.aktuell:hover,
+:root[data-theme="dark"] #stig-start { color: var(--on-accent); }
+:root[data-theme="dark"] #stig-start:hover { background: var(--accent-tint); color: var(--accent); }
+
+/* halvtransparenta vita ytor (mobilpilar, avsluta-scen) */
+:root[data-theme="dark"] #klickzon-bak,
+:root[data-theme="dark"] #klickzon-fram { background: rgba(28,25,20,0.86); }
+:root[data-theme="dark"] #btn-avsluta-scen { background: rgba(27,25,21,0.92); }
+
+/* fördjupningens helsida — designsystemets hårdkodade toner */
+:root[data-theme="dark"] .ford-sida .body,
+:root[data-theme="dark"] .ford-sida .body em,
+:root[data-theme="dark"] .ford-sida .m-desc,
+:root[data-theme="dark"] .ford-sida td,
+:root[data-theme="dark"] .ford-sida .future-body { color: #CFC6B4; }
+:root[data-theme="dark"] .ford-sida .extra-desc,
+:root[data-theme="dark"] .ford-sida .why-text,
+:root[data-theme="dark"] .ford-sida .lost-text,
+:root[data-theme="dark"] .ford-sida .insight-text,
+:root[data-theme="dark"] .ford-sida .shield-body,
+:root[data-theme="dark"] .ford-sida .source-item { color: #B3AB99; }
+/* tint-rutor i mörkt */
+:root[data-theme="dark"] .ford-sida .why      { background: #1E241F; border-color: #3A4A40; }
+:root[data-theme="dark"] .ford-sida .lost     { background: #2A2317; border-color: #6E5320; }
+:root[data-theme="dark"] .ford-sida .insight  { background: #201F2C; border-color: #4A4470; }
+:root[data-theme="dark"] .ford-sida .future-box { background: #1E241F; }
+:root[data-theme="dark"] .ford-sida .shield   { background: #1E1C17; }
+:root[data-theme="dark"] .ford-sida .why-label     { color: #8FC7AB; }
+:root[data-theme="dark"] .ford-sida .lost-label    { color: #E0A94E; }
+:root[data-theme="dark"] .ford-sida .insight-label { color: #A79FE8; }
+:root[data-theme="dark"] .ford-sida .source-item a { color: #A79FE8; }
+:root[data-theme="dark"] .ford-sida td { border-bottom-color: #302C24; }

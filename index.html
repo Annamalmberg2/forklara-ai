@@ -5,6 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Förklara AI — föreläsningsverktyg</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
+<script>
+  // Tema: sätt ljust/mörkt FÖRE stilmallen laddas (ingen blänk vid start)
+  try {
+    var _tk = "forklara-ai:tema", _tv = localStorage.getItem(_tk);
+    if (!_tv) _tv = matchMedia("(prefers-color-scheme:dark)").matches ? "dark" : "light";
+    document.documentElement.dataset.theme = _tv;
+  } catch (e) {}
+</script>
 <script>window.__v = Date.now();  // versionsstämpel så webbläsaren aldrig visar gammal kod
   document.write('<link rel="stylesheet" href="app.css?v=' + window.__v + '">');</script>
 <script>
@@ -35,6 +43,7 @@
     <button class="vbtn" id="btn-oversikt" title="Alla bilder, kapitel för kapitel">Översikt</button>
     <button class="vbtn" id="btn-bibliotek" title="Filmtips, länkar och fördjupningar — alltid nära">Biblioteket</button>
     <button class="vbtn" id="btn-scen" title="Helskärm med bara bilden — för projektorn">Scenläge</button>
+    <button class="vbtn" id="btn-tema" title="Växla ljust/mörkt läge">☀</button>
     <select id="stigmeny" title="Byt stig — vad pilarna vandrar genom"></select>
   </nav>
 </header>
@@ -151,6 +160,20 @@
   </span>
 </footer>
 
+<script>
+  // Temaväxlaren — minns valet, ikonen speglar läget
+  (function () {
+    var k = "forklara-ai:tema", b = document.getElementById("btn-tema");
+    function ic() { if (b) b.textContent = document.documentElement.dataset.theme === "dark" ? "☾" : "☀"; }
+    ic();
+    if (b) b.addEventListener("click", function () {
+      var nu = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+      document.documentElement.dataset.theme = nu;
+      try { localStorage.setItem(k, nu); } catch (e) {}
+      ic();
+    });
+  })();
+</script>
 <script>
   document.write('<script src="app.js?v=' + window.__v + '"><\/script>');
   document.write('<script src="redigering.js?v=' + window.__v + '"><\/script>');
