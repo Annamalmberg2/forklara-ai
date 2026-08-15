@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-15 14:49:17)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-15 14:50:01)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -150,7 +150,10 @@ window.LECTURE = {
       "sektion": "970",
       "titel": "Hur formar det förflutna våra val idag — och vad är vi skyldiga framtiden?",
       "svar": "Kapitel II · Historia, tid och minne",
-      "bilder": [],
+      "bilder": [
+        "En bibel.png",
+        "En bibel.png"
+      ],
       "begrepp": [
         "historia",
         "tid",
