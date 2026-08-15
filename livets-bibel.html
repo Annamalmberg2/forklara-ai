@@ -4,6 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
+<script>
+  // Tema: läs valet (delas med Förklara AI) eller följ systemet — sätt före rendering
+  try {
+    var _t = localStorage.getItem("forklara-ai:tema") || (matchMedia("(prefers-color-scheme:dark)").matches ? "dark" : "light");
+    document.documentElement.dataset.theme = _t;
+  } catch (e) {}
+</script>
 <meta name="description" content="En Bibel — en anti-dogmatisk handbok för mänskligheten av Anna Malmberg.">
 <title>En Bibel</title>
 <style>
@@ -133,9 +140,15 @@
     .fade{opacity:0;transform:translateY(8px);animation:rise .9s ease forwards;}
     @keyframes rise{to{opacity:1;transform:none;}}
   }
+  .tema-vaxel{position:fixed;top:16px;right:18px;z-index:50;font-family:var(--sans);
+    font-size:17px;line-height:1;width:38px;height:38px;border-radius:50%;
+    border:1px solid var(--hair);background:var(--paper);color:var(--gold);cursor:pointer;}
+  .tema-vaxel:hover{border-color:var(--gold);}
+  @media print{.tema-vaxel{display:none;}}
 </style>
 </head>
 <body>
+<button class="tema-vaxel" id="tema" title="Ljust eller mörkt läge">☀</button>
 <div class="wrap">
 
   <header class="title fade">
@@ -510,5 +523,18 @@
   </section>
 
 </div>
+<script>
+  (function () {
+    var k = "forklara-ai:tema", b = document.getElementById("tema");
+    function ic() { b.textContent = document.documentElement.dataset.theme === "dark" ? "☾" : "☀"; }
+    ic();
+    b.addEventListener("click", function () {
+      var nu = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+      document.documentElement.dataset.theme = nu;
+      try { localStorage.setItem(k, nu); } catch (e) {}
+      ic();
+    });
+  })();
+</script>
 </body>
 </html>
