@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-15 14:48:34)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-14 14:57:13)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -72,7 +72,7 @@ window.LECTURE = {
     },
     {
       "id": "970",
-      "namn": "10 · En Bibel",
+      "namn": "10 · Lyckans bibel",
       "bakom": true,
       "nyckel": null
     },
@@ -91,280 +91,24 @@ window.LECTURE = {
   ],
   "kort": [
     {
-      "id": "en-bibel-0",
+      "id": "lyckans-bibel",
       "sektion": "970",
-      "titel": "En bibel som inte ber dig tro",
-      "svar": "Det enda budet: tänk själv — och kom ihåg att du kan ha fel.",
-      "begrepp": [
-        "En Bibel",
-        "det enda budet",
-        "tänk själv",
-        "tio kapitel",
-        "Motvikten"
-      ],
-      "lankar": [
-        [
-          "Läs hela boken – En Bibel",
-          "livets-bibel.html",
-          "Alla tio kapitel i sin fulla design"
-        ],
-        [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten",
-          "Idén som föregick bibeln"
-        ]
-      ],
-      "bilder": [
-        "En bibel.png"
-      ]
-    },
-    {
-      "id": "en-bibel-1",
-      "sektion": "970",
-      "titel": "Hur kan vi förstå vår plats i kosmos utan att förlora undret?",
-      "svar": "Kapitel I · Vetenskap och universum",
+      "titel": "Kan en lyckobibel vara ärlig?",
+      "svar": "En bok som dissar sitt eget löfte — och ändå lämnar dörren till kärleken på glänt.",
       "bilder": [],
       "begrepp": [
-        "vetenskap",
-        "kosmos",
-        "undret"
+        "Lyckans bibel",
+        "äkta vs förljugen lycka",
+        "hopp",
+        "de sju kapitlen",
+        "självdiss"
       ],
-      "fordjupning": "<p class=\"ingress\">Vi är stjärnstoft som lärt sig titta tillbaka på stjärnorna. Vetenskapen dödar inte undret — den förtjänar det. Ju mer vi förstår hur något fungerar, desto större blir det.</p>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Att ta med sig</div>\n  <div class=\"future-body\">Undret överlever kunskapen. Det växer av den.</div>\n</div>",
+      "fordjupning": "<p class=\"ingress\">Det här är fotnoten med muskler. En lyckobibel som vågar håna sitt eget löfte — och som mitt i självironin vägrar släcka hoppet om kärlek. Titeln lovar lyckan; boken erkänner i varje kapitel att den inte kan ge den. Spänningen är hela poängen.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Löftet vi faktiskt kan hålla</span><span class=\"tag\">Ärlighet</span></div>\n  <div class=\"body\">De flesta lyckoböcker säljer lyckan. Den här vägrar.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Löftet</div><div class=\"insight-text\">Den här boken lovar dig inte lyckan. Den lovar dig hoppet, kartan, och förmågan att skilja den äkta lyckan från den förljugna. Resten är din — men du går inte ensam.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Motorn: dissen och dörren</span><span class=\"tag\">Rösten</span></div>\n  <div class=\"body\">Beröm och diss till alla som behöver — inklusive boken själv. Varje kapitel får två egna rutor: <strong>Dissen</strong>, där kapitlet ärligt erkänner vad det inte kan lova, och <strong>Dörren</strong>, hoppet som ändå lämnas öppet. I flera kapitel är den dörren kärleken.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Här är kanten</div><div class=\"lost-text\">En bok som hånar sitt eget löfte i varje kapitel är den enda man kan lita på. Och den som ändå vägrar stänga dörren till kärleken — där bor värmen.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Tråden: äkta vs förljugen lycka</span><span class=\"tag\">Förfalskningsdetektor</span></div>\n  <div class=\"body\">Lyckan är ett landskap, inte en stege. För vissa är den en scen, för andra ett gömställe — ingen står högre. Men det finns en tredje sort: den förljugna lyckan, som ser ut som lycka men är en lögn man lärt sig stå ut med. Bokens jobb är inte att ge dig lyckan, utan att hjälpa dig känna igen bluffen.</div>\n</div>\n\n<hr>\n<div class=\"extra-head\">De sju kapitlen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">I · Vetenskap &amp; universum</div><div class=\"extra-desc\">Förstå kosmos utan att förlora undret.</div></div>\n  <div><div class=\"extra-name\">II · Psykologi</div><div class=\"extra-desc\">Vad gör oss starka, kloka och fria?</div></div>\n  <div><div class=\"extra-name\">III · Filosofi</div><div class=\"extra-desc\">Mening, död och etik.</div></div>\n  <div><div class=\"extra-name\">IV · Konst &amp; natur</div><div class=\"extra-desc\">Varför längtar vi efter skönhet?</div></div>\n  <div><div class=\"extra-name\">V · Digitalt liv &amp; dataetik</div><div class=\"extra-desc\">Hur behåller vi vår mänsklighet?</div></div>\n  <div><div class=\"extra-name\">VI · Samhälle &amp; tillit</div><div class=\"extra-desc\">System som ser människor, inte nummer. (Här bor bankhistorien.)</div></div>\n  <div><div class=\"extra-name\">VII · Lyckan</div><div class=\"extra-desc\">Från öronsnibbarna till lilltån. Det enda ingen kan ge ett recept på — kapitel I–VI var receptet.</div></div>\n</div>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Vad boken lovar</div>\n  <div class=\"future-body\">Inte lyckan. Hoppet, kartan, och förmågan att skilja äkta från förljuget. Och en dörr som aldrig helt stängs: kärleken.</div>\n</div>",
+      "anteckningar": "Fotnot med muskler. Bygget: livets-bibel.html. Grundsten: Desktop/Veckans bibel/Lyckans bibel – ny grundsten.txt.",
       "lankar": [
         [
-          "Läs hela boken – En Bibel",
-          "livets-bibel.html",
-          "Alla tio kapitel i sin fulla design"
-        ],
-        [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten",
-          "Idén som föregick bibeln"
-        ]
-      ]
-    },
-    {
-      "id": "en-bibel-2",
-      "sektion": "970",
-      "titel": "Hur formar det förflutna våra val idag — och vad är vi skyldiga framtiden?",
-      "svar": "Kapitel II · Historia, tid och minne",
-      "bilder": [],
-      "begrepp": [
-        "historia",
-        "tid",
-        "minne"
-      ],
-      "fordjupning": "<p class=\"ingress\">Vi är den enda art som bär en dåtid vi inte levt och en framtid vi inte får se. Historien ligger inte bakom oss — den är marken vi står på. Och tiden vi lånat ska betalas vidare.</p>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Att ta med sig</div>\n  <div class=\"future-body\">Vi är lånad tid. Betala vidare.</div>\n</div>",
-      "lankar": [
-        [
-          "Läs hela boken – En Bibel",
-          "livets-bibel.html",
-          "Alla tio kapitel i sin fulla design"
-        ],
-        [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten",
-          "Idén som föregick bibeln"
-        ]
-      ]
-    },
-    {
-      "id": "en-bibel-3",
-      "sektion": "970",
-      "titel": "Vad gör oss starka, kloka och fria?",
-      "svar": "Kapitel III · Psykologi och självutveckling",
-      "bilder": [],
-      "begrepp": [
-        "psykologi",
-        "styrka",
-        "frihet"
-      ],
-      "fordjupning": "<p class=\"ingress\">Styrka är inte frånvaro av rädsla. Vishet är inte tvärsäkerhet. Och frihet börjar med att känna sitt eget sinne — särskilt de tankar om dig själv som du burit så länge att du glömt att fråga om de är sanna.</p>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Att ta med sig</div>\n  <div class=\"future-body\">Du är inte färdig. Det är den bästa nyheten som finns.</div>\n</div>",
-      "lankar": [
-        [
-          "Läs hela boken – En Bibel",
-          "livets-bibel.html",
-          "Alla tio kapitel i sin fulla design"
-        ],
-        [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten",
-          "Idén som föregick bibeln"
-        ]
-      ]
-    },
-    {
-      "id": "en-bibel-4",
-      "sektion": "970",
-      "titel": "Hur vet vi vad som är sant när våra egna tankar kan bedra oss?",
-      "svar": "Kapitel IV · Kognition, språk och sanning",
-      "bilder": [],
-      "begrepp": [
-        "kognition",
-        "sanning",
-        "språk"
-      ],
-      "fordjupning": "<p class=\"ingress\">Din hjärna utvecklades inte för att hitta sanningen. Den utvecklades för att hålla dig vid liv — vilket inte är samma sak. De farligaste lögnerna är de vi berättar för oss själva, i fullkomlig säkerhet.</p>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Att ta med sig</div>\n  <div class=\"future-body\">Din säkraste känsla är inte ett bevis. Fråga hur du skulle veta om du hade fel.</div>\n</div>",
-      "lankar": [
-        [
-          "Läs hela boken – En Bibel",
-          "livets-bibel.html",
-          "Alla tio kapitel i sin fulla design"
-        ],
-        [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten",
-          "Idén som föregick bibeln"
-        ]
-      ]
-    },
-    {
-      "id": "en-bibel-5",
-      "sektion": "970",
-      "titel": "Hur har mänskligheten tänkt om mening, död och etik?",
-      "svar": "Kapitel V · Filosofi och livsfrågor",
-      "bilder": [],
-      "begrepp": [
-        "filosofi",
-        "mening",
-        "etik"
-      ],
-      "fordjupning": "<p class=\"ingress\">Filosofi är inte en samling svar. Det är konsten att ställa bättre frågor. De stora frågorna — mening, död, rätt och fel — har inget facit. Det är just därför de är värda att leva med.</p>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Att ta med sig</div>\n  <div class=\"future-body\">Lev frågan. Svaret är sällan poängen.</div>\n</div>",
-      "lankar": [
-        [
-          "Läs hela boken – En Bibel",
-          "livets-bibel.html",
-          "Alla tio kapitel i sin fulla design"
-        ],
-        [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten",
-          "Idén som föregick bibeln"
-        ]
-      ]
-    },
-    {
-      "id": "en-bibel-6",
-      "sektion": "970",
-      "titel": "Vad händer när vi skapar — och varför längtar vi efter skönhet?",
-      "svar": "Kapitel VI · Konst, kreativitet och natur",
-      "bilder": [],
-      "begrepp": [
-        "konst",
-        "kreativitet",
-        "skönhet"
-      ],
-      "fordjupning": "<p class=\"ingress\">Vi är arten som gör saker vi inte behöver. Vi målar, sjunger, bygger och pyntar — långt bortom vad överlevnaden kräver. Skönhet är världens sätt att säga ja tillbaka.</p>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Att ta med sig</div>\n  <div class=\"future-body\">Du behöver inte vara konstnär för att skapa. Du behöver bara våga.</div>\n</div>",
-      "lankar": [
-        [
-          "Läs hela boken – En Bibel",
-          "livets-bibel.html",
-          "Alla tio kapitel i sin fulla design"
-        ],
-        [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten",
-          "Idén som föregick bibeln"
-        ]
-      ]
-    },
-    {
-      "id": "en-bibel-7",
-      "sektion": "970",
-      "titel": "Hur behåller vi vår mänsklighet i en uppkopplad värld?",
-      "svar": "Kapitel VII · Digitalt liv och dataetik",
-      "bilder": [],
-      "begrepp": [
-        "digitalt",
-        "dataetik",
-        "uppmärksamhet"
-      ],
-      "fordjupning": "<p class=\"ingress\">Verktygen blev smartare. Frågan är om vi blev det. Tekniken kan förstärka precis den riktning vi redan går — mot lathet eller mot nyfikenhet, mot närvaro eller mot flykt. Den avgör ingenting själv. Vanan gör det.</p>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Att ta med sig</div>\n  <div class=\"future-body\">Tekniken ska tjäna människan — aldrig tvärtom.</div>\n</div>",
-      "lankar": [
-        [
-          "Läs hela boken – En Bibel",
-          "livets-bibel.html",
-          "Alla tio kapitel i sin fulla design"
-        ],
-        [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten",
-          "Idén som föregick bibeln"
-        ]
-      ]
-    },
-    {
-      "id": "en-bibel-8",
-      "sektion": "970",
-      "titel": "Hur fördelar vi världens värden utan att förlora vår kompass?",
-      "svar": "Kapitel VIII · Ekonomi, makt och resurser",
-      "bilder": [],
-      "begrepp": [
-        "ekonomi",
-        "makt",
-        "resurser"
-      ],
-      "fordjupning": "<p class=\"ingress\">Ekonomi är egentligen berättelsen om vem som får vad, och vem som bestämmer. Den ser ut som matematik, men under siffrorna sitter val — och val har ett samvete.</p>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Att ta med sig</div>\n  <div class=\"future-body\">Räkna gärna. Men glöm aldrig vad du inte kan räkna.</div>\n</div>",
-      "lankar": [
-        [
-          "Läs hela boken – En Bibel",
-          "livets-bibel.html",
-          "Alla tio kapitel i sin fulla design"
-        ],
-        [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten",
-          "Idén som föregick bibeln"
-        ]
-      ]
-    },
-    {
-      "id": "en-bibel-9",
-      "sektion": "970",
-      "titel": "Hur bygger vi system som ser oss som människor, inte nummer?",
-      "svar": "Kapitel IX · Samhälle, tillit och gemenskap",
-      "bilder": [],
-      "begrepp": [
-        "samhälle",
-        "tillit",
-        "bankhistorien"
-      ],
-      "fordjupning": "<p class=\"ingress\">Från den lokala bankmannen som kände hela din familj till dagens anonyma appar — det här kapitlet handlar om vad som händer när tillit byts mot transaktioner, och hur vi bygger tillbaka den mänskliga värmen i våra system.</p>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Att ta med sig</div>\n  <div class=\"future-body\">Ett samhälle mäts i hur det behandlar den som modellen fick fel om. Tekniken ska tjäna människan — inte tvärtom.</div>\n</div>",
-      "lankar": [
-        [
-          "Läs hela boken – En Bibel",
-          "livets-bibel.html",
-          "Alla tio kapitel i sin fulla design"
-        ],
-        [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten",
-          "Idén som föregick bibeln"
-        ]
-      ]
-    },
-    {
-      "id": "en-bibel-10",
-      "sektion": "970",
-      "titel": "Hur blir man lycklig — från lilltån upp till öronsnibbarna?",
-      "svar": "Kapitel X · Lyckan",
-      "bilder": [],
-      "begrepp": [
-        "lyckan",
-        "mening",
-        "hopp"
-      ],
-      "fordjupning": "<p class=\"ingress\">Det här kapitlet bad någon mig om. Han ville ha receptet på lycka. Här är den ärligaste gåva jag har: det finns inget recept. Och det, tro mig, är den goda nyheten.</p>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Att ta med sig</div>\n  <div class=\"future-body\">Lyckan går inte att räkna ut. Den går att leva — från lilltån upp till öronsnibbarna.</div>\n</div>",
-      "lankar": [
-        [
-          "Läs hela boken – En Bibel",
-          "livets-bibel.html",
-          "Alla tio kapitel i sin fulla design"
-        ],
-        [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten",
-          "Idén som föregick bibeln"
+          "Öppna bygget – Lyckans bibel",
+          "livets-bibel.html"
         ]
       ]
     },
