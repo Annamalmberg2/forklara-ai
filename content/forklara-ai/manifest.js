@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-15 14:52:30)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-15 14:52:43)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -341,7 +341,9 @@ window.LECTURE = {
       "sektion": "970",
       "titel": "Hur bygger vi system som ser oss som människor, inte nummer?",
       "svar": "Kapitel IX · Samhälle, tillit och gemenskap",
-      "bilder": [],
+      "bilder": [
+        "En bibel.png"
+      ],
       "begrepp": [
         "samhälle",
         "tillit",
