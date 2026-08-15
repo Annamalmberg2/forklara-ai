@@ -185,8 +185,7 @@
           par.forEach(([rubrik, url, beskr]) => {
             const a = el("a", "scenlank", null);
             a.href = url;
-            a.target = "_blank";
-            a.rel = "noopener";
+            if (!url.startsWith("#")) { a.target = "_blank"; a.rel = "noopener"; }
             a.appendChild(el("span", "sl-titel", rubrik));
             if (beskr) a.appendChild(el("span", "sl-desc", beskr));
             grid.appendChild(a);
@@ -295,7 +294,7 @@
     ul.innerHTML = "";
     (k.lankar || []).forEach(([titel, url]) => {
       const a = el("a", null, titel);
-      a.href = url; a.target = "_blank"; a.rel = "noopener";
+      a.href = url; if (!url.startsWith("#")) { a.target = "_blank"; a.rel = "noopener"; }
       const li = el("li"); li.appendChild(a); ul.appendChild(li);
     });
     // På textkort visas länkarna redan stort på scenen — dubblera inte i panelen
