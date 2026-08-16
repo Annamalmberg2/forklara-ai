@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-16 18:20:01)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-16 18:20:41)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -524,7 +524,7 @@ window.LECTURE = {
     {
       "id": "en-bibel-10",
       "sektion": "970",
-      "titel": "Hur blir man lycklig — från lilltån upp till öronsnibbarna?",
+      "titel": "Kapitel X · Lyckan. Hur blir man lycklig — från lilltån upp till öronsnibbarna?",
       "svar": "Kapitel X · Lyckan",
       "bilder": [
         "En bibel.png"
