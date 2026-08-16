@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-16 18:16:23)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-16 18:17:28)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -185,7 +185,7 @@ window.LECTURE = {
     {
       "id": "en-bibel-1",
       "sektion": "970",
-      "titel": "Hur kan vi förstå vår plats i kosmos utan att förlora undret?",
+      "titel": "Kapitel I · Vetenskap och universum. Hur kan vi förstå vår plats i kosmos utan att förlora undret?",
       "svar": "Kapitel I · Vetenskap och universum",
       "bilder": [
         "En bibel.png"
