@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-16 18:14:34)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-16 18:15:10)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -295,7 +295,7 @@ window.LECTURE = {
     {
       "id": "en-bibel-4",
       "sektion": "970",
-      "titel": "Hur vet vi vad som är sant när våra egna tankar kan bedra oss?",
+      "titel": "Kapitel IV · Kognition, språk och sanning. Hur vet vi vad som är sant när våra egna tankar kan bedra oss?",
       "svar": "Kapitel IV · Kognition, språk och sanning",
       "bilder": [
         "En bibel.png"
