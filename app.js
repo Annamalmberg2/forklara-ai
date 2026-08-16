@@ -533,7 +533,8 @@
         // En hylla eller dokumentationssida — hör till sin plats, inte en stig
         prog.textContent = sek.namn + " · " + kortNu.titel;
         prog.onclick = () => öppnaÖversikt(kortNu.sektion);
-        rensaRäls();
+        if (railKapitel.some(s => s.id === kortNu.sektion)) uppdateraRail(kortNu.sektion);
+        else rensaRäls();
       } else {
         const lista = berättelseKort();
         const bi = lista.findIndex(x => x.id === aktuellId);
@@ -551,6 +552,9 @@
   // Kapitel med en "tes" bär berättelsen. Läser man teserna uppifrån
   // och ner har man hört hela föreläsningen — det är landningssidan.
   const trådKapitel = L.sektioner.filter(s => s.tes);
+  // Rälsen når även de numrerade extra-sektionerna (08, 09, 10 …) — ända till bibeln
+  const railKapitel = L.sektioner.filter(s => s.tes || /^\d{2} /.test(s.namn || ""));
+  const railLabel = s => s.tes ? s.id : ((s.namn.match(/^\d{2}/) || [s.id])[0]);
   let trådVal = -1;
 
   function hoppaTillKapitel(sekId) {
@@ -697,15 +701,15 @@
   function byggRail() {
     const rail = $("kapitelrail");
     rail.innerHTML = "";
-    trådKapitel.forEach(sek => {
-      const b = el("button", "rail-seg", sek.id);   // visa kapitelnumret (000, 010 …)
-      b.title = sek.id + " · " + sek.namn;
+    railKapitel.forEach(sek => {
+      const b = el("button", "rail-seg", railLabel(sek));   // 000, 010 … 08, 09, 10
+      b.title = sek.namn;
       b.onclick = () => hoppaTillKapitel(sek.id);
       rail.appendChild(b);
     });
   }
   function uppdateraRail(sekId) {
-    const cur = trådKapitel.findIndex(s => s.id === sekId);
+    const cur = railKapitel.findIndex(s => s.id === sekId);
     [...$("kapitelrail").children].forEach((n, i) => {
       n.classList.toggle("aktuell", i === cur);
       n.classList.toggle("passerad", cur >= 0 && i < cur);
