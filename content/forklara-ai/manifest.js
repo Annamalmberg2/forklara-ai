@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-16 18:18:36)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-16 18:19:27)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -447,7 +447,7 @@ window.LECTURE = {
     {
       "id": "en-bibel-8",
       "sektion": "970",
-      "titel": "Hur fördelar vi världens värden utan att förlora vår kompass?",
+      "titel": "Kapitel VIII · Ekonomi, makt och resurser. Hur fördelar vi världens värden utan att förlora vår kompass?",
       "svar": "Kapitel VIII · Ekonomi, makt och resurser",
       "bilder": [
         "En bibel.png",
