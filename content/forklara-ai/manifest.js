@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-16 18:18:06)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-08-16 18:18:36)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -409,7 +409,7 @@ window.LECTURE = {
     {
       "id": "en-bibel-7",
       "sektion": "970",
-      "titel": "Hur behåller vi vår mänsklighet i en uppkopplad värld?",
+      "titel": "Kapitel VII · Digitalt liv och dataetik. Hur behåller vi vår mänsklighet i en uppkopplad värld?",
       "svar": "Kapitel VII · Digitalt liv och dataetik",
       "bilder": [
         "En bibel.png"
