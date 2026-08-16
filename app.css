@@ -1409,8 +1409,10 @@ body.redigerar .bank-hantera { display: inline-block; margin-left: auto; }
 :root[data-theme="dark"] #stig-start:hover { background: var(--accent-tint); color: var(--accent); }
 
 /* halvtransparenta vita ytor (mobilpilar, avsluta-scen) */
-:root[data-theme="dark"] #klickzon-bak,
-:root[data-theme="dark"] #klickzon-fram { background: rgba(28,25,20,0.86); }
+@media (max-width: 760px) {
+  :root[data-theme="dark"] #klickzon-bak,
+  :root[data-theme="dark"] #klickzon-fram { background: rgba(40,37,32,0.92); }
+}
 :root[data-theme="dark"] #btn-avsluta-scen { background: rgba(27,25,21,0.92); }
 
 /* fördjupningens helsida — designsystemets hårdkodade toner */
