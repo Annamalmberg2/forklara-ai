@@ -1303,8 +1303,11 @@ body.redigerar .bank-hantera { display: inline-block; margin-left: auto; }
    Mobil & smala skärmar — staplad vy, radbruten meny, flytande pilar
    ============================================================ */
 @media (max-width: 760px) {
-  /* Toppmenyn: låt knapparna radbryta så ALLT syns (även Scenläge) */
-  #topbar { height: auto; min-height: 52px; flex-wrap: wrap; gap: 8px 10px; padding: 8px 12px; }
+  /* Toppmenyn: låt knapparna radbryta så ALLT syns (även Scenläge).
+     Måla ovanpå de fasta panelerna (#trad/#oversikt, z-index 12) så rad 2
+     aldrig hamnar bakom startpanelen i stående läge. Solid bakgrund + z-index. */
+  #topbar { height: auto; min-height: 52px; flex-wrap: wrap; gap: 8px 10px; padding: 8px 12px;
+            position: relative; z-index: 20; background: var(--paper); }
   #verktyg { flex-wrap: wrap; gap: 6px; width: 100%; }
   .vbtn { font-size: 11px; padding: 6px 10px; }
   #stigmeny { flex: 1 1 auto; min-width: 0; }
