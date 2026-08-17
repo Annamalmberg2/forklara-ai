@@ -1042,6 +1042,30 @@
   $("klickzon-bak").onclick = () => stega(-1);
   $("hjalptips").style.cursor = "pointer";
   $("hjalptips").onclick = () => { $("hjalp").hidden = false; };
+
+  // Temaväxlaren robust: fungerar även om index.html är cachad/gammal (app.js är alltid färsk).
+  (function säkraTema() {
+    const K = "forklara-ai:tema";
+    try {
+      if (!document.documentElement.dataset.theme)
+        document.documentElement.dataset.theme =
+          localStorage.getItem(K) || (matchMedia("(prefers-color-scheme:dark)").matches ? "dark" : "light");
+    } catch (e) {}
+    let b = document.getElementById("btn-tema");
+    if (!b) {                                   // gammal cache saknar knappen — skapa den
+      b = el("button", "vbtn"); b.id = "btn-tema"; b.title = "Växla ljust/mörkt läge";
+      const vk = $("verktyg"), sm = $("stigmeny");
+      if (vk) { sm ? vk.insertBefore(b, sm) : vk.appendChild(b); }
+    }
+    const ic = () => { b.textContent = document.documentElement.dataset.theme === "dark" ? "☾" : "☀"; };
+    ic();
+    b.onclick = () => {                         // onclick (inte addEventListener) → ingen dubbel-toggle
+      const nu = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+      document.documentElement.dataset.theme = nu;
+      try { localStorage.setItem(K, nu); } catch (e) {}
+      ic();
+    };
+  })();
   window.addEventListener("hashchange", () => {
     const h = decodeURIComponent(location.hash.slice(1));
     _router = true;
