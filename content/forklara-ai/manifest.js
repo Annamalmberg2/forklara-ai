@@ -2455,8 +2455,10 @@ window.LECTURE = {
       ],
       "lankar": [
         [
-          "Första partitanken",
-          "https://wisdom-streamer.lovable.app/post/motvikten-ett-partiprogram-for-bortom-hoger-och-vanster"
+          "Läs Motvikten — hela manifestet (v0.1.1)",
+          "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
+          "Motviktens egen sida i bokform: de tre testen, den globala utblicken, maskinrummet och kompassen — syster till Livets Bibel.",
+          "Motvikten"
         ]
       ]
     },

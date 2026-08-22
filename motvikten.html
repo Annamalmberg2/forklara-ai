@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<script>
+  // Tema: läs valet (delas med Förklara AI) eller följ systemet — sätt före rendering
+  try {
+    var _t = localStorage.getItem("forklara-ai:tema") || (matchMedia("(prefers-color-scheme:dark)").matches ? "dark" : "light");
+    document.documentElement.dataset.theme = _t;
+  } catch (e) {}
+</script>
+<meta name="description" content="Motvikten — ett parti av en tanke. Inte höger, inte vänster, utan de test varje förslag måste tåla. Av Anna Malmberg.">
+<title>Motvikten</title>
+<style>
+  :root{
+    --paper:#F6F1E7; --paper-2:#EFE8D9; --ink:#23201A; --ink-soft:#4A453B;
+    --green:#2F5544; --green-soft:#3E6A55; --gold:#B08A3E; --gold-soft:#C6A25A;
+    --taupe:#8A8172; --hair:#DBD2BF; --tint:#EBE6D6;
+    --serif:"Iowan Old Style","Palatino Linotype","Book Antiqua",Palatino,"New York",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"SF Pro Text","Avenir Next","Segoe UI",sans-serif;
+    --measure:64ch;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --paper:#1B1915; --paper-2:#232019; --ink:#ECE4D4; --ink-soft:#BDB4A2;
+      --green:#7FB89C; --green-soft:#8FC7AB; --gold:#D3AE63; --gold-soft:#E0BE78;
+      --taupe:#9C927E; --hair:#38342B; --tint:#26231C;
+    }
+  }
+  :root[data-theme="light"]{
+    --paper:#F6F1E7; --paper-2:#EFE8D9; --ink:#23201A; --ink-soft:#4A453B;
+    --green:#2F5544; --green-soft:#3E6A55; --gold:#B08A3E; --gold-soft:#C6A25A;
+    --taupe:#8A8172; --hair:#DBD2BF; --tint:#EBE6D6;
+  }
+  :root[data-theme="dark"]{
+    --paper:#1B1915; --paper-2:#232019; --ink:#ECE4D4; --ink-soft:#BDB4A2;
+    --green:#7FB89C; --green-soft:#8FC7AB; --gold:#D3AE63; --gold-soft:#E0BE78;
+    --taupe:#9C927E; --hair:#38342B; --tint:#26231C;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);
+    font-size:19px;line-height:1.72;-webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;}
+  .wrap{max-width:720px;margin:0 auto;padding:0 28px;}
+  p{margin:0 0 1.05em;max-width:var(--measure);}
+  em{font-style:italic}
+  strong{font-weight:600;color:var(--ink)}
+  .label{font-family:var(--sans);font-size:11.5px;font-weight:600;letter-spacing:.19em;
+    text-transform:uppercase;color:var(--green);margin:0 0 .55em;display:block;}
+  a{color:var(--green);}
+
+  /* ---- title page ---- */
+  .title{min-height:96vh;display:flex;flex-direction:column;justify-content:center;
+    padding:64px 0 40px;border-bottom:1px solid var(--hair);text-align:center;align-items:center;}
+  .title .mark{font-family:var(--sans);font-size:12px;letter-spacing:.34em;text-transform:uppercase;
+    color:var(--taupe);margin-bottom:30px;}
+  .title h1{font-size:clamp(46px,10vw,86px);line-height:.98;margin:0;font-weight:600;
+    letter-spacing:-.015em;text-wrap:balance;}
+  .title h1 .em{color:var(--gold);font-style:italic;font-weight:600;}
+  .title .sub{font-style:italic;font-size:clamp(18px,2.4vw,23px);color:var(--ink-soft);
+    margin:26px auto 0;max-width:32ch;text-wrap:balance;}
+  .rule-orn{margin:38px 0 8px;color:var(--gold);font-size:20px;letter-spacing:.4em;}
+  .title .by{font-family:var(--sans);font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--taupe);margin-top:10px;}
+
+  /* ---- generic section ---- */
+  section{padding:64px 0;border-bottom:1px solid var(--hair);}
+  section:last-of-type{border-bottom:none;}
+  h2.h{font-size:clamp(27px,4.4vw,38px);line-height:1.1;margin:.1em 0 .5em;font-weight:600;
+    letter-spacing:-.01em;text-wrap:balance;}
+  .lead{font-size:20.5px;color:var(--ink-soft);}
+
+  /* ---- foreword drop ---- */
+  .foreword p:first-of-type::first-letter,
+  .tldr p::first-letter{
+    font-family:var(--serif);float:left;font-size:3.35em;line-height:.72;
+    padding:.06em .1em 0 0;color:var(--gold);font-weight:600;}
+
+  /* ---- chapter opener ---- */
+  .opener{display:flex;flex-direction:column;align-items:flex-start;margin-bottom:34px;}
+  .opener .num{font-family:var(--serif);font-size:clamp(58px,13vw,108px);line-height:.8;
+    color:var(--gold);font-weight:600;opacity:.92;margin-bottom:6px;}
+  .opener .kap{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--taupe);margin-bottom:14px;}
+  .opener h2{font-size:clamp(30px,5.4vw,46px);line-height:1.04;margin:0 0 20px;font-weight:600;
+    letter-spacing:-.014em;text-wrap:balance;}
+  .karn{font-style:italic;font-size:clamp(19px,2.5vw,23px);color:var(--green);line-height:1.4;
+    padding-left:18px;border-left:2px solid var(--gold);max-width:36ch;}
+
+  .block{margin:34px 0;}
+  .tldr{background:var(--tint);border:1px solid var(--hair);border-radius:3px;
+    padding:24px 26px;margin:30px 0 40px;}
+  .tldr p{margin:0;max-width:none;}
+
+  /* ---- perspektiv ---- */
+  .persp{margin:34px 0;}
+  .persp .row{padding:16px 0;border-top:1px solid var(--hair);display:grid;
+    grid-template-columns:132px 1fr;gap:8px 24px;align-items:start;}
+  .persp .row:last-child{border-bottom:1px solid var(--hair);}
+  .persp .k{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--green);padding-top:.35em;}
+  .persp .v{margin:0;max-width:none;}
+  @media(max-width:560px){.persp .row{grid-template-columns:1fr;gap:3px;}.persp .k{padding-top:0;}}
+
+  /* ---- testruta ---- */
+  .test{background:var(--paper-2);border-left:2px solid var(--gold);border-radius:0 3px 3px 0;
+    padding:20px 24px;margin:30px 0;}
+  .test .label{color:var(--gold);}
+  .test p{margin:0;max-width:none;font-style:italic;font-size:20px;color:var(--ink);}
+
+  .refl{font-style:italic;font-size:21px;color:var(--ink);line-height:1.5;max-width:38ch;
+    padding:4px 0;}
+  .refl .label{font-style:normal;}
+
+  /* ---- att ta med sig ---- */
+  .keep{border-top:2px solid var(--gold);border-bottom:2px solid var(--gold);
+    padding:22px 0;margin:38px 0 4px;text-align:center;}
+  .keep .label{color:var(--gold);text-align:center;}
+  .keep p{font-size:22px;font-style:italic;margin:0;max-width:none;color:var(--ink);
+    text-wrap:balance;}
+
+  .honest{background:var(--paper-2);border:1px solid var(--hair);border-radius:3px;
+    padding:18px 22px;margin:28px 0;font-size:16.5px;color:var(--ink-soft);}
+  .honest .label{color:var(--taupe);}
+
+  /* ---- efterord / colophon ---- */
+  .efter{text-align:center;}
+  .efter .rule-orn{margin:0 0 28px;}
+  .compass{font-style:italic;color:var(--green);font-size:19px;line-height:1.85;
+    max-width:44ch;margin:26px auto;}
+  .colophon{font-family:var(--sans);font-size:13px;color:var(--taupe);line-height:1.7;
+    max-width:52ch;margin:30px auto 0;letter-spacing:.01em;}
+
+  @media (prefers-reduced-motion:no-preference){
+    .fade{opacity:0;transform:translateY(8px);animation:rise .9s ease forwards;}
+    @keyframes rise{to{opacity:1;transform:none;}}
+  }
+  .tema-vaxel{position:fixed;top:16px;right:18px;z-index:50;font-family:var(--sans);
+    font-size:17px;line-height:1;width:38px;height:38px;border-radius:50%;
+    border:1px solid var(--hair);background:var(--paper);color:var(--gold);cursor:pointer;}
+  .tema-vaxel:hover{border-color:var(--gold);}
+  @media print{.tema-vaxel{display:none;}}
+</style>
+</head>
+<body>
+<button class="tema-vaxel" id="tema" title="Ljust eller mörkt läge">☀</button>
+<div class="wrap">
+
+  <header class="title fade">
+    <div class="mark">Ett parti av en tanke</div>
+    <h1>Mot<span class="em">vikten</span></h1>
+    <div class="sub">Inte höger, inte vänster — utan de test varje förslag måste tåla. Ditt eget först.</div>
+    <div class="rule-orn">✦ ❋ ✦</div>
+    <div class="by">av Anna Malmberg · ett levande utkast · v0.1.1</div>
+  </header>
+
+  <section class="foreword">
+    <span class="label">Förord</span>
+    <h2 class="h">Jag skulle bara hänga tvätten</h2>
+    <p>Jag skulle bara hänga tvätten. Så råkade jag lyssna på ett TV-inslag om Försvarsmakten och lokal hockey — en som ville rädda liv, en som ville skjuta lite, en spelare som inte fick spela kvar — och stod där med den blöta tvätten i handen medan hela plutonen bad mig kliva in som överbefälhavare. Den hatten tar jag på mig ibland. Och innan tvätten var upphängd hade jag råkat starta ett parti.</p>
+    <p>Första versionen var full av vackra principer om makt och demokrati — men saknade maskineriet. Det här är maskinrummet.</p>
+    <p>Motvikten påstår sig inte ha hittat sanningen, och är inte ännu ett tjugopunktsprogram. Den är några <em>test</em> som varje förslag måste tåla — höger, vänster, ett AI-förslag, och Motviktens egna allra först. Grundantagandet är obekvämt men ärligt: nästa människa som får makten kan vara en dretstövel. Statsministern, miljardären, AI-bolaget — eller Motviktens egen framtida ledare. Därför bygger vi inte system för den goda ledaren. <strong>Vi bygger system som överlever den dåliga.</strong></p>
+    <div class="keep" style="margin-top:30px;">
+      <span class="label">Det enda löftet</span>
+      <p>Vi lovar inte perfekta människor. Vi bygger robustare system för de människor som faktiskt finns — dig och mig inräknade.</p>
+    </div>
+  </section>
+
+  <!-- I -->
+  <section>
+    <div class="opener">
+      <div class="num">I</div>
+      <div class="kap">Test ett · Montesquieu</div>
+      <h2>Dretstövel-testet</h2>
+      <div class="karn">Skulle du ge staten den här makten om din värsta motståndare vann nästa val?</div>
+    </div>
+    <div class="tldr"><p>Montesquieu såg det för snart 300 år sedan: om samma grupp får skriva lagarna, verkställa dem <em>och</em> döma — spelar det nästan ingen roll hur hygglig ledaren är. Konstruktionen är farlig i sig. Alltså måste makt begränsa makt.</p></div>
+    <div class="block">
+      <p>Ställ förslaget inför den enkla frågan: skulle du fortfarande vilja ge den här makten till staten om den du minst av allt litar på höll i den? Om svaret är <em>"då får vi hoppas att personen är ansvarsfull"</em> — är konstruktionen inte färdig. En regel som bara fungerar i rätt händer är ingen regel. Den är en förhoppning.</p>
+    </div>
+    <div class="keep">
+      <span class="label">Att ta med sig</span>
+      <p>Bygg inte för den du litar på. Bygg för den du fruktar.</p>
+    </div>
+  </section>
+
+  <!-- II -->
+  <section>
+    <div class="opener">
+      <div class="num">II</div>
+      <div class="kap">Test två · Rawls</div>
+      <h2>Slöjan av okunnighet</h2>
+      <div class="karn">Vilka regler skulle du välja om du inte visste vem du föddes som?</div>
+    </div>
+    <div class="tldr"><p>Filosofen John Rawls bad oss välja samhällets regler bakom en slöja av okunnighet — utan att veta om vi blir rika eller fattiga, friska eller sjuka, innanför eller utanför.</p></div>
+    <div class="block">
+      <p>Då blir det dumt att bygga ett samhälle där vinnaren tar allt — du vet ju inte om du blir vinnaren. Men inte heller exakt lika åt alla. Rawls <em>differensprincip</em>: ojämlikhet får finnas <em>om</em> den också lyfter den som har det sämst, med verkligt lika möjligheter.</p>
+      <p>Det är Motviktens "lyft, lyft, lyft": inte trycka ner den som lyckas — utan bygga så att även den längst ner får ett rimligt liv. En stege, inte en såg.</p>
+    </div>
+    <div class="keep">
+      <span class="label">Att ta med sig</span>
+      <p>Skriv reglerna som om du kan vakna som vem som helst i morgon.</p>
+    </div>
+  </section>
+
+  <!-- III -->
+  <section>
+    <div class="opener">
+      <div class="num">III</div>
+      <div class="kap">Test tre · Det egna</div>
+      <h2>Konsekvenstestet</h2>
+      <div class="karn">Om vi gör det här och har fel — vem får betala?</div>
+    </div>
+    <div class="tldr"><p>Ett test som växte fram ur resonemanget självt. De tre testen tillsammans är mycket starkare än vart för sig — de gör det svårt att fuska genom att välja just de principer som råkar gynna den plats man själv redan sitter på.</p></div>
+    <div class="block">
+      <p>Fråga alltid vem som får betala om beslutet blir fel. Om svaret är "någon utan röst — den fattige, den ovanlige, framtiden, den utanför rummet" — tänk om. Den som fattar beslutet ska helst själv kunna hamna på fel sida av det.</p>
+    </div>
+    <div class="keep">
+      <span class="label">Att ta med sig</span>
+      <p>Den som aldrig får betala för sina misstag lär sig aldrig av dem.</p>
+    </div>
+  </section>
+
+  <!-- IV · UTBLICK -->
+  <section>
+    <div class="opener">
+      <div class="num">IV</div>
+      <div class="kap">Utblick</div>
+      <h2>Maktens motvikt är inte västlig</h2>
+      <div class="karn">Idén att makt måste tyglas är lika gammal och global som makten själv.</div>
+    </div>
+    <div class="tldr"><p>Montesquieu får ofta äran. Men människan har uppfunnit motvikter om och om igen, över hela jorden — långt före honom, och långt bortom Europa.</p></div>
+    <div class="persp">
+      <span class="label">Fyra motvikter, fyra världar</span>
+      <div class="row"><div class="k">Aten</div><p class="v">Den atenska demokratin <em>lottade</em> ut många ämbeten (sortition) — just för att makten inte skulle fastna hos några få skickliga. Och blev någon ändå för mäktig kunde folket rösta bort hen ur staden i tio år (ostrakism).</p></div>
+      <div class="row"><div class="k">Rom</div><p class="v">Den romerska republiken gav folket egna <em>tribuner</em> med vetorätt (intercessio) mot överhetens beslut. En inbyggd bromskloss underifrån.</p></div>
+      <div class="row"><div class="k">Haudenosaunee</div><p class="v">Irokesernas Fredens stora lag band samman folken med ömsesidiga kontroller — och bad ledarna väga varje beslut mot dess följder <em>sju generationer</em> framåt. Ett konsekvenstest, satt i system för århundraden sedan.</p></div>
+      <div class="row"><div class="k">Den islamiska traditionen</div><p class="v"><em>Shura</em> — rådslag — och tanken att inte ens härskaren står över lagen, återkommer genom islamisk statskonst. Makt utan samråd sågs som bräcklig.</p></div>
+    </div>
+    <div class="block">
+      <p>Att makt behöver en motvikt är alltså ingen europeisk uppfinning. Det är en av mänsklighetens mest återkommande insikter — dukad på nytt av folk som aldrig träffat varandra. Motvikten uppfinner inget nytt. Den försöker bara göra samma gamla klokskap till <em>maskineri</em> för en tid då makten fått nya ansikten.</p>
+    </div>
+    <div class="keep">
+      <span class="label">Att ta med sig</span>
+      <p>Ingen kultur har ägt makten. Ingen har heller ägt motvikten.</p>
+    </div>
+  </section>
+
+  <!-- V -->
+  <section>
+    <div class="opener">
+      <div class="num">V</div>
+      <div class="kap">Maskinrummet</div>
+      <h2>Därför angår det AI</h2>
+      <div class="karn">Nya sorters makt kräver nya motvikter.</div>
+    </div>
+    <div class="tldr"><p>Montesquieu delade makten när den satt hos <em>staten</em>. Idag finns makt också hos kapital, plattformar, informationsflöden — och AI, som kan påverka miljarder människor utan att vara vare sig riksdag, regering eller domstol.</p></div>
+    <div class="block">
+      <p>Motviktens svar: <strong>AI ska inte bli en ny härskare — utan verktyget som gör de andra lättare att granska.</strong> Offentliga beslut publiceras med sitt underlag: vilket problem, vilka alternativ, vem vinner och vem förlorar, vad det kostar, hur det mäts, när det utvärderas. AI får hjälpa vem som helst att läsa och ifrågasätta — men AI:n får inte <em>äga sanningen</em>, och underlagen ska gå att nå även utan den.</p>
+    </div>
+    <div class="test">
+      <span class="label">Testet på AI-makten</span>
+      <p>Ingen enskild AI-leverantör ska bli statens osynliga sanningsministerium. Och inget beslut om en människa ska kunna gömmas bakom "datorn sade nej" — någon människa måste bära mandatet, och ansvaret.</p>
+    </div>
+    <div class="keep">
+      <span class="label">Att ta med sig</span>
+      <p>AI får granska makten. Den får aldrig bli den.</p>
+    </div>
+  </section>
+
+  <!-- VI -->
+  <section>
+    <div class="opener">
+      <div class="num">VI</div>
+      <div class="kap">Ödmjukheten</div>
+      <h2>Testet gäller Motvikten själv</h2>
+      <div class="karn">En motvikt som inte tål sin egen tyngd är ingen motvikt.</div>
+    </div>
+    <div class="tldr"><p>Det svåraste av allt: testen gäller Motvikten först. Annars är hela idén bara ännu ett maktanspråk med vackrare ord.</p></div>
+    <div class="block">
+      <p>Ingen ledare ska kunna göra partiet till sin egen rörelse. Ekonomin ska granskas. Intern kritik är inte illojalitet. Om Motvikten börjar säga "lita på oss" utan att i samma andetag säga "så här kontrollerar ni oss" — då har den misslyckats med sitt eget program.</p>
+      <p>Och ännu mer: Motvikten ska kunna <em>dö</em>. Sipprar idéerna in i andra partier och institutioner så väl att partiet inte längre behövs — utmärkt. Ett parti är ett verktyg, inte en religion.</p>
+    </div>
+    <div class="keep">
+      <span class="label">Att ta med sig</span>
+      <p>Den farligaste makthavaren är inte den som haft fel — utan den som inte längre kan erkänna det.</p>
+    </div>
+  </section>
+
+  <section class="efter">
+    <div class="rule-orn">✦ ❋ ✦</div>
+    <span class="label" style="color:var(--taupe)">Efterord</span>
+    <h2 class="h" style="text-align:center">Kompassen</h2>
+    <p style="margin-left:auto;margin-right:auto;text-align:left;">Motvikten lämnar dig inte med ett partiprogram, utan med en kompass — samma som styr allt annat jag bygger:</p>
+    <div class="compass">Se människan. Granska handlingen. Följ konsekvensen.<br>Dyrka ingen. Demonisera ingen. Lyft generöst.<br>Ge makten hårt motstånd. Stoppa den som skadar. Krossa inte den som faller.<br>Var aldrig naiv. Och kom alltid ihåg att du själv kan ha fel.</div>
+    <div class="honest" style="text-align:left;max-width:54ch;margin-left:auto;margin-right:auto;">
+      <span class="label">Ärlig ram</span>
+      Det här är en <strong>tankelek och ett levande utkast (v0.1.1)</strong>, inte en valkampanj. Poängen är inte partiet Motvikten — den är testen. Och de gäller mig först. Håll inte med om allt; pröva det i stället. Verkligheten har vetorätt.
+    </div>
+    <div class="colophon">
+      Motvikten · ett parti av en tanke<br>
+      Av Anna Malmberg — samma verkstad som Förklara AI och Livets Bibel.<br>
+      Inte höger. Inte vänster. Motvikt. (Och till mitt försvar: jag skulle bara hänga tvätten.) 🧺
+    </div>
+  </section>
+
+</div>
+<script>
+  (function () {
+    var k = "forklara-ai:tema", b = document.getElementById("tema");
+    function ic() { b.textContent = document.documentElement.dataset.theme === "dark" ? "☾" : "☀"; }
+    ic();
+    b.addEventListener("click", function () {
+      var nu = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+      document.documentElement.dataset.theme = nu;
+      try { localStorage.setItem(k, nu); } catch (e) {}
+      ic();
+    });
+  })();
+</script>
+</body>
+</html>
