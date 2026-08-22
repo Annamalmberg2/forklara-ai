@@ -1067,21 +1067,23 @@ body.zoomad #klickzon-bak, body.zoomad #klickzon-fram { pointer-events: none; }
 .ford-sida .body { font-size: 15.5px; color: #3a3a3a; line-height: 1.8; margin-left: 30px; max-width: 62ch; }
 .ford-sida .body strong { color: var(--ink, #111); font-weight: 600; }
 .ford-sida .body em { font-style: italic; color: #3a3a3a; }
-.ford-sida .why, .ford-sida .lost, .ford-sida .insight {
+.ford-sida .why, .ford-sida .lost, .ford-sida .insight, .ford-sida .utblick {
   margin-left: 30px; margin-top: 12px; padding: 12px 16px;
   border-left: 3px solid; border-radius: 0 8px 8px 0; max-width: 62ch;
 }
 .ford-sida .why { border-color: #b9c4bd; background: #f3f6f4; }
 .ford-sida .lost { border-color: #EF9F27; background: #fffaf1; }
 .ford-sida .insight { border-color: #7F77DD; background: #f5f4ff; }
-.ford-sida .why-label, .ford-sida .lost-label, .ford-sida .insight-label {
+.ford-sida .utblick { border-color: #2F87A8; background: #eef6fa; }
+.ford-sida .why-label, .ford-sida .lost-label, .ford-sida .insight-label, .ford-sida .utblick-label {
   font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 5px;
 }
 .ford-sida .why-label { color: #3f6b52; }
 .ford-sida .lost-label { color: #854F0B; }
 .ford-sida .insight-label { color: #534AB7; }
-.ford-sida .why-text, .ford-sida .lost-text, .ford-sida .insight-text { font-size: 13.5px; color: #555; line-height: 1.65; }
-.ford-sida .why-text strong, .ford-sida .lost-text strong, .ford-sida .insight-text strong { color: var(--ink, #111); }
+.ford-sida .utblick-label { color: #1F6683; }
+.ford-sida .why-text, .ford-sida .lost-text, .ford-sida .insight-text, .ford-sida .utblick-text { font-size: 13.5px; color: #555; line-height: 1.65; }
+.ford-sida .why-text strong, .ford-sida .lost-text strong, .ford-sida .insight-text strong, .ford-sida .utblick-text strong { color: var(--ink, #111); }
 .ford-sida hr { border: none; border-top: 1px solid var(--hair); margin: 40px 0; }
 .ford-sida .milestone-head, .ford-sida .extra-head, .ford-sida .future-head, .ford-sida .shield-label, .ford-sida .shield-sources-label {
   font-size: 11px; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 16px;
@@ -1428,17 +1430,20 @@ body.redigerar .bank-hantera { display: inline-block; margin-left: auto; }
 :root[data-theme="dark"] .ford-sida .why-text,
 :root[data-theme="dark"] .ford-sida .lost-text,
 :root[data-theme="dark"] .ford-sida .insight-text,
+:root[data-theme="dark"] .ford-sida .utblick-text,
 :root[data-theme="dark"] .ford-sida .shield-body,
 :root[data-theme="dark"] .ford-sida .source-item { color: #B3AB99; }
 /* tint-rutor i mörkt */
 :root[data-theme="dark"] .ford-sida .why      { background: #1E241F; border-color: #3A4A40; }
 :root[data-theme="dark"] .ford-sida .lost     { background: #2A2317; border-color: #6E5320; }
 :root[data-theme="dark"] .ford-sida .insight  { background: #201F2C; border-color: #4A4470; }
+:root[data-theme="dark"] .ford-sida .utblick  { background: #16232A; border-color: #2E5E75; }
 :root[data-theme="dark"] .ford-sida .future-box { background: #1E241F; }
 :root[data-theme="dark"] .ford-sida .shield   { background: #1E1C17; }
 :root[data-theme="dark"] .ford-sida .why-label     { color: #8FC7AB; }
 :root[data-theme="dark"] .ford-sida .lost-label    { color: #E0A94E; }
 :root[data-theme="dark"] .ford-sida .insight-label { color: #A79FE8; }
+:root[data-theme="dark"] .ford-sida .utblick-label { color: #7FBEDB; }
 :root[data-theme="dark"] .ford-sida .source-item a { color: #A79FE8; }
 :root[data-theme="dark"] .ford-sida td { border-bottom-color: #302C24; }
 
