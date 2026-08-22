@@ -297,8 +297,12 @@
       a.href = url; if (!url.startsWith("#")) { a.target = "_blank"; a.rel = "noopener"; }
       const li = el("li"); li.appendChild(a); ul.appendChild(li);
     });
-    // På textkort visas länkarna redan stort på scenen — dubblera inte i panelen
-    const länkarPåScenen = !bilderAv(k).length && (k.lankar || []).length > 0;
+    // På rena textkort ritas länkarna redan stort på scenen (else-grenen på rad ~167)
+    // — dubblera inte i panelen DÅ. Men ett kort med bildförslag-utan-text visar
+    // förslagsrutan på scenen och ritar INGA scenlänkar → då måste panelen visa dem,
+    // annars faller länkarna mellan stolarna (osynliga tills en riktig bild lagts in).
+    const ärTextkort = !bilderAv(k).length && !(k.bildforslag && !k.text);
+    const länkarPåScenen = ärTextkort && (k.lankar || []).length > 0;
     $("panel-lankar-block").hidden = !(k.lankar && k.lankar.length) || länkarPåScenen;
 
     const amnen = $("panel-amnen");
