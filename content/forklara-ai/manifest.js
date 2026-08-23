@@ -463,7 +463,6 @@ window.LECTURE = {
       "titel": "Kapitel VIII · Ekonomi, makt och resurser. Hur fördelar vi världens värden utan att förlora vår kompass?",
       "svar": "Kapitel VIII · Ekonomi, makt och resurser",
       "bilder": [
-        "En bibel.png",
         "En bibel.png"
       ],
       "begrepp": [
@@ -635,14 +634,14 @@ window.LECTURE = {
         ]
       ],
       "bilder": [
-        "Motvikten.png"
+        "Ett parti.png"
       ]
     },
     {
       "id": "motvikten-1",
       "sektion": "980",
-      "titel": "Dretstövel-testet",
-      "svar": "Test 1 · Montesquieu: skulle du ge staten den här makten om din värsta motståndare vann nästa val?",
+      "titel": "Kapitel I · Dretstövel-testet. Skulle du ge makten den här befogenheten om din värsta motståndare tog över den?",
+      "svar": "Kapitel I · Dretstövel-testet",
       "begrepp": [
         "dretstövel-testet",
         "Montesquieu",
@@ -666,13 +665,16 @@ window.LECTURE = {
           "Hela manifestet som bok. Cmd+P ger pappersversion.",
           "Läs som bok"
         ]
+      ],
+      "bilder": [
+        "Ett parti.png"
       ]
     },
     {
       "id": "motvikten-2",
       "sektion": "980",
-      "titel": "Slöjan av okunnighet",
-      "svar": "Test 2 · Rawls: vilka regler skulle du välja om du inte visste vem du föddes som?",
+      "titel": "Kapitel II · Slöjan av okunnighet. Vilka regler skulle du välja om du inte visste vem du föddes som?",
+      "svar": "Kapitel II · Slöjan av okunnighet",
       "begrepp": [
         "slöjan av okunnighet",
         "Rawls",
@@ -696,13 +698,16 @@ window.LECTURE = {
           "Hela manifestet som bok. Cmd+P ger pappersversion.",
           "Läs som bok"
         ]
+      ],
+      "bilder": [
+        "Ett parti.png"
       ]
     },
     {
       "id": "motvikten-3",
       "sektion": "980",
-      "titel": "Konsekvenstestet",
-      "svar": "Test 3 · Det egna: om vi gör det här och har fel — vem får betala?",
+      "titel": "Kapitel III · Konsekvenstestet. Om vi gör det här och har fel — vem får betala priset?",
+      "svar": "Kapitel III · Konsekvenstestet",
       "begrepp": [
         "konsekvenstestet",
         "ansvar",
@@ -727,13 +732,16 @@ window.LECTURE = {
           "Hela manifestet som bok. Cmd+P ger pappersversion.",
           "Läs som bok"
         ]
+      ],
+      "bilder": [
+        "Ett parti.png"
       ]
     },
     {
       "id": "motvikten-4",
       "sektion": "980",
-      "titel": "Maktens motvikt är inte västlig",
-      "svar": "Idén att makt måste tyglas är lika gammal och global som makten själv — Aten, Rom, irokeserna, den islamiska shuran.",
+      "titel": "Kapitel IV · Maktens motvikt är inte västlig. Vem har tyglat makten före oss, och vad kan vi lära av dem?",
+      "svar": "Kapitel IV · Maktens motvikt är inte västlig",
       "begrepp": [
         "sortition",
         "ostrakism",
@@ -760,13 +768,16 @@ window.LECTURE = {
           "Hela manifestet som bok. Cmd+P ger pappersversion.",
           "Läs som bok"
         ]
+      ],
+      "bilder": [
+        "Ett parti.png"
       ]
     },
     {
       "id": "motvikten-5",
       "sektion": "980",
-      "titel": "Därför angår det AI",
-      "svar": "Nya sorters makt kräver nya motvikter. AI ska granska makten — aldrig bli den.",
+      "titel": "Kapitel V · Därför angår det AI. Vad händer när en helt ny sorts makt saknar sin motvikt?",
+      "svar": "Kapitel V · Därför angår det AI",
       "begrepp": [
         "maktdelning 2.0",
         "granskningsbar makt",
@@ -790,13 +801,16 @@ window.LECTURE = {
           "Hela manifestet som bok. Cmd+P ger pappersversion.",
           "Läs som bok"
         ]
+      ],
+      "bilder": [
+        "Ett parti.png"
       ]
     },
     {
       "id": "motvikten-6",
       "sektion": "980",
-      "titel": "Testet gäller Motvikten själv",
-      "svar": "En motvikt som inte tål sin egen tyngd är ingen motvikt. Motvikten ska kunna dö.",
+      "titel": "Kapitel VI · Testet gäller Motvikten själv. Tål idén sina egna test — och kan den erkänna att den har fel?",
+      "svar": "Kapitel VI · Testet gäller Motvikten själv",
       "begrepp": [
         "ödmjukhet",
         "verkligheten har vetorätt",
@@ -820,13 +834,16 @@ window.LECTURE = {
           "Hela manifestet som bok. Cmd+P ger pappersversion.",
           "Läs som bok"
         ]
+      ],
+      "bilder": [
+        "Ett parti.png"
       ]
     },
     {
       "id": "motvikten-7",
       "sektion": "980",
-      "titel": "Kompassen",
-      "svar": "Se människan. Granska handlingen. Följ konsekvensen. Och kom alltid ihåg att du själv kan ha fel.",
+      "titel": "Kapitel VII · Kompassen. Hur väljer du riktning när ingen färdig karta stämmer?",
+      "svar": "Kapitel VII · Kompassen",
       "begrepp": [
         "kompassen",
         "riktning inte destination",
@@ -850,6 +867,9 @@ window.LECTURE = {
           "Hela manifestet som bok. Cmd+P ger pappersversion.",
           "Läs som bok"
         ]
+      ],
+      "bilder": [
+        "Ett parti.png"
       ]
     },
     {
@@ -923,8 +943,8 @@ window.LECTURE = {
     {
       "id": "utblickar-1",
       "sektion": "990",
-      "titel": "Den islamiska världen & Mellanöstern",
-      "svar": "5 fönster · Logiken vi kallar \"västerländsk\" gick en omväg genom Bagdad",
+      "titel": "Kapitel I · Den islamiska världen & Mellanöstern. Vad tänkte och byggde den islamiska världen som väst hann glömma?",
+      "svar": "Kapitel I · Den islamiska världen & Mellanöstern",
       "begrepp": [
         "Bagdad",
         "al-Jazari",
@@ -948,13 +968,16 @@ window.LECTURE = {
           "Alla fönster som bok. Cmd+P för papper.",
           "Läs som bok"
         ]
+      ],
+      "bilder": [
+        "Utblickar.png"
       ]
     },
     {
       "id": "utblickar-2",
       "sektion": "990",
-      "titel": "Indien & Sydasien",
-      "svar": "9 fönster · Nollan, algoritmens rötter, mönstergenier och \"världens apotek\"",
+      "titel": "Kapitel II · Indien & Sydasien. Vilka rötter och genombrott bär Indien och Sydasien?",
+      "svar": "Kapitel II · Indien & Sydasien",
       "begrepp": [
         "Malaysia & Indien",
         "Indien",
@@ -981,13 +1004,16 @@ window.LECTURE = {
           "Alla fönster som bok. Cmd+P för papper.",
           "Läs som bok"
         ]
+      ],
+      "bilder": [
+        "Utblickar.png"
       ]
     },
     {
       "id": "utblickar-3",
       "sektion": "990",
-      "titel": "Kina & Östasien",
-      "svar": "11 fönster · Go, koaner, robotar som vänner och statsdriven AI",
+      "titel": "Kapitel III · Kina & Östasien. Hur ser Östasien på maskinen, tiden och tomrummet?",
+      "svar": "Kapitel III · Kina & Östasien",
       "begrepp": [
         "Kina",
         "Japan",
@@ -1014,13 +1040,16 @@ window.LECTURE = {
           "Alla fönster som bok. Cmd+P för papper.",
           "Läs som bok"
         ]
+      ],
+      "bilder": [
+        "Utblickar.png"
       ]
     },
     {
       "id": "utblickar-4",
       "sektion": "990",
-      "titel": "Afrika & globala Syd",
-      "svar": "7 fönster · Ubuntu, mobilbanken, rådslaget och den ojämna miljönotan",
+      "titel": "Kapitel IV · Afrika & globala Syd. Vad kan Afrika och globala Syd lära oss om gemenskap och teknik?",
+      "svar": "Kapitel IV · Afrika & globala Syd",
       "begrepp": [
         "Ubuntu",
         "Globala Syd",
@@ -1046,13 +1075,16 @@ window.LECTURE = {
           "Alla fönster som bok. Cmd+P för papper.",
           "Läs som bok"
         ]
+      ],
+      "bilder": [
+        "Utblickar.png"
       ]
     },
     {
       "id": "utblickar-5",
       "sektion": "990",
-      "titel": "Urfolk & det gemensamma arvet",
-      "svar": "3 fönster · Sju generationer framåt och kollektivt ägd kunskap",
+      "titel": "Kapitel V · Urfolk & det gemensamma arvet. Vad har urfolken förvaltat som vi håller på att glömma?",
+      "svar": "Kapitel V · Urfolk & det gemensamma arvet",
       "begrepp": [
         "Kan man äga en stil?",
         "Traditionell kunskap",
@@ -1074,13 +1106,16 @@ window.LECTURE = {
           "Alla fönster som bok. Cmd+P för papper.",
           "Läs som bok"
         ]
+      ],
+      "bilder": [
+        "Utblickar.png"
       ]
     },
     {
       "id": "utblickar-6",
       "sektion": "990",
-      "titel": "Europa, Norden & världens regler",
-      "svar": "7 fönster · GDPR, suverän AI, medborgare som skriver om reglerna",
+      "titel": "Kapitel VI · Europa, Norden & världens regler. Vem skriver reglerna som världens teknik måste följa?",
+      "svar": "Kapitel VI · Europa, Norden & världens regler",
       "begrepp": [
         "När medborgare skriver om reglerna",
         "Tre modeller",
@@ -1106,13 +1141,16 @@ window.LECTURE = {
           "Alla fönster som bok. Cmd+P för papper.",
           "Läs som bok"
         ]
+      ],
+      "bilder": [
+        "Utblickar.png"
       ]
     },
     {
       "id": "utblickar-7",
       "sektion": "990",
-      "titel": "Tvärgående mänskliga mönster",
-      "svar": "5 fönster · Vad som räknas som klokt, vem skadan drabbar, hur vi mäter",
+      "titel": "Kapitel VII · Tvärgående mänskliga mönster. Vilka mönster återkommer hos människan — överallt?",
+      "svar": "Kapitel VII · Tvärgående mänskliga mönster",
       "begrepp": [
         "Världens språk",
         "En ojämn skada",
@@ -1136,6 +1174,9 @@ window.LECTURE = {
           "Alla fönster som bok. Cmd+P för papper.",
           "Läs som bok"
         ]
+      ],
+      "bilder": [
+        "Utblickar.png"
       ]
     },
     {
