@@ -156,7 +156,39 @@
     .tldr,.keep,.honest,.compass,.refl,.persp .row,.test{page-break-inside:avoid;}
     a{color:var(--ink);text-decoration:none;}
   }
-</style>
+
+  /* ---- fördjupningar speglade i bokform (ur verktyget) ---- */
+  .ford{margin-top:6px;}
+  .ford .ingress{font-size:20px;font-style:italic;color:var(--ink-soft);margin:0 0 1.4em;max-width:none;}
+  .ford .section{margin:0 0 1.5em;}
+  .ford .section-head{display:flex;align-items:baseline;gap:12px;margin:0 0 .5em;flex-wrap:wrap;}
+  .ford .section-head .num{font-family:var(--sans);font-size:12px;font-weight:700;color:var(--gold);
+    border:1px solid var(--hair);border-radius:50%;width:24px;height:24px;display:inline-flex;
+    align-items:center;justify-content:center;flex:none;}
+  .ford .section-head .concept{font-family:var(--serif);font-size:21px;font-weight:600;color:var(--ink);}
+  .ford .section-head .tag{font-family:var(--sans);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe);margin-left:auto;}
+  .ford .body{color:var(--ink);max-width:none;}
+  .ford .lost{background:var(--paper-2);border-left:3px solid var(--gold);border-radius:0 4px 4px 0;padding:14px 20px;margin:16px 0;}
+  .ford .lost-label{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:5px;}
+  .ford .lost-text{margin:0;}
+  .ford .why{background:var(--tint);border-left:3px solid var(--green);border-radius:0 4px 4px 0;padding:14px 20px;margin:16px 0;}
+  .ford .why-label{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin-bottom:5px;}
+  .ford .why-text{margin:0;}
+  .ford .utblick{background:var(--tint);border-left:3px solid var(--green);border-radius:0 4px 4px 0;padding:15px 22px;margin:22px 0;}
+  .ford .utblick-label{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin-bottom:6px;}
+  .ford .utblick-text{margin:0;color:var(--ink-soft);}
+  .ford hr{border:none;border-top:1px solid var(--hair);margin:26px 0 16px;}
+  .ford .extra-head{font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--taupe);margin:0 0 10px;}
+  .ford .extra-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 22px;margin:12px 0;}
+  .ford .extra-name{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.03em;color:var(--green);margin-bottom:2px;}
+  .ford .extra-desc{font-size:15px;color:var(--ink-soft);}
+  .ford .future-box{background:var(--paper-2);border:1px solid var(--hair);border-radius:4px;padding:16px 20px;margin:22px 0 0;}
+  .ford .future-head{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
+  .ford .future-body{margin:0;color:var(--ink-soft);}
+  @media(max-width:560px){.ford .extra-grid{grid-template-columns:1fr;}.ford .section-head .tag{margin-left:0;width:100%;}}
+  @media print{.ford .section,.ford .lost,.ford .why,.ford .utblick,.ford .future-box,.ford .extra-grid{page-break-inside:avoid;}.ford hr{page-break-after:avoid;}}
+
+  </style>
 </head>
 <body>
 <button class="tema-vaxel" id="tema" title="Ljust eller mörkt läge">☀</button>
@@ -182,124 +214,1029 @@
     </div>
   </section>
 
-  <!-- I -->
   <section>
     <div class="opener">
       <div class="num">I</div>
-      <div class="kap">Test ett · Montesquieu</div>
+      <div class="kap">Kapitel I</div>
       <h2>Dretstövel-testet</h2>
-      <div class="karn">Skulle du ge staten den här makten om din värsta motståndare vann nästa val?</div>
+      <div class="karn">Skulle du ge makten den här befogenheten om din värsta motståndare tog över den?</div>
     </div>
-    <div class="tldr"><p>Montesquieu såg det för snart 300 år sedan: om samma grupp får skriva lagarna, verkställa dem <em>och</em> döma — spelar det nästan ingen roll hur hygglig ledaren är. Konstruktionen är farlig i sig. Alltså måste makt begränsa makt.</p></div>
-    <div class="block">
-      <p>Ställ förslaget inför den enkla frågan: skulle du fortfarande vilja ge den här makten till staten om den du minst av allt litar på höll i den? Om svaret är <em>"då får vi hoppas att personen är ansvarsfull"</em> — är konstruktionen inte färdig. En regel som bara fungerar i rätt händer är ingen regel. Den är en förhoppning.</p>
+    <div class="ford">
+<p class="ingress">Det första testet är nästan 300 år gammalt, och lika brännande i dag. Montesquieu såg att en konstruktion kan vara farlig <em>i sig</em> — oavsett vem som råkar sitta vid rodret.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Makt måste begränsa makt</span><span class="tag">Montesquieu</span></div>
+  <div class="body">Om samma grupp får skriva lagarna, verkställa dem <em>och</em> döma — spelar det nästan ingen roll hur hygglig ledaren är. Därför delade Montesquieu makten i tre: lagstiftande, verkställande, dömande. Makt måste hålla makt i schack.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Så gör du testet</span><span class="tag">Frågan</span></div>
+  <div class="body">Ställ förslaget inför en enkel fråga: <strong>skulle du fortfarande vilja ge den här makten till staten om den du minst av allt litar på höll i den?</strong><br><br>Om svaret är "då får vi hoppas att personen är ansvarsfull" — är konstruktionen inte färdig. En regel som bara fungerar i rätt händer är ingen regel. Den är en förhoppning.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Konstruktionen, inte personen</span><span class="tag">Djupet</span></div>
+  <div class="body">Det lömska är att goda människor i dåliga system ändå ställer till skada — och att skickliga skurkar i goda system ofta hejdas. Faran sitter i <em>konstruktionen</em>, inte i karaktären.<br><br>Därför är frågan aldrig "har vi en bra ledare nu?" utan "håller bygget även när vi inte har det?". Tur är ingen konstitution.</div>
+  <div class="lost"><div class="lost-label">Här brukar folk tappa det</div><div class="lost-text">"Men vår ledare är ju hygglig." Kanske det. Men du bygger inte ett hus för sommaren — du bygger det för stormen. En maktordning ska tåla den värsta tänkbara innehavaren, för förr eller senare kommer hen.</div></div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Ämbetet som skulle säga emot kejsaren</div><div class="utblick-text">I Tang-Kina (600-talet) fanns ett censorat och särskilda remonstransämbeten vars uppgift var att kritisera makten — även kejsaren själv. Den mest kände, Wei Zheng (död 643), sade kejsar Taizong emot rakt i ansiktet. När Wei Zheng dog lär kejsaren ha sagt: <em>"Med brons som spegel rättar man sin dräkt; med en god man som spegel ser man rätt och fel. Nu har jag mist en spegel."</em> Det är Montesquieus poäng: kritiken satt i <em>ämbetet</em>, inte i personen — den skulle överleva vem som än satt på tronen.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Insikten att ingen ska ha <em>all</em> makt är urgammal. Kungar bands av eder, senater delades, folk reste sig när en enväldig gick för långt. Vi litar helt enkelt inte på att någon — hur god hen än verkar — förblir god med obegränsad makt.<br><br>Där möts vi: historien har gett oss rätt om och om igen. Ingen tröttnar på att bli lovad att "den här gången är makthavaren snäll".</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Hur mycket makt vi vågar samla på ett ställe delar oss åt.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Lita på ledaren / bygg för den dålige</div><div class="extra-desc">Hoppas på den hygglige mot att konstruera för dretstöveln.</div></div>
+      <div><div class="extra-name">Handlingskraft / kontroll</div><div class="extra-desc">Makt som samlas för att få saker gjorda mot delas för att inte missbrukas.</div></div>
+      <div><div class="extra-name">Personen / systemet</div><div class="extra-desc">"Välj rätt människor" mot "bygg rätt system".</div></div>
+      <div><div class="extra-name">Snabbt / tryggt</div><div class="extra-desc">Den enväldiges tempo mot maktdelningens långsamma säkerhet.</div></div>
     </div>
-    <div class="keep">
-      <span class="label">Att ta med sig</span>
-      <p>Bygg inte för den du litar på. Bygg för den du fruktar.</p>
+    <br>En regel som bara fungerar i rätt händer är ingen regel — det är en förhoppning.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Dretstövel-testet</div><div class="extra-desc">Skulle du ge makten om din värsta motståndare vann? Montesquieu i en mening.</div></div>
+  <div><div class="extra-name">Montesquieu</div><div class="extra-desc">Delade makten i tre (1748) för att den inte skulle samlas farligt.</div></div>
+  <div><div class="extra-name">Maktdelning</div><div class="extra-desc">Lagstiftande, verkställande, dömande — makt som håller makt i schack.</div></div>
+  <div><div class="extra-name">Checks and balances</div><div class="extra-desc">Att varje makt kan bromsa de andra. Kärnan i en robust stat.</div></div>
+  <div><div class="extra-name">Konstruktionsfel</div><div class="extra-desc">När faran sitter i bygget, inte i personen. Det testet letar efter.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Vad testet skyddar mot</div>
+  <div class="future-body">Den dag makten hamnar i fel händer — och förr eller senare gör den det — är det konstruktionen som räddar oss, inte turen. Bygg för den dagen, medan du fortfarande kan.</div>
+</div>
     </div>
   </section>
 
-  <!-- II -->
   <section>
     <div class="opener">
       <div class="num">II</div>
-      <div class="kap">Test två · Rawls</div>
+      <div class="kap">Kapitel II</div>
       <h2>Slöjan av okunnighet</h2>
       <div class="karn">Vilka regler skulle du välja om du inte visste vem du föddes som?</div>
     </div>
-    <div class="tldr"><p>Filosofen John Rawls bad oss välja samhällets regler bakom en slöja av okunnighet — utan att veta om vi blir rika eller fattiga, friska eller sjuka, innanför eller utanför.</p></div>
-    <div class="block">
-      <p>Då blir det dumt att bygga ett samhälle där vinnaren tar allt — du vet ju inte om du blir vinnaren. Men inte heller exakt lika åt alla. Rawls <em>differensprincip</em>: ojämlikhet får finnas <em>om</em> den också lyfter den som har det sämst, med verkligt lika möjligheter.</p>
-      <p>Det är Motviktens "lyft, lyft, lyft": inte trycka ner den som lyckas — utan bygga så att även den längst ner får ett rimligt liv. En stege, inte en såg.</p>
+    <div class="ford">
+<p class="ingress">Det andra testet tvingar fram rättvisan genom att ta bort din egen plats i leken. Om du inte vet vem du blir, väljer du helt annorlunda.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Bakom slöjan</span><span class="tag">Rawls</span></div>
+  <div class="body">Filosofen John Rawls bad oss välja samhällets regler bakom en <strong>slöja av okunnighet</strong> — utan att veta om vi blir rika eller fattiga, friska eller sjuka, innanför eller utanför.<br><br>Då blir det dumt att bygga ett samhälle där vinnaren tar allt — du vet ju inte om du blir vinnaren.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Lyft, lyft, lyft</span><span class="tag">Differensprincipen</span></div>
+  <div class="body">Men inte heller exakt lika åt alla. Rawls differensprincip: ojämlikhet får finnas <em>om</em> den också lyfter den som har det sämst, med verkligt lika möjligheter.<br><br>Det är Motviktens "lyft, lyft, lyft": inte trycka ner den som lyckas — utan bygga så att även den längst ner får ett rimligt liv. <strong>En stege, inte en såg.</strong></div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Varför slöjan avslöjar rättvisan</span><span class="tag">Jävet</span></div>
+  <div class="body">Vi är alla <em>jäviga</em> — den rike vill ha låga skatter, den sjuke resurser till vården, den trygge vill inte rucka på tryggheten. Inte av ondska, utan för att vi ser världen från där vi står.<br><br>Slöjan är knepet som tvingar fram rättvisan: den gömmer din egen plats så att du måste tänka för <em>allas</em>. Det du väljer då är närmare det rätta än något du väljer med din egen ficka i sikte.</div>
+  <div class="insight"><div class="insight-label">Den viktiga insikten</div><div class="insight-text">Den bästa fråga en systembyggare kan ställa: "skulle jag godta det här om jag var den mest sårbara personen det gäller?"</div></div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Att döma opartiskt — långt före Rawls</div><div class="utblick-text">På 400-talet f.Kr. argumenterade den kinesiske tänkaren Mozi för <em>jian ai</em>, "opartisk omsorg". En regel skulle prövas efter om den gagnar alla — inte efter om den gynnar just min familj, min by eller min sida (det han kallade <em>bie</em>, partiskhet). Det är Rawls slöja i annan dräkt, drygt två tusen år tidigare: bedöm ordningen som om din egen plats i den vore dold för dig.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Att vi dömer från vår egen plats är kanske det svåraste att se hos oss själva. Men att för en stund tänka bort den — "tänk om det vore jag" — är också en av de finaste mänskliga förmågorna. Det är kärnan i empati, i rättvisa, i den gyllene regeln.<br><br>Där möts vi: alla känner igen orättvisan i att någon skriver reglerna till sin egen fördel. Slöjan sätter bara ord på magkänslan.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Vad slöjan borde leda till delar oss åt.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Vinnaren tar allt / trygghet åt alla</div><div class="extra-desc">"Den som lyckas ska få behålla allt" mot "bygg så ingen faller för djupt".</div></div>
+      <div><div class="extra-name">Lika utfall / lika möjligheter</div><div class="extra-desc">Platt likhet mot differensprincipens villkorade ojämlikhet.</div></div>
+      <div><div class="extra-name">Min plats / bakom slöjan</div><div class="extra-desc">Att rösta för sin egen ficka mot att rösta för vem som helst.</div></div>
+      <div><div class="extra-name">Rättvisa / frihet</div><div class="extra-desc">Två värden som drar — och som slöjan tvingar att mötas.</div></div>
     </div>
-    <div class="keep">
-      <span class="label">Att ta med sig</span>
-      <p>Skriv reglerna som om du kan vakna som vem som helst i morgon.</p>
+    <br>Skriv reglerna som om du kan vakna som vem som helst i morgon — då blir de förvånansvärt mänskliga.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Slöjan av okunnighet</div><div class="extra-desc">Rawls: välj reglerna utan att veta vem du själv blir i samhället.</div></div>
+  <div><div class="extra-name">Rawls</div><div class="extra-desc">John Rawls, 1900-talets kanske viktigaste rättviseteoretiker.</div></div>
+  <div><div class="extra-name">Differensprincipen</div><div class="extra-desc">Ojämlikhet ok — om den också lyfter den som har det sämst.</div></div>
+  <div><div class="extra-name">Jäv</div><div class="extra-desc">Att vi alla dömer från vår egen plats. Det slöjan tar bort.</div></div>
+  <div><div class="extra-name">Lika möjligheter</div><div class="extra-desc">Villkoret för att ojämlikhet ska kunna vara rättvis.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Slöjan i praktiken</div>
+  <div class="future-body">Applicerat på våra system: utforma algoritmen, budgeten, lagen som om du inte vet om du blir handläggaren eller den som modellen råkar få fel om. (Se kortet om system som beslutar över människor.)</div>
+</div>
     </div>
   </section>
 
-  <!-- III -->
   <section>
     <div class="opener">
       <div class="num">III</div>
-      <div class="kap">Test tre · Det egna</div>
+      <div class="kap">Kapitel III</div>
       <h2>Konsekvenstestet</h2>
-      <div class="karn">Om vi gör det här och har fel — vem får betala?</div>
+      <div class="karn">Om vi gör det här och har fel — vem får betala priset?</div>
     </div>
-    <div class="tldr"><p>Ett test som växte fram ur resonemanget självt. De tre testen tillsammans är mycket starkare än vart för sig — de gör det svårt att fuska genom att välja just de principer som råkar gynna den plats man själv redan sitter på.</p></div>
-    <div class="block">
-      <p>Fråga alltid vem som får betala om beslutet blir fel. Om svaret är "någon utan röst — den fattige, den ovanlige, framtiden, den utanför rummet" — tänk om. Den som fattar beslutet ska helst själv kunna hamna på fel sida av det.</p>
+    <div class="ford">
+<p class="ingress">Det tredje testet växte fram ur resonemanget självt — och det är limmet som håller ihop de andra två.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Vem får betala?</span><span class="tag">Det egna testet</span></div>
+  <div class="body">Fråga alltid vem som får betala om beslutet blir fel. Om svaret är "någon utan röst — den fattige, den ovanlige, framtiden, den utanför rummet" — tänk om. Den som fattar beslutet ska helst själv kunna hamna på fel sida av det.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Tre test slår ett</span><span class="tag">Tillsammans</span></div>
+  <div class="body">De tre testen tillsammans är mycket starkare än vart för sig. De gör det svårt att fuska genom att välja just de principer som råkar gynna den plats man själv redan sitter på — dretstöveln, slöjan och konsekvensen håller varandra ärliga.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Den som slipper betala lär sig inte</span><span class="tag">Ansvar</span></div>
+  <div class="body">Det farligaste med makt är inte att den kan ha fel — alla har fel ibland — utan att den ofta slipper konsekvenserna. Beslut fattas på ett ställe, notan skickas till ett annat.<br><br>Ett system där beslutsfattaren aldrig känner smällen föder oförsiktighet. Ett där hen kan drabbas själv föder eftertanke. Skin in the game, som det heter.</div>
+  <div class="lost"><div class="lost-label">Här brukar folk tappa det</div><div class="lost-text">Vi letar efter <em>vem</em> som hade ont uppsåt när något gått fel. Men oftast var det ingen skurk — det var en konstruktion där den som bestämde inte behövde bry sig om följderna. Fixa strukturen, inte bara skulden.</div></div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Den som bygger huset bär huset</div><div class="utblick-text">I Hammurabis lag (Babylon, omkring 1754 f.Kr.) står i paragraf 229: om en byggmästare reser ett hus så illa att det rasar och husägaren dör, ska byggmästaren dödas. Hård, ja — men principen är ren konsekvenslogik: den som fattar beslutet ska bära följden av det. Fyra tusen år senare kallar vi samma sak "skin in the game". Konsekvenstestet är inte nytt — det är ett av mänsklighetens äldsta.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Att den som ställer till det också borde stå för notan är en rättvisekänsla varje barn har. "Du tog sönder det — du lagar det." Vi ogillar djupt när någon fattar beslut men skickar räkningen till någon annan.<br><br>Där möts vi: det är inte politik, det är folkvett. Ansvar som kan skjutas iväg på en röstlös är den äldsta orättvisan.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Vem som räknas när konsekvenserna vägs delar oss åt.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Beslutar / drabbas</div><div class="extra-desc">Den som fattar beslutet mot den som får leva med det — sällan samma person.</div></div>
+      <div><div class="extra-name">Kort sikt / lång sikt</div><div class="extra-desc">Vinsten nu mot notan sen — och för de ännu ofödda.</div></div>
+      <div><div class="extra-name">Röststarka / röstlösa</div><div class="extra-desc">De som kan klaga mot de som bara får finna sig.</div></div>
+      <div><div class="extra-name">Skuld / struktur</div><div class="extra-desc">Att jaga en syndabock mot att bygga om systemet som skapade felet.</div></div>
     </div>
-    <div class="keep">
-      <span class="label">Att ta med sig</span>
-      <p>Den som aldrig får betala för sina misstag lär sig aldrig av dem.</p>
+    <br>Den som aldrig får betala för sina misstag lär sig aldrig av dem — och gör dem igen.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Konsekvenstestet</div><div class="extra-desc">Om vi har fel — vem får betala? Det tredje testet, ur resonemanget självt.</div></div>
+  <div><div class="extra-name">Ansvar</div><div class="extra-desc">Kan delegeras i handling men aldrig avskrivas. Ska helst drabba beslutsfattaren.</div></div>
+  <div><div class="extra-name">De tre testen</div><div class="extra-desc">Dretstövel, slöja, konsekvens — starkare tillsammans än var för sig.</div></div>
+  <div><div class="extra-name">Kort vs lång sikt</div><div class="extra-desc">Vinst nu, nota sen. Testet tvingar fram den långa blicken.</div></div>
+  <div><div class="extra-name">Röstlösa</div><div class="extra-desc">De som drabbas men inte kan klaga — fattiga, ovanliga, framtiden.</div></div>
+  <div><div class="extra-name">Sjunde generationen</div><div class="extra-desc">Haudenosaunees princip: väg beslutet mot sju generationer framåt.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Tre test, en spärr</div>
+  <div class="future-body">Dretstöveln, slöjan och konsekvensen håller varandra ärliga. Tillsammans gör de det svårt att välja just de principer som råkar gynna den plats man redan sitter på. Nästa: varför de gäller även Motvikten själv.</div>
+</div>
     </div>
   </section>
 
-  <!-- IV · UTBLICK -->
   <section>
     <div class="opener">
       <div class="num">IV</div>
-      <div class="kap">Utblick</div>
+      <div class="kap">Kapitel IV</div>
       <h2>Maktens motvikt är inte västlig</h2>
-      <div class="karn">Idén att makt måste tyglas är lika gammal och global som makten själv.</div>
+      <div class="karn">Vem har tyglat makten före oss, och vad kan vi lära av dem?</div>
     </div>
-    <div class="tldr"><p>Montesquieu får ofta äran. Men människan har uppfunnit motvikter om och om igen, över hela jorden — långt före honom, och långt bortom Europa.</p></div>
-    <div class="persp">
-      <span class="label">Fyra motvikter, fyra världar</span>
-      <div class="row"><div class="k">Aten</div><p class="v">Den atenska demokratin <em>lottade</em> ut många ämbeten (sortition) — just för att makten inte skulle fastna hos några få skickliga. Och blev någon ändå för mäktig kunde folket rösta bort hen ur staden i tio år (ostrakism).</p></div>
-      <div class="row"><div class="k">Rom</div><p class="v">Den romerska republiken gav folket egna <em>tribuner</em> med vetorätt (intercessio) mot överhetens beslut. En inbyggd bromskloss underifrån.</p></div>
-      <div class="row"><div class="k">Haudenosaunee</div><p class="v">Irokesernas Fredens stora lag band samman folken med ömsesidiga kontroller — och bad ledarna väga varje beslut mot dess följder <em>sju generationer</em> framåt. Ett konsekvenstest, satt i system för århundraden sedan.</p></div>
-      <div class="row"><div class="k">Den islamiska traditionen</div><p class="v"><em>Shura</em> — rådslag — och tanken att inte ens härskaren står över lagen, återkommer genom islamisk statskonst. Makt utan samråd sågs som bräcklig.</p></div>
+    <div class="ford">
+<p class="ingress">Montesquieu får ofta äran. Men människan har uppfunnit motvikter om och om igen, över hela jorden — långt före honom, och långt bortom Europa. Det här är Motviktens Utblick.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Fyra motvikter, fyra världar</span><span class="tag">Global historia</span></div>
+  <div class="body"><strong>Aten:</strong> demokratin <em>lottade</em> ut många ämbeten (sortition) — just för att makten inte skulle fastna hos några få. Blev någon för mäktig kunde folket rösta bort hen ur staden i tio år (ostrakism).<br><br><strong>Rom:</strong> republiken gav folket egna <em>tribuner</em> med vetorätt (intercessio) mot överhetens beslut — en bromskloss underifrån.<br><br><strong>Haudenosaunee</strong> (irokeserna): Fredens stora lag band folken med ömsesidiga kontroller, och bad ledarna väga varje beslut mot dess följder <em>sju generationer</em> framåt — ett konsekvenstest, satt i system för århundraden sedan.<br><br><strong>Den islamiska traditionen:</strong> <em>shura</em> — rådslag — och tanken att inte ens härskaren står över lagen.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Och Sverige då?</span><span class="tag">Två svenska gåvor</span></div>
+  <div class="body">Innan vi tror att motvikter är något andra länder hittade på: Sverige gav världen två av de finaste. <strong>Tryckfrihetsförordningen 1766</strong> — historiens första lag om fri press och offentlighet, rätten att granska makten på tryck. Och <strong>ombudsmannen 1809</strong> (Justitieombudsmannen) — en väktare dit vem som helst kan vända sig mot myndigheters övergrepp.<br><br>Ordet <em>ombudsman</em> används i dag på engelska världen över. Makten behöver motvikt — och ibland byggde vi den bäst.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">En återkommande mänsklig insikt</span><span class="tag">Syntes</span></div>
+  <div class="body">Att makt behöver en motvikt är alltså ingen europeisk uppfinning. Det är en av mänsklighetens mest återkommande insikter — dukad på nytt av folk som aldrig träffat varandra.<br><br>Motvikten uppfinner inget nytt. Den försöker bara göra samma gamla klokskap till <em>maskineri</em> för en tid då makten fått nya ansikten.</div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — En författning berättad, inte skriven (Mali)</div><div class="utblick-text">Kortet räknar Aten, Rom, irokeserna och shuran — låt oss lägga till Västafrika. Enligt traditionen samlades Malirikets stormän vid Kurukan Fuga omkring 1236 och antog <em>Mandenstadgan</em>: en muntlig författning som fördelade makt mellan klanerna. Den fördes vidare av griots (berättarna) och togs 2009 upp på Unescos lista över mänsklighetens immateriella kulturarv. Källan är muntlig, så exakt innehåll och datering diskuteras — men att maktdelning har tänkts och praktiserats också i Afrika är inte omtvistat.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Att vägra bli styrd utan möjlighet till motstånd är en av de mest universella mänskliga reflexerna. Från upproret till strejken till den viskade satiren om kungen — folk har alltid uppfunnit sätt att säga <em>nej</em> till makten, även när det kostade.<br><br>Där möts vi: ingen vill leva utlämnad utan att kunna knacka på en dörr och klaga. Motvikten är bara den längtan satt i system.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Var motvikten "kommer ifrån" och hur den bör se ut delar oss åt.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Väst / övriga världen</div><div class="extra-desc">Den grekisk-romerska maktdelningen som "urkällan" mot insikten att motvikter uppstått överallt.</div></div>
+      <div><div class="extra-name">Formell / informell</div><div class="extra-desc">Nedskrivna konstitutioner mot seder, råd och satir som ändå tyglar.</div></div>
+      <div><div class="extra-name">Stark stat / spridd makt</div><div class="extra-desc">Den handlingskraftiga centralmakten mot den tryggare men trögare fördelningen.</div></div>
+      <div><div class="extra-name">Gammalt / nytt</div><div class="extra-desc">Rådslag och tribuner mot fri press, ombudsman och visselblåsare.</div></div>
     </div>
-    <div class="block">
-      <p>Att makt behöver en motvikt är alltså ingen europeisk uppfinning. Det är en av mänsklighetens mest återkommande insikter — dukad på nytt av folk som aldrig träffat varandra. Motvikten uppfinner inget nytt. Den försöker bara göra samma gamla klokskap till <em>maskineri</em> för en tid då makten fått nya ansikten.</p>
-    </div>
-    <div class="keep">
-      <span class="label">Att ta med sig</span>
-      <p>Ingen kultur har ägt makten. Ingen har heller ägt motvikten.</p>
+    <br>Ingen kultur har ägt makten. Ingen har heller ägt motvikten.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Sortition</div><div class="extra-desc">Atens lottning av ämbeten — så makten inte fastnade hos några få.</div></div>
+  <div><div class="extra-name">Ostrakism</div><div class="extra-desc">Folkets rätt att rösta bort den som blivit för mäktig i tio år.</div></div>
+  <div><div class="extra-name">Tribuner / intercessio</div><div class="extra-desc">Roms folktribuner med veto mot överhetens beslut.</div></div>
+  <div><div class="extra-name">Sju generationer</div><div class="extra-desc">Haudenosaunees princip: väg beslutet mot sju generationer framåt.</div></div>
+  <div><div class="extra-name">Shura</div><div class="extra-desc">Rådslag i islamisk statskonst — ingen härskare står över lagen.</div></div>
+  <div><div class="extra-name">Ombudsmannen</div><div class="extra-desc">Svensk uppfinning (1809). Ordet används på engelska världen över.</div></div>
+  <div><div class="extra-name">Tryckfrihet</div><div class="extra-desc">Sveriges lag från 1766 — världens första om fri press och offentlighet.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Vad historien lär oss</div>
+  <div class="future-body">Makt har alltid samlats, och människor har alltid byggt motvikter. Den som säger att en viss frihet är "onaturlig" eller "främmande" har inte läst historien: motståndet mot envälde är en av de mest mänskliga sakerna vi har.</div>
+</div>
     </div>
   </section>
 
-  <!-- V -->
   <section>
     <div class="opener">
       <div class="num">V</div>
-      <div class="kap">Maskinrummet</div>
+      <div class="kap">Kapitel V</div>
       <h2>Därför angår det AI</h2>
-      <div class="karn">Nya sorters makt kräver nya motvikter.</div>
+      <div class="karn">Vad händer när en helt ny sorts makt saknar sin motvikt?</div>
     </div>
-    <div class="tldr"><p>Montesquieu delade makten när den satt hos <em>staten</em>. Idag finns makt också hos kapital, plattformar, informationsflöden — och AI, som kan påverka miljarder människor utan att vara vare sig riksdag, regering eller domstol.</p></div>
-    <div class="block">
-      <p>Motviktens svar: <strong>AI ska inte bli en ny härskare — utan verktyget som gör de andra lättare att granska.</strong> Offentliga beslut publiceras med sitt underlag: vilket problem, vilka alternativ, vem vinner och vem förlorar, vad det kostar, hur det mäts, när det utvärderas. AI får hjälpa vem som helst att läsa och ifrågasätta — men AI:n får inte <em>äga sanningen</em>, och underlagen ska gå att nå även utan den.</p>
+    <div class="ford">
+<p class="ingress">Här blir Motvikten en AI-fråga. För makten sitter inte längre bara hos staten.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Makten har fått nya ansikten</span><span class="tag">Maktdelning 2.0</span></div>
+  <div class="body">Montesquieu delade makten när den satt hos <em>staten</em>. Idag finns makt också hos kapital, plattformar, informationsflöden — och AI, som kan påverka miljarder människor utan att vara vare sig riksdag, regering eller domstol. Nya sorters makt kräver nya motvikter.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">AI som granskare, inte härskare</span><span class="tag">Motviktens svar</span></div>
+  <div class="body"><strong>AI ska inte bli en ny härskare — utan verktyget som gör de andra lättare att granska.</strong> AI får hjälpa vem som helst att läsa och ifrågasätta makten — men AI:n får inte <em>äga sanningen</em>, och underlagen ska gå att nå även utan den.</div>
+  <div class="shield">
+    <div class="shield-label">Testet på AI-makten</div>
+    <div class="shield-body">Ingen enskild AI-leverantör ska bli statens osynliga sanningsministerium. Och inget beslut om en människa ska kunna gömmas bakom "datorn sade nej" — någon människa måste bära mandatet, och ansvaret.</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Så ser ett Motvikts-beslut ut</span><span class="tag">Öppenhet i praktiken</span></div>
+  <div class="body">Konkret: tänk att varje offentligt beslut publicerades med sitt <em>underlag</em> — vilket problem det löser, vilka alternativ som vägdes, vem som vinner och vem som förlorar, vad det kostar, hur det ska mätas, och när det ska utvärderas.<br><br>AI:n får hjälpa vem som helst — journalisten, pensionären, grannen — att läsa, jämföra och ifrågasätta. Men underlaget ska gå att nå <em>även utan</em> AI:n, och AI:n får aldrig vara den som avgör vad som är sant.</div>
+  <div class="lost"><div class="lost-label">Här brukar folk tappa det</div><div class="lost-text">"En neutral AI kan väl bara reda ut vem som har rätt?" Nej. En sammanfattning är alltid ett val om vad som är viktigt — och det valet är politiskt. AI:n får lägga fram fakta så att vi kan gräla ärligt om värderingar. Den får aldrig fälla domen.</div></div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Den nya makten som ingen höll efter (Song-Kina)</div><div class="utblick-text">Kortet säger att ny makt kräver nya motvikter. Historien har ett exempel: världens första statliga pappersvaluta, <em>jiaozi</em>, växte fram i Sichuan och togs över av Songstaten omkring 1023. Att trycka värde ur tomma intet var en helt ny sorts makt — och när den senare trycktes utan hejd, under krigens och de mongoliska Yuans tryck, urholkades pengarnas värde. Ny makt utan motvikt skenar. AI är vår tids jiaozi: väldig, ny, och i behov av en broms.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Att vilja se skälen bakom ett beslut som drabbar en är djupt mänskligt. "Varför fick jag avslag?" "Vem bestämde det här, och hur?" Rätten att få en begriplig förklaring är lika gammal som orättvisan i att nekas den.<br><br>Där möts vi: ingen accepterar "för att jag säger så" — och allra minst "för att datorn säger så". Vi vill kunna följa tanken, och säga emot den.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Hur AI:n ska förhålla sig till makten delar oss djupt.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Verktyg / härskare</div><div class="extra-desc">Modellen som gör makten granskningsbar mot modellen som blir den nya makten.</div></div>
+      <div><div class="extra-name">Öppenhet / effektivitet</div><div class="extra-desc">Publicera allt underlag mot "det tar tid och krånglar till det".</div></div>
+      <div><div class="extra-name">Öppen data / affärshemlighet</div><div class="extra-desc">Rätten att granska mot bolagens rätt att dölja hur modellen byggts.</div></div>
+      <div><div class="extra-name">En människa / en algoritm</div><div class="extra-desc">Mandatet hos en ansvarig person mot beslutet gömt bakom en skärm.</div></div>
     </div>
-    <div class="test">
-      <span class="label">Testet på AI-makten</span>
-      <p>Ingen enskild AI-leverantör ska bli statens osynliga sanningsministerium. Och inget beslut om en människa ska kunna gömmas bakom "datorn sade nej" — någon människa måste bära mandatet, och ansvaret.</p>
-    </div>
-    <div class="keep">
-      <span class="label">Att ta med sig</span>
-      <p>AI får granska makten. Den får aldrig bli den.</p>
+    <br>AI får granska makten. Den får aldrig bli den — och inget beslut om en människa ska kunna gömmas bakom "datorn sade nej".</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Maktdelning 2.0</div><div class="extra-desc">Montesquieu för en värld med kapital, plattformar och AI, inte bara staten.</div></div>
+  <div><div class="extra-name">Granskningsbar makt</div><div class="extra-desc">Beslut publiceras med sitt underlag, så vem som helst kan syna dem.</div></div>
+  <div><div class="extra-name">AI får inte äga sanningen</div><div class="extra-desc">Modellen lägger fram fakta — men fäller aldrig domen.</div></div>
+  <div><div class="extra-name">Mänskligt mandat</div><div class="extra-desc">Någon människa måste bära beslutet, och ansvaret.</div></div>
+  <div><div class="extra-name">Sanningsministerium</div><div class="extra-desc">Faran: att en enskild leverantör blir statens osynliga fasit.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Nästa stora motvikt</div>
+  <div class="future-body">Makten har flyttat till kapital, plattformar och modeller snabbare än våra motvikter hunnit med. Att bygga granskningen i takt med makten är kanske vår tids viktigaste demokratiuppgift.</div>
+</div>
     </div>
   </section>
 
-  <!-- VI -->
   <section>
     <div class="opener">
       <div class="num">VI</div>
-      <div class="kap">Ödmjukheten</div>
+      <div class="kap">Kapitel VI</div>
       <h2>Testet gäller Motvikten själv</h2>
-      <div class="karn">En motvikt som inte tål sin egen tyngd är ingen motvikt.</div>
+      <div class="karn">Tål idén sina egna test — och kan den erkänna att den har fel?</div>
     </div>
-    <div class="tldr"><p>Det svåraste av allt: testen gäller Motvikten först. Annars är hela idén bara ännu ett maktanspråk med vackrare ord.</p></div>
-    <div class="block">
-      <p>Ingen ledare ska kunna göra partiet till sin egen rörelse. Ekonomin ska granskas. Intern kritik är inte illojalitet. Om Motvikten börjar säga "lita på oss" utan att i samma andetag säga "så här kontrollerar ni oss" — då har den misslyckats med sitt eget program.</p>
-      <p>Och ännu mer: Motvikten ska kunna <em>dö</em>. Sipprar idéerna in i andra partier och institutioner så väl att partiet inte längre behövs — utmärkt. Ett parti är ett verktyg, inte en religion.</p>
+    <div class="ford">
+<p class="ingress">Det svåraste av allt: testen gäller Motvikten först. Annars är hela idén bara ännu ett maktanspråk med vackrare ord.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Vänd testen mot dig själv</span><span class="tag">Ödmjukheten</span></div>
+  <div class="body">Ingen ledare ska kunna göra partiet till sin egen rörelse. Ekonomin ska granskas. Intern kritik är inte illojalitet. Om Motvikten börjar säga "lita på oss" utan att i samma andetag säga "så här kontrollerar ni oss" — då har den misslyckats med sitt eget program.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Motvikten ska kunna dö</span><span class="tag">Ett verktyg, inte en religion</span></div>
+  <div class="body">Och ännu mer: Motvikten ska kunna <em>dö</em>. Sipprar idéerna in i andra partier och institutioner så väl att partiet inte längre behövs — utmärkt. Ett parti är ett verktyg, inte en religion.</div>
+  <div class="insight"><div class="insight-label">Den viktiga insikten</div><div class="insight-text">Ett parti som klamrar sig fast vid sin egen fortlevnad har redan slutat tjäna sitt syfte och börjat tjäna sig självt.</div></div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Verkligheten har vetorätt</span><span class="tag">Felbarheten</span></div>
+  <div class="body">Motvikten kommer att ha fel. Inte som ett framtida haveri — som ett <em>konstruktionsvillkor</em>. Verkligheten har alltid vetorätt över våra finaste planer.<br><br>Skillnaden mellan en klok makthavare och en farlig är inte att den ena aldrig har fel. Det är att den ena kan erkänna det och ändra sig — och den andra hellre bygger om hela världen än säger "jag hade fel".</div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Verkligheten över auktoriteten (Kairo)</div><div class="utblick-text">Omkring 1021 skrev Ibn al-Haytham (Alhazen) sin <em>Optikens bok</em> i Kairo. Hans regel: tro inte på de gamla mästarna för att de är gamla — pröva deras påståenden mot vad du faktiskt kan observera. Sanningssökaren, menade han, är den som tvivlar och prövar, inte den som litar blint. Det är just vad detta kort menar med att verkligheten har vetorätt: ingen tanke, inte ens Motviktens egen, står över mätningen.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Att respektera den som kan erkänna sitt fel — och misstro den som aldrig kan — är en djup mänsklig instinkt. Vi förlåter nästan vad som helst utom högmodet som vägrar se sig självt.<br><br>Där möts vi: ingen litar i längden på den ofelbare. Ödmjukhet är inte svaghet — det är det enda som gör makt uthärdlig.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Hur ett parti ska förhålla sig till sin egen makt delar oss åt.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Lojalitet / intern kritik</div><div class="extra-desc">"Håll ihop utåt" mot "kritik inifrån är inte svek".</div></div>
+      <div><div class="extra-name">Lita på oss / kontrollera oss</div><div class="extra-desc">Partiet som ber om förtroende mot partiet som lär ut hur man granskar det.</div></div>
+      <div><div class="extra-name">Rörelse / monument</div><div class="extra-desc">En idé som får dö när den gjort sitt mot en organisation som vill leva för evigt.</div></div>
+      <div><div class="extra-name">Ofelbar / prövbar</div><div class="extra-desc">Den som aldrig kan ha fel mot den som bygger in sin egen felbarhet.</div></div>
     </div>
-    <div class="keep">
-      <span class="label">Att ta med sig</span>
-      <p>Den farligaste makthavaren är inte den som haft fel — utan den som inte längre kan erkänna det.</p>
+    <br>Den farligaste makthavaren är inte den som haft fel — utan den som inte längre kan erkänna det.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Ödmjukhet</div><div class="extra-desc">Att vända de hårdaste testen mot sig själv först.</div></div>
+  <div><div class="extra-name">Verkligheten har vetorätt</div><div class="extra-desc">Motvikten kommer att ha fel — det är ett villkor, inte ett haveri.</div></div>
+  <div><div class="extra-name">Självgranskning</div><div class="extra-desc">Ekonomin synas, intern kritik välkomnas. Annars faller programmet.</div></div>
+  <div><div class="extra-name">Ett verktyg, inte en religion</div><div class="extra-desc">Ett parti ska kunna dö när dess idéer inte längre behövs.</div></div>
+  <div><div class="extra-name">Felbarhet</div><div class="extra-desc">Den kloka makten bygger in sin egen möjlighet att ha fel.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Det svåraste löftet</div>
+  <div class="future-body">Ett parti som lovar att kunna dö, att kunna ha fel, att granska sig självt hårdast — det låter svagt. Men det är det starkaste ett parti kan göra, för det är det enda som håller när makten frestar.</div>
+</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="opener">
+      <div class="num">VII</div>
+      <div class="kap">Kapitel VII</div>
+      <h2>Kompassen</h2>
+      <div class="karn">Hur väljer du riktning när ingen färdig karta stämmer?</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Motvikten lämnar dig inte med tio bud, utan med en kompass — samma som styr allt annat jag bygger.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Kompassen</span><span class="tag">Efterord</span></div>
+  <div class="body"><em>Se människan. Granska handlingen. Följ konsekvensen.<br>Dyrka ingen. Demonisera ingen. Lyft generöst.<br>Ge makten hårt motstånd. Stoppa den som skadar. Krossa inte den som faller.<br>Var aldrig naiv. Och kom alltid ihåg att du själv kan ha fel.</em></div>
+  <div class="shield">
+    <div class="shield-label">Ärlig ram</div>
+    <div class="shield-body">Det här är en <strong>tankelek och ett pågående bygge</strong>, inte en valkampanj. Poängen är inte partiet Motvikten — den är testen. Och de gäller mig först. Håll inte med om allt; pröva det i stället.</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Riktningar, inte destinationer</span><span class="tag">Vad kompassen är</span></div>
+  <div class="body">En kompass talar inte om vart du ska — den visar väderstrecken så att du själv kan välja väg. Kompassen ger dig inga färdiga svar på skatten, skolan eller försvaret. Den ger dig <em>frågor att ställa</em> på varje sådant beslut: Ser det här människan? Tål det granskning? Vem betalar om vi har fel?<br><br>Svaren fyller du i själv — och de får ändras när verkligheten talar.</div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Elefanten i mörkret (jainsk filosofi)</div><div class="utblick-text">Kompassens sista riktning — "du kan ha fel" — har ett gammalt hem i indisk filosofi. Jainismens <em>anekāntavāda</em>, "mångsidigheten", säger att verkligheten har fler sidor än någon enskild kan se. Bilden är de blinda som känner på en elefant: en tar tag i benet och säger "en pelare", en i snabeln och säger "en orm" — var och en har rätt om sin del och fel om helheten. (Liknelsen delas av flera indiska traditioner.) Att veta att din blick är partiell är ingen svaghet. Det är kompassens nål.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Att längta efter en ledstjärna — något att navigera efter när kartan tar slut — är urmänskligt. Vi har alltid velat ha budord, kompasser, tumregler att hålla oss i. Men de klokaste traditionerna gav oss riktningar snarare än order: inte "gör exakt så här", utan "gå ditåt, och tänk själv på vägen".<br><br>Där möts vi: alla behöver något att styra efter. Skillnaden är om det binder oss eller frigör oss.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Bud eller kompass — där går den djupaste skiljelinjen.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Bud / kompass</div><div class="extra-desc">Färdiga order att lyda mot riktningar att tolka.</div></div>
+      <div><div class="extra-name">Tvärsäkerhet / omdöme</div><div class="extra-desc">Den som vill ha ett facit mot den som vågar väga.</div></div>
+      <div><div class="extra-name">Program / princip</div><div class="extra-desc">Tjugo punkter mot en handfull frågor som håller.</div></div>
+      <div><div class="extra-name">Dyrka / pröva</div><div class="extra-desc">Att följa blint mot att ständigt ompröva.</div></div>
+    </div>
+    <br>Motvikten lämnar dig inte med tio bud, utan med en kompass. Och det viktigaste väderstrecket är alltid: kom ihåg att du själv kan ha fel.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Kompassen</div><div class="extra-desc">Se människan · granska handlingen · följ konsekvensen · du kan ha fel.</div></div>
+  <div><div class="extra-name">Riktning, inte destination</div><div class="extra-desc">Kompassen ger väderstreck och frågor — inte färdiga svar.</div></div>
+  <div><div class="extra-name">Tankelek</div><div class="extra-desc">Poängen är testen, inte partiet. Pröva dem, håll inte med om allt.</div></div>
+  <div><div class="extra-name">Levande utkast</div><div class="extra-desc">v0.1.1. Får ändras när verkligheten talar.</div></div>
+  <div><div class="extra-name">Omdöme</div><div class="extra-desc">Det kompassen kräver av dig: väg frågorna själv, om och om igen.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Skriv din egen</div>
+  <div class="future-body">Motvikten räcker dig kompassen, inte kartan — precis som Livets Bibel räcker dig pennan, inte buden. Fyll själv i väderstrecken, och testa att bygga din egen motvikt. (Och till mitt försvar: jag skulle bara hänga tvätten. 🧺)</div>
+</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="opener">
+      <div class="num">VIII</div>
+      <div class="kap">Kapitel VIII</div>
+      <h2>Demokrati och institutioner</h2>
+      <div class="karn">Hur bygger vi makt som tål att bytas ut — och inte kan kapa sig själv?</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Här slutar metoden och börjar prövningen. De sju första kapitlen var testen och kompassen; nu kör vi de riktiga frågorna ett parti måste ha svar på — en i taget — genom dem. Vi börjar där Motvikten står stadigast: hur själva makten byggs.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Så prövar vi en sakfråga</span><span class="tag">Del II · Sakfrågorna</span></div>
+  <div class="body">Motvikten svarar inte höger eller vänster. På varje sakfråga gör vi tre saker i stället: vi kör den genom de tre testen, vi pekar ut de skyddsräcken vi aldrig ger upp — oavsett svar — och vi säger ärligt vilka värderingsval vi <em>inte</em> bestämmer åt dig. Så kan ett parti bli komplett utan att bli som de andra.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Testen på demokratin</span><span class="tag">Prövningen</span></div>
+  <div class="body"><strong>Dretstöveltestet:</strong> skulle du ge statsledningen den här makten om din värsta motståndare vann nästa val? Då bygger du inte för den goda ledaren utan för den värsta tänkbara — och kräver att makten går att byta ut.<br><br><strong>Slöjan:</strong> skriv spelreglerna utan att veta om du hamnar i regering eller opposition. Då blir minoritetens skydd lika viktigt som majoritetens rätt att styra.<br><br><strong>Konsekvensen:</strong> om institutionerna vittrar — vem betalar? Den som redan är svag och saknar andra murar mot makten. Notan för en kapad domstol landar sist hos den mäktige.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Vad testen kräver</span><span class="tag">Ståndpunkt · skyddsräcken</span></div>
+  <div class="body">Här tar Motvikten tydlig ställning — men bara på räckena, aldrig på färgen: oberoende domstolar, fri press, en professionell förvaltning som lyder lagen och inte partiet, och framför allt ett <em>fredligt, garanterat maktskifte</em>. Ny makt som griper in i det som ska granska den ska mötas av högsta misstänksamhet. Och tillfälliga fullmakter ska ha en solnedgång inbyggd — makt man tar i en kris ska försvinna av sig själv när krisen är över, inte överleva den.
+    <div class="lost"><div class="lost-label">Här brukar folk tappa det</div><div class="lost-text">Många tror att demokrati är att vinna — att majoriteten får bestämma. Men majoritet utan räcken är bara en ny sorts envälde. Demokratins verkliga prov är inte hur segraren styr, utan hur säkert förloraren kan förlora — och komma tillbaka och försöka igen. Demokrati är att kunna <em>förlora tryggt</em>.</div></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Det vi inte bestämmer åt dig</span><span class="tag">De ärliga frågorna</span></div>
+  <div class="body">Motvikten lägger sig inte i om landet ska vara monarki eller republik, hur låg rösträttsåldern bör vara, hur mycket direktdemokrati som ska blandas in i den representativa, eller exakt hur valsystemet ska ritas. Det är äkta värderingsval — dina, inte våra. Vårt enda krav är att vilket svar du än väljer ska tåla de tre testen. Ett parti som låtsas ha facit på allt sådant är ingen motvikt; det är bara ännu en tvärsäker röst.</div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Där hövdingen kan sägas emot (Botswana)</div><div class="utblick-text">I Botswana lever en gammal institution kvar: <em>kgotla</em>, byns öppna mötesplats där vem som helst får resa sig och tala — och där till och med hövdingen kan kritiseras rakt i ansiktet inför alla. Besluten söks i samförstånd, inte genom att den starkaste vinner. När Botswana blev självständigt 1966 vävdes kgotla in i den moderna staten, och landet räknas sedan dess som en av Afrikas mest stabila demokratier. (Traditionen hade sina gränser — länge var det främst männen som talade.) Att makten ska stå till svars inför dem den styr är ingen västlig uppfinning.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Ingen vill styras av någon som inte kan hejdas. Rädslan för tyrannen — den som tar makten och sedan stänger dörren om sig — är lika gammal och lika global som makten själv. Varje folk har drömt om en härskare som måste svara inför någon. Där möts vi, långt under all partifärg.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">6</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Hur hårt makten ska tyglas — och hur snabbt den ska få handla — drar isär oss.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Handlingskraft / kontroll</div><div class="extra-desc">En stark ledning som får saker gjort mot spärrar som med flit bromsar.</div></div>
+      <div><div class="extra-name">Majoritet / minoritet</div><div class="extra-desc">Folkviljans rätt att styra mot skyddet för dem som blev överröstade.</div></div>
+      <div><div class="extra-name">Expert / folk</div><div class="extra-desc">De som kan sakfrågan mot de som ska leva med beslutet.</div></div>
+      <div><div class="extra-name">Centralt / lokalt</div><div class="extra-desc">Att bestämma nära makten mot att bestämma nära människan.</div></div>
+    </div>
+    <br>Motvikten väljer inte sida i tempot — men den vägrar ge upp bromsen. En bil utan broms kommer fram fortast, ända tills den inte gör det.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Maktdelning</div><div class="extra-desc">Att ingen enda hand håller lagstiftning, verkställighet och dom på en gång.</div></div>
+  <div><div class="extra-name">Oberoende domstol</div><div class="extra-desc">En domare som kan döma mot makten utan att förlora jobbet.</div></div>
+  <div><div class="extra-name">Fri press</div><div class="extra-desc">Den fjärde motvikten: att makten kan granskas offentligt.</div></div>
+  <div><div class="extra-name">Fredligt maktskifte</div><div class="extra-desc">Provet på en demokrati — att förloraren lämnar ifrån sig makten, levande.</div></div>
+  <div><div class="extra-name">Solnedgångsklausul</div><div class="extra-desc">Krismakt med utgångsdatum, som försvinner av sig själv.</div></div>
+  <div><div class="extra-name">Kgotla</div><div class="extra-desc">Botswanas öppna folkmöte där även hövdingen kan sägas emot.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Sakfrågorna som väntar</div>
+  <div class="future-body">Det här var makten över besluten. Härnäst kör vi samma test på de frågor varje parti måste ha tänkt igenom: ekonomin och skatten, välfärden och vården (att se människan, inte numret), skolan, klimatet, friheten och övervakningen — och kriget, den fråga där testen biter allra hårdast. Ett komplett parti, byggt inte på färg utan på prövning.</div>
+</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="opener">
+      <div class="num">IX</div>
+      <div class="kap">Kapitel IX</div>
+      <h2>Ekonomi och skatt</h2>
+      <div class="karn">Vem får vad, vem bestämmer — och vem bär notan?</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Här skriker höger och vänster som högst. Motvikten skriker inte tillbaka — den ställer samma tre frågor som på allt annat, och upptäcker snabbt att bråket oftast gäller färgen, medan de verkliga farorna gäller räckena.</p>
+
+<div class="section"><div class="section-head"><span class="num">1</span><span class="concept">Testen på pengarna</span><span class="tag">Prövningen</span></div>
+<div class="body"><strong>Dretstöveltestet:</strong> skulle du ge den här makten över ekonomin — statens <em>eller</em> ett fåtal ägares — om din värsta motståndare höll i den? Då bygger du varken för den kloka finansministern eller den gode ägaren, utan mot att makten samlas i för få händer, i vilken ände det än sker.<br><br><strong>Slöjan:</strong> rita skatten och fördelningen utan att veta om du föds rik eller fattig, frisk eller sjuk, i storstad eller glesbygd. Det du då vågar bygga håller för alla, inte bara för dig.<br><br><strong>Konsekvensen:</strong> vem betalar när det går fel? Ofta den som aldrig satt vid bordet — och den dolda kostnaden, det ekonomerna kallar en externalitet, skickas vidare till den svagaste eller till framtiden.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">2</span><span class="concept">Vad testen kräver</span><span class="tag">Ståndpunkt · skyddsräcken</span></div>
+<div class="body">Motvikten tar inte ställning för hög eller låg skatt — det är din sak. Men den håller hårt i räckena: makten över pengar ska vara <em>delad</em> (varken allt hos staten eller hos några få jättar); den som fattar ett ekonomiskt beslut ska själv kunna drabbas av det (ingen ska kunna behålla vinsten och skicka förlusten vidare); dolda kostnader ska synas och prissättas; och besluten ska gå att ångra.
+<div class="lost"><div class="lost-label">Här brukar folk tappa det</div><div class="lost-text">Debatten fastnar i "mer stat eller mer marknad", som om det bara fanns två sorters makt. Men en allsmäktig stat och några få som äger allt är samma fara i olika kläder: makt utan motvikt. Rätt fråga är inte stat <em>eller</em> marknad — det är vem som kan hejda vem.</div></div></div></div>
+
+<div class="section"><div class="section-head"><span class="num">3</span><span class="concept">Det billiga som inte var billigt</span><span class="tag">Externaliteter</span></div>
+<div class="body">Det billigaste alternativet är ofta det som bara <em>ser</em> billigt ut, för att någon annan får räkningen — floden som förgiftas, luften, den obetalda omsorgen, ett urholkat klimat. Redan 1968 sa Robert Kennedy att BNP mäter allt utom det som gör livet värt att leva. Ett mått som stiger av ett oljeutsläpp och sjunker när en förälder stannar hemma med sitt barn är en trasig kompass. Motviktens fråga blir alltid: effektivt <em>för vem</em>, och på vems bekostnad?</div></div>
+
+<div class="section"><div class="section-head"><span class="num">4</span><span class="concept">Det vi inte bestämmer åt dig</span><span class="tag">De ärliga frågorna</span></div>
+<div class="body">Hur hög skatten ska vara, hur stor staten ska vara, var gränsen går mellan marknad och gemensamt, bidrag eller jobblinje — det är äkta värderingsval, dina och väljarens, inte våra. Motvikten lägger sig inte i färgen. Den kräver bara att vilket svar du än väljer tål de tre testen. Ett parti som säger sig ha facit på rätt skattenivå för alla tider har slutat vara en motvikt.</div></div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Marknadens vakt i Bagdad</div><div class="utblick-text">Att marknadsmakt måste stå till svars är ingen ny tanke. I den medeltida islamiska världen (från 700–800-talet och framåt) fanns ämbetet <em>muhtasib</em>, en marknadsinspektör inom institutionen <em>hisba</em>: han kontrollerade vikter och mått, stoppade fusk och hamstring, och kunde ställa den mäktige köpmannen till svars inför lagen. Idén att den som säljer inte själv får avgöra om affären var ärlig är över tusen år gammal — och global.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">5</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+<div class="body">Att den som ställer till det borde stå för notan, och att den som sliter borde få sitt — det är en rättvisekänsla varje barn bär. Ingen tycker om att se några få håva in medan andra betalar i tysthet. Under all ekonomisk teori sitter samma enkla folkvett: spelet ska kännas hyfsat rättvist, annars slutar folk tro på det.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">6</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+<div class="body">Hur världens värden ska fördelas drar isär oss djupare än nästan allt annat.
+<div class="extra-grid" style="margin-top:14px">
+<div><div class="extra-name">Marknad / gemensamt</div><div class="extra-desc">Frihetens och drivkraftens motor mot det vi väljer att äga tillsammans.</div></div>
+<div><div class="extra-name">Frihet / trygghet</div><div class="extra-desc">Rätten att behålla sitt mot skyddsnätet som fångar den som faller.</div></div>
+<div><div class="extra-name">Drivkraft / rättvisa</div><div class="extra-desc">Att det ska löna sig att anstränga sig mot att ingen ska lämnas utanför.</div></div>
+<div><div class="extra-name">Nu / framtiden</div><div class="extra-desc">Tillväxt idag mot en beboelig värld att ärva.</div></div>
+</div>
+<br>Motvikten väljer inte i den krocken. Men den vägrar låta någon sida — staten eller kapitalet — bli så mäktig att den slipper svara inför resten.</div></div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+<div><div class="extra-name">Delad ekonomisk makt</div><div class="extra-desc">Varken staten eller ett fåtal ägare ska kunna styra ensamt.</div></div>
+<div><div class="extra-name">Skin in the game</div><div class="extra-desc">Den som fattar beslutet ska själv kunna drabbas av det.</div></div>
+<div><div class="extra-name">Externalitet</div><div class="extra-desc">Kostnaden som faller utanför prislappen och landar hos någon annan.</div></div>
+<div><div class="extra-name">BNP:s blindfläck</div><div class="extra-desc">Måttet stiger av utsläpp och sjunker av obetald omsorg.</div></div>
+<div><div class="extra-name">Muhtasib</div><div class="extra-desc">Medeltida marknadsvakt — makt över handeln fick svara inför lagen.</div></div>
+<div><div class="extra-name">Effektivt för vem</div><div class="extra-desc">Två ord som avslöjar vem som egentligen bär kostnaden.</div></div>
+</div>
+<div class="future-box"><div class="future-head">Nästa sakfråga</div><div class="future-body">Om pengarna handlar om vem som får vad, handlar nästa om hur vi tjänar dem över huvud taget: arbetet — och frågan vad en människa är värd när en maskin kan göra jobbet.</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="opener">
+      <div class="num">X</div>
+      <div class="kap">Kapitel X</div>
+      <h2>Arbete och automatisering</h2>
+      <div class="karn">Vad är en människa värd när maskinen kan göra jobbet?</div>
+    </div>
+    <div class="ford">
+<p class="ingress">För de flesta är arbetet inte en fråga bland andra — det är där livet levs, identiteten byggs, dagen får form. Och just nu står det inför sin största omvälvning sedan traktorn. Därför förtjänar det ett eget test — inte minst av dem som funderar på att automatisera bort människor.</p>
+
+<div class="section"><div class="section-head"><span class="num">1</span><span class="concept">Testen på arbetet</span><span class="tag">Prövningen</span></div>
+<div class="body"><strong>Dretstöveltestet:</strong> skulle du ge arbetsgivaren — eller den som styr automatiseringen — den här makten över jobben om din värsta motståndare höll i den? Då kräver du skydd som håller också under en hänsynslös ägare.<br><br><strong>Slöjan:</strong> rita reglerna utan att veta om du blir den som bestämmer att jobbet ska bort, eller den vars jobb försvinner.<br><br><strong>Konsekvensen:</strong> vem betalar när ett jobb automatiseras bort? Sällan den som fattar beslutet. John Henry dog med släggan i hand — men det var inte han som tjänade på ångborren.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">2</span><span class="concept">Vad testen kräver</span><span class="tag">Ståndpunkt · skyddsräcken</span></div>
+<div class="body">Motvikten föreskriver ingen arbetsmarknadsmodell. Men räckena står fast: arbete handlar om värdighet och mening, inte bara om produktion; <em>augmentering framför automation</em> — låt maskinen ta rutinen så människan får råd att vara människa, i stället för att byggas bort för att spara; den som automatiserar bör bära en del av omställningens kostnad, inte bara skörda vinsten; och ingen som kan och vill arbeta ska behandlas som överflödig.
+<div class="lost"><div class="lost-label">Här brukar folk tappa det</div><div class="lost-text">Vi säger "tekniken skapar alltid nya jobb till slut". På lång sikt kanske. Men "till slut" är en klen tröst för den vars yrke försvinner idag, i en stad där det var vägen upp. Det verkliga misstaget är att tro att en människas värde ligger i vad hon producerar. Bonden som köpte traktorn överlevde — men bara för att han fick bli något mer än sin släggasvingande styrka. Frågan är aldrig bara "kan vi automatisera?" utan "automatiserar vi <em>för</em> människan eller <em>bort</em> henne?".</div></div></div></div>
+
+<div class="section"><div class="section-head"><span class="num">3</span><span class="concept">Det vi inte bestämmer åt dig</span><span class="tag">De ärliga frågorna</span></div>
+<div class="body">Hur mycket automation, medborgarlön eller jobbgaranti eller omskolning, hur stark fackens roll, hur lång arbetstiden ska vara — det är värderingsval, dina och väljarens. Motvikten pekar inte ut modellen. Den kräver bara att människan aldrig blir en post man optimerar bort utan att någon bär hennes fall.</div></div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Att bära bördan tillsammans (Indonesien)</div><div class="utblick-text">I Indonesien finns begreppet <em>gotong royong</em> — ungefär "att bära bördan gemensamt": grannar som tillsammans bygger ett hus, röjer en väg eller hjälps åt med skörden, utan lön, som en självklar väv av ömsesidighet. Det påminner om något arbetet alltid varit vid sidan av inkomsten: ett kitt mellan människor. När vi automatiserar enbart för effektivitet riskerar vi att klippa av just den tråden — och den syns aldrig i kalkylen.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+<div class="body">Nästan alla vill känna sig behövda, bidra med något, gå hem efter en dag och känna att det betydde något. Arbete är inte bara lön — det är en av de djupaste källorna till mening och stolthet vi har. Att bli överflödig, att inte behövas, gör ont på ett sätt som ingen check helt kan laga. Där möts vi, oavsett var vi står i debatten.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+<div class="body">Vad vi ska göra när maskinen kan göra jobbet drar isär oss.
+<div class="extra-grid" style="margin-top:14px">
+<div><div class="extra-name">Automation / jobb</div><div class="extra-desc">Effektivitetens vinst mot tryggheten i att behövas.</div></div>
+<div><div class="extra-name">Effektivitet / värdighet</div><div class="extra-desc">Att producera mer med färre mot att låta arbetet bära mening.</div></div>
+<div><div class="extra-name">Inkomst / mening</div><div class="extra-desc">Lönen som räcker mot känslan av att bidra.</div></div>
+<div><div class="extra-name">Omskolning / skydd</div><div class="extra-desc">Att lära om för det nya mot att värna det som finns.</div></div>
+</div>
+<br>Motvikten väljer inte modellen. Men den vägrar en framtid där människan byggs bort som en kostnad — och kräver att vi automatiserar för henne, inte bort henne.</div></div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+<div><div class="extra-name">Augmentering</div><div class="extra-desc">Låt maskinen ta rutinen så människan får råd att vara människa.</div></div>
+<div><div class="extra-name">Automation</div><div class="extra-desc">Att bygga bort människan — ibland klokt, ofta för billigt tänkt.</div></div>
+<div><div class="extra-name">John Henry / traktorn</div><div class="extra-desc">Dö inte försvarande det gamla — men låt inte maskinen radera dig heller.</div></div>
+<div><div class="extra-name">Omställningens kostnad</div><div class="extra-desc">Den som automatiserar bör bära en del av fallet, inte bara vinsten.</div></div>
+<div><div class="extra-name">Gotong royong</div><div class="extra-desc">Arbetet som kitt mellan människor, inte bara en transaktion.</div></div>
+<div><div class="extra-name">Människovärde ≠ produktivitet</div><div class="extra-desc">Du är värd något också de dagar du inget producerar.</div></div>
+</div>
+<div class="future-box"><div class="future-head">Nästa sakfråga</div><div class="future-body">Om arbetet handlar om vad vi bidrar med, handlar nästa om vad som fångar oss när vi inte kan: välfärden, vården och omsorgen — frågan där Motvikten står som allra varmast.</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="opener">
+      <div class="num">XI</div>
+      <div class="kap">Kapitel XI</div>
+      <h2>Välfärd, vård och omsorg</h2>
+      <div class="karn">Hur bygger vi system som ser människan, inte numret?</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Här står Motvikten som varmast. För det är i vården, omsorgen och skyddsnäten som frågan blir bokstavlig: ser systemet människan framför sig, eller bara raden i statistiken?</p>
+
+<div class="section"><div class="section-head"><span class="num">1</span><span class="concept">Testen på skyddsnätet</span><span class="tag">Prövningen</span></div>
+<div class="body"><strong>Dretstöveltestet:</strong> skulle du acceptera det här systemet om du var det svagaste, mest ovanliga fallet i det — den som inte passar i någon ruta? Ett skyddsnät ska bära just den, annars är det inget nät.<br><br><strong>Slöjan:</strong> bygg det utan att veta om du blir frisk eller sjuk, stark eller skör, ung eller gammal och glömsk. Då bygger du inte för dig som du är idag, utan för dig i din mest utsatta stund.<br><br><strong>Konsekvensen:</strong> vem faller mellan stolarna? Alltid den som modellen får <em>fel</em> om — och som dessutom har minst kraft att orka överklaga.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">2</span><span class="concept">Vad testen kräver</span><span class="tag">Ståndpunkt · skyddsräcken</span></div>
+<div class="body">Motvikten tar inte ställning för hur stor eller generös välfärden ska vara. Men räckena är heliga: en <em>människa</em> ska alltid bära det avgörande beslutet — en modell får sammanfatta och föreslå, men aldrig döma ensam; var och en har rätt att bli sedd av en människa och att överklaga; och systemet ska mätas på hur det behandlar den det får fel om, inte hur snabbt det klarar snittfallet. Effektivitet får aldrig bygga bort ansvaret.
+<div class="lost"><div class="lost-label">Här brukar folk tappa det</div><div class="lost-text">Vi tror att ett rättvist system är ett "objektivt" system — en siffra utan känslor. Men en modell mäter medelvärdet, aldrig människan framför den. Det "objektiva" kan vara djupt orättvist mot just den som inte liknar snittet. Värme är inte motsatsen till rättvisa; ibland är den den enda rättvisa som finns.</div></div></div></div>
+
+<div class="section"><div class="section-head"><span class="num">3</span><span class="concept">Att bygga tillbaka människan</span><span class="tag">Visionen</span></div>
+<div class="body">Automationen gav oss bekvämlighet och tog något i tysthet: människan försvann ur banken, ur myndigheten, delvis ur vården. Varje enskilt beslut var rimligt; summan blev ett samhälle där det knappt går att nå en annan människa. Motviktens svar är inte att slänga tekniken — det är att para den med mänskliga knutpunkter: personliga ombud som en husläkare, en riktig människa som känner din historia, och en AI som får ta det tråkiga men aldrig det avgörande. Det billiga som byggde bort människan var aldrig billigt. Notan kom, den skickades bara vidare till den som föll.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">4</span><span class="concept">Det vi inte bestämmer åt dig</span><span class="tag">De ärliga frågorna</span></div>
+<div class="body">Hur mycket välfärd, hur den ska finansieras (skatt eller avgift), om utförandet ska vara offentligt eller privat, hur generösa villkoren ska vara — det är värderingsval, dina och väljarens. Motvikten lägger sig inte i storleken. Den kräver bara att vilken välfärd du än väljer aldrig får sluta se människan bakom siffran.</div></div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Att se alla, fast man är fattig (Thailand)</div><div class="utblick-text">År 2002 gjorde Thailand något många rikare länder inte klarat: införde allmän sjukvård för hela befolkningen — det så kallade 30-baht-systemet — trots att landet då var betydligt fattigare än väst. Miljoner som förr avstått vård för att de inte hade råd kunde plötsligt gå till läkaren. Läxan är obekväm och hoppfull på en gång: att se varje människa är inte i första hand en fråga om hur rikt ett land är, utan om vad det väljer att mäta och betala för.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">5</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+<div class="body">Att bli sedd av någon som känner en är ingen lyx — det är biologi. I alla tider och kulturer byggdes tryggheten på ansikten: byns äldste, gårdens fadder, systerskapet bakom mikrolånen. Ett samhälle där ingen känner dig är inte bara kallt, det är otryggt på riktigt. Alla vet, djupt inom sig, hur det känns att vara raden i någon annans statistik.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">6</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+<div class="body">Hur mycket vi är skyldiga varandra drar isär oss.
+<div class="extra-grid" style="margin-top:14px">
+<div><div class="extra-name">Eget ansvar / gemensamt</div><div class="extra-desc">Att var och en bär sitt mot att vi bär varandra.</div></div>
+<div><div class="extra-name">Effektivitet / värme</div><div class="extra-desc">Systemet som skalar mot människan som måste få synas.</div></div>
+<div><div class="extra-name">Lika för alla / efter behov</div><div class="extra-desc">Samma till alla mot mest till den som behöver mest.</div></div>
+<div><div class="extra-name">Kontroll / tillit</div><div class="extra-desc">Att gardera mot fusk mot att inte kränka den ärlige på köpet.</div></div>
+</div>
+<br>Motvikten väljer inte hur stort nätet ska vara. Men den vägrar ett nät som tappar just den det var till för.</div></div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+<div><div class="extra-name">Mandatet</div><div class="extra-desc">En människa bär alltid det avgörande beslutet, aldrig modellen ensam.</div></div>
+<div><div class="extra-name">Rätten att överklaga</div><div class="extra-desc">Att kunna bli sedd av en människa när modellen fått fel.</div></div>
+<div><div class="extra-name">Måttet på ett samhälle</div><div class="extra-desc">Hur det behandlar den som modellen råkar få fel om.</div></div>
+<div><div class="extra-name">Personligt ombud</div><div class="extra-desc">En riktig människa som känner din historia, som en husläkare.</div></div>
+<div><div class="extra-name">Augmentering</div><div class="extra-desc">Låt maskinen ta rutinen så människan får råd att vara människa.</div></div>
+<div><div class="extra-name">30-baht-systemet</div><div class="extra-desc">Thailands bevis: att se alla är ett val, inte en fråga om rikedom.</div></div>
+</div>
+<div class="future-box"><div class="future-head">Nästa sakfråga</div><div class="future-body">Om vården formar hur vi tas om hand, formar skolan vilka vi blir. Nästa kapitel prövar bildningen — och frågar vad en skola egentligen ska fostra när en maskin plötsligt kan all fakta på en sekund.</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="opener">
+      <div class="num">XII</div>
+      <div class="kap">Kapitel XII</div>
+      <h2>Skola och bildning</h2>
+      <div class="karn">Vad ska skolan fostra — lydnad, nytta eller omdöme?</div>
+    </div>
+    <div class="ford">
+<p class="ingress">En skola formar inte bara vad barn kan, utan vilka de blir — och därmed vilket samhälle vi har om trettio år. Just därför är den en maktfråga. Och just därför prövar vi den.</p>
+
+<div class="section"><div class="section-head"><span class="num">1</span><span class="concept">Testen på skolan</span><span class="tag">Prövningen</span></div>
+<div class="body"><strong>Dretstöveltestet:</strong> skulle du ge den som styr läroplanen den makten om din värsta motståndare fick sätta den efter nästa val? Då bygger du en skola som lär barn <em>tänka</em>, inte lyda en viss sanning — för nästa makthavare kan ha en helt annan.<br><br><strong>Slöjan:</strong> rita skolan utan att veta vilket barn du blir — den som halkar efter, den högpresterande, den fattiga, den som lär långsamt. Då bygger du en skola som bär alla.<br><br><strong>Konsekvensen:</strong> vem betalar för en skola som misslyckas? Barnet som aldrig lär sig tänka själv — och hela demokratin, en generation senare, när ingen längre kan skilja ett gott argument från ett vackert.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">2</span><span class="concept">Vad testen kräver</span><span class="tag">Ståndpunkt · skyddsräcken</span></div>
+<div class="body">Motvikten tar inte ställning i varje läroplansstrid. Men räckena står fast: skolan ska lära att <em>tänka</em>, inte bara lyda; ingen makt får monopol på vad som är sant i klassrummet (barn ska möta flera röster och lära sig källkritik); den svagaste eleven får inte offras för att lyfta snittet; och bildning får inte krympas till bara det som går att mäta i ett prov.
+<div class="lost"><div class="lost-label">Här brukar folk tappa det</div><div class="lost-text">Vi förväxlar utbildning med att fylla på fakta — och nu när en maskin kan fakta på en sekund känns skolan plötsligt onödig. Men skolans verkliga uppgift var aldrig att lagra svar. Den var att fostra omdömet som avgör vilka svar man kan lita på. Ju mer AI kan, desto viktigare blir just det maskinen inte kan: att lära en människa att tänka själv.</div></div></div></div>
+
+<div class="section"><div class="section-head"><span class="num">3</span><span class="concept">Det vi inte bestämmer åt dig</span><span class="tag">De ärliga frågorna</span></div>
+<div class="body">Betyg eller inte, kommunal eller statlig eller fristående skola, hur mycket skärm som hör hemma i klassrummet, hur tidig specialiseringen ska vara — det är värderingsval och avvägningar, dina och väljarens. Motvikten lägger sig inte i dem. Den kräver bara att vilken skola du än väljer fostrar omdöme, inte lydnad, och släpper igenom flera röster än en.</div></div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Världens äldsta universitet grundades av en kvinna (Fez)</div><div class="utblick-text">Det som ofta räknas som världens äldsta ännu verksamma universitet ligger inte i Europa. Al-Qarawiyyin grundades år 859 i Fez i dagens Marocko — av en kvinna, Fatima al-Fihri, som la sitt arv på ett lärosäte där juridik, matematik, astronomi och medicin studerades långt innan Europas första universitet fanns. Att kunskap är helig, och att den kan bäras och grundas av en kvinna, är ingen modern uppfinning. Det är över tusen år gammalt.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+<div class="body">Varje förälder vill att deras barn ska få det bättre, förstå mer, stå friare än de själva gjorde. Att föra kunskap vidare till nästa generation är kanske den mest mänskliga handlingen som finns — det är så vi vägrar börja om från noll varje gång. Där möts vi, oavsett vad vi tycker om betyg och läroplaner.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+<div class="body">Vad skolan är till för drar isär oss.
+<div class="extra-grid" style="margin-top:14px">
+<div><div class="extra-name">Nytta / bildning</div><div class="extra-desc">Att rusta för jobbet mot att odla en hel människa.</div></div>
+<div><div class="extra-name">Lydnad / omdöme</div><div class="extra-desc">Att lära sig göra rätt mot att lära sig avgöra vad som är rätt.</div></div>
+<div><div class="extra-name">Lika / valfrihet</div><div class="extra-desc">Samma skola för alla mot rätten att välja sin egen.</div></div>
+<div><div class="extra-name">Mäta / mogna</div><div class="extra-desc">Det som syns i provet mot det som tar år att växa fram.</div></div>
+</div>
+<br>Motvikten väljer inte i den striden. Men den vägrar en skola som fostrar lydiga svar i stället för fria tänkare — för det är fria tänkare varje motvikt till slut vilar på.</div></div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+<div><div class="extra-name">Folkbildning</div><div class="extra-desc">Att förklara så alla hänger med, utan att någon känner sig dum.</div></div>
+<div><div class="extra-name">Källkritik</div><div class="extra-desc">Att lära sig fråga hur man vet, inte bara vad man vet.</div></div>
+<div><div class="extra-name">Omdöme</div><div class="extra-desc">Förmågan att avgöra vilka svar man kan lita på — skolans kärna.</div></div>
+<div><div class="extra-name">Pluralism i klassrummet</div><div class="extra-desc">Flera röster, ingen ensam sanning uppifrån.</div></div>
+<div><div class="extra-name">Al-Qarawiyyin</div><div class="extra-desc">Världens äldsta universitet (Fez, 859), grundat av Fatima al-Fihri.</div></div>
+<div><div class="extra-name">Mätbarhetsfällan</div><div class="extra-desc">Att bara räkna det som går att räkna — och tappa resten.</div></div>
+</div>
+<div class="future-box"><div class="future-head">Sakfrågorna som väntar</div><div class="future-body">Kvar står klimatet, friheten och övervakningen, migrationen och rättvisan — och kriget, den fråga som mest av allt borde ha tyglats av en fungerande motvikt (den bygger vi med extra omsorg, och gärna tillsammans). Och till sist en ärlig lista: det vi vägrar bestämma åt dig.</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="opener">
+      <div class="num">XIII</div>
+      <div class="kap">Kapitel XIII</div>
+      <h2>Klimat och miljö</h2>
+      <div class="karn">Hur väger vi dagens bekvämlighet mot en värld vi aldrig får se?</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Ingen sakfråga sätter konsekvenstestet så bokstavligt på prov. Här fattar en generation beslut vars nota skickas till dem som ännu inte fötts — och som aldrig får rösta om saken.</p>
+
+<div class="section"><div class="section-head"><span class="num">1</span><span class="concept">Testen på framtiden</span><span class="tag">Prövningen</span></div>
+<div class="body"><strong>Dretstöveltestet:</strong> skulle du ge den här generationen makten att förbruka planetens framtid om du visste att den kortsiktige — eller din värsta motståndare — höll i besluten? Då bygger du mot dem som aldrig får betala för din bekvämlighet.<br><br><strong>Slöjan:</strong> välj klimatreglerna utan att veta om du föds nu eller år 2100. Plötsligt ser en het framtid mindre abstrakt ut.<br><br><strong>Konsekvensen:</strong> det tydligaste fallet i hela boken — de som släpper ut är sällan de som drunknar. Notan går till framtiden och till de fattigaste länderna, de mest röstlösa av alla.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">2</span><span class="concept">Vad testen kräver</span><span class="tag">Ståndpunkt · skyddsräcken</span></div>
+<div class="body">Motvikten föreskriver inte hur du löser klimatet. Men räckena står fast: den som orsakar en kostnad ska bära den (utsläpp får ett pris i stället för att skickas vidare); framtiden ska ha en röst i rummet, för någon måste rösta för de ofödda; och det <em>oåterkalleliga</em> väger tyngst av allt — ett dåligt beslut kan man riva, men en utdöd art eller en passerad tröskel går inte att återställa. Där felet inte går att ångra gäller försiktighet.
+<div class="lost"><div class="lost-label">Här brukar folk tappa det</div><div class="lost-text">Vi behandlar framtiden som gratis — precis som vi länge behandlade luften och havet. Men allt som skjuts framåt landar hos någon. Klimatfrågan är egentligen inte en strid mellan miljö och ekonomi; den är en strid mellan dem som är här nu och kan rösta, och dem som kommer sen och inte kan. Konsekvenstestet finns till just för den sortens ojämlikhet.</div></div></div></div>
+
+<div class="section"><div class="section-head"><span class="num">3</span><span class="concept">Det vi inte bestämmer åt dig</span><span class="tag">De ärliga frågorna</span></div>
+<div class="body">Skatt eller förbud eller ny teknik, kärnkraft eller förnybart eller båda, hur snabbt omställningen ska gå, hur bördan ska delas mellan rika och fattiga länder — det är strategi- och värderingsval, dina och väljarens. Motvikten pekar inte ut medlet. Den kräver bara en sak: att framtiden räknas som en part vid bordet, inte som en soptipp.</div></div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Floden som blev en person (Nya Zeeland)</div><div class="utblick-text">2017 gjorde Nya Zeeland något ovanligt: floden Whanganui fick juridisk personlighet — egna rättigheter och två utsedda väktare som talar i dess namn inför domstol. Bakom beslutet låg maorifolket, för vilka floden i generationer varit en förfader snarare än en resurs; ett känt maoriskt uttryck lyder ungefär "jag är floden och floden är jag". Att ge det röstlösa en röst i rummet är inte flum — det är exakt vad konsekvenstestet efterfrågar.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+<div class="body">Ingen vill lämna en utarmad, obeboelig värld till sina barn. Oavsett var vi står politiskt bär vi samma djupa instinkt: att förvalta, att lämna något värt att ärva efter oss. Ingen förälder drömmer om en sämre värld åt nästa generation. Där möts vi, under allt bråk om medlen.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+<div class="body">Hur mycket vi ska offra nu för en framtid vi inte ser drar isär oss.
+<div class="extra-grid" style="margin-top:14px">
+<div><div class="extra-name">Miljö / ekonomi</div><div class="extra-desc">Att skydda planeten mot att skydda jobb och välstånd idag.</div></div>
+<div><div class="extra-name">Förbjuda / uppfinna</div><div class="extra-desc">Att sätta stopp mot att lita på att tekniken löser det.</div></div>
+<div><div class="extra-name">Globalt / nationellt</div><div class="extra-desc">Vem som ska gå först, och vem som bär det tyngsta ansvaret.</div></div>
+<div><div class="extra-name">Livsstil / system</div><div class="extra-desc">Den enskildes val mot de stora strukturernas skuld.</div></div>
+</div>
+<br>Motvikten väljer inte medlet. Men den vägrar en politik som köper vår bekvämlighet på kredit hos dem som inte kan säga nej.</div></div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+<div><div class="extra-name">Externalitet</div><div class="extra-desc">Kostnaden som faller utanför prislappen — här: utsläppens nota till framtiden.</div></div>
+<div><div class="extra-name">Sjunde generationen</div><div class="extra-desc">Väg beslutet mot dess följder långt in i framtiden.</div></div>
+<div><div class="extra-name">Oåterkallelighet</div><div class="extra-desc">Den värsta sortens risk — det som inte går att ångra kräver försiktighet.</div></div>
+<div><div class="extra-name">Framtiden som part</div><div class="extra-desc">De ofödda ska räknas vid bordet, fast de inte kan rösta.</div></div>
+<div><div class="extra-name">Whanganui</div><div class="extra-desc">Floden i Nya Zeeland som fick juridiska rättigheter (2017).</div></div>
+<div><div class="extra-name">Försiktighetsprincipen</div><div class="extra-desc">När felet inte går att reparera väger tvivlet åt säkerhetens håll.</div></div>
+</div>
+<div class="future-box"><div class="future-head">Nästa sakfråga</div><div class="future-body">Om klimatet handlar om makten över framtiden, handlar nästa om makten över dig här och nu: friheten och övervakningen — hur mycket makten får se dig, och vem som vaktar vakten.</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="opener">
+      <div class="num">XIV</div>
+      <div class="kap">Kapitel XIV</div>
+      <h2>Frihet och övervakning</h2>
+      <div class="karn">Hur mycket får makten se dig — och vem vaktar vakten?</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Trygghet och frihet dras ständigt mot varandra, och varje kris frestar oss att byta bort lite frihet för lite trygghet. Motvikten säger inte att bytet aldrig får göras — den säger att det aldrig får bli permanent, och aldrig ovakat.</p>
+
+<div class="section"><div class="section-head"><span class="num">1</span><span class="concept">Testen på övervakningen</span><span class="tag">Prövningen</span></div>
+<div class="body"><strong>Dretstöveltestet:</strong> det klassiska. Skulle du ge staten — eller företaget — den här makten att se dig om din värsta motståndare styrde? Övervakning byggd för en god regering ärvs av nästa, som kanske inte är god alls.<br><br><strong>Slöjan:</strong> rita reglerna utan att veta om du blir majoritet eller avvikare, vaktare eller vaktad. Den som är säker på att alltid tillhöra "de skötsamma" har inte förstått testet.<br><br><strong>Konsekvensen:</strong> vem drabbas när övervakningen tar fel? Den oskyldige som en dum modell flaggar, minoriteten, den som vågar tänka annorlunda.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">2</span><span class="concept">Vad testen kräver</span><span class="tag">Ståndpunkt · skyddsräcken</span></div>
+<div class="body">Motvikten föreskriver ingen exakt kameranivå. Men räckena är hårda: makten att se dig ska vara delad och granskad — någon måste vakta vakten; övervakning ska vara riktad och tidsbegränsad, aldrig total och permanent; och integritet är rätten att bestämma vem som känner dig, inte att gömma brott. Din data är inte olja, den är en dagbok — den som samlar den samlar dig.
+<div class="lost"><div class="lost-label">Här brukar folk tappa det</div><div class="lost-text">"Jag har inget att dölja" missar hela poängen. Integritet handlar inte om att gömma något fult, utan om att få bestämma vem som känner dig — och en profil byggd utan din vetskap kan användas mot dig långt senare, i sammanhang du aldrig anade. Den som inget har att dölja idag vet inte vem som läser filen imorgon.</div></div></div></div>
+
+<div class="section"><div class="section-head"><span class="num">3</span><span class="concept">Det vi inte bestämmer åt dig</span><span class="tag">De ärliga frågorna</span></div>
+<div class="body">Exakt var balansen mellan säkerhet och integritet ska ligga, hur långt krypteringen ska skyddas, hur mycket kameror i det offentliga — det är avvägningar, dina och väljarens. Motvikten sätter ingen exakt gräns. Men golvet är hårt och gäller alla färger: total, permanent massövervakning tål inget av de tre testen, hur god avsikten än sägs vara.</div></div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Hemmet som helig gräns</div><div class="utblick-text">Tanken att privatlivet är okränkbart är gammal och global. I den islamiska traditionen finns sedan 600-talet ett uttryckligt förbud mot <em>tajassus</em> — att spionera på och kartlägga varandra — och en regel att man inte får gå in i någons hem utan lov. Privatlivet som en helig gräns, inte en lyx man får när det passar makten, är alltså långt äldre än den digitala ålder som nu prövar det.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+<div class="body">Alla känner obehaget av att ständigt vara bevakad — barnet som slutar leka fritt när en vuxen stirrar, känslan av någon som läser över axeln. Att vilja ha en vrå som är ens egen är lika mänskligt som att vilja vara trygg. Ingen, oavsett åsikt, vill leva helt genomlyst.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+<div class="body">Hur mycket vi ska se varandra för att känna oss trygga drar isär oss.
+<div class="extra-grid" style="margin-top:14px">
+<div><div class="extra-name">Trygghet / frihet</div><div class="extra-desc">Att gardera mot faran mot att inte kväva den fria människan.</div></div>
+<div><div class="extra-name">Öppenhet / integritet</div><div class="extra-desc">Insyn som håller makten ärlig mot rätten till en egen vrå.</div></div>
+<div><div class="extra-name">Staten ser / företagen ser</div><div class="extra-desc">Två blickar på dig — vilken är farligast, och vem hejdar den?</div></div>
+<div><div class="extra-name">Ordning / spontanitet</div><div class="extra-desc">Det kontrollerbara samhället mot det levande, stökiga, fria.</div></div>
+</div>
+<br>Motvikten väljer inte den exakta balansen. Men den vägrar en makt som ser allt och själv inte kan ses.</div></div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+<div><div class="extra-name">Vem vaktar vakten</div><div class="extra-desc">Makten att övervaka måste själv vara övervakad.</div></div>
+<div><div class="extra-name">Integritet</div><div class="extra-desc">Rätten att bestämma vem som känner dig — inte att gömma brott.</div></div>
+<div><div class="extra-name">Data är dagbok</div><div class="extra-desc">Inte opersonlig olja — den som samlar din data samlar dig.</div></div>
+<div><div class="extra-name">Riktad och tidsbegränsad</div><div class="extra-desc">Övervakning med skäl och slutdatum, aldrig total och permanent.</div></div>
+<div><div class="extra-name">Tajassus-förbudet</div><div class="extra-desc">Gammalt globalt bud mot att spionera på varandra.</div></div>
+<div><div class="extra-name">Nedkylningseffekten</div><div class="extra-desc">Att den som vet sig bevakad slutar tänka och tala fritt.</div></div>
+</div>
+<div class="future-box"><div class="future-head">Nästa sakfråga</div><div class="future-body">Om friheten handlar om makten över den som redan är innanför, handlar nästa om den som står utanför och knackar på: migrationen — frågan där Motvikten vägrar välja mellan hjärtat och ordningen, och kräver båda.</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="opener">
+      <div class="num">XV</div>
+      <div class="kap">Kapitel XV</div>
+      <h2>Migration och integration</h2>
+      <div class="karn">Hur möter vi den som knackar på — utan att tappa vare sig medmänskligheten eller ordningen?</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Ingen fråga får sinnena att koka som denna, och ingen visar tydligare vad en motvikt är. För här vägrar Motvikten det de flesta gör: att välja mellan hjärtat och ordningen. Den kräver båda — för ett system utan hjärta blir grymt, och ett utan ordning blir ingen hjälp alls.</p>
+
+<div class="section"><div class="section-head"><span class="num">1</span><span class="concept">Testen på gränsen</span><span class="tag">Prövningen</span></div>
+<div class="body"><strong>Dretstöveltestet:</strong> skulle du ge staten den här makten över vem som får höra till, och vem som kan utvisas, om din värsta motståndare höll i den? En makt att stryka någons tillhörighet måste tåla att hamna i de sämsta händer.<br><br><strong>Slöjan:</strong> rita reglerna utan att veta om du föds innanför gränsen eller utanför — som medborgare eller som den som tvingas fly.<br><br><strong>Konsekvensen:</strong> vem betalar för en misslyckad politik? Både den utsatta som flyr <em>och</em> den redan pressade i mottagarlandet vars skola och vård ska räcka till — och i förlängningen sammanhållningen, som är svår att bygga och lätt att rasera.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">2</span><span class="concept">Vad testen kräver</span><span class="tag">Ståndpunkt · båda räckena</span></div>
+<div class="body">Här håller Motvikten två räcken samtidigt och vägrar släppa något av dem. Varje människa har värdighet och rättigheter oavsett papper — ingen är "illegal" som människa. <em>Och</em> ett system måste vara lagligt, förutsägbart och gå att upprätthålla — regler som inte följs föder misstro och drabbar till slut dem de skulle skydda. Beslut om en människas liv ska fattas av en människa med rätt att överklaga, aldrig av en modell. Och mottagarsamhällets svagaste ska inte tyst få bära hela kostnaden.
+<div class="lost"><div class="lost-label">Här brukar folk tappa det</div><div class="lost-text">Migration är frågan där båda lägren tappar Motviktens poäng. Det ena glömmer att lagen måste gälla lika för att betyda något; det andra glömmer att människan framför en har exakt samma värde som en själv. Den som bara har hjärta bygger kaos; den som bara har ordning bygger grymhet. Konsten — och kravet — är att hålla båda i handen samtidigt.</div></div></div></div>
+
+<div class="section"><div class="section-head"><span class="num">3</span><span class="concept">Det vi inte bestämmer åt dig</span><span class="tag">De ärliga frågorna</span></div>
+<div class="body">Hur många som ska tas emot, hur asyl vägs mot arbetskraft, vilken integrationsmodell som gäller — hur mycket krav, hur mycket stöd, hur mycket anpassning — det är äkta värderings- och avvägningsval, väljarens, inte våra. Motvikten sätter ingen siffra och pekar inte ut en modell. Den kräver bara att vilken nivå du än väljer hålls med <em>både</em> värdighet och ordning, och att notan aldrig tyst skickas till dem som minst kan bära den.</div></div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Den fattige som tog emot flest (Uganda)</div><div class="utblick-text">Ett av världens mest generösa flyktingmottaganden finns inte i väst. Uganda — ett fattigt land — tar emot omkring en och en halv miljon människor på flykt och ger dem något ovanligt: rätt att arbeta, röra sig fritt och bruka en bit jord, i stället för att stängas in bakom stängsel. Modellen är pressad och långt ifrån problemfri, men den vilar på en enkel tanke: den som får bidra blir en tillgång, inte en börda. Att möta den som flyr med värdighet är inte i första hand en fråga om hur rikt ett land är.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+<div class="body">Två urgamla instinkter möts — och krockar — i var och en av oss: plikten att ta emot den som knackar på i nöd, gästfriheten som finns i varje kultur, och behovet av ett hem som är tryggt och känt. Båda är djupt mänskliga. Den som låtsas att bara den ena finns ljuger om människan — och därför blir frågan så svår, och därför förtjänar den mer eftertanke än skrik.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+<div class="body">Hur vi möter den som kommer drar isär oss djupare än nästan allt.
+<div class="extra-grid" style="margin-top:14px">
+<div><div class="extra-name">Medmänsklighet / ordning</div><div class="extra-desc">Plikten mot den i nöd mot behovet av regler som håller.</div></div>
+<div><div class="extra-name">Öppet / reglerat</div><div class="extra-desc">Att ta emot generöst mot att ta emot så det fungerar.</div></div>
+<div><div class="extra-name">Bevara / blanda</div><div class="extra-desc">Rädslan att tappa det egna mot tron på att möten berikar.</div></div>
+<div><div class="extra-name">Kort sikt / lång sikt</div><div class="extra-desc">Krisen just nu mot samhället vi bygger för decennier framåt.</div></div>
+</div>
+<br>Motvikten väljer inte nivån. Men den vägrar både det hjärtlösa och det laglösa svaret — för inget av dem tål testen.</div></div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+<div><div class="extra-name">Båda räckena</div><div class="extra-desc">Värdighet och ordning samtidigt — aldrig det ena utan det andra.</div></div>
+<div><div class="extra-name">Ingen är illegal som människa</div><div class="extra-desc">Papper avgör status, aldrig människovärde.</div></div>
+<div><div class="extra-name">Lagen ska gälla lika</div><div class="extra-desc">Regler som inte följs föder misstro och drabbar de svaga.</div></div>
+<div><div class="extra-name">Vem bär notan</div><div class="extra-desc">Kostnaden får inte tyst landa på mottagarsamhällets svagaste.</div></div>
+<div><div class="extra-name">Uganda-modellen</div><div class="extra-desc">Rätt att arbeta och bruka jord — bidra i stället för att förvaras.</div></div>
+<div><div class="extra-name">Gästfrihet</div><div class="extra-desc">Plikten mot den nödställde — en av mänsklighetens äldsta.</div></div>
+</div>
+<div class="future-box"><div class="future-head">Sakfrågorna som väntar</div><div class="future-body">Kvar står rättvisan och straffet, EU och omvärlden — och kriget, den fråga som mest av allt borde ha tyglats av en fungerande motvikt (den bygger vi med extra omsorg, och tillsammans). Men vänd först blad till den ovanligaste sidan i partiet: erbjudandet till alla andra partier.</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="opener">
+      <div class="num">XVI</div>
+      <div class="kap">Kapitel XVI</div>
+      <h2>Rättvisa och straff</h2>
+      <div class="karn">Hur skipar vi rättvisa utan att bli det vi dömer?</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Straff är statens råaste makt — att med våld ta någons frihet, ibland livet. Just därför är det den makt som allra tydligast måste tåla testen. En rättvisa som blir det den dömer har förlorat.</p>
+
+<div class="section"><div class="section-head"><span class="num">1</span><span class="concept">Testen på straffet</span><span class="tag">Prövningen</span></div>
+<div class="body"><strong>Dretstöveltestet:</strong> skulle du ge staten den här makten att döma, fängsla och straffa om din värsta motståndare höll i den? Då kräver du rättssäkerhet: ingen straffas utan en rättvis prövning.<br><br><strong>Slöjan:</strong> rita rättssystemet utan att veta om du blir brottsoffret, den skyldige — eller den oskyldigt anklagade.<br><br><strong>Konsekvensen:</strong> vem betalar när rätten tar fel? Den oskyldigt dömde, vars förlorade år inte går att lämna tillbaka — och den som skrev de hårda lagarna möter dem sällan själv.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">2</span><span class="concept">Vad testen kräver</span><span class="tag">Ståndpunkt · skyddsräcken</span></div>
+<div class="body">Motvikten sätter ingen strafftariff. Men räckena är hårda: oskuldspresumtion och en rättssäker process — inget straff utan rättvis prövning; proportionalitet — straffet ska stå i rimligt mått till brottet; en <em>människa</em> dömer, aldrig en riskmodell, och alltid med rätt att överklaga. Och det oåterkalleliga väger tyngst av allt: ett straff man inte kan ta tillbaka — dödsstraffet — faller på verklighetens vetorätt, för domstolar tar fel, och en avrättad oskyldig går inte att frikänna.
+<div class="lost"><div class="lost-label">Här brukar folk tappa det</div><div class="lost-text">När ett brott upprör oss vill vi ha hårdare straff, snabbt. Men känslan av att "någon ska få betala" är just den känsla ett rättssystem finns till för att kyla ner. Hämnden känns rättvis i stunden och bygger sällan något gott. Den kalla, tråkiga rättssäkerheten är det enda som skyddar också dig — den dag det är du som står oskyldigt anklagad.</div></div></div></div>
+
+<div class="section"><div class="section-head"><span class="num">3</span><span class="concept">Det vi inte bestämmer åt dig</span><span class="tag">De ärliga frågorna</span></div>
+<div class="body">Hur hårda straffen ska vara, hur mycket tyngd som ska läggas vid vård och återanpassning kontra bestraffning, hela kriminalpolitikens riktning — det är värderingsval, dina och väljarens. Motvikten lägger sig inte i strängheten. Den kräver bara rättssäkerhet, proportionalitet, och att det oåterkalleliga undviks där felet inte går att laga.</div></div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Rättvisa på gräset (Rwanda)</div><div class="utblick-text">Efter folkmordet 1994 stod Rwanda inför något omöjligt: hundratusentals misstänkta och ett krossat rättsväsen. Landet återupplivade då en gammal by-institution, <em>gacaca</em> ("rättvisa på gräset"), där lokalsamhället samlades för att höra vittnesmål, kräva ansvar och söka försoning snarare än bara straff. Modellen var långt ifrån perfekt och kritiserades bland annat för bristande rättssäkerhet — men den bar en tanke värd att minnas: rättvisans mål är inte främst att hämnas, utan att ett samhälle ska kunna leva vidare tillsammans efteråt.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+<div class="body">Rättskänslan är urgammal — "du tog sönder det, du lagar det" finns hos varje barn. Vi delar alla längtan efter att den som gör orätt ska ställas till svars, och avskyn inför att en oskyldig straffas. Och ingen, oavsett åsikt, vill leva i ett samhälle där makten kan gripa dig utan skäl. Där möts vi.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+<div class="body">Vad straffet är till för drar isär oss.
+<div class="extra-grid" style="margin-top:14px">
+<div><div class="extra-name">Hämnd / upprättelse</div><div class="extra-desc">Att den skyldige ska lida mot att skadan ska läkas.</div></div>
+<div><div class="extra-name">Straff / vård</div><div class="extra-desc">Att bura in mot att återanpassa så det inte upprepas.</div></div>
+<div><div class="extra-name">Hårdhet / barmhärtighet</div><div class="extra-desc">Att statuera exempel mot att ge en andra chans.</div></div>
+<div><div class="extra-name">Trygghet / rättssäkerhet</div><div class="extra-desc">Att gripa fler snabbt mot att aldrig fälla en oskyldig.</div></div>
+</div>
+<br>Motvikten väljer inte strängheten. Men den vägrar en rättvisa som offrar den oskyldige för att stilla vår hämndlust.</div></div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+<div><div class="extra-name">Oskuldspresumtion</div><div class="extra-desc">Oskyldig tills motsatsen bevisats — skyddet som gäller också dig.</div></div>
+<div><div class="extra-name">Proportionalitet</div><div class="extra-desc">Straffet i rimligt mått till brottet, inte till vår ilska.</div></div>
+<div><div class="extra-name">Det oåterkalleliga</div><div class="extra-desc">Dödsstraffet faller på att domstolar tar fel och avrättningen inte går att ångra.</div></div>
+<div><div class="extra-name">Rätten att överklaga</div><div class="extra-desc">En människa dömer, aldrig en modell — och beslutet går att pröva om.</div></div>
+<div><div class="extra-name">Gacaca</div><div class="extra-desc">Rwandas försoningsrättvisa: att samhället ska kunna leva vidare.</div></div>
+<div><div class="extra-name">Återupprättelse</div><div class="extra-desc">Straffets mål som att laga, inte bara att hämnas.</div></div>
+</div>
+<div class="future-box"><div class="future-head">Nästa sakfråga</div><div class="future-body">Om straffet är makten över den enskilda, är nästa fråga var makten ska bo över huvud taget — nära människan, eller stor nog att tygla de största: EU och omvärlden.</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="opener">
+      <div class="num">XVII</div>
+      <div class="kap">Kapitel XVII</div>
+      <h2>EU och omvärlden</h2>
+      <div class="karn">Var ska makten bo — nära människan, eller stor nog att tygla de största?</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Vissa problem är för stora för en enda nation — klimatet, storbolagen, en angripare. Andra beslut hör hemma vid köksbordet. Frågan är inte om makt ska sitta högt eller lågt, utan att den på varje nivå ska gå att tygla.</p>
+
+<div class="section"><div class="section-head"><span class="num">1</span><span class="concept">Testen på nivåerna</span><span class="tag">Prövningen</span></div>
+<div class="body"><strong>Dretstöveltestet:</strong> skulle du ge en överstatlig makt den här befogenheten om din värsta motståndare styrde den? Och skulle du lämna en enskild nation obegränsad makt om en dretstövel tog över den? Testet kräver kontroll på <em>båda</em> nivåerna.<br><br><strong>Slöjan:</strong> rita reglerna utan att veta om du är ett stort land eller ett litet. Då blir de smås skydd lika viktigt som de storas röst.<br><br><strong>Konsekvensen:</strong> vem betalar när makten sitter på fel nivå — för långt bort för att kunna ställas till svars, eller för liten för att kunna tygla jättarna?</div></div>
+
+<div class="section"><div class="section-head"><span class="num">2</span><span class="concept">Vad testen kräver</span><span class="tag">Ståndpunkt · skyddsräcken</span></div>
+<div class="body">Motvikten pekar inte ut den rätta graden av union. Men räckena står fast: makt på varje nivå ska vara granskad och gå att rösta bort — ingen ogranskad teknokrati långt borta, ingen otyglad nation nära; besluten ska ligga så nära människan som möjligt (subsidiaritet), men stort nog att faktiskt kunna hejda det som är större än nationen — klimatet, storbolagen, en angripare; och ingen nivå får bli en dretstövel som de andra inte kan stoppa.
+<div class="lost"><div class="lost-label">Här brukar folk tappa det</div><div class="lost-text">Debatten blir "mer union eller mer nation", som om det ena alltid vore friheten och det andra alltid tvånget. Men både en fjärran, ogranskad överstat och en liten nation i händerna på en stark man är samma fara: makt utan motvikt. Poängen är inte nivån — det är om makten på den nivån går att hejda.</div></div></div></div>
+
+<div class="section"><div class="section-head"><span class="num">3</span><span class="concept">Det vi inte bestämmer åt dig</span><span class="tag">De ärliga frågorna</span></div>
+<div class="body">Hur mycket EU och hur mycket nationellt, med eller utanför, hur mycket suveränitet som ska delas — det är värderingsval, dina och väljarens. Motvikten pekar inte ut graden. Den kräver bara att varje nivå går att granska och rösta bort, och att det som är större än nationen möts av något minst lika stort.</div></div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Ett annat sätt att väga röster (Sydostasien)</div><div class="utblick-text">ASEAN, bildat 1967, binder samman tio mycket olika länder — skilda styrelseskick, religioner och storlekar — genom samförstånd snarare än majoritetsbeslut, och med stark respekt för varje lands självbestämmande ("the ASEAN way"). Modellen är trög och kritiseras för att den ibland väjer för de svåra frågorna. Men den påminner om något: att pooling av makt kan göras löst eller tätt, att den europeiska vägen inte är den enda, och att formen för hur suveräna röster vägs samman alltid är ett val.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+<div class="body">Ingen vill vara den lilla som körs över av den stora, och nästan ingen vill lämna de största krafterna — klimatet, kapitalet, krigsmakten — helt otyglade. Att söka en ordning där också den svage har en röst är lika gammalt som de första förbunden mellan byar. Där möts vi, under allt bråk om Bryssel.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+<div class="body">Var makten ska bo drar isär oss.
+<div class="extra-grid" style="margin-top:14px">
+<div><div class="extra-name">Nationellt / överstatligt</div><div class="extra-desc">Att styra sig själv mot att kunna något större tillsammans.</div></div>
+<div><div class="extra-name">Suveränitet / samarbete</div><div class="extra-desc">Rätten att bestämma själv mot styrkan i att gå ihop.</div></div>
+<div><div class="extra-name">Nära / stort nog</div><div class="extra-desc">Beslut nära människan mot makt nog att tygla jättarna.</div></div>
+<div><div class="extra-name">Identitet / öppenhet</div><div class="extra-desc">Att värna det egna mot att höra till något vidare.</div></div>
+</div>
+<br>Motvikten väljer inte graden av union. Men den vägrar varje nivå — nationell eller överstatlig — som inte går att granska och rösta bort.</div></div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+<div><div class="extra-name">Subsidiaritet</div><div class="extra-desc">Beslut så nära människan som möjligt — men inte närmare än de fungerar.</div></div>
+<div><div class="extra-name">Delad suveränitet</div><div class="extra-desc">Att lägga ihop makt för att kunna tygla det som är större än nationen.</div></div>
+<div><div class="extra-name">Granskad på varje nivå</div><div class="extra-desc">Ingen ogranskad överstat, ingen otyglad nation.</div></div>
+<div><div class="extra-name">De smås skydd</div><div class="extra-desc">Att den lilla rösten inte körs över av den stora.</div></div>
+<div><div class="extra-name">The ASEAN way</div><div class="extra-desc">Sydostasiens samförståndsmodell — ett annat sätt att väga röster.</div></div>
+<div><div class="extra-name">Nivåernas dretstövel</div><div class="extra-desc">Faran att någon nivå blir så mäktig att de andra inte kan hejda den.</div></div>
+</div>
+<div class="future-box"><div class="future-head">Sista sakfrågan</div><div class="future-body">Och så återstår den fråga som är varje kapitels haveriläge — dit varje fallen motvikt till slut leder, och som därför fått stå sist: kriget.</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="opener">
+      <div class="num">XVIII</div>
+      <div class="kap">Kapitel XVIII</div>
+      <h2>Krig och fred</h2>
+      <div class="karn">Varför finns kriget kvar — och vad skulle krävas för att det inte gjorde det?</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Det här är inte en sakfråga bland andra. Det är den plats dit varje fallen motvikt till slut leder. Om boken har en enda mening som gör ont, är det denna: kriget borde inte ha funnits, om vi bara byggt de motvikter vi kan.</p>
+
+<div class="section"><div class="section-head"><span class="num">1</span><span class="concept">Kriget är ett konstruktionsfel</span><span class="tag">Ståndpunkt · tesen</span></div>
+<div class="body">Här min ståndpunkt, tydligt märkt. Krig är inte naturens ordning — det är vad som händer allra längst ut, när varje test i den här boken redan har fallit. Där makten är ordentligt tyglad blir krig nästan omöjligt att starta: den som vill det kan inte handla ensam, inte fly konsekvensen, inte dölja notan. Kriget är helt enkelt varje tidigare kapitels haveriläge, samlat på ett enda ställe. Det är därför det hör hemma sist — det är provet på allt det andra.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">2</span><span class="concept">Den som förklarar, den som dör</span><span class="tag">Konsekvenstestet</span></div>
+<div class="body">Konsekvenstestet biter aldrig hårdare än här. Den som förklarar krig dör nästan aldrig i det. Beslutet fattas i ett rum; blodet rinner på ett fält långt därifrån. Nittonåringen bär det, modern bär det, barnet bär det — den som gav ordern sällan. Tänk om regeln var enkel: ingen får sända någon annan dit han inte själv är beredd att gå. Skin in the game, bokstavligt. Nästan varje krig skulle då aldrig börja.
+<div class="lost"><div class="lost-label">Här brukar folk tappa det</div><div class="lost-text">Vi letar efter den onde när ett krig bryter ut — monstret att peka på. Men oftast var det ingen ensam skurk. Det var en konstruktion där den som kunde säga "anfall" aldrig behövde bära vad ordet kostade. Fixa den kopplingen — mellan beslut och kropp — och du har gjort mer för freden än tusen fördömanden.</div></div></div></div>
+
+<div class="section"><div class="section-head"><span class="num">3</span><span class="concept">Ord för svärdet</span><span class="tag">Namnen avslöjar</span></div>
+<div class="body">Håll ögonen på orden. Länge gömde makten sitt svärd bakom mjuka namn — "försvar", "säkerhet", "insats" — så att varje krig kunde låta defensivt och ingen behövde säga vad det var. Den eufemismen är farlig: den gör kriget lättare att föra, för det låter aldrig som krig. Men den motsatta rörelsen — att stolt döpa om svärdet till dess hårda, rätta namn och bära det med stolthet — är inte ärlighetens seger. Oftare är det ett tecken på att motvikterna glidit, att kriget börjat behandlas som ett <em>första</em> verktyg i stället för en sista fasa. Ett friskt samhälle talar om sin krigsmakt med bävan, inte med stolthet, för det hoppas att aldrig behöva använda den. Bli lika illa till mods när kriget gömmer sig bakom "försvar" som när det svassar under eget namn — båda är tecken på samma sak: att spärren lossnar.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">4</span><span class="concept">Ingen naiv pacifism</span><span class="tag">Den ärliga haken · Dretstöveltestet</span></div>
+<div class="body">Här vägrar Motvikten det enkla svaret. Dretstöveltestet skär åt båda hållen. Ja — skulle du ge någon makten att starta krig om din värsta motståndare höll i den? Nästan aldrig. Men du kan lika lite lägga dig försvarslös inför en dretstövel som <em>inte</em> lagt ner sitt vapen. En värld där de anständiga ensidigt avväpnar sig lämnar bara fältet åt de värsta. Så Motvikten säger inte "avskaffa försvaret". Den säger: gör makten att föra krig så tyglad, så dyr för den som håller i den, så granskad, att den blir den sista utväg den alltid påstår sig vara. Angrepp är aldrig rätt. Att skydda den försvarslöse kan vara det. Den skillnaden är hela frågan.</div></div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Kejsaren som ristade sin ånger (Indien)</div><div class="utblick-text">Omkring 261 f.Kr. vann den indiske kejsaren Ashoka slaget om Kalinga — en seger så blodig att den, enligt hans egna inskrifter som talar om hundratusen döda, till slut krossade honom. I stället för att resa segermonument lät han rista sin <em>ånger</em> i sten, spridd över hela riket, och svor av erövringskrig för resten av sitt liv. Det är den sällsyntaste motvikten som finns: makten som vänder testet mot sig själv. Att en härskare kan säga "jag hade fel, och jag ska aldrig göra om det" — inför hela sitt folk, hugget i berg — är kanske det modigaste en makt kan göra.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">5</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+<div class="body">Ingen mor, i någon tid eller något land, har velat skicka sitt barn för att dö. Sorgen efter ett krig ser likadan ut på varje språk. Under alla flaggor delar vi samma enkla längtan: att få behålla dem vi älskar. Det är den mest universella motviljan som finns — och ändå den vi lyckats sätta åt sidan om och om igen. Kanske för att de som känt sorgen sällan varit de som fattat beslutet.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">6</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+<div class="body">Hur vi ska bära svärdet utan att bli det drar isär oss.
+<div class="extra-grid" style="margin-top:14px">
+<div><div class="extra-name">Angrepp / försvar</div><div class="extra-desc">Att aldrig slå först mot att aldrig lämna den svage oskyddad.</div></div>
+<div><div class="extra-name">Avskräckning / nedrustning</div><div class="extra-desc">Styrka som håller freden mot vapen som föder krig.</div></div>
+<div><div class="extra-name">Suveränitet / ingripande</div><div class="extra-desc">Att inte lägga sig i mot plikten att stoppa ett brott mot mänskligheten.</div></div>
+<div><div class="extra-name">Heder / överlevnad</div><div class="extra-desc">Det man vägrar ge upp mot det man gör för att få leva.</div></div>
+</div>
+<br>Motvikten tar inte ställning i varje sådan avvägning. Men den håller fast vid en enda sak: den som beslutar om kriget ska bära dess kostnad, och kriget ska vara det sista vi gör — aldrig det första vi når efter.</div></div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+<div><div class="extra-name">Konstruktionsfel</div><div class="extra-desc">Krig som symptomet på fallna motvikter, inte som naturens ordning.</div></div>
+<div><div class="extra-name">Den som beslutar bär</div><div class="extra-desc">Ingen får sända någon dit han själv inte är beredd att gå.</div></div>
+<div><div class="extra-name">Ordens tell</div><div class="extra-desc">Bävan eller stolthet i namnet på krigsmakten avslöjar spärren.</div></div>
+<div><div class="extra-name">Sista utvägen</div><div class="extra-desc">Kriget ska vara det sista man når efter, aldrig det första.</div></div>
+<div><div class="extra-name">Ashokas ånger</div><div class="extra-desc">Makten som vände testet mot sig själv och svor av erövring.</div></div>
+<div><div class="extra-name">Den försvarslöses skydd</div><div class="extra-desc">Angrepp aldrig rätt — men att skydda den svage kan vara det.</div></div>
+</div>
+<div class="future-box"><div class="future-head">Det behövde aldrig vara så här</div><div class="future-body">Krig känns oundvikligt bara för att det upprepats så länge. Men det är ett val vi gör om, varje gång vi låter bli att bygga motvikten som skulle stoppat det. Att säga det är inte naivt — det är det mest hoppfulla och mest anklagande vi kan säga på en gång: det gick att undvika. Det går fortfarande.</div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="opener">
+      <div class="kap">Final</div>
+      <h2>Stjäl gärna testen</h2>
+      <div class="karn">Ett erbjudande till alla partier</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Det här är den minst vanliga sidan i något partiprogram: en uppmaning till alla andra partier att ta det vi byggt och göra det till sitt.</p>
+
+<div class="section"><div class="section-head"><span class="num">1</span><span class="concept">Vi vill inte din röst</span><span class="tag">Erbjudandet</span></div>
+<div class="body">Motvikten vill inte ha makten, din röst eller din plats i salen. Den vill en enda sak: att besluten blir bättre. Därför ger vi bort hela verktygslådan. Ta testen — Dretstöveltestet, slöjan, konsekvensen. Kör era egna förslag genom dem, vare sig ni är röda, blå, gröna eller något helt annat. Ingen upphovsrätt, ingen credit, ingen medlemsavgift. Stjäl gärna.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">2</span><span class="concept">Brynsten, inte vapen</span><span class="tag">Poängen</span></div>
+<div class="body">Ett vapen delar man inte med sin motståndare. En brynsten gör man det med — för en slö motståndare hjälper ingen, minst av allt den som ska granskas. En motvikt som bara tynger den ena sidan är ingen motvikt; det är en klump på vågen. Den äkta motvikten gör alla lite ärligare, också dem vi själva ogillar. Det är hela vitsen — och det är därför vilket parti som helst kan låna testen utan att förråda sin själ.
+<div class="why"><div class="why-label">Därför funkar det</div><div class="why-text">Testen avslöjar inte om ni har fel värderingar — bara om ni byggt en makt som inte tål att bytas ut. Ni får behålla er övertygelse. Ni blir bara svårare att lura, och lämnar färre beslut att skämmas för sen.</div></div></div></div>
+
+<div class="section"><div class="section-head"><span class="num">3</span><span class="concept">Så använder ni den — på tre minuter</span><span class="tag">I praktiken</span></div>
+<div class="body">Innan ni lägger ett förslag, ställ tre frågor:<br><br><strong>1. Dretstöveln:</strong> skulle vi ge den här makten till vår värsta motståndare?<br><strong>2. Slöjan:</strong> skulle vi valt den här regeln utan att veta vem vi själva blev?<br><strong>3. Konsekvensen:</strong> om vi har fel — vem får betala?<br><br>Håller förslaget för alla tre är det värt namnet. Faller det på ett enda, tänk om. Det tar tre minuter, och räddar er från beslut ni annars får ångra offentligt.</div></div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Gåvan utan ägare (waqf)</div><div class="utblick-text">Att ge bort något för gott — inte till en sida, utan till alla — har en gammal form: den islamiska <em>waqf</em>. En brunn, ett bibliotek, ett sjukhus kunde skänkas som waqf: grundaren gav upp ägandet för alltid, och nyttan flöt vidare till vem som helst som behövde den, i sekler. Testen är tänkta på precis det sättet — en gåva utan ägare, till varje parti, för att göra själva tänkandet bättre. Man äger inte en brynsten man lagt på det gemensamma torget.</div></div>
+
+<div class="section"><div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+<div class="body">Under all partifärg vill nästan alla samma grundläggande sak: ett samhälle som håller, som är hyfsat rättvist, som man vågar lämna till sina barn. Vi är oense om vägen, sällan om målet. Testen är en gemensam sten att bryna alla vägar mot — röd, blå och grön. Motvikten är inte emot er. Den är för att ni ska bli svåra att lura.</div></div>
+
+<div class="future-box"><div class="future-head">Partiet är aldrig färdigt</div><div class="future-body">Och det ska det inte vara — testet gäller Motvikten själv. Kvar att pröva: rättvisan och straffet, EU och omvärlden, och kriget — den fråga som mest av allt borde ha tyglats av en fungerande motvikt. Har du en sakfråga vi missat? Den hör hemma här.</div></div>
     </div>
   </section>
 
@@ -311,7 +1248,7 @@
     <div class="compass">Se människan. Granska handlingen. Följ konsekvensen.<br>Dyrka ingen. Demonisera ingen. Lyft generöst.<br>Ge makten hårt motstånd. Stoppa den som skadar. Krossa inte den som faller.<br>Var aldrig naiv. Och kom alltid ihåg att du själv kan ha fel.</div>
     <div class="honest" style="text-align:left;max-width:54ch;margin-left:auto;margin-right:auto;">
       <span class="label">Ärlig ram</span>
-      Det här är en <strong>tankelek och ett levande utkast (v0.1.1)</strong>, inte en valkampanj. Poängen är inte partiet Motvikten — den är testen. Och de gäller mig först. Håll inte med om allt; pröva det i stället. Verkligheten har vetorätt.
+      Det här är en <strong>tankelek och ett pågående bygge</strong>, inte en valkampanj. Poängen är inte partiet Motvikten — den är testen. Och de gäller mig först. Håll inte med om allt; pröva det i stället. Verkligheten har vetorätt.
     </div>
     <div class="colophon">
       Motvikten · ett parti av en tanke<br>
