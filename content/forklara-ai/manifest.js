@@ -585,44 +585,110 @@ window.LECTURE = {
       "bildforslag": "",
       "lankar": [
         [
-          "1 · Dretstövel-testet",
+          "I · Dretstövel-testet",
           "#motvikten-1",
           "",
           "Delar"
         ],
         [
-          "2 · Slöjan av okunnighet",
+          "II · Slöjan av okunnighet",
           "#motvikten-2",
           "",
           "Delar"
         ],
         [
-          "3 · Konsekvenstestet",
+          "III · Konsekvenstestet",
           "#motvikten-3",
           "",
           "Delar"
         ],
         [
-          "4 · Maktens motvikt är inte västlig",
+          "IV · Maktens motvikt är inte västlig",
           "#motvikten-4",
           "",
           "Delar"
         ],
         [
-          "5 · Därför angår det AI",
+          "V · Därför angår det AI",
           "#motvikten-5",
           "",
           "Delar"
         ],
         [
-          "6 · Testet gäller Motvikten själv",
+          "VI · Testet gäller Motvikten själv",
           "#motvikten-6",
           "",
           "Delar"
         ],
         [
-          "7 · Kompassen",
+          "VII · Kompassen",
           "#motvikten-7",
+          "",
+          "Delar"
+        ],
+        [
+          "VIII · Demokrati och institutioner",
+          "#motvikten-8",
+          "",
+          "Delar"
+        ],
+        [
+          "IX · Ekonomi och skatt",
+          "#motvikten-9",
+          "",
+          "Delar"
+        ],
+        [
+          "X · Välfärd, vård och omsorg",
+          "#motvikten-10",
+          "",
+          "Delar"
+        ],
+        [
+          "XI · Skola och bildning",
+          "#motvikten-11",
+          "",
+          "Delar"
+        ],
+        [
+          "XII · Klimat och miljö",
+          "#motvikten-12",
+          "",
+          "Delar"
+        ],
+        [
+          "XIII · Frihet och övervakning",
+          "#motvikten-13",
+          "",
+          "Delar"
+        ],
+        [
+          "XIV · Migration och integration",
+          "#motvikten-14",
+          "",
+          "Delar"
+        ],
+        [
+          "XV · Rättvisa och straff",
+          "#motvikten-16",
+          "",
+          "Delar"
+        ],
+        [
+          "XVI · EU och omvärlden",
+          "#motvikten-17",
+          "",
+          "Delar"
+        ],
+        [
+          "XVII · Krig och fred",
+          "#motvikten-15",
+          "",
+          "Delar"
+        ],
+        [
+          "Stjäl gärna testen",
+          "#motvikten-stjal",
           "",
           "Delar"
         ],
@@ -1102,6 +1168,78 @@ window.LECTURE = {
         "vem bär notan",
         "uganda-modellen",
         "gästfrihet"
+      ],
+      "personer": null,
+      "relaterat": null,
+      "bilder": [
+        "Ett parti.png"
+      ],
+      "bildforslag": "",
+      "lankar": [
+        [
+          "◂ Förord · Jag skulle bara hänga tvätten",
+          "#motvikten-0",
+          "",
+          "Delar"
+        ],
+        [
+          "Läs hela boken – Motvikten (skriv ut: Cmd+P)",
+          "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
+          "Hela manifestet som bok. Cmd+P ger pappersversion.",
+          "Läs som bok"
+        ]
+      ]
+    },
+    {
+      "id": "motvikten-16",
+      "sektion": "980",
+      "titel": "Kapitel XV · Rättvisa och straff. Hur skipar vi rättvisa utan att bli det vi dömer?",
+      "svar": "Kapitel XV · Rättvisa och straff",
+      "anteckningar": "Straff är statens råaste makt — därför den som tydligast måste tåla testen. En rättvisa som blir det den dömer har förlorat.\n\nTesten: Dretstövel → skulle du ge makten att döma till din värsta motståndare? (kräver rättssäkerhet). Slöjan → rita systemet utan att veta om du blir offer, skyldig eller oskyldigt anklagad. Konsekvens → den oskyldigt dömde betalar, och den som skrev de hårda lagarna möter dem sällan.\n\nFasta räcken: oskuldspresumtion + rättssäker process, proportionalitet, en människa (ej modell) dömer med rätt att överklaga, och det oåterkalleliga undviks — dödsstraffet faller på att domstolar tar fel. Öppet, ditt val: strängheten, straff vs vård, kriminalpolitikens riktning.\n\nNyckeln: hämnden känns rättvis i stunden; den kalla rättssäkerheten är det enda som skyddar också dig den dag DU står oskyldigt anklagad.\n\nReflektion: Skulle du vilja mötas av ditt eget rättssystem som den skyldige — eller som den oskyldigt anklagade?",
+      "fordjupning": "<p class=\"ingress\">Straff är statens råaste makt — att med våld ta någons frihet, ibland livet. Just därför är det den makt som allra tydligast måste tåla testen. En rättvisa som blir det den dömer har förlorat.</p>\n\n<div class=\"section\"><div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Testen på straffet</span><span class=\"tag\">Prövningen</span></div>\n<div class=\"body\"><strong>Dretstöveltestet:</strong> skulle du ge staten den här makten att döma, fängsla och straffa om din värsta motståndare höll i den? Då kräver du rättssäkerhet: ingen straffas utan en rättvis prövning.<br><br><strong>Slöjan:</strong> rita rättssystemet utan att veta om du blir brottsoffret, den skyldige — eller den oskyldigt anklagade.<br><br><strong>Konsekvensen:</strong> vem betalar när rätten tar fel? Den oskyldigt dömde, vars förlorade år inte går att lämna tillbaka — och den som skrev de hårda lagarna möter dem sällan själv.</div></div>\n\n<div class=\"section\"><div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Vad testen kräver</span><span class=\"tag\">Ståndpunkt · skyddsräcken</span></div>\n<div class=\"body\">Motvikten sätter ingen strafftariff. Men räckena är hårda: oskuldspresumtion och en rättssäker process — inget straff utan rättvis prövning; proportionalitet — straffet ska stå i rimligt mått till brottet; en <em>människa</em> dömer, aldrig en riskmodell, och alltid med rätt att överklaga. Och det oåterkalleliga väger tyngst av allt: ett straff man inte kan ta tillbaka — dödsstraffet — faller på verklighetens vetorätt, för domstolar tar fel, och en avrättad oskyldig går inte att frikänna.\n<div class=\"lost\"><div class=\"lost-label\">Här brukar folk tappa det</div><div class=\"lost-text\">När ett brott upprör oss vill vi ha hårdare straff, snabbt. Men känslan av att \"någon ska få betala\" är just den känsla ett rättssystem finns till för att kyla ner. Hämnden känns rättvis i stunden och bygger sällan något gott. Den kalla, tråkiga rättssäkerheten är det enda som skyddar också dig — den dag det är du som står oskyldigt anklagad.</div></div></div></div>\n\n<div class=\"section\"><div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Det vi inte bestämmer åt dig</span><span class=\"tag\">De ärliga frågorna</span></div>\n<div class=\"body\">Hur hårda straffen ska vara, hur mycket tyngd som ska läggas vid vård och återanpassning kontra bestraffning, hela kriminalpolitikens riktning — det är värderingsval, dina och väljarens. Motvikten lägger sig inte i strängheten. Den kräver bara rättssäkerhet, proportionalitet, och att det oåterkalleliga undviks där felet inte går att laga.</div></div>\n\n<div class=\"utblick\"><div class=\"utblick-label\">Utblick — Rättvisa på gräset (Rwanda)</div><div class=\"utblick-text\">Efter folkmordet 1994 stod Rwanda inför något omöjligt: hundratusentals misstänkta och ett krossat rättsväsen. Landet återupplivade då en gammal by-institution, <em>gacaca</em> (\"rättvisa på gräset\"), där lokalsamhället samlades för att höra vittnesmål, kräva ansvar och söka försoning snarare än bara straff. Modellen var långt ifrån perfekt och kritiserades bland annat för bristande rättssäkerhet — men den bar en tanke värd att minnas: rättvisans mål är inte främst att hämnas, utan att ett samhälle ska kunna leva vidare tillsammans efteråt.</div></div>\n\n<div class=\"section\"><div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Var vi alltid möts</span><span class=\"tag\">Det mänskliga</span></div>\n<div class=\"body\">Rättskänslan är urgammal — \"du tog sönder det, du lagar det\" finns hos varje barn. Vi delar alla längtan efter att den som gör orätt ska ställas till svars, och avskyn inför att en oskyldig straffas. Och ingen, oavsett åsikt, vill leva i ett samhälle där makten kan gripa dig utan skäl. Där möts vi.</div></div>\n\n<div class=\"section\"><div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Var vi krockar</span><span class=\"tag\">De många blickarna</span></div>\n<div class=\"body\">Vad straffet är till för drar isär oss.\n<div class=\"extra-grid\" style=\"margin-top:14px\">\n<div><div class=\"extra-name\">Hämnd / upprättelse</div><div class=\"extra-desc\">Att den skyldige ska lida mot att skadan ska läkas.</div></div>\n<div><div class=\"extra-name\">Straff / vård</div><div class=\"extra-desc\">Att bura in mot att återanpassa så det inte upprepas.</div></div>\n<div><div class=\"extra-name\">Hårdhet / barmhärtighet</div><div class=\"extra-desc\">Att statuera exempel mot att ge en andra chans.</div></div>\n<div><div class=\"extra-name\">Trygghet / rättssäkerhet</div><div class=\"extra-desc\">Att gripa fler snabbt mot att aldrig fälla en oskyldig.</div></div>\n</div>\n<br>Motvikten väljer inte strängheten. Men den vägrar en rättvisa som offrar den oskyldige för att stilla vår hämndlust.</div></div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n<div><div class=\"extra-name\">Oskuldspresumtion</div><div class=\"extra-desc\">Oskyldig tills motsatsen bevisats — skyddet som gäller också dig.</div></div>\n<div><div class=\"extra-name\">Proportionalitet</div><div class=\"extra-desc\">Straffet i rimligt mått till brottet, inte till vår ilska.</div></div>\n<div><div class=\"extra-name\">Det oåterkalleliga</div><div class=\"extra-desc\">Dödsstraffet faller på att domstolar tar fel och avrättningen inte går att ångra.</div></div>\n<div><div class=\"extra-name\">Rätten att överklaga</div><div class=\"extra-desc\">En människa dömer, aldrig en modell — och beslutet går att pröva om.</div></div>\n<div><div class=\"extra-name\">Gacaca</div><div class=\"extra-desc\">Rwandas försoningsrättvisa: att samhället ska kunna leva vidare.</div></div>\n<div><div class=\"extra-name\">Återupprättelse</div><div class=\"extra-desc\">Straffets mål som att laga, inte bara att hämnas.</div></div>\n</div>\n<div class=\"future-box\"><div class=\"future-head\">Nästa sakfråga</div><div class=\"future-body\">Om straffet är makten över den enskilda, är nästa fråga var makten ska bo över huvud taget — nära människan, eller stor nog att tygla de största: EU och omvärlden.</div></div>",
+      "begrepp": [
+        "oskuldspresumtion",
+        "proportionalitet",
+        "det oåterkalleliga",
+        "rätten att överklaga",
+        "gacaca",
+        "återupprättelse"
+      ],
+      "personer": null,
+      "relaterat": null,
+      "bilder": [
+        "Ett parti.png"
+      ],
+      "bildforslag": "",
+      "lankar": [
+        [
+          "◂ Förord · Jag skulle bara hänga tvätten",
+          "#motvikten-0",
+          "",
+          "Delar"
+        ],
+        [
+          "Läs hela boken – Motvikten (skriv ut: Cmd+P)",
+          "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
+          "Hela manifestet som bok. Cmd+P ger pappersversion.",
+          "Läs som bok"
+        ]
+      ]
+    },
+    {
+      "id": "motvikten-17",
+      "sektion": "980",
+      "titel": "Kapitel XVI · EU och omvärlden. Var ska makten bo — nära människan, eller stor nog att tygla de största?",
+      "svar": "Kapitel XVI · EU och omvärlden",
+      "anteckningar": "Vissa problem är för stora för en nation (klimat, storbolag, angripare), andra hör hemma vid köksbordet. Frågan är inte högt eller lågt — utan att makten på varje nivå går att tygla.\n\nTesten: Dretstövel → skulle du ge en överstat makten om din värsta motståndare styrde? Och lämna en nation obegränsad makt om en dretstövel tog över? (kontroll på BÅDA nivåerna). Slöjan → rita reglerna utan att veta om du är ett stort eller litet land. Konsekvens → vem betalar när makten sitter för långt bort eller är för liten för att tygla jättarna?\n\nFasta räcken: granskad och avröstbar makt på varje nivå, subsidiaritet (nära människan men stort nog att tygla det större än nationen), ingen nivå får bli en otyglad dretstövel. Öppet, ditt val: hur mycket EU vs nationellt, med/utanför, grad av delad suveränitet.\n\nNyckeln: \"union eller nation\" är fel fråga — båda kan bli makt utan motvikt. Rätt fråga: går makten på den nivån att hejda?\n\nReflektion: Vilken makt vill du ha nära dig — och vilken är för stor för att någon enskild nation ska kunna hejda den?",
+      "fordjupning": "<p class=\"ingress\">Vissa problem är för stora för en enda nation — klimatet, storbolagen, en angripare. Andra beslut hör hemma vid köksbordet. Frågan är inte om makt ska sitta högt eller lågt, utan att den på varje nivå ska gå att tygla.</p>\n\n<div class=\"section\"><div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Testen på nivåerna</span><span class=\"tag\">Prövningen</span></div>\n<div class=\"body\"><strong>Dretstöveltestet:</strong> skulle du ge en överstatlig makt den här befogenheten om din värsta motståndare styrde den? Och skulle du lämna en enskild nation obegränsad makt om en dretstövel tog över den? Testet kräver kontroll på <em>båda</em> nivåerna.<br><br><strong>Slöjan:</strong> rita reglerna utan att veta om du är ett stort land eller ett litet. Då blir de smås skydd lika viktigt som de storas röst.<br><br><strong>Konsekvensen:</strong> vem betalar när makten sitter på fel nivå — för långt bort för att kunna ställas till svars, eller för liten för att kunna tygla jättarna?</div></div>\n\n<div class=\"section\"><div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Vad testen kräver</span><span class=\"tag\">Ståndpunkt · skyddsräcken</span></div>\n<div class=\"body\">Motvikten pekar inte ut den rätta graden av union. Men räckena står fast: makt på varje nivå ska vara granskad och gå att rösta bort — ingen ogranskad teknokrati långt borta, ingen otyglad nation nära; besluten ska ligga så nära människan som möjligt (subsidiaritet), men stort nog att faktiskt kunna hejda det som är större än nationen — klimatet, storbolagen, en angripare; och ingen nivå får bli en dretstövel som de andra inte kan stoppa.\n<div class=\"lost\"><div class=\"lost-label\">Här brukar folk tappa det</div><div class=\"lost-text\">Debatten blir \"mer union eller mer nation\", som om det ena alltid vore friheten och det andra alltid tvånget. Men både en fjärran, ogranskad överstat och en liten nation i händerna på en stark man är samma fara: makt utan motvikt. Poängen är inte nivån — det är om makten på den nivån går att hejda.</div></div></div></div>\n\n<div class=\"section\"><div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Det vi inte bestämmer åt dig</span><span class=\"tag\">De ärliga frågorna</span></div>\n<div class=\"body\">Hur mycket EU och hur mycket nationellt, med eller utanför, hur mycket suveränitet som ska delas — det är värderingsval, dina och väljarens. Motvikten pekar inte ut graden. Den kräver bara att varje nivå går att granska och rösta bort, och att det som är större än nationen möts av något minst lika stort.</div></div>\n\n<div class=\"utblick\"><div class=\"utblick-label\">Utblick — Ett annat sätt att väga röster (Sydostasien)</div><div class=\"utblick-text\">ASEAN, bildat 1967, binder samman tio mycket olika länder — skilda styrelseskick, religioner och storlekar — genom samförstånd snarare än majoritetsbeslut, och med stark respekt för varje lands självbestämmande (\"the ASEAN way\"). Modellen är trög och kritiseras för att den ibland väjer för de svåra frågorna. Men den påminner om något: att pooling av makt kan göras löst eller tätt, att den europeiska vägen inte är den enda, och att formen för hur suveräna röster vägs samman alltid är ett val.</div></div>\n\n<div class=\"section\"><div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Var vi alltid möts</span><span class=\"tag\">Det mänskliga</span></div>\n<div class=\"body\">Ingen vill vara den lilla som körs över av den stora, och nästan ingen vill lämna de största krafterna — klimatet, kapitalet, krigsmakten — helt otyglade. Att söka en ordning där också den svage har en röst är lika gammalt som de första förbunden mellan byar. Där möts vi, under allt bråk om Bryssel.</div></div>\n\n<div class=\"section\"><div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Var vi krockar</span><span class=\"tag\">De många blickarna</span></div>\n<div class=\"body\">Var makten ska bo drar isär oss.\n<div class=\"extra-grid\" style=\"margin-top:14px\">\n<div><div class=\"extra-name\">Nationellt / överstatligt</div><div class=\"extra-desc\">Att styra sig själv mot att kunna något större tillsammans.</div></div>\n<div><div class=\"extra-name\">Suveränitet / samarbete</div><div class=\"extra-desc\">Rätten att bestämma själv mot styrkan i att gå ihop.</div></div>\n<div><div class=\"extra-name\">Nära / stort nog</div><div class=\"extra-desc\">Beslut nära människan mot makt nog att tygla jättarna.</div></div>\n<div><div class=\"extra-name\">Identitet / öppenhet</div><div class=\"extra-desc\">Att värna det egna mot att höra till något vidare.</div></div>\n</div>\n<br>Motvikten väljer inte graden av union. Men den vägrar varje nivå — nationell eller överstatlig — som inte går att granska och rösta bort.</div></div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n<div><div class=\"extra-name\">Subsidiaritet</div><div class=\"extra-desc\">Beslut så nära människan som möjligt — men inte närmare än de fungerar.</div></div>\n<div><div class=\"extra-name\">Delad suveränitet</div><div class=\"extra-desc\">Att lägga ihop makt för att kunna tygla det som är större än nationen.</div></div>\n<div><div class=\"extra-name\">Granskad på varje nivå</div><div class=\"extra-desc\">Ingen ogranskad överstat, ingen otyglad nation.</div></div>\n<div><div class=\"extra-name\">De smås skydd</div><div class=\"extra-desc\">Att den lilla rösten inte körs över av den stora.</div></div>\n<div><div class=\"extra-name\">The ASEAN way</div><div class=\"extra-desc\">Sydostasiens samförståndsmodell — ett annat sätt att väga röster.</div></div>\n<div><div class=\"extra-name\">Nivåernas dretstövel</div><div class=\"extra-desc\">Faran att någon nivå blir så mäktig att de andra inte kan hejda den.</div></div>\n</div>\n<div class=\"future-box\"><div class=\"future-head\">Sista sakfrågan</div><div class=\"future-body\">Och så återstår den fråga som är varje kapitels haveriläge — dit varje fallen motvikt till slut leder, och som därför fått stå sist: kriget.</div></div>",
+      "begrepp": [
+        "subsidiaritet",
+        "delad suveränitet",
+        "granskad på varje nivå",
+        "de smås skydd",
+        "the asean way",
+        "nivåernas dretstövel"
       ],
       "personer": null,
       "relaterat": null,
