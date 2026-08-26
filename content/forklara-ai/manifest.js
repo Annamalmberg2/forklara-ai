@@ -176,22 +176,16 @@ window.LECTURE = {
           "Kapitlen"
         ],
         [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten",
-          "Idén som föregick bibeln",
-          "Läs vidare"
-        ],
-        [
           "Läs hela boken – En Bibel",
           "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Motvikten – partiet av en tanke",
+          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten",
+          "Idén som föregick bibeln",
+          "Läs vidare"
         ]
       ],
       "bilder": [
@@ -225,20 +219,14 @@ window.LECTURE = {
           "#en-bibel-0"
         ],
         [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
-        ],
-        [
           "Läs hela boken – En Bibel",
           "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Motvikten – partiet av en tanke",
+          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
         ]
       ],
       "anteckningar": "Vi är stjärnstoft som lärt sig titta tillbaka på stjärnorna — och ju mer vi förstår, desto större blir undret.\n\nVår adress har krympt: från jordens mittpunkt till utkanten av en helt vanlig galax. Men på köpet blev vi varelsen som kan rita kartan. Atomerna i din kropp smiddes i döende stjärnor — Sagans \"stjärnstoff\". Feynmans blomma: kunskap tar aldrig bort skönheten, den lägger till. Och det märkligaste av allt — genom oss vaknade universum och såg sig självt. Litenhet under stjärnhimlen är inte betydelselöshet.\n\nReflektion: När kände du dig senast som en del av något mycket större — och vad gjorde du med känslan?\n\nTa med dig: Undret överlever kunskapen. Det växer av den."
@@ -271,20 +259,14 @@ window.LECTURE = {
           "#en-bibel-0"
         ],
         [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
-        ],
-        [
           "Läs hela boken – En Bibel",
           "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Motvikten – partiet av en tanke",
+          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
         ]
       ],
       "anteckningar": "Vi är den enda art som ärver minnen vi inte själva levt — och vet att vi ska dö. Men minnet är ingen inspelning: hjärnan bygger om det varje gång (rekonsolidering), och historien skrivs oftast av segrarna. Vi vet mindre säkert om det förflutna än vi gärna tror.\n\nSkriften lät oss tala med de döda och till de ofödda — civilisationen är den kedjan, och varje brusten länk kostar tusen år. Framtiden kan inte rösta; ändå binder våra val den. Någon måste rösta för den.\n\nOch det personliga: mina föräldrar är över åttio och bär tider jag aldrig levt. De glömde berätta, jag glömde fråga. Det som inte berättas vidare dör två gånger — men det någon frågar efter i tid får leva. Så numera frågar jag mer än jag berättar.\n\nReflektion: Vad bär du med dig från någon som är borta — och vad vill du att någon ska bära vidare från dig?\n\nTa med dig: Vi är lånad tid. Betala vidare."
@@ -317,20 +299,14 @@ window.LECTURE = {
           "#en-bibel-0"
         ],
         [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
-        ],
-        [
           "Läs hela boken – En Bibel",
           "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Motvikten – partiet av en tanke",
+          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
         ]
       ],
       "anteckningar": "Styrka är inte frånvaro av rädsla, vishet inte tvärsäkerhet. Det mesta vi trodde var fast — hjärnan, självbilden, intelligensen — är mer formbart än vi anade. Hjärnan formas av bruk hela livet (neuroplasticitet); \"growth mindset\" är däremot översålt, ta det som inspiration, inte lag.\n\nStoikerna delade världen i det du rår över och det du inte rår över — lägg kraften i det första. Vi lär oss fortast där det är tryggt att ha fel (psykologisk trygghet — det Google fann skilde de bästa teamen). Och vi bär alla tysta meningar om oss själva som vi glömt att ifrågasätta; att lägga ner den rustningen är det modigaste jag vet.\n\nReflektion: Vilken tanke om dig själv har du burit så länge att du glömt att fråga om den ens är sann?\n\nTa med dig: Du är inte färdig. Det är den bästa nyheten som finns."
@@ -363,20 +339,14 @@ window.LECTURE = {
           "#en-bibel-0"
         ],
         [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
-        ],
-        [
           "Läs hela boken – En Bibel",
           "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Motvikten – partiet av en tanke",
+          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
         ]
       ],
       "anteckningar": "Din hjärna utvecklades inte för att hitta sanningen, utan för att hålla dig vid liv — inte samma sak. Den tar genvägar med namn: bekräftelsebias, ankareffekt, Dunning–Kruger (delvis omtvistad). Språket färgar tanken (den svaga versionen håller), och vi minns berättelsen men glömmer tabellen — därför vinner ofta den som berättar bäst, inte den som har rätt.\n\nDet farligaste är inte \"jag vet inte\", utan en välformulerad osanning med rak rygg — mänsklig eller maskinell. Min vana: när något låter för prydligt, fråga \"hittade du på det där?\". Vi kom vidare inte för att någon blev ofelbar, utan för att vi byggde ett system för att fånga felen (Popper: det som räknas går att motbevisa).\n\nReflektion: När läste eller tänkte du senast något så välformulerat att du glömde fråga om det var sant?\n\nTa med dig: Din säkraste känsla är inte ett bevis. Fråga hur du skulle veta om du hade fel."
@@ -409,20 +379,14 @@ window.LECTURE = {
           "#en-bibel-0"
         ],
         [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
-        ],
-        [
           "Läs hela boken – En Bibel",
           "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Motvikten – partiet av en tanke",
+          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
         ]
       ],
       "anteckningar": "Filosofi är inte en samling svar — det är konsten att ställa bättre frågor. Sokrates gjorde okunskapen till en dygd (och betalade med livet). Existentialisterna vände på det: universum kommer inte med färdig mening, vi gör den — i det vi bryr oss om, älskar och bygger. Döden är inte meningens fiende utan dess motor; det är ändligheten som gör en eftermiddag dyrbar.\n\nEtik liknar mindre en upptäckt än en konstruktion — vi bygger, prövar och river om. Spårvagnsproblemet och Rawls slöja av okunnighet är verktyg, inte facit. Min ståndpunkt: etik handlar mindre om att hitta den goda människan än om att bygga system som överlever den dåliga.\n\nReflektion: Om du visste att du hade fel om en av dina djupaste övertygelser — skulle du vilja få veta vilken?\n\nTa med dig: Lev frågan. Svaret är sällan poängen."
@@ -455,20 +419,14 @@ window.LECTURE = {
           "#en-bibel-0"
         ],
         [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
-        ],
-        [
           "Läs hela boken – En Bibel",
           "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Motvikten – partiet av en tanke",
+          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
         ]
       ],
       "anteckningar": "Vi är arten som gör saker vi inte behöver — målar, sjunger och pyntar långt bortom överlevnad. Konsten kom före skriften: en handflata mot en grottvägg, \"jag var här\". Naturvistelse lugnar oss mätbart; varför en melodi kan få tårar att rinna vet ingen riktigt.\n\nKreativitet är mindre magi än rekombination och urval — en maskin kan ge dig hundra utkast, men ordningen och smaken ger du (den här boken blev bra av att jag kastade tre versioner av fyra). Wabi-sabi och kintsugi: det trasiga kan bli det vackraste, om du vågar visa det. Min envisa AI-beställning — en kvinna som i dans lyfter en man — blev sedan en riktig oljemålning av konstnären Joakim. Att skapa är att svara världen.\n\nReflektion: När skapade du något senast bara för att det gladde dig — inte för att det var nyttigt?\n\nTa med dig: Du behöver inte vara konstnär för att skapa. Du behöver bara våga."
@@ -501,20 +459,14 @@ window.LECTURE = {
           "#en-bibel-0"
         ],
         [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
-        ],
-        [
           "Läs hela boken – En Bibel",
           "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Motvikten – partiet av en tanke",
+          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
         ]
       ],
       "anteckningar": "Verktygen blev smartare. Frågan är om vi blev det. Tekniken avgör sällan något själv — den förstärker den riktning vi redan går. Vanan avgör.\n\nVarje nytt verktyg väckte samma oro (Sokrates fruktade att skriften skulle förstöra minnet — och hade delvis rätt). Idag formas vi mest av algoritmen, tyst dygnet runt, och vi minns var något finns i stället för vad det är (Google-effekten). Samma AI som möter var och en på deras eget språk kan lära — eller lura; skillnaden ligger i vems händer den är. Låt maskinen göra mönstren, håll själv i meningen, och låt aldrig verktyget äga sanningen — underlagen ska gå att nå ändå. Jag vill ha färre låsta dörrar och en teknik som varslar ärligt, men bara om den är värd förtroendet.\n\nReflektion: Vad gör du sämre själv sedan tekniken gör det åt dig — och vill du ha den förmågan tillbaka?\n\nTa med dig: Tekniken ska tjäna människan — aldrig tvärtom."
@@ -547,20 +499,14 @@ window.LECTURE = {
           "#en-bibel-0"
         ],
         [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
-        ],
-        [
           "Läs hela boken – En Bibel",
           "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Motvikten – partiet av en tanke",
+          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
         ]
       ],
       "anteckningar": "Ekonomi ser ut som matematik, men under siffrorna sitter val — och val har ett samvete. Pengar är vår största gemensamma fiktion: en sedel är värd något bara så länge vi tror det. Marknaden är ett lysande fördelningsverktyg och ett uselt mått på vad något faktiskt är värt.\n\nVi mäter det lätta — BNP, kvartalssiffror — och glömmer omsorg, tid, en frisk planet (Kennedy 1968: BNP mäter allt utom det som gör livet värt att leva). Det som inte syns i kalkylen behandlas som gratis, men notan kommer — den skickas bara till någon annan (externaliteter). Frågan är aldrig bara \"är det effektivt?\" utan \"effektivt för vem?\". En ekonomi som ser människan bygger inte bort henne för att spara pengar — den använder pengarna för att ha råd att vara mänsklig.\n\nReflektion: Vad är det mest värdefulla i ditt liv som aldrig skulle synas i en årsredovisning?\n\nTa med dig: Räkna gärna. Men glöm aldrig vad du inte kan räkna."
@@ -593,20 +539,14 @@ window.LECTURE = {
           "#en-bibel-0"
         ],
         [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
-        ],
-        [
           "Läs hela boken – En Bibel",
           "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Motvikten – partiet av en tanke",
+          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
         ]
       ],
       "anteckningar": "Från den lokala bankmannen som kände hela din familj till dagens anonyma appar: det här handlar om vad som händer när tillit byts mot transaktioner. Institutionerna vilade en gång på ansikten — man kände den man litade på. Att bli sedd är inte sentimentalitet utan biologi; Harvards åttioåriga studie pekar envist på en sak: relationer.\n\nAutomationen gav bekvämlighet och tog något i tysthet — människan försvann ur banken, myndigheten, delvis skolan. Varje beslut var rimligt; summan blev ett samhälle där det knappt går att nå en människa. Men \"så är det bara nu\" är den farligaste meningen — anonymiteten är inte vädret, den är en design. Min vision: digital bekvämlighet plus mänskliga knutpunkter, personliga ombud igen, och en AI som föreslår men aldrig fattar det avgörande beslutet utan en människa som bär mandatet.\n\nReflektion: Vilken är den viktigaste relationen du har till ett företag eller en myndighet — och vad skulle hända om den personen verkligen kände dig?\n\nTa med dig: Ett samhälle mäts i hur det behandlar den som modellen fick fel om."
@@ -635,20 +575,14 @@ window.LECTURE = {
           "#en-bibel-0"
         ],
         [
-          "Motvikten – partiet av en tanke",
-          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
-        ],
-        [
           "Läs hela boken – En Bibel",
           "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Motvikten – partiet av en tanke",
+          "https://annamalmberg2.github.io/forklara-ai/#mer-motvikten"
         ]
       ],
       "anteckningar": "En vän bad mig skriva ett kapitel om lyckan — det blev nio till, det blev en bibel. Han ville ha receptet. Min ärligaste gåva: det finns inget, och det är den goda nyheten — då är lyckan inget prov du kan misslyckas på.\n\nGrekerna skilde på hedonía (njutningens topp, går att jaga) och eudaimonía (det djupa livet, går bara att leva). Vår tids monster är den logiska lyckan: vi gjorde en bieffekt till ett mätetal och blev olyckligare. Mill visste det redan: fråga dig om du är lycklig och du upphör att vara det. Det som håller över ett liv är relationer, mening, tacksamhet, att vara uppslukad, att hjälpa — men lyckoforskningen är översåld och västlig, ta den med en nypa salt.\n\nDen sanning som svider mest: du kan inte laga någon annans lycka åt dem, inte ens den du älskar. Det är inte kallt — det är den enda värme som håller. Anti-receptet: sluta optimera, bli uppslukad av något som betyder något, var nära dem som ser dig, rör kroppen, och låt glädjen smyga sig på från sidan (tänk Jeanne Calment, 122 år: nyfikenhet, humor, en cykel, choklad, rödvin — och en vägran att sluta leva).\n\nReflektion: Jagar du lyckan — eller har du redan slutat, utan att märka det?\n\nTa med dig: Lyckan går inte att räkna ut. Den går att leva — från lilltån upp till öronsnibbarna."
@@ -789,12 +723,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "bilder": [
@@ -827,12 +755,6 @@ window.LECTURE = {
           "Läs hela boken – Motvikten",
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ],
@@ -867,12 +789,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "bilder": [
@@ -906,12 +822,6 @@ window.LECTURE = {
           "Läs hela boken – Motvikten",
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ],
@@ -949,12 +859,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "bilder": [
@@ -987,12 +891,6 @@ window.LECTURE = {
           "Läs hela boken – Motvikten",
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ],
@@ -1027,12 +925,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "bilder": [
@@ -1065,12 +957,6 @@ window.LECTURE = {
           "Läs hela boken – Motvikten",
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ],
@@ -1111,12 +997,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -1152,12 +1032,6 @@ window.LECTURE = {
           "Läs hela boken – Motvikten",
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ]
@@ -1195,12 +1069,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -1236,12 +1104,6 @@ window.LECTURE = {
           "Läs hela boken – Motvikten",
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ]
@@ -1279,12 +1141,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -1320,12 +1176,6 @@ window.LECTURE = {
           "Läs hela boken – Motvikten",
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ]
@@ -1363,12 +1213,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -1404,12 +1248,6 @@ window.LECTURE = {
           "Läs hela boken – Motvikten",
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ]
@@ -1447,12 +1285,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -1488,12 +1320,6 @@ window.LECTURE = {
           "Läs hela boken – Motvikten",
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ]
@@ -1531,12 +1357,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -1571,12 +1391,6 @@ window.LECTURE = {
           "Läs hela boken – Motvikten",
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ]
@@ -1641,12 +1455,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/utblickar.html",
           "Utblickar som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Utblickar",
-          "https://annamalmberg2.github.io/forklara-ai/utblickar.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "anteckningar": "47 Utblickar samlade. Två läsartyper: den som läser hela kortet, och den som bara vill ha den globala vinkeln för att stärka sitt eget.\n\nSju väderstreck. Finns också invävda i sina egna kort — det här är den samlade utsikten.\n\nEgen bok-sida (utblickar.html) går att skriva ut.",
@@ -1681,12 +1489,6 @@ window.LECTURE = {
           "Läs hela boken – Utblickar",
           "https://annamalmberg2.github.io/forklara-ai/utblickar.html",
           "Utblickar som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Utblickar",
-          "https://annamalmberg2.github.io/forklara-ai/utblickar.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ],
@@ -1724,12 +1526,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/utblickar.html",
           "Utblickar som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Utblickar",
-          "https://annamalmberg2.github.io/forklara-ai/utblickar.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "bilder": [
@@ -1766,12 +1562,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/utblickar.html",
           "Utblickar som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Utblickar",
-          "https://annamalmberg2.github.io/forklara-ai/utblickar.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "bilder": [
@@ -1807,12 +1597,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/utblickar.html",
           "Utblickar som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Utblickar",
-          "https://annamalmberg2.github.io/forklara-ai/utblickar.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "bilder": [
@@ -1843,12 +1627,6 @@ window.LECTURE = {
           "Läs hela boken – Utblickar",
           "https://annamalmberg2.github.io/forklara-ai/utblickar.html",
           "Utblickar som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Utblickar",
-          "https://annamalmberg2.github.io/forklara-ai/utblickar.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ],
@@ -1885,12 +1663,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/utblickar.html",
           "Utblickar som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Utblickar",
-          "https://annamalmberg2.github.io/forklara-ai/utblickar.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "bilder": [
@@ -1924,12 +1696,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/utblickar.html",
           "Utblickar som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Utblickar",
-          "https://annamalmberg2.github.io/forklara-ai/utblickar.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "bilder": [
@@ -1961,6 +1727,12 @@ window.LECTURE = {
       ],
       "lankar": [
         [
+          "Läs hela boken – Förklara AI",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Förklara AI som läsbok — läs i egen takt.",
+          "Läs som bok"
+        ],
+        [
           "Mitt gamla CV med lärarlegitimation och utdrag ur belastningsregistret",
           "https://docs.google.com/document/d/1fveAwEzDnfayn210UlQ7hU5KHXFC6zzV8hEaBWlTqGU/edit?tab=t.0"
         ],
@@ -1987,18 +1759,6 @@ window.LECTURE = {
         [
           "Pluton B",
           "https://sites.google.com/view/hurdetfunkar/pluton-b"
-        ],
-        [
-          "Läs hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
-          "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "relaterat": [
@@ -2032,20 +1792,14 @@ window.LECTURE = {
       ],
       "lankar": [
         [
-          "Pluton B",
-          "https://sites.google.com/view/hurdetfunkar/pluton-b"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Pluton B",
+          "https://sites.google.com/view/hurdetfunkar/pluton-b"
         ]
       ]
     },
@@ -2075,20 +1829,14 @@ window.LECTURE = {
       ],
       "lankar": [
         [
-          "Pluton B",
-          "https://sites.google.com/view/hurdetfunkar/pluton-b"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Pluton B",
+          "https://sites.google.com/view/hurdetfunkar/pluton-b"
         ]
       ]
     },
@@ -2113,6 +1861,12 @@ window.LECTURE = {
       ],
       "lankar": [
         [
+          "Läs hela boken – Förklara AI",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Förklara AI som läsbok — läs i egen takt.",
+          "Läs som bok"
+        ],
+        [
           "Max Tegmark, Sommar i P1 2023",
           "https://www.sverigesradio.se/avsnitt/max-tegmark-sommarpratare-2023"
         ],
@@ -2123,18 +1877,6 @@ window.LECTURE = {
         [
           "Pluton B",
           "https://sites.google.com/view/hurdetfunkar/pluton-b"
-        ],
-        [
-          "Läs hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
-          "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "relaterat": [
@@ -2176,20 +1918,14 @@ window.LECTURE = {
       ],
       "lankar": [
         [
-          "Designprinciper",
-          "https://sites.google.com/view/hurdetfunkar/tankar/designprinciper"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Designprinciper",
+          "https://sites.google.com/view/hurdetfunkar/tankar/designprinciper"
         ]
       ]
     },
@@ -2224,12 +1960,6 @@ window.LECTURE = {
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ]
@@ -2267,20 +1997,14 @@ window.LECTURE = {
       ],
       "lankar": [
         [
-          "Alla fredagslåtar",
-          "https://sites.google.com/ainnova.se/aisverige/musik"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Alla fredagslåtar",
+          "https://sites.google.com/ainnova.se/aisverige/musik"
         ]
       ]
     },
@@ -2312,12 +2036,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -2348,12 +2066,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -2381,20 +2093,14 @@ window.LECTURE = {
       ],
       "lankar": [
         [
-          "Joakim Jardenbergs podd om hiss-strejken",
-          "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-4-9/328559221-44100-2-4907b14f1ae12.mp3"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Joakim Jardenbergs podd om hiss-strejken",
+          "https://d3ctxlq1ktw2nl.cloudfront.net/staging/2023-4-9/328559221-44100-2-4907b14f1ae12.mp3"
         ]
       ]
     },
@@ -2426,6 +2132,12 @@ window.LECTURE = {
       ],
       "lankar": [
         [
+          "Läs hela boken – Förklara AI",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Förklara AI som läsbok — läs i egen takt.",
+          "Läs som bok"
+        ],
+        [
           "Pluton B",
           "https://sites.google.com/view/hurdetfunkar/pluton-b"
         ],
@@ -2440,18 +2152,6 @@ window.LECTURE = {
         [
           "Låten om råttan på repet",
           "https://www.youtube.com/watch?v=KbeZjUBWLUM"
-        ],
-        [
-          "Läs hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
-          "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "raformat": "Du kan gasa, bromsa och styra en bil — och den gör exakt vad mekaniken och ritningen tillåter. Det finns en färdig kedja för varje skruv.\n\nMed ett neuralt nätverk styr du också ingången (din prompt), men det som händer under huven är inte ritat, det är odlat. Miljarder små mönster och vikter samverkar på sätt som inte ens skaparna helt kan förutsäga. Du styr riktningen, men AI:n navigerar i sitt eget mycel. Ingen kan peka på skruven där en viss kunskap sitter.\n\nFörmågor dyker upp och brister visar sig på sätt som förvånar även de mest insatta forskarna.\n\nDet finns ingen färdig manual; man måste testa sig fram till vad den kan.\n\nNär hela internet måste lära sig läsa intentioner.\n\nDet här skiftet från mekaniska skruvar till levande nätverk händer inte bara i modellerna, utan i hela digitala infrastrukturen runt oss."
@@ -2478,6 +2178,12 @@ window.LECTURE = {
         "Hugging Face"
       ],
       "lankar": [
+        [
+          "Läs hela boken – Förklara AI",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Förklara AI som läsbok — läs i egen takt.",
+          "Läs som bok"
+        ],
         [
           "ChatGPT",
           "https://chatgpt.com",
@@ -2509,18 +2215,6 @@ window.LECTURE = {
         [
           "Låten om råttan på repet",
           "https://www.youtube.com/watch?v=KbeZjUBWLUM"
-        ],
-        [
-          "Läs hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
-          "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -2553,12 +2247,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -2585,12 +2273,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -2614,12 +2296,6 @@ window.LECTURE = {
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ]
@@ -2652,12 +2328,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -2683,24 +2353,18 @@ window.LECTURE = {
       ],
       "lankar": [
         [
-          "Daisy en lurendrejares största mardröm",
-          "https://www.youtube.com/watch?v=RV_SdCfZ-0s"
-        ],
-        [
-          "MIT 202 Obama",
-          "https://youtu.be/l82PxsKHxYc"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Daisy en lurendrejares största mardröm",
+          "https://www.youtube.com/watch?v=RV_SdCfZ-0s"
+        ],
+        [
+          "MIT 202 Obama",
+          "https://youtu.be/l82PxsKHxYc"
         ]
       ]
     },
@@ -2725,24 +2389,18 @@ window.LECTURE = {
       ],
       "lankar": [
         [
-          "Daisy, en lurendrejares största mardröm",
-          "https://www.youtube.com/watch?v=RV_SdCfZ-0s"
-        ],
-        [
-          "Alla fredagslåtarna",
-          "https://sites.google.com/ainnova.se/aisverige/musik"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Daisy, en lurendrejares största mardröm",
+          "https://www.youtube.com/watch?v=RV_SdCfZ-0s"
+        ],
+        [
+          "Alla fredagslåtarna",
+          "https://sites.google.com/ainnova.se/aisverige/musik"
         ]
       ]
     },
@@ -2767,12 +2425,6 @@ window.LECTURE = {
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ]
@@ -2803,12 +2455,6 @@ window.LECTURE = {
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ],
@@ -2847,12 +2493,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -2885,6 +2525,12 @@ window.LECTURE = {
       ],
       "lankar": [
         [
+          "Läs hela boken – Förklara AI",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Förklara AI som läsbok — läs i egen takt.",
+          "Läs som bok"
+        ],
+        [
           "Målningar av Joakim Johansson",
           "https://www.facebook.com/media/set/?set=a.1077298669634&type=3"
         ],
@@ -2899,18 +2545,6 @@ window.LECTURE = {
         [
           "Mitt första försök att rita hästar i olika stilar",
           "https://docs.google.com/document/d/1lMleOBLgKxlslpp-sTEnwjX--6SfeP_aqs2pjbsOIww/edit?usp=sharing"
-        ],
-        [
-          "Läs hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
-          "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -2947,12 +2581,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -2974,20 +2602,14 @@ window.LECTURE = {
       "personer": [],
       "lankar": [
         [
-          "IEA — Energy and AI (2025)",
-          "https://www.iea.org/reports/energy-and-ai"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "IEA — Energy and AI (2025)",
+          "https://www.iea.org/reports/energy-and-ai"
         ]
       ],
       "relaterat": [
@@ -3021,20 +2643,14 @@ window.LECTURE = {
       ],
       "lankar": [
         [
-          "Daisy, lurendrejarnas största skräck",
-          "https://www.youtube.com/watch?v=RV_SdCfZ-0s"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Daisy, lurendrejarnas största skräck",
+          "https://www.youtube.com/watch?v=RV_SdCfZ-0s"
         ]
       ]
     },
@@ -3067,12 +2683,6 @@ window.LECTURE = {
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ]
@@ -3108,12 +2718,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -3132,24 +2736,18 @@ window.LECTURE = {
       "fordjupning": "<p class=\"ingress\">Om tekniken agerar <em>för</em> mig kan tekniken hållas ansvarig när den gör fel. Men om jag använder tekniken för att agera <em>mot</em> andra, då är det jag, människan, som bär ansvaret. Den enkla principen leder till en av de viktigaste frågorna i hela AI-revolutionen — och den handlar inte om maskinen, utan om hur vi bygger.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Norman-dörren</span><span class=\"tag\">Design som skuldbelägger</span></div>\n  <div class=\"body\">Designforskaren Don Norman gav namn åt ett vardagsfenomen: <strong>\"Norman-dörrar\"</strong> — dörrar så illa utformade att du inte vet om du ska trycka eller dra. Du drar, misslyckas, och känner dig dum.<br><br>Men felet är aldrig ditt. Det är handtaget som skickar fel signal. En bra dörr behöver ingen skylt med \"TRYCK\" — den <em>visar</em> hur den ska användas.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Digitala Norman-dörrar</span><span class=\"tag\">Byråkratisk design</span></div>\n  <div class=\"body\">Samma sak händer i det digitala, hela tiden. När Bolagsverket i praktiken kräver dyra tredjepartstjänster för att lämna in ett årsbokslut digitalt — så att ett <strong>frimärke för 22 kronor blir den smartaste vägen</strong> — då har vi byggt en digital Norman-dörr. När en äldre granne slås ut av ett krångligt 1177 har vi gjort det igen.<br><br>Det är system designade för systemets skull, inte för människan. Jag kallar dem \"korkade knappar\".</div>\n  <div class=\"lost\"><div class=\"lost-label\">Här brukar folk skuldbelägga fel part</div><div class=\"lost-text\">Om tusen personer trycker på fel knapp är det kanske inte tusen korkade människor. Det kanske är en korkad knapp. Om alla kör i diket på samma ställe är det sällan förarna det är fel på — bättre att bygga om vägen och synka kartan så den stämmer med verkligheten.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Bygg litet, koppla smart</span><span class=\"tag\">Monolit mot modulärt</span></div>\n  <div class=\"body\">Stora organisationer bygger gärna gigantiska, stängda svarta lådor som kostar miljoner och låser in användaren. Men det finns en annan väg, hämtad ur klassisk datavetenskap: <strong>build small, connect smart.</strong><br><br>Mitt recept är att inte bygga in mig i ett dyrt, låst ekosystem — utan jobba med stram budget, egna lösningar och skicka frågor till en \"pluton\" av olika modeller. Det simpla och modulära överlever nästan alltid det överbyggda och krångliga.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Vem körde i diket?</span><span class=\"tag\">Delegerad agens</span></div>\n  <div class=\"body\">När du låter en AI-agent utföra uppgifter åt dig ställs den svåra frågan: vem bär ansvaret när något går fel på den nya digitala vägen?<br><br>Slår du dig med en hammare skyller ingen på hammaren. Men en AI-agent som planerar, väljer och fattar beslut rör sig i ett gränsland. Jag ställde exakt den frågan till en hel pluton av modeller — på olika språk, med olika liknelser landade nästan alla i samma svar: <strong>handling och verkställande kan delegeras till tekniken. Det ultimata ansvaret kan aldrig avskrivas från människan som gav ordern.</strong></div>\n  <div class=\"insight\"><div class=\"insight-label\">En passande limerick</div><div class=\"insight-text\">Det fanns en gång en blankett,<br>så krånglig och knappt ens komplett.<br>Men vi jäste vår plan,<br>med en gammal som klan,<br>och skickade in den blank.</div></div>\n  <div class=\"utblick\"><div class=\"utblick-label\">Utblick — Vem betalar för roboten?</div><div class=\"utblick-text\">När en självkörande bil dödade en fotgängare i Arizona 2018 tvingades världen fråga: vem bär skulden — tillverkaren, säkerhetsföraren bakom ratten, eller mjukvaran? Olika länder svarar olika, och för AI-agenter som handlar på nätet är lagen ännu tunnare. Tekniken springer före ansvarskedjan — och det gapet är farligare än någon enskild bugg.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Nästa stora AI-fråga</span><span class=\"tag\">Slutsats och uppmaning</span></div>\n  <div class=\"body\">Om vi bygger AI-system så komplexa att ingen människa förstår knapparna, skapar vi ett ansvarsvakuum — där tusen personer \"gör fel\" fast felet är designens.<br><br>Därför är den viktigaste knäckfrågan i AI-revolutionen inte \"kan AI tänka?\", utan: <strong>\"kan vi bygga system som vanliga människor faktiskt kan använda utan att göra fel?\"</strong> Att kräva att människan anpassar sig efter obegriplig kod är 1900-tal. 2000-talets design måste anpassa sig efter människan.</div>\n  <div class=\"why\"><div class=\"why-label\">Vad det kräver av oss</div><div class=\"why-text\">Det är en beställning både till dem som bygger och till oss som köper: kräv raka vägar, tydligt ansvar och knappar smarta nog att ingen ska behöva köra i diket. En mänskligare digital värld byggs inte av tekniken själv — den byggs av dem som vägrar acceptera den korkade knappen.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">6</span><span class=\"concept\">Var vi alltid möts</span><span class=\"tag\">Det mänskliga</span></div>\n  <div class=\"body\">Att delegera en handling men behålla ansvaret är en av de äldsta principerna vi har. Generalen svarar för soldatens order, kaptenen för skeppet, föräldern för barnet. Vi har alltid vetat skillnaden mellan att låta någon <em>utföra</em> något och att slippa <em>svara</em> för det.<br><br>Där möts vi: ingen accepterar \"det var inte jag, det var verktyget\" som ursäkt när skadan är skedd. Ansvaret söker alltid en människa — och det är en djupt mänsklig rättvisekänsla.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">7</span><span class=\"concept\">Var vi krockar</span><span class=\"tag\">De många blickarna</span></div>\n  <div class=\"body\">När något går fel med tekniken pekar olika blickar åt olika håll.\n    <div class=\"extra-grid\" style=\"margin-top:14px\">\n      <div><div class=\"extra-name\">Skyll på användaren / på designen</div><div class=\"extra-desc\">\"Läs manualen\" mot \"bygg en knapp man inte kan trycka fel på\".</div></div>\n      <div><div class=\"extra-name\">Monolit / modulärt</div><div class=\"extra-desc\">Den stora, låsta lådan mot små delar som kopplas smart.</div></div>\n      <div><div class=\"extra-name\">Bygg fort / bygg begripligt</div><div class=\"extra-desc\">\"Ut med funktionen\" mot \"ingen ska behöva köra i diket\".</div></div>\n      <div><div class=\"extra-name\">Vem betalar när agenten felar</div><div class=\"extra-desc\">Tillverkaren, ägaren, eller \"ingen\"? Länder svarar olika — och för AI-agenter är svaret ännu oklart.</div></div>\n    </div>\n    <br>Det farliga vakuumet uppstår när ansvaret göms i komplexiteten. Klok design och en tydlig ansvarskedja är motgiftet — och det är en beställning, inte en självklarhet.</div>\n</div>\n\n<hr>\n\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Norman-dörr</div><div class=\"extra-desc\">En dörr (eller ett gränssnitt) så dåligt designat att du känner dig dum. Felet är designens.</div></div>\n  <div><div class=\"extra-name\">Affordans</div><div class=\"extra-desc\">Att en sak visar hur den ska användas. Ett bra handtag behöver ingen skylt.</div></div>\n  <div><div class=\"extra-name\">Nudge / beteendedesign</div><div class=\"extra-desc\">Att göra rätt handling lätt och fel handling svår. Motsatsen till korkade knappar.</div></div>\n  <div><div class=\"extra-name\">Delegerad agens</div><div class=\"extra-desc\">När du låter en AI agera åt dig. Handlingen delegeras — ansvaret gör det inte.</div></div>\n  <div><div class=\"extra-name\">Ansvarsvakuum</div><div class=\"extra-desc\">När ingen vet vem som bär skulden för att systemet är obegripligt. Farlig lucka.</div></div>\n  <div><div class=\"extra-name\">Monolit vs modulärt</div><div class=\"extra-desc\">En stor låst låda mot små delar som kopplas smart. Det modulära överlever oftast.</div></div>\n  <div><div class=\"extra-name\">Korkad knapp</div><div class=\"extra-desc\">Mitt namn på design som skuldbelägger användaren för sina egna brister.</div></div>\n  <div><div class=\"extra-name\">Användbarhet</div><div class=\"extra-desc\">Om vanligt folk kan använda något utan att göra fel. Nästa stora AI-fråga.</div></div>\n</div>\n\n<div class=\"future-box\">\n  <div class=\"future-head\">Vad vi inte vet ännu</div>\n  <div class=\"future-body\">Hur vi fördelar ansvar rättvist när AI-agenter fattar allt fler beslut åt oss, och om lagar och gränssnitt hinner byggas så att människan förstår vad hon säger ja till.<br><br>Det <strong>vet</strong> vi: den dagen tusen personer trycker fel är det värt att fråga sig om det verkligen är tusen korkade människor — eller en korkad knapp. Att våga ställa den frågan är första steget mot en teknik byggd för människor.</div>\n</div>",
       "lankar": [
         [
-          "AI på jobbet",
-          "https://confy-ai-path.lovable.app/"
-        ],
-        [
-          "Etiskt ramverk för AI system ",
-          "https://open-weave-ai.lovable.app/"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "AI på jobbet",
+          "https://confy-ai-path.lovable.app/"
+        ],
+        [
+          "Etiskt ramverk för AI system ",
+          "https://open-weave-ai.lovable.app/"
         ]
       ],
       "begrepp": [
@@ -3174,6 +2772,12 @@ window.LECTURE = {
       "anteckningar": "Svaret är inte ett knep eller ett verktyg — det är att våga börja. Idag.\n\nBörja prata med AI i telefonen; logga in med samma google-/applekonto överallt så synkar det.\n\nDin kurva är din egen: beror på förkunskaper OCH hur många problem du brottats med.\n\nDet bygger på sig självt — ju mer ni löst ihop, desto bättre hjälper den dig.\n\nEn grundprompt som säger vem du är ger AI:n en flygande start. (Se länkarna.)\n\nSedan är det bara som på vilket jobb som hels: delegera, fördela och be om hjälp.",
       "lankar": [
         [
+          "Läs hela boken – Förklara AI",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Förklara AI som läsbok — läs i egen takt.",
+          "Läs som bok"
+        ],
+        [
           "AI skolan i Notion",
           "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0",
           "En bra grund att stå på med olika sigar. Fäll ut innehåll och stäng med pil"
@@ -3191,18 +2795,6 @@ window.LECTURE = {
         [
           "Pluton B",
           "https://sites.google.com/view/hurdetfunkar/pluton-b"
-        ],
-        [
-          "Läs hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
-          "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "fordjupning": "<p class=\"ingress\">Det ärliga svaret på \"hur börjar jag?\" är inte ett verktyg eller ett knep. Det är att <strong>våga börja</strong> — idag, i soffan, med telefonen i handen. Allt efter det är bara nyfikenhet och upprepning. Och här är hemligheten ingen berättar: det blir lättare, på ett sätt som förvånar dig.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Börja idag — i soffan</span><span class=\"tag\">Våga</span></div>\n  <div class=\"body\">Du behöver ingen kurs och ingen dator. Öppna en AI i telefonen och <strong>prata med den</strong> — fråga om vad som helst, be den förklara något du alltid undrat. Insatsen är noll, tröskeln likaså.<br><br>Ett litet knep som gör stor skillnad: logga alltid in med <strong>samma google- eller applekonto</strong> överallt. Då synkar dina samtal mellan telefon och dator, och AI:n börjar känna igen dig i stället för att möta en främling varje gång.</div>\n  <div class=\"utblick\"><div class=\"utblick-label\">Utblick — Mobilen först</div><div class=\"utblick-text\">I stora delar av världen ÄR telefonen datorn — miljarder människor kom online via mobilen och hoppade över skrivbordseran helt. Att AI nu bor i fickan möter dem precis där de redan är. Haken kvarstår: el, datakostnad och innehåll på det egna språket avgör vem som faktiskt kommer med.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Din kurva är din egen</span><span class=\"tag\">Inlärningskurvan</span></div>\n  <div class=\"body\">Det finns ingen enda \"rätt\" takt. Din inlärningskurva beror på två saker: <strong>vad du redan kan</strong>, och <strong>hur många problem du vågat brottas med</strong> tillsammans med din AI.<br><br>Två personer kan sitta bredvid varandra och vara på helt olika ställen i kurvan — och båda ha rätt. Den som jämför sig med andra tappar bara modet. Det enda felaktiga draget är att inte börja.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Här brukar folk fastna</div><div class=\"lost-text\">\"Alla andra verkar redan kunna det här.\" Nej. De flesta bluffar, och de som verkligen kan minns hur det var att inte kunna. Du får vara nybörjare. Faktum är att modet att vara nybörjare är hela färdigheten.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Det bygger på sig självt</span><span class=\"tag\">Relationen växer</span></div>\n  <div class=\"body\">Det märkligaste är att det blir <em>lättare</em> ju längre du håller på — och inte främst för att verktyget plötsligt blev smartare. Det är för att <strong>ni bygger en relation</strong>. Ju fler problem ni löst ihop, desto mer vet den om hur du tänker, vad du är ute efter och var du brukar snubbla. <br><br>Delegera, fördela och be om hjälp.<br><br>Det är nästan som en klok lärare: den vågar ge dig mer när den märker att du klarar att ta emot det och förvalta det. Du växer, och den växer med dig.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Du lär dig inte bara ett verktyg. Du bygger ett samarbete som fördjupas. Därför känns det som att det hela tiden blir lättare — för det gör det, i takt med att ni lär känna varandra.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Ett steg som bara du kan ta</span><span class=\"tag\">Det mänskliga</span></div>\n  <div class=\"body\">Det finns en sak AI:n aldrig kan göra åt dig: veta vad <em>du</em> egentligen vill ha. Det svåraste jobbet ligger alltid på din sida — inte att formulera den perfekta frågan, utan att komma underfund med vad du faktiskt är ute efter.<br><br>Och det lär du dig bara genom att bråkas lite med den: säga \"nej, inte så\", försöka igen, och märka att svaret klarnar medan du skriver.</div>\n  <div class=\"why\"><div class=\"why-label\">En genväg som hjälper</div><div class=\"why-text\">Ge AI:n en <strong>grundprompt</strong> — några rader om vem du är, vad du gör och hur du vill ha det (se länkarna \"Min AI start\" och \"AI-skolan\"). Då slipper den gissa, och möter dig direkt där du är. Inte en magisk formel — bara en artig presentation.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Nybörjarmisstagen att slippa</span><span class=\"tag\">Fyra snubbeltrådar</span></div>\n  <div class=\"body\"><strong>1. Behandla den som Google.</strong> Den är ingen sökmotor — prata med den i hela meningar, som med en kunnig kollega.<br><strong>2. Ge upp efter ett dåligt svar.</strong> Det första svaret är ett utkast, inte ett facit — säg \"nej, så här menar jag\" och fortsätt.<br><strong>3. Ge för lite sammanhang.</strong> Den läser dig, inte dina tankar — berätta vem du är och vad du vill.<br><strong>4. Tro att du måste kunna allt först.</strong> Du lär dig i görandet, inte innan.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">6</span><span class=\"concept\">Var vi alltid möts</span><span class=\"tag\">Det mänskliga</span></div>\n  <div class=\"body\">Att stå på tröskeln till något nytt och känna sig dum är inte en AI-grej — det är att vara människa. Vi har alla varit nybörjare på allt vi nu kan: gå, läsa, cykla, älska. Vi glömmer bara hur klumpigt det kändes i början, och tror att andra föddes med förmågan.<br><br>Där möts vi: modet att vara nybörjare är samma mod, i varje ålder och kultur. Ingen mästare slapp den första fumliga dagen.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">7</span><span class=\"concept\">Var vi krockar</span><span class=\"tag\">De många blickarna</span></div>\n  <div class=\"body\">Hur man bäst börjar — där går meningarna isär, och det är helt okej.\n    <div class=\"extra-grid\" style=\"margin-top:14px\">\n      <div><div class=\"extra-name\">Dykaren / läsaren</div><div class=\"extra-desc\">\"Hoppa i och prova\" mot \"läs på först\". Båda vägar funkar — välj din.</div></div>\n      <div><div class=\"extra-name\">\"För gammal\" / \"för ung\"</div><div class=\"extra-desc\">Den som tror tåget gått mot barnet som bara sätter igång — och sanningen att nyfikenhet inte har ålder.</div></div>\n      <div><div class=\"extra-name\">Med tillgång / utan</div><div class=\"extra-desc\">En telefon och ett konto räcker — men el, uppkoppling och språk stänger fortfarande ute många.</div></div>\n      <div><div class=\"extra-name\">Ensam / tillsammans</div><div class=\"extra-desc\">Kämpa själv mot lära i sällskap. Folkbildning slår ensamhet.</div></div>\n    </div>\n    <br>Det finns ingen rätt startpunkt — bara din. Det enda felaktiga draget är att aldrig börja.</div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Grundprompt</div><div class=\"extra-desc\">Några rader som säger AI:n vem du är. Ger den en flygande start i varje samtal.</div></div>\n  <div><div class=\"extra-name\">Custom instructions</div><div class=\"extra-desc\">Sparade instruktioner som gäller alla dina samtal. Din grundprompt, permanent.</div></div>\n  <div><div class=\"extra-name\">Kontext</div><div class=\"extra-desc\">Allt AI:n vet om dig och uppgiften just nu. Ju rikare, desto bättre svar.</div></div>\n  <div><div class=\"extra-name\">Inlärningskurva</div><div class=\"extra-desc\">Din egen väg framåt — beror på förkunskaper och hur mycket du vågat testa.</div></div>\n  <div><div class=\"extra-name\">Iteration</div><div class=\"extra-desc\">Att jobba i rundor: försöka, se, justera. Där lärandet faktiskt sitter.</div></div>\n  <div><div class=\"extra-name\">Synk</div><div class=\"extra-desc\">Samma konto överallt → samtalen följer med mellan telefon och dator.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Något att bära med sig</div>\n  <div class=\"future-body\">Din första AI-konversation blir troligen lite fånig och trevande. Det är precis som det ska vara — så känns varje ny relation i början.<br><br>Det <strong>enda</strong> som skiljer den som kommer långt från den som aldrig börjar är inte begåvning eller förkunskaper. Det är modet att sätta sig i soffan och skriva den första klumpiga frågan. Gör det ikväll.</div>\n</div>",
@@ -3236,6 +2828,12 @@ window.LECTURE = {
       ],
       "lankar": [
         [
+          "Läs hela boken – Förklara AI",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Förklara AI som läsbok — läs i egen takt.",
+          "Läs som bok"
+        ],
+        [
           "AI skolan i Notion",
           "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
         ],
@@ -3250,18 +2848,6 @@ window.LECTURE = {
         [
           "Pluton B",
           "https://sites.google.com/view/hurdetfunkar/pluton-b"
-        ],
-        [
-          "Läs hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
-          "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -3287,6 +2873,12 @@ window.LECTURE = {
       ],
       "lankar": [
         [
+          "Läs hela boken – Förklara AI",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Förklara AI som läsbok — läs i egen takt.",
+          "Läs som bok"
+        ],
+        [
           "On Boarding",
           "https://vision-setter.lovable.app/",
           "Gå via min affilatelänk till Lovable \"övre högra hörnet\" så får du mer poäng att bygga för. Testa bygga appar själv eller hjälp mig att hjälpa dig via min \"Harness för att maxa\" d v s ta till vara på tekniken."
@@ -3310,18 +2902,6 @@ window.LECTURE = {
         [
           "Pluton B",
           "https://sites.google.com/view/hurdetfunkar/pluton-b"
-        ],
-        [
-          "Läs hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
-          "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -3337,22 +2917,16 @@ window.LECTURE = {
       "sektion": "060",
       "lankar": [
         [
-          "AI Compliance Guide (min egen)",
-          "https://confy-ai-path.lovable.app/",
-          "Min verifierade guide: privatperson vs företag, de fem kriterierna och en färsk plattformsjämförelse.",
-          "Guide"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "AI Compliance Guide (min egen)",
+          "https://confy-ai-path.lovable.app/",
+          "Min verifierade guide: privatperson vs företag, de fem kriterierna och en färsk plattformsjämförelse.",
+          "Guide"
         ]
       ],
       "fordjupning": "<p class=\"ingress\">Om du bara tar med dig en sak från det här kapitlet, låt det vara den här: reglerna är <strong>helt olika</strong> för dig som privatperson och för ett företag. För dig själv är det en knapp i inställningarna. För ett företag som hanterar andras personuppgifter är det ett juridiskt avtal. Blanda ihop dem, och det blir fel.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">För dig själv — en knapp</span><span class=\"tag\">Privatperson</span></div>\n  <div class=\"body\">Som privatperson räcker det långt att gå in i inställningarna och stänga av att din data får användas för att träna modellen. Leta efter <em>Data Controls</em> eller <em>Privacy</em>, och bocka ur \"improve the model for everyone\" (eller motsvarande).<br><br>Det finns inget avtal att signera, ingen jurist att ringa. <strong>En knapp, och du är i hamn</strong> — för dina egna uppgifter.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">För ett företag — ett avtal</span><span class=\"tag\">Företag</span></div>\n  <div class=\"body\">Så fort personuppgifter eller företagshemligheter är inblandade blir det allvar. Då blir ditt företag <strong>personuppgiftsansvarig</strong> och AI-leverantören <strong>personuppgiftsbiträde</strong> — och det kräver mer än en knapp:<br><br>• En <strong>Enterprise- eller Business-plan</strong> — konsumentkonton räcker inte.<br>• Ett signerat <strong>DPA</strong> (Data Processing Agreement) enligt GDPR artikel 28.<br>• <strong>EU-hosting eller SCC</strong> om data lämnar EU/EES.<br>• En intern <strong>AI-policy</strong> — vad får anställda mata in?<br>• Ett uppdaterat <strong>register</strong> över personuppgiftsbehandling.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Varför skillnaden?</span><span class=\"tag\">Ansvar</span></div>\n  <div class=\"body\">Logiken är enkel när man ser den: som privatperson riskerar du bara <em>din egen</em> data. Som företag är du ansvarig för <strong>andras</strong> — dina kunders, dina anställdas. Därför är lagen strängare.<br><br>Det är samma princip som löper genom hela föreläsningen: ju mer du agerar för andras räkning, desto mer ansvar bär du.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Det vanligaste och dyraste misstaget</div><div class=\"lost-text\">Att använda ett gratis eller privat konto (Free/Pro/Plus) för företagsdata. Det ger sällan samma skydd, och er data kan hamna där ni inte vill. Regeln är enkel: <strong>företagsdata hör hemma på en företagsplan med signerat DPA.</strong></div></div>\n  <div class=\"utblick\"><div class=\"utblick-label\">Utblick — Brysseleffekten</div><div class=\"utblick-text\">EU:s GDPR har blivit något av en världsstandard — flera länder (t.ex. Brasilien) har byggt sina egna lagar på den, helt enkelt för att globala bolag tycker det är enklast att följa den strängaste regeln överallt. Men långt ifrån alla följer EU: USA reglerar sektorsvis, Kina har egna hårda dataregler. \"Vad som gäller\" beror alltså på var i världen datan lever.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Vad du gör nu</span><span class=\"tag\">Handling</span></div>\n  <div class=\"body\"><strong>För dig själv:</strong> gå in och stäng av träningsknappen idag. Klart.<br><br><strong>För din organisation:</strong> kolla att ni är på rätt plan, se till att DPA:t är signerat, och skriv en enkel intern policy (mer om den senare i kapitlet). I min egen guide finns en färsk jämförelse av vilka tjänster som uppfyller kraven — länken finns här nedanför.</div>\n  <div class=\"why\"><div class=\"why-label\">En ärlig brasklapp</div><div class=\"why-text\">Det här är en pedagogisk överblick, inte juridisk rådgivning. Villkoren ändras, och skiljer sig mellan tjänster och länder. <strong>Verifiera alltid mot leverantörens egen dokumentation innan ni signerar något.</strong> Det är just därför jag lär ut principerna här och håller detaljerna levande i guiden.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Var vi alltid möts</span><span class=\"tag\">Det mänskliga</span></div>\n  <div class=\"body\">Att skilja på \"mitt eget\" och \"det jag förvaltar åt andra\" är en urgammal moralisk gräns. Kassören som inte får ta ur kassan, läkaren med tystnadsplikt, prästen i bikten — vi har alltid vetat att förtroendet för andras hemligheter väger tyngre än vår egen bekvämlighet.<br><br>Där möts vi: alla förstår skillnaden mellan att chansa med sitt eget och att chansa med någon annans. GDPR är bara den känslan skriven i lag.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">6</span><span class=\"concept\">Var vi krockar</span><span class=\"tag\">De många blickarna</span></div>\n  <div class=\"body\">Alla vill komma igång — men hur mycket av andras förtroende man riskerar på vägen delar oss åt.\n    <div class=\"extra-grid\" style=\"margin-top:14px\">\n      <div><div class=\"extra-name\">Bekvämlighet / efterlevnad</div><div class=\"extra-desc\">\"Gratiskontot funkar ju\" mot \"andras data kräver avtal\".</div></div>\n      <div><div class=\"extra-name\">Fart / försiktighet</div><div class=\"extra-desc\">Komma igång nu mot ha DPA:t på plats först.</div></div>\n      <div><div class=\"extra-name\">Liten / stor organisation</div><div class=\"extra-desc\">Enmansföretaget som tycker det är overkill mot den som vet vad ett läckage kostar.</div></div>\n      <div><div class=\"extra-name\">EU / andra regler</div><div class=\"extra-desc\">Den som lutar sig mot GDPR mot den som verkar där helt andra dataregler gäller.</div></div>\n    </div>\n    <br>Alla vill komma igång. Skillnaden är bara hur mycket av andras förtroende man är beredd att riskera på vägen.</div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">DPA</div><div class=\"extra-desc\">Data Processing Agreement. Avtalet som krävs enligt GDPR när ett biträde hanterar era personuppgifter.</div></div>\n  <div><div class=\"extra-name\">Personuppgiftsansvarig</div><div class=\"extra-desc\">Den som bestämmer över uppgifterna — ert företag. Bär huvudansvaret.</div></div>\n  <div><div class=\"extra-name\">Personuppgiftsbiträde</div><div class=\"extra-desc\">Den som behandlar uppgifterna åt er — AI-leverantören. Bunden av DPA:t.</div></div>\n  <div><div class=\"extra-name\">GDPR</div><div class=\"extra-desc\">EU:s dataskyddsförordning. Styr hur personuppgifter får hanteras.</div></div>\n  <div><div class=\"extra-name\">Enterprise/Business-plan</div><div class=\"extra-desc\">Företagsversionen med avtal och skydd. Konsumentkonton räcker inte för företagsdata.</div></div>\n  <div><div class=\"extra-name\">SCC</div><div class=\"extra-desc\">Standardavtalsklausuler — krävs om data lämnar EU/EES. Alternativ: EU-hosting.</div></div>\n  <div><div class=\"extra-name\">Register (Art. 30)</div><div class=\"extra-desc\">Er dokumentation över vilken personuppgiftsbehandling som sker. Uppdateras löpande.</div></div>\n  <div><div class=\"extra-name\">Konsumentkonto</div><div class=\"extra-desc\">Gratis/privat plan. Bra för dig själv — men inte för företagets data.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Ta med dig detta</div>\n  <div class=\"future-body\">En knapp för dig, ett avtal för företaget. Det är hela grundskillnaden, och den räddar de flesta från de dyra misstagen.<br><br>Vill du se exakt vilka tjänster som uppfyller kraven — och hur de rankas på de fem kriterierna — finns min färska, verifierade jämförelse i länken. Detaljerna lever där; principerna lever här.</div>\n</div>",
@@ -3378,22 +2952,16 @@ window.LECTURE = {
       "sektion": "060",
       "lankar": [
         [
-          "AI Compliance Guide (min egen)",
-          "https://confy-ai-path.lovable.app/",
-          "Min verifierade guide: privatperson vs företag, de fem kriterierna och en färsk plattformsjämförelse.",
-          "Guide"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "AI Compliance Guide (min egen)",
+          "https://confy-ai-path.lovable.app/",
+          "Min verifierade guide: privatperson vs företag, de fem kriterierna och en färsk plattformsjämförelse.",
+          "Guide"
         ]
       ],
       "fordjupning": "<p class=\"ingress\">Grundregeln är enkel att komma ihåg: klistra aldrig in något du inte skulle våga se läcka. Men bakom den finns två frågor värda att förstå på riktigt — tränas modellen på det jag skriver, och hur länge sparas det?</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Grundregeln</span><span class=\"tag\">Klistra aldrig in hemligheter</span></div>\n  <div class=\"body\">Behandla en vanlig, publik AI ungefär som ett halvöppet forum: skriv inte in lösenord, kunders personuppgifter eller företagshemligheter. Inte för att den garanterat läcker — utan för att du inte har full kontroll över vart det tar vägen.<br><br>På en företagsplan med signerat DPA är läget ett annat — då är datan avtalsskyddad. Men vanan att tänka efter innan man klistrar in är gratis och alltid rätt.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Tränas den på min data?</span><span class=\"tag\">Träningsdata</span></div>\n  <div class=\"body\">På ett konsumentkonto kan dina samtal, om du inte stängt av det, <strong>användas för att träna framtida modeller</strong>. På en företagsplan med DPA bekräftas i avtal att de <em>inte</em> gör det.<br><br>Vissa väljer medvetet att dela allt — för att bidra till helheten och hjälpa labben förbättra tekniken för andra. Det är en generös och fullt legitim hållning <strong>för en privatperson</strong> (jag gör det själv i mitt eget arbete).</div>\n  <div class=\"lost\"><div class=\"lost-label\">Men var ärlig med vad delandet är — och inte är</div><div class=\"lost-text\">Din data blir en <em>droppe i havet</em>, hopblandad med miljoner andras och använd i efterhand, i stora batchar. Den ger dig ingen egen \"säkerhetslina\" till labbet och ingen mekanism som skyddar just dig — träning är inte samma sak som övervakning i realtid. Tvärtom <strong>ökar</strong> mer delande din exponering. Ditt skydd kommer från leverantörens säkerhet, dina egna val och lagen — aldrig från att dela mer.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Hur länge sparas det?</span><span class=\"tag\">Retention</span></div>\n  <div class=\"body\">Även om datan inte tränas på så <em>sparas</em> den ofta ett tag — för driftskäl, missbrukskontroll eller support. Hur länge (retention) varierar: några dagar, en månad, ibland längre.<br><br>På företagsplaner finns oftare kontroll: egna raderingsregler, \"vault\", eller att inget sparas alls. Frågan att ställa varje leverantör: <strong>sparas det, var, och hur länge?</strong></div>\n  <div class=\"utblick\"><div class=\"utblick-label\">Utblick — Var får datan bo?</div><div class=\"utblick-text\">Allt fler länder kräver att viss data <em>stannar inom landet</em> — Indien, Kina och Ryssland har olika former av datalokaliseringslagar. Var din information fysiskt lagras är alltså inte en teknisk petitess utan ibland en fråga om vems lagar som gäller över den. \"Hur länge sparas det?\" har fått en tvilling: \"och var?\"</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">När blir det lagens sak, inte din?</span><span class=\"tag\">Personuppgifter</span></div>\n  <div class=\"body\">Här går den avgörande gränsen: i det ögonblick det är <strong>någon annans</strong> personuppgifter — en kunds, en kollegas — är det inte längre din fria valfråga. Då gäller GDPR, och då krävs företagsplan och DPA.<br><br>Det är samma linje som hela kapitlet vilar på: din egen data är ditt val och din risk. Andras data är ett ansvar och en skyldighet.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Fråga dig alltid: <em>vems</em> data är det här? Är det bara ditt, får du dela hur mycket du vill. Är det någon annans, är det inte längre upp till dig.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Var vi alltid möts</span><span class=\"tag\">Det mänskliga</span></div>\n  <div class=\"body\">Att tänka efter innan man anförtror någon en hemlighet är lika gammalt som hemligheter. \"Det man sagt kan man inte ta tillbaka\", viskleken, brevet man ångrar — vi har alltid vetat att information, en gång släppt, är svår att kalla hem.<br><br>Där möts vi: ingen vill se sina egna ord dyka upp där de inte hör hemma. Eftertanken framför sändknappen är en mänsklig reflex värd att lita på.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">6</span><span class=\"concept\">Var vi krockar</span><span class=\"tag\">De många blickarna</span></div>\n  <div class=\"body\">Hur mycket man vågar mata in — där går åsikterna isär.\n    <div class=\"extra-grid\" style=\"margin-top:14px\">\n      <div><div class=\"extra-name\">Dela generöst / hålla tätt</div><div class=\"extra-desc\">\"Bidra till helheten\" mot \"lita aldrig på molnet\".</div></div>\n      <div><div class=\"extra-name\">Bekvämlighet / kontroll</div><div class=\"extra-desc\">Klistra in allt för snabbhet mot att stanna och fråga vems data det är.</div></div>\n      <div><div class=\"extra-name\">Mitt val / andras rätt</div><div class=\"extra-desc\">\"Min data, mitt beslut\" mot \"andras data, deras rätt\".</div></div>\n      <div><div class=\"extra-name\">Var bor datan</div><div class=\"extra-desc\">Den som inte bryr sig var servern står mot länder och företag som kräver att data stannar hemma.</div></div>\n    </div>\n    <br>Med din egen data får du vara hur generös du vill. Med andras är generositeten inte din att ge.</div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Träningsdata</div><div class=\"extra-desc\">Text som används för att förbättra framtida modeller. Kan stängas av på konsumentkonton.</div></div>\n  <div><div class=\"extra-name\">Retention</div><div class=\"extra-desc\">Hur länge din data sparas — även om den inte tränas på. Varierar mellan tjänster.</div></div>\n  <div><div class=\"extra-name\">Personuppgift</div><div class=\"extra-desc\">Uppgift som kan kopplas till en person. Andras personuppgifter = GDPR, inte fri valfråga.</div></div>\n  <div><div class=\"extra-name\">Opt-out</div><div class=\"extra-desc\">Att aktivt stänga av datadelning. En knapp i inställningarna för dig som privatperson.</div></div>\n  <div><div class=\"extra-name\">Vault / radering</div><div class=\"extra-desc\">Företagskontroller för var data lagras och när den raderas. Del av isolering.</div></div>\n  <div><div class=\"extra-name\">Exponering</div><div class=\"extra-desc\">Hur mycket av din data som finns ute. Mer delande = mer exponering, inte mindre.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Ta med dig detta</div>\n  <div class=\"future-body\">Att dela generöst kan vara en fin hållning — för din <em>egen</em> data. Men det är ett värdeval, inte ett säkerhetsskydd, och det gäller aldrig andras uppgifter.<br><br>Enkel tumregel: klistra aldrig in det du inte vill se läcka, och fråga vems data det är innan du trycker enter.</div>\n</div>",
@@ -3419,22 +2987,16 @@ window.LECTURE = {
       "sektion": "060",
       "lankar": [
         [
-          "AI Compliance Guide (min egen)",
-          "https://confy-ai-path.lovable.app/",
-          "Min verifierade guide: privatperson vs företag, de fem kriterierna och en färsk plattformsjämförelse.",
-          "Guide"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "AI Compliance Guide (min egen)",
+          "https://confy-ai-path.lovable.app/",
+          "Min verifierade guide: privatperson vs företag, de fem kriterierna och en färsk plattformsjämförelse.",
+          "Guide"
         ]
       ],
       "fordjupning": "<p class=\"ingress\">Hur bedömer man om en AI-tjänst är säker nog för ett företag? Man behöver inte vara jurist — man behöver en checklista. Här är de fem punkter jag bedömer varje plattform på i min egen guide.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Checklistan på fem punkter</span><span class=\"tag\">De fem kriterierna</span></div>\n  <div class=\"body\">Ställ samma fem frågor till vilken AI-tjänst som helst:</div>\n  <table>\n    <tr><th>Kriterium</th><th>Frågan du ställer</th></tr>\n    <tr><td><strong>1. Enterprise-plan &amp; DPA</strong></td><td>Finns ett företagsavtal och ett DPA att signera?</td></tr>\n    <tr><td><strong>2. GDPR / EU</strong></td><td>Går den att använda lagligt inom EU för personuppgifter?</td></tr>\n    <tr><td><strong>3. Interna dokument</strong></td><td>Får ni mata in PDF, Word, Excel som kan innehålla personuppgifter?</td></tr>\n    <tr><td><strong>4. Tränas EJ på er data</strong></td><td>Bekräftas i avtal att er data inte används för träning?</td></tr>\n    <tr><td><strong>5. Retention / isolering</strong></td><td>Finns vault, egna krypteringsnycklar (CMEK) eller tydlig raderingspolicy?</td></tr>\n  </table>\n  <div class=\"why\" style=\"margin-top:12px;\"><div class=\"why-label\">Varför just dessa fem</div><div class=\"why-text\">De täcker hela kedjan: får ni ett avtal, är det lagligt i EU, får ni faktiskt använda det till ert riktiga arbete, stannar er data hos er, och hur skyddas den. Klarar en tjänst alla fem är den företagsklar.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Ingen är bäst på allt</span><span class=\"tag\">Välj klokt</span></div>\n  <div class=\"body\">De flesta stora tjänsterna — ChatGPT, Claude, Gemini, Microsoft Copilot, Mistral, Grok, Perplexity — <em>kan</em> uppfylla kraven, men först på rätt plan och med DPA. Skillnaderna ligger i detaljerna: EU-hosting, egna krypteringsnycklar, hur isoleringen är byggd.<br><br>Kör ni redan Google Workspace eller Microsoft 365 är det ofta smart att välja deras AI — den ärver behörigheterna ni redan satt upp.</div>\n  <div class=\"utblick\"><div class=\"utblick-label\">Utblick — Suverän AI</div><div class=\"utblick-text\">Allt fler länder vill inte vara beroende av utländska (oftast amerikanska) moln och modeller, och bygger egna: EU driver egna satsningar, Indien och Gulfstaterna (t.ex. Förenade Arabemiratens Falcon) tränar egna stora modeller. \"Företagsklar\" har fått en storasyster — \"landsklar\": vem äger infrastrukturen som ett helt lands data vilar på?</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Bokmärk två sidor per tjänst</span><span class=\"tag\">Praktiskt tips</span></div>\n  <div class=\"body\">Ett konkret råd värt guld: för varje AI-tjänst ni använder, <strong>bokmärk villkorssidan och prenumerations-/billingsidan</strong>. Där hittar ni alltid pris, uppsägning, auto-förnyelse och datavillkor — och det är där förändringar dyker upp först.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Här måste jag vara ärlig</div><div class=\"lost-text\">Det här är en pedagogisk överblick, inte juridisk rådgivning — och villkoren ändras hela tiden. Verifiera alltid mot leverantörens egen dokumentation innan ni signerar. Just därför lär jag ut de fasta principerna här och håller den färska, verifierade jämförelsen levande i min guide (länken nedan).</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Var vi alltid möts</span><span class=\"tag\">Det mänskliga</span></div>\n  <div class=\"body\">Att kräva referenser innan man anförtror någon ett viktigt jobb är sunt och urgammalt. Vi frågar efter betyg, intyg, rekommendationer — vi vill veta att den vi släpper in klarar ansvaret. En checklista för en AI-tjänst är samma gamla folkvett i ny kostym.<br><br>Där möts vi: ingen vill köpa grisen i säcken när det gäller något viktigt. Fem raka frågor är bara sättet att öppna säcken och titta.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Var vi krockar</span><span class=\"tag\">De många blickarna</span></div>\n  <div class=\"body\">Hur man väljer tjänst skiljer sig åt.\n    <div class=\"extra-grid\" style=\"margin-top:14px\">\n      <div><div class=\"extra-name\">Checklista / magkänsla</div><div class=\"extra-desc\">\"Gå igenom kriterierna\" mot \"vi tar den alla andra tar\".</div></div>\n      <div><div class=\"extra-name\">Bäst på allt / bäst för oss</div><div class=\"extra-desc\">Jakten på den perfekta tjänsten mot den som passar er befintliga stack.</div></div>\n      <div><div class=\"extra-name\">Stor leverantör / öppen modell</div><div class=\"extra-desc\">Tryggheten i en jätte mot kontrollen i något självhostat.</div></div>\n      <div><div class=\"extra-name\">Utländskt moln / suveränt</div><div class=\"extra-desc\">Bekvämligheten i de stora molnen mot viljan att inte vara beroende av dem.</div></div>\n    </div>\n    <br>Det finns ingen tjänst som är bäst för alla. Det finns bara den som klarar era fem frågor — och passar just er.</div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">DPA</div><div class=\"extra-desc\">Data Processing Agreement. Kriterium ett — utan det, inget företagsbruk av personuppgifter.</div></div>\n  <div><div class=\"extra-name\">EU data residency</div><div class=\"extra-desc\">Att datan lagras inom EU. Underlättar GDPR rejält.</div></div>\n  <div><div class=\"extra-name\">CMEK</div><div class=\"extra-desc\">Egna krypteringsnycklar — ni håller i nyckeln, inte bara leverantören. Stark isolering.</div></div>\n  <div><div class=\"extra-name\">Isolering</div><div class=\"extra-desc\">Att er data hålls skild från andras och från träning. Vault, egen data-plane, retention.</div></div>\n  <div><div class=\"extra-name\">Zero training policy</div><div class=\"extra-desc\">Avtalslöfte att er data aldrig tränas på. Kriterium fyra.</div></div>\n  <div><div class=\"extra-name\">SSO / MFA</div><div class=\"extra-desc\">Säker inloggning för organisationen. Ofta med i företagsplanerna.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Ta med dig detta</div>\n  <div class=\"future-body\">Fem frågor, och du kan bedöma vilken AI-tjänst som helst för företagsbruk — utan att vara jurist.<br><br>Vill du se exakt hur de största tjänsterna rankas på de fem punkterna finns min färska, verifierade jämförelse i länken nedan. Principerna här, detaljerna där.</div>\n</div>",
@@ -3460,22 +3022,16 @@ window.LECTURE = {
       "sektion": "060",
       "lankar": [
         [
-          "AI Compliance Guide (min egen)",
-          "https://confy-ai-path.lovable.app/",
-          "Min verifierade guide: privatperson vs företag, de fem kriterierna och en färsk plattformsjämförelse.",
-          "Guide"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "AI Compliance Guide (min egen)",
+          "https://confy-ai-path.lovable.app/",
+          "Min verifierade guide: privatperson vs företag, de fem kriterierna och en färsk plattformsjämförelse.",
+          "Guide"
         ]
       ],
       "fordjupning": "<p class=\"ingress\">Vem äger texten, bilden eller koden som en AI hjälpt dig skapa? Det korta svaret är: oftast du. Det längre svaret är mer intressant — och rättsligt fortfarande i rörelse.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Oftast äger du det du skapar</span><span class=\"tag\">Utgångspunkten</span></div>\n  <div class=\"body\">De flesta stora leverantörer ger dig rätten att använda det du skapar med deras verktyg — inklusive kommersiellt. Du får sälja bilden, publicera texten, använda koden.<br><br>Men \"oftast\" är inte \"alltid\", och rättigheter är inte samma sak som skydd. Läs vidare.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Villkoren skiljer sig</span><span class=\"tag\">Det finstilta</span></div>\n  <div class=\"body\">Konsumentplaner och företagsplaner kan ha olika villkor. Vissa tjänster begränsar kommersiell användning på gratisnivån; andra ställer villkor om hur resultatet får spridas.<br><br>Ska du bygga en affär på något AI hjälpt dig skapa — <strong>läs användarvillkoren först</strong>, särskilt raderna om ägande och kommersiella rättigheter.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Kan man ens upphovsrätts-skydda det?</span><span class=\"tag\">Rättsläget i rörelse</span></div>\n  <div class=\"body\">Här blir det knivigt. Att <em>du får använda</em> ett verk betyder inte att du kan <em>hindra andra</em> från att använda något liknande. I flera länder — bland annat USA — har man slagit fast att rent AI-genererade verk <strong>inte får upphovsrätt</strong>, eftersom skyddet kräver mänskligt skapande. Flera rättsprocesser pågår.</div>\n  <div class=\"utblick\"><div class=\"utblick-label\">Utblick — Olika svar i olika länder</div><div class=\"utblick-text\">Vem som äger ett AI-verk beror på var du står. USA:s upphovsrättsmyndighet har nekat skydd för rent AI-genererade verk (det krävs mänskligt skapande). En kinesisk domstol har i ett uppmärksammat fall gett upphovsrätt till en AI-assisterad bild. Japan är samtidigt ovanligt tillåtande mot att träna modeller på upphovsrättsskyddat material. Samma teknik, tre olika rättsvärldar.</div></div>\n  <div class=\"lost\"><div class=\"lost-label\">Fällan folk går i</div><div class=\"lost-text\">\"AI gjorde min logga, alltså äger jag den.\" Kanske får du använda den — men om den saknar mänskligt upphovsmannaskap kan den också sakna upphovsrättsskydd, så vem som helst kan använda en likadan. Ju mer <em>du</em> format och valt, desto starkare står du.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Licenser åt andra hållet — Creative Commons</span><span class=\"tag\">Dela &amp; återanvända</span></div>\n  <div class=\"body\">Ägande handlar inte bara om vad du <em>får</em> göra — utan om vad du låter <em>andra</em> göra. Där kommer <strong>Creative Commons (CC)</strong> in: färdiga licenser som låter dig dela ditt verk med tydliga villkor, i stället för \"alla rättigheter förbehållna\". Byggstenarna:<br><br><strong>CC BY</strong> — andra får använda, om de anger dig som upphovsperson.<br><strong>CC BY-SA</strong> — samma, men det de bygger vidare måste delas på samma villkor (\"dela lika\").<br><strong>CC BY-NC</strong> — bara icke-kommersiellt.<br><strong>CC BY-ND</strong> — får användas, men inte bearbetas.<br><strong>CC0</strong> — du släpper allt fritt, i praktiken public domain.<br><br>Och det gäller åt båda hållen: vill du använda någon annans bild eller text — kolla dess licens först. (Vill du gräva djupare, även i kodlicenser som MIT, Apache och GPL — se licensguiden i Extra föreläsning.)</div>\n  <div class=\"lost\"><div class=\"lost-label\">Fällan folk går i</div><div class=\"lost-text\">Att ta en bild från nätet för att den \"ligger öppet\". <strong>Öppet betyder inte fritt.</strong> Leta efter licensen — CC0 och CC BY är dina vänner; ingen synlig licens = utgå från att den är skyddad. (Översikt, inte juridisk rådgivning — jag är byggare, inte jurist.)</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Vad du gör</span><span class=\"tag\">Praktiskt</span></div>\n  <div class=\"body\">Ska något användas kommersiellt: läs villkoren, håll en <strong>människa i den skapande loopen</strong> (dina val och din bearbetning stärker ditt anspråk), och dokumentera din process. Det är inte paranoia — det är sunt hantverk i en tid då reglerna ännu skrivs.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Ägandet av AI-skapat innehåll är en av tidens genuint olösta frågor. Var ödmjuk inför det, läs det finstilta, och luta dig mot din egen mänskliga insats.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">6</span><span class=\"concept\">Var vi alltid möts</span><span class=\"tag\">Det mänskliga</span></div>\n  <div class=\"body\">Frågan \"vem gjorde det här, och vem får använda det?\" är lika gammal som konsten och hantverket. Skråväsendet, mästarmärket, signaturen i hörnet — vi har alltid velat knyta ett verk till en hand, och reglera vem som får kopiera det.<br><br>Där möts vi: skapande och ägande har alltid hört ihop, och alla känner orättvisan i att någon tar åt sig äran för det man själv gjort. AI ställer bara den gamla frågan på ett nytt och knivigare sätt.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">7</span><span class=\"concept\">Var vi krockar</span><span class=\"tag\">De många blickarna</span></div>\n  <div class=\"body\">Vem som äger vad drar isär oss — på flera sätt samtidigt.\n    <div class=\"extra-grid\" style=\"margin-top:14px\">\n      <div><div class=\"extra-name\">Jag skapade det / maskinen gjorde det</div><div class=\"extra-desc\">\"Min prompt, mitt verk\" mot \"utan mänsklig hand, inget skydd\".</div></div>\n      <div><div class=\"extra-name\">Äga / dela</div><div class=\"extra-desc\">Alla rättigheter förbehållna mot Creative Commons och det öppna.</div></div>\n      <div><div class=\"extra-name\">Skydda konstnären / mata modellen</div><div class=\"extra-desc\">Upphovsrätten som värn mot AI-bolagens hunger efter träningsdata.</div></div>\n      <div><div class=\"extra-name\">Olika länder, olika svar</div><div class=\"extra-desc\">USA nekar rent AI-verk skydd; kinesiska domstolar har gett det i fall; Japan är tillåtande med träning.</div></div>\n    </div>\n    <br>Vem som äger vad är inte avgjort — det skrivs just nu, olika i olika länder. Din starkaste position är din egen mänskliga hand i verket.</div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Användarvillkor (ToS)</div><div class=\"extra-desc\">Avtalet som styr vad du får göra med det du skapar. Läs det innan du bygger affär.</div></div>\n  <div><div class=\"extra-name\">Kommersiella rättigheter</div><div class=\"extra-desc\">Om du får sälja och sprida resultatet. Skiljer sig mellan plan och tjänst.</div></div>\n  <div><div class=\"extra-name\">Upphovsrätt</div><div class=\"extra-desc\">Skydd som (i flera länder) kräver mänskligt skapande — rent AI-verk kan sakna det.</div></div>\n  <div><div class=\"extra-name\">Mänskligt upphovsmannaskap</div><div class=\"extra-desc\">Din egen skapande insats. Ju mer du format, desto starkare skydd.</div></div>\n  <div><div class=\"extra-name\">Licens</div><div class=\"extra-desc\">Villkoren för hur något får användas. Gäller både det du matar in och det du får ut.</div></div>\n  <div><div class=\"extra-name\">Creative Commons</div><div class=\"extra-desc\">Färdiga licenser (CC BY, BY-SA, BY-NC, BY-ND) för att dela verk med tydliga villkor.</div></div>\n  <div><div class=\"extra-name\">CC0 / public domain</div><div class=\"extra-desc\">Verket släpps helt fritt att använda av vem som helst, utan villkor.</div></div>\n  <div><div class=\"extra-name\">Öppet ≠ fritt</div><div class=\"extra-desc\">Att något ligger synligt på nätet betyder inte att du får använda det. Kolla licensen.</div></div>\n  <div><div class=\"extra-name\">Rättsläget i rörelse</div><div class=\"extra-desc\">Reglerna skrivs medan vi använder tekniken. Var beredd på att de ändras.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Vad vi inte vet ännu</div>\n  <div class=\"future-body\">Hur domstolar världen över kommer att landa om ägande, upphovsrätt och träningsdata. Det avgörs just nu, land för land, process för process.<br><br>Tills dess: läs villkoren, behåll din mänskliga hand i verket, och bygg inte hela din affär på antagandet att du ensam äger något en maskin gjorde åt dig.</div>\n</div>",
@@ -3504,22 +3060,16 @@ window.LECTURE = {
       "sektion": "060",
       "lankar": [
         [
-          "AI Compliance Guide (min egen)",
-          "https://confy-ai-path.lovable.app/",
-          "Min verifierade guide: privatperson vs företag, de fem kriterierna och en färsk plattformsjämförelse.",
-          "Guide"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "AI Compliance Guide (min egen)",
+          "https://confy-ai-path.lovable.app/",
+          "Min verifierade guide: privatperson vs företag, de fem kriterierna och en färsk plattformsjämförelse.",
+          "Guide"
         ]
       ],
       "fordjupning": "<p class=\"ingress\">Behöver ni en AI-policy? Ja — men den behöver inte vara tjock, den behöver vara tydlig. Och poängen är inte att förbjuda AI. Det är att göra den trygg att använda öppet.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">En policy behöver inte vara tjock</span><span class=\"tag\">Tydlig</span></div>\n  <div class=\"body\">En bra AI-policy svarar på tre enkla frågor:<br><br><strong>Vem</strong> får använda vilka verktyg?<br><strong>Vad</strong> får matas in — och vad får aldrig matas in?<br><strong>Vem</strong> granskar det AI:n producerar innan det används skarpt?<br><br>Tre frågor, tydligt besvarade, slår en tjugosidig policy ingen läser.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Känsligt hör hemma i det slutna</span><span class=\"tag\">Isolering</span></div>\n  <div class=\"body\">För det verkligt känsliga — patientdata, affärshemligheter — bör ni välja tjänster som är <strong>EU-hostade, isolerade eller självhostade</strong>. Vissa modeller (som öppna Mistral) kan köras helt i er egen miljö, där ingen data lämnar huset.<br><br>Regeln är enkel: ju känsligare data, desto mer slutet system.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Man kan lura AI:n</span><span class=\"tag\">Säkerhet</span></div>\n  <div class=\"body\">En ny sorts risk är värd att känna till: <strong>prompt injection</strong>. Det betyder att någon gömmer dolda instruktioner i ett dokument eller på en webbsida — och när din AI läser det, kapas den och gör något den inte borde (läcker data, följer en främmande order).<br><br>Faran är alltså inte bara att någon bryter sig <em>in</em>, utan att man <em>lurar</em> AI:n. Motgiftet är detsamma som överallt annars: en människa granskar det viktiga.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Här brukar folk tappa det</div><div class=\"lost-text\">\"Vi har ju brandvägg.\" Prompt injection bryr sig inte om brandväggen — den kommer in via ett helt vanligt dokument eller en länk som AI:n ombeds läsa. Nya verktyg, nya sätt att luras. Var medveten, och låt aldrig en AI göra något viktigt helt oövervakat.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Poängen: säg ja, tryggt</span><span class=\"tag\">Konstruktivt</span></div>\n  <div class=\"body\">Det viktigaste av allt: en AI-policy handlar inte om att säga <em>nej</em>. Förbjuder ni AI helt använder folk den ändå, i smyg, på sina privatkonton — det kallas \"shadow AI\" och är den farligaste varianten, för då sker det utom er kontroll.<br><br>En klok policy säger <strong>ja — så här gör vi det tryggt.</strong> Då kommer användningen fram i ljuset, där ni kan stötta den.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Ta med dig detta</div><div class=\"insight-text\">Målet med en AI-policy är att kunna säga ja på ett säkert sätt — inte att säga nej. Trygghet gör att folk vågar använda tekniken öppet, och då blir den både säkrare och mer värdefull.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Vad lagen faktiskt säger nu</span><span class=\"tag\">EU AI Act, aug 2026</span></div>\n  <div class=\"body\">Sedan den 2 augusti 2026 gäller nästa steg i EU:s AI-förordning. Det du främst behöver känna till:<br><br><strong>Transparens:</strong> en chatbot måste göra tydligt att man pratar med en AI, inte en människa.<br><strong>Märkning av syntetiskt:</strong> AI-genererade bilder, ljud och filmer som föreställer verkliga personer eller händelser ska märkas.<br><strong>Tillsyn:</strong> EU:s nya AI-byrå kan granska de största modellerna och kräva ut information om hur de byggts.<br><strong>Redan förbjudet (sedan feb 2025):</strong> AI som manipulerar skadligt, utnyttjar sårbarheter eller ägnar sig åt \"social scoring\".<br><br>De tunga kraven för <em>högrisk</em>-AI — rekrytering, kritisk infrastruktur, myndighetsbeslut — är uppskjutna till december 2027. Ni har tid, men riktningen är tydlig.</div>\n  <div class=\"lost\"><div class=\"lost-label\">Här brukar folk tappa det</div><div class=\"lost-text\">Lagen är inte till för att stoppa er från att använda AI — den kräver mest <em>tydlighet</em>: säg när det är en AI, märk det som är syntetiskt, och ha ordning på känslig data. Precis det en enkel policy redan löser. (Och nej — jag är byggare, inte jurist. Detta är en överblick, inte juridisk rådgivning.)</div></div>\n  <div class=\"utblick\"><div class=\"utblick-label\">Utblick — Där lagen ännu saknas</div><div class=\"utblick-text\">EU:s AI Act är fortfarande ovanlig — de flesta länder har ännu ingen samlad AI-lag, bara riktlinjer och sektorsregler. Det gör paradoxalt nog er egen policy <em>viktigare</em>, inte mindre viktig: där lagstiftaren är tyst är företagets egna regler den enda regelbok som faktiskt gäller i vardagen.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">6</span><span class=\"concept\">Var vi alltid möts</span><span class=\"tag\">Det mänskliga</span></div>\n  <div class=\"body\">Att komma överens om spelreglerna innan man börjar är grunden för allt samarbete. Trafikregler, husregler, ordningsregler på jobbet — vi sätter dem inte för att förbjuda, utan för att alla ska våga och kunna delta tryggt.<br><br>Där möts vi: ingen trivs i en verksamhet där reglerna är oskrivna och godtyckliga. En tydlig, enkel AI-policy är en trygghet — inte en tvångströja.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">7</span><span class=\"concept\">Var vi krockar</span><span class=\"tag\">De många blickarna</span></div>\n  <div class=\"body\">Hur en policy borde se ut — där skiljer sig synen.\n    <div class=\"extra-grid\" style=\"margin-top:14px\">\n      <div><div class=\"extra-name\">Förbjuda / möjliggöra</div><div class=\"extra-desc\">\"Säkrast att stänga av AI\" mot \"förbud föder shadow AI\".</div></div>\n      <div><div class=\"extra-name\">Tjock / tydlig</div><div class=\"extra-desc\">Den detaljerade policyn ingen läser mot de tre frågorna alla minns.</div></div>\n      <div><div class=\"extra-name\">Kontroll / tillit</div><div class=\"extra-desc\">Övervaka varje prompt mot att lita på tränade medarbetare med mandat.</div></div>\n      <div><div class=\"extra-name\">Med lag / utan</div><div class=\"extra-desc\">De som lyder under EU:s AI Act mot de flesta i världen som ännu saknar en samlad AI-lag.</div></div>\n    </div>\n    <br>En policy som bara säger nej driver användningen i skuggan. En som säger \"ja, så här tryggt\" drar fram den i ljuset.</div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">AI-policy</div><div class=\"extra-desc\">Enkla regler för vem, vad och vem-granskar. Tydlig slår tjock.</div></div>\n  <div><div class=\"extra-name\">Shadow AI</div><div class=\"extra-desc\">När anställda använder AI i smyg för att det är förbjudet. Den farligaste varianten.</div></div>\n  <div><div class=\"extra-name\">Prompt injection</div><div class=\"extra-desc\">Dolda instruktioner i ett dokument som kapar AI:n. Ny sorts säkerhetsrisk.</div></div>\n  <div><div class=\"extra-name\">Dataläckage</div><div class=\"extra-desc\">När känslig data kommer ut — via slarv eller en lurad AI. Motgift: mänsklig granskning.</div></div>\n  <div><div class=\"extra-name\">Självhostad modell</div><div class=\"extra-desc\">AI som körs i er egen miljö. Ingen data lämnar huset. För det känsligaste.</div></div>\n  <div><div class=\"extra-name\">Mänsklig granskning</div><div class=\"extra-desc\">En människa ser över det viktiga innan det används skarpt. Den enkla, oslagbara spärren.</div></div>\n  <div><div class=\"extra-name\">EU AI Act</div><div class=\"extra-desc\">EU:s AI-lag. Kräver mest tydlighet: märk AI och syntetiskt, håll ordning på känslig data.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Ta med dig detta — och kapitlet i en mening</div>\n  <div class=\"future-body\">En knapp för dig, ett avtal för företaget, fem kriterier för att välja tjänst, koll på vad du matar in, och en enkel policy som säger ja på ett tryggt sätt.<br><br>Gör AI säkert att använda, så vågar folk använda den öppet. Det är hela poängen — trygghet är inte motsatsen till att komma igång, den är förutsättningen.</div>\n</div>",
@@ -3558,20 +3108,14 @@ window.LECTURE = {
       ],
       "lankar": [
         [
-          "Pluton B",
-          "https://sites.google.com/view/hurdetfunkar/pluton-b"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Pluton B",
+          "https://sites.google.com/view/hurdetfunkar/pluton-b"
         ]
       ]
     },
@@ -3598,12 +3142,6 @@ window.LECTURE = {
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ]
@@ -3637,12 +3175,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -3665,6 +3197,12 @@ window.LECTURE = {
       ],
       "lankar": [
         [
+          "Läs hela boken – Förklara AI",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Förklara AI som läsbok — läs i egen takt.",
+          "Läs som bok"
+        ],
+        [
           "AI skolan i Notion",
           "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
         ],
@@ -3675,18 +3213,6 @@ window.LECTURE = {
         [
           "Agent OS",
           "https://docs.google.com/document/d/12WiYicvBsX399xJrA0TEEpuazCxSZBifi9meyANOVjw/edit?tab=t.0"
-        ],
-        [
-          "Läs hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
-          "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -3708,6 +3234,12 @@ window.LECTURE = {
       ],
       "lankar": [
         [
+          "Läs hela boken – Förklara AI",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Förklara AI som läsbok — läs i egen takt.",
+          "Läs som bok"
+        ],
+        [
           "ainnova.se",
           "https://ainnova.se"
         ],
@@ -3718,18 +3250,6 @@ window.LECTURE = {
         [
           "LinkedIn",
           "https://www.linkedin.com/in/annamalmberg2/"
-        ],
-        [
-          "Läs hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
-          "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "fordjupning": "<p class=\"ingress\">Tack för att ni följde med hela vägen — från Aristoteles till drag 37, från primtalet till burgarna. Nu är föreläsningen slut. Men om jag ska vara ärlig börjar det roligaste oftast just här, efter sista bilden.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">En lärare som blev nyfiken</span><span class=\"tag\">Vem jag är</span></div>\n  <div class=\"body\">Jag är ingen datavetare. Jag är en lärare i matematik och fysik som blev nyfiken på AI och inte slutade — och som numera tycker att det är det mest spännande som finns.<br><br>Allt du sett, det här verktyget inräknat, har jag byggt själv, med AI, i min egen takt. Om jag kan, kan du.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Möta dig där du står</span><span class=\"tag\">AiNNOVA</span></div>\n  <div class=\"body\">AiNNOVA står på sex ben, och de hänger ihop. Poängen är inte att göra allt — det är att möta dig där du är och bygga vidare därifrån.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Sex ben, en tanke</div><div class=\"insight-text\">Vare sig du vill lära dig, bygga något, eller lägga byggandet på mina axlar — det finns en väg in. Jag kan bygga i stort sett vad som helst, exakt som du vill ha det, eller överraska dig med att det gick att bygga ännu bättre.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Hör av dig</span><span class=\"tag\">På återseende</span></div>\n  <div class=\"body\">Så: vill du fortsätta samtalet, boka en föreläsning eller bara bolla en idé — hör av dig. Trådarna vi vävt behöver inte klippas av bara för att lamporna tänds.<br><br>Maskinen gör mönster. Du gör mening. Gå och gör lite mening — och hör gärna av dig på vägen.</div>\n</div>\n\n<hr>\n<div class=\"extra-head\">AiNNOVA — sex ben som hänger ihop</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">AI-konsultation</div><div class=\"extra-desc\">Hjälp att komma igång, välja rätt och undvika fallgroparna.</div></div>\n  <div><div class=\"extra-name\">Utbildning &amp; coachning</div><div class=\"extra-desc\">Föreläsningar och handledning — som den här stunden.</div></div>\n  <div><div class=\"extra-name\">Innehållsproduktion</div><div class=\"extra-desc\">Text, bild och material, byggt med AI och mänskligt omdöme.</div></div>\n  <div><div class=\"extra-name\">Webb &amp; kommunikation</div><div class=\"extra-desc\">Sajter och verktyg — som det du precis använt.</div></div>\n  <div><div class=\"extra-name\">Marknadsföring</div><div class=\"extra-desc\">Att synas och nå fram, med tekniken som hävstång.</div></div>\n  <div><div class=\"extra-name\">Specialiserade AI-lösningar</div><div class=\"extra-desc\">Skräddarsytt för just ditt behov — lägg byggandet på mina axlar.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Det sista jag vill säga</div>\n  <div class=\"future-body\">Var inte rädd. Var nyfiken. Börja i soffan, våga ha fel snabbare, och kom ihåg att din kurva är din egen.<br><br>Tack för stunden — och på återseende. 💚</div>\n</div>"
@@ -3773,12 +3293,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -3802,12 +3316,6 @@ window.LECTURE = {
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ]
@@ -3833,12 +3341,6 @@ window.LECTURE = {
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ]
@@ -3867,12 +3369,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -3900,6 +3396,12 @@ window.LECTURE = {
       "svar": "Ju fler förmågor den får — syn, hörsel, språk, kod — desto mindre känns den som ett verktyg och mer som en ny sorts digital organism.",
       "lankar": [
         [
+          "Läs hela boken – Förklara AI",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Förklara AI som läsbok — läs i egen takt.",
+          "Läs som bok"
+        ],
+        [
           "Pluton B",
           "https://sites.google.com/view/hurdetfunkar/pluton-b"
         ],
@@ -3914,18 +3416,6 @@ window.LECTURE = {
         [
           "Låten om råttan på repet",
           "https://www.youtube.com/watch?v=KbeZjUBWLUM"
-        ],
-        [
-          "Läs hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
-          "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -3960,20 +3450,14 @@ window.LECTURE = {
       ],
       "lankar": [
         [
-          "Alla fredagslåtar",
-          "https://sites.google.com/ainnova.se/aisverige/musik"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Alla fredagslåtar",
+          "https://sites.google.com/ainnova.se/aisverige/musik"
         ]
       ],
       "relaterat": [
@@ -4006,6 +3490,12 @@ window.LECTURE = {
       "anteckningar": "Vi lägger enorm tid på om vi kan lita på AI. Den obekväma spegelvändningen: kan vi lita på oss själva?\n\nI en maskin kan bias mätas och tränas bort nästan över en natt. Hos oss sitter fördomen fast — försvarad av prestige.\n\nVåra egna låsningar: bekräftelsebias, ekokammare, grupptänk.\n\nVem vi släpper in i samtalet formar vad maskinen lär sig. När röster blockeras försvinner de ur framtidens träningsdata.\n\nSjälv gör jag numera lärdom även av själva blockaden — vilka som utesluter, och vilka \"sanningar\" man försöker göra mönster av.",
       "lankar": [
         [
+          "Läs hela boken – Förklara AI",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Förklara AI som läsbok — läs i egen takt.",
+          "Läs som bok"
+        ],
+        [
           "AI Sverige på Facebook",
           "https://www.facebook.com/groups/594222752463207?locale=sv_SE"
         ],
@@ -4020,18 +3510,6 @@ window.LECTURE = {
         [
           "Låten om AI Sverige",
           "https://www.youtube.com/watch?v=FEhGlwIpXlo"
-        ],
-        [
-          "Läs hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
-          "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "bilder": [
@@ -4060,12 +3538,6 @@ window.LECTURE = {
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ],
@@ -4110,12 +3582,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -4149,12 +3615,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -4180,12 +3640,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -4207,20 +3661,14 @@ window.LECTURE = {
       ],
       "lankar": [
         [
-          "Alla fredagslåtar",
-          "https://sites.google.com/ainnova.se/aisverige/musik"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Alla fredagslåtar",
+          "https://sites.google.com/ainnova.se/aisverige/musik"
         ]
       ],
       "begrepp": [
@@ -4250,20 +3698,14 @@ window.LECTURE = {
       "personer": [],
       "lankar": [
         [
-          "Creative Commons — välj licens",
-          "https://creativecommons.org/choose/"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Creative Commons — välj licens",
+          "https://creativecommons.org/choose/"
         ]
       ],
       "relaterat": [
@@ -4300,12 +3742,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -4324,6 +3760,12 @@ window.LECTURE = {
       "anteckningar": "Jag är mattelärare, inte utvecklare — och ändå började jag bygga på webben.\n\nFörsta bygget föddes ur en fråga: hur funkar det här egentligen?\nInsikten: man behöver inte längre kunna koda för att bygga.\n\nNo-code + AI gjorde tröskeln nästan noll.\n\nDet viktigaste var inte tekniken — det var att jag vågade börja.",
       "lankar": [
         [
+          "Läs hela boken – Förklara AI",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Förklara AI som läsbok — läs i egen takt.",
+          "Läs som bok"
+        ],
+        [
           "hurdetfunkar.se",
           "https://hurdetfunkar.se"
         ],
@@ -4334,18 +3776,6 @@ window.LECTURE = {
         [
           "Intervju om mina första steg på webben 2011",
           "https://youtu.be/Wevp_q7-1c0"
-        ],
-        [
-          "Läs hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
-          "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "bilder": [
@@ -4381,12 +3811,6 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ]
     },
@@ -4405,24 +3829,18 @@ window.LECTURE = {
       "anteckningar": "Traktens = en digital marknadsplats för lokal mat och närproducerat.\n\nKopplar ihop lokala bönder och producenter med oss som vill handla nära.\n\nVarför: levande bondekultur, öppna marker, beredskap, nyttig och god mat.\n\nByggt på smarta automationer — utan webhotell, med gratis api. \n\nSponsras av AiNNOVA.\nVi sökte 5,2 miljoner i stöd. Ett stort bygge, och en hjärtefråga.",
       "lankar": [
         [
-          "traktens.se",
-          "https://www.traktens.se/om-traktens"
-        ],
-        [
-          "Om traktens",
-          "https://www.traktens.se/om-traktens"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "traktens.se",
+          "https://www.traktens.se/om-traktens"
+        ],
+        [
+          "Om traktens",
+          "https://www.traktens.se/om-traktens"
         ]
       ],
       "bilder": [
@@ -4443,20 +3861,14 @@ window.LECTURE = {
       "anteckningar": "Notion är min 'andra hjärna' — där samlar jag allt jag lär mig och bygger.\n\nDet har blivit till något av en AI-kurs där du själv kan avlägga en examen och avlägga ditt examensbevis.\n\nDet är inte magi — det är ordning + sök + lite automation.",
       "lankar": [
         [
-          "Fria studier om AI",
-          "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Fria studier om AI",
+          "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
         ]
       ],
       "bilder": [
@@ -4481,24 +3893,18 @@ window.LECTURE = {
       "anteckningar": "FB-sidan hyr jag — bloggen äger jag.\n\nPå Facebook bestämmer algoritmen vem som ser dig, och när.\n\nBlir du blockad eller ändrar de reglerna — då är din publik borta.\n\nBloggen är sökbar, långsiktig, min egen adress. Ingen kan slänga ut mig.\n\nBåde och: FB för räckvidd, bloggen för hem. Men hemmet först. \n\nDe flesta jag känner har inte FB och kan inte se vad jag skriver där. \n\nAlla kan se och läsa bloggen.",
       "lankar": [
         [
-          "Wisdom Streamer – bloggen",
-          "https://wisdom-streamer.lovable.app/"
-        ],
-        [
-          "ainnova.se",
-          "https://ainnova.se"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Wisdom Streamer – bloggen",
+          "https://wisdom-streamer.lovable.app/"
+        ],
+        [
+          "ainnova.se",
+          "https://ainnova.se"
         ]
       ],
       "bilder": [
@@ -4523,6 +3929,12 @@ window.LECTURE = {
       "anteckningar": "Nej — fredagslåtarna gör Martin Lönnstam, med hjälp av Suno. Riktigt bra.\n\nHan bygger dem på det jag lägger ut under veckan — jag ger temat, han gör låten.\n\nMaskinen gör mönstret; människan gör meningen. \n\nPrecis vår röda tråd.\n'Gör du dem själv?' — nej, och det är det ärliga svaret. Upphovet är Martins.\n\nVi blir allt mer samspelta — och Martin kan göra en låt på ditt material också.",
       "lankar": [
         [
+          "Läs hela boken – Förklara AI",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Förklara AI som läsbok — läs i egen takt.",
+          "Läs som bok"
+        ],
+        [
           "Musiksidan",
           "https://sites.google.com/ainnova.se/aisverige/musik"
         ],
@@ -4533,18 +3945,6 @@ window.LECTURE = {
         [
           "Mina egna första trevande försök att göra AI musik",
           "https://www.youtube.com/playlist?list=PLrae5R3oQJre3W1pp-CTQrvI-6DObBl0c"
-        ],
-        [
-          "Läs hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
-          "Förklara AI som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
         ]
       ],
       "bilder": [
@@ -4567,20 +3967,14 @@ window.LECTURE = {
       "anteckningar": "I vanligt schack är kungen 'högst' — fast han är svagast och drottningen gör jobbet.\n\nKungen är den man måste skydda; faller han är spelet slut.\n\nJag vände på det: Sköldbondens schack — drottningen högst, bonden en hedrad sköld.\n\nPoängen: vem vi sätter överst avslöjar vad vi faktiskt värderar.\n\nSpela det själv — länk finns. Med en kommentator som pratar under tiden.",
       "lankar": [
         [
-          "Spela Sköldbondens schack",
-          "https://annamalmberg2.github.io/skoldbondens-schack/"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Spela Sköldbondens schack",
+          "https://annamalmberg2.github.io/skoldbondens-schack/"
         ]
       ],
       "bilder": [
@@ -4604,24 +3998,18 @@ window.LECTURE = {
       "anteckningar": "Ärligt: nej, ingen läser allt finstilt i 100-sidorskontrakt. Det är själva problemet.\n\nJag byggde Handslaget efter att kunder beställt — och sen låtsats att de inte gjort det när fakturan kom.\n\nEtt digitalt handslag: ni loggar in, skriver vad ni kom överens om, systemet stämplar tid + namn.\n\n'En bro mellan två personer — istället för ett hundrasidigt kontrakt.'\n\nErsätter inte formella avtal där lagen kräver det — men fångar det mänskliga: vad vi faktiskt sa ja till.\n\nHuvudregel: handslag är lika bindande som papper. Undantag som kräver skriftligt: fastighet, bostadsrätt, testamente, äktenskapsförord, samboavtal.",
       "lankar": [
         [
-          "Handslaget",
-          "https://handshake-echo-world.lovable.app"
-        ],
-        [
-          "Prova Handslaget",
-          "https://handshake-echo-world.lovable.app/"
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Handslaget",
+          "https://handshake-echo-world.lovable.app"
+        ],
+        [
+          "Prova Handslaget",
+          "https://handshake-echo-world.lovable.app/"
         ]
       ],
       "bilder": [
@@ -4667,21 +4055,9 @@ window.LECTURE = {
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
-        ],
-        [
           "Läs hela boken – Motvikten",
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
-          "Läs som bok"
-        ],
-        [
-          "Skriv ut hela boken – Motvikten",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
           "Läs som bok"
         ]
       ]
@@ -4704,24 +4080,18 @@ window.LECTURE = {
       "personer": [],
       "lankar": [
         [
-          "Läs En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/#en-bibel-0"
-        ],
-        [
-          "",
-          ""
-        ],
-        [
           "Läs hela boken – Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
         [
-          "Skriv ut hela boken – Förklara AI",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Öppnar boken och skickar den till din anslutna skrivare.",
-          "Läs som bok"
+          "Läs En Bibel",
+          "https://annamalmberg2.github.io/forklara-ai/#en-bibel-0"
+        ],
+        [
+          "",
+          ""
         ]
       ],
       "relaterat": [
@@ -4745,21 +4115,9 @@ window.LECTURE = {
           "Förklara AI"
         ],
         [
-          "Skriv ut hela boken",
-          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html?print=1",
-          "Skickas till din skrivare.",
-          "Förklara AI"
-        ],
-        [
           "Läs hela boken",
           "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
           "En Bibel som läsbok.",
-          "En Bibel"
-        ],
-        [
-          "Skriv ut hela boken",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html?print=1",
-          "Skickas till din skrivare.",
           "En Bibel"
         ],
         [
@@ -4769,21 +4127,9 @@ window.LECTURE = {
           "Motvikten"
         ],
         [
-          "Skriv ut hela boken",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html?print=1",
-          "Skickas till din skrivare.",
-          "Motvikten"
-        ],
-        [
           "Läs hela boken",
           "https://annamalmberg2.github.io/forklara-ai/utblickar.html",
           "Utblickar som läsbok.",
-          "Utblickar"
-        ],
-        [
-          "Skriv ut hela boken",
-          "https://annamalmberg2.github.io/forklara-ai/utblickar.html?print=1",
-          "Skickas till din skrivare.",
           "Utblickar"
         ]
       ],
@@ -8594,6 +7940,18 @@ window.LECTURE = {
     [
       "Förklara AI · hela boken",
       "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html"
+    ],
+    [
+      "Livets Bibel · hela boken",
+      "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html"
+    ],
+    [
+      "Motvikten · hela boken",
+      "https://annamalmberg2.github.io/forklara-ai/motvikten.html"
+    ],
+    [
+      "Utblickar · hela boken",
+      "https://annamalmberg2.github.io/forklara-ai/utblickar.html"
     ],
     [
       "Bloggen",
