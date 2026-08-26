@@ -2914,6 +2914,12 @@ window.LECTURE = {
       ],
       "lankar": [
         [
+          "Hela föreläsningen som bok – Förklara AI (skriv ut: Cmd+P)",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Hela föreläsningen + appendix som läsbar, utskriftsvänlig bok.",
+          "Läs som bok"
+        ],
+        [
           "AI skolan i Notion",
           "https://delicate-neighbor-37a.notion.site/Fria-studier-om-AI-v-lj-din-stig-1839c8142e3f804bb689ee34f7e30cf0"
         ],
