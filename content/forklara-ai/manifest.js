@@ -7452,6 +7452,10 @@ window.LECTURE = {
       "#biblioteket"
     ],
     [
+      "Förklara AI · hela boken",
+      "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html"
+    ],
+    [
       "Bloggen",
       "https://wisdom-streamer.lovable.app/"
     ],
