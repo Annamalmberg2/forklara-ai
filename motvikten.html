@@ -141,6 +141,11 @@
     font-size:17px;line-height:1;width:38px;height:38px;border-radius:50%;
     border:1px solid var(--hair);background:var(--paper);color:var(--gold);cursor:pointer;}
   .tema-vaxel:hover{border-color:var(--gold);}
+  .skriv-ut{position:fixed;top:16px;right:64px;z-index:50;font-family:var(--sans);font-size:12px;
+    letter-spacing:.03em;height:38px;padding:0 15px;border-radius:19px;border:1px solid var(--hair);
+    background:var(--paper);color:var(--gold);cursor:pointer;}
+  .skriv-ut:hover{border-color:var(--gold);}
+  @media print{.skriv-ut{display:none;}}
   @media print{
     :root, :root[data-theme="light"], :root[data-theme="dark"]{
       --paper:#fff; --paper-2:#f6f2e9; --ink:#1b1712; --ink-soft:#3a352c;
@@ -191,6 +196,7 @@
   </style>
 </head>
 <body>
+<button class="skriv-ut" id="skrivut" title="Skriv ut hela boken">Skriv ut</button>
 <button class="tema-vaxel" id="tema" title="Ljust eller mörkt läge">☀</button>
 <div class="wrap">
 
@@ -1269,6 +1275,13 @@
       try { localStorage.setItem(k, nu); } catch (e) {}
       ic();
     });
+  })();
+</script>
+<script>
+  (function(){
+    var s=document.getElementById("skrivut");
+    if(s) s.addEventListener("click",function(){window.print();});
+    try{ if(new URLSearchParams(location.search).get("print")) window.addEventListener("load",function(){setTimeout(function(){window.print();},450);}); }catch(e){}
   })();
 </script>
 </body>
