@@ -723,6 +723,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ],
       "bilder": [
@@ -762,6 +780,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ],
       "bilder": [
@@ -807,6 +843,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ],
       "bilder": [
@@ -853,6 +907,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ],
       "bilder": [
@@ -901,6 +973,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ],
       "bilder": [
@@ -946,6 +1036,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ],
       "bilder": [
@@ -991,6 +1099,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ],
       "bilder": [
@@ -1036,6 +1162,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ],
       "bilder": [
@@ -1087,6 +1231,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ]
     },
@@ -1135,6 +1297,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ]
     },
@@ -1183,6 +1363,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ]
     },
@@ -1231,6 +1429,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ]
     },
@@ -1279,6 +1495,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ]
     },
@@ -1327,6 +1561,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ]
     },
@@ -1375,6 +1627,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ]
     },
@@ -1423,6 +1693,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ]
     },
@@ -1471,6 +1759,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ]
     },
@@ -1519,6 +1825,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ]
     },
@@ -1567,6 +1891,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ]
     },
@@ -1608,6 +1950,24 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
           "Motvikten som läsbok — läs i egen takt.",
           "Läs som bok"
+        ],
+        [
+          "SVT:s valkompass 2026",
+          "https://valkompass.svt.se/2026/",
+          "Jämför var partierna står inför valet.",
+          "Inför valet 2026"
+        ],
+        [
+          "AI-valet 2026",
+          "https://aivalet2026.se/",
+          "",
+          "Inför valet 2026"
+        ],
+        [
+          "SvD · AI-revolutionen",
+          "https://www.svd.se/story/ai-revolutionen",
+          "",
+          "Inför valet 2026"
         ]
       ]
     },
