@@ -146,6 +146,11 @@
     background:var(--paper);color:var(--gold);cursor:pointer;}
   .skriv-ut:hover{border-color:var(--gold);}
   @media print{.skriv-ut{display:none;}}
+  .dela-ai{position:fixed;top:16px;right:152px;z-index:50;font-family:var(--sans);font-size:12px;
+    letter-spacing:.03em;height:38px;padding:0 15px;border-radius:19px;border:1px solid var(--hair);
+    background:var(--paper);color:var(--gold);cursor:pointer;}
+  .dela-ai:hover{border-color:var(--gold);}
+  @media print{.dela-ai{display:none;}}
   @media print{
     :root, :root[data-theme="light"], :root[data-theme="dark"]{
       --paper:#fff; --paper-2:#f6f2e9; --ink:#1b1712; --ink-soft:#3a352c;
@@ -196,6 +201,7 @@
   </style>
 </head>
 <body>
+<button class="dela-ai" id="delaai" title="Kopiera hela boken som Markdown — klistra in i valfri AI">Dela med AI</button>
 <button class="skriv-ut" id="skrivut" title="Skriv ut hela boken">Skriv ut</button>
 <button class="tema-vaxel" id="tema" title="Ljust eller mörkt läge">☀</button>
 <div class="wrap">
@@ -1282,6 +1288,49 @@
     var s=document.getElementById("skrivut");
     if(s) s.addEventListener("click",function(){window.print();});
     try{ if(new URLSearchParams(location.search).get("print")) window.addEventListener("load",function(){setTimeout(function(){window.print();},450);}); }catch(e){}
+  })();
+</script>
+<script>
+  (function(){
+    function T(n){ return (n?(n.innerText||n.textContent):"").replace(/ /g," ").replace(/[ \t]+/g," ").trim(); }
+    function toMD(){
+      var o=[], h1=document.querySelector(".title h1"); if(h1)o.push("# "+T(h1));
+      var s=document.querySelector(".title .sub"); if(s)o.push("_"+T(s)+"_");
+      var by=document.querySelector(".title .by"); if(by)o.push(T(by));
+      document.querySelectorAll(".wrap > section").forEach(function(sec){
+        if(sec.classList.contains("del")){ o.push("\n---\n"); o.push("# "+T(sec.querySelector(".del-namn")));
+          var te=sec.querySelector(".del-tes"); if(te)o.push("_"+T(te)+"_"); return; }
+        if(sec.classList.contains("foreword")){ var h=sec.querySelector("h2"); if(h)o.push("## "+T(h));
+          sec.querySelectorAll("p").forEach(function(p){o.push(T(p));});
+          var k=sec.querySelector(".keep p"); if(k)o.push("> "+T(k)); return; }
+        if(sec.classList.contains("efter")){ var c=sec.querySelector(".colophon"); if(c)o.push("\n---\n"+T(c)); return; }
+        var op=sec.querySelector(".opener h2"); if(op)o.push("## "+T(op));
+        var kn=sec.querySelector(".opener .karn"); if(kn)o.push("_"+T(kn)+"_");
+        var f=sec.querySelector(".ford"); if(!f)return;
+        Array.prototype.forEach.call(f.children,function(ch){
+          if(ch.classList.contains("ingress")) o.push("_"+T(ch)+"_");
+          else if(ch.classList.contains("section")){
+            var c=ch.querySelector(".concept"); if(c)o.push("### "+T(c));
+            var b=ch.querySelector(".body");
+            if(b){ var bc=b.cloneNode(true); var lost=bc.querySelector(".lost"); if(lost)lost.remove();
+              o.push(T(bc));
+              var L=b.querySelector(".lost"); if(L)o.push("> **"+T(L.querySelector(".lost-label"))+":** "+T(L.querySelector(".lost-text"))); } }
+          else if(ch.classList.contains("utblick")) o.push("> **"+T(ch.querySelector(".utblick-label"))+":** "+T(ch.querySelector(".utblick-text")));
+          else if(ch.tagName==="HR") o.push("---");
+          else if(ch.classList.contains("extra-head")) o.push("**"+T(ch)+"**");
+          else if(ch.classList.contains("extra-grid")) Array.prototype.forEach.call(ch.children,function(g){ o.push("- **"+T(g.querySelector(".extra-name"))+":** "+T(g.querySelector(".extra-desc"))); });
+          else if(ch.classList.contains("future-box")) o.push("> **"+T(ch.querySelector(".future-head"))+":** "+T(ch.querySelector(".future-body")));
+        });
+      });
+      return o.join("\n\n");
+    }
+    var d=document.getElementById("delaai");
+    if(d) d.addEventListener("click",function(){ var md=toMD(); var b=d;
+      (navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(md):Promise.reject())
+        .then(function(){ var o=b.textContent; b.textContent="Kopierat ✓"; setTimeout(function(){b.textContent=o;},1800); })
+        .catch(function(){ window.prompt("Kopiera texten (Ctrl/Cmd+C):", md); });
+    });
+    window.__toMD=toMD;
   })();
 </script>
 </body>
