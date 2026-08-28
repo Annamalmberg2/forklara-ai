@@ -5847,6 +5847,18 @@ window.LECTURE = {
           "https://annamalmberg2.github.io/forklara-ai/utblickar.html",
           "Utblickar som läsbok.",
           "Utblickar"
+        ],
+        [
+          "Läs hela boken",
+          "https://annamalmberg2.github.io/forklara-ai/naturlag.html",
+          "De fyra mönstren, samlade.",
+          "Är det en naturlag?"
+        ],
+        [
+          "Skriv ut hela boken",
+          "https://annamalmberg2.github.io/forklara-ai/naturlag.html?print=1",
+          "Skickas till din skrivare.",
+          "Är det en naturlag?"
         ]
       ],
       "anteckningar": null,
@@ -9651,9 +9663,17 @@ window.LECTURE = {
       "begrepp": null,
       "personer": null,
       "relaterat": null,
-      "bilder": null,
+      "bilder": [
+        "Naturlag.png"
+      ],
       "bildforslag": "",
       "lankar": [
+        [
+          "Läs hela som bok – Är det en naturlag?",
+          "https://annamalmberg2.github.io/forklara-ai/naturlag.html",
+          "Alla 44 samlade, bläddringsbara och utskriftsvänliga.",
+          "Läs som bok"
+        ],
         [
           "Känns evigt — men är ungt ▸",
           "#naturlag-1",
@@ -9672,7 +9692,9 @@ window.LECTURE = {
       "begrepp": null,
       "personer": null,
       "relaterat": null,
-      "bilder": null,
+      "bilder": [
+        "Naturlag.png"
+      ],
       "bildforslag": "",
       "lankar": [
         [
@@ -9705,7 +9727,9 @@ window.LECTURE = {
       "begrepp": null,
       "personer": null,
       "relaterat": null,
-      "bilder": null,
+      "bilder": [
+        "Naturlag.png"
+      ],
       "bildforslag": "",
       "lankar": [
         [
@@ -9738,7 +9762,9 @@ window.LECTURE = {
       "begrepp": null,
       "personer": null,
       "relaterat": null,
-      "bilder": null,
+      "bilder": [
+        "Naturlag.png"
+      ],
       "bildforslag": "",
       "lankar": [
         [
@@ -9771,7 +9797,9 @@ window.LECTURE = {
       "begrepp": null,
       "personer": null,
       "relaterat": null,
-      "bilder": null,
+      "bilder": [
+        "Naturlag.png"
+      ],
       "bildforslag": "",
       "lankar": [
         [
@@ -9815,6 +9843,10 @@ window.LECTURE = {
     [
       "Utblickar · hela boken",
       "https://annamalmberg2.github.io/forklara-ai/utblickar.html"
+    ],
+    [
+      "Är det en naturlag? · hela boken",
+      "https://annamalmberg2.github.io/forklara-ai/naturlag.html"
     ],
     [
       "Bloggen",
