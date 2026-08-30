@@ -183,7 +183,7 @@ window.LECTURE = {
         ],
         [
           "Läs hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
+          "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
@@ -226,7 +226,7 @@ window.LECTURE = {
         ],
         [
           "Läs hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
+          "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
@@ -266,7 +266,7 @@ window.LECTURE = {
         ],
         [
           "Läs hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
+          "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
@@ -306,7 +306,7 @@ window.LECTURE = {
         ],
         [
           "Läs hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
+          "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
@@ -346,7 +346,7 @@ window.LECTURE = {
         ],
         [
           "Läs hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
+          "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
@@ -386,7 +386,7 @@ window.LECTURE = {
         ],
         [
           "Läs hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
+          "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
@@ -426,7 +426,7 @@ window.LECTURE = {
         ],
         [
           "Läs hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
+          "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
@@ -466,7 +466,7 @@ window.LECTURE = {
         ],
         [
           "Läs hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
+          "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
@@ -506,7 +506,7 @@ window.LECTURE = {
         ],
         [
           "Läs hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
+          "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
@@ -546,7 +546,7 @@ window.LECTURE = {
         ],
         [
           "Läs hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
+          "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
@@ -582,7 +582,7 @@ window.LECTURE = {
         ],
         [
           "Läs hela boken – En Bibel",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
+          "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
           "En Bibel som läsbok — läs i egen takt.",
           "Läs som bok"
         ],
@@ -4259,7 +4259,7 @@ window.LECTURE = {
       "id": "vad-far-jag-skriva-in",
       "titel": "Vad får jag skriva in — och vad stannar kvar?",
       "svar": "Grundregeln: klistra aldrig in hemligheter i en publik AI. Fråga alltid: tränas den på min data, och hur länge sparas den?",
-      "anteckningar": "Klistra aldrig in det du inte vill se läcka.\n\nTvå frågor: tränas modellen på det jag skriver? Hur länge sparas det (retention)?\n\nPersonuppgifter = GDPR. Företagshemligheter = risk.\nPå rätt plan + DPA bekräftas att er data INTE tränas på.\n\nFyll ut: det praktiska — vad som är ok och inte.",
+      "anteckningar": "Klistra aldrig in det du inte vill se läcka.\n\nTvå frågor: tränas modellen på det jag skriver? Hur länge sparas det (retention)?\n\nPersonuppgifter = GDPR. Företagshemligheter = risk.\nPå rätt plan + DPA bekräftas att er data INTE tränas på.",
       "relaterat": [
         "privat-eller-foretag",
         "foretagsklar-ai"
@@ -4366,7 +4366,7 @@ window.LECTURE = {
       "id": "vem-ager-det-jag-skapar",
       "titel": "Vem äger det jag skapar med den?",
       "svar": "Oftast du — men användarvillkoren varierar och området är i rörelse. Läs det finstilta, särskilt om du ska sälja vidare.",
-      "anteckningar": "Vem äger AI-genererad text/bild/kod? Oftast du — men villkoren skiljer sig.\n\nSkillnad på privat och företagsplan, och på vad du får sälja/sprida.\nOmrådet är rättsligt i rörelse — flera processer pågår.\n\nFyll ut: principer + frågor att ställa, inte tvärsäkra 'regler'.",
+      "anteckningar": "Vem äger AI-genererad text/bild/kod? Oftast du — men villkoren skiljer sig.\n\nSkillnad på privat och företagsplan, och på vad du får sälja/sprida.\nOmrådet är rättsligt i rörelse — flera processer pågår.",
       "relaterat": [
         "foretagsklar-ai"
       ],
@@ -5905,7 +5905,7 @@ window.LECTURE = {
         ],
         [
           "Kan man utmana självaste Bibeln? ▸",
-          "#livets-bibel",
+          "#mer-en-bibel",
           "",
           "Delar"
         ],
@@ -5930,7 +5930,7 @@ window.LECTURE = {
       ]
     },
     {
-      "id": "livets-bibel",
+      "id": "mer-en-bibel",
       "sektion": "960",
       "titel": "Kan man utmana självaste Bibeln?",
       "svar": "Jag testade — och skrev En Bibel. Inte för att ersätta någon tro, utan en bibel som räcker dig pennan i stället för buden.",
@@ -5995,7 +5995,7 @@ window.LECTURE = {
         ],
         [
           "Läs hela boken",
-          "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html",
+          "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
           "En Bibel som läsbok.",
           "En Bibel"
         ],
@@ -9834,7 +9834,7 @@ window.LECTURE = {
     ],
     [
       "En Bibel · hela boken",
-      "https://annamalmberg2.github.io/forklara-ai/livets-bibel.html"
+      "https://annamalmberg2.github.io/forklara-ai/en-bibel.html"
     ],
     [
       "Ett parti · hela boken",
