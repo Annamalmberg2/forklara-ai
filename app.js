@@ -986,7 +986,7 @@
   $("palett-input").addEventListener("input", () => { palettVal = 0; ritaPalett(); });
   $("palett").addEventListener("click", e => { if (e.target.id === "palett") stängPalett(); });
   $("hjalp").addEventListener("click", e => { if (e.target.id === "hjalp") $("hjalp").hidden = true; });
-  $("wordmark").onclick = öppnaTråd;
+  $("wordmark").onclick = () => { location.href = "start.html"; };
   document.querySelectorAll(".trad-lank").forEach(b => {
     b.onclick = () => hoppaTillKapitel(b.dataset.sek);
   });
