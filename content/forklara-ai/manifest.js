@@ -6334,6 +6334,12 @@ window.LECTURE = {
         ],
         [
           "Läs hela boken",
+          "https://annamalmberg2.github.io/forklara-ai/mega.html",
+          "En rörelse — MEGA, som läsbok.",
+          "En rörelse"
+        ],
+        [
+          "Läs hela boken",
           "https://annamalmberg2.github.io/forklara-ai/utblickar.html",
           "Utblickar som läsbok.",
           "Utblickar"
@@ -10166,6 +10172,10 @@ window.LECTURE = {
     [
       "Ett parti · hela boken",
       "https://annamalmberg2.github.io/forklara-ai/motvikten.html"
+    ],
+    [
+      "En rörelse · hela boken",
+      "https://annamalmberg2.github.io/forklara-ai/mega.html"
     ],
     [
       "Utblickar · hela boken",

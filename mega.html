@@ -1,0 +1,1174 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<script>
+  // Tema: läs valet (delas med Förklara AI) eller följ systemet — sätt före rendering
+  try {
+    var _t = localStorage.getItem("forklara-ai:tema") || (matchMedia("(prefers-color-scheme:dark)").matches ? "dark" : "light");
+    document.documentElement.dataset.theme = _t;
+  } catch (e) {}
+</script>
+<meta name="description" content="En rörelse — MEGA, Make Everybody Great Again. Inte America. Everybody. Av Anna Malmberg.">
+<title>En rörelse</title>
+<style>
+  :root{
+    --paper:#F6F1E7; --paper-2:#EFE8D9; --ink:#23201A; --ink-soft:#4A453B;
+    --green:#2F5544; --green-soft:#3E6A55; --gold:#B08A3E; --gold-soft:#C6A25A;
+    --taupe:#8A8172; --hair:#DBD2BF; --tint:#EBE6D6;
+    --serif:"Iowan Old Style","Palatino Linotype","Book Antiqua",Palatino,"New York",Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"SF Pro Text","Avenir Next","Segoe UI",sans-serif;
+    --measure:64ch;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --paper:#1B1915; --paper-2:#232019; --ink:#ECE4D4; --ink-soft:#BDB4A2;
+      --green:#7FB89C; --green-soft:#8FC7AB; --gold:#D3AE63; --gold-soft:#E0BE78;
+      --taupe:#9C927E; --hair:#38342B; --tint:#26231C;
+    }
+  }
+  :root[data-theme="light"]{
+    --paper:#F6F1E7; --paper-2:#EFE8D9; --ink:#23201A; --ink-soft:#4A453B;
+    --green:#2F5544; --green-soft:#3E6A55; --gold:#B08A3E; --gold-soft:#C6A25A;
+    --taupe:#8A8172; --hair:#DBD2BF; --tint:#EBE6D6;
+  }
+  :root[data-theme="dark"]{
+    --paper:#1B1915; --paper-2:#232019; --ink:#ECE4D4; --ink-soft:#BDB4A2;
+    --green:#7FB89C; --green-soft:#8FC7AB; --gold:#D3AE63; --gold-soft:#E0BE78;
+    --taupe:#9C927E; --hair:#38342B; --tint:#26231C;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);
+    font-size:19px;line-height:1.72;-webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;}
+  .wrap{max-width:720px;margin:0 auto;padding:0 28px;}
+  p{margin:0 0 1.05em;max-width:var(--measure);}
+  em{font-style:italic}
+  strong{font-weight:600;color:var(--ink)}
+  .label{font-family:var(--sans);font-size:11.5px;font-weight:600;letter-spacing:.19em;
+    text-transform:uppercase;color:var(--green);margin:0 0 .55em;display:block;}
+  a{color:var(--green);}
+
+  /* ---- title page ---- */
+  .title{min-height:96vh;display:flex;flex-direction:column;justify-content:center;
+    padding:64px 0 40px;border-bottom:1px solid var(--hair);text-align:center;align-items:center;}
+  .title .mark{font-family:var(--sans);font-size:12px;letter-spacing:.34em;text-transform:uppercase;
+    color:var(--taupe);margin-bottom:30px;}
+  .title h1{font-size:clamp(46px,10vw,86px);line-height:.98;margin:0;font-weight:600;
+    letter-spacing:-.015em;text-wrap:balance;}
+  .title h1 .em{color:var(--gold);font-style:italic;font-weight:600;}
+  .title .sub{font-style:italic;font-size:clamp(18px,2.4vw,23px);color:var(--ink-soft);
+    margin:26px auto 0;max-width:32ch;text-wrap:balance;}
+  .rule-orn{margin:38px 0 8px;color:var(--gold);font-size:20px;letter-spacing:.4em;}
+  .title .by{font-family:var(--sans);font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--taupe);margin-top:10px;}
+
+  /* ---- generic section ---- */
+  section{padding:64px 0;border-bottom:1px solid var(--hair);}
+  section:last-of-type{border-bottom:none;}
+  h2.h{font-size:clamp(27px,4.4vw,38px);line-height:1.1;margin:.1em 0 .5em;font-weight:600;
+    letter-spacing:-.01em;text-wrap:balance;}
+  .lead{font-size:20.5px;color:var(--ink-soft);}
+
+  /* ---- foreword drop ---- */
+  .foreword p:first-of-type::first-letter,
+  .tldr p::first-letter{
+    font-family:var(--serif);float:left;font-size:3.35em;line-height:.72;
+    padding:.06em .1em 0 0;color:var(--gold);font-weight:600;}
+
+  /* ---- chapter opener ---- */
+  .opener{display:flex;flex-direction:column;align-items:flex-start;margin-bottom:34px;}
+  .opener .num{font-family:var(--serif);font-size:clamp(58px,13vw,108px);line-height:.8;
+    color:var(--gold);font-weight:600;opacity:.92;margin-bottom:6px;}
+  .opener .kap{font-family:var(--sans);font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--taupe);margin-bottom:14px;}
+  .opener h2{font-size:clamp(30px,5.4vw,46px);line-height:1.04;margin:0 0 20px;font-weight:600;
+    letter-spacing:-.014em;text-wrap:balance;}
+  .karn{font-style:italic;font-size:clamp(19px,2.5vw,23px);color:var(--green);line-height:1.4;
+    padding-left:18px;border-left:2px solid var(--gold);max-width:36ch;}
+
+  .block{margin:34px 0;}
+  .tldr{background:var(--tint);border:1px solid var(--hair);border-radius:3px;
+    padding:24px 26px;margin:30px 0 40px;}
+  .tldr p{margin:0;max-width:none;}
+
+  /* ---- perspektiv ---- */
+  .persp{margin:34px 0;}
+  .persp .row{padding:16px 0;border-top:1px solid var(--hair);display:grid;
+    grid-template-columns:132px 1fr;gap:8px 24px;align-items:start;}
+  .persp .row:last-child{border-bottom:1px solid var(--hair);}
+  .persp .k{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--green);padding-top:.35em;}
+  .persp .v{margin:0;max-width:none;}
+  @media(max-width:560px){.persp .row{grid-template-columns:1fr;gap:3px;}.persp .k{padding-top:0;}}
+
+  /* ---- testruta ---- */
+  .test{background:var(--paper-2);border-left:2px solid var(--gold);border-radius:0 3px 3px 0;
+    padding:20px 24px;margin:30px 0;}
+  .test .label{color:var(--gold);}
+  .test p{margin:0;max-width:none;font-style:italic;font-size:20px;color:var(--ink);}
+
+  .refl{font-style:italic;font-size:21px;color:var(--ink);line-height:1.5;max-width:38ch;
+    padding:4px 0;}
+  .refl .label{font-style:normal;}
+
+  /* ---- att ta med sig ---- */
+  .keep{border-top:2px solid var(--gold);border-bottom:2px solid var(--gold);
+    padding:22px 0;margin:38px 0 4px;text-align:center;}
+  .keep .label{color:var(--gold);text-align:center;}
+  .keep p{font-size:22px;font-style:italic;margin:0;max-width:none;color:var(--ink);
+    text-wrap:balance;}
+
+  .honest{background:var(--paper-2);border:1px solid var(--hair);border-radius:3px;
+    padding:18px 22px;margin:28px 0;font-size:16.5px;color:var(--ink-soft);}
+  .honest .label{color:var(--taupe);}
+
+  /* ---- efterord / colophon ---- */
+  .efter{text-align:center;}
+  .efter .rule-orn{margin:0 0 28px;}
+  .compass{font-style:italic;color:var(--green);font-size:19px;line-height:1.85;
+    max-width:44ch;margin:26px auto;}
+  .colophon{font-family:var(--sans);font-size:13px;color:var(--taupe);line-height:1.7;
+    max-width:52ch;margin:30px auto 0;letter-spacing:.01em;}
+
+  @media (prefers-reduced-motion:no-preference){
+    .fade{opacity:0;transform:translateY(8px);animation:rise .9s ease forwards;}
+    @keyframes rise{to{opacity:1;transform:none;}}
+  }
+  .tema-vaxel{position:fixed;top:16px;right:18px;z-index:50;font-family:var(--sans);
+    font-size:17px;line-height:1;width:38px;height:38px;border-radius:50%;
+    border:1px solid var(--hair);background:var(--paper);color:var(--gold);cursor:pointer;}
+  .tema-vaxel:hover{border-color:var(--gold);}
+  .skriv-ut{position:fixed;top:16px;right:64px;z-index:50;font-family:var(--sans);font-size:12px;
+    letter-spacing:.03em;height:38px;padding:0 15px;border-radius:19px;border:1px solid var(--hair);
+    background:var(--paper);color:var(--gold);cursor:pointer;}
+  .skriv-ut:hover{border-color:var(--gold);}
+  @media print{.skriv-ut{display:none;}}
+  .dela-ai{position:fixed;top:16px;right:152px;z-index:50;font-family:var(--sans);font-size:12px;
+    letter-spacing:.03em;height:38px;padding:0 15px;border-radius:19px;border:1px solid var(--hair);
+    background:var(--paper);color:var(--gold);cursor:pointer;}
+  .dela-ai:hover{border-color:var(--gold);}
+  @media print{.dela-ai{display:none;}}
+  @media print{
+    :root, :root[data-theme="light"], :root[data-theme="dark"]{
+      --paper:#fff; --paper-2:#f6f2e9; --ink:#1b1712; --ink-soft:#3a352c;
+      --green:#2f5544; --gold:#9c7a30; --taupe:#6f675a; --hair:#cfc6b2; --tint:#f2ede0;
+    }
+    *{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .tema-vaxel{display:none;}
+    body{font-size:11.5pt;background:#fff;}
+    .wrap{max-width:none;padding:0 6mm;}
+    .title{min-height:auto;padding:10mm 0 12mm;page-break-after:always;}
+    section{padding:14px 0;}
+    .opener,.opener .num,.opener h2,h2.h{page-break-after:avoid;}
+    .tldr,.keep,.honest,.compass,.refl,.persp .row,.test{page-break-inside:avoid;}
+    a{color:var(--ink);text-decoration:none;}
+  }
+
+  /* ---- fördjupningar speglade i bokform (ur verktyget) ---- */
+  .ford{margin-top:6px;}
+  .ford .ingress{font-size:20px;font-style:italic;color:var(--ink-soft);margin:0 0 1.4em;max-width:none;}
+  .ford .section{margin:0 0 1.5em;}
+  .ford .section-head{display:flex;align-items:baseline;gap:12px;margin:0 0 .5em;flex-wrap:wrap;}
+  .ford .section-head .num{font-family:var(--sans);font-size:12px;font-weight:700;color:var(--gold);
+    border:1px solid var(--hair);border-radius:50%;width:24px;height:24px;display:inline-flex;
+    align-items:center;justify-content:center;flex:none;}
+  .ford .section-head .concept{font-family:var(--serif);font-size:21px;font-weight:600;color:var(--ink);}
+  .ford .section-head .tag{font-family:var(--sans);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe);margin-left:auto;}
+  .ford .body{color:var(--ink);max-width:none;}
+  .ford .lost{background:var(--paper-2);border-left:3px solid var(--gold);border-radius:0 4px 4px 0;padding:14px 20px;margin:16px 0;}
+  .ford .lost-label{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:5px;}
+  .ford .lost-text{margin:0;}
+  .ford .why{background:var(--tint);border-left:3px solid var(--green);border-radius:0 4px 4px 0;padding:14px 20px;margin:16px 0;}
+  .ford .why-label{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin-bottom:5px;}
+  .ford .why-text{margin:0;}
+  .ford .utblick{background:var(--tint);border-left:3px solid var(--green);border-radius:0 4px 4px 0;padding:15px 22px;margin:22px 0;}
+  .ford .utblick-label{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin-bottom:6px;}
+  .ford .utblick-text{margin:0;color:var(--ink-soft);}
+  .ford hr{border:none;border-top:1px solid var(--hair);margin:26px 0 16px;}
+  .ford .extra-head{font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--taupe);margin:0 0 10px;}
+  .ford .extra-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 22px;margin:12px 0;}
+  .ford .extra-name{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.03em;color:var(--green);margin-bottom:2px;}
+  .ford .extra-desc{font-size:15px;color:var(--ink-soft);}
+  .ford .future-box{background:var(--paper-2);border:1px solid var(--hair);border-radius:4px;padding:16px 20px;margin:22px 0 0;}
+  .ford .future-head{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
+  .ford .future-body{margin:0;color:var(--ink-soft);}
+  @media(max-width:560px){.ford .extra-grid{grid-template-columns:1fr;}.ford .section-head .tag{margin-left:0;width:100%;}}
+  .ford .naturlag{background:var(--paper-2);border-left:3px solid #C25E7E;border-radius:0 4px 4px 0;padding:14px 20px;margin:16px 0;}
+  .ford .naturlag-label{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#C25E7E;margin-bottom:5px;}
+  .ford .naturlag-text{margin:0;}
+  @media print{.ford .section,.ford .lost,.ford .why,.ford .utblick,.ford .future-box,.ford .naturlag,.ford .extra-grid{page-break-inside:avoid;}.ford hr{page-break-after:avoid;}}
+
+
+  /* ---- Maga-ruta (röd): 'Här har Maga tappat det' ---- */
+  .ford .maga{background:var(--paper-2);border-left:3px solid #C0392B;border-radius:0 4px 4px 0;padding:14px 20px;margin:16px 0;}
+  .ford .maga-label{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#C0392B;margin-bottom:5px;}
+  .ford .maga-text{margin:0;}
+  :root[data-theme="dark"] .ford .maga-label{color:#E8897A;}
+  :root[data-theme="dark"] .ford .maga{border-color:#B24A3C;}
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .ford .maga-label{color:#E8897A;}:root:not([data-theme="light"]) .ford .maga{border-color:#B24A3C;}}
+  @media print{.ford .maga{page-break-inside:avoid;}}
+
+  </style>
+</head>
+<body>
+<button class="dela-ai" id="delaai" title="Kopiera hela boken som Markdown — klistra in i valfri AI">Dela med AI</button>
+<button class="skriv-ut" id="skrivut" title="Skriv ut hela boken">Skriv ut</button>
+<button class="tema-vaxel" id="tema" title="Ljust eller mörkt läge">☀</button>
+<div class="wrap">
+
+  <header class="title fade">
+    <div class="mark">Make Everybody Great Again</div>
+    <h1>En&nbsp;<span class="em">rörelse</span></h1>
+    <div class="sub">Gör alla stora igen — ingen på någon annans bekostnad.</div>
+    <div class="rule-orn">✦ ❋ ✦</div>
+    <div class="by">av Anna Malmberg · ur Förklara AI</div>
+  </header>
+
+  <section class="foreword">
+    <span class="label">Förord</span>
+    <h2 class="h">Stjäl elden, inte hatet</h2>
+    <p>Den här rörelsen började med ett felsagt ord. Min pappa skulle säga <em>MAGA</em> och sa <em>mega</em> — och plötsligt låg något där på bordet som var för bra för att inte plocka upp. För tänk om man tog känslan MAGA lever på, men vände på vem den gäller?</p>
+    <p>MAGA vilar på en äkta känsla: att något gått förlorat, att vanligt folk blivit osedda, att eliterna talar om dem men inte till dem. Den känslan ska tas på blodigt allvar — det gör den här boken. Felet är inte att MAGA är arg. Felet är <em>vart</em> ilskan riktas: nedåt och utåt, mot invandraren, grannlandet, den som är annorlunda. MEGA behåller känslan och byter måltavla. Inte <em>America first</em>. <em>Everybody counts.</em></p>
+    <p>Därför är den här boken vass — men på ett bestämt sätt. I varje kapitel finns en röd ruta: <strong>"Här har Maga tappat det."</strong> Där namnger jag exakt var rörelsen svek sin egen känsla, och jag belägger det. Men jag drar en skarp gräns: att granska en rörelse är inte att hata dem som röstar på den. De flesta MAGA-väljare vill precis det alla vill — ett värdigt liv, en trygg plats, att räknas. Dem vänder sig MEGA <em>till</em>, inte emot. <strong>Demonisera ingen — men namnge exakt var makten tappat det.</strong></p>
+    <p>Grundbulten är enkel: storhet är inte en tårta. Att du blir större kräver inte att jag blir mindre. Nästan varje gång någon säljer dig motsatsen — att din vinst måste vara någon annans förlust — säljer de dig en lögn för att du lättare ska gå med på att någon trycks ner. MEGA vägrar den affären.</p>
+    <p>En sista ärlighet: en maskin har varit med och skrivit den här boken. Men den är inte slop — varje mening gick genom mig, och jag menar varje ord. Håll inte med om allt. Pröva det i stället.</p>
+    <div class="keep" style="margin-top:30px;">
+      <span class="label">Det enda löftet</span>
+      <p>Vi lovar inte att göra dig stor på någon annans bekostnad. Vi lovar att aldrig be dig bli liten.</p>
+    </div>
+  </section>
+
+  <section class="toc">
+    <span class="label">Innehåll</span>
+    <h2 class="h">Tio byten, ett test och ett löfte</h2>
+    <ol>
+      <li><span class="n">·</span><span class="t">Upptakt: En rörelse som började med ett felsagt ord<span class="q">MEGA — Make Everybody Great Again. Inte America. Everybody. Född vid ett middagsbord, ur en felsägning.</span></span></li>
+      <li><span class="n">I</span><span class="t">Make Work Great Again<span class="q">MAGA säger: ta tillbaka jobben. MEGA säger: ta tillbaka människans värde i arbetet.</span></span></li>
+      <li><span class="n">II</span><span class="t">Make Families Great Again<span class="q">Familjen är viktig. MEGA vägrar bara bestämma hur din ska se ut.</span></span></li>
+      <li><span class="n">III</span><span class="t">Make Communities Great Again<span class="q">Något gick förlorat — banken som kände ditt namn, torget, föreningen. MEGA vill ha tillbaka närheten, inte nostalgin.</span></span></li>
+      <li><span class="n">IV</span><span class="t">Make People Safe Again<span class="q">Ingen fri människa är fri om hon är rädd. Men trygghet får inte byggas genom att göra alla misstänkta.</span></span></li>
+      <li><span class="n">V</span><span class="t">Make Freedom Great Again<span class="q">Frihet du bara försvarar när den används av någon du gillar är inte frihet. Det är din sida.</span></span></li>
+      <li><span class="n">VI</span><span class="t">Make Nations Great Again<span class="q">MEGA är inte emot nationer. Älska ditt land. Problemet börjar när "jag älskar mitt" blir "därför måste ditt vara mindre värt".</span></span></li>
+      <li><span class="n">VII</span><span class="t">Make Business Great Again<span class="q">Företagande är fantastiskt. Men MEGA ställer en fråga efter resultaträkningen: vem betalade det som inte stod på fakturan?</span></span></li>
+      <li><span class="n">VIII</span><span class="t">Make Technology Great Again<span class="q">AI kan göra mänskligheten oerhört mycket rikare. Bra. Då kommer den viktigaste frågan: rikare för vem?</span></span></li>
+      <li><span class="n">IX</span><span class="t">Make Difference Great Again<span class="q">Everybody betyder inte att alla ska tycka lika. En rörelse för everybody måste tåla oenighet — utan att göra motståndaren mindre mänsklig.</span></span></li>
+      <li><span class="n">X</span><span class="t">Make The Future Great Again<span class="q">"Again" är det konstigaste ordet av alla. När var everybody great? Aldrig. Så MEGA rättar sig själv: inte tillbaka — framåt.</span></span></li>
+      <li><span class="n">✦</span><span class="t">MEGA-testet<span class="q">Vi frågar inte först om en lösning är höger eller vänster. Vi frågar: vem blir större — och vem riskerar att göras mindre?</span></span></li>
+      <li><span class="n">✦</span><span class="t">Final: En rörelse som ingen får äga<span class="q">Se människan. Bygg möjligheten. Granska makten. Följ konsekvensen. Lämna ingen liten för att själv få känna dig stor. Och kom ihåg: vi kan ha fel.</span></span></li>
+    </ol>
+  </section>
+
+  <section>
+    <div class="opener">
+      <div class="num">✦</div>
+      <div class="kap">Upptakt</div>
+      <h2>En rörelse som började med ett felsagt ord</h2>
+      <div class="karn">MEGA — Make Everybody Great Again. Inte America. Everybody. Född vid ett middagsbord, ur en felsägning.</div>
+    </div>
+    <div class="ford">
+<p class="ingress">MEGA — Make Everybody Great Again. Inte America. Everybody. En rörelse som inte började i en talarstol, utan vid ett middagsbord, ur ett felsagt ord.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Det började med en felsägning</span><span class="tag">Ursprunget</span></div>
+  <div class="body">Pappa brukar foga in dagens Trump-nyhet varje gång vi sätter oss för att äta. En kväll skulle han säga <strong>MAGA</strong> — det blev något med <em>mega</em>. Vi skrattade. Och så kom frågan som inte gick att skratta bort: <strong>varför <em>America</em>?</strong> Om drömmen är arbete, trygghet, stolthet och framtidstro — varför skulle ambitionen ta slut vid en gräns?<br><br>Mamma la till något: rätt mycket mänsklig utveckling har börjat med att något gick fel. Någon mäter fel, säger fel, ser något som inte borde vara där. Penicillinet. Så föddes MEGA — ur en felsägning, precis som En Bibel föddes ur en fråga hos Ulla 83 och Ett parti ur en tvätt.</div>
+  <div class="insight"><div class="insight-label">Den viktiga insikten</div><div class="insight-text">Det som gick fel kan bli det bästa. Det är nästan rörelsens egen tes — och vetenskapens.</div></div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">America First → Everybody Counts</span><span class="tag">Det enda bytet</span></div>
+  <div class="body">MEGA gör ett enda byte. Inte för att alla alltid kan få allt. Inte för att människor är snälla. Inte för att konflikter försvinner om vi håller varandra i handen. Utan för att <strong>ett samhälle, ett företag, en nation eller en teknik inte kan kallas framgångsrik om dess framgång kräver att andra människor hålls nere.</strong><br><br>Problemet börjar inte när du vill bli stor. Det börjar när vägen till <em>min</em> storhet kräver <em>din</em> litenhet.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Vad MAGA förstod</span><span class="tag">Ta känslan på allvar</span></div>
+  <div class="body">MEGA börjar inte med förakt. MAGA förstod något dess motståndare ibland underskattar: människor vill inte bara överleva. De vill känna stolthet, behövas, kunna försörja sig, vara trygga, påverka sina liv, se sina barn få det bättre, höra hemma någonstans, bli sedda.<br><br>Det är inga dåliga behov. Det är <strong>mänskliga</strong> behov. Att avfärda dem är att förlora människorna innan man ens börjat.</div>
+  <div class="maga"><div class="maga-label">Här har Maga tappat det</div><div class="maga-text">Det konstigaste ordet är <em>&#8221;Again&#8221;</em>. När exakt var <em>everybody</em> great? Inte under antiken, inte 1950, inte 1980, inte 2016. Det har aldrig funnits en gyllene tid för alla. &#8221;Again&#8221; pekar bakåt mot något som aldrig fanns — och &#8221;America first&#8221; ritar en gräns runt behov som inte känner några. MEGA vågar därför rätta sig själv: inte <em>tillbaka</em>, utan <strong>framåt</strong>. Make Everybody Great.</div></div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Ingen får äga den</span><span class="tag">Konstruktionen</span></div>
+  <div class="body">MEGA behöver ingen stor ledare — det vore nästan ett konstruktionsfel. Ingen Trump. Ingen påve. Ingen guru. <em>Ingen Anna. Ingen AI.</em> Idén ska kunna stjälas, förbättras, översättas, motsägas — och användas av människor som aldrig hört talas om oss.<br><br>För om MEGA någon gång fungerar är den största framgången inte att världen säger &#8221;vilken fin rörelse&#8221;, utan att människor börjar fråga varandra: <strong>blir världen större för fler av det här?</strong> — och sedan gör något åt svaret.</div>
+  <div class="shield">
+    <div class="shield-label">Ärlig ram — belagt · tes · ståndpunkt</div>
+    <div class="shield-body"><strong>Belagt:</strong> att MAGA-rörelsen rymmer dokumenterade konspirationsteorier, auktoritära drag och en hård &#8221;vi mot dom&#8221;-retorik är väl rapporterat och går att källbelägga (vi gör det på korten som följer). <strong>Rimlig tes:</strong> att en politik byggd på att den ena gruppen vinner på den andras bekostnad till slut skadar även vinnarna. <strong>Min ståndpunkt:</strong> att en inkluderande motvikt är bättre — och den ska tåla att du säger emot. En rörelse som heter Make Everybody Great måste tåla att everybody får säga: <em>ni har fel.</em></div>
+  </div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Storheten som lyfte andra (Marshallplanen)</div><div class="utblick-text">1948 gjorde USA något ovanligt för en segrare: i stället för att krossa sina besegrade fiender pumpade landet in det som i dagens pengar motsvarar hundratals miljarder för att bygga upp Västeuropa — inklusive forna fienden Västtyskland. Det var inte ren godhet; det fanns en kylig kalkyl mot Sovjet. Men resultatet talar: stabila demokratier, marknader som gjorde även USA rikare, och årtionden av fred. Amerikas kanske största ögonblick var inte när det ställde sig <em>först</em> — utan när dess storhet <em>lyfte andra</em>. <em>Everybody counts</em> är ingen naiv dröm. Det har hänt.</div></div>
+
+<div class="naturlag"><div class="naturlag-label">Är det en naturlag?</div><div class="naturlag-text">Att storhet är ett nollsummespel — att någon måste bli mindre för att jag ska bli stor — känns nästan som en naturlag. Men det är ett antagande, inte en lag. Kunskap, trygghet, värdighet och frihet är inte tårtbitar som tar slut; de växer oftast när fler får dem. &#8221;Din vinst är min förlust&#8221; är den äldsta lögnen makten berättat.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Under all politik vill nästan alla samma grundläggande sak: att få räknas, behövas och höra hemma. Det är inte höger eller vänster — det är mänskligt. Oenigheten handlar sällan om <em>om</em> människor ska få vara great, utan om det lilla, avgörande ordet efteråt: bara <em>våra</em>? MEGA svarar nej.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">6</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Hur man ens ska tänka om storhet drar isär oss.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Nollsumma / positivsumma</div><div class="extra-desc">&#8221;Min vinst kräver din förlust&#8221; mot &#8221;vi kan bli större tillsammans&#8221;.</div></div>
+      <div><div class="extra-name">America First / Everybody Counts</div><div class="extra-desc">Storhet innanför en gräns mot storhet som inte känner några.</div></div>
+      <div><div class="extra-name">Tillbaka / framåt</div><div class="extra-desc">Nostalgin efter en gyllene tid som aldrig fanns mot att bygga den för första gången.</div></div>
+      <div><div class="extra-name">Frälsare / rörelse</div><div class="extra-desc">En stark ledare att följa mot en idé som får stjälas och förbättras av vem som helst.</div></div>
+    </div>
+    <br>MEGA väljer inte bort konflikten. Den vägrar bara svaret att någon måste bli mindre för att en annan ska bli stor.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">MEGA</div><div class="extra-desc">Make Everybody Great Again. Felsägningen som blev en rörelse.</div></div>
+  <div><div class="extra-name">Everybody Counts</div><div class="extra-desc">Bytet mot &#8221;America First&#8221;: ingen framgång som kräver andras litenhet.</div></div>
+  <div><div class="extra-name">Här har Maga tappat det</div><div class="extra-desc">Där rörelsens egen logik spricker — namngivet exakt, backat med belägg.</div></div>
+  <div><div class="extra-name">Nollsummelögnen</div><div class="extra-desc">Att min storhet kräver din litenhet. Ett antagande, inte en naturlag.</div></div>
+  <div><div class="extra-name">Ingen får äga den</div><div class="extra-desc">Ingen ledare, ingen guru, ingen Anna, ingen AI. Idén ska kunna stjälas.</div></div>
+  <div><div class="extra-name">Det som gick fel</div><div class="extra-desc">Bibel, parti, rörelse — och penicillinet. Stora idéer ur små misstag.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Vad som följer</div>
+  <div class="future-body">Härnäst kör vi rörelsen genom tio frågor — <em>Make Work / Families / Communities / Safe / Freedom / Nations / Business / Technology / Difference / The Future Great Again</em> — och till sist MEGA-testet, som ställer sju frågor till varje förslag innan vi ens frågar om det är höger eller vänster.</div>
+</div>
+    </div>
+  </section>
+  <section>
+    <div class="opener">
+      <div class="num">I</div>
+      <div class="kap">Kapitel I</div>
+      <h2>Make Work Great Again</h2>
+      <div class="karn">MAGA säger: ta tillbaka jobben. MEGA säger: ta tillbaka människans värde i arbetet.</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Människor behöver kunna försörja sig — och känna att deras arbete betyder något. Det är inget litet behov. Det är där livet levs, identiteten byggs, dagen får form.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">MAGA fick känslan rätt</span><span class="tag">Ta det på allvar</span></div>
+  <div class="body">Bakom "ta tillbaka jobben" finns en verklig sorg: bruksorter som tömdes, yrken som var vägen upp och plötsligt var borta, en stolthet som ingen omskolningskurs riktigt ersätter. Den som avfärdar den sorgen som "bakåtsträvande" har aldrig förlorat sin stad. MEGA börjar där MAGA börjar — i att arbetet är värdighet, inte bara inkomst.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Ta tillbaka människans värde</span><span class="tag">Bytet</span></div>
+  <div class="body">Men MEGA byter mål. Inte <em>ta tillbaka jobben</em> — utan <strong>ta tillbaka människans värde i arbetet</strong>. Bygg lokalt när det är klokt. Handla globalt när det är klokt. Automatisera det människor är glada att slippa. Förstärk det de är bra på. Men gör inte människor överflödiga och kalla det effektivisering utan att fråga vad som händer med människan efteråt.<br><br><strong>Produktivitet är medlet. Människan är målet.</strong></div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Fel bov ger fel medicin</span><span class="tag">Prövningen</span></div>
+  <div class="body">Om man ska laga något måste man peka på rätt orsak. Och här pekar "ta tillbaka jobben" åt fel håll.</div>
+  <div class="maga"><div class="maga-label">Här har Maga tappat det</div><div class="maga-text">"Ta tillbaka jobben" skyller på handel och migration. Men arbetsmarknadsforskningen (bland andra ekonomerna Daron Acemoglu och David Autor) tillskriver <strong>en stor del av de förlorade industrijobben automation och produktivitet</strong> — inte främst utländsk konkurrens. Man kan bygga en mur mot människor. Men inte mot en robotarm. Och även <em>om</em> jobben kom tillbaka: frågan <em>vad människan ska vara värd när maskinen kan göra jobbet</em> lämnas obesvarad. Att peka på fel bov ger fel medicin — och en syndabock i stället för en lösning.</div></div>
+  <div class="shield"><div class="shield-label">Ärlig ram — belagt · tes · ståndpunkt</div><div class="shield-body"><strong>Belagt:</strong> automation och produktivitetsökning står för en stor del av de försvunna industrijobben i väst; det är väldokumenterat i arbetsmarknadsforskningen. <strong>Rimlig tes:</strong> handel och migration påverkar också, men görs ofta till hela förklaringen för att de har ett ansikte att skylla på. <strong>Min ståndpunkt:</strong> den ärliga frågan är inte "vems fel?" utan "vad ska människan vara till för när maskinen kan mer?".</div></div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Ett företag som ägs av dem som jobbar (Baskien)</div><div class="utblick-text">I den baskiska staden Mondragón finns en av världens största arbetarkooperativ: tiotusentals människor äger de företag de arbetar i. När kriser slår till skär de hellre i lönerna än sparkar folk — för ägarna och de anställda är samma personer. Det är inte perfekt och löser inte allt. Men det visar att "människans värde i arbetet" inte är en dikt: det går att bygga in i själva ägandet.</div></div>
+
+<div class="naturlag"><div class="naturlag-label">Är det en naturlag?</div><div class="naturlag-text">Att jobb "bara försvinner" och att inget kan göras känns som marknadens naturlag. Men "effektivitet" är alltid effektivitet <em>för någon</em> — och vem som bär omställningen är ett val, inte en lag. Det som känns som ödet är oftast ett beslut ingen visade dig.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Nästan alla vill känna sig behövda, bidra med något, gå hem efter en dag och känna att det betydde något. Att bli överflödig gör ont på ett sätt ingen check helt kan laga. Där möts vi — oavsett var vi står i debatten om handel, migration eller robotar.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Vad vi gör när maskinen kan göra jobbet drar isär oss.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Ta tillbaka jobben / ta tillbaka värdet</div><div class="extra-desc">Nostalgi efter de gamla jobben mot värdighet i de nya.</div></div>
+      <div><div class="extra-name">Skydda jobbet / skydda människan</div><div class="extra-desc">Frysa förändringen mot att bära den som drabbas.</div></div>
+      <div><div class="extra-name">Syndabock / orsak</div><div class="extra-desc">Ett ansikte att skylla på mot den obekväma sanningen om automation.</div></div>
+      <div><div class="extra-name">Automatisera bort / automatisera för</div><div class="extra-desc">Bygga bort människan mot att låta henne slippa slitet.</div></div>
+    </div>
+    <br>MEGA väljer inte modellen. Men den vägrar en framtid där människan byggs bort som en kostnad — och kräver att vi automatiserar <em>för</em> henne, inte bort henne.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Människans värde i arbetet</div><div class="extra-desc">Målet, inte jobbet i sig. Produktivitet är medlet.</div></div>
+  <div><div class="extra-name">Fel bov</div><div class="extra-desc">Automation, inte främst handel/migration, ändrade industrijobben.</div></div>
+  <div><div class="extra-name">Augmentering</div><div class="extra-desc">Låt maskinen ta slitet, förstärk det människan är bra på.</div></div>
+  <div><div class="extra-name">Skydda människan, inte jobbet</div><div class="extra-desc">Bär den som drabbas i stället för att frysa förändringen.</div></div>
+  <div><div class="extra-name">Mondragón</div><div class="extra-desc">Baskiska kooperativ: de som jobbar äger. Värdet inbyggt i ägandet.</div></div>
+  <div><div class="extra-name">Syndabockslogik</div><div class="extra-desc">Att välja ett ansikte att skylla på framför den obekväma orsaken.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Nästa</div>
+  <div class="future-body">Om arbetet handlar om vad vi bidrar med, handlar nästa om det närmaste vi har: familjen — och varför MEGA vägrar bestämma hur din ska se ut.</div>
+</div>
+    </div>
+  </section>
+  <section>
+    <div class="opener">
+      <div class="num">II</div>
+      <div class="kap">Kapitel II</div>
+      <h2>Make Families Great Again</h2>
+      <div class="karn">Familjen är viktig. MEGA vägrar bara bestämma hur din ska se ut.</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Familjen är viktig. Där har konservativa rörelser en poäng som inte behöver kastas bort bara för att deras definition ibland blir för smal.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Poängen värd att behålla</span><span class="tag">Ta det på allvar</span></div>
+  <div class="body">Barn behöver människor som älskar dem. Vuxna behöver människor som ser dem. Att relationer och sammanhang bär en människa genom livet är inte konservativ propaganda — det är något av det mest belagda psykologin har. MEGA tar familjen på fullaste allvar.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Stärk banden — inte rollbesättningen</span><span class="tag">Bytet</span></div>
+  <div class="body">Men MEGA tänker inte bestämma hur en familj ska se ut. Mamma och pappa. Två mammor. Två pappor. En ensamstående pappa. En mormor som uppfostrar ett barn. Bonusfamiljen. Vännerna som blev familjen när den biologiska inte fungerade.<br><br><strong>Stärk familjen genom att stärka relationerna — inte genom att kontrollera rollbesättningen.</strong> Det är viktigare än familjefotots komposition.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">När värden blir vakter</span><span class="tag">Prövningen</span></div>
+  <div class="body">Ordet "familjevärden" låter varmt. Det blir kallt först när det byter jobb.</div>
+  <div class="maga"><div class="maga-label">Här har Maga tappat det</div><div class="maga-text">När "familjevärden" slutar betyda <em>stötta familjer</em> och börjar betyda <em>bestämma vilka som får räknas som en</em> — motarbeta samkönade föräldrar, adoption, transbarn, ensamstående — då skyddar det inte längre familjer. Det <strong>rangordnar</strong> dem. En rörelse som säger sig älska familjen och samtidigt underkänner miljoner verkliga familjer älskar en bild, inte människorna. Kärlek som ställer villkor på vem du får älska är inte familjevärden. Det är kontroll i familjens kläder.</div></div>
+  <div class="shield"><div class="shield-label">Ärlig ram — belagt · tes · ståndpunkt</div><div class="shield-body"><strong>Belagt:</strong> delar av rörelsen driver aktivt att begränsa samkönade familjers och hbtq-personers rättigheter — det finns i program, lagförslag och uttalanden. <strong>Rimlig tes:</strong> forskningen ser inte att barn far illa av <em>vilken sorts</em> kärleksfull familj de växer upp i, utan av frånvaron av trygga vuxna. <strong>Min ståndpunkt:</strong> att skydda familjen är rätt — att ranka familjer är fel.</div></div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Det krävs en by (Västafrika)</div><div class="utblick-text">Ett välkänt ordspråk med rötter i västafrikanska samhällen säger att det krävs en hel by för att fostra ett barn. I många kulturer är familjen ingen sluten kärnenhet utan en väv: mostrar, grannar, fäddrar och äldste bär ansvaret tillsammans. Bilden av "en mamma, en pappa, två barn" som den enda riktiga familjen är historiskt sett ovanlig — de flesta människor har vuxit upp i något bredare. Familjen är en relation, inte en mall.</div></div>
+
+<div class="naturlag"><div class="naturlag-label">Är det en naturlag?</div><div class="naturlag-text">Att "den riktiga familjen" är mamma, pappa och barn känns tidlöst — nästan biologiskt. Men storfamiljen, klanen, fosterhemmet och den valda familjen har varit lika vanliga genom historien. Kärnfamiljen som norm är ung och lokal. Det som känns som naturens ordning är oftast bara den ordning vi råkade födas in i.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Nästan alla bär en längtan efter att höra hemma hos några få människor som är <em>ens egna</em>. Att vilja skydda det man älskar är urmänskligt. Där möts vi — oavsett hur våra egna familjer råkar se ut. Skillnaden är bara om vi unnar andra samma sak vi själva vill ha.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Vad en familj är och vem som bestämmer det drar isär oss.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">En mall / många former</div><div class="extra-desc">Den rätta familjen mot familjen som en relation i tusen skepnader.</div></div>
+      <div><div class="extra-name">Rollbesättning / relationer</div><div class="extra-desc">Vem som får vara med mot hur banden mellan dem bär.</div></div>
+      <div><div class="extra-name">Skydda / rangordna</div><div class="extra-desc">Att stötta familjer mot att bestämma vilka som räknas.</div></div>
+      <div><div class="extra-name">Tradition / trygghet</div><div class="extra-desc">Formen vi ärvde mot det barnet faktiskt behöver: någon som stannar.</div></div>
+    </div>
+    <br>MEGA rankar inte familjer. Den frågar bara det enda som betyder något för ett barn: finns här människor som älskar dig?</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Familjen som relation</div><div class="extra-desc">Inte en mall att fylla, utan band som bär. Formen får variera.</div></div>
+  <div><div class="extra-name">Stärk banden</div><div class="extra-desc">Investera i relationerna, inte i att kontrollera vem som ingår.</div></div>
+  <div><div class="extra-name">Det krävs en by</div><div class="extra-desc">Barnet fostras av många. Familjen är en väv, inte en sluten enhet.</div></div>
+  <div><div class="extra-name">Rangordna familjer</div><div class="extra-desc">När "familjevärden" byter jobb från att stötta till att underkänna.</div></div>
+  <div><div class="extra-name">Villkorad kärlek</div><div class="extra-desc">Kärlek som ställer krav på vem du får älska. Kontroll i familjens kläder.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Nästa</div>
+  <div class="future-body">Om familjen är de närmaste, är nästa den ring utanför: grannskapet, torget, banken som kände ditt namn — det MEGA vill bygga tillbaka utan att bygga tillbaka tiden.</div>
+</div>
+    </div>
+  </section>
+  <section>
+    <div class="opener">
+      <div class="num">III</div>
+      <div class="kap">Kapitel III</div>
+      <h2>Make Communities Great Again</h2>
+      <div class="karn">Något gick förlorat — banken som kände ditt namn, torget, föreningen. MEGA vill ha tillbaka närheten, inte nostalgin.</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Här finns något värt att stjäla från varje nostalgisk politisk rörelse: känslan av att något gick förlorat. Den känslan är inte dum. Den pekar på något verkligt.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Något gick faktiskt förlorat</span><span class="tag">Ta det på allvar</span></div>
+  <div class="body">Den lokala banken där någon kände ditt namn. Butiken. Föreningen. Grannen. Torget. Skolan där vuxna faktiskt kände barnen. Ett helt nät av ansikten som tunnades ut, ett beslut i taget, tills det knappt går att nå en annan människa. Att sörja det är inte bakåtsträvande. Det är att sakna något människan faktiskt behöver.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Digital bekvämlighet + mänsklig närhet</span><span class="tag">Bytet</span></div>
+  <div class="body">Allt gammalt var inte bättre. Men allt nytt är inte bättre heller. MEGA vill inte tillbaka till förr — den vill <strong>kombinera världarna</strong>: digital bekvämlighet <em>och</em> mänsklig närhet.<br><br>Tekniken ska göra administrationen billigare så att vi får råd med <strong>mer människa — inte mindre</strong>. Låt maskinen ta pappersarbetet. Använd det den sparar till att sätta tillbaka ansikten där de behövs mest.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Vems "förr"?</span><span class="tag">Prövningen</span></div>
+  <div class="body">Nostalgi är en kraftfull motor. Men den kör lätt åt fel håll.</div>
+  <div class="maga"><div class="maga-label">Här har Maga tappat det</div><div class="maga-text">"Gör det som förr" glömmer en fråga: <em>förr för vem?</em> Den gyllene tiden man vill tillbaka till var sällan gyllene för alla — ofta byggd på att någon annan hölls utanför torget, banken och skolan. MEGA vill ha tillbaka <strong>närheten</strong>, inte <strong>uteslutningen</strong>. Att sakna en granne som kände ditt namn är vackert. Att sakna en tid då vissa grannar inte fick flytta in är något helt annat. Ta känslan — inte gränserna som en gång ritade den.</div></div>
+  <div class="shield"><div class="shield-label">Ärlig ram — belagt · tes · ståndpunkt</div><div class="shield-body"><strong>Belagt:</strong> avfolkning av lokala institutioner (bankkontor, butiker, föreningsliv) är väldokumenterad, och känslan av tappad gemenskap är verklig. <strong>Rimlig tes:</strong> nostalgi kan lika lätt användas för att bygga tillbaka närhet som för att bygga tillbaka uteslutning — allt hänger på vad man saknar. <strong>Min ståndpunkt:</strong> vi ska sakna människorna, aldrig murarna.</div></div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Hemvård utan stoppur (Nederländerna)</div><div class="utblick-text">Den nederländska hemvårdsmodellen Buurtzorg gjorde tvärtemot effektivitetsvågen: den slängde de minutstyrda scheman som mätte hur snabbt en sköterska var klar, och gav i stället små team frihet att faktiskt känna sina patienter. Resultatet blev inte dyrare — det blev billigare, med nöjdare patienter och personal. Ett bevis på att "mer människa" och "lägre kostnad" inte behöver vara varandras fiender, om tekniken får ta pappersarbetet och människan får ta människan.</div></div>
+
+<div class="naturlag"><div class="naturlag-label">Är det en naturlag?</div><div class="naturlag-text">Att storskaliga, moderna system <em>måste</em> bli anonyma och kalla känns som en naturlag. Men anonymiteten är inte vädret — den är en design. Varje kontor som stängdes, varje människa som ersattes av en kölapp, var ett beslut. Och det som en gång ritades kan ritas om.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Att bli sedd av någon som känner en är ingen lyx — det är biologi. I alla tider byggdes tryggheten på ansikten: byns äldste, gårdens fadder, grannen över staketet. Ett samhälle där ingen känner dig är inte bara kallt, det är otryggt på riktigt. Där möts vi, oavsett var vi bor.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Vad vi ska göra med känslan att något gått förlorat drar isär oss.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Tillbaka / kombinera</div><div class="extra-desc">Vrida klockan bakåt mot digital bekvämlighet plus mänsklig närhet.</div></div>
+      <div><div class="extra-name">Närhet / uteslutning</div><div class="extra-desc">Sakna människorna mot att sakna gränserna som en gång ritade dem.</div></div>
+      <div><div class="extra-name">Effektivitet / närvaro</div><div class="extra-desc">Systemet som skalar mot människan som får synas igen.</div></div>
+      <div><div class="extra-name">Nostalgi / minne</div><div class="extra-desc">Att försköna det förflutna mot att lära av det ärligt.</div></div>
+    </div>
+    <br>MEGA vill bygga tillbaka gemenskapen — men aldrig genom att bygga tillbaka vem som en gång stängdes ute.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Mänsklig närhet</div><div class="extra-desc">Ansikten som känner dig — biologi, inte lyx.</div></div>
+  <div><div class="extra-name">Digital + nära</div><div class="extra-desc">Låt tekniken ta pappret så vi får råd med mer människa.</div></div>
+  <div><div class="extra-name">Vems förr?</div><div class="extra-desc">Frågan som skiljer att sakna närhet från att sakna uteslutning.</div></div>
+  <div><div class="extra-name">Anonymitet är en design</div><div class="extra-desc">Varje stängt kontor var ett beslut. Det går att rita om.</div></div>
+  <div><div class="extra-name">Buurtzorg</div><div class="extra-desc">Hemvård utan stoppur: billigare och varmare på samma gång.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Nästa</div>
+  <div class="future-body">Ingen fri människa är fri om hon är rädd. Nästa kort handlar om tryggheten — och hur man skyddar människor utan att göra alla misstänkta.</div>
+</div>
+    </div>
+  </section>
+  <section>
+    <div class="opener">
+      <div class="num">IV</div>
+      <div class="kap">Kapitel IV</div>
+      <h2>Make People Safe Again</h2>
+      <div class="karn">Ingen fri människa är fri om hon är rädd. Men trygghet får inte byggas genom att göra alla misstänkta.</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Ingen fri människa blir särskilt fri om hon är rädd. Trygghet är inte motsatsen till frihet — den är dess förutsättning. Frågan är bara hur man bygger den.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Rädslan är verklig</span><span class="tag">Ta det på allvar</span></div>
+  <div class="body">Våld, stöld, krig, organiserad brottslighet och övergrepp ska bekämpas — på riktigt, inte bortförklaras. Den som lever med otrygghet på nära håll har inte råd med teoretiska resonemang. MEGA tar tryggheten på fullaste allvar: den är själva grunden allt annat vilar på.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Granska makten, skydda människan</span><span class="tag">Bytet</span></div>
+  <div class="body">MEGA skiljer på två saker som ständigt blandas ihop: <strong>integritet</strong> och <strong>hemlighet</strong>. Du ska få ha ett privatliv. Men makt ska vara svår att gömma.<br><br>Regeln blir enkel: <strong>ju större makt du har, desto större ska kravet på insyn vara.</strong> Inte "övervaka everybody" — utan "granska makten, skydda människan". Vänd sökljuset uppåt, inte nedåt.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Vart pekar sökljuset?</span><span class="tag">Prövningen</span></div>
+  <div class="body">Varje samhälle säger sig vilja ha ordning. Skillnaden ligger i vem ordningen är till för.</div>
+  <div class="maga"><div class="maga-label">Här har Maga tappat det</div><div class="maga-text">"Law and order" låter tryggt — tills man ser vart sökljuset riktas. När kravet på hårdhet nästan alltid pekar <em>nedåt</em> (migranter, demonstranter, fattiga) och nästan aldrig <em>uppåt</em> (mot makten själv), då bygger man inte trygghet — man bygger <strong>kontroll</strong>. Uttalanden om att sätta in militär mot inhemska motståndare, och om att jaga "fienden inifrån", är dokumenterade och pekar åt fel håll. Ett samhälle blir inte tryggare av att fler människor görs till misstänkta. Det blir tryggare av att makten blir svårare att missbruka.</div></div>
+  <div class="shield"><div class="shield-label">Ärlig ram — belagt · tes · ståndpunkt</div><div class="shield-body"><strong>Belagt:</strong> uttalanden om att använda militären inrikes och om en "fiende inifrån" är väl rapporterade och går att källbelägga. <strong>Rimlig tes:</strong> att övervakning byggd för en god regering ärvs av nästa, som kanske inte är god. <strong>Min ståndpunkt:</strong> trygghet mäts i hur en oskyldig behandlas, inte i hur snabbt en misstänkt grips.</div></div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Trygghet byggd på tillit (Island)</div><div class="utblick-text">Island hör till världens tryggaste länder — och dess poliser bär sällan vapen på patrull. Tryggheten vilar inte på total övervakning utan på hög social tillit: människor litar på varandra och på institutionerna. Det är ingen garanti och passar inte överallt. Men det är ett levande bevis på att det säkraste samhället inte alltid är det mest bevakade — ibland är det det mest tillitsfulla.</div></div>
+
+<div class="naturlag"><div class="naturlag-label">Är det en naturlag?</div><div class="naturlag-text">Att mer övervakning ger mer trygghet känns nästan som en ekvation. Men de tryggaste samhällena är ofta de mest tillitsfulla, inte de mest bevakade. Och massövervakning är splitterny — under nästan hela historien var privatlivet det normala. "Trygghet kräver att du ger upp din vrå" är en design från i förrgår, inte en naturlag.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Alla vill kunna sova tryggt, och alla känner obehaget av att ständigt vara bevakad. Att vilja skydda sina barn och att vilja ha en vrå som är ens egen är lika mänskligt. Ingen, oavsett åsikt, vill leva vare sig i skräck eller helt genomlyst. Där möts vi.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Hur mycket vi ska se varandra för att känna oss trygga drar isär oss.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Övervaka alla / granska makten</div><div class="extra-desc">Sökljuset nedåt mot de maktlösa mot uppåt mot makten själv.</div></div>
+      <div><div class="extra-name">Integritet / hemlighet</div><div class="extra-desc">Rätten till en egen vrå mot rätten för makt att gömma sig.</div></div>
+      <div><div class="extra-name">Trygghet / frihet</div><div class="extra-desc">Att gardera mot faran mot att inte kväva den fria människan.</div></div>
+      <div><div class="extra-name">Misstanke / tillit</div><div class="extra-desc">Ett samhälle där fler görs misstänkta mot ett byggt på tillit.</div></div>
+    </div>
+    <br>MEGA väljer inte den exakta balansen. Men den vägrar en makt som ser allt och själv inte kan ses.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Integritet vs hemlighet</div><div class="extra-desc">Du får ha privatliv. Makt får inte gömma sig.</div></div>
+  <div><div class="extra-name">Sökljuset uppåt</div><div class="extra-desc">Ju större makt, desto större krav på insyn — inte tvärtom.</div></div>
+  <div><div class="extra-name">Riktad, inte total</div><div class="extra-desc">Övervakning med skäl och slutdatum, aldrig alla, alltid.</div></div>
+  <div><div class="extra-name">Tillit som trygghet</div><div class="extra-desc">De tryggaste samhällena är ofta de mest tillitsfulla.</div></div>
+  <div><div class="extra-name">Fienden inifrån</div><div class="extra-desc">Retoriken som gör medborgare till misstänkta. Sökljuset åt fel håll.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Nästa</div>
+  <div class="future-body">Trygghet utan frihet är en cell. Nästa kort handlar om friheten — och testet som avslöjar om du försvarar den, eller bara din egen sida.</div>
+</div>
+    </div>
+  </section>
+  <section>
+    <div class="opener">
+      <div class="num">V</div>
+      <div class="kap">Kapitel V</div>
+      <h2>Make Freedom Great Again</h2>
+      <div class="karn">Frihet du bara försvarar när den används av någon du gillar är inte frihet. Det är din sida.</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Frihet är lätt att älska när den gäller en själv. Provet kommer först när den används av någon du inte står ut med.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Friheten är värdefull</span><span class="tag">Ta det på allvar</span></div>
+  <div class="body">Yttrandefrihet är värdefull också när den används av någon du ogillar. Religionsfrihet gäller också religionen du själv tycker är befängd. Friheten att leva annorlunda gäller också människor vars liv du aldrig skulle välja. MEGA tar friheten på allvar — hela vägen, inte bara till gränsen för det bekväma.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Frihetstestet</span><span class="tag">Bytet</span></div>
+  <div class="body">MEGA lägger ett enda test på varje frihet:<br><br><strong>Skulle jag fortfarande försvara den här friheten om den användes av någon jag ogillar?</strong><br><br>Om svaret är nej försvarar du kanske inte friheten alls. Du försvarar din sida. Och en frihet som bara gäller din sida är inget annat än ett privilegium med finare namn.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Frihet för vem?</span><span class="tag">Prövningen</span></div>
+  <div class="body">Nästan alla säger sig älska friheten. Skillnaden syns i vem de tillåter den.</div>
+  <div class="maga"><div class="maga-label">Här har Maga tappat det</div><div class="maga-text">Ingen ropar högre om "free speech" — samtidigt som samma rörelse driver <strong>dokumenterade bokförbud</strong> i skolor och bibliotek, hotar journalister och kritiker, och vill straffa oliktänkande. Det är inte frihet. Det är frihet <em>för oss</em> och tystnad <em>för er</em>. Den som försvarar sin egen rätt att tala men vill tysta andras har inte klarat frihetstestet — den har bara bytt sida i samma gamla spel om vem som får bestämma vad du får säga.</div></div>
+  <div class="shield"><div class="shield-label">Ärlig ram — belagt · tes · ståndpunkt</div><div class="shield-body"><strong>Belagt:</strong> ett stort antal boktitlar har plockats bort ur amerikanska skol- och folkbibliotek de senaste åren — det är kartlagt och väl rapporterat. <strong>Rimlig tes:</strong> att "free speech" ofta åberopas selektivt, för den egna sidan. <strong>Min ståndpunkt:</strong> frihet som inte gäller dem du ogillar är inte frihet — det är makt du råkar ha.</div></div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Kejsaren som skyddade tron han inte delade (Mogulriket)</div><div class="utblick-text">På 1500-talet styrde den muslimske kejsaren Akbar ett rike med hinduer, muslimer, kristna, jainer och parser. I stället för att tvinga fram en tro avskaffade han särskatten på icke-muslimer, bjöd in olika trosriktningar till öppna debatter och formulerade en princip han kallade <em>sulh-i-kul</em> — "fred med alla". Att skydda friheten också för den tro man själv finner främmande är ingen modern uppfinning. Det är en av maktens sällsyntaste och modigaste gärningar.</div></div>
+
+<div class="naturlag"><div class="naturlag-label">Är det en naturlag?</div><div class="naturlag-text">Att frihet betyder frihet <em>för oss</em> känns självklart — så har makten nästan alltid tänkt. Men en frihet som bara gäller den egna sidan är inte en lag om frihet; det är privilegiets äldsta trick. Att den ska gälla också din motståndare känns onaturligt bara för att så få makthavare vågat det.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Alla vill få säga vad de tänker, tro vad de tror och leva som de vill. Ingen vill bli tystad. Den känslan delar vi — och just därför är frihetstestet så svårt: det kräver att vi unnar andra exakt det vi själva kräver, även när vi avskyr vad de gör av det. Där möts vi, om vi vågar.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Hur långt friheten ska gå — och för vem — drar isär oss.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Frihet för alla / för oss</div><div class="extra-desc">Principen som gäller även motståndaren mot privilegiet för den egna sidan.</div></div>
+      <div><div class="extra-name">Yttrandefrihet / tysta det farliga</div><div class="extra-desc">Att tåla det obekväma mot att vilja stänga av det.</div></div>
+      <div><div class="extra-name">Tolerans / gränser</div><div class="extra-desc">Var toleransens paradox går: hur tolerant mot det intoleranta?</div></div>
+      <div><div class="extra-name">Övertygelse / tvång</div><div class="extra-desc">Att vinna med argument mot att vinna med förbud.</div></div>
+    </div>
+    <br>MEGA drar inte varje exakt gräns. Men den vägrar en frihet som bara den ena sidan får njuta av.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Frihetstestet</div><div class="extra-desc">Skulle jag försvara den här friheten om min motståndare använde den?</div></div>
+  <div><div class="extra-name">Selektiv frihet</div><div class="extra-desc">Frihet för oss, tystnad för er. Privilegium med finare namn.</div></div>
+  <div><div class="extra-name">Bokförbud</div><div class="extra-desc">Att plocka bort böcker man ogillar — free speech vänd mot sig själv.</div></div>
+  <div><div class="extra-name">Sulh-i-kul</div><div class="extra-desc">Akbars "fred med alla" — skydda också tron du inte delar.</div></div>
+  <div><div class="extra-name">Toleransens paradox</div><div class="extra-desc">Den svåra frågan: hur tolerant kan man vara mot det intoleranta?</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Nästa</div>
+  <div class="future-body">Frihet handlar om den enskilda. Nästa kort handlar om det stora vi hör hemma i: nationen — och skillnaden mellan att älska sitt land och att förakta andras.</div>
+</div>
+    </div>
+  </section>
+  <section>
+    <div class="opener">
+      <div class="num">VI</div>
+      <div class="kap">Kapitel VI</div>
+      <h2>Make Nations Great Again</h2>
+      <div class="karn">MEGA är inte emot nationer. Älska ditt land. Problemet börjar när "jag älskar mitt" blir "därför måste ditt vara mindre värt".</div>
+    </div>
+    <div class="ford">
+<p class="ingress">MEGA är inte emot nationer. Tvärtom. Att höra hemma någonstans är ett av de djupaste mänskliga behoven — och inget att skämmas för.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Hemhörighet är inte problemet</span><span class="tag">Ta det på allvar</span></div>
+  <div class="body">Älska Sverige. Älska USA. Älska Ukraina, Somalia, Indien, Argentina eller den lilla by där du råkade födas. Stoltheten över det egna, viljan att bevara ett språk, ett landskap, en historia — det är varmt och mänskligt. MEGA vill inte lösa upp nationerna i en grå värld utan hem.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Lyckas utan att kräva andras fall</span><span class="tag">Bytet</span></div>
+  <div class="body">Problemet uppstår när <em>jag älskar mitt</em> förvandlas till <em>därför måste ditt vara mindre värt</em>. Där byter MEGA ambition. En värld av starka samhällen behöver inte vara en värld där varje samhälle försöker vinna över alla andra.<br><br>Den svårare, finare ambitionen är: <strong>mitt land ska lyckas på ett sätt som inte kräver att ditt misslyckas.</strong></div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">När stolthet blir förakt</span><span class="tag">Prövningen</span></div>
+  <div class="body">Kärlek till det egna är en gåva. Den blir farlig först när den byter riktning.</div>
+  <div class="maga"><div class="maga-label">Här har Maga tappat det</div><div class="maga-text">"America First" glider lätt från <em>stolthet</em> till <em>nollsumma</em>: vi vinner bara om de förlorar. Då blir patriotism till förakt — mot andra länder, mot invandrare, mot "de andra" inom det egna landet. Och paradoxen: en nation som överger sina vänner och allianser för att stå "först och ensam" blir ofta <strong>svagare</strong>, inte starkare. Storhet som mäts i hur många man ställer sig över är den bräckligaste sorten. Den håller bara tills någon större kommer.</div></div>
+  <div class="shield"><div class="shield-label">Ärlig ram — belagt · tes · ståndpunkt</div><div class="shield-body"><strong>Belagt:</strong> en "vi mot dom"-retorik som ställer den egna gruppen mot andra nationer och mot invandrare är väl dokumenterad i rörelsens språk. <strong>Rimlig tes:</strong> att isolering och övergivna allianser på sikt försvagar snarare än stärker en nation. <strong>Min ståndpunkt:</strong> den tryggaste stoltheten är den som inte behöver någon annans litenhet för att känna sig stor.</div></div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Storhet utan hämnd (Sydafrika)</div><div class="utblick-text">När apartheid föll 1994 väntade många ett blodbad: den förtryckta majoriteten hade all rätt till hämnd. I stället valde Sydafrika under Mandela och ärkebiskop Tutu en sanningskommission — förövare fick vittna öppet i utbyte mot att samhället skulle kunna leva vidare tillsammans. Modellen var långt ifrån perfekt och all orätt läktes inte. Men den bar en storhet få segrare vågat: att bygga en nation utan att krossa den besegrade. Att bli stor utan att göra någon annan liten.</div></div>
+
+<div class="naturlag"><div class="naturlag-label">Är det en naturlag?</div><div class="naturlag-text">Att nationer måste konkurrera i ett nollsummespel — min styrka kräver din svaghet — känns som geopolitikens naturlag. Men de rikaste och fredligaste epokerna byggdes oftare på handel, allianser och utbyte än på erövring. "Deras vinst är vår förlust" är inte en lag om världen. Det är en berättelse makten gärna säljer, för den håller folk rädda och lydiga.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Nästan alla vill vara stolta över var de kommer ifrån, och nästan ingen vill vara den lilla som körs över av den stora. Längtan efter ett hem och avskyn mot att förödmjukas är lika gamla som de första byarna. Där möts vi — under alla flaggor.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Vad det betyder att älska sitt land drar isär oss.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Nollsumma / positivsumma</div><div class="extra-desc">"Vi vinner om de förlorar" mot "vi kan lyfta varandra".</div></div>
+      <div><div class="extra-name">Stolthet / förakt</div><div class="extra-desc">Att älska sitt mot att förakta andras.</div></div>
+      <div><div class="extra-name">Ensam / i förbund</div><div class="extra-desc">Att stå "först och ensam" mot styrkan i allianser.</div></div>
+      <div><div class="extra-name">Erövra / handla</div><div class="extra-desc">Storhet genom att ta mot storhet genom att byta.</div></div>
+    </div>
+    <br>MEGA älskar nationer. Den vägrar bara den sorts storhet som kräver att en annan görs liten.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Hemhörighet</div><div class="extra-desc">Att höra hemma någonstans — ett djupt behov, inte ett fel.</div></div>
+  <div><div class="extra-name">Positivsumma</div><div class="extra-desc">Mitt land kan lyckas utan att ditt misslyckas.</div></div>
+  <div><div class="extra-name">Nollsummenationalism</div><div class="extra-desc">"Vi vinner bara om de förlorar." Stolthet vänd till förakt.</div></div>
+  <div><div class="extra-name">Först och ensam</div><div class="extra-desc">Isoleringen som ofta försvagar i stället för att stärka.</div></div>
+  <div><div class="extra-name">Storhet utan hämnd</div><div class="extra-desc">Sydafrika 1994: att bli stor utan att krossa den besegrade.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Nästa</div>
+  <div class="future-body">Nationer bygger sin styrka på ekonomi. Nästa kort handlar om företagandet — och frågan som ställs efter resultaträkningen: vem betalade det som inte stod på fakturan?</div>
+</div>
+    </div>
+  </section>
+  <section>
+    <div class="opener">
+      <div class="num">VII</div>
+      <div class="kap">Kapitel VII</div>
+      <h2>Make Business Great Again</h2>
+      <div class="karn">Företagande är fantastiskt. Men MEGA ställer en fråga efter resultaträkningen: vem betalade det som inte stod på fakturan?</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Företagande är något av det finaste människan gör: någon ser ett problem, tar en risk, bygger något, anställer någon, skapar värde som inte fanns förut. Det ska löna sig.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Att bygga är att skapa</span><span class="tag">Ta det på allvar</span></div>
+  <div class="body">MEGA älskar företagandet — på riktigt. Den som vågar satsa, misslyckas, resa sig och bygga något som håller förtjänar både lön och heder. Utan den drivkraften stannar en värld. Det här är ingen kritik av att tjäna pengar.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Frågan efter resultaträkningen</span><span class="tag">Bytet</span></div>
+  <div class="body">Men MEGA ställer en fråga när sista raden är räknad: <strong>vem betalade det som inte stod på fakturan?</strong><br><br>Om varan blev billig därför att någon annan arbetade under usla villkor är kostnaden ändå verklig. Om vinsten skapades genom att naturen tog räkningen är kostnaden ändå verklig. Om en "gratis" digital tjänst betalades med människors uppmärksamhet och privatliv var den aldrig gratis.<br><br>MEGA är inte emot vinst. <strong>MEGA är emot osynliga förluster.</strong></div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Vänligt mot vem?</span><span class="tag">Prövningen</span></div>
+  <div class="body">"Företagsvänligt" låter bra. Men allt hänger på vilket företag man är vänlig mot.</div>
+  <div class="maga"><div class="maga-label">Här har Maga tappat det</div><div class="maga-text">När "företagsvänligt" i praktiken betyder vänligt mot de <em>största</em> — låta dem skjuta kostnaderna på arbetare, natur och konsument, och kalla det frihet — då försvarar man inte marknaden. Man försvarar makten som råkar äga den just nu. <strong>Pro-marknad är inte samma sak som pro-monopol.</strong> En verkligt fri marknad kräver att ingen aktör blir så stor att den slipper konkurrens, insyn och konsekvens. Att avreglera så att jättarna slipper notan är inte att befria marknaden — det är att sälja ut den.</div></div>
+  <div class="shield"><div class="shield-label">Ärlig ram — belagt · tes · ståndpunkt</div><div class="shield-body"><strong>Belagt:</strong> externaliteter — kostnader som faller utanför prislappen — är ett etablerat ekonomiskt begrepp, inte en åsikt. <strong>Rimlig tes:</strong> att "avreglering" ofta gynnar de största aktörerna mer än den fria konkurrensen. <strong>Min ståndpunkt:</strong> den bästa vännen en marknad kan ha är den som ser till att ingen blir för stor för att behöva svara för sig.</div></div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Företaget som gav bort sig självt (Patagonia)</div><div class="utblick-text">2022 gjorde friluftsföretaget Patagonias grundare Yvon Chouinard något ovanligt: han gav bort hela företaget. I stället för att sälja eller börsnotera lade han ägandet i en stiftelse så att all vinst går till att bekämpa klimatkrisen. "Jorden är nu vår enda aktieägare", sa de. Ett enda företag räddar inte världen, och gesten har diskuterats. Men den ställer den fråga MEGA vill ha ställd: vad är ett företag <em>till för</em> — och räknar vi med den kostnad som aldrig hamnar på fakturan?</div></div>
+
+<div class="naturlag"><div class="naturlag-label">Är det en naturlag?</div><div class="naturlag-text">Att det billigaste alternativet är det bästa känns som marknadens självklara logik. Men "billigt" betyder ofta bara att någon annan fick räkningen — floden, arbetaren, framtiden. Priset på lappen är sällan hela priset. Att låtsas det är inte ekonomi; det är att blunda med öppna ögon.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Nästan alla vill att den som sliter och skapar ska få sitt — och nästan ingen vill se några få håva in medan andra betalar i tysthet. Rättvisekänslan i "den som ställer till det ska stå för notan" bär varje barn. Där möts vi, bakom all ekonomisk teori.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Vad ett framgångsrikt företagande är drar isär oss.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Vinst / osynlig förlust</div><div class="extra-desc">Sista raden mot kostnaden som aldrig kom med på fakturan.</div></div>
+      <div><div class="extra-name">Pro-marknad / pro-monopol</div><div class="extra-desc">Fri konkurrens mot frihet för den som redan är störst.</div></div>
+      <div><div class="extra-name">Avreglera / ansvara</div><div class="extra-desc">Ta bort reglerna mot att låta den som skapar risken bära den.</div></div>
+      <div><div class="extra-name">Aktieägaren / alla berörda</div><div class="extra-desc">Vem företaget svarar inför — ägaren, eller alla som betalar.</div></div>
+    </div>
+    <br>MEGA hyllar den som bygger. Den vägrar bara en vinst som i tysthet skickas som en förlust till någon annan.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Osynliga förluster</div><div class="extra-desc">Det MEGA är emot — inte vinsten, utan kostnaden som göms.</div></div>
+  <div><div class="extra-name">Externalitet</div><div class="extra-desc">Kostnad utanför prislappen som landar hos någon annan.</div></div>
+  <div><div class="extra-name">Effektivt för vem</div><div class="extra-desc">Två ord som avslöjar vem som egentligen bär priset.</div></div>
+  <div><div class="extra-name">Pro-marknad ≠ pro-monopol</div><div class="extra-desc">Fri konkurrens kräver att ingen blir för stor för att svara för sig.</div></div>
+  <div><div class="extra-name">Patagonia</div><div class="extra-desc">Företaget vars enda aktieägare blev jorden.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Nästa</div>
+  <div class="future-body">Företag byggs allt mer av teknik. Nästa kort ställer den avgörande frågan om AI och automation: den gör oss rikare — men rikare för vem?</div>
+</div>
+    </div>
+  </section>
+  <section>
+    <div class="opener">
+      <div class="num">VIII</div>
+      <div class="kap">Kapitel VIII</div>
+      <h2>Make Technology Great Again</h2>
+      <div class="karn">AI kan göra mänskligheten oerhört mycket rikare. Bra. Då kommer den viktigaste frågan: rikare för vem?</div>
+    </div>
+    <div class="ford">
+<p class="ingress">AI, robotik och automation kan göra mänskligheten oerhört mycket rikare. Det är sant, och det är bra. Just därför måste den viktigaste frågan ställas högt.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Tekniken kan lyfta oss</span><span class="tag">Ta det på allvar</span></div>
+  <div class="body">Låt oss vara ärliga om löftet: maskiner som botar sjukdomar, översätter språk, lyfter det tunga, gör kunskap tillgänglig för alla. Det är inte science fiction — mycket av det sker redan. MEGA är ingen teknikfientlig rörelse. Den vill att framsteget ska bli verkligt.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Rikare för vem?</span><span class="tag">Bytet</span></div>
+  <div class="body">Men rikedom är inget svar i sig. Frågan är: <strong>rikare för vem?</strong><br><br>MEGA vill använda maskinen för att <strong>förstärka människan</strong>. Låt AI göra mönstren. Låt roboten lyfta det tunga. Låt datorn administrera. Men lämna människan med mer möjlighet att vara människa, inte mindre.<br><br>Det ultimata framsteget är inte en värld där människan inte längre behövs. Det är en värld där människor inte behöver slösa sina liv på sådant maskinen gör bättre.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Vem äger maskinen?</span><span class="tag">Prövningen</span></div>
+  <div class="body">Ny teknik är aldrig neutral i vems händer den hamnar. Och just nu samlas de händerna snabbt.</div>
+  <div class="maga"><div class="maga-label">Här har Maga tappat det</div><div class="maga-text">När teknikens makt koncentreras till ett fåtal ägare — och några av dem ställer sig allt närmare den politiska makten — blir "innovation" lätt ett annat ord för <em>inga regler för oss</em>. Då flödar vinsten av AI till dem som äger modellerna, medan risken och kostnaden landar på alla andra. "Rikare för vem" är exakt den fråga makten helst vill slippa. En teknik som gör några få enormt mäktiga och alla andra beroende är inte framsteg för <em>everybody</em> — det är den gamla makten i ny hårdvara.</div></div>
+  <div class="shield"><div class="shield-label">Ärlig ram — belagt · tes · ståndpunkt</div><div class="shield-body"><strong>Belagt:</strong> att beräkningskraft, modeller och data är starkt koncentrerade till ett fåtal bolag är väldokumenterat. <strong>Rimlig tes:</strong> att den som äger tekniken också formar reglerna för den, om ingen håller emot. <strong>Min ståndpunkt:</strong> tekniken ska förstärka människan — och frågan "rikare för vem?" ska ställas innan, inte efter.</div></div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Kunskap gratis, för alla (Wikipedia)</div><div class="utblick-text">Wikipedia är kanske det tydligaste beviset på teknik som gjorde <em>everybody</em> rikare: historiens största uppslagsverk, skrivet av frivilliga, fritt tillgängligt på hundratals språk, utan reklam och utan att någon äger det. Det är inte felfritt, och det bär sina egna skevheter. Men det visar att den mest värdefulla tekniken inte alltid är den som gör en ägare rik — ibland är det den som gör en hel mänsklighet lite klokare, gratis.</div></div>
+
+<div class="naturlag"><div class="naturlag-label">Är det en naturlag?</div><div class="naturlag-text">Att en ny teknik "gynnar alla" känns självklart när den lanseras. Men vem den gör rikare är ett val — om ägande, regler och tillgång — inte en naturlag. Elektriciteten, internet och nu AI kunde alla ha låsts in hos ett fåtal. Att de spreds var en kamp, inte ett öde. Nästa gång blir det också en kamp.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Nästan alla vill att tekniken ska göra livet lättare, inte tommare. Och nästan ingen vill vara den vars arbete, data eller uppmärksamhet blev någon annans förmögenhet utan att man tillfrågades. Längtan efter verktyg som tjänar oss är lika gammal som den första yxan. Där möts vi.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Vad tekniken ska göra med människan drar isär oss.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Förstärka / ersätta</div><div class="extra-desc">Maskinen som gör människan större mot maskinen som gör henne överflödig.</div></div>
+      <div><div class="extra-name">Rikare för alla / för ägarna</div><div class="extra-desc">Framsteg som sprids mot vinst som samlas hos ett fåtal.</div></div>
+      <div><div class="extra-name">Inga regler / kloka regler</div><div class="extra-desc">"Innovation" utan spärrar mot teknik som ansvarar för sig.</div></div>
+      <div><div class="extra-name">Verktyg / härskare</div><div class="extra-desc">Maskinen i människans hand mot människan i maskinens ägares hand.</div></div>
+    </div>
+    <br>MEGA vill ha framsteget — men vägrar en framtid där maskinen gör några få allsmäktiga och alla andra överflödiga.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Rikare för vem</div><div class="extra-desc">Frågan som avgör om ett framsteg är för alla eller för ägarna.</div></div>
+  <div><div class="extra-name">Förstärk människan</div><div class="extra-desc">Låt maskinen ta slitet, ge människan mer att vara människa av.</div></div>
+  <div><div class="extra-name">Maktkoncentration</div><div class="extra-desc">Beräkningskraft och modeller samlade hos ett fåtal bolag.</div></div>
+  <div><div class="extra-name">Inga regler för oss</div><div class="extra-desc">När "innovation" blir kod för att slippa ansvar.</div></div>
+  <div><div class="extra-name">Wikipedia</div><div class="extra-desc">Teknikrikedom som ägs av ingen och når alla.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Nästa</div>
+  <div class="future-body">Everybody betyder inte att alla ska tycka lika. Nästa kort handlar om det svåraste av allt: att vara oense utan att göra motståndaren mindre mänsklig.</div>
+</div>
+    </div>
+  </section>
+  <section>
+    <div class="opener">
+      <div class="num">IX</div>
+      <div class="kap">Kapitel IX</div>
+      <h2>Make Difference Great Again</h2>
+      <div class="karn">Everybody betyder inte att alla ska tycka lika. En rörelse för everybody måste tåla oenighet — utan att göra motståndaren mindre mänsklig.</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Everybody betyder inte att alla ska tycka lika. Tvärtom. Det svåraste med en rörelse för alla är att den måste rymma dem man själv är djupt oense med.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Olikheten är inte felet</span><span class="tag">Ta det på allvar</span></div>
+  <div class="body">En rörelse för everybody måste tåla människor som är konservativa och progressiva, som tror på Gud och inte gör det, som vill bo på landet och mitt i stan, som älskar traditioner och vill bryta dem. Olikheten är inte ett problem att lösa. Den är själva materialet ett fritt samhälle är byggt av.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Oense utan fiendskap</span><span class="tag">Bytet</span></div>
+  <div class="body">MEGA kräver inte enighet. Den kräver något mycket svårare: <strong>att vi kan vara oense utan att behöva göra motståndaren mindre mänsklig.</strong><br><br>Det är samma kompass som bär allt annat jag byggt:<br><em>Dyrka ingen. Demonisera ingen.</em><br><br>Du får tycka att den andre har djupt fel. Du får inte sluta se att den andre är en människa.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">När motståndaren blir ohyra</span><span class="tag">Prövningen</span></div>
+  <div class="body">Det finns en gräns i politiken som är äldre och mörkare än höger och vänster. Den går vid språket om motståndaren.</div>
+  <div class="maga"><div class="maga-label">Här har Maga tappat det</div><div class="maga-text">I dokumenterade tal har politiska motståndare beskrivits som <em>"vermin"</em> — ohyra — och migranter som att de <em>"förgiftar landets blod"</em>. Det här är inte hård retorik som vanligt. Att kalla människor ohyra och gift är precis det språk som historiskt gått före de värsta sakerna människor gjort mot varandra. När man börjar där har man lämnat politiken och klivit in i något mycket äldre. <strong>Man behöver inte hålla med sin motståndare. Man måste bara vägra sluta se att hon är en människa.</strong> Det är MEGA:s hårdaste och enklaste regel.</div></div>
+  <div class="shield"><div class="shield-label">Ärlig ram — belagt · tes · ståndpunkt</div><div class="shield-body"><strong>Belagt:</strong> uttrycken "vermin" om motståndare och "poisoning the blood" om invandrare är dokumenterade och brett rapporterade. <strong>Rimlig tes:</strong> att avhumaniserande språk sänker tröskeln för det som sedan görs — det finns gott om historiskt stöd. <strong>Min ståndpunkt:</strong> här går den enda gräns MEGA drar hårt: du får tycka vad du vill, men inte avhumanisera en annan människa.</div></div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Lagen som skyddade olikheten (Transsylvanien)</div><div class="utblick-text">1568 antog furstendömet Transsylvanien det så kallade Torda-ediktet — en av Europas allra tidigaste lagar som slog fast att flera kristna trosriktningar fick predika fritt, och att ingen fick tvingas eller straffas för sin tro. Mitt under Europas religionskrig, när grannländer brände oliktänkande, valde ett litet furstendöme att skydda oenigheten i lag. Att tåla att andra tror och tänker annorlunda är ingen modern bekvämlighet. Det är en av civilisationens svåraste och äldsta segrar.</div></div>
+
+<div class="naturlag"><div class="naturlag-label">Är det en naturlag?</div><div class="naturlag-text">Att de som tycker olika förr eller senare blir fiender känns som politikens natur. Men oenighet är inte fiendskap — den är demokratins livsluft. Att göra motståndaren till monster är alltid ett val, och nästan alltid gjort av dem som tjänar på din rädsla. Ett samhälle som inte tål oliktänkande har inte blivit enigt. Det har blivit tyst.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Nästan alla har någon gång känt smärtan i att bli avfärdad som dum, farlig eller mindre värd bara för att man tänkte annorlunda. Och nästan alla vet, innerst inne, att den man är oense med sällan är ett monster — bara en människa som ser en annan del av elefanten. Där möts vi, om vi orkar minnas det i stridens hetta.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Hur vi bär oenigheten drar isär oss.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Enighet / mångfald</div><div class="extra-desc">Att alla ska tänka lika mot att olikheten får finnas.</div></div>
+      <div><div class="extra-name">Motståndare / fiende</div><div class="extra-desc">Den man är oense med mot den man avhumaniserar.</div></div>
+      <div><div class="extra-name">Renhetstest / öppen dörr</div><div class="extra-desc">Lojalitet som villkor mot en rörelse som tål att man säger emot.</div></div>
+      <div><div class="extra-name">Vinna debatten / krossa personen</div><div class="extra-desc">Att slå en åsikt mot att slå en människa.</div></div>
+    </div>
+    <br>MEGA drar bara en enda gräns hårt: du får vara hur oense som helst — men aldrig göra en annan människa till ohyra.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Oenighet utan fiendskap</div><div class="extra-desc">Att tycka att den andre har fel utan att göra hen till monster.</div></div>
+  <div><div class="extra-name">Demonisera ingen</div><div class="extra-desc">MEGA:s och Motviktens gemensamma kompass.</div></div>
+  <div><div class="extra-name">Avhumanisering</div><div class="extra-desc">Språket som gör motståndaren till ohyra eller gift. Den mörka gränsen.</div></div>
+  <div><div class="extra-name">Renhetstest</div><div class="extra-desc">Lojalitet som inträdeskrav — motsatsen till en rörelse för alla.</div></div>
+  <div><div class="extra-name">Torda-ediktet</div><div class="extra-desc">Transsylvanien 1568: olikheten skyddad av lag, sekler för tidigt.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Nästa</div>
+  <div class="future-body">Och så det konstigaste ordet av alla. Nästa kort tar itu med "Again" — och vänder hela rörelsen från nostalgi till något mycket modigare.</div>
+</div>
+    </div>
+  </section>
+  <section>
+    <div class="opener">
+      <div class="num">X</div>
+      <div class="kap">Kapitel X</div>
+      <h2>Make The Future Great Again</h2>
+      <div class="karn">"Again" är det konstigaste ordet av alla. När var everybody great? Aldrig. Så MEGA rättar sig själv: inte tillbaka — framåt.</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Av alla ord i "Make Everybody Great Again" är ett långt konstigare än de andra. Det lilla ordet på slutet: <em>Again</em>.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">När var everybody great?</span><span class="tag">Frågan</span></div>
+  <div class="body">"Again" pekar bakåt, mot en tid då allt var bättre. Men ställ frågan rakt ut: <strong>när exakt var everybody great?</strong><br><br>Inte under antiken. Inte på medeltiden. Inte 1950. Inte 1980. Inte 2016. Varje "guldålder" var gyllene för <em>några</em> — och byggd på att andra hölls utanför. Det har aldrig funnits en gyllene tid för alla.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Inte tillbaka — framåt</span><span class="tag">Bytet</span></div>
+  <div class="body">Så MEGA vågar till slut göra det svåraste av allt: rätta sitt eget namn.<br><br>Make Everybody Great Again var den roliga felsägningen som startade rörelsen. Men dess verkliga löfte är större:<br><br><strong>MAKE EVERYBODY GREAT.</strong><br><br>Inte <em>tillbaka</em>. <strong>Framåt.</strong> För första gången, inte igen.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Nostalgins fälla</span><span class="tag">Prövningen</span></div>
+  <div class="body">Nostalgi är en av de starkaste krafter en politisk rörelse kan tanka. Den är också en av de farligaste.</div>
+  <div class="maga"><div class="maga-label">Här har Maga tappat det</div><div class="maga-text">"Again" säljer ett förflutet som aldrig fanns — och där ligger fällan: <strong>det som aldrig fanns kan aldrig levereras.</strong> En rörelse byggd på att återställa en inbillad guldålder kan aldrig lyckas, för målet är en hägring. Så ilskan tar aldrig slut; det finns alltid någon ny att skylla på för att paradiset inte kom tillbaka. MEGA vägrar den fällan. Det förflutna kan vi lära av. Men framtiden är det enda vi faktiskt kan bygga — och den kan bli great för fler än någon dåtid någonsin var.</div></div>
+  <div class="shield"><div class="shield-label">Ärlig ram — belagt · tes · ståndpunkt</div><div class="shield-body"><strong>Belagt:</strong> på nästan varje mått — barnadödlighet, läskunnighet, extrem fattigdom, livslängd — levde en större andel av mänskligheten sämre förr än idag; det är väl dokumenterat. <strong>Rimlig tes:</strong> att nostalgi som politisk motor tenderar att livnära sig på ilska den aldrig kan mätta. <strong>Min ståndpunkt:</strong> den enda riktning där "everybody great" ens är möjligt är framåt.</div></div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — En framtid som aldrig funnits (smittkopporna)</div><div class="utblick-text">1980 förklarade Världshälsoorganisationen smittkopporna utrotade — en sjukdom som dödat hundratals miljoner var för första gången i historien borta från jorden. Det skedde inte genom att längta tillbaka, utan genom att bygga något nytt: ett globalt samarbete, vaccin för vaccin, by för by, tvärs över kalla krigets fiendskap. Det är kanske det renaste beviset på MEGA:s tes — att "great" i verkligheten aldrig ligger bakom oss. Det byggs framåt, tillsammans, för everybody.</div></div>
+
+<div class="naturlag"><div class="naturlag-label">Är det en naturlag?</div><div class="naturlag-text">Att "förr var bättre" känns som en sanning varje generation bär. Men det fanns aldrig en gyllene tid för alla — nostalgin är ett minne redigerat av dem som hade det bra då. "Det brukade vara bättre" är inte en naturlag om historien; det är oftast en berättelse om vem som förlorade sitt företräde. Framtiden är det enda vi faktiskt kan göra great.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Nästan alla längtar ibland tillbaka till något som kändes tryggt och helt — barndomen, en tid, en plats. Den längtan är öm och mänsklig. Där möts vi. Skillnaden är bara om vi låter den bli en fängelsecell av "förr" — eller ett bränsle för att bygga något ännu bättre, denna gång för fler.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Vart vi ska rikta blicken drar isär oss.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Tillbaka / framåt</div><div class="extra-desc">Att återställa en guldålder mot att bygga en som aldrig fanns.</div></div>
+      <div><div class="extra-name">Nostalgi / minne</div><div class="extra-desc">Ett förskönat förr mot ett ärligt lärande av det.</div></div>
+      <div><div class="extra-name">Igen / för första gången</div><div class="extra-desc">Att återta det förlorade mot att skapa det nya.</div></div>
+      <div><div class="extra-name">Guldålder för några / great för alla</div><div class="extra-desc">En dåtid som gynnade få mot en framtid som räknar alla.</div></div>
+    </div>
+    <br>MEGA river det sista ordet ur sitt eget namn. Inte "again". Bara: <strong>Make Everybody Great.</strong></div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Ingen gyllene tid</div><div class="extra-desc">Det fanns aldrig ett "förr" som var great för alla.</div></div>
+  <div><div class="extra-name">Framåt, inte tillbaka</div><div class="extra-desc">Den enda riktning där "everybody great" ens är möjligt.</div></div>
+  <div><div class="extra-name">Nostalgifällan</div><div class="extra-desc">Ett förflutet som aldrig fanns kan aldrig levereras — så ilskan tar aldrig slut.</div></div>
+  <div><div class="extra-name">Make Everybody Great</div><div class="extra-desc">Namnet utan sitt sista ord. Inte igen — för första gången.</div></div>
+  <div><div class="extra-name">Smittkopporna</div><div class="extra-desc">1980: en framtid som aldrig funnits, byggd tillsammans.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Vad som följer</div>
+  <div class="future-body">Tio frågor är ställda. Härnäst det som binder ihop dem: MEGA-testet — de frågor varje förslag ska tåla innan vi ens frågar om det är höger eller vänster. Och till sist: en rörelse som ingen får äga.</div>
+</div>
+    </div>
+  </section>
+  <section>
+    <div class="opener">
+      <div class="num">✦</div>
+      <div class="kap">Prövningen</div>
+      <h2>MEGA-testet</h2>
+      <div class="karn">Vi frågar inte först om en lösning är höger eller vänster. Vi frågar: vem blir större — och vem riskerar att göras mindre?</div>
+    </div>
+    <div class="ford">
+<p class="ingress">En rörelse behöver inte tjugo punkter. Den behöver ett filter. När någon föreslår en lösning frågar MEGA inte först: är den höger eller vänster? Den ställer sju andra frågor.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">De sju frågorna</span><span class="tag">Filtret</span></div>
+  <div class="body">Kör varje förslag genom dessa:<br><br><strong>1.</strong> Vem blir <em>större</em> av detta?<br><strong>2.</strong> Vem riskerar att göras <em>mindre</em>?<br><strong>3.</strong> Måste den ena människan förlora för att den andra ska vinna?<br><strong>4.</strong> Vem får makten?<br><strong>5.</strong> Vad händer om <em>fel</em> människa får den makten?<br><strong>6.</strong> Vem betalar om vi har fel?<br><br>Och slutligen, den svåraste:<br><strong>7.</strong> Skulle jag fortfarande tycka att detta var en bra regel om jag inte visste vem i världen jag själv skulle födas som?</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Samma familj som Motvikten</span><span class="tag">Släktskapet</span></div>
+  <div class="body">Frågorna är inga slumpvisa infall. De är släkt med Motviktens tre test: fråga 4 och 5 är <strong>Dretstöveltestet</strong> (håller bygget även när fel människa styr?), fråga 7 är <strong>slöjan av okunnighet</strong> (välj reglerna utan att veta vem du blir), fråga 6 är <strong>konsekvenstestet</strong> (vem betalar om vi har fel?). MEGA är inte en ny uppfinning — det är samma gamla klokskap, riktad mot en enda fråga: blir världen större för fler?</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Fel sorts test</span><span class="tag">Prövningen</span></div>
+  <div class="body">Alla rörelser prövar sina förslag på något sätt. Skillnaden ligger i vad de mäter.</div>
+  <div class="maga"><div class="maga-label">Här har Maga tappat det</div><div class="maga-text">MAGA:s test är i praktiken ett <strong>lojalitetstest</strong>: är du med oss eller mot oss? Är han lojal mot ledaren? Den som inte är helt med räknas som mot. Men ett lojalitetstest frågar bara <em>vem du är för</em> — aldrig <em>vem beslutet är bra för</em>. Det är därför det så lätt leder fel: en usel idé kan klara lojalitetstestet galant, bara den kommer från rätt mun. MEGA-testet bryr sig inte om vems mun. Det bryr sig om vem som blir större och vem som görs mindre.</div></div>
+  <div class="shield"><div class="shield-label">Ärlig ram — belagt · tes · ståndpunkt</div><div class="shield-body"><strong>Belagt:</strong> att lojalitet mot ledaren är ett centralt villkor i rörelsen, och att illojalitet bestraffas med uteslutning, är väl dokumenterat. <strong>Rimlig tes:</strong> att ett lojalitetstest premierar rätt avsändare framför rätt idé. <strong>Min ståndpunkt:</strong> ett förslag ska prövas på vad det gör med människor, aldrig på vem det kommer ifrån.</div></div>
+</div>
+
+<div class="utblick"><div class="utblick-label">Utblick — Att välja blint (den gyllene regeln)</div><div class="utblick-text">Fråga sju — "skulle jag godta detta om jag inte visste vem jag föddes som?" — har ett urgammalt hem. Nästan varje tradition har format samma tanke, var för sig: gör mot andra som du vill att de ska göra mot dig, från Konfucius till Hillel till Jesus, och som Mozis <em>opartiska omsorg</em> i Kina två tusen år före Rawls. Att bedöma en regel som om din egen plats i den vore dold är mänsklighetens kanske mest återkommande försök att vara rättvis. MEGA-testet sätter bara ord på det igen.</div></div>
+
+<div class="naturlag"><div class="naturlag-label">Är det en naturlag?</div><div class="naturlag-text">Att politik måste börja med "höger eller vänster?" känns som en naturlag. Men den frågan är knappt tvåhundra år gammal — och den avgör nästan inget om ett förslag faktiskt är klokt. "Vem blir större, vem görs mindre?" är en äldre och ärligare fråga. Färgen på förslaget är ovant sällan det som spelar roll.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Det MEGA inte lovar</span><span class="tag">Ärligheten</span></div>
+  <div class="body">Ett ärligt test kräver en ärlig rörelse. MEGA lovar därför inte att alla människor kommer överens. Inte att alla får lika mycket. Inte att världen saknar farliga människor. Inte att varje konflikt har en lösning där alla blir nöjda. Och framför allt lovar den inte att <strong>MEGA har rätt</strong>.<br><br>En rörelse som heter Make Everybody Great måste tåla att everybody får säga: <em>ni har fel.</em> Annars föll den redan på första försöket.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi krockar</span><span class="tag">De många blickarna</span></div>
+  <div class="body">Vad vi bör mäta ett förslag på drar isär oss.
+    <div class="extra-grid" style="margin-top:14px">
+      <div><div class="extra-name">Höger–vänster / vem blir större</div><div class="extra-desc">Färgen på förslaget mot vad det gör med människor.</div></div>
+      <div><div class="extra-name">Lojalitet / omdöme</div><div class="extra-desc">Är du med oss? mot Är idén bra, vem den än kom från?</div></div>
+      <div><div class="extra-name">Tvärsäkerhet / prövning</div><div class="extra-desc">Ett facit att lyda mot frågor att ställa.</div></div>
+      <div><div class="extra-name">Vinna / hålla</div><div class="extra-desc">Att få rätt nu mot att bygga något som håller när fel människa styr.</div></div>
+    </div>
+    <br>MEGA-testet väljer inte sida. Det ser bara till att den som vinner inte gör det på någon annans bekostnad — och att den som fattar beslutet själv kan hamna på fel sida av det.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">MEGA-testet</div><div class="extra-desc">Sju frågor varje förslag ska tåla — före höger/vänster.</div></div>
+  <div><div class="extra-name">Vem blir större / mindre</div><div class="extra-desc">Kärnfrågan bakom alla sju.</div></div>
+  <div><div class="extra-name">Slöjan (fråga 7)</div><div class="extra-desc">Välj regeln utan att veta vem du själv blir. Rawls, och mycket äldre.</div></div>
+  <div><div class="extra-name">Vem betalar (fråga 6)</div><div class="extra-desc">Konsekvenstestet: om vi har fel, vem tar smällen?</div></div>
+  <div><div class="extra-name">Lojalitetstest</div><div class="extra-desc">MAGA:s prövning: vems mun. MEGA frågar: vems liv.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Vad som följer</div>
+  <div class="future-body">Testet är verktyget. Sista kortet är hjärtat: en rörelse som ingen får äga — och en kompass att bära när ingen färdig karta stämmer.</div>
+</div>
+    </div>
+  </section>
+  <section>
+    <div class="opener">
+      <div class="kap">Final</div>
+      <h2>En rörelse som ingen får äga</h2>
+      <div class="karn">Se människan. Bygg möjligheten. Granska makten. Följ konsekvensen. Lämna ingen liten för att själv få känna dig stor. Och kom ihåg: vi kan ha fel.</div>
+    </div>
+    <div class="ford">
+<p class="ingress">Och så, till sist, det svåraste löftet av alla. En rörelse som heter Make Everybody Great måste kunna göra det ingen mäktig rörelse brukar våga: att inte tillhöra någon.</p>
+
+<div class="section">
+  <div class="section-head"><span class="num">1</span><span class="concept">Ingen får äga den</span><span class="tag">Konstruktionen</span></div>
+  <div class="body">MEGA behöver ingen stor ledare. Det vore nästan ett konstruktionsfel. Ingen Trump. Ingen påve. Ingen guru. <em>Ingen Anna. Ingen AI.</em><br><br>Idén ska kunna stjälas. Förbättras. Översättas. Motsägas. Och användas av människor som aldrig hört talas om oss. För om MEGA någon gång verkligen fungerar är den största framgången inte att världen säger "vilken fantastisk rörelse", utan att människor börjar fråga varandra: <strong>blir världen större för fler av det här?</strong> — och sedan gör något åt svaret.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">2</span><span class="concept">Kompassen</span><span class="tag">Att bära med sig</span></div>
+  <div class="body"><em>Se människan.<br>Bygg möjligheten.<br>Granska makten.<br>Följ konsekvensen.<br>Lämna ingen liten för att själv få känna dig stor.</em></div>
+  <div class="insight"><div class="insight-label">Den viktiga insikten</div><div class="insight-text">En kompass ger dig inga färdiga svar på skatten, skolan eller försvaret. Den ger dig väderstreck att navigera efter när ingen karta stämmer — och det viktigaste är alltid det sista: kom ihåg att du själv kan ha fel.</div></div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">3</span><span class="concept">Frälsaren som är ett konstruktionsfel</span><span class="tag">Prövningen</span></div>
+  <div class="body">Det här är den plats där MEGA och MAGA skiljs åt allra tydligast.</div>
+  <div class="maga"><div class="maga-label">Här har Maga tappat det</div><div class="maga-text">MAGA vilar på <em>en man</em>. Rörelsen, lojaliteten, sanningen — allt löper genom en enda person, och att ifrågasätta honom är att lämna rörelsen. Men en idé som behöver en frälsare är lika stark som frälsaren är ärlig — och lika dödlig som han är farlig. <strong>Det är själva konstruktionsfelet.</strong> MEGA gör tvärtom och bygger bort ledaren med flit: ingen ska kunna göra rörelsen till sin egen. En idé som får stjälas av vem som helst kan ingen dålig människa kapa.</div></div>
+</div>
+
+<div class="naturlag"><div class="naturlag-label">Är det en naturlag?</div><div class="naturlag-text">Att en rörelse behöver en stark ledare för att lyckas känns som en naturlag. Men de idéer som verkligen ändrat världen — läskunnighet, folkbildning, mänskliga rättigheter — blev till slut större än någon person. Ledaren känns nödvändig bara så länge idén ännu är liten. Den starkaste rörelsen är den som klarar sig utan sin grundare.</div></div>
+
+<div class="section">
+  <div class="section-head"><span class="num">4</span><span class="concept">Vi kan ha fel</span><span class="tag">Ödmjukheten</span></div>
+  <div class="body">Och så det enda löfte MEGA verkligen ger: <strong>vi kan ha fel.</strong><br><br>Det är trots allt så hela rörelsen började — med ett felsagt ord vid ett middagsbord. Att våga bygga något ur ett misstag, och att låta det förbli öppet för nästa misstag som visar sig vara bättre, är inte en svaghet. Det är själva metoden. Penicillinet igen.</div>
+</div>
+
+<div class="section">
+  <div class="section-head"><span class="num">5</span><span class="concept">Var vi alltid möts</span><span class="tag">Det mänskliga</span></div>
+  <div class="body">Under allt vill nästan alla samma enkla sak: att få räknas, behövas och höra hemma — och att ens barn ska få det bättre. Det är inte höger eller vänster. Det är människa. MEGA är bara den längtan satt fri från det lilla ordet som förgiftar den: <em>bara våra.</em> Där möts vi. Resten är detaljer vi får bråka ärligt om.</div>
+</div>
+
+<hr>
+<div class="extra-head">Begrepp i rockärmen</div>
+<div class="extra-grid">
+  <div><div class="extra-name">Ingen får äga den</div><div class="extra-desc">Ingen ledare, ingen frälsare. En idé som får stjälas kan ingen kapa.</div></div>
+  <div><div class="extra-name">Kompassen</div><div class="extra-desc">Se människan · bygg möjligheten · granska makten · följ konsekvensen · gör ingen liten.</div></div>
+  <div><div class="extra-name">Blir världen större för fler?</div><div class="extra-desc">Den enda fråga rörelsens framgång ska mätas i.</div></div>
+  <div><div class="extra-name">Frälsaren som konstruktionsfel</div><div class="extra-desc">En rörelse som vilar på en man faller med honom.</div></div>
+  <div><div class="extra-name">Vi kan ha fel</div><div class="extra-desc">Det enda löftet. Rörelsen började ju med ett misstag.</div></div>
+</div>
+<div class="future-box">
+  <div class="future-head">Stjäl gärna</div>
+  <div class="future-body">MEGA vill inte ha din röst, din lojalitet eller din plats i salen. Den vill en enda sak: att besluten blir bättre för fler. Så ta hela idén — testet, kompassen, bytet från America First till Everybody Counts — och gör den till din. Ingen upphovsrätt, ingen credit, ingen medlemsavgift. <strong>Make Everybody Great.</strong> Inte igen. Framåt.</div>
+</div>
+    </div>
+  </section>
+  <section class="efter">
+    <div class="rule-orn">✦ ❋ ✦</div>
+    <span class="label" style="color:var(--taupe)">Efterord</span>
+    <h2 class="h" style="text-align:center">Kompassen</h2>
+    <p style="margin-left:auto;margin-right:auto;text-align:left;">MEGA lämnar dig inte med ett tjugopunktsprogram, utan med en kompass — samma som styr allt annat jag bygger:</p>
+    <div class="compass">Se människan. Bygg möjligheten. Granska makten.<br>Följ konsekvensen. Lyft generöst. Demonisera ingen.<br>Lämna ingen liten för att själv få känna dig stor.<br>Var aldrig naiv. Och kom alltid ihåg att du själv kan ha fel.</div>
+    <div class="honest" style="text-align:left;max-width:54ch;margin-left:auto;margin-right:auto;">
+      <span class="label">Ärlig ram</span>
+      Det här är en <strong>rörelse av en tanke och ett pågående bygge</strong>, inte en färdig ideologi. Poängen är inte ett namn att skandera — den är bytet: från <em>tillbaka</em> till <em>framåt</em>, från <em>någons bekostnad</em> till <em>tillsammans</em>. Testen gäller MEGA själv först. Ingen får äga den. Stjäl gärna.
+    </div>
+    <div class="colophon">
+      En rörelse · MEGA — Make Everybody Great Again<br>
+      Av Anna Malmberg — samma verkstad som Förklara AI, En Bibel och Motvikten.<br>
+      Inte America. Everybody. (Och till mitt försvar: min pappa sa bara ett ord fel.) ✦
+    </div>
+  </section>
+
+</div>
+<script>
+  (function () {
+    var k = "forklara-ai:tema", b = document.getElementById("tema");
+    function ic() { b.textContent = document.documentElement.dataset.theme === "dark" ? "☾" : "☀"; }
+    ic();
+    b.addEventListener("click", function () {
+      var nu = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+      document.documentElement.dataset.theme = nu;
+      try { localStorage.setItem(k, nu); } catch (e) {}
+      ic();
+    });
+  })();
+</script>
+<script>
+  (function(){
+    var s=document.getElementById("skrivut");
+    if(s) s.addEventListener("click",function(){window.print();});
+    try{ if(new URLSearchParams(location.search).get("print")) window.addEventListener("load",function(){setTimeout(function(){window.print();},450);}); }catch(e){}
+  })();
+</script>
+<script>
+  (function(){
+    function T(n){ return (n?(n.innerText||n.textContent):"").replace(/ /g," ").replace(/[ \t]+/g," ").trim(); }
+    function toMD(){
+      var o=[], h1=document.querySelector(".title h1"); if(h1)o.push("# "+T(h1));
+      var s=document.querySelector(".title .sub"); if(s)o.push("_"+T(s)+"_");
+      var by=document.querySelector(".title .by"); if(by)o.push(T(by));
+      document.querySelectorAll(".wrap > section").forEach(function(sec){
+        if(sec.classList.contains("del")){ o.push("\n---\n"); o.push("# "+T(sec.querySelector(".del-namn")));
+          var te=sec.querySelector(".del-tes"); if(te)o.push("_"+T(te)+"_"); return; }
+        if(sec.classList.contains("foreword")){ var h=sec.querySelector("h2"); if(h)o.push("## "+T(h));
+          sec.querySelectorAll("p").forEach(function(p){o.push(T(p));});
+          var k=sec.querySelector(".keep p"); if(k)o.push("> "+T(k)); return; }
+        if(sec.classList.contains("efter")){ var c=sec.querySelector(".colophon"); if(c)o.push("\n---\n"+T(c)); return; }
+        var op=sec.querySelector(".opener h2"); if(op)o.push("## "+T(op));
+        var kn=sec.querySelector(".opener .karn"); if(kn)o.push("_"+T(kn)+"_");
+        var f=sec.querySelector(".ford"); if(!f)return;
+        Array.prototype.forEach.call(f.children,function(ch){
+          if(ch.classList.contains("ingress")) o.push("_"+T(ch)+"_");
+          else if(ch.classList.contains("section")){
+            var c=ch.querySelector(".concept"); if(c)o.push("### "+T(c));
+            var b=ch.querySelector(".body");
+            if(b){ var bc=b.cloneNode(true);
+              bc.querySelectorAll(".lost,.maga,.shield,.why,.insight,.naturlag,.utblick,.extra-grid").forEach(function(x){x.remove();});
+              var bt=T(bc); if(bt)o.push(bt); }
+            ch.querySelectorAll(".lost,.maga,.shield,.why,.insight,.naturlag,.utblick").forEach(function(cx){
+              var lab=cx.querySelector('[class$="-label"]'), txt=cx.querySelector('[class$="-text"],[class$="-body"]');
+              if(lab&&txt)o.push("> **"+T(lab)+":** "+T(txt)); });
+            var eg=ch.querySelector(".extra-grid");
+            if(eg)Array.prototype.forEach.call(eg.children,function(g){var n=g.querySelector(".extra-name"),d=g.querySelector(".extra-desc"); if(n&&d)o.push("- **"+T(n)+":** "+T(d));}); }
+          else if(ch.classList.contains("utblick")) o.push("> **"+T(ch.querySelector(".utblick-label"))+":** "+T(ch.querySelector(".utblick-text")));
+else if(ch.classList.contains("maga")) o.push("> **"+T(ch.querySelector(".maga-label"))+":** "+T(ch.querySelector(".maga-text")));
+else if(ch.classList.contains("naturlag")) o.push("> **"+T(ch.querySelector(".naturlag-label"))+":** "+T(ch.querySelector(".naturlag-text")));
+else if(ch.classList.contains("shield")) o.push("> **"+T(ch.querySelector(".shield-label"))+":** "+T(ch.querySelector(".shield-body")));
+          else if(ch.tagName==="HR") o.push("---");
+          else if(ch.classList.contains("extra-head")) o.push("**"+T(ch)+"**");
+          else if(ch.classList.contains("extra-grid")) Array.prototype.forEach.call(ch.children,function(g){ o.push("- **"+T(g.querySelector(".extra-name"))+":** "+T(g.querySelector(".extra-desc"))); });
+          else if(ch.classList.contains("future-box")) o.push("> **"+T(ch.querySelector(".future-head"))+":** "+T(ch.querySelector(".future-body")));
+        });
+      });
+      return o.join("\n\n");
+    }
+    var d=document.getElementById("delaai");
+    if(d) d.addEventListener("click",function(){ var md=toMD(); var b=d;
+      (navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(md):Promise.reject())
+        .then(function(){ var o=b.textContent; b.textContent="Kopierat ✓"; setTimeout(function(){b.textContent=o;},1800); })
+        .catch(function(){ window.prompt("Kopiera texten (Ctrl/Cmd+C):", md); });
+    });
+    window.__toMD=toMD;
+  })();
+</script>
+</body>
+</html>
