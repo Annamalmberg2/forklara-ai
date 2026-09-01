@@ -83,14 +83,21 @@ window.LECTURE = {
       "nyckel": null
     },
     {
+      "id": "rorelse",
+      "namn": "12 · En rörelse",
+      "bakom": true,
+      "tes": "MEGA — Make Everybody Great Again. Född ur en felsägning.",
+      "nyckel": null
+    },
+    {
       "id": "990",
-      "namn": "12 · Utblickar",
+      "namn": "Utblickar",
       "bakom": true,
       "nyckel": null
     },
     {
       "id": "naturlag",
-      "namn": "13 · Är det en naturlag?",
+      "namn": "Är det en naturlag?",
       "bakom": true,
       "nyckel": null
     },
@@ -1975,6 +1982,30 @@ window.LECTURE = {
           "",
           "Inför valet 2026"
         ]
+      ]
+    },
+    {
+      "id": "rorelse-0",
+      "sektion": "rorelse",
+      "titel": "En rörelse som började med ett felsagt ord",
+      "svar": "MEGA — Make Everybody Great Again. Inte America. Everybody. Född vid ett middagsbord, ur en felsägning.",
+      "bilder": [],
+      "fordjupning": "<p class=\"ingress\">MEGA — Make Everybody Great Again. Inte America. Everybody. En rörelse som inte började i en talarstol, utan vid ett middagsbord, ur ett felsagt ord.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Det började med en felsägning</span><span class=\"tag\">Ursprunget</span></div>\n  <div class=\"body\">Pappa brukar foga in dagens Trump-nyhet varje gång vi sätter oss för att äta. En kväll skulle han säga <strong>MAGA</strong> — det blev något med <em>mega</em>. Vi skrattade. Och så kom frågan som inte gick att skratta bort: <strong>varför <em>America</em>?</strong> Om drömmen är arbete, trygghet, stolthet och framtidstro — varför skulle ambitionen ta slut vid en gräns?<br><br>Mamma la till något: rätt mycket mänsklig utveckling har börjat med att något gick fel. Någon mäter fel, säger fel, ser något som inte borde vara där. Penicillinet. Så föddes MEGA — ur en felsägning, precis som En Bibel föddes ur en fråga hos Ulla 83 och Ett parti ur en tvätt.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Det som gick fel kan bli det bästa. Det är nästan rörelsens egen tes — och vetenskapens.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">America First → Everybody Counts</span><span class=\"tag\">Det enda bytet</span></div>\n  <div class=\"body\">MEGA gör ett enda byte. Inte för att alla alltid kan få allt. Inte för att människor är snälla. Inte för att konflikter försvinner om vi håller varandra i handen. Utan för att <strong>ett samhälle, ett företag, en nation eller en teknik inte kan kallas framgångsrik om dess framgång kräver att andra människor hålls nere.</strong><br><br>Problemet börjar inte när du vill bli stor. Det börjar när vägen till <em>min</em> storhet kräver <em>din</em> litenhet.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Vad MAGA förstod</span><span class=\"tag\">Ta känslan på allvar</span></div>\n  <div class=\"body\">MEGA börjar inte med förakt. MAGA förstod något dess motståndare ibland underskattar: människor vill inte bara överleva. De vill känna stolthet, behövas, kunna försörja sig, vara trygga, påverka sina liv, se sina barn få det bättre, höra hemma någonstans, bli sedda.<br><br>Det är inga dåliga behov. Det är <strong>mänskliga</strong> behov. Att avfärda dem är att förlora människorna innan man ens börjat.</div>\n  <div class=\"maga\"><div class=\"maga-label\">Här har Maga tappat det</div><div class=\"maga-text\">Det konstigaste ordet är <em>&#8221;Again&#8221;</em>. När exakt var <em>everybody</em> great? Inte under antiken, inte 1950, inte 1980, inte 2016. Det har aldrig funnits en gyllene tid för alla. &#8221;Again&#8221; pekar bakåt mot något som aldrig fanns — och &#8221;America first&#8221; ritar en gräns runt behov som inte känner några. MEGA vågar därför rätta sig själv: inte <em>tillbaka</em>, utan <strong>framåt</strong>. Make Everybody Great.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Ingen får äga den</span><span class=\"tag\">Konstruktionen</span></div>\n  <div class=\"body\">MEGA behöver ingen stor ledare — det vore nästan ett konstruktionsfel. Ingen Trump. Ingen påve. Ingen guru. <em>Ingen Anna. Ingen AI.</em> Idén ska kunna stjälas, förbättras, översättas, motsägas — och användas av människor som aldrig hört talas om oss.<br><br>För om MEGA någon gång fungerar är den största framgången inte att världen säger &#8221;vilken fin rörelse&#8221;, utan att människor börjar fråga varandra: <strong>blir världen större för fler av det här?</strong> — och sedan gör något åt svaret.</div>\n  <div class=\"shield\">\n    <div class=\"shield-label\">Ärlig ram — belagt · tes · ståndpunkt</div>\n    <div class=\"shield-body\"><strong>Belagt:</strong> att MAGA-rörelsen rymmer dokumenterade konspirationsteorier, auktoritära drag och en hård &#8221;vi mot dom&#8221;-retorik är väl rapporterat och går att källbelägga (vi gör det på korten som följer). <strong>Rimlig tes:</strong> att en politik byggd på att den ena gruppen vinner på den andras bekostnad till slut skadar även vinnarna. <strong>Min ståndpunkt:</strong> att en inkluderande motvikt är bättre — och den ska tåla att du säger emot. En rörelse som heter Make Everybody Great måste tåla att everybody får säga: <em>ni har fel.</em></div>\n  </div>\n</div>\n\n<div class=\"naturlag\"><div class=\"naturlag-label\">Är det en naturlag?</div><div class=\"naturlag-text\">Att storhet är ett nollsummespel — att någon måste bli mindre för att jag ska bli stor — känns nästan som en naturlag. Men det är ett antagande, inte en lag. Kunskap, trygghet, värdighet och frihet är inte tårtbitar som tar slut; de växer oftast när fler får dem. &#8221;Din vinst är min förlust&#8221; är den äldsta lögnen makten berättat.</div></div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">5</span><span class=\"concept\">Var vi alltid möts</span><span class=\"tag\">Det mänskliga</span></div>\n  <div class=\"body\">Under all politik vill nästan alla samma grundläggande sak: att få räknas, behövas och höra hemma. Det är inte höger eller vänster — det är mänskligt. Oenigheten handlar sällan om <em>om</em> människor ska få vara great, utan om det lilla, avgörande ordet efteråt: bara <em>våra</em>? MEGA svarar nej.</div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">MEGA</div><div class=\"extra-desc\">Make Everybody Great Again. Felsägningen som blev en rörelse.</div></div>\n  <div><div class=\"extra-name\">Everybody Counts</div><div class=\"extra-desc\">Bytet mot &#8221;America First&#8221;: ingen framgång som kräver andras litenhet.</div></div>\n  <div><div class=\"extra-name\">Här har Maga tappat det</div><div class=\"extra-desc\">Där rörelsens egen logik spricker — namngivet exakt, backat med belägg.</div></div>\n  <div><div class=\"extra-name\">Nollsummelögnen</div><div class=\"extra-desc\">Att min storhet kräver din litenhet. Ett antagande, inte en naturlag.</div></div>\n  <div><div class=\"extra-name\">Ingen får äga den</div><div class=\"extra-desc\">Ingen ledare, ingen guru, ingen Anna, ingen AI. Idén ska kunna stjälas.</div></div>\n  <div><div class=\"extra-name\">Det som gick fel</div><div class=\"extra-desc\">Bibel, parti, rörelse — och penicillinet. Stora idéer ur små misstag.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Vad som följer</div>\n  <div class=\"future-body\">Härnäst kör vi rörelsen genom tio frågor — <em>Make Work / Families / Communities / Safe / Freedom / Nations / Business / Technology / Difference / The Future Great Again</em> — och till sist MEGA-testet, som ställer sju frågor till varje förslag innan vi ens frågar om det är höger eller vänster.</div>\n</div>",
+      "anteckningar": "Pappa skulle säga MAGA vid middagen — det blev \"mega\". Vi skrattade. Och så: varför America?\n\nMEGA gör ett enda byte: America First → Everybody Counts. Ingen framgång som kräver andras litenhet.\n\nMAGA förstod något äkta: folk vill bli sedda, behövas, höra hemma. Felet börjar när min storhet kräver din litenhet.\n\n\"Again\" är det konstigaste ordet — när var everybody great? Aldrig. Så: framåt, inte tillbaka.\n\nIngen får äga rörelsen. Inte Trump, inte Anna, inte AI. Den ska kunna stjälas.\n\nDemonisera ingen — men namnge exakt var Maga tappat det.",
+      "begrepp": [
+        "MEGA",
+        "Make Everybody Great Again",
+        "Everybody Counts",
+        "felsägningen",
+        "nollsummelögnen",
+        "demonisera ingen"
+      ],
+      "alias": null,
+      "lankar": [],
+      "relaterat": [
+        "mer-motvikten",
+        "motvikten-0",
+        "motvikten-7"
       ]
     },
     {
