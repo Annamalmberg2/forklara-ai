@@ -1,0 +1,37 @@
+{
+ "natives": [
+  {
+   "region": 2,
+   "label": "Utblick — Indien: jainism",
+   "text": "Jainismens <em>anekāntavāda</em>, \"mångsidigheten\", säger att verkligheten har fler sidor än någon enskild kan se. Bilden är de blinda som känner på en elefant: en tar tag i benet och säger \"en pelare\", en i snabeln och säger \"en orm\" — var och en har rätt om sin del och fel om helheten. (Liknelsen delas av flera indiska traditioner.) Att veta att din blick är partiell är ingen svaghet.",
+   "kt": "Ett parti · Kapitel VII · Kompassen"
+  },
+  {
+   "region": 3,
+   "label": "Utblick — Song-Kina",
+   "text": "Världens första statliga pappersvaluta, <em>jiaozi</em>, växte fram i Sichuan och togs över av Songstaten omkring 1023. Att trycka värde ur tomma intet var en helt ny sorts makt — och när den senare trycktes utan hejd, under krigens och de mongoliska Yuans tryck, urholkades pengarnas värde. Ny makt utan motvikt skenar.",
+   "kt": "Ett parti · Kapitel V · Därför angår det AI"
+  },
+  {
+   "region": 4,
+   "label": "Utblick — Mali",
+   "text": "Enligt traditionen samlades Malirikets stormän vid Kurukan Fuga omkring 1236 och antog <em>Mandenstadgan</em> — en muntlig författning som fördelade makt mellan klanerna, förd vidare av griots och 2009 upptagen på Unescos lista över mänsklighetens immateriella kulturarv. Källan är muntlig, så innehåll och datering diskuteras — men att maktdelning tänkts också i Västafrika är inte omtvistat.",
+   "kt": "Ett parti · Kapitel IV · Maktens motvikt är inte västlig"
+  }
+ ],
+ "ingress": {
+  "naturlag-0": "<p class=\"ingress\">Hela idén bakom det här verket är att avslöja mönstret bakom illusionen. Här är alla \"Är det en naturlag?\"-frågor samlade — inte efter ämne, utan efter <em>sortens</em> illusion. För det märkliga är att allt vi tar för givet luras oss på ungefär samma fyra vis.</p>",
+  "naturlag-1": "<p class=\"ingress\">Det som varat längst känns tidlöst. Men de flesta av våra självklarheter är förvånansvärt unga — demokratin, gränserna, lönearbetet, övervakningen. En blink i mänsklighetens historia, inte en evighet.</p>",
+  "naturlag-2": "<p class=\"ingress\">Vi tar vår egen korta, lokala historia och sträcker ut den till att gälla alla, i alla tider. Men \"så är det\" är ofta bara \"så är det här, hos oss, nu\".</p>",
+  "naturlag-3": "<p class=\"ingress\">Det mesta vi tror är naturens ordning är i själva verket byggt — av makt, av vana, av en berättelse någon en gång skrev. Och det som är byggt kan byggas om.</p>",
+  "naturlag-4": "<p class=\"ingress\">Somligt känns som en lag i människans natur: så måste det bli. Men tittar man på siffrorna, på hela historien, håller inte lagen. Kriget, kortsiktigheten, tvärsäkerheten — känslan av \"oundvikligt\" är ofta bara en känsla.</p>",
+  "utblickar-0": "<p class=\"ingress\">Standardversionen av teknikhistorien är nästan alltid vit, manlig och västlig — inte för att sanningen är det, utan för att det är den berättelse som upprepats mest. Genom hela föreläsningen har vi vävt in en <em>Utblick</em> där den hör hemma. Här är alla 47 samlade.</p>",
+  "utblickar-1": "<p class=\"ingress\">Logiken vi kallar \"västerländsk\" gick en omväg genom Bagdad — här är fönstren mot den islamiska världen och Mellanöstern.</p>",
+  "utblickar-2": "<p class=\"ingress\">Nollan, algoritmens rötter, mönstergenier och \"världens apotek\" — den indiska och sydasiatiska tråden.</p>",
+  "utblickar-3": "<p class=\"ingress\">Go, koaner, robotar som vänner och statsdriven AI — blicken mot Kina, Japan och Östasien.</p>",
+  "utblickar-4": "<p class=\"ingress\">Ubuntu, mobilbanken, rådslaget och den ojämna miljönotan — Afrika och globala Syd.</p>",
+  "utblickar-5": "<p class=\"ingress\">Sju generationer framåt och kollektivt ägd kunskap — urfolkens och det gemensammas visdom.</p>",
+  "utblickar-6": "<p class=\"ingress\">GDPR, suverän AI, medborgare som skriver om reglerna — kampen om vems värderingar som byggs in.</p>",
+  "utblickar-7": "<p class=\"ingress\">Vad som räknas som klokt, vem skadan drabbar, hur vi mäter — mönster tvärs över alla gränser.</p>"
+ }
+}
