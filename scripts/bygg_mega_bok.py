@@ -123,7 +123,9 @@ def kapitel(kid, h2titel):
 body_chapters = []
 body_chapters.append(kapitel("rorelse-0", "En rörelse som började med ett felsagt ord"))
 for i in range(1,11):
-    body_chapters.append(kapitel("rorelse-%d"%i, kort["rorelse-%d"%i]["titel"]))
+    # h2 = rent namn (kap-etiketten bär redan "Kapitel N"), strippa ev. "Kapitel N · "-prefix
+    h2 = kort["rorelse-%d"%i]["titel"].split(" · ", 1)[-1]
+    body_chapters.append(kapitel("rorelse-%d"%i, h2))
 body_chapters.append(kapitel("rorelse-test", "MEGA-testet"))
 body_chapters.append(kapitel("rorelse-slut", kort["rorelse-slut"]["titel"]))
 
