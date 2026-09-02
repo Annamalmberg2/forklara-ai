@@ -73,7 +73,7 @@
   .lead{font-size:20.5px;color:var(--ink-soft);}
 
   /* ---- foreword drop ---- */
-  .foreword p:first-of-type::first-letter,
+  .foreword > p:first-of-type::first-letter,
   .tldr p::first-letter{
     font-family:var(--serif);float:left;font-size:3.35em;line-height:.72;
     padding:.06em .1em 0 0;color:var(--gold);font-weight:600;}
@@ -184,6 +184,12 @@
   .ford .why{background:var(--tint);border-left:3px solid var(--green);border-radius:0 4px 4px 0;padding:14px 20px;margin:16px 0;}
   .ford .why-label{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin-bottom:5px;}
   .ford .why-text{margin:0;}
+  .ford .insight{background:var(--tint);border-left:3px solid var(--green-soft);border-radius:0 4px 4px 0;padding:14px 20px;margin:16px 0;}
+  .ford .insight-label{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin-bottom:5px;}
+  .ford .insight-text{margin:0;}
+  .ford .shield{background:var(--paper-2);border:1px solid var(--hair);border-radius:4px;padding:14px 20px;margin:16px 0;}
+  .ford .shield-label{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--taupe);margin-bottom:5px;}
+  .ford .shield-body{margin:0;color:var(--ink-soft);}
   .ford .utblick{background:var(--tint);border-left:3px solid var(--green);border-radius:0 4px 4px 0;padding:15px 22px;margin:22px 0;}
   .ford .utblick-label{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin-bottom:6px;}
   .ford .utblick-text{margin:0;color:var(--ink-soft);}
@@ -199,7 +205,7 @@
   .ford .naturlag{background:var(--paper-2);border-left:3px solid #C25E7E;border-radius:0 4px 4px 0;padding:14px 20px;margin:16px 0;}
   .ford .naturlag-label{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#C25E7E;margin-bottom:5px;}
   .ford .naturlag-text{margin:0;}
-  @media print{.ford .section,.ford .lost,.ford .why,.ford .utblick,.ford .future-box,.ford .naturlag,.ford .extra-grid{page-break-inside:avoid;}.ford hr{page-break-after:avoid;}}
+  @media print{.ford .section,.ford .lost,.ford .why,.ford .insight,.ford .shield,.ford .utblick,.ford .future-box,.ford .naturlag,.ford .extra-grid{page-break-inside:avoid;}.ford hr{page-break-after:avoid;}}
 
   /* ---- table of contents ---- */
   .toc ol{list-style:none;margin:0;padding:0;counter-reset:ch;}
