@@ -211,6 +211,15 @@
   @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .ford .maga-label{color:#E8897A;}:root:not([data-theme="light"]) .ford .maga{border-color:#B24A3C;}}
   @media print{.ford .maga{page-break-inside:avoid;}}
 
+  /* ---- table of contents ---- */
+  .toc ol{list-style:none;margin:0;padding:0;counter-reset:ch;}
+  .toc li{display:flex;gap:20px;align-items:baseline;padding:15px 0;border-top:1px solid var(--hair);}
+  .toc li:last-child{border-bottom:1px solid var(--hair);}
+  .toc .n{font-family:var(--sans);font-variant-numeric:tabular-nums;color:var(--gold);
+    font-weight:600;font-size:15px;min-width:26px;}
+  .toc .t{font-size:20px;flex:1;}
+  .toc .q{display:block;font-style:italic;font-size:16px;color:var(--taupe);margin-top:2px;line-height:1.4;}
+
   </style>
 </head>
 <body>
@@ -246,7 +255,7 @@
     <span class="label">Innehåll</span>
     <h2 class="h">Tio byten, ett test och ett löfte</h2>
     <ol>
-      <li><span class="n">·</span><span class="t">Upptakt: En rörelse som började med ett felsagt ord<span class="q">MEGA — Make Everybody Great Again. Inte America. Everybody. Född vid ett middagsbord, ur en felsägning.</span></span></li>
+      <li><span class="n"></span><span class="t">Upptakt: En rörelse som började med ett felsagt ord<span class="q">MEGA — Make Everybody Great Again. Inte America. Everybody. Född vid ett middagsbord, ur en felsägning.</span></span></li>
       <li><span class="n">I</span><span class="t">Make Work Great Again<span class="q">MAGA säger: ta tillbaka jobben. MEGA säger: ta tillbaka människans värde i arbetet.</span></span></li>
       <li><span class="n">II</span><span class="t">Make Families Great Again<span class="q">Familjen är viktig. MEGA vägrar bara bestämma hur din ska se ut.</span></span></li>
       <li><span class="n">III</span><span class="t">Make Communities Great Again<span class="q">Något gick förlorat — banken som kände ditt namn, torget, föreningen. MEGA vill ha tillbaka närheten, inte nostalgin.</span></span></li>
@@ -257,8 +266,8 @@
       <li><span class="n">VIII</span><span class="t">Make Technology Great Again<span class="q">AI kan göra mänskligheten oerhört mycket rikare. Bra. Då kommer den viktigaste frågan: rikare för vem?</span></span></li>
       <li><span class="n">IX</span><span class="t">Make Difference Great Again<span class="q">Everybody betyder inte att alla ska tycka lika. En rörelse för everybody måste tåla oenighet — utan att göra motståndaren mindre mänsklig.</span></span></li>
       <li><span class="n">X</span><span class="t">Make The Future Great Again<span class="q">"Again" är det konstigaste ordet av alla. När var everybody great? Aldrig. Så MEGA rättar sig själv: inte tillbaka — framåt.</span></span></li>
-      <li><span class="n">✦</span><span class="t">MEGA-testet<span class="q">Vi frågar inte först om en lösning är höger eller vänster. Vi frågar: vem blir större — och vem riskerar att göras mindre?</span></span></li>
-      <li><span class="n">✦</span><span class="t">Final: En rörelse som ingen får äga<span class="q">Se människan. Bygg möjligheten. Granska makten. Följ konsekvensen. Lämna ingen liten för att själv få känna dig stor. Och kom ihåg: vi kan ha fel.</span></span></li>
+      <li><span class="n"></span><span class="t">MEGA-testet<span class="q">Vi frågar inte först om en lösning är höger eller vänster. Vi frågar: vem blir större — och vem riskerar att göras mindre?</span></span></li>
+      <li><span class="n"></span><span class="t">Final: En rörelse som ingen får äga<span class="q">Se människan. Bygg möjligheten. Granska makten. Följ konsekvensen. Lämna ingen liten för att själv få känna dig stor. Och kom ihåg: vi kan ha fel.</span></span></li>
     </ol>
   </section>
 

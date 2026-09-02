@@ -201,6 +201,15 @@
   .ford .naturlag-text{margin:0;}
   @media print{.ford .section,.ford .lost,.ford .why,.ford .utblick,.ford .future-box,.ford .naturlag,.ford .extra-grid{page-break-inside:avoid;}.ford hr{page-break-after:avoid;}}
 
+  /* ---- table of contents ---- */
+  .toc ol{list-style:none;margin:0;padding:0;counter-reset:ch;}
+  .toc li{display:flex;gap:20px;align-items:baseline;padding:15px 0;border-top:1px solid var(--hair);}
+  .toc li:last-child{border-bottom:1px solid var(--hair);}
+  .toc .n{font-family:var(--sans);font-variant-numeric:tabular-nums;color:var(--gold);
+    font-weight:600;font-size:15px;min-width:26px;}
+  .toc .t{font-size:20px;flex:1;}
+  .toc .q{display:block;font-style:italic;font-size:16px;color:var(--taupe);margin-top:2px;line-height:1.4;}
+
   </style>
 </head>
 <body>
@@ -230,6 +239,33 @@
       <p>Vi lovar inte perfekta människor. Vi bygger robustare system för de människor som faktiskt finns — dig och mig inräknade.</p>
     </div>
   </section>
+
+  <section class="toc">
+    <span class="label">Innehåll</span>
+    <h2 class="h">Arton kapitel, en fråga i taget</h2>
+    <ol>
+      <li><span class="n">I</span><span class="t">Dretstövel-testet<span class="q">Skulle du ge makten den här befogenheten om din värsta motståndare tog över den?</span></span></li>
+      <li><span class="n">II</span><span class="t">Slöjan av okunnighet<span class="q">Vilka regler skulle du välja om du inte visste vem du föddes som?</span></span></li>
+      <li><span class="n">III</span><span class="t">Konsekvenstestet<span class="q">Om vi gör det här och har fel — vem får betala priset?</span></span></li>
+      <li><span class="n">IV</span><span class="t">Maktens motvikt är inte västlig<span class="q">Vem har tyglat makten före oss, och vad kan vi lära av dem?</span></span></li>
+      <li><span class="n">V</span><span class="t">Därför angår det AI<span class="q">Vad händer när en helt ny sorts makt saknar sin motvikt?</span></span></li>
+      <li><span class="n">VI</span><span class="t">Testet gäller Motvikten själv<span class="q">Tål idén sina egna test — och kan den erkänna att den har fel?</span></span></li>
+      <li><span class="n">VII</span><span class="t">Kompassen<span class="q">Hur väljer du riktning när ingen färdig karta stämmer?</span></span></li>
+      <li><span class="n">VIII</span><span class="t">Demokrati och institutioner<span class="q">Hur bygger vi makt som tål att bytas ut — och inte kan kapa sig själv?</span></span></li>
+      <li><span class="n">IX</span><span class="t">Ekonomi och skatt<span class="q">Vem får vad, vem bestämmer — och vem bär notan?</span></span></li>
+      <li><span class="n">X</span><span class="t">Arbete och automatisering<span class="q">Vad är en människa värd när maskinen kan göra jobbet?</span></span></li>
+      <li><span class="n">XI</span><span class="t">Välfärd, vård och omsorg<span class="q">Hur bygger vi system som ser människan, inte numret?</span></span></li>
+      <li><span class="n">XII</span><span class="t">Skola och bildning<span class="q">Vad ska skolan fostra — lydnad, nytta eller omdöme?</span></span></li>
+      <li><span class="n">XIII</span><span class="t">Klimat och miljö<span class="q">Hur väger vi dagens bekvämlighet mot en värld vi aldrig får se?</span></span></li>
+      <li><span class="n">XIV</span><span class="t">Frihet och övervakning<span class="q">Hur mycket får makten se dig — och vem vaktar vakten?</span></span></li>
+      <li><span class="n">XV</span><span class="t">Migration och integration<span class="q">Hur möter vi den som knackar på — utan att tappa vare sig medmänskligheten eller ordningen?</span></span></li>
+      <li><span class="n">XVI</span><span class="t">Rättvisa och straff<span class="q">Hur skipar vi rättvisa utan att bli det vi dömer?</span></span></li>
+      <li><span class="n">XVII</span><span class="t">EU och omvärlden<span class="q">Var ska makten bo — nära människan, eller stor nog att tygla de största?</span></span></li>
+      <li><span class="n">XVIII</span><span class="t">Krig och fred<span class="q">Varför finns kriget kvar — och vad skulle krävas för att det inte gjorde det?</span></span></li>
+      <li><span class="n"></span><span class="t">Stjäl gärna testen<span class="q">Ett erbjudande till alla partier</span></span></li>
+    </ol>
+  </section>
+
 
   <section>
     <div class="opener">
