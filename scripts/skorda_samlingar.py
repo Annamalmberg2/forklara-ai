@@ -127,15 +127,31 @@ def uwin_body(region):
                    % (kort_label(label, kt), text, src))
     return "\n".join(out)
 
-def rebuild(fname, bodies, n_kap):
+def to_roman(s):
+    s = s.strip()
+    if not s.isdigit(): return s          # redan romerskt/blankt -> orört (idempotent)
+    n = int(s); out = ""
+    for v, r in [(10,"X"),(9,"IX"),(5,"V"),(4,"IV"),(1,"I")]:
+        while n >= v: out += r; n -= v
+    return out
+
+def toc_section(openers, title):
+    rows = ['      <li><span class="n">%s</span><span class="t">%s<span class="q">%s</span></span></li>'
+            % (to_roman(num), h2.strip(), karn.strip()) for (num, kap, h2, karn) in openers]
+    return ('  <section class="toc">\n    <span class="label">Innehåll</span>\n'
+            '    <h2 class="h">%s</h2>\n    <ol>\n%s\n    </ol>\n  </section>' % (title, "\n".join(rows)))
+
+def rebuild(fname, bodies, n_kap, toc_title):
     p = ROOT + "/" + fname
     html = io.open(p, encoding="utf-8").read()
     openers = re.findall(OPENER_RE, html, re.S)
     assert len(openers) == n_kap, "%s: hittade %d openers (väntade %d)" % (fname, len(openers), n_kap)
-    secs = []
+    secs = [toc_section(openers, toc_title)]          # TOC först, sen kapitlen (romerska)
     for k in range(n_kap):
         num, kap, h2, karn = openers[k]
-        secs.append("  <section>\n%s\n%s\n  </section>" % (opener_html(num, kap, h2, karn), bodies[k]))
+        num_r = to_roman(num)
+        kap_r = re.sub(r'(\d+)\s*$', lambda m: to_roman(m.group(1)), kap)   # "Mönster 1" -> "Mönster I"
+        secs.append("  <section>\n%s\n%s\n  </section>" % (opener_html(num_r, kap_r, h2, karn), bodies[k]))
     block = "\n\n" + "\n\n".join(secs) + "\n\n  "
     new, n = re.subn(r'(<section class="foreword">.*?</section>)(.*?)(<section class="efter">)',
                      lambda m: m.group(1) + block + m.group(3), html, count=1, flags=re.S)
@@ -145,9 +161,9 @@ def rebuild(fname, bodies, n_kap):
 
 # naturlag: kapitelkropp = <div class="ford">…</div> (speglar samlingskortet)
 nat_bodies = ['    <div class="ford">\n%s\n    </div>' % nat_ford["naturlag-%d" % n] for n in range(1, 5)]
-nb = rebuild("naturlag.html", nat_bodies, 4)
+nb = rebuild("naturlag.html", nat_bodies, 4, "Fyra mönster, en illusion i taget")
 # utblickar: kapitelkropp = rad av <div class="uwin">…</div>
-ub = rebuild("utblickar.html", [uwin_body(n) for n in range(1, 8)], 7)
+ub = rebuild("utblickar.html", [uwin_body(n) for n in range(1, 8)], 7, "Sju väderstreck, en blick i taget")
 
 # ---- rapport ---------------------------------------------------------------
 print("NATURLAG per typ:", {t: len(v) for t, v in nat_typ.items()}, "= ", sum(len(v) for v in nat_typ.values()))
