@@ -4839,9 +4839,14 @@ Bestäm ett kodord.</div>
           else if(ch.classList.contains("section")){
             var c=ch.querySelector(".concept"); if(c)o.push("### "+T(c));
             var b=ch.querySelector(".body");
-            if(b){ var bc=b.cloneNode(true); var lost=bc.querySelector(".lost"); if(lost)lost.remove();
-              o.push(T(bc));
-              var L=b.querySelector(".lost"); if(L)o.push("> **"+T(L.querySelector(".lost-label"))+":** "+T(L.querySelector(".lost-text"))); } }
+            if(b){ var bc=b.cloneNode(true);
+              bc.querySelectorAll(".lost,.maga,.shield,.why,.insight,.naturlag,.utblick,.extra-grid").forEach(function(x){x.remove();});
+              var bt=T(bc); if(bt)o.push(bt); }
+            ch.querySelectorAll(".lost,.maga,.shield,.why,.insight,.naturlag,.utblick").forEach(function(cx){
+              var lab=cx.querySelector('[class$="-label"]'), txt=cx.querySelector('[class$="-text"],[class$="-body"]');
+              if(lab&&txt)o.push("> **"+T(lab)+":** "+T(txt)); });
+            var eg=ch.querySelector(".extra-grid");
+            if(eg)Array.prototype.forEach.call(eg.children,function(g){var n=g.querySelector(".extra-name"),d=g.querySelector(".extra-desc"); if(n&&d)o.push("- **"+T(n)+":** "+T(d));}); }
           else if(ch.classList.contains("utblick")) o.push("> **"+T(ch.querySelector(".utblick-label"))+":** "+T(ch.querySelector(".utblick-text")));
           else if(ch.classList.contains("naturlag")) o.push("> **"+T(ch.querySelector(".naturlag-label"))+":** "+T(ch.querySelector(".naturlag-text")));
           else if(ch.classList.contains("insight")) o.push("> **"+T(ch.querySelector(".insight-label"))+":** "+T(ch.querySelector(".insight-text")));
