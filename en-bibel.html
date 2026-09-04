@@ -1178,6 +1178,7 @@ Men det gör att de låser dörren om sig. De missade att lära ut en del av det
           else if(ch.classList.contains("milestone-head")) o.push("**"+T(ch)+"**");
           else if(ch.classList.contains("milestone")){ var mn=ch.querySelector(".m-name"),mdd=ch.querySelector(".m-desc"); if(mn)o.push("- **"+T(mn)+"**"+(mdd?": "+T(mdd):"")); }
           else if(ch.classList.contains("future-box")) o.push("> **"+TL(ch.querySelector(".future-head"))+":** "+T(ch.querySelector(".future-body")));
+          else if(ch.tagName==="P"){ var pt=T(ch); if(pt)o.push(pt); }
         });
       });
       return o.join("\n\n");
