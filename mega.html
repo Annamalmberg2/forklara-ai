@@ -1087,6 +1087,8 @@
             var eg=ch.querySelector(".extra-grid");
             if(eg)Array.prototype.forEach.call(eg.children,function(g){var n=g.querySelector(".extra-name"),d=g.querySelector(".extra-desc"); if(n&&d)o.push("- **"+T(n)+":** "+T(d));}); }
           else if(ch.classList.contains("utblick")) o.push("> **"+T(ch.querySelector(".utblick-label"))+":** "+T(ch.querySelector(".utblick-text")));
+          else if(ch.classList.contains("insight")) o.push("> **"+T(ch.querySelector(".insight-label"))+":** "+T(ch.querySelector(".insight-text")));
+          else if(ch.classList.contains("why")) o.push("> **"+T(ch.querySelector(".why-label"))+":** "+T(ch.querySelector(".why-text")));
 else if(ch.classList.contains("maga")) o.push("> **"+T(ch.querySelector(".maga-label"))+":** "+T(ch.querySelector(".maga-text")));
 else if(ch.classList.contains("naturlag")) o.push("> **"+T(ch.querySelector(".naturlag-label"))+":** "+T(ch.querySelector(".naturlag-text")));
 else if(ch.classList.contains("shield")) o.push("> **"+T(ch.querySelector(".shield-label"))+":** "+T(ch.querySelector(".shield-body")));

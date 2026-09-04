@@ -390,6 +390,10 @@
               o.push(T(bc));
               var L=b.querySelector(".lost"); if(L)o.push("> **"+T(L.querySelector(".lost-label"))+":** "+T(L.querySelector(".lost-text"))); } }
           else if(ch.classList.contains("utblick")) o.push("> **"+T(ch.querySelector(".utblick-label"))+":** "+T(ch.querySelector(".utblick-text")));
+          else if(ch.classList.contains("naturlag")) o.push("> **"+T(ch.querySelector(".naturlag-label"))+":** "+T(ch.querySelector(".naturlag-text")));
+          else if(ch.classList.contains("insight")) o.push("> **"+T(ch.querySelector(".insight-label"))+":** "+T(ch.querySelector(".insight-text")));
+          else if(ch.classList.contains("shield")) o.push("> **"+T(ch.querySelector(".shield-label"))+":** "+T(ch.querySelector(".shield-body")));
+          else if(ch.classList.contains("why")) o.push("> **"+T(ch.querySelector(".why-label"))+":** "+T(ch.querySelector(".why-text")));
           else if(ch.tagName==="HR") o.push("---");
           else if(ch.classList.contains("extra-head")) o.push("**"+T(ch)+"**");
           else if(ch.classList.contains("extra-grid")) Array.prototype.forEach.call(ch.children,function(g){ o.push("- **"+T(g.querySelector(".extra-name"))+":** "+T(g.querySelector(".extra-desc"))); });
