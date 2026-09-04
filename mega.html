@@ -1061,6 +1061,7 @@
 <script>
   (function(){
     function T(n){ return (n?(n.innerText||n.textContent):"").replace(/ /g," ").replace(/[ \t]+/g," ").trim(); }
+    function TL(n){ return (n?(n.textContent||n.innerText):"").replace(/\s+/g," ").trim(); }
     function toMD(){
       var o=[], h1=document.querySelector(".title h1"); if(h1)o.push("# "+T(h1));
       var s=document.querySelector(".title .sub"); if(s)o.push("_"+T(s)+"_");
@@ -1085,19 +1086,19 @@
               var bt=T(bc); if(bt)o.push(bt); }
             ch.querySelectorAll(".lost,.maga,.shield,.why,.insight,.naturlag,.utblick").forEach(function(cx){
               var lab=cx.querySelector('[class$="-label"]'), txt=cx.querySelector('[class$="-text"],[class$="-body"]');
-              if(lab&&txt)o.push("> **"+T(lab)+":** "+T(txt)); });
+              if(lab&&txt)o.push("> **"+TL(lab)+":** "+T(txt)); });
             var eg=ch.querySelector(".extra-grid");
             if(eg)Array.prototype.forEach.call(eg.children,function(g){var n=g.querySelector(".extra-name"),d=g.querySelector(".extra-desc"); if(n&&d)o.push("- **"+T(n)+":** "+T(d));}); }
-          else if(ch.classList.contains("utblick")) o.push("> **"+T(ch.querySelector(".utblick-label"))+":** "+T(ch.querySelector(".utblick-text")));
-          else if(ch.classList.contains("insight")) o.push("> **"+T(ch.querySelector(".insight-label"))+":** "+T(ch.querySelector(".insight-text")));
-          else if(ch.classList.contains("why")) o.push("> **"+T(ch.querySelector(".why-label"))+":** "+T(ch.querySelector(".why-text")));
-else if(ch.classList.contains("maga")) o.push("> **"+T(ch.querySelector(".maga-label"))+":** "+T(ch.querySelector(".maga-text")));
-else if(ch.classList.contains("naturlag")) o.push("> **"+T(ch.querySelector(".naturlag-label"))+":** "+T(ch.querySelector(".naturlag-text")));
-else if(ch.classList.contains("shield")) o.push("> **"+T(ch.querySelector(".shield-label"))+":** "+T(ch.querySelector(".shield-body")));
+          else if(ch.classList.contains("utblick")) o.push("> **"+TL(ch.querySelector(".utblick-label"))+":** "+T(ch.querySelector(".utblick-text")));
+          else if(ch.classList.contains("insight")) o.push("> **"+TL(ch.querySelector(".insight-label"))+":** "+T(ch.querySelector(".insight-text")));
+          else if(ch.classList.contains("why")) o.push("> **"+TL(ch.querySelector(".why-label"))+":** "+T(ch.querySelector(".why-text")));
+else if(ch.classList.contains("maga")) o.push("> **"+TL(ch.querySelector(".maga-label"))+":** "+T(ch.querySelector(".maga-text")));
+else if(ch.classList.contains("naturlag")) o.push("> **"+TL(ch.querySelector(".naturlag-label"))+":** "+T(ch.querySelector(".naturlag-text")));
+else if(ch.classList.contains("shield")) o.push("> **"+TL(ch.querySelector(".shield-label"))+":** "+T(ch.querySelector(".shield-body")));
           else if(ch.tagName==="HR") o.push("---");
           else if(ch.classList.contains("extra-head")) o.push("**"+T(ch)+"**");
           else if(ch.classList.contains("extra-grid")) Array.prototype.forEach.call(ch.children,function(g){ o.push("- **"+T(g.querySelector(".extra-name"))+":** "+T(g.querySelector(".extra-desc"))); });
-          else if(ch.classList.contains("future-box")) o.push("> **"+T(ch.querySelector(".future-head"))+":** "+T(ch.querySelector(".future-body")));
+          else if(ch.classList.contains("future-box")) o.push("> **"+TL(ch.querySelector(".future-head"))+":** "+T(ch.querySelector(".future-body")));
         });
       });
       return o.join("\n\n");
