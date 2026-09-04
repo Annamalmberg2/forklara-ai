@@ -1087,6 +1087,7 @@
         if(sec.classList.contains("foreword")){ var h=sec.querySelector("h2"); if(h)o.push("## "+T(h));
           sec.querySelectorAll("p").forEach(function(p){o.push(T(p));});
           var k=sec.querySelector(".keep p"); if(k)o.push("> "+T(k)); return; }
+        if(sec.classList.contains("toc")){ var th=sec.querySelector(".h"); if(th)o.push("## "+T(th)); sec.querySelectorAll("ol > li").forEach(function(li){ var tt=li.querySelector(".t"); if(!tt)return; var cl=tt.cloneNode(true); var q=cl.querySelector(".q"); var qt=q?T(q):""; if(q)q.remove(); var n=li.querySelector(".n"); o.push("- "+(n?T(n)+". ":"")+T(cl)+(qt?" — "+qt:"")); }); return; }
         if(sec.classList.contains("efter")){ var c=sec.querySelector(".colophon"); if(c)o.push("\n---\n"+T(c)); return; }
         var op=sec.querySelector(".opener h2"); if(op)o.push("## "+T(op));
         var kn=sec.querySelector(".opener .karn"); if(kn)o.push("_"+T(kn)+"_");
