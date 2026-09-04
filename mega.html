@@ -1113,7 +1113,10 @@ else if(ch.classList.contains("naturlag")) o.push("> **"+TL(ch.querySelector(".n
 else if(ch.classList.contains("shield")) o.push("> **"+TL(ch.querySelector(".shield-label"))+":** "+T(ch.querySelector(".shield-body")));
           else if(ch.tagName==="HR") o.push("---");
           else if(ch.classList.contains("extra-head")) o.push("**"+T(ch)+"**");
-          else if(ch.classList.contains("extra-grid")) Array.prototype.forEach.call(ch.children,function(g){ o.push("- **"+T(g.querySelector(".extra-name"))+":** "+T(g.querySelector(".extra-desc"))); });
+          else if(ch.classList.contains("extra-grid")){ Array.prototype.forEach.call(ch.children,function(g){ var gn=g.querySelector(".extra-name"),gd=g.querySelector(".extra-desc"); if(gn&&gd)o.push("- **"+T(gn)+":** "+T(gd)); });
+            ch.querySelectorAll(".utblick,.naturlag,.insight,.shield,.why,.lost").forEach(function(cx){ var lab=cx.querySelector('[class$="-label"]'), txt=cx.querySelector('[class$="-text"],[class$="-body"]'); if(lab&&txt)o.push("> **"+TL(lab)+":** "+T(txt)); }); }
+          else if(ch.classList.contains("milestone-head")) o.push("**"+T(ch)+"**");
+          else if(ch.classList.contains("milestone")){ var mn=ch.querySelector(".m-name"),mdd=ch.querySelector(".m-desc"); if(mn)o.push("- **"+T(mn)+"**"+(mdd?": "+T(mdd):"")); }
           else if(ch.classList.contains("future-box")) o.push("> **"+TL(ch.querySelector(".future-head"))+":** "+T(ch.querySelector(".future-body")));
         });
       });
