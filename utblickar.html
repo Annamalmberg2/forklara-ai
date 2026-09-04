@@ -391,7 +391,7 @@
     function T(n){ return (n?(n.innerText||n.textContent):"").replace(/ /g," ").replace(/[ \t]+/g," ").trim(); }
     function TL(n){ return (n?(n.textContent||n.innerText):"").replace(/\s+/g," ").trim(); }
     function toMD(){
-      var o=[], h1=document.querySelector(".title h1"); if(h1)o.push("# "+T(h1));
+      var o=[], mk=document.querySelector(".title .mark"); if(mk&&TL(mk))o.push("_"+TL(mk)+"_"); var h1=document.querySelector(".title h1"); if(h1)o.push("# "+T(h1));
       var s=document.querySelector(".title .sub"); if(s)o.push("_"+T(s)+"_");
       var by=document.querySelector(".title .by"); if(by)o.push(T(by));
       document.querySelectorAll(".wrap > section").forEach(function(sec){
@@ -407,7 +407,7 @@
         Array.prototype.forEach.call(f.children,function(ch){
           if(ch.classList.contains("ingress")) o.push("_"+T(ch)+"_");
           else if(ch.classList.contains("section")){
-            var c=ch.querySelector(".concept"); if(c)o.push("### "+T(c));
+            var c=ch.querySelector(".concept"), tg=ch.querySelector(".tag"); if(c){var hh="### "+T(c); if(tg){var tt=TL(tg); if(tt)hh+=" · "+tt;} o.push(hh);}
             var b=ch.querySelector(".body");
             if(b){ var bc=b.cloneNode(true);
               bc.querySelectorAll(".lost,.maga,.shield,.why,.insight,.naturlag,.utblick,.extra-grid").forEach(function(x){x.remove();});
