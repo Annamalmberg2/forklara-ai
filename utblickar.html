@@ -172,6 +172,15 @@
   :root[data-theme="dark"] .uwin .ul{color:#7FBEDB;}
   .uwin .ut{margin:0;font-size:17px;color:var(--ink-soft);line-height:1.62;max-width:none;}
   .uwin .src{font-family:var(--sans);font-size:12px;color:var(--taupe);margin-top:8px;letter-spacing:.01em;}
+
+  /* Utskrift: centrerad, balanserad boksida (tillagt 2026-09-04) */
+  @media print{
+    @page{ margin: 18mm 26mm; }
+    html, body{ background:#fff !important; }
+    .wrap{ max-width:none !important; margin:0 !important; padding:0 !important; }
+    .wrap p, .ford .body, .ford .ingress, .ford .body p{ max-width:none !important; }
+    img{ max-width:100% !important; }
+  }
 </style>
 </head>
 <body>

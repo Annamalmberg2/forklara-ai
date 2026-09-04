@@ -218,7 +218,16 @@
   .toc .t{font-size:20px;flex:1;}
   .toc .q{display:block;font-style:italic;font-size:16px;color:var(--taupe);margin-top:2px;line-height:1.4;}
 
-  </style>
+  
+  /* Utskrift: centrerad, balanserad boksida (tillagt 2026-09-04) */
+  @media print{
+    @page{ margin: 18mm 26mm; }
+    html, body{ background:#fff !important; }
+    .wrap{ max-width:none !important; margin:0 !important; padding:0 !important; }
+    .wrap p, .ford .body, .ford .ingress, .ford .body p{ max-width:none !important; }
+    img{ max-width:100% !important; }
+  }
+</style>
 </head>
 <body>
 <button class="dela-ai" id="delaai" title="Kopiera hela boken som Markdown — klistra in i valfri AI">Dela med AI</button>

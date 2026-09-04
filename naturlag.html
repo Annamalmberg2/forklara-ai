@@ -218,7 +218,16 @@
   .ford .naturlag-text{margin:0;}
   @media print{.ford .section,.ford .lost,.ford .why,.ford .insight,.ford .shield,.ford .utblick,.ford .future-box,.ford .naturlag,.ford .extra-grid{page-break-inside:avoid;}.ford hr{page-break-after:avoid;}}
 
-  </style>
+  
+  /* Utskrift: centrerad, balanserad boksida (tillagt 2026-09-04) */
+  @media print{
+    @page{ margin: 18mm 26mm; }
+    html, body{ background:#fff !important; }
+    .wrap{ max-width:none !important; margin:0 !important; padding:0 !important; }
+    .wrap p, .ford .body, .ford .ingress, .ford .body p{ max-width:none !important; }
+    img{ max-width:100% !important; }
+  }
+</style>
 <body>
 <button class="dela-ai" id="delaai" title="Kopiera hela sidan som Markdown — klistra in i valfri AI">Dela med AI</button>
 <button class="skriv-ut" id="skrivut" title="Skriv ut">Skriv ut</button>
@@ -655,6 +664,9 @@
         .then(function(){ var o=b.textContent; b.textContent="Kopierat ✓"; setTimeout(function(){b.textContent=o;},1800); })
         .catch(function(){ window.prompt("Kopiera texten (Ctrl/Cmd+C):", md); });
     });
+    var su=document.getElementById("skrivut");
+    if(su) su.addEventListener("click",function(){window.print();});
+    try{ if(new URLSearchParams(location.search).get("print")) window.addEventListener("load",function(){setTimeout(function(){window.print();},450);}); }catch(e){}
     window.__toMD=toMD;
   })();
 </script>
