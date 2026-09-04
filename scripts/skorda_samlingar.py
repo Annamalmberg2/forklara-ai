@@ -165,6 +165,16 @@ nb = rebuild("naturlag.html", nat_bodies, 4, "Fyra mönster, en illusion i taget
 # utblickar: kapitelkropp = rad av <div class="uwin">…</div>
 ub = rebuild("utblickar.html", [uwin_body(n) for n in range(1, 8)], 7, "Sju väderstreck, en blick i taget")
 
+# ---- SPÄRR: ingen naturlag får missas tyst (Annas krav) --------------------
+UNST_NAT = re.compile(r'<div class="naturlag"><div class="naturlag-label">')   # utan data-typ = ostämplad
+UNST_UTB = re.compile(r'<div class="utblick"><div class="utblick-label">')     # utan data-utblick
+miss_nat = [k["id"] for k in ordered if UNST_NAT.search(k.get("fordjupning") or "")]
+n_utb_kvar = sum(len(UNST_UTB.findall(k.get("fordjupning") or "")) for k in ordered)
+print("SPÄRR — ostämplade naturlag (skulle missas i samlingen):", miss_nat or "inga ✓")
+print("        ostämplade utblick (medvetet kvar i föreläsningen):", n_utb_kvar)
+if miss_nat:
+    raise SystemExit("⚠️ STOPP: %d naturlag-ruta(or) saknar stämpel och skulle missas tyst: %s. Stämpla dem först." % (len(miss_nat), ", ".join(miss_nat)))
+
 # ---- rapport ---------------------------------------------------------------
 print("NATURLAG per typ:", {t: len(v) for t, v in nat_typ.items()}, "= ", sum(len(v) for v in nat_typ.values()))
 print("UTBLICKAR per region:", {r: len(v) for r, v in utb_reg.items()}, "= ", sum(len(v) for v in utb_reg.values()))
