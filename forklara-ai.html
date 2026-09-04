@@ -4901,6 +4901,8 @@ Bestäm ett kodord.</div>
         if(sec.classList.contains("efter")){ var eh=sec.querySelector(".h"); if(eh)o.push("## "+T(eh)); sec.querySelectorAll("p").forEach(function(p){var pt=T(p); if(pt)o.push(pt);}); var c=sec.querySelector(".colophon"); if(c)o.push("\n---\n"+T(c)); return; }
         var op=sec.querySelector(".opener h2"); if(op)o.push("## "+T(op));
         var kn=sec.querySelector(".opener .karn"); if(kn)o.push("_"+T(kn)+"_");
+        var uw=sec.querySelectorAll(".uwin");
+        if(uw.length){ uw.forEach(function(u){ var ul=u.querySelector(".ul"),ut=u.querySelector(".ut"),sr=u.querySelector(".src"); if(ul&&ut)o.push("> **"+T(ul)+":** "+T(ut)); if(sr)o.push("_"+T(sr)+"_"); }); return; }
         var f=sec.querySelector(".ford"); if(!f)return;
         Array.prototype.forEach.call(f.children,function(ch){
           if(ch.classList.contains("ingress")) o.push("_"+T(ch)+"_");
