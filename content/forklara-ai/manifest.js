@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-09-07 12:52:57)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-09-07 12:58:29)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -6607,7 +6607,7 @@ window.LECTURE = {
     {
       "id": "mer-veckolatar",
       "sektion": "960",
-      "titel": "Fredagslåtarna — veckans låt",
+      "titel": "Fredagslåtarna — veckans låt sedan vecka 20, alla producerade av Martin Lönnstam",
       "begrepp": [
         "fredagslåtar",
         "musik",
@@ -6617,7 +6617,7 @@ window.LECTURE = {
         "Martin Lönnstam",
         "kurering"
       ],
-      "anteckningar": "Nej — fredagslåtarna gör Martin Lönnstam, med hjälp av Suno. Riktigt bra.\n\nHan bygger dem på det jag lägger ut under veckan — jag ger temat, han gör låten.\n\nMaskinen gör mönstret; människan gör meningen. \n\nPrecis vår röda tråd.\n'Gör du dem själv?' — nej, och det är det ärliga svaret. Upphovet är Martins.\n\nVi blir allt mer samspelta — och Martin kan göra en låt på ditt material också.",
+      "anteckningar": "Fredagslåtarna gör Martin Lönnstam, med hjälp av Suno. Riktigt bra är de och i många olika stilar.\n\nHan bygger dem på det jag lägger ut under veckan — jag ger temat, han gör låten.\n\nMaskinen gör mönstret; människan gör meningen. \n\nPrecis vår röda tråd.\n'Gör du dem själv?' — nej, och det är det ärliga svaret. Upphovet är Martins.\n\nVi blir allt mer samspelta — och Martin kan göra en låt på ditt material också.",
       "lankar": [
         [
           "◂ Bloggen jag äger",
