@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-09-07 12:50:28)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-09-07 12:52:57)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -6414,7 +6414,7 @@ window.LECTURE = {
     {
       "id": "mer-style-studio",
       "sektion": "960",
-      "titel": "Style Studio — välj stil, kopiera prompten",
+      "titel": "Style Studio — välj stil, kopiera prompten eller låt mig \"on borda\" dig",
       "svar": "Jag byggde Style Studio: välj en visuell riktning, se den bli levande direkt, och kopiera en färdig prompt som bygger sajten. Design blev något vem som helst kan känna sig fram till.",
       "bilder": [
         "Style Studio.png"
