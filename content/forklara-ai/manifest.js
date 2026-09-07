@@ -6405,12 +6405,13 @@ window.LECTURE = {
         "mer-programvaran-vi-bygger-pa",
         "mer-hurdetfunkar",
         "mer-trilogin"
-      ]
+      ],
+      "anteckningar": "Verktyget du sitter i nu byggde jag själv — inte PowerPoint.\n\nEn föreläsning är ingen trave slides. Den är en karta av frågor man kan hoppa mellan.\n\nRen HTML/JS, offline, inget konto, ingen server. Min att äga.\n\nSök, associativa länkar, scenläge — byggt för hur jag faktiskt tänker.\n\nBuild small, connect smart: det billiga och öppna slår det dyra och inlåsta."
     },
     {
       "id": "mer-style-studio",
       "sektion": "960",
-      "titel": "Style Studio",
+      "titel": "Style Studio — välj stil, kopiera prompten",
       "svar": "Jag byggde Style Studio: välj en visuell riktning, se den bli levande direkt, och kopiera en färdig prompt som bygger sajten. Design blev något vem som helst kan känna sig fram till.",
       "bilder": [
         "Style Studio.png"
@@ -6444,12 +6445,13 @@ window.LECTURE = {
       "relaterat": [
         "mer-programvaran-vi-bygger-pa",
         "mer-hurdetfunkar"
-      ]
+      ],
+      "anteckningar": "Style Studio = välj en visuell riktning åt en webbplats, se den live, kopiera prompten.\n\nFör den som inte är designer: det svåra är inte att bygga — det är att veta vilken känsla.\n\nBygger inte sajten — gör det svåraste valet åt dig och räcker vidare pennan (till t.ex. Lovable).\n\nWebbskola och onboarding inbyggt. Ingen lämnas ensam.\n\nAI sänkte tröskeln att bygga; Style Studio sänker tröskeln att välja."
     },
     {
       "id": "mer-traktens",
       "sektion": "960",
-      "titel": "Traktens",
+      "titel": "Traktens — marknadsplats för lokal mat",
       "begrepp": [
         "Google Sites",
         "kartautomation",
@@ -6467,7 +6469,7 @@ window.LECTURE = {
           "Delar"
         ],
         [
-          "Notion — min andra hjärna ▸",
+          "Notion ▸",
           "#mer-notion-som-anteckningar",
           "",
           "Delar"
@@ -6561,7 +6563,7 @@ window.LECTURE = {
       "anteckningar": "FB-sidan hyr jag — bloggen äger jag.\n\nPå Facebook bestämmer algoritmen vem som ser dig, och när.\n\nBlir du blockad eller ändrar de reglerna — då är din publik borta.\n\nBloggen är sökbar, långsiktig, min egen adress. Ingen kan slänga ut mig.\n\nBåde och: FB för räckvidd, bloggen för hem. Men hemmet först. \n\nDe flesta jag känner har inte FB och kan inte se vad jag skriver där. \n\nAlla kan se och läsa bloggen.",
       "lankar": [
         [
-          "◂ Notion — min andra hjärna",
+          "◂ Notion",
           "#mer-notion-som-anteckningar",
           "",
           "Delar"
@@ -6602,7 +6604,7 @@ window.LECTURE = {
     {
       "id": "mer-veckolatar",
       "sektion": "960",
-      "titel": "Fredagslåtarna",
+      "titel": "Fredagslåtarna — veckans låt",
       "begrepp": [
         "fredagslåtar",
         "musik",
@@ -6660,7 +6662,7 @@ window.LECTURE = {
     {
       "id": "mer-skoldbondens-schack",
       "sektion": "960",
-      "titel": "Sköldbondens schack",
+      "titel": "Sköldbondens schack — nya värderingar på brädet",
       "begrepp": [
         "schack",
         "spel",
@@ -6708,7 +6710,7 @@ window.LECTURE = {
     {
       "id": "mer-handslaget-avtal-mellan-manniskor",
       "sektion": "960",
-      "titel": "Handslaget",
+      "titel": "Handslaget — avtal som ett handslag",
       "begrepp": [
         "avtal",
         "Handslaget",
@@ -6762,7 +6764,7 @@ window.LECTURE = {
     {
       "id": "mer-trilogin",
       "sektion": "960",
-      "titel": "Trilogin",
+      "titel": "Trilogin — tre böcker ur samma verkstad",
       "svar": "Tre böcker föddes ur samma lek: En Bibel som räcker dig pennan i stället för buden, Ett parti (Motvikten) av test i stället för dogm, och En rörelse (MEGA) — gör alla stora, ingen på någon annans bekostnad.",
       "bilder": [
         "Trilogin.png"
@@ -6805,7 +6807,8 @@ window.LECTURE = {
       ],
       "relaterat": [
         "mer-handslaget-avtal-mellan-manniskor"
-      ]
+      ],
+      "anteckningar": "Tre böcker ur samma lek: En Bibel, Ett parti (Motvikten), En rörelse (MEGA).\n\nEn Bibel = handbok, inte helig skrift — räcker dig pennan, inte buden.\n\nEtt parti = test i stället för dogm; inte höger, inte vänster.\n\nEn rörelse = gör alla stora, ingen på någon annans bekostnad.\n\nSamma ryggrad: tänk själv, våga ha fel, lämna ingen liten."
     },
     {
       "id": "130-05",
