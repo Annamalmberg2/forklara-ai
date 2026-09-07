@@ -6355,6 +6355,95 @@ window.LECTURE = {
           "Förklara AI som läsbok — läs i egen takt.",
           "Läs som bok"
         ]
+      ],
+      "bilder": [
+        "Programvaran.png"
+      ]
+    },
+    {
+      "id": "mer-verktyget",
+      "sektion": "960",
+      "titel": "Varför byggde du ett eget verktyg i stället för PowerPoint?",
+      "svar": "För att en föreläsning inte är en trave slides — den är en karta av frågor man kan hoppa mellan. Det fanns inget färdigt verktyg för hur jag tänker, så jag byggde det själv.",
+      "bilder": [
+        "Verktyget.png"
+      ],
+      "fordjupning": "<p class=\"ingress\">Det här verktyget du sitter i nu — kartan av frågor, sökrutan, korten, scenläget — valde jag inte ur en hylla. Jag byggde det. Och den vanligaste frågan är: varför inte bara PowerPoint?</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">En föreläsning är ingen trave slides</span><span class=\"tag\">Problemet</span></div>\n  <div class=\"body\">PowerPoint tvingar tanken in i en <em>linje</em>: slide 1, 2, 3, i tur och ordning. Men så tänker jag inte, och så fungerar inte ett riktigt samtal. Någon räcker upp handen och frågar något — och jag vill kunna <strong>hoppa dit</strong>, och sedan tillbaka. En föreläsning är snarare en karta av frågor än en trave blad.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Så byggde jag en fråge-karta i stället</span><span class=\"tag\">Lösningen</span></div>\n  <div class=\"body\">Varje kort är en <strong>fråga</strong> med ett svar på ett andetag, en bild, och en fördjupning för den som vill nörda. Jag söker fram vad som helst på ett ögonblick, följer <strong>associativa länkar</strong> mellan kort (som tanken faktiskt rör sig), går in i scenläge inför publik — och en flagga tar mig alltid tillbaka till stigen om jag gör en avstickare. Byggt som mitt eget minnesstöd, inte som en bildvisning.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Verktyget du tittar på just nu <em>är</em> svaret på frågan. Det påstår sig inte vara snyggast — det är byggt för hur en människa faktiskt tänker och pratar, inte hur ett bildspel råkar vara ordnat.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Ren HTML, offline, min</span><span class=\"tag\">Under huven</span></div>\n  <div class=\"body\">Ingen dyr plattform, inget konto, ingen server. Det här är <strong>ren HTML och JavaScript</strong> som fungerar helt offline — en mapp med filer jag äger. Samma grund bär hela familjen: böckerna, biblioteket, allt. Ingen kan höja priset, ändra villkoren eller stänga av det. <em>Build small, connect smart</em> — små, enkla delar som kopplas ihop, hämtat ur klassisk datavetenskap.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Därför, inte PowerPoint</span><span class=\"tag\">Så här gjorde vi</span></div>\n  <div class=\"body\">Jag är matte- och fysiklärare, inte utvecklare. Att jag ändå byggde mitt eget föreläsningsverktyg är inte för att jag är teknisk — det är för att tröskeln fallit så lågt att den som vet <em>vad hon vill ha</em> kan bygga det själv, i stället för att böja sig efter vad ett färdigt verktyg råkar tillåta. Det är hela poängen med Förklara AI: maskinen gör mönstret, men du gör meningen — och ibland också verktyget.</div>\n</div>",
+      "begrepp": [
+        "fråge-karta",
+        "offline-först",
+        "PowerPoint",
+        "HTML",
+        "JavaScript",
+        "sök",
+        "associativa länkar",
+        "scenläge",
+        "build small connect smart"
+      ],
+      "personer": null,
+      "lankar": [
+        [
+          "Utforska verktyget (du är redan här)",
+          "#hem",
+          "",
+          "Delar"
+        ],
+        [
+          "Läs hela boken – Förklara AI",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Förklara AI som läsbok.",
+          "Läs som bok"
+        ],
+        [
+          "Innehåll ▸ (alla kort)",
+          "#oversikt",
+          "",
+          "Delar"
+        ]
+      ],
+      "relaterat": [
+        "mer-programvaran-vi-bygger-pa",
+        "mer-hurdetfunkar",
+        "mer-trilogin"
+      ]
+    },
+    {
+      "id": "mer-style-studio",
+      "sektion": "960",
+      "titel": "Hur väljer man rätt känsla åt en webbplats — utan att vara designer?",
+      "svar": "Jag byggde Style Studio: välj en visuell riktning, se den bli levande direkt, och kopiera en färdig prompt som bygger sajten. Design blev något vem som helst kan känna sig fram till.",
+      "bilder": [
+        "Style Studio.png"
+      ],
+      "fordjupning": "<p class=\"ingress\">Att bygga en webbplats är inte längre det svåra — det svåra är att veta <em>vilken känsla</em> den ska ha. Vilken palett? Vilket typsnitt? Vad är \"rent\" och vad är \"varmt\"? För den som inte är designer är den tomma sidan förlamande. Style Studio är mitt svar: gör valet till något du kan känna dig fram till.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Välj en riktning — se den bli levande</span><span class=\"tag\">Så funkar den</span></div>\n  <div class=\"body\">Du väljer en visuell riktning — \"AiNNOVA Modern\", \"Nordisk Lugn\", \"Varm Familj\", \"Hantverks-Landsbygd\" — och en <strong>levande förhandsgranskning</strong> byggs upp direkt: rubriker, färger, knappar, en riktig sida framför dig. Du byter palett och typsnitt och ser det ändras i realtid. Inga fackord krävs; du ser bara vad som känns rätt.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Kopiera prompten — låt AI bygga resten</span><span class=\"tag\">Bron till Lovable</span></div>\n  <div class=\"body\">När känslan sitter trycker du på <strong>Kopiera prompt</strong>. Ut kommer en färdig designbeskrivning — färgsystem, typografi, ton — i det format en AI som Lovable läser allra helst. Klistra in, och sajten byggs i din valda stil. Style Studio bygger alltså inte sajten; den gör det <em>svåraste valet</em> åt dig och räcker vidare pennan.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">AI sänkte tröskeln för att <em>bygga</em>. Style Studio sänker tröskeln för att <em>välja</em> — det steg där de flesta fastnar. Ett verktyg vars hela syfte är att göra någon annan modigare.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Webbskola och onboarding inbyggt</span><span class=\"tag\">Ingen lämnas ensam</span></div>\n  <div class=\"body\">Bredvid valet finns en liten <strong>webbskola</strong> — tips och hjälp på vägen — och en <strong>onboarding</strong> för den som vill komma igång med AiNNOVA. Ingen ska behöva känna sig dum inför sin egen sida. Man ska kunna börja där man står.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Varför jag byggde den</span><span class=\"tag\">Så här gjorde vi</span></div>\n  <div class=\"body\">Jag byggde Style Studio av samma skäl som allt annat: jag ville förstå, och det bästa sättet att förstå är att bygga. Och när jag väl förstått ville jag räcka det vidare — det som tog mig månader att lista ut ska du kunna känna dig fram till på fem minuter.</div>\n</div>",
+      "begrepp": [
+        "Style Studio",
+        "designriktning",
+        "palett",
+        "Lovable",
+        "prompt",
+        "webbskola",
+        "onboarding",
+        "no-code"
+      ],
+      "personer": null,
+      "lankar": [
+        [
+          "Öppna Style Studio",
+          "https://vision-setter.lovable.app/",
+          "Välj visuell riktning, se den live, kopiera prompten.",
+          "Öppna"
+        ],
+        [
+          "Innehåll ▸ (alla kort)",
+          "#oversikt",
+          "",
+          "Delar"
+        ]
+      ],
+      "relaterat": [
+        "mer-programvaran-vi-bygger-pa",
+        "mer-hurdetfunkar"
       ]
     },
     {
