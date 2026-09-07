@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-09-07 12:44:25)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-09-07 12:47:28)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -6366,7 +6366,7 @@ window.LECTURE = {
     {
       "id": "mer-verktyget",
       "sektion": "960",
-      "titel": "Verktyget bakom föreläsningen",
+      "titel": "Verktyget bakom föreläsningen — en föreläsning som går att ratta som jag vill och som går att ratta till just din fråga",
       "svar": "En föreläsning är ingen trave slides — den är en karta av frågor man kan hoppa mellan. Det fanns inget färdigt verktyg för hur jag tänker, så jag byggde det själv.",
       "bilder": [
         "Verktyget.png"
