@@ -6681,8 +6681,15 @@ window.LECTURE = {
         "En rörelse.png"
       ],
       "fordjupning": "<p class=\"ingress\">Tre böcker föddes ur samma envisa lek: att våga göra något själv, fast man \"inte kan\". En Bibel, Ett parti och En rörelse — olika ämnen, samma ryggrad: tänk själv, våga ha fel, lämna ingen liten. Det här är inget frågekort. Det är ett så-här-gjorde-vi.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">En Bibel</span><span class=\"tag\">En handbok, inte en helig skrift</span></div>\n  <div class=\"body\">En sekulär handbok för mänskligheten i tio kapitel — från kosmos till lyckan. <em>Bibel</em> betyder ursprungligen bara \"böckerna\". Den här tar ordet tillbaka till sin ödmjuka början: ingen helig sanning, bara bättre frågor att leva med. Det enda budet är att det inte finns något bud — <em>tänk själv, och kom ihåg att du kan ha fel</em>.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Ett parti — Motvikten</span><span class=\"tag\">Test i stället för dogm</span></div>\n  <div class=\"body\">Inte höger, inte vänster — utan ett gäng <em>test</em> som varje förslag måste tåla, mitt eget först. Dretstöveltestet: skulle du ge makten om din värsta motståndare vann? Slöjan av okunnighet, konsekvenstestet. Grundantagandet är obekvämt men ärligt: nästa människa som får makten kan vara en dretstövel — så vi bygger system som överlever den dåliga, inte bara den goda.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">En rörelse — MEGA</span><span class=\"tag\">Gör alla stora</span></div>\n  <div class=\"body\">Make Everybody Great — född ur en felsägning vid ett middagsbord (pappa skulle säga MAGA). Samma känsla, ny måltavla: inte America first, utan <em>everybody counts</em>. Storhet är inte en tårta; att du blir större kräver inte att jag blir mindre. En rörelse som ingen får äga — stjäl den gärna.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">4</span><span class=\"concept\">Varför tre?</span><span class=\"tag\">Samma verkstad</span></div>\n  <div class=\"body\">De byggdes inte för att sälja något, utan ur ren byggarglädje — ett experiment i taget, ur de situationer livet råkade lägga framför mig. Att de hänger ihop var ingen plan: det är samma människa som håller i pennan, och samma vägran att lova en perfekt värld. Alla vilar på det maskiner gjorde möjligt — men varje mening gick genom mig.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">Tröskeln för att bygga har nästan försvunnit. Det betyder inte att allt blir polerat — men att en grund och en vilja att se räcker längre än man tror. Kanske får det dig att våga lite mer.</div></div>\n</div>",
-      "begrepp": "Trilogin, En Bibel, Motvikten, Ett parti, En rörelse, MEGA",
-      "personer": "",
+      "begrepp": [
+        "Trilogin",
+        "En Bibel",
+        "Motvikten",
+        "Ett parti",
+        "En rörelse",
+        "MEGA"
+      ],
+      "personer": null,
       "lankar": [
         [
           "Läs En Bibel",
