@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-09-07 12:40:53)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-09-07 12:43:36)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -6554,7 +6554,7 @@ window.LECTURE = {
     {
       "id": "mer-bloggen",
       "sektion": "960",
-      "titel": "Bloggen jag äger",
+      "titel": "Bloggen jag äger — synkat men inte ägt av FB",
       "begrepp": [
         "Wisdom Streamer",
         "blogg",
