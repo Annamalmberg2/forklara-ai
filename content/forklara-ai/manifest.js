@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-09-07 20:18:25)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-09-07 20:21:12)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -6463,7 +6463,7 @@ window.LECTURE = {
         "lokal marknadsplats",
         "AiNNOVA"
       ],
-      "anteckningar": "Traktens = en digital marknadsplats för lokal mat och närproducerat.\n\nKopplar ihop lokala bönder och producenter med oss som vill handla nära.\n\nVarför: levande bondekultur, öppna marker, beredskap, nyttig och god mat.\n\nByggt på smarta automationer — utan webhotell, med gratis api. \n\nSponsras av AiNNOVA.\nVi sökte 5,2 miljoner i stöd. Ett stort bygge, och en hjärtefråga.",
+      "anteckningar": "Traktens = en digital marknadsplats för lokal mat och närproducerat.\n\nKopplar ihop lokala bönder och producenter med oss som vill handla nära.\n\nVarför: levande bondekultur, öppna marker, beredskap, nyttig och god mat.\n\nByggt på smarta automationer — utan webhotell, med gratis api. \n\nSponsras av AiNNOVA.\nVi sökte 5,2 miljoner i stöd. Ett stort bygge, och en hjärtefråga. Vi fick inte ett öre och ingen motivering om varför på avslaget. Vi byggde ändå.",
       "lankar": [
         [
           "◂ Programvaran vi bygger på",
