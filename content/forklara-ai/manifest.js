@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-09-07 12:47:28)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-09-07 12:50:28)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -6264,7 +6264,7 @@ window.LECTURE = {
     {
       "id": "mer-hurdetfunkar",
       "sektion": "960",
-      "titel": "Så började jag bygga på webben",
+      "titel": "Så började jag bygga på webben — en 24h code camp 2011",
       "begrepp": [
         "skolan",
         "experiment",
@@ -6315,7 +6315,7 @@ window.LECTURE = {
     {
       "id": "mer-programvaran-vi-bygger-pa",
       "sektion": "960",
-      "titel": "Programvaran vi bygger på",
+      "titel": "Programvaran vi bygger på — egenodlad utan inlåsning",
       "svar": "Ingen enda plattform — en verktygslåda. Rätt modell för rätt jobb, no-code där det räcker, egen kod där det räknas, och aldrig inlåst.",
       "begrepp": [
         "pluton B",
