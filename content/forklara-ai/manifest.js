@@ -1,5 +1,5 @@
 // ============================================================
-// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-09-07 12:43:36)
+// FÖRKLARA AI — innehållsfil (sparad från redigeringsläget 2026-09-07 12:44:25)
 // Ett kort = en berättelse = en eller flera bilder (fältet bilder).
 // stigar: teknisk / historisk / filosofisk / komigang — kryssas per kort.
 // Övriga fält: id, sektion, titel, text (textkort), personer, begrepp,
@@ -6507,7 +6507,7 @@ window.LECTURE = {
     {
       "id": "mer-notion-som-anteckningar",
       "sektion": "960",
-      "titel": "Notion — min andra hjärna",
+      "titel": "Notion — min andra hjärna som blev en kurs och ett examensbevis",
       "begrepp": [
         "Notion",
         "skolan",
