@@ -20,12 +20,16 @@ FIELDS = ("fordjupning", "svar", "anteckningar")   # INTE titel (medvetna klarti
 EM = "—"
 PAIR = re.compile(r" %s ([^%s,.;:!?<>]{1,40}?) %s " % (EM, EM, EM))
 
+KONJ = re.compile(r" %s (och|men|eller|för|så|utan|fast) " % EM)   # streck före konjunktion → komma
+
 def reduce(text):
     n = 0; prev = None
-    while prev != text:
+    while prev != text:                         # A: parentes-par " — inskott — " → komma
         prev = text
         text, c = PAIR.subn(lambda m: ", %s, " % m.group(1), text, count=1)
         n += c
+    text, c2 = KONJ.subn(lambda m: ", %s " % m.group(1), text)   # B: " — och/men/så… " → ", och… "
+    n += c2
     return text, n
 
 def samples(text, k=3):
