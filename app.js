@@ -1163,8 +1163,11 @@
     }
   }
   window.tomte = toggle;
+  // capture-fasen + stopImmediatePropagation → T växlar tomten ÖVERALLT (även på
+  // landningssidan, där "börja skriva" annars öppnar sök). Skriver du i ett fält
+  // (sökrutan) släpps T igenom som vanlig bokstav.
   document.addEventListener("keydown", function (e) {
     if (e.metaKey || e.ctrlKey || e.altKey || inField()) return;
-    if (e.key === "t" || e.key === "T") { toggle(); e.preventDefault(); }
-  });
+    if (e.key === "t" || e.key === "T") { toggle(); e.preventDefault(); e.stopImmediatePropagation(); }
+  }, true);
 })();
