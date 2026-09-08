@@ -194,5 +194,25 @@
     });
   })();
 </script>
+
+<script>
+  // Tomteläge 🎅 — tryck T så blir alla tankstreck tomtar, tryck igen så är de tillbaka.
+  // Samma glimt i ögat som i verktyget; portalsidan har inga fält att krocka med.
+  (function(){
+    var EMD="—", TOMTE="🎅", on=false;
+    function inField(){var a=document.activeElement;return !!a&&(/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)||a.isContentEditable);}
+    function swap(from,to){
+      var w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{acceptNode:function(n){
+        var p=n.parentNode; return (p&&/^(SCRIPT|STYLE)$/.test(p.nodeName))?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT;}});
+      var n; while(n=w.nextNode()){ if(n.nodeValue.indexOf(from)>=0) n.nodeValue=n.nodeValue.split(from).join(to); }
+    }
+    function toggle(){ on=!on; swap(on?EMD:TOMTE, on?TOMTE:EMD); }
+    window.tomte=toggle;
+    document.addEventListener("keydown",function(e){
+      if(e.metaKey||e.ctrlKey||e.altKey||inField()) return;
+      if(e.key==="t"||e.key==="T"){ toggle(); e.preventDefault(); e.stopImmediatePropagation(); }
+    }, true);
+  })();
+</script>
 </body>
 </html>
