@@ -1124,3 +1124,47 @@
     }
   };
 })();
+
+/* ── Tomteläge (gag) ─────────────────────────────────────────────────────
+   Växlar alla tankstreck (—) mot 🎅 och tillbaka. Reversibelt, sparas inte,
+   ändrar inget innehåll på disk. Tryck T, eller kör window.tomte() i konsolen.
+   För dagen någon kallar strecken "AI-slop": vi gör det för att vi kan. 🎅 */
+(function () {
+  var EMD = "—", TOMTE = "🎅", on = false, obs = null;
+  function inField() {
+    var a = document.activeElement;
+    return !!a && (/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName) || a.isContentEditable);
+  }
+  function swapEl(root, from, to) {
+    if (!root || !root.nodeType) return;
+    var w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null), n, hit = [];
+    while ((n = w.nextNode())) {
+      var p = n.parentNode;
+      if (p && !/^(SCRIPT|STYLE)$/.test(p.nodeName) && n.nodeValue.indexOf(from) >= 0) hit.push(n);
+    }
+    hit.forEach(function (t) { t.nodeValue = t.nodeValue.split(from).join(to); });
+  }
+  function toggle() {
+    on = !on;
+    if (on) {
+      swapEl(document.body, EMD, TOMTE);
+      obs = new MutationObserver(function (muts) {         // håll gaget levande vid kortbyten
+        muts.forEach(function (m) {
+          (m.addedNodes || []).forEach(function (nd) {
+            if (nd.nodeType === 3) { if (nd.nodeValue.indexOf(EMD) >= 0) nd.nodeValue = nd.nodeValue.split(EMD).join(TOMTE); }
+            else swapEl(nd, EMD, TOMTE);
+          });
+        });
+      });
+      obs.observe(document.body, { childList: true, subtree: true });
+    } else {
+      if (obs) { obs.disconnect(); obs = null; }
+      swapEl(document.body, TOMTE, EMD);
+    }
+  }
+  window.tomte = toggle;
+  document.addEventListener("keydown", function (e) {
+    if (e.metaKey || e.ctrlKey || e.altKey || inField()) return;
+    if (e.key === "t" || e.key === "T") { toggle(); e.preventDefault(); }
+  });
+})();
