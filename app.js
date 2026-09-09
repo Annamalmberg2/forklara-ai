@@ -1071,7 +1071,9 @@
     };
   })();
   window.addEventListener("hashchange", () => {
-    const h = decodeURIComponent(location.hash.slice(1));
+    // Strippa spårskräp som Facebook m.fl. ibland klistrar in I hashen
+    // (#mer-trilogin?fbclid=… → mer-trilogin), annars "kommer man inte rätt".
+    const h = decodeURIComponent(location.hash.slice(1).replace(/[?&].*$/, ""));
     _router = true;
     if (h === "hem") öppnaTråd();
     else if (h === "oversikt") öppnaÖversikt(null);
@@ -1102,7 +1104,8 @@
   byggRail();
 
   // Routa efter adressen: #hem / #oversikt / #biblioteket / #kort-id
-  const h0 = decodeURIComponent(location.hash.slice(1));
+  // (strippar spårskräp som FB kan ha klistrat in i hashen)
+  const h0 = decodeURIComponent(location.hash.slice(1).replace(/[?&].*$/, ""));
   const kortUnder = (minne.senast && index.has(minne.senast)) ? minne.senast : berättelseKort()[0].id;
   visa(index.has(h0) ? h0 : kortUnder);
   if (h0 === "oversikt") öppnaÖversikt(null);
