@@ -6972,9 +6972,45 @@ window.LECTURE = {
           "https://traktens.se/citatgenerator",
           "Fler och fler vill ha en egen citatgenerator. Vi har alla sagt kloka saker som ka vara kul att samla.",
           "Lovable App"
+        ],
+        [
+          "Social Media Assistant",
+          "https://engage-express-bot.lovable.app",
+          "När jag tröttnade på LinkedIns formatering",
+          "Övriga länkar"
+        ],
+        [
+          "Diffchecker",
+          "https://diffchecker.dev/",
+          "Att kunna jämföra mitt eget mot ett AI genererat resultat",
+          "Externa länk"
+        ],
+        [
+          "DNScecker",
+          "https://dnschecker.org/all-dns-records-of-domain.php",
+          "Vart ligger domänen och vilka records har den",
+          "Externa länk"
+        ],
+        [
+          "SSL Server Test",
+          "https://www.ssllabs.com/ssltest/",
+          "Hur bra ligger din sida till för att göra alla nödvändiga handlslag",
+          "Externa länk"
+        ],
+        [
+          "Contrastchecker",
+          "https://webaim.org/resources/contrastchecker/",
+          "Hur står sig färger mot varandra",
+          "Externa länk"
+        ],
+        [
+          "Bästa konverteraren markdown",
+          "https://everymarkdown.com/markdown-to-google-docs",
+          "Det språk som ai gillar mest är markdown och denna är riktigt bra",
+          "Extern konverterare"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 17 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 23 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-20",
@@ -7005,6 +7041,12 @@ window.LECTURE = {
           "https://wisdom-streamer.lovable.app/",
           "Bloggen synkad med sociala media",
           "Blogg"
+        ],
+        [
+          "Fredagslåtarna",
+          "https://sites.google.com/ainnova.se/aisverige/musik",
+          "Fredagslåtarna där Martin Lönnstam sammanställer min vecka",
+          "Låtarna"
         ],
         [
           "AiNNOVA Hem",
@@ -7175,12 +7217,6 @@ window.LECTURE = {
           "Företag"
         ],
         [
-          "Gammal Loppisdesign",
-          "https://rissaeters-loppis.eu/",
-          "Skrapad sida 9 411 produkter",
-          "Några byggen"
-        ],
-        [
           "Ny loppisdesign",
           "https://rissaeters-loppis.com/",
           "Loppis i ny design",
@@ -7194,7 +7230,7 @@ window.LECTURE = {
         ],
         [
           "Pizzadesign, trodde vi skulle köra en inbakad",
-          "https://rävensbistro.se",
+          "https://bistro-remix-engine.lovable.app/",
           "https://fox-whisper-remix.lovable.app",
           "Några byggen"
         ],

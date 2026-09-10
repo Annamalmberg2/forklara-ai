@@ -22,6 +22,9 @@ DOC_ID = "1UfMXhSCwotO_wXCpMbi4dQa1_Mzbd3odeVDp8uOU9mc"
 EXPORT_URL = f"https://docs.google.com/spreadsheets/d/{DOC_ID}/export?format=xlsx"
 ROT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANIFEST = os.path.join(ROT, "content", "forklara-ai", "manifest.js")
+# Handgjorda 130-kort som INTE bor i arket (t.ex. "Böckerna — läs & skriv ut").
+# Vävs alltid in vid ombygge så "hämta data" aldrig sveper bort dem.
+KURATERAT = os.path.join(ROT, "content", "forklara-ai", "bibliotek_kuraterat.json")
 
 M = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
 R = "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}"
@@ -120,19 +123,34 @@ def bygg_hyllor(data):
     return hyllor
 
 
+def läs_kuraterade():
+    """Handgjorda 130-kort ur bibliotek_kuraterat.json (bevaras vid ombygge)."""
+    try:
+        return json.loads(io.open(KURATERAT, encoding="utf-8").read())
+    except FileNotFoundError:
+        return []
+
+
 def uppdatera_manifest(data=None):
     if data is None:
         data = hämta_xlsx()
     hyllor = bygg_hyllor(data)
+    kuraterade = läs_kuraterade()
+    # Låt aldrig en ark-hylla krocka med ett kuraterat kort-id
+    kur_ids = {k.get("id") for k in kuraterade}
+    hyllor = [h for h in hyllor if h["id"] not in kur_ids]
+    # Kuraterade + ark-hyllor, sorterade på id-numret (så 130-05 hamnar före 130-10)
+    nya = sorted(kuraterade + hyllor,
+                 key=lambda k: int(str(k.get("id", "130-999")).split("-")[1]))
     src = io.open(MANIFEST, encoding="utf-8").read()
     huvud, _, resten = src.partition("window.LECTURE = ")
     js = resten.rsplit(";", 1)[0]
     L = json.loads(js)
-    # Ersätt alla kort i sektion 130 med de nya hyllorna
+    # Ersätt alla kort i sektion 130 med kuraterade + de nya hyllorna
     L["kort"] = [k for k in L["kort"] if k.get("sektion") != "130"]
-    # Sätt in hyllorna där sektion 130 började (efter sista 120-kortet)
+    # Sätt in där sektion 130 började (efter sista 120-kortet)
     sist120 = max((idx for idx, k in enumerate(L["kort"]) if k.get("sektion") == "120"), default=len(L["kort"]) - 1)
-    L["kort"][sist120 + 1:sist120 + 1] = hyllor
+    L["kort"][sist120 + 1:sist120 + 1] = nya
     io.open(MANIFEST, "w", encoding="utf-8").write(huvud + "window.LECTURE = " + json.dumps(L, ensure_ascii=False, indent=2) + ";\n")
     return hyllor
 
