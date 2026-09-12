@@ -6895,8 +6895,8 @@ window.LECTURE = {
           "Delar"
         ],
         [
-          "Trilogin ▸",
-          "#mer-trilogin",
+          "Rösta rätt-skolan ▸",
+          "#mer-rosta-ratt",
           "",
           "Delar"
         ],
@@ -6973,9 +6973,73 @@ window.LECTURE = {
         ]
       ],
       "relaterat": [
+        "mer-rosta-ratt",
         "mer-handslaget-avtal-mellan-manniskor"
       ],
       "anteckningar": "Tre böcker ur samma lek: En Bibel, Ett parti (Motvikten), En rörelse (MEGA).\n\nEn Bibel = handbok, inte helig skrift — räcker dig pennan, inte buden.\n\nEtt parti = test i stället för dogm; inte höger, inte vänster.\n\nEn rörelse = gör alla stora, ingen på någon annans bekostnad.\n\nSamma ryggrad: tänk själv, våga ha fel, lämna ingen liten."
+    },
+    {
+      "id": "mer-rosta-ratt",
+      "sektion": "960",
+      "titel": "Rösta rätt-skolan — en opolitisk grund inför valet 2026",
+      "begrepp": [
+        "Rösta rätt-skolan",
+        "demokrati",
+        "valet 2026",
+        "tre nivåer",
+        "personröst",
+        "OpenAI Codex",
+        "folkbildning"
+      ],
+      "anteckningar": "Jag gick på en promenad och lyssnade på Nördarnas podd — Patrik Stenberg och David Stavegård — avsnittet om valet 2026.\n\nDe förklarade så begripligt att jag ville skicka fler vidare till deras förklaring. Det blev startskottet.\n\nJag byggde en kort, opolitisk valskola: tre nivåer (kommun, region, riksdag), partiernas idéhistoriska rötter, och reglerna om spärrar, personröst och blankröst.\n\nHållningen är hela poängen: hjälp mig förstå, inte välja åt mig.\n\nDet blev också mitt första bygge med OpenAI Codex — syskon till Motvikten, som jag byggde med Claude Code.\n\nViktigt: det är ett underlag att faktakolla, inte en officiell sanning, och inte en officiell produkt från podden.",
+      "lankar": [
+        [
+          "◂ Handslaget",
+          "#mer-handslaget-avtal-mellan-manniskor",
+          "",
+          "Delar"
+        ],
+        [
+          "Trilogin ▸",
+          "#mer-trilogin",
+          "",
+          "Delar"
+        ],
+        [
+          "Innehåll ▸ (alla kort)",
+          "#oversikt",
+          "",
+          "Delar"
+        ],
+        [
+          "Läs hela boken – Förklara AI",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Förklara AI som läsbok — läs i egen takt.",
+          "Läs som bok"
+        ],
+        [
+          "Öppna Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
+        ],
+        [
+          "Motvikten – ett parti du inte kan rösta på",
+          "https://annamalmberg2.github.io/forklara-ai/index.html#motvikten-0"
+        ]
+      ],
+      "bilder": [
+        "Rösta rätt-skolan.png"
+      ],
+      "svar": "Rösta rätt-skolan är min opolitiska valskola inför 2026: den hjälper dig förstå demokratins tre nivåer och partiernas rötter — för att förstå, inte välja åt dig. Den blev också mitt första bygge med OpenAI Codex.",
+      "relaterat": [
+        "mer-handslaget-avtal-mellan-manniskor",
+        "mer-trilogin",
+        "motvikten-0"
+      ],
+      "fordjupning": "<p class=\"ingress\">Jag gick på en promenad, lyssnade på Nördarnas podd om valet 2026, och tänkte: det här borde fler få höra så begripligt. Rösta rätt-skolan blev mitt sätt att skicka vidare — en kort, opolitisk grund för att förstå svensk demokrati. Och mitt första bygge med OpenAI Codex.</p>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">1</span><span class=\"concept\">Du röstar i tre val, inte ett</span><span class=\"tag\">Grunden</span></div>\n  <div class=\"body\">I Sverige får du flera valsedlar därför att makten är uppdelad — det är hela poängen: allt ska inte bestämmas på samma ställe. Kommunen ligger närmast vardagen: skola, äldreomsorg, bibliotek, bygglov. Regionen handlar om vård, tandvård och kollektivtrafik. Riksdagen om lagar, statens budget och Sveriges riktning.</div>\n  <div class=\"insight\"><div class=\"insight-label\">Den viktiga insikten</div><div class=\"insight-text\">När en fråga känns viktig är första steget inte att fråga vilket parti som låter bäst, utan: var fattas beslutet? Skolmaten och försvarspolitiken är inte samma sorts fråga.</div></div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">2</span><span class=\"concept\">Partier är inte bara loggor — de kommer ur idéer</span><span class=\"tag\">Rötterna</span></div>\n  <div class=\"body\">Partiernas historia förklarar varför de ofta svarar olika på samma fråga. Socialdemokrati och vänstertradition betonar välfärd och gemensamma lösningar; liberalism individens frihet och bildning; konservativa traditioner stabilitet och institutioner; miljö- och centertraditioner planetens gränser och närhet till besluten. Rötterna bestämmer inte allt — men de förklarar mycket.</div>\n</div>\n\n<div class=\"section\">\n  <div class=\"section-head\"><span class=\"num\">3</span><span class=\"concept\">Förstå, inte välja åt dig</span><span class=\"tag\">Hållningen</span></div>\n  <div class=\"body\">Det är lätt att blanda ihop vad man känner sig som politiskt med vem som faktiskt kan få något gjort där man bor. Ideologi visar riktning, sakfrågor visar behov, genomförandeförmåga visar ansvar. Rösta med både hjärta och verktygslåda. Och det är rimligt att rösta olika i kommun, region och riksdag om verkligheten pekar åt olika håll.</div>\n  <div class=\"shield\">\n    <div class=\"shield-label\">Vad som faktiskt är belagt, så jag inte överdriver</div>\n    <div class=\"shield-body\"><strong>Belagt:</strong> Partilistan utgår från Riksdagens information om partierna 2022–2026 och Valmyndighetens uppgifter inför riksdagsvalet 2026. Reglerna om spärrar (normalt 4 % i landet, eller 12 % i en valkrets), personröst och blankröst bygger på Valmyndigheten.<br><br><strong>Här är jag ärlig:</strong> Skolan är ett <em>underlag att faktakolla och nyansera</em> — den ber dig själv pröva påståendena — inte en auktoritativ sanning. Den är inte en officiell produkt från Nördarnas podd, utan ett enkelt sätt att skicka fler vidare till Patrik och Davids förklaring. Dubbelkolla alltid hos Valmyndigheten innan du röstar.</div>\n  </div>\n</div>\n\n<hr>\n<div class=\"extra-head\">Begrepp i rockärmen</div>\n<div class=\"extra-grid\">\n  <div><div class=\"extra-name\">Tre nivåer</div><div class=\"extra-desc\">Kommun, region, riksdag. Makten är delad med flit.</div></div>\n  <div><div class=\"extra-name\">Spärren</div><div class=\"extra-desc\">Normalt 4 % i landet, eller 12 % i en valkrets, för att delta i mandatfördelningen.</div></div>\n  <div><div class=\"extra-name\">Personröst</div><div class=\"extra-desc\">Lyfter en kandidat inom partiet. Ger inte partiet fler mandat.</div></div>\n  <div><div class=\"extra-name\">Blank röst</div><div class=\"extra-desc\">Syns i statistiken, men räknas som ogiltig och påverkar inte fördelningen.</div></div>\n  <div><div class=\"extra-name\">Rötter</div><div class=\"extra-desc\">Partiernas idéhistoria. Förklarar varför de svarar olika på samma fråga.</div></div>\n  <div><div class=\"extra-name\">OpenAI Codex</div><div class=\"extra-desc\">Verktyget jag byggde skolan med — mitt första Codex-bygge.</div></div>\n</div>\n<div class=\"future-box\">\n  <div class=\"future-head\">Något att bära med sig</div>\n  <div class=\"future-body\">Rösta rätt-skolan väljer inte åt dig — den räcker dig verktygen. Precis som Motvikten, systerbygget: ett parti man inte kan rösta på, men som ställer frågorna varje parti borde tåla.<br><br>Nästa gång en fråga känns politisk, börja inte med loggan. Börja med: var fattas beslutet — och hur tänker de göra, inte bara vad de vill?</div>\n</div>"
     },
     {
       "id": "130-05",

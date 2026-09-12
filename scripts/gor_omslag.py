@@ -42,6 +42,13 @@ MORK = dict(bg=(27,25,21),   eyebrow=(138,129,114), roman=(236,230,216),
 
 # ---- omslagen -------------------------------------------------------------
 OMSLAG = {
+    "rosta-ratt": dict(
+        fil="Rösta rätt-skolan.png", tema="ljus",
+        eyebrow="EN OPOLITISK VALSKOLA · 2026",
+        titel_roman="Rösta ", titel_kursiv="rätt",
+        subtitel=["Förstå demokratins tre nivåer —",
+                  "förstå, inte välja åt dig."],
+    ),
     "en-rorelse": dict(
         fil="En rörelse.png", tema="mork",
         eyebrow="MAKE EVERYBODY GREAT AGAIN",
