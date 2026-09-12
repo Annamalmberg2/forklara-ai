@@ -753,6 +753,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ],
       "bilder": [
@@ -810,6 +818,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ],
       "bilder": [
@@ -873,6 +889,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ],
       "bilder": [
@@ -937,6 +961,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ],
       "bilder": [
@@ -1003,6 +1035,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ],
       "bilder": [
@@ -1066,6 +1106,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ],
       "bilder": [
@@ -1129,6 +1177,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ],
       "bilder": [
@@ -1192,6 +1248,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ],
       "bilder": [
@@ -1261,6 +1325,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ]
     },
@@ -1327,6 +1399,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ]
     },
@@ -1393,6 +1473,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ]
     },
@@ -1459,6 +1547,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ]
     },
@@ -1525,6 +1621,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ]
     },
@@ -1591,6 +1695,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ]
     },
@@ -1657,6 +1769,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ]
     },
@@ -1723,6 +1843,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ]
     },
@@ -1789,6 +1917,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ]
     },
@@ -1855,6 +1991,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ]
     },
@@ -1921,6 +2065,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ]
     },
@@ -1980,6 +2132,14 @@ window.LECTURE = {
           "https://www.svd.se/story/ai-revolutionen",
           "",
           "Inför valet 2026"
+        ],
+        [
+          "Rösta rätt-skolan",
+          "https://annamalmberg2.github.io/rosta-ratt/"
+        ],
+        [
+          "Nördarnas podd · Valet 2026",
+          "https://xn--nrdarnaspodd-4ib.se/138-valet-2026-din-ultimata-overlevnadsguide-riksdag-region-kommun/"
         ]
       ]
     },
