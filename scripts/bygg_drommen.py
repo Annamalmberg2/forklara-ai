@@ -299,6 +299,48 @@ print("TOC-rader:", len(toc_rows))
 # ---- 9. generera sektion "13 · Drömmen" som KORT i manifestet --------------
 COVER = "Drömmen.png"
 
+# ---- omslag (LJUS, för alterneringen MÖRK/LJUS i översikten) --------------
+def _smid_omslag(tema="ljus"):
+    import math
+    from PIL import Image, ImageDraw, ImageFont
+    W, H = 1280, 800
+    SERIF = "/System/Library/Fonts/Supplemental/Iowan Old Style.ttc"
+    SANS  = "/System/Library/Fonts/Avenir Next.ttc"
+    def sans(sz):
+        for i in (0, 1, 2, 3, 4):
+            try: return ImageFont.truetype(SANS, sz, index=i)
+            except Exception: pass
+        return ImageFont.truetype(SANS, sz)
+    if tema == "ljus":
+        P = dict(bg=(246,241,231), eye=(138,129,114), roman=(35,32,26),
+                 gold=(176,138,62), sub=(74,69,59), foot=(138,129,114))
+    else:
+        P = dict(bg=(27,25,21), eye=(150,140,122), roman=(236,230,216),
+                 gold=(198,162,90), sub=(201,195,181), foot=(138,129,114))
+    im = Image.new("RGB", (W, H), P["bg"]); d = ImageDraw.Draw(im); cx = W/2
+    def tracked(y, txt, f, fill, tr):
+        w = sum(d.textlength(c, font=f) + tr for c in txt) - (tr if txt else 0); x = cx - w/2
+        for c in txt: d.text((x, y), c, font=f, fill=fill); x += d.textlength(c, font=f) + tr
+    def star4(x, y, r, fill):
+        d.polygon([(x,y-r),(x+r*.32,y-r*.32),(x+r,y),(x+r*.32,y+r*.32),(x,y+r),(x-r*.32,y+r*.32),(x-r,y),(x-r*.32,y-r*.32)], fill=fill)
+    def aster(x, y, r, fill, wd=3):
+        for k in range(6):
+            a = math.pi/2 + k*math.pi/3; d.line([(x,y),(x+math.cos(a)*r, y-math.sin(a)*r)], fill=fill, width=wd)
+    f_eye = sans(21); f_rom = ImageFont.truetype(SERIF, 80, index=1); f_ita = ImageFont.truetype(SERIF, 80, index=2)
+    f_sub = ImageFont.truetype(SERIF, 29, index=2); f_foot = sans(17)
+    y = 168
+    tracked(y, "TRETUSEN ÅR AV TANKAR OM AI", f_eye, P["eye"], 6); y += 70
+    l1 = "Drömmen om den"; d.text((cx - d.textlength(l1, font=f_rom)/2, y), l1, font=f_rom, fill=P["roman"]); y += 94
+    l2 = "tänkande maskinen"; d.text((cx - d.textlength(l2, font=f_ita)/2, y), l2, font=f_ita, fill=P["gold"]); y += 118
+    sub = "Från smedjan till nattduksbordet."; d.text((cx - d.textlength(sub, font=f_sub)/2, y), sub, font=f_sub, fill=P["sub"]); y += 66
+    star4(cx-44, y+6, 9, P["gold"]); aster(cx, y+6, 10, P["gold"], 3); star4(cx+44, y+6, 9, P["gold"]); y += 60
+    tracked(y, "AV ANNA MALMBERG · UR FÖRKLARA AI", f_foot, P["foot"], 3)
+    im.save(ROOT + "/content/forklara-ai/bilder/" + COVER)
+    print("omslag (%s):" % tema, COVER)
+
+_smid_omslag("ljus")
+
+
 def first_sentence(lines):
     for ln in lines:
         s = ln.strip()
@@ -335,25 +377,36 @@ def persons_inner(lines):
             rows.append('<p class="person">%s</p>' % inline(s[2:]))
     return '<div class="persons">%s</div>' % "".join(rows)
 
-specs = []   # (id, titel, svar, fordjupning, begrepp, bokanchor)
+# Förord + "Så kan du använda boken" → ETT förordskort (drommen-0, som en-bibel-0)
+sakan_body  = next((b for h, b in blocks if h == "Så kan du använda boken"), [])
+forord_body = next((b for h, b in blocks if h == "Förord"), [])
+forord_ford = (paras(forord_body)
+    + '\n<hr>\n<div class="section"><div class="section-head">'
+      '<span class="concept">Så kan du använda boken</span></div>'
+      '<div class="body">' + paras(sakan_body) + '</div></div>')
+
+specs = []   # [id, titel, svar, fordjupning, begrepp, bokanchor] — listor (muterbara)
+specs.append(["drommen-0", "Förord", first_sentence(forord_body), forord_ford, [], "forord"])
 for h1, body in blocks:
-    if h1 == "Förord":
-        specs.append(("drommen-forord", "Förord", first_sentence(body), paras(body), [], "forord"))
-    elif h1.startswith("Kapitel") or h1.startswith("Mellanspel"):
+    if h1.startswith("Kapitel"):
         parts = re.split(r'\s[–-]\s', h1, 1)
-        left = parts[0].strip(); ttl = parts[1].strip() if len(parts) > 1 else ""
-        bits = left.split(); kapword = bits[0]; numtok = bits[1] if len(bits) > 1 else ""
-        if kapword == "Kapitel":
-            cid = "drommen-%s" % numtok; anchor = "kap-%s" % numtok
-            titel = "Kapitel %s · %s" % (numtok, ttl)
-        else:
-            n = ROM2N.get(numtok, 0); cid = "drommen-m%d" % n; anchor = "mellanspel-%d" % n
-            titel = "Mellanspel %s · %s" % (numtok, ttl)
-        specs.append((cid, titel, first_sentence(body), chapter_body(body), subtitles(body), anchor))
+        ttl = parts[1].strip() if len(parts) > 1 else ""
+        numtok = parts[0].split()[1]
+        specs.append(["drommen-%s" % numtok, "Kapitel %s · %s" % (numtok, ttl),
+                      first_sentence(body), chapter_body(body), subtitles(body), "kap-%s" % numtok])
+    elif h1.startswith("Mellanspel"):
+        # foga in mellanspelet i FÖREGÅENDE kapitelkorts fördjupning (I→kap 7, II→kap 8)
+        parts = re.split(r'\s[–-]\s', h1, 1)
+        ttl = parts[1].strip() if len(parts) > 1 else ""
+        numtok = parts[0].split()[1]
+        prev = specs[-1]
+        prev[3] += ('\n<hr>\n<div class="extra-head">Mellanspel %s — %s</div>\n%s'
+                    % (numtok, ttl, chapter_body(body)))
+        prev[4] = prev[4] + subtitles(body)
     elif h1 == "Tidslinje":
-        specs.append(("drommen-tidslinje", "Tidslinje", first_sentence(body), timeline_inner(body), [], "tidslinje"))
+        specs.append(["drommen-tidslinje", "Tidslinje", first_sentence(body), timeline_inner(body), [], "tidslinje"])
     elif h1 == "Personer i boken":
-        specs.append(("drommen-personer", "Personer i boken", first_sentence(body), persons_inner(body), [], "personer"))
+        specs.append(["drommen-personer", "Personer i boken", first_sentence(body), persons_inner(body), [], "personer"])
 
 # bygg kort-dictar med omslag + grann-navigation
 kort_nya = []

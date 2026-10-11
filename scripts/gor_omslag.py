@@ -42,6 +42,21 @@ MORK = dict(bg=(27,25,21),   eyebrow=(138,129,114), roman=(236,230,216),
 
 # ---- omslagen -------------------------------------------------------------
 OMSLAG = {
+    "naturlag": dict(
+        fil="Naturlag.png", tema="mork",
+        eyebrow="MÖNSTRET BAKOM ILLUSIONEN",
+        titel_roman="Är det en ", titel_kursiv="naturlag?",
+        subtitel=["De fyra sätten något luras",
+                  "att kännas som en lag."],
+        storlek=78,
+    ),
+    "utblickar": dict(
+        fil="Utblickar.png", tema="ljus",
+        eyebrow="DEN VIDARE BLICKEN, SAMLAD",
+        titel_roman="Ut", titel_kursiv="blickar",
+        subtitel=["Fönster mot världens visdom",
+                  "bortom väst."],
+    ),
     "rosta-ratt": dict(
         fil="Rösta rätt-skolan.png", tema="ljus",
         eyebrow="EN OPOLITISK VALSKOLA · 2026",
@@ -88,9 +103,10 @@ def rita(nyckel, spec):
     d = ImageDraw.Draw(im)
     cx = W/2
 
+    sz     = spec.get("storlek", 96)
     f_eye  = _sans(21)
-    f_rom  = ImageFont.truetype(SERIF, 96, index=I_BOLD)
-    f_ita  = ImageFont.truetype(SERIF, 96, index=I_ITALIC)
+    f_rom  = ImageFont.truetype(SERIF, sz, index=I_BOLD)
+    f_ita  = ImageFont.truetype(SERIF, sz, index=I_ITALIC)
     f_sub  = ImageFont.truetype(SERIF, 30, index=I_ITALIC)
     f_foot = _sans(17)
 
