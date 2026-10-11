@@ -157,6 +157,8 @@ def rebuild(fname, bodies, n_kap, toc_title):
                      lambda m: m.group(1) + block + m.group(3), html, count=1, flags=re.S)
     assert n == 1, "%s: hittade inte förord/efterord-ankaret" % fname
     io.open(p, "w", encoding="utf-8").write(new)
+    from gor_toc_klickbar import klickbar      # gör TOC klickbar (överlever ombygge)
+    klickbar(p)
     return new
 
 # naturlag: kapitelkropp = <div class="ford">…</div> (speglar samlingskortet)

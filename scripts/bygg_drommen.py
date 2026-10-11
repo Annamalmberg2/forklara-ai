@@ -96,6 +96,7 @@ ROM2N = {"I": 1, "II": 2, "III": 3}
 header_html = forord = howto = tidslinje = personer = avsamma = ""
 chapters_html = []
 toc_rows = []
+ROM_ = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"]  # stiligare kapitelnr
 
 def esc_attr(t): return t
 
@@ -126,9 +127,10 @@ for h1, body in blocks:
         bits = left.split()
         kapword = bits[0]; numtok = bits[1] if len(bits) > 1 else ""
         if kapword == "Kapitel":
-            anchor = "kap-" + numtok; tocnum = numtok
+            rom = ROM_[int(numtok) - 1]
+            anchor = "kap-" + numtok; tocnum = rom; opennum = rom
         else:
-            anchor = "mellanspel-%d" % ROM2N.get(numtok, 0); tocnum = "✦"
+            anchor = "mellanspel-%d" % ROM2N.get(numtok, 0); tocnum = "✦"; opennum = numtok
         chapters_html.append(
             '  <section id="%s">\n'
             '    <div class="opener">\n'
@@ -137,7 +139,7 @@ for h1, body in blocks:
             '      <h2>%s</h2>\n'
             '    </div>\n'
             '    <div class="ford">\n%s\n    </div>\n'
-            '  </section>\n' % (anchor, numtok, kapword, inline(ttl), chapter_body(body)))
+            '  </section>\n' % (anchor, opennum, kapword, inline(ttl), chapter_body(body)))
         toc_label = inline(ttl) if kapword == "Kapitel" else (left + " — " + inline(ttl))
         toc_rows.append('      <li><span class="n">%s</span>'
                         '<span class="t"><a href="#%s">%s</a></span></li>'

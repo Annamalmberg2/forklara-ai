@@ -205,3 +205,6 @@ kyr=set('аеорсухіјѕАЕОРСТНКМВ')
 print("KYR homoglyfer:", sum(1 for c in out if c in kyr))
 # em-balans grovt
 print("em open/close:", out.count("<em>"), out.count("</em>"))
+# gör TOC klickbar (överlever ombygge)
+from gor_toc_klickbar import klickbar
+klickbar(ROOT + "/mega.html")
