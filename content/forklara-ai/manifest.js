@@ -6973,10 +6973,50 @@ window.LECTURE = {
         ]
       ],
       "relaterat": [
+        "mer-drommen",
         "mer-rosta-ratt",
         "mer-handslaget-avtal-mellan-manniskor"
       ],
       "anteckningar": "Tre böcker ur samma lek: En Bibel, Ett parti (Motvikten), En rörelse (MEGA).\n\nEn Bibel = handbok, inte helig skrift — räcker dig pennan, inte buden.\n\nEtt parti = test i stället för dogm; inte höger, inte vänster.\n\nEn rörelse = gör alla stora, ingen på någon annans bekostnad.\n\nSamma ryggrad: tänk själv, våga ha fel, lämna ingen liten."
+    },
+    {
+      "id": "mer-drommen",
+      "sektion": "960",
+      "titel": "Drömmen om den tänkande maskinen — min stora bok om AI:s historia",
+      "begrepp": [
+        "Drömmen om den tänkande maskinen",
+        "AI-historia",
+        "tidslinje",
+        "folkbildning"
+      ],
+      "anteckningar": "Min största bok: tretusen år av tankar om den tänkande maskinen.\n\nFrån en smedja i antiken till ett nattduksbord i natt — från världens alla hörn, inte bara väst.\n\nTolv kapitel, två mellanspel, en tidslinje och ett personregister.\n\nFristående boksida: öppna, läs, skriv ut som PDF, eller tryck Dela med AI.",
+      "lankar": [
+        [
+          "◂ Trilogin",
+          "#mer-trilogin",
+          "",
+          "Delar"
+        ],
+        [
+          "Innehåll ▸ (alla kort)",
+          "#oversikt",
+          "",
+          "Delar"
+        ],
+        [
+          "Öppna boken — Drömmen om den tänkande maskinen",
+          "https://annamalmberg2.github.io/forklara-ai/drommen.html"
+        ]
+      ],
+      "bilder": [
+        "Drömmen.png"
+      ],
+      "svar": "Min största bok: tretusen år av tankar om den tänkande maskinen, från en smedja till ett nattduksbord — från världens alla hörn, inte bara väst.",
+      "relaterat": [
+        "mer-trilogin",
+        "mer-rosta-ratt"
+      ],
+      "fordjupning": "<p class=\"ingress\">Det här är min största bok: en resa genom tretusen år av drömmar om den tänkande maskinen, från en smedja i antiken till ett nattduksbord i natt — och från världens alla hörn, inte bara väst.</p>\n<div class=\"section\"><div class=\"section-head\"><span class=\"concept\">Vad den är</span></div><div class=\"body\"><p>Tolv kapitel och två mellanspel om hur vi hamnade här: kungar och kodknäckare, vävare och fysiker, och kvinnorna som gjorde det avgörande arbetet medan andra fick äran. En tidslinje och ett personregister följer med.</p></div></div>\n<div class=\"future-box\"><div class=\"future-head\">Läs den</div><div class=\"future-body\">Öppna boken i webbläsaren via länken här bredvid. Där kan du läsa, skriva ut den som PDF, eller trycka \"Dela med AI\" och gå på egen upptäcktsfärd i källorna.</div></div>"
     },
     {
       "id": "mer-rosta-ratt",

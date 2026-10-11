@@ -142,7 +142,7 @@ efter = """  <section class="efter">
     </div>
     <div class="colophon">
       En rörelse · MEGA — Make Everybody Great Again<br>
-      Av Anna Malmberg — samma verkstad som Förklara AI, En Bibel och Motvikten.<br>
+      Av Anna Malmberg — samma verkstad som Förklara AI, En Bibel, Motvikten och den stora boken Drömmen om den tänkande maskinen.<br>
       Inte America. Everybody. (Och till mitt försvar: min pappa sa bara ett ord fel.) ✦
     </div>
   </section>
