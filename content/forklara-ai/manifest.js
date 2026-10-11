@@ -11637,6 +11637,10 @@ window.LECTURE = {
       "https://annamalmberg2.github.io/forklara-ai/mega.html"
     ],
     [
+      "Drömmen om den tänkande maskinen · hela boken",
+      "https://annamalmberg2.github.io/forklara-ai/drommen.html"
+    ],
+    [
       "Utblickar · hela boken",
       "https://annamalmberg2.github.io/forklara-ai/utblickar.html"
     ],
