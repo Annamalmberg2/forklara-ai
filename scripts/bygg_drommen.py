@@ -295,3 +295,113 @@ print("em open/close:", out.count("<em>"), out.count("</em>"),
       "| strong:", out.count("<strong>"), out.count("</strong>"))
 print("KYR homoglyfer:", sum(1 for c in out if c in kyr))
 print("TOC-rader:", len(toc_rows))
+
+# ---- 9. generera sektion "13 · Drömmen" som KORT i manifestet --------------
+COVER = "Drömmen.png"
+
+def first_sentence(lines):
+    for ln in lines:
+        s = ln.strip()
+        if not s or s.startswith("## ") or s.startswith("- "):
+            continue
+        m = re.match(r'(.+?[.!?])(\s|$)', s)
+        return (m.group(1) if m else s).strip()
+    return ""
+
+def subtitles(lines):
+    out = []
+    for ln in lines:
+        m = re.match(r'^## (.+)$', ln)
+        if m: out.append(m.group(1).strip())
+    return out
+
+def timeline_inner(lines):
+    rows = []
+    for ln in lines:
+        s = ln.strip()
+        if s.startswith("- "):
+            m = re.match(r'\*\*(.+?)\*\*\s*(.*)$', s[2:])
+            if m:
+                rows.append('<div class="tl-row"><span class="tl-year">%s</span>'
+                            '<span class="tl-text">%s</span></div>'
+                            % (inline(m.group(1)), inline(m.group(2))))
+    return '<div class="timeline">%s</div>' % "".join(rows)
+
+def persons_inner(lines):
+    rows = []
+    for ln in lines:
+        s = ln.strip()
+        if s.startswith("- "):
+            rows.append('<p class="person">%s</p>' % inline(s[2:]))
+    return '<div class="persons">%s</div>' % "".join(rows)
+
+specs = []   # (id, titel, svar, fordjupning, begrepp, bokanchor)
+for h1, body in blocks:
+    if h1 == "Förord":
+        specs.append(("drommen-forord", "Förord", first_sentence(body), paras(body), [], "forord"))
+    elif h1.startswith("Kapitel") or h1.startswith("Mellanspel"):
+        parts = re.split(r'\s[–-]\s', h1, 1)
+        left = parts[0].strip(); ttl = parts[1].strip() if len(parts) > 1 else ""
+        bits = left.split(); kapword = bits[0]; numtok = bits[1] if len(bits) > 1 else ""
+        if kapword == "Kapitel":
+            cid = "drommen-%s" % numtok; anchor = "kap-%s" % numtok
+            titel = "Kapitel %s · %s" % (numtok, ttl)
+        else:
+            n = ROM2N.get(numtok, 0); cid = "drommen-m%d" % n; anchor = "mellanspel-%d" % n
+            titel = "Mellanspel %s · %s" % (numtok, ttl)
+        specs.append((cid, titel, first_sentence(body), chapter_body(body), subtitles(body), anchor))
+    elif h1 == "Tidslinje":
+        specs.append(("drommen-tidslinje", "Tidslinje", first_sentence(body), timeline_inner(body), [], "tidslinje"))
+    elif h1 == "Personer i boken":
+        specs.append(("drommen-personer", "Personer i boken", first_sentence(body), persons_inner(body), [], "personer"))
+
+# bygg kort-dictar med omslag + grann-navigation
+kort_nya = []
+for idx, (cid, titel, svar, ford, begrepp, anchor) in enumerate(specs):
+    lankar = []
+    if idx > 0:
+        p = specs[idx - 1]; lankar.append(["◂ " + p[1], "#" + p[0], "", "Kapitel"])
+    if idx < len(specs) - 1:
+        n = specs[idx + 1]; lankar.append([n[1] + " ▸", "#" + n[0], "", "Kapitel"])
+    lankar.append(["Läs i boken ▸", "drommen.html#" + anchor, "Hela avsnittet i bokform.", "Läs som bok"])
+    lankar.append(["Hela boken – Drömmen", "drommen.html", "Läs allt, skriv ut, eller Dela med AI.", "Läs som bok"])
+    kort_nya.append({
+        "id": cid, "sektion": "drommen", "titel": titel,
+        "begrepp": begrepp, "anteckningar": "",
+        "lankar": lankar, "bilder": [COVER],
+        "svar": svar or titel, "fordjupning": ford,
+    })
+
+# uppdatera manifestet
+MAN = ROOT + "/content/forklara-ai/manifest.js"
+s2 = io.open(MAN, encoding="utf-8").read()
+PRE = "window.LECTURE = "
+h2, t2 = s2[:s2.index(PRE) + len(PRE)], s2[s2.rfind(";"):]
+L = json.loads(s2[s2.index(PRE) + len(PRE):s2.rfind(";")])
+
+# rensa gammalt (idempotent): gamla drommen-kort + pekar-kortet mer-drommen
+L["kort"] = [k for k in L["kort"] if not str(k.get("id", "")).startswith("drommen-") and k.get("id") != "mer-drommen"]
+for k in L["kort"]:
+    if isinstance(k.get("relaterat"), list) and "mer-drommen" in k["relaterat"]:
+        k["relaterat"] = [r for r in k["relaterat"] if r != "mer-drommen"]
+
+# sätt in de nya korten efter sista 'rorelse'-kortet (grupperat)
+sist_ror = max((i for i, k in enumerate(L["kort"]) if str(k.get("sektion")) == "rorelse"),
+               default=len(L["kort"]) - 1)
+L["kort"][sist_ror + 1:sist_ror + 1] = kort_nya
+
+# sektions-metadata: '13 · Drömmen...' direkt efter '12 · En rörelse' (id rorelse)
+L["sektioner"] = [sek for sek in L["sektioner"] if sek.get("id") != "drommen"]
+sek_ny = {"id": "drommen", "namn": "13 · Drömmen om den tänkande maskinen", "bakom": True, "nyckel": None}
+ri = next((i for i, sek in enumerate(L["sektioner"]) if sek.get("id") == "rorelse"), len(L["sektioner"]) - 1)
+L["sektioner"].insert(ri + 1, sek_ny)
+
+man_out = h2 + json.dumps(L, ensure_ascii=False, indent=2) + t2
+json.loads(man_out[man_out.index(PRE) + len(PRE):man_out.rfind(";")])
+assert sum(1 for c in man_out if c in kyr) == 0, "KYR i manifest!"
+io.open(MAN, "w", encoding="utf-8").write(man_out)
+print("\nSEKTION 13: skrev", len(kort_nya), "kort till manifestet (sektion 'drommen')")
+print("  ordning:", [k["id"] for k in kort_nya])
+print("  alla har omslag:", all(k["bilder"] == [COVER] for k in kort_nya),
+      "| begrepp är listor:", all(isinstance(k["begrepp"], list) for k in kort_nya))
+print("  manifest KYR:", sum(1 for c in man_out if c in kyr))
