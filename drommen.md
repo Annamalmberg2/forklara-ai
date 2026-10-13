@@ -28,7 +28,7 @@ Håll inte med om allt. Pröva det i stället. Det är, när allt kommer omkring
 
 # Så kan du använda boken
 
-Boken är fri. Du kan läsa den och skriva ut den gratis på https://annamalmberg2.github.io/forklara-ai/drommen.html. Den finns också som podd, med annat kringmaterial, i [Gemini Notebook](https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d).
+Boken är fri. Du kan läsa den och skriva ut den gratis på https://erbjudanden.ainnova.se/bocker. Den finns också som podd, med annat kringmaterial, i [Gemini Notebook](https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d).
 
 Du hittar inga fotnoter. I stället finns en knapp: Dela med AI. Ett tryck ger dig hela boken i Markdown, ett enkelt textformat som AI-modeller läser lätt. Klistra in den i vilken AI du vill och gå på egen upptäcktsfärd. Be den gräva fram källorna, syna ett påstående eller väga det jag skriver mot det du själv har varit med om. Vill du hellre läsa på papper gör knappen Skriv ut boken en PDF åt dig.
 

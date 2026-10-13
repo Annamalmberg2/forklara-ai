@@ -19,8 +19,9 @@ IMG  = "https://annamalmberg2.github.io/forklara-ai/content/forklara-ai/bilder/D
 # ---- 1. läs + processa markdownen -----------------------------------------
 md = io.open(SRC, encoding="utf-8").read()
 
-# [länk kommer] → publiceringsadressen (öppen punkt i överlämningen)
-md = md.replace("[länk kommer]", URL)
+# [länk kommer] → den korta, knappbara adressen (hubben), inte github-URL:en
+LAS = "https://erbjudanden.ainnova.se/bocker"
+md = md.replace("[länk kommer]", LAS)
 
 # FIX: 'Av samma författare'-länkarna var förväxlade (En rörelse↔Ett parti)
 md = md.replace(
