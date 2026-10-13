@@ -16,10 +16,9 @@ ROOT = __file__.rsplit("/scripts/", 1)[0]
 def klickbar(path):
     html = io.open(path, encoding="utf-8").read()
 
-    # 0) nollställ ev. tidigare körning (idempotent)
+    # 0) nollställ ev. tidigare körning (idempotent, robust mot båda formerna)
     html = re.sub(r'<section id="kap-\d+">', '<section>', html)
-    html = re.sub(r'<span class="t"><a href="#kap-\d+">(.*?)</a></span>',
-                  r'<span class="t">\1</span>', html, flags=re.S)
+    html = re.sub(r'<a href="#kap-\d+">(.*?)</a>', r'\1', html, flags=re.S)
 
     # 1) ge varje kapitel-section (de med .opener direkt efter) ett id
     sec = {"n": 0}
@@ -29,10 +28,15 @@ def klickbar(path):
     html = re.sub(r'<section>(\s*<div class="opener">)', id_section, html)
 
     # 2) linda varje TOC-rads titel i en länk till rätt kapitel
+    # LÄNKA BARA TITELN (första raden), lämna .q (andra raden) olänkad
     toc = {"n": 0}
     def link_toc(m):
         toc["n"] += 1
-        return '%s<a href="#kap-%d">%s</a>%s' % (m.group(1), toc["n"], m.group(2), m.group(3))
+        inner = m.group(2)
+        i = inner.find('<span class="q"')
+        titel = inner if i < 0 else inner[:i]
+        rest  = ""   if i < 0 else inner[i:]
+        return '%s<a href="#kap-%d">%s</a>%s%s' % (m.group(1), toc["n"], titel, rest, m.group(3))
     html = re.sub(r'(<li><span class="n">[^<]*</span><span class="t">)(.*?)(</span></li>)',
                   link_toc, html, flags=re.S)
 
