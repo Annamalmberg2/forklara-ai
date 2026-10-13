@@ -25,7 +25,11 @@ CSS = """
     padding:0 15px;border-radius:19px;border:1px solid var(--hair);background:var(--paper);
     color:var(--gold);cursor:pointer;}
   .kopiera-docs:hover{border-color:var(--gold);}
-  @media print{.bok-knappar{display:none;}}"""
+  @media print{.bok-knappar{display:none;}
+    .opener{page-break-inside:avoid;break-inside:avoid;}
+    .toc{page-break-before:always;}
+    .toc li{page-break-inside:avoid;break-inside:avoid;}
+    .foreword,.efter,.colophon{page-break-inside:avoid;}}"""
 
 HANDLER = """
 <script>

@@ -280,6 +280,15 @@
   @media(max-width:620px){.persons{columns:1;}.tl-year{min-width:92px;}}
   @media print{.persons{columns:2;}.tl-row,.person{page-break-inside:avoid;}}
 
+
+  /* PRINT_PUTS: snyggare sidbrytningar i utskrift */
+  @media print{
+    .opener{page-break-inside:avoid;break-inside:avoid;}
+    .toc{page-break-before:always;}
+    .toc li{page-break-inside:avoid;break-inside:avoid;}
+    .foreword,.efter,.colophon{page-break-inside:avoid;}
+    .ford .section{page-break-inside:auto;}
+  }
 </style>
 </head>
 <body>

@@ -260,6 +260,15 @@
     color:var(--gold);cursor:pointer;}
   .kopiera-docs:hover{border-color:var(--gold);}
   @media print{.bok-knappar{display:none;}}
+
+  /* PRINT_PUTS: snyggare sidbrytningar i utskrift */
+  @media print{
+    .opener{page-break-inside:avoid;break-inside:avoid;}
+    .toc{page-break-before:always;}
+    .toc li{page-break-inside:avoid;break-inside:avoid;}
+    .foreword,.efter,.colophon{page-break-inside:avoid;}
+    .ford .section{page-break-inside:auto;}
+  }
 </style>
 <body>
 <div class="bok-knappar">
