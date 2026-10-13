@@ -104,7 +104,7 @@ I Aten undervisade Aristoteles på 300-talet f.v.t. Han upptäckte något som l�
 
 Det är svårt att överdriva vad det betydde. Om giltigheten sitter i formen och inte i innehållet, då kan man i princip kontrollera ett resonemang utan att förstå vad det handlar om. Man behöver bara följa reglerna. Det är fröet till tanken att resonerande kan mekaniseras.
 
-Aristoteles tänkte också på maskinerna. I sitt filosofiska verk Politik leker han med tanken att varje redskap kunde utföra sitt arbete på befallning, som Hefaistos trefötter som rullade in till gudarna av egen kraft. Då, skriver han, skulle mästaren inte behöva några medhjälpare och husbonden inga slavar. De första reflekterande tankarna om automation var alltså redan från början tankar om arbete, och om vilka som slipper det.
+Aristoteles tänkte också på maskinerna. I sitt filosofiska verk Politiken leker han med tanken att varje redskap kunde utföra sitt arbete på befallning, som Hefaistos trefötter som rullade in till gudarna av egen kraft. Då, skriver han, skulle mästaren inte behöva några medhjälpare och husbonden inga slavar. De första reflekterande tankarna om automation var alltså redan från början tankar om arbete, och om vilka som slipper det.
 
 I Indien växte under samma epok Nyaya-skolan fram, en filosofisk tradition som gjorde läran om giltig kunskap till sitt huvudämne. Dess grundtext, Nyaya-sutrorna, tillskrivs tänkaren Gautama, även kallad Akshapada. Dateringen är osäker, men traditionen har rötter flera hundra år f.v.t.
 
