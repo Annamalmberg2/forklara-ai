@@ -2861,6 +2861,18 @@ window.LECTURE = {
           "drommen.html",
           "Läs allt, skriv ut, eller Dela med AI.",
           "Läs som bok"
+        ],
+        [
+          "NotebookLM · 12 okt 2026",
+          "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
+          "Boken som ljudöversikt och kringmaterial (nyare).",
+          "NotebookLM"
+        ],
+        [
+          "NotebookLM · 30 sep 2026",
+          "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
+          "Boken som ljudöversikt och kringmaterial (version 1).",
+          "NotebookLM"
         ]
       ],
       "bilder": [
@@ -2909,6 +2921,18 @@ window.LECTURE = {
           "drommen.html",
           "Läs allt, skriv ut, eller Dela med AI.",
           "Läs som bok"
+        ],
+        [
+          "NotebookLM · 12 okt 2026",
+          "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
+          "Boken som ljudöversikt och kringmaterial (nyare).",
+          "NotebookLM"
+        ],
+        [
+          "NotebookLM · 30 sep 2026",
+          "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
+          "Boken som ljudöversikt och kringmaterial (version 1).",
+          "NotebookLM"
         ]
       ],
       "bilder": [
@@ -2956,6 +2980,18 @@ window.LECTURE = {
           "drommen.html",
           "Läs allt, skriv ut, eller Dela med AI.",
           "Läs som bok"
+        ],
+        [
+          "NotebookLM · 12 okt 2026",
+          "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
+          "Boken som ljudöversikt och kringmaterial (nyare).",
+          "NotebookLM"
+        ],
+        [
+          "NotebookLM · 30 sep 2026",
+          "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
+          "Boken som ljudöversikt och kringmaterial (version 1).",
+          "NotebookLM"
         ]
       ],
       "bilder": [
@@ -3003,6 +3039,18 @@ window.LECTURE = {
           "drommen.html",
           "Läs allt, skriv ut, eller Dela med AI.",
           "Läs som bok"
+        ],
+        [
+          "NotebookLM · 12 okt 2026",
+          "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
+          "Boken som ljudöversikt och kringmaterial (nyare).",
+          "NotebookLM"
+        ],
+        [
+          "NotebookLM · 30 sep 2026",
+          "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
+          "Boken som ljudöversikt och kringmaterial (version 1).",
+          "NotebookLM"
         ]
       ],
       "bilder": [
@@ -3049,6 +3097,18 @@ window.LECTURE = {
           "drommen.html",
           "Läs allt, skriv ut, eller Dela med AI.",
           "Läs som bok"
+        ],
+        [
+          "NotebookLM · 12 okt 2026",
+          "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
+          "Boken som ljudöversikt och kringmaterial (nyare).",
+          "NotebookLM"
+        ],
+        [
+          "NotebookLM · 30 sep 2026",
+          "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
+          "Boken som ljudöversikt och kringmaterial (version 1).",
+          "NotebookLM"
         ]
       ],
       "bilder": [
@@ -3096,6 +3156,18 @@ window.LECTURE = {
           "drommen.html",
           "Läs allt, skriv ut, eller Dela med AI.",
           "Läs som bok"
+        ],
+        [
+          "NotebookLM · 12 okt 2026",
+          "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
+          "Boken som ljudöversikt och kringmaterial (nyare).",
+          "NotebookLM"
+        ],
+        [
+          "NotebookLM · 30 sep 2026",
+          "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
+          "Boken som ljudöversikt och kringmaterial (version 1).",
+          "NotebookLM"
         ]
       ],
       "bilder": [
@@ -3143,6 +3215,18 @@ window.LECTURE = {
           "drommen.html",
           "Läs allt, skriv ut, eller Dela med AI.",
           "Läs som bok"
+        ],
+        [
+          "NotebookLM · 12 okt 2026",
+          "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
+          "Boken som ljudöversikt och kringmaterial (nyare).",
+          "NotebookLM"
+        ],
+        [
+          "NotebookLM · 30 sep 2026",
+          "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
+          "Boken som ljudöversikt och kringmaterial (version 1).",
+          "NotebookLM"
         ]
       ],
       "bilder": [
@@ -3199,6 +3283,18 @@ window.LECTURE = {
           "drommen.html",
           "Läs allt, skriv ut, eller Dela med AI.",
           "Läs som bok"
+        ],
+        [
+          "NotebookLM · 12 okt 2026",
+          "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
+          "Boken som ljudöversikt och kringmaterial (nyare).",
+          "NotebookLM"
+        ],
+        [
+          "NotebookLM · 30 sep 2026",
+          "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
+          "Boken som ljudöversikt och kringmaterial (version 1).",
+          "NotebookLM"
         ]
       ],
       "bilder": [
@@ -3253,6 +3349,18 @@ window.LECTURE = {
           "drommen.html",
           "Läs allt, skriv ut, eller Dela med AI.",
           "Läs som bok"
+        ],
+        [
+          "NotebookLM · 12 okt 2026",
+          "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
+          "Boken som ljudöversikt och kringmaterial (nyare).",
+          "NotebookLM"
+        ],
+        [
+          "NotebookLM · 30 sep 2026",
+          "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
+          "Boken som ljudöversikt och kringmaterial (version 1).",
+          "NotebookLM"
         ]
       ],
       "bilder": [
@@ -3300,6 +3408,18 @@ window.LECTURE = {
           "drommen.html",
           "Läs allt, skriv ut, eller Dela med AI.",
           "Läs som bok"
+        ],
+        [
+          "NotebookLM · 12 okt 2026",
+          "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
+          "Boken som ljudöversikt och kringmaterial (nyare).",
+          "NotebookLM"
+        ],
+        [
+          "NotebookLM · 30 sep 2026",
+          "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
+          "Boken som ljudöversikt och kringmaterial (version 1).",
+          "NotebookLM"
         ]
       ],
       "bilder": [
@@ -3345,6 +3465,18 @@ window.LECTURE = {
           "drommen.html",
           "Läs allt, skriv ut, eller Dela med AI.",
           "Läs som bok"
+        ],
+        [
+          "NotebookLM · 12 okt 2026",
+          "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
+          "Boken som ljudöversikt och kringmaterial (nyare).",
+          "NotebookLM"
+        ],
+        [
+          "NotebookLM · 30 sep 2026",
+          "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
+          "Boken som ljudöversikt och kringmaterial (version 1).",
+          "NotebookLM"
         ]
       ],
       "bilder": [
@@ -3391,6 +3523,18 @@ window.LECTURE = {
           "drommen.html",
           "Läs allt, skriv ut, eller Dela med AI.",
           "Läs som bok"
+        ],
+        [
+          "NotebookLM · 12 okt 2026",
+          "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
+          "Boken som ljudöversikt och kringmaterial (nyare).",
+          "NotebookLM"
+        ],
+        [
+          "NotebookLM · 30 sep 2026",
+          "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
+          "Boken som ljudöversikt och kringmaterial (version 1).",
+          "NotebookLM"
         ]
       ],
       "bilder": [
@@ -3437,6 +3581,18 @@ window.LECTURE = {
           "drommen.html",
           "Läs allt, skriv ut, eller Dela med AI.",
           "Läs som bok"
+        ],
+        [
+          "NotebookLM · 12 okt 2026",
+          "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
+          "Boken som ljudöversikt och kringmaterial (nyare).",
+          "NotebookLM"
+        ],
+        [
+          "NotebookLM · 30 sep 2026",
+          "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
+          "Boken som ljudöversikt och kringmaterial (version 1).",
+          "NotebookLM"
         ]
       ],
       "bilder": [
@@ -3475,6 +3631,18 @@ window.LECTURE = {
           "drommen.html",
           "Läs allt, skriv ut, eller Dela med AI.",
           "Läs som bok"
+        ],
+        [
+          "NotebookLM · 12 okt 2026",
+          "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
+          "Boken som ljudöversikt och kringmaterial (nyare).",
+          "NotebookLM"
+        ],
+        [
+          "NotebookLM · 30 sep 2026",
+          "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
+          "Boken som ljudöversikt och kringmaterial (version 1).",
+          "NotebookLM"
         ]
       ],
       "bilder": [
@@ -3507,6 +3675,18 @@ window.LECTURE = {
           "drommen.html",
           "Läs allt, skriv ut, eller Dela med AI.",
           "Läs som bok"
+        ],
+        [
+          "NotebookLM · 12 okt 2026",
+          "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
+          "Boken som ljudöversikt och kringmaterial (nyare).",
+          "NotebookLM"
+        ],
+        [
+          "NotebookLM · 30 sep 2026",
+          "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
+          "Boken som ljudöversikt och kringmaterial (version 1).",
+          "NotebookLM"
         ]
       ],
       "bilder": [

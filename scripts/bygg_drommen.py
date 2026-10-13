@@ -429,6 +429,9 @@ for idx, (cid, titel, svar, ford, begrepp, anchor) in enumerate(specs):
         n = specs[idx + 1]; lankar.append([n[1] + " ▸", "#" + n[0], "", "Kapitel"])
     lankar.append(["Läs i boken ▸", "drommen.html#" + anchor, "Hela avsnittet i bokform.", "Läs som bok"])
     lankar.append(["Hela boken – Drömmen", "drommen.html", "Läs allt, skriv ut, eller Dela med AI.", "Läs som bok"])
+    # NotebookLM — boken som podd/ljudöversikt med kringmaterial (två versioner)
+    lankar.append(["NotebookLM · 12 okt 2026", "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161", "Boken som ljudöversikt och kringmaterial (nyare).", "NotebookLM"])
+    lankar.append(["NotebookLM · 30 sep 2026", "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d", "Boken som ljudöversikt och kringmaterial (version 1).", "NotebookLM"])
     kort_nya.append({
         "id": cid, "sektion": "drommen", "titel": titel,
         "begrepp": begrepp, "anteckningar": "",
