@@ -159,6 +159,8 @@ def rebuild(fname, bodies, n_kap, toc_title):
     io.open(p, "w", encoding="utf-8").write(new)
     from gor_toc_klickbar import klickbar      # gör TOC klickbar (överlever ombygge)
     klickbar(p)
+    from lagg_docs_knapp import installera     # Kopiera för Google Docs-knapp
+    installera(p)
     return new
 
 # naturlag: kapitelkropp = <div class="ford">…</div> (speglar samlingskortet)

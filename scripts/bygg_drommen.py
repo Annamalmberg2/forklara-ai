@@ -286,6 +286,8 @@ out = (head + "</head>\n<body>\n" + buttons + '<div class="wrap">\n\n'
        + "".join(chapters_html) + "\n" + tidslinje + personer + avsamma
        + colophon + "\n</div>\n" + tail)
 io.open(ROOT + "/drommen.html", "w", encoding="utf-8").write(out)
+from lagg_docs_knapp import installera          # Kopiera för Google Docs-knapp
+installera(ROOT + "/drommen.html")
 
 # ---- 8. validering ---------------------------------------------------------
 kyr = set("аеорсухіјѕАЕОРСТНКМВ")

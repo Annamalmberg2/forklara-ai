@@ -208,3 +208,5 @@ print("em open/close:", out.count("<em>"), out.count("</em>"))
 # gör TOC klickbar (överlever ombygge)
 from gor_toc_klickbar import klickbar
 klickbar(ROOT + "/mega.html")
+from lagg_docs_knapp import installera
+installera(ROOT + "/mega.html")
