@@ -3,7 +3,7 @@
     "id": "130-05",
     "sektion": "130",
     "titel": "Böckerna — flaggskeppet, trilogin och linserna",
-    "text": "Här är mina böcker, samlade. Alla är fria att läsa, skriva ut och dela, under Creative Commons CC BY 4.0.\n\nDrömmen om den tänkande maskinen är flaggskeppet: min största bok, tretusen år av tankar om AI från världens alla hörn — från en smedja till ett nattduksbord. Den finns också som podd och samtalspartner i NotebookLM.\n\nTrilogin hör ihop, tre korta böcker ur samma verkstad: En Bibel, Ett parti och En rörelse.\n\nFörklara AI är själva föreläsningen, samlad som läsbok.\n\nUtblickar och Är det en naturlag? står för sig själva, som två linser snarare än kapitel. I Drömmen valde jag medvetet att inte ha dem som egna avdelningar — men tanken bakom Utblickar, att vägra den vita, västerländska standardberättelsen, blev precis den form hela boken vilar på. Linsen blev inte ett kapitel. Den blev bokens blick.",
+    "text": "Här är mina böcker, samlade. Alla är fria att läsa, skriva ut och dela, under Creative Commons CC BY 4.0.\n\nDrömmen om den tänkande maskinen är flaggskeppet: min största bok, tretusen år av tankar om AI från världens alla hörn — från en smedja till ett nattduksbord. Den finns också som podd och samtalspartner i NotebookLM.\n\nTrilogin hör ihop, tre korta böcker ur samma verkstad: En Bibel, Ett parti och En rörelse.\n\nFörklara AI är själva föreläsningen, samlad som läsbok.\n\nUtblickar och Är det en naturlag? står för sig själva, som två linser snarare än kapitel. I Drömmen valde jag medvetet att inte ha dem som egna avdelningar — men tanken bakom Utblickar, att vägra den vita, västerländska standardberättelsen, blev precis den form hela boken vilar på. Linsen blev inte ett kapitel. Den blev bokens blick.\n\nVid sidan av böckerna finns annat jag skrivit och byggt: bloggen, ett etiskt regelverk för AI, och en citatgenerator där världens visdom möter AiNNOVAs filosofi.",
     "lankar": [
       [
         "Läs Drömmen om den tänkande maskinen",
@@ -52,6 +52,24 @@
         "https://annamalmberg2.github.io/forklara-ai/naturlag.html",
         "De fyra sätten något luras att kännas som en lag.",
         "Linserna"
+      ],
+      [
+        "Bloggen — Anteckningar från här och nu",
+        "https://wisdom-streamer.lovable.app/",
+        "Tankar om AI, arbete, kropp och vardag, samlat och sökbart för alla.",
+        "Övrigt skrivande"
+      ],
+      [
+        "Ett etiskt regelverk för AI-system",
+        "https://open-weave-ai.lovable.app/",
+        "Tio grundprinciper för algoritmer som tjänar alla — utan dominans.",
+        "Övrigt skrivande"
+      ],
+      [
+        "AiNNOVAs Ord",
+        "https://ainnovas-wisdom-keeper.lovable.app/",
+        "Världens visdom möter AiNNOVAs filosofi — en citatgenerator med spel.",
+        "Övrigt skrivande"
       ]
     ],
     "anteckningar": "Flaggskeppet Drömmen först, sen trilogin, Förklara AI, och linserna (Utblickar + naturlagen) som står för sig själva. Linserna är inte med som delar i Drömmen — men Utblickar-tanken, blicken bortom väst, formade hela den boken.",
