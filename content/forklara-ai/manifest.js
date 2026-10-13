@@ -7908,59 +7908,59 @@ window.LECTURE = {
     {
       "id": "130-05",
       "sektion": "130",
-      "titel": "Böckerna — läs & skriv ut",
-      "text": null,
+      "titel": "Böckerna — flaggskeppet, trilogin och linserna",
+      "text": "Här är mina böcker, samlade. Alla är fria att läsa, skriva ut och dela, under Creative Commons CC BY 4.0.\n\nDrömmen om den tänkande maskinen är flaggskeppet: min största bok, tretusen år av tankar om AI från världens alla hörn — från en smedja till ett nattduksbord. Den finns också som podd och samtalspartner i NotebookLM.\n\nTrilogin hör ihop, tre korta böcker ur samma verkstad: En Bibel, Ett parti och En rörelse.\n\nFörklara AI är själva föreläsningen, samlad som läsbok.\n\nUtblickar och Är det en naturlag? står för sig själva, som två linser snarare än kapitel. I Drömmen valde jag medvetet att inte ha dem som egna avdelningar — men tanken bakom Utblickar, att vägra den vita, västerländska standardberättelsen, blev precis den form hela boken vilar på. Linsen blev inte ett kapitel. Den blev bokens blick.",
       "lankar": [
         [
-          "Läs hela boken",
+          "Läs Drömmen om den tänkande maskinen",
           "https://annamalmberg2.github.io/forklara-ai/drommen.html",
-          "Tretusen år av tankar om AI, från världens alla hörn.",
-          "Drömmen om den tänkande maskinen"
+          "Min största bok — tretusen år av tankar om AI, från världens alla hörn.",
+          "Drömmen · flaggskeppet"
         ],
         [
-          "Läs hela boken",
+          "Lyssna som podd (NotebookLM)",
+          "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
+          "Boken som ljudöversikt och samtalspartner.",
+          "Drömmen · flaggskeppet"
+        ],
+        [
+          "En Bibel",
+          "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
+          "En sekulär handbok i tio kapitel — som räcker dig pennan, inte buden.",
+          "Trilogin"
+        ],
+        [
+          "Ett parti (Motvikten)",
+          "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
+          "Inte höger, inte vänster — de test varje förslag måste tåla.",
+          "Trilogin"
+        ],
+        [
+          "En rörelse (MEGA)",
+          "https://annamalmberg2.github.io/forklara-ai/mega.html",
+          "Make Everybody Great Again — född ur ett felsagt ord.",
+          "Trilogin"
+        ],
+        [
+          "Förklara AI",
           "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
-          "Förklara AI som läsbok.",
+          "Själva föreläsningen som läsbok.",
           "Förklara AI"
         ],
         [
-          "Läs hela boken",
-          "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
-          "En Bibel som läsbok.",
-          "En Bibel"
-        ],
-        [
-          "Läs hela boken",
-          "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
-          "Motvikten som läsbok.",
-          "Ett parti"
-        ],
-        [
-          "Läs hela boken",
-          "https://annamalmberg2.github.io/forklara-ai/mega.html",
-          "En rörelse — MEGA, som läsbok.",
-          "En rörelse"
-        ],
-        [
-          "Läs hela boken",
+          "Utblickar",
           "https://annamalmberg2.github.io/forklara-ai/utblickar.html",
-          "Utblickar som läsbok.",
-          "Utblickar"
+          "Fönster mot världens visdom bortom väst.",
+          "Linserna"
         ],
         [
-          "Läs hela boken",
+          "Är det en naturlag?",
           "https://annamalmberg2.github.io/forklara-ai/naturlag.html",
-          "De fyra mönstren, samlade.",
-          "Är det en naturlag?"
-        ],
-        [
-          "Skriv ut hela boken",
-          "https://annamalmberg2.github.io/forklara-ai/naturlag.html?print=1",
-          "Skickas till din skrivare.",
-          "Är det en naturlag?"
+          "De fyra sätten något luras att kännas som en lag.",
+          "Linserna"
         ]
       ],
-      "anteckningar": null,
+      "anteckningar": "Flaggskeppet Drömmen först, sen trilogin, Förklara AI, och linserna (Utblickar + naturlagen) som står för sig själva. Linserna är inte med som delar i Drömmen — men Utblickar-tanken, blicken bortom väst, formade hela den boken.",
       "svar": ""
     },
     {
