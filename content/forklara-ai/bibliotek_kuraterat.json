@@ -8,55 +8,61 @@
       [
         "Läs Drömmen om den tänkande maskinen",
         "https://annamalmberg2.github.io/forklara-ai/drommen.html",
-        "Min största bok — tretusen år av tankar om AI, från världens alla hörn.",
+        "Min största bok. En resa genom tretusen år av drömmar om den tänkande maskinen — från en smedja i antiken till ett nattduksbord i natt, och från världens alla hörn, inte bara väst. Tolv kapitel, två mellanspel, tidslinje och personregister.",
         "Drömmen · flaggskeppet"
       ],
       [
-        "Lyssna som podd (NotebookLM)",
+        "Lyssna som podd — NotebookLM, 12 okt 2026",
         "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
-        "Boken som ljudöversikt och samtalspartner.",
+        "Boken som AI-genererad ljudöversikt och samtalspartner — ställ egna frågor och gräv i källorna. Nyare versionen.",
+        "Drömmen · flaggskeppet"
+      ],
+      [
+        "Lyssna som podd — NotebookLM, 30 sep 2026",
+        "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
+        "Samma guldgruva, byggd på den första versionen av boken.",
         "Drömmen · flaggskeppet"
       ],
       [
         "En Bibel",
         "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
-        "En sekulär handbok i tio kapitel — som räcker dig pennan, inte buden.",
+        "En sekulär handbok i tio kapitel — från vetenskap och universum till lyckan. En bibel som inte ber dig tro, utan räcker dig pennan.",
         "Trilogin"
       ],
       [
         "Ett parti (Motvikten)",
         "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
-        "Inte höger, inte vänster — de test varje förslag måste tåla.",
+        "Ett parti man inte kan rösta på, men som ställer frågorna varje parti borde tåla. Inte höger, inte vänster — de test varje förslag måste klara. Ditt eget först.",
         "Trilogin"
       ],
       [
         "En rörelse (MEGA)",
         "https://annamalmberg2.github.io/forklara-ai/mega.html",
-        "Make Everybody Great Again — född ur ett felsagt ord.",
+        "Make Everybody Great Again — inte America, Everybody. Född ur ett felsagt ord vid köksbordet: behåll känslan, vänd på vem den gäller.",
         "Trilogin"
       ],
       [
         "Förklara AI",
         "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
-        "Själva föreläsningen som läsbok.",
+        "Hela den folkbildande föreläsningen om AI, samlad som läsbok — från var vi börjar till vad du tar med dig.",
         "Förklara AI"
       ],
       [
         "Utblickar",
         "https://annamalmberg2.github.io/forklara-ai/utblickar.html",
-        "Fönster mot världens visdom bortom väst.",
+        "Fönster mot världens visdom bortom väst — den vidare blicken, samlad från sju håll: Mellanöstern, Indien, Östasien, Afrika, urfolken, Europa och de mönster som återkommer överallt.",
         "Linserna"
       ],
       [
         "Är det en naturlag?",
         "https://annamalmberg2.github.io/forklara-ai/naturlag.html",
-        "De fyra sätten något luras att kännas som en lag.",
+        "De fyra sätten något luras att kännas som en naturlag: det som känns evigt men är ungt, universellt men lokalt, naturligt men designat, oundvikligt men statistiskt inte.",
         "Linserna"
       ],
       [
         "Bloggen — Anteckningar från här och nu",
         "https://wisdom-streamer.lovable.app/",
-        "Tankar om AI, arbete, kropp och vardag, samlat och sökbart för alla.",
+        "Tankar om AI, arbete, kropp och vardag, samlat på ett ställe och sökbart för alla.",
         "Övrigt skrivande"
       ],
       [
@@ -68,11 +74,11 @@
       [
         "AiNNOVAs Ord",
         "https://ainnovas-wisdom-keeper.lovable.app/",
-        "Världens visdom möter AiNNOVAs filosofi — en citatgenerator med spel.",
+        "Världens visdom möter AiNNOVAs filosofi — en citatgenerator med ett litet spel.",
         "Övrigt skrivande"
       ]
     ],
-    "anteckningar": "Flaggskeppet Drömmen först, sen trilogin, Förklara AI, och linserna (Utblickar + naturlagen) som står för sig själva. Linserna är inte med som delar i Drömmen — men Utblickar-tanken, blicken bortom väst, formade hela den boken.",
+    "anteckningar": "Flaggskeppet Drömmen först (med båda NotebookLM-podderna), sen trilogin, Förklara AI, linserna (Utblickar + naturlagen) och övrigt skrivande. Linserna är inte med som delar i Drömmen — men Utblickar-tanken, blicken bortom väst, formade hela den boken.",
     "svar": ""
   }
 ]
