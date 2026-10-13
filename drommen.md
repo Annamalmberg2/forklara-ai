@@ -1813,3 +1813,7 @@ Tyckte du om den här boken? Mina kortare böcker finns att läsa gratis:
 - [En bibel](https://annamalmberg2.github.io/forklara-ai/index.html#en-bibel-0)
 - [En rörelse](https://annamalmberg2.github.io/forklara-ai/index.html#rorelse-0)
 - [Ett parti](https://annamalmberg2.github.io/forklara-ai/index.html#motvikten-0)
+
+---
+
+*Fri att läsa, dela och bygga vidare på under [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Nämn gärna Anna Malmberg och Förklara AI.*

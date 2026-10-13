@@ -30,6 +30,11 @@ md = md.replace(
     "[Ett parti](https://annamalmberg2.github.io/forklara-ai/index.html#rorelse-0)",
     "[Ett parti](https://annamalmberg2.github.io/forklara-ai/index.html#motvikten-0)")
 
+# CC BY 4.0-märkning sist (följer med i "Dela med AI")
+md = md.rstrip() + ("\n\n---\n\n*Fri att läsa, dela och bygga vidare på under "
+    "[Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). "
+    "Nämn gärna Anna Malmberg och Förklara AI.*\n")
+
 # spara den processade markdownen som bokens original i repot
 io.open(ROOT + "/drommen.md", "w", encoding="utf-8").write(md)
 
@@ -288,6 +293,8 @@ out = (head + "</head>\n<body>\n" + buttons + '<div class="wrap">\n\n'
 io.open(ROOT + "/drommen.html", "w", encoding="utf-8").write(out)
 from lagg_docs_knapp import installera          # Kopiera för Google Docs-knapp
 installera(ROOT + "/drommen.html")
+from cc_licens import stampla
+stampla(ROOT + "/drommen.html")
 
 # ---- 8. validering ---------------------------------------------------------
 kyr = set("аеорсухіјѕАЕОРСТНКМВ")

@@ -161,6 +161,8 @@ def rebuild(fname, bodies, n_kap, toc_title):
     klickbar(p)
     from lagg_docs_knapp import installera     # Kopiera för Google Docs-knapp
     installera(p)
+    from cc_licens import stampla
+    stampla(p)
     return new
 
 # naturlag: kapitelkropp = <div class="ford">…</div> (speglar samlingskortet)

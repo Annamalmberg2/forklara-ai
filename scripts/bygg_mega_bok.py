@@ -210,3 +210,5 @@ from gor_toc_klickbar import klickbar
 klickbar(ROOT + "/mega.html")
 from lagg_docs_knapp import installera
 installera(ROOT + "/mega.html")
+from cc_licens import stampla
+stampla(ROOT + "/mega.html")
