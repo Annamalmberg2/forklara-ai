@@ -8003,8 +8003,13 @@ window.LECTURE = {
       "id": "130-10",
       "sektion": "130",
       "titel": "Kom igång & bygg själv",
-      "text": "Här finnn länkar och tips som gör att du enkelt på egen hand kommer att komma igång med AI. Jag bygger och testar på alla plattformar men brukar i första hand rekommendera OpenAIs ChatGPT eller Googles Gemini. Vill folk bygga helt egna Appar så brukar jag rekommendera Lovable. Då en App är byggd kan man med diverse triks gör den snabb och koppla på domän.",
+      "text": "Här finns länkar och tips som gör att du enkelt på egen hand kommer att komma igång med AI. Jag bygger och testar på alla plattformar men brukar i första hand rekommendera OpenAIs ChatGPT eller Googles Gemini. Vill du bygga helt egna Appar så brukar jag rekommendera Lovable. Då en App är byggd kan man med diverse triks gör den snabb och koppla på domän.",
       "lankar": [
+        [
+          "En sida som inte exister",
+          "https://ainnova.se/404",
+          "Det här är en sida som inte existerar, normalt stöter du på 404 sidor om någon har klantat till det. Bygg den vackraste försäkring"
+        ],
         [
           "Min AI-start",
           "https://docs.google.com/document/d/13Q-FUfK8_VHq9uWUMA0BP3z8uiJzJa03M7WpiuDRzDc/edit?usp=sharing",
@@ -8034,6 +8039,24 @@ window.LECTURE = {
           "https://wisdom-streamer.lovable.app/",
           "Ett sätt att göra FB-inlägg mer sökbara och tillgänligt för alla. Jag gjorde en FB sida till en blogg. Förr bloggade man och delade bloggen på olika sociala media. Ett ska ni veta min blogg kan läsas av alla, de som bara nyttjar FB når bara de som själva finns där. De som bara nyttjar LinkedIn når bara sådana som finns där. På sociala media syns du bara om du endera köper annons eller hovrar runt och trycker gilla på andra. Då brukar dom ge gilla tillbaka.",
           "FB-sida blev blogg"
+        ],
+        [
+          "Fredagslåtarna",
+          "https://sites.google.com/ainnova.se/aisverige/musik",
+          "Varje fredag sedan vecka 20 gör Martin Lönnstam fantastiska fredagslåtar baserat på vad vi lagt ut på sociala media",
+          "Alla låtar är i olika stilar"
+        ],
+        [
+          "Båt",
+          "https://sites.google.com/ainnova.se/utter/startsida",
+          "Köp AiNNOVAS båt, en Uttern 560",
+          "Nyttja AI i din första"
+        ],
+        [
+          "Hösterbjudande",
+          "https://annamalmberg2.github.io/ainnova-host-i-skogen/#",
+          "Unikt hösterbjudande du inte vill missa",
+          "Nyttja AI och fyll din svampkorg"
         ],
         [
           "Länkar till de verse AI verktyg",
@@ -8144,7 +8167,7 @@ window.LECTURE = {
           "Extern konverterare"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 23 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 27 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-20",
@@ -8546,13 +8569,18 @@ window.LECTURE = {
           "DR Waku intervju"
         ],
         [
+          "This Documentary Was Made Entirely by AI. Including Her.",
+          "https://youtu.be/cyeTIEy2qus",
+          "Jag är inte förvånad, denna presentation om AI, genererad av AI bör du se"
+        ],
+        [
           "Pop and fart, a work of art - Wes Roth",
           "https://www.youtube.com/watch?v=oSuXs0w1PPY&t=657s",
           "Första gången jag hörde om Notebooklm som nu heter Gemini Notebook",
           "Wes Roth"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 19 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 20 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-40",
@@ -8601,6 +8629,12 @@ window.LECTURE = {
           "https://ainyheterna.se/artikel/2026-04-10-fyra-genombrott-gor-ai-dramatiskt-billigare-och-snabbare",
           "Ny forskning pekar på stora kostnads- och hastighetsvinster i AI-system, med metoder som minskar minnesanvändning kraftigt och gör modeller effektivare.",
           "AI blir billigare och snabbare"
+        ],
+        [
+          "Millenium problemen",
+          "https://youtu.be/e7t9HU2Z6t8",
+          "Vem ska krediteras för framtida upptäckter, Matthew Bergman resonerar klokt",
+          "AI-genomrått"
         ],
         [
           "Lovable",
@@ -8783,7 +8817,7 @@ window.LECTURE = {
           "Hmmm"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 37 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 38 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-50",
@@ -10016,7 +10050,7 @@ window.LECTURE = {
       "id": "130-80",
       "sektion": "130",
       "titel": "Böcker",
-      "text": "Böcker är magi och den enda bok jag senare sett filmatiserad utan att bli besviken på är Ronja Rövardotter, originalet vill säga. Böcker är magi och en av få böcker jag valt att läs om igen heter MOMO, egentligen en ungdomsbok men med mycket djup som jag rekommenderar alla att läsa. Här är böcker jag läst eller tänkt mig läsa och de flesta är inte sagor utan handlar handlar om AI, matematik eller teknik.",
+      "text": "Böcker är magi och den enda bok jag senare sett filmatiserad utan att bli besviken på är Ronja Rövardotter, originalet vill säga. En av få böcker jag valt att läs om igen heter MOMO, egentligen en ungdomsbok men med mycket djup som jag rekommenderar alla att läsa. Här är böcker jag läst eller tänkt mig läsa och de flesta är inte sagor utan handlar handlar om AI, matematik eller teknik. Här finns också mina egna böcker som du endra kan skriva ut eller dela med en AI",
       "lankar": [
         [
           "What Technology Wants – Kevin Kelly",
@@ -10137,9 +10171,44 @@ window.LECTURE = {
           "A theory of Justice, John Rawls",
           "https://sv.wikipedia.org/wiki/John_Rawls",
           "Slöjan av okunnighet (The Veil of Ignorance). Rawls menar att vi människor alltid är jäviga. Om en rik person får bestämma skatteregler vill den ofta ha låga skatter; om en sjuk person får bestämma vill den ha enorma resurser till sjukvården."
+        ],
+        [
+          "Förklara AI, Anna Malmberg",
+          "https://annamalmberg2.github.io/forklara-ai/forklara-ai.html",
+          "Olika saker jag kan tala om på en förläsning"
+        ],
+        [
+          "En Bibel, Anna Malmberg",
+          "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
+          "En bibel som inte kräver tro"
+        ],
+        [
+          "Ett Parti, Anna Malmberg",
+          "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
+          "Ett part som du inte kan rösta på"
+        ],
+        [
+          "En Rörelse, Anna Malmberg",
+          "https://annamalmberg2.github.io/forklara-ai/mega.html",
+          "En rörelse som du inte kan följa"
+        ],
+        [
+          "Drömmen om den tänkande maskinen, Anna Malmberg",
+          "https://annamalmberg2.github.io/forklara-ai/drommen.html",
+          "Tre tusen år av tankar om den tänkande maskinen"
+        ],
+        [
+          "Utblickar, Anna Malmberg",
+          "https://annamalmberg2.github.io/forklara-ai/utblickar.html",
+          "Fönster mot väldens visdom"
+        ],
+        [
+          "Är det en naturlag, Anna Malmberg",
+          "https://annamalmberg2.github.io/forklara-ai/naturlag.html",
+          "Något kan kan presenteras som att det vore en naturlag fast det inte är det"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 24 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 31 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-90",
