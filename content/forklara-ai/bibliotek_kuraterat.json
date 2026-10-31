@@ -2,44 +2,56 @@
   {
     "id": "130-05",
     "sektion": "130",
-    "titel": "Böckerna — flaggskeppet, trilogin och linserna",
-    "text": "Här är mina böcker, samlade. Alla är fria att läsa, skriva ut och dela, under Creative Commons CC BY 4.0.\n\nDrömmen om den tänkande maskinen är flaggskeppet: min största bok, tretusen år av tankar om AI från världens alla hörn — från en smedja till ett nattduksbord. Den finns också som podd och samtalspartner i NotebookLM.\n\nTrilogin hör ihop, tre korta böcker ur samma verkstad: En Bibel, Ett parti och En rörelse.\n\nFörklara AI är själva föreläsningen, samlad som läsbok.\n\nUtblickar och Är det en naturlag? står för sig själva, som två linser snarare än kapitel. I Drömmen valde jag medvetet att inte ha dem som egna avdelningar — men tanken bakom Utblickar, att vägra den vita, västerländska standardberättelsen, blev precis den form hela boken vilar på. Linsen blev inte ett kapitel. Den blev bokens blick.\n\nVid sidan av böckerna finns annat jag skrivit och byggt: bloggen, ett etiskt regelverk för AI, och en citatgenerator där världens visdom möter AiNNOVAs filosofi.",
+    "titel": "Böckerna — två trilogier och linserna",
+    "text": "Här är mina böcker, samlade. Alla är fria att läsa, skriva ut och dela, under Creative Commons CC BY 4.0.\n\nDrömmen är min andra trilogi, och mitt flaggskepp. Tre böcker som hänger ihop: Drömmen om den tänkande maskinen berättar hur vi hamnade här, tusentals år av mönster och människor från världens alla hörn. Drömmen och var vi står handlar om var vi står i dag, vad maskinerna kan och vem som bestämmer. Drömmen med stövlarna på är den praktiska: hur du själv kommer i gång och behåller omdömet. Flaggskeppet finns också som podd och samtalspartner i NotebookLM.\n\nDen första trilogin är tre korta böcker ur samma verkstad: En Bibel, Ett parti och En rörelse.\n\nFörklara AI är själva föreläsningen, samlad som läsbok.\n\nUtblickar och Är det en naturlag? står för sig själva, som två linser snarare än kapitel. I Drömmen valde jag medvetet att inte ha dem som egna avdelningar — men tanken bakom Utblickar, att vägra den vita, västerländska standardberättelsen, blev precis den form hela boken vilar på. Linsen blev inte ett kapitel. Den blev bokens blick.\n\nVid sidan av böckerna finns annat jag skrivit och byggt: bloggen, ett etiskt regelverk för AI, och en citatgenerator där världens visdom möter AiNNOVAs filosofi.",
     "lankar": [
       [
-        "Läs Drömmen om den tänkande maskinen",
+        "Drömmen om den tänkande maskinen (del I)",
         "https://annamalmberg2.github.io/forklara-ai/drommen.html",
-        "Min största bok. En resa genom tretusen år av drömmar om den tänkande maskinen — från en smedja i antiken till ett nattduksbord i natt, och från världens alla hörn, inte bara väst. Tolv kapitel, två mellanspel, tidslinje och personregister.",
-        "Drömmen · flaggskeppet"
+        "Flaggskeppet och trilogins första bok. En resa genom tusentals år av drömmar om den tänkande maskinen — från en smedja i antiken till ett nattduksbord i natt, och från världens alla hörn, inte bara väst. Nio kapitel, två mellanspel, tidslinje och personregister.",
+        "Drömmen · andra trilogin"
       ],
       [
         "Lyssna som podd — NotebookLM, 12 okt 2026",
         "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161",
-        "Boken som AI-genererad ljudöversikt och samtalspartner — ställ egna frågor och gräv i källorna. Nyare versionen.",
-        "Drömmen · flaggskeppet"
+        "Flaggskeppet som AI-genererad ljudöversikt och samtalspartner — ställ egna frågor och gräv i källorna. Nyare versionen.",
+        "Drömmen · andra trilogin"
       ],
       [
         "Lyssna som podd — NotebookLM, 30 sep 2026",
         "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d",
         "Samma guldgruva, byggd på den första versionen av boken.",
-        "Drömmen · flaggskeppet"
+        "Drömmen · andra trilogin"
+      ],
+      [
+        "Drömmen och var vi står (del II)",
+        "https://annamalmberg2.github.io/forklara-ai/drommen-nu.html",
+        "Trilogins andra bok. Vad AI kan i dag, var gränserna går och vem som bestämmer — jorden runt, från Konserthuset i Stockholm till en radiostation i Nya Zeeland. Tretton kapitel, ett mellanspel och en avslutning, med tidslinje och personregister.",
+        "Drömmen · andra trilogin"
+      ],
+      [
+        "Drömmen med stövlarna på (del III)",
+        "https://annamalmberg2.github.io/forklara-ai/drommen-stovlarna.html",
+        "Trilogins tredje, praktiska bok. Så kommer du i gång med AI och behåller omdömet. Tolv kapitel som var och ett börjar i en berättelse, bär en nyckel och slutar med en övning och en fallgrop.",
+        "Drömmen · andra trilogin"
       ],
       [
         "En Bibel",
         "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
         "En sekulär handbok i tio kapitel — från vetenskap och universum till lyckan. En bibel som inte ber dig tro, utan räcker dig pennan.",
-        "Trilogin"
+        "Första trilogin"
       ],
       [
         "Ett parti (Motvikten)",
         "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
         "Ett parti man inte kan rösta på, men som ställer frågorna varje parti borde tåla. Inte höger, inte vänster — de test varje förslag måste klara. Ditt eget först.",
-        "Trilogin"
+        "Första trilogin"
       ],
       [
         "En rörelse (MEGA)",
         "https://annamalmberg2.github.io/forklara-ai/mega.html",
         "Make Everybody Great Again — inte America, Everybody. Född ur ett felsagt ord vid köksbordet: behåll känslan, vänd på vem den gäller.",
-        "Trilogin"
+        "Första trilogin"
       ],
       [
         "Förklara AI",
@@ -78,7 +90,7 @@
         "Övrigt skrivande"
       ]
     ],
-    "anteckningar": "Flaggskeppet Drömmen först (med båda NotebookLM-podderna), sen trilogin, Förklara AI, linserna (Utblickar + naturlagen) och övrigt skrivande. Linserna är inte med som delar i Drömmen — men Utblickar-tanken, blicken bortom väst, formade hela den boken.",
+    "anteckningar": "Två trilogier. Andra trilogin (Drömmen) först, med flaggskeppet och båda NotebookLM-podderna, sen de två nya delarna. Därefter första trilogin (En Bibel, Ett parti, En rörelse), Förklara AI, linserna (Utblickar + naturlagen) och övrigt skrivande. Linserna är inte med som delar i Drömmen — men Utblickar-tanken, blicken bortom väst, formade hela den boken.",
     "svar": ""
   }
 ]
