@@ -408,6 +408,14 @@ Allt behöver inte kontrolleras lika noga. Ett förslag på middagsrätter får 
 
 Här räcker det inte att svaret låter rätt. Här behöver du veta.
 
+## **Banjon på operationsbordet**
+
+År 2008 skulle bluegrass-legenden Eddie Adcock opereras i hjärnan. En skakning i handen hade gjort det omöjligt för honom att spela banjo som förr. Ingreppet kallas djup hjärnstimulering: en tunn elektrod förs in och skickar svaga strömmar som dämpar skakningen. Men ingen bild på en skärm visar exakt var den sitter bäst. Så kirurgerna lät Adcock vara vaken och spela banjo på bordet. När de justerade strömmen spelade han och sa direkt om det blev bättre eller sämre. Hjärnan känner ingen smärta; det är därför det går. Operationen lyckades, och han kunde spela igen.
+
+De litade inte på att elektroden *såg* rätt placerad ut. De lät banjon vara facit, i realtid, och backade i samma stund något blev sämre.
+
+Så är det med en maskin när det spelar roll. Leta rätt på din banjo: den enda sak som avgör om svaret håller — beloppet, villkoret, källan — och pröva den direkt, medan du fortfarande kan backa.
+
 ## **Öppna källan**
 
 Be om källan, och öppna den. Det är den enklaste regeln och den som oftast glöms. En maskin kan hänvisa till en artikel som finns men inte säger det den påstår, eller till en som inte finns alls. Läs det stycke som citeras. Säger det samma sak?
@@ -824,6 +832,7 @@ Sätt på dig stövlarna. Gå ut och pröva. Och när du hittar något som funge
 
 Här är människorna som bär bokens nycklar, med kapitlen där de finns och boken i serien där de först dyker upp. Den som bara nämns i förbigående står inte med.
 
+* **Adcock, Eddie** – banjon på operationsbordet, där hans spel blev facit. *7* (bok 3\)  
 * **Boestad-Nilsson, Elsa-Karin** – en av Sveriges första programmerare, vid BESK. *2* (bok 1\)  
 * **Burke, Robert O’Hara och William John Wills** – fick nardookakorna men inte kunnandet. *12* (bok 3\)  
 * **Homeros** – sångarna som byggde Iliaden av färdiga bitar. *4* (bok 1\)  
