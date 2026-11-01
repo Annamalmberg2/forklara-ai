@@ -1734,7 +1734,7 @@ Här är människorna som bär berättelsen i bokens kapitel, med kapitlen där 
 
 # **Av samma författare**
 
-Den här boken hör till min andra trilogi.
+Jag har skrivit två trilogier.
 
 **Drömmen**
 

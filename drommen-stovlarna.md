@@ -853,7 +853,7 @@ Här är människorna som bär bokens nycklar, med kapitlen där de finns och bo
 
 # **Av samma författare**
 
-Den här boken hör till min andra trilogi.
+Jag har skrivit två trilogier.
 
 **Drömmen**
 
