@@ -13253,6 +13253,14 @@ window.LECTURE = {
       "https://annamalmberg2.github.io/forklara-ai/drommen.html"
     ],
     [
+      "Drömmen och var vi står · hela boken",
+      "https://annamalmberg2.github.io/forklara-ai/drommen-nu.html"
+    ],
+    [
+      "Drömmen med stövlarna på · hela boken",
+      "https://annamalmberg2.github.io/forklara-ai/drommen-stovlarna.html"
+    ],
+    [
       "Utblickar · hela boken",
       "https://annamalmberg2.github.io/forklara-ai/utblickar.html"
     ],
