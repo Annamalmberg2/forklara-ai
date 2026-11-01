@@ -16,7 +16,7 @@ Boken går, precis som den förra, jorden runt. Från Konserthuset i Stockholm t
 
 Det talas mycket just nu om huruvida böcker är skrivna med AI, och ibland verkar det viktigare att reda ut hur en bok kom till än att läsa vad som står i den. Men böcker har alltid haft fler händer än den som står på omslaget. Tänk bara på *Jag är Zlatan Ibrahimović*, som skrevs tillsammans med David Lagercrantz.
 
-Också den här boken har spökskrivare, och fler än en. Maskinerna har letat, föreslagit, sagt emot och kontrollerat. Jag har valt, styrt och petat i varje mening. Jag tror att vi har hittat ett nytt sätt att skriva riktigt bra böcker: att människa och maskin kombinerar det de kan. Finns det fel bär jag ansvaret, och hittar du ett, säg till på anna@ainnova.se. Och döm gärna boken efter vad som står i den.
+Också den här boken har spökskrivare, och fler än en. Maskinerna har letat, föreslagit, sagt emot och kontrollerat. Jag har valt, styrt och petat i varje mening. Jag skrev inte orden. Jag skrev boken. Jag tror att vi har hittat ett nytt sätt att skriva riktigt bra böcker: att människa och maskin kombinerar det de kan. Finns det fel bär jag ansvaret, och hittar du ett, säg till på anna@ainnova.se. Och döm gärna boken efter vad som står i den.
 
 Håll inte med om allt. Pröva det i stället. Det är vad verktygen i boken är till för.
 
