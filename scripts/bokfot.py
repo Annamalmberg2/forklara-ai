@@ -63,9 +63,10 @@ def _p(text, style=None):
 def _book(title, url, desc):
     return _p('<strong><a href="%s">%s</a></strong> – %s' % (url, title, desc), S_BOOK)
 
-def bygg_block():
+def bygg_block(orn=True):
     d = []
-    d.append('<div class="rule-orn" style="%s">✦ ❋ ✦</div>' % S_ORN)
+    if orn:   # hoppa över eget ornament om boken redan slutar med ett (undvik dubbel)
+        d.append('<div class="rule-orn" style="%s">✦ ❋ ✦</div>' % S_ORN)
     d.append(_p("Av samma författare", S_EYE))
     d.append(_p("Jag har skrivit två trilogier."))
     d.append(_p("Drömmen", S_SUB))
@@ -101,8 +102,12 @@ def injicera(slug):
         raise SystemExit("%s: sista colophon ligger inte i en .efter-sektion (%s) — "
                          "avbryter för säkerhets skull" % (slug, sectag.strip()[:60]))
 
-    # 3) lägg blocket direkt före colophon-diven
-    s = s[:ci] + bygg_block().strip("\n") + "\n    " + s[ci:]
+    # 3) lägg blocket direkt före colophon-diven.
+    #    Slutar boken redan med ett ornament här? Hoppa då över bokens eget ledande
+    #    ornament, annars blir det dubbelt (gällde forklara-ai och naturlag).
+    before = s[:ci].rstrip()
+    orn = not re.search(r'rule-orn[^>]*>\s*✦ ❋ ✦\s*</div>\s*$', before)
+    s = s[:ci] + bygg_block(orn).strip("\n") + "\n    " + s[ci:]
     open(f, "w", encoding="utf-8").write(s)
 
     # kontroll
