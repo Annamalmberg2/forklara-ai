@@ -1763,3 +1763,8 @@ Böckerna tar slut, men frågorna gör det inte. På [hurdetfunkar.se](https://h
 
 *Fri att läsa, dela och bygga vidare på under Creative Commons CC BY 4.0. Nämn gärna Anna Malmberg och* [AiNNOVA](https://ainnova.se/)*.*
 
+# Ändringslogg
+
+Här kan du följa vad som ändrats i boken och när. Ändringar som rör fakta flaggas alltid.
+
+- 2026-11-02 – Förtydligade stycket om kisel: grundämnet sitter i flera olika mineral, och kvarts är ett av dem. Band ihop sjön med dimman som en kall morgon kan få vatten att se ut att ryka. Pekade också ut smedjan som mål tidigare i kapitlet.

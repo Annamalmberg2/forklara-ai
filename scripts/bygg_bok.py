@@ -14,15 +14,28 @@ escapes (\\. \\) …) från Docs-exporten.
 
   python3 scripts/bygg_bok.py
 """
-import io, re, json
+import io, re, json, hashlib, datetime
 
 ROOT = "/Users/ainnova/Projects/forklara-ai"
-DL   = "/Users/ainnova/Downloads"
+SRC  = "/Users/ainnova/Desktop/Senaste md till böcker/Drömmen-trilogin"
 BASE = "https://annamalmberg2.github.io/forklara-ai"
+
+# ── ändringslogg (daterad, syns i md + html) + ändringsvakt ──────────────────
+# Källan till böckerna bor i SRC. Loggen bor i andringslogg.json, i Annas ord.
+# Bygget jämför texten mot förra bygget (bok_state.json) och stämplar dagens
+# datum BARA när texten faktiskt ändrats — aldrig falskt när inget hänt.
+LOGG_PATH  = ROOT + "/scripts/andringslogg.json"
+STATE_PATH = ROOT + "/scripts/bok_state.json"
+def _load(p, d):
+    try: return json.loads(io.open(p, encoding="utf-8").read())
+    except Exception: return d
+LOGG  = _load(LOGG_PATH, {})
+STATE = _load(STATE_PATH, {})
+TODAY = datetime.date.today().isoformat()
 
 # ── bokspecar ──────────────────────────────────────────────────────────────
 BOCKER = [
-  dict(slug="drommen", src=DL + "/1 Drömmen om den tänkande maskinen.md",
+  dict(slug="drommen", src=SRC + "/1 Drömmen om den tänkande maskinen.md",
        sek_id="drommen", sek_namn="13 · Drömmen om den tänkande maskinen",
        cover="Drömmen.png", tema="ljus", app="Drömmen",
        title_html='Drömmen om den <span class="em">tänkande</span> maskinen',
@@ -33,7 +46,7 @@ BOCKER = [
          ["NotebookLM · 12 okt 2026", "https://notebook.google.com/notebook/a3f17bf2-76b3-4b7b-8eb8-e7889a5d4161", "Boken som ljudöversikt och kringmaterial (nyare).", "NotebookLM"],
          ["NotebookLM · 30 sep 2026", "https://notebook.google.com/notebook/ec6e8826-9e7f-4abc-a7f5-035f04775a8d", "Boken som ljudöversikt och kringmaterial (version 1).", "NotebookLM"],
        ]),
-  dict(slug="drommen-nu", src=DL + "/2 Drömmen och var vi står.md",
+  dict(slug="drommen-nu", src=SRC + "/2 Drömmen och var vi står.md",
        sek_id="drommen-nu", sek_namn="14 · Drömmen och var vi står",
        cover="Drommen-var-vi-star.png", tema="mork", app="Var vi står",
        title_html='Drömmen och <span class="em">var vi står</span>',
@@ -41,7 +54,7 @@ BOCKER = [
        cover_eye="VAR AI STÅR I DAG · OCH VEM SOM BESTÄMMER",
        cover_sub="Vad maskinerna kan, var gränsen går.",
        notebooklm=[]),
-  dict(slug="drommen-stovlarna", src=DL + "/3 Drömmen med stövlarna på.md",
+  dict(slug="drommen-stovlarna", src=SRC + "/3 Drömmen med stövlarna på.md",
        sek_id="drommen-stovlarna", sek_namn="15 · Drömmen med stövlarna på",
        cover="Drommen-stovlarna.png", tema="ljus", app="Stövlarna på",
        title_html='Drömmen med <span class="em">stövlarna på</span>',
@@ -230,6 +243,28 @@ def persons_inner(lines):
         if m0: rows.append('<p class="person">%s</p>' % inline(m0.group(1)))
     return '<div class="persons">%s</div>' % "".join(rows)
 
+# ── ändringslogg → md + html ────────────────────────────────────────────────
+def logg_md(entries):
+    if not entries: return ""
+    out = ["# Ändringslogg", "",
+           "Här kan du följa vad som ändrats i boken och när. "
+           "Ändringar som rör fakta flaggas alltid.", ""]
+    for e in entries:
+        out.append("- %s – %s" % (e.get("datum", ""), e.get("text", "")))
+    return "\n".join(out) + "\n"
+
+def logg_section(entries):
+    if not entries: return ""
+    rows = "\n".join(
+        '      <div class="logg-rad"><span class="logg-datum">%s</span>'
+        '<span class="logg-text">%s</span></div>' % (e.get("datum", ""), inline(e.get("text", "")))
+        for e in entries)
+    return ('  <section class="andringslogg" id="andringslogg">\n'
+            '    <span class="label" style="color:var(--taupe)">Ändringslogg</span>\n'
+            '    <p class="intro">Här kan du följa vad som ändrats i boken och när. '
+            'Ändringar som rör fakta flaggas alltid.</p>\n'
+            '    <div class="logg">\n%s\n    </div>\n  </section>\n\n' % rows)
+
 # ── omslag ─────────────────────────────────────────────────────────────────
 def smid_omslag(spec):
     import math
@@ -284,11 +319,21 @@ def bygg_en(spec):
     slug = spec["slug"]; URL = "%s/%s.html" % (BASE, slug)
     import urllib.parse
     IMG = "%s/content/forklara-ai/bilder/%s" % (BASE, urllib.parse.quote(spec["cover"]))
-    md = io.open(spec["src"], encoding="utf-8").read()
-    if "Creative Commons" not in md:
-        md = md.rstrip() + ("\n\n---\n\n*Fri att läsa, dela och bygga vidare på under "
+    src_md = io.open(spec["src"], encoding="utf-8").read()
+    if "Creative Commons" not in src_md:
+        src_md = src_md.rstrip() + ("\n\n---\n\n*Fri att läsa, dela och bygga vidare på under "
             "[Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). "
             "Nämn gärna Anna Malmberg och Förklara AI.*\n")
+    # ändringsvakt: stämpla dagens datum bara när texten faktiskt ändrats
+    h = hashlib.sha1(src_md.encode("utf-8")).hexdigest()
+    entries = LOGG.setdefault(slug, [])
+    prev = STATE.get(slug)
+    if prev is not None and prev != h and not any(e.get("datum") == TODAY for e in entries):
+        entries.insert(0, {"datum": TODAY, "text": "Texten uppdaterad."})
+        print("  · ändring upptäckt → ny loggrad %s (förfina gärna texten i andringslogg.json)" % TODAY)
+    STATE[slug] = h
+    # changelogg in i både den publicerade md:n och (längre ner) html:n
+    md = src_md.rstrip() + "\n\n" + logg_md(entries)
     io.open(ROOT + "/" + slug + ".md", "w", encoding="utf-8").write(md)
 
     # dela i topp-block på '# '
@@ -415,6 +460,13 @@ def bygg_en(spec):
   .toc .t a{color:inherit;}
   @media(max-width:620px){.persons{columns:1;}.tl-year{min-width:92px;}}
   @media print{.persons{columns:2;}.tl-row,.person{page-break-inside:avoid;}}
+  .logg{margin:10px 0 0;}
+  .logg-rad{display:flex;gap:16px;align-items:baseline;padding:9px 0;border-top:1px solid var(--hair);}
+  .logg-rad:last-child{border-bottom:1px solid var(--hair);}
+  .logg-datum{font-family:var(--sans);font-size:12.5px;font-weight:700;letter-spacing:.02em;color:var(--gold);min-width:110px;flex:none;}
+  .logg-text{color:var(--ink);}
+  @media(max-width:620px){.logg-datum{min-width:84px;}}
+  @media print{.logg-rad{page-break-inside:avoid;}}
 """
     head = head.replace("</style>", EXTRA_CSS + "\n</style>")
 
@@ -451,9 +503,10 @@ def bygg_en(spec):
 </html>
 """ % (md_js, slug, slug)
 
+    andringslogg = logg_section(LOGG.get(slug, []))
     out = (head + "</head>\n<body>\n" + buttons + '<div class="wrap">\n\n'
            + header + forord + howto + toc + "".join(chapters) + "\n"
-           + tidslinje + personer + avsamma + vidare + colophon + "\n</div>\n" + tail)
+           + tidslinje + personer + avsamma + vidare + andringslogg + colophon + "\n</div>\n" + tail)
     io.open(ROOT + "/" + slug + ".html", "w", encoding="utf-8").write(out)
     from lagg_docs_knapp import installera; installera(ROOT + "/" + slug + ".html")
     from cc_licens import stampla; stampla(ROOT + "/" + slug + ".html")
@@ -551,3 +604,7 @@ if __name__ == "__main__":
     io.open(MAN, "w", encoding="utf-8").write(man_out)
     print("\n✦ MANIFEST: %d kort i tre sektioner (%s)" % (len(alla_kort), ", ".join(sek_ids)))
     print("  KYR i manifest:", sum(1 for c in man_out if c in KYR))
+
+    io.open(LOGG_PATH, "w", encoding="utf-8").write(json.dumps(LOGG, ensure_ascii=False, indent=2) + "\n")
+    io.open(STATE_PATH, "w", encoding="utf-8").write(json.dumps(STATE, ensure_ascii=False, indent=2) + "\n")
+    print("  ändringslogg + state sparade")
