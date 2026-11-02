@@ -16,7 +16,11 @@ Jag har inte skrivit den här boken för att du ska lita blint på maskinerna. I
 
 Jag har alltid haft lättare att tänka än att skriva. Jag är så ordblind att en gås stavar bättre, och siffrorna var inte lättare. Redan i första klass tog jag min äldre brors gamla räknehäften till hjälp. Min mamma är lärare och rättade det jag skrev, men varje gång jag renskrev smög det in nya fel. Först när datorn kom kunde hennes rödpenna göra nytta, för då kunde jag rätta felen utan att skriva in nya.
 
-Jag gick ut nian med en etta i matematik, och det enda jag hade tränats på var gångertabellen på tid. Det var ren envishet som tog mig till en examen som lärare i matematik och fysik. Jag förstod inte allt, men jag lärde mig något som har burit mig sedan dess: att känna efter om ett svar är rimligt. Det fick mig ibland att säga emot en erkänd professor när ett steg i en beräkning inte höll. Titlar och pengar gör ingen beräkning rätt. Jag är kanske lite av en envis tax. Men jag är människa.
+Jag gick ut nian med en etta i allmän matematik — det som på den tiden fanns till för att skilja agnarna från vetet: allmän matematik åt de många, särskild åt dem man tyckte var värda att kosta på. Det enda jag hade tränats på var gångertabellen på tid. Det var ren envishet som tog mig till en examen som lärare i matematik och fysik.
+
+Jag förstod inte allt. Men jag lärde mig något som har burit mig sedan dess: att känna efter om ett svar är rimligt. Det fick mig att säga emot mer än en erkänd professor när ett steg i en beräkning inte höll. Den känslan delade jag med Acke, min labbkamrat i fysiken. Han var en mästare på att förklara men ännu sämre än jag på att skriva, så jag fick föra pennan medan han stod för det mesta av tänkandet. Ett labbförsök kunde han rata på tre datapunkter — han visste redan då om det skulle ge något vettigt. En gång, mitt i en professors sifferbalett, sa han bara: ”Du har ett teckenfel. Jag vet inte var, men jag vet att du har det.” Och det hade professorn. När jag pluggade som mest kunde jag ringa Acke dygnet runt. Titlar och pengar gör ingen beräkning rätt.
+
+Jag är kanske lite av en envis tax. Men jag är människa.
 
 Maskinerna i dag har tagit ett steg till. Jag kan säga det jag menar, på mitt eget sätt, och få hjälp att ge det form. En kväll skrev jag att jag hade ”lycckats med ennlogo som blev lättrebpå värmmländska än välromptatad”. Maskinen förstod precis vad jag menade. Det är därför jag har kunnat skriva de här böckerna. Verktyget tog inte över mitt omdöme. Det tog bort ett hinder, så att tankarna äntligen kom fram. Och omdömet, känslan för vad som är rimligt, är just det du behöver ta med dig när du arbetar med en maskin. Det är vad den här boken handlar om.
 
@@ -890,4 +894,5 @@ Böckerna tar slut, men frågorna gör det inte. På [hurdetfunkar.se](https://h
 
 Här kan du följa vad som ändrats i boken och när. Ändringar som rör fakta flaggas alltid.
 
+- 2026-11-02 – La till min labbkamrat Acke i öppningen — ett undantag, en personlig historia som får vara med. Förtydligade också att nian-betyget var i allmän matematik (tidigare stod bara ”matematik”).
 - 2026-11-02 – La till Momo och Beppo i avslutningen: tanken att gå sakta för att komma fort.
