@@ -480,7 +480,7 @@ Också i Sverige knäcktes ett tyskt chiffer. Våren 1940, sedan Tyskland hade o
 
 Hur mycket kodknäckarna förkortade kriget går inte att säga exakt, men historiker har ofta uppskattat det till omkring två år, och antalet liv som räddades till miljontals.
 
-Bland Turings kolleger fanns också en ung statistiker vid namn Irving John Good. Honom kommer vi att möta igen, långt senare i boken, när han som den förste skulle föreställa sig en maskin som är smartare än alla människor tillsammans.
+Bland Turings kolleger fanns också en ung statistiker vid namn Irving John Good. Mellan skiften spelade de två schack och det gamla brädspelet go, som Turing lärde Good, och de talade om maskiner som en dag skulle kunna spela själva. Honom kommer vi att möta igen, långt senare i boken, när han som den förste skulle föreställa sig en maskin som är smartare än alla människor tillsammans.
 
 ## **Kvinnorna som gav maskinerna språk**
 
@@ -1763,8 +1763,3 @@ Böckerna tar slut, men frågorna gör det inte. På [hurdetfunkar.se](https://h
 
 *Fri att läsa, dela och bygga vidare på under Creative Commons CC BY 4.0. Nämn gärna Anna Malmberg och* [AiNNOVA](https://ainnova.se/)*.*
 
-# Ändringslogg
-
-Här kan du följa vad som ändrats i boken och när. Ändringar som rör fakta flaggas alltid.
-
-- 2026-11-02 – Förtydligade stycket om kisel: grundämnet sitter i flera olika mineral, och kvarts är ett av dem. Band ihop sjön med dimman som en kall morgon kan få vatten att se ut att ryka. Pekade också ut smedjan som mål tidigare i kapitlet.

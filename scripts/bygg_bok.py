@@ -14,7 +14,7 @@ escapes (\\. \\) …) från Docs-exporten.
 
   python3 scripts/bygg_bok.py
 """
-import io, re, json, hashlib, datetime
+import io, os, re, json, hashlib, datetime
 
 ROOT = "/Users/ainnova/Projects/forklara-ai"
 SRC  = "/Users/ainnova/Desktop/Senaste md till böcker/Drömmen-trilogin"
@@ -332,8 +332,9 @@ def bygg_en(spec):
         entries.insert(0, {"datum": TODAY, "text": "Texten uppdaterad."})
         print("  · ändring upptäckt → ny loggrad %s (förfina gärna texten i andringslogg.json)" % TODAY)
     STATE[slug] = h
-    # changelogg in i både den publicerade md:n och (längre ner) html:n
-    md = src_md.rstrip() + "\n\n" + logg_md(entries)
+    # BOKEN HÅLLS REN — ändringsloggen ligger INTE i böckerna, så att "Dela med AI"
+    # (BOK_MD) == den publicerade .md:n == boken du läser. Loggen skrivs separat.
+    md = src_md
     io.open(ROOT + "/" + slug + ".md", "w", encoding="utf-8").write(md)
 
     # dela i topp-block på '# '
@@ -503,10 +504,9 @@ def bygg_en(spec):
 </html>
 """ % (md_js, slug, slug)
 
-    andringslogg = logg_section(LOGG.get(slug, []))
     out = (head + "</head>\n<body>\n" + buttons + '<div class="wrap">\n\n'
            + header + forord + howto + toc + "".join(chapters) + "\n"
-           + tidslinje + personer + avsamma + vidare + andringslogg + colophon + "\n</div>\n" + tail)
+           + tidslinje + personer + avsamma + vidare + colophon + "\n</div>\n" + tail)
     io.open(ROOT + "/" + slug + ".html", "w", encoding="utf-8").write(out)
     from lagg_docs_knapp import installera; installera(ROOT + "/" + slug + ".html")
     from cc_licens import stampla; stampla(ROOT + "/" + slug + ".html")
@@ -608,3 +608,21 @@ if __name__ == "__main__":
     io.open(LOGG_PATH, "w", encoding="utf-8").write(json.dumps(LOGG, ensure_ascii=False, indent=2) + "\n")
     io.open(STATE_PATH, "w", encoding="utf-8").write(json.dumps(STATE, ensure_ascii=False, indent=2) + "\n")
     print("  ändringslogg + state sparade")
+
+    # läsbar, SEPARAT ändringslogg i sanningsmappen (ligger medvetet INTE i böckerna)
+    TITLAR = {"drommen": "Drömmen om den tänkande maskinen",
+              "drommen-nu": "Drömmen och var vi står",
+              "drommen-stovlarna": "Drömmen med stövlarna på"}
+    rader = ["# Ändringslogg – Drömmen-trilogin", "",
+             "Vad som ändrats i böckerna och när. Detta är en separat logg; den ligger "
+             "medvetet INTE i själva böckerna, så att \"Dela med AI\" och utskriften "
+             "alltid är ren boktext.", ""]
+    for b in BOCKER:
+        s = b["slug"]; es = LOGG.get(s, [])
+        rader += ["## " + TITLAR.get(s, s), ""]
+        rader += (["- %s – %s" % (e.get("datum", ""), e.get("text", "")) for e in es]
+                  or ["- (inget loggat än)"])
+        rader += [""]
+    LOGG_MD = os.path.join(os.path.dirname(SRC), "Ändringslogg.md")
+    io.open(LOGG_MD, "w", encoding="utf-8").write("\n".join(rader) + "\n")
+    print("  separat läsbar ändringslogg:", LOGG_MD)
