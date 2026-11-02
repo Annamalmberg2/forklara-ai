@@ -50,7 +50,7 @@ Den ser stilla ut. Men inuti sitter ett chip, inte större än en tumnagel, och 
 
 Det chippet är gjort av sand.
 
-Inte av sanden på stranden där du byggde slott som barn, men av samma sak. Efter syre är kisel det vanligaste grundämnet i jordskorpan, och det mesta finns bundet i kvarts, samma mineral som får sanden att glittra i solen. Människor har tagit kvartsen, smält den och renat den tills högst en främmande atom på miljarden finns kvar. Sedan har de ristat in logik i den. Vi har lärt sand att räkna.
+Inte av sanden på stranden där du byggde slott som barn, men av samma sak. Efter syre är kisel det vanligaste grundämnet i jordskorpan, och det sitter bundet i en mängd olika mineral. Ett av dem är kvarts, samma mineral som får sanden att glittra i solen. Människor har tagit kvartsen, smält den och renat den tills högst en främmande atom på miljarden finns kvar. Sedan har de ristat in logik i den. Vi har lärt sand att räkna.
 
 Det väcker en fråga som är lika enkel som den är svindlande. Vad skiljer egentligen din drömmande hjärna från den lilla flisan sand på bordet?
 
@@ -66,7 +66,7 @@ Och lägg märke till var det hände. Inte i Grekland, inte i något av de länd
 
 Men en sak måste sägas med en gång, annars lovar jag för mycket. Att rista ett mönster i ockra är inte att drömma om en tänkande maskin. Det är fröet, inte drömmen. Den första gången vi vet att människan föreställde sig en varelse som kunde tänka och arbeta åt oss, byggd av död materia, får vi gå närmare i tiden i vår egen berättelse.
 
-Mellan ockran och smedjan finns ett steg till, och det tog människorna genom att lyfta blicken. Himlen var den första stora datamängden. Den kom tillbaka varje natt, den gick att mäta, och den som såg mönstret i den kunde säga något om det som ännu inte hade hänt.
+Innan vi når smedjan, där metall rör sig av egen kraft, finns en lång väg att gå. Och den börjar inte med maskiner, utan med människor som lyfte blicken. Himlen var den första stora datamängden. Den kom tillbaka varje natt, den gick att mäta, och den som såg mönstret i den kunde säga något om det som ännu inte hade hänt.
 
 På Salisburyslätten i England reste människor för omkring fyratusen femhundra år sedan de stora stenarna i Stonehenge. Byggnadsverket är riktat så att solen vid midsommar går upp i dess axel och vid midvinter går ner i den. I Newgrange på Irland, en gravkammare som är ännu äldre, tränger solen in genom en öppning ovanför ingången bara några morgnar runt vintersolståndet och lyser upp golvet längst in. Ingen byggde så av en slump. Någon hade sett mönstret, år efter år, och huggit in det i sten.
 
@@ -144,7 +144,7 @@ Nyayas mest berömda exempel låter först nästan som Aristoteles. En vandrare 
 
 Köket är ingen utsmyckning. Det är beviset. För att en slutsats ska vara giltig hos Aristoteles räcker det att formen är rätt. Skriv att alla katter kan flyga, att Måns är en katt, och slutsatsen att Måns kan flyga är logiskt giltig, hur fel den än är. Formen bryr sig inte om världen, åtminstone inte i syllogismen. Nyaya gör tvärtom. En regel räknas bara om man kan peka på ett ställe där man faktiskt har sett den gälla: köket, där alla har sett rök och eld tillsammans. Och gärna ett ställe där man har sett motsatsen också: sjön, där det aldrig brinner och aldrig ryker.
 
-Nyayas tänkare ägnade sig dessutom länge åt något som Aristoteles inte gjorde till sitt huvudämne: hur man luras. Det som ser ut som rök kan vara dimma eller damm. Då blir slutsatsen fel, fast resonemanget såg rätt ut. Felet sitter inte i logiken, utan i det man trodde att man såg.
+Nyayas tänkare ägnade sig dessutom länge åt något som Aristoteles inte gjorde till sitt huvudämne: hur man luras. Tänk på sjön igen. En kall morgon kan dimma lyfta från vattnet så att det ser ut att ryka, fast ingen eld finns i närheten. Det som ser ut som rök kan vara dimma eller damm. Då blir slutsatsen fel, fast resonemanget såg rätt ut. Felet sitter inte i logiken, utan i det man trodde att man såg.
 
 Där har vi skillnaden, och den skulle visa sig ha lång räckvidd. Aristoteles logik lever i formen, uppifrån. Nyayas logik lever i exemplen, nerifrån, och vet att exemplen kan bedra. Den spänningen, mellan regler som skrivs ner och kunskap som växer ur det man har sett, skulle tvåtusen år senare bli AI-historiens största stridsfråga. Och frågan om när det som ser ut som rök egentligen är dimma är precis den vi ställer oss när en språkmodell låter säker men har fel.
 

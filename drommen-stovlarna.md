@@ -826,6 +826,10 @@ Här är bokens nycklar, samlade på ett ställe.
 11. **Weizenbaums skillnad.** Beräkningar kan lämnas över. Valen är dina.  
 12. **Kentaurerna.** Pröva själv först, och behåll omdömet.
 
+En av mina käraste böcker är Michael Endes *Momo*. Där finns en gammal gatsopare, Beppo, som sopar en lång gata utan att någonsin tänka på hela gatan, bara på nästa kvast, nästa andetag, nästa steg. Plötsligt är gatan ren, och han har inte varit trött en enda gång. Han kommer fortare fram genom att gå sakta.
+
+Så är det med en maskin som går fort. Frestelsen är att greppa allt på en gång, för den orkar det, och de gamla vanorna hejar på. Men konsten är inte att sluta peta i arbetet. Det är att peta i en annan takt: ett steg, en granskning, ett andetag, och så nästa. Det är långsamt på pappret och snabbt på riktigt, för inget fel hinner växa sig stort, och omdömet hinner med hela vägen. Gå sakta. Då går det fort.
+
 Sätt på dig stövlarna. Gå ut och pröva. Och när du hittar något som fungerar, skriv ner det och berätta för någon annan.
 
 # **Personer och nycklar i boken**
