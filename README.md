@@ -6,6 +6,11 @@ Ett levande bibliotek i stället för en PowerPoint. Byggt för Anna Malmberg
 **Live:** https://annamalmberg2.github.io/forklara-ai/
 (webblänken är en utställning — besökare kan aldrig ändra något)
 
+> **Repot rymmer två saker:** föreläsningsverktyget (nedan) **och** Annas nio
+> böcker, som publiceras som egna HTML-sidor från samma repo (länkade från
+> erbjudanden.ainnova.se/bocker). Se **Böckerna** och **Skripten** längre ned,
+> och masterkartan `SANNINGSKARTA.md` i skrivbordsmappen *Senaste md till böcker*.
+
 ## Grundidéerna
 
 - **Labbet** är den enda startsidan: hälsning, den stora frågan, sökfält,
@@ -81,6 +86,52 @@ direkt (`scripts/bibliotek.py`, endpoint `/api/biblioteket`).
 Kopiera `content/forklara-ai` → `content/min-forelasning`, byt innehåll,
 öppna `index.html?lecture=min-forelasning`. Stigarna definieras i manifestets
 `stigar`-lista och kan heta vad som helst.
+
+## Böckerna (bor i samma repo)
+
+Utöver föreläsningsverktyget publiceras Annas **nio böcker** härifrån, som egna
+HTML-sidor. Varje bok har knapparna **"Dela med AI"** (kopierar boken som ren
+text) och **Skriv ut** — och de ger *alltid* exakt den bok man läser.
+
+Det finns **två regimer** (full karta: `SANNINGSKARTA.md` i skrivbordsmappen
+*Senaste md till böcker*):
+
+- **Drömmen-trilogin** (`drommen`, `drommen-nu`, `drommen-stovlarna`) — här är
+  **markdown källan**. Filerna bor i *Senaste md till böcker/Drömmen-trilogin/*
+  och byggs med `python3 scripts/bygg_bok.py`. Boken, `.md`:n, "Dela med AI" och
+  utskriften är samma text. Daterad historik skrivs till en separat
+  `Ändringslogg.md` (aldrig in i boken).
+- **De sex handbyggda** (`en-bibel`, `motvikten`, `mega`, `forklara-ai`,
+  `utblickar`, `naturlag`) — här är den **publicerade HTML:en sanningen**;
+  mappens gamla md speglar den inte. `mega` byggs av `bygg_mega_bok.py`.
+  "Dela med AI" härleder texten direkt ur HTML:en, så den speglar alltid boken.
+
+**Sidfoten "Av samma författare":** de sex delar en gemensam fot via
+`scripts/bokfot.py` (ändra där + kör om → alla sex ändras). Drömmens fot är
+ännu handskriven i varje boks käll-md.
+
+## Skripten — levande vs arkiverade
+
+**Levande (rör dem inte i onödan — byggena hänger på dem):**
+
+| Skript | Vad |
+|---|---|
+| `bygg_bok.py` | bygger Drömmen-trilogin ur käll-md |
+| `bygg_mega_bok.py` | bygger *En rörelse* (mega) |
+| `bokfot.py` | gemensam "Av samma författare"-fot i de sex handbyggda |
+| `cc_licens.py` | CC-märkning i kolofonen (importeras av båda byggena) |
+| `gor_toc_klickbar.py`, `lagg_docs_knapp.py` | importeras av mega-bygget |
+| `gor_omslag.py`, `appikoner.py` | ritar omslag resp. app-ikoner/delningsbild |
+| `bibliotek.py` | bygger bibliotekshyllorna från Google-arket |
+| `synka_bilder.py` | skriver bildbankens lista |
+| `tankstreck.py` | tunnar tankstreck snyggt i innehållet |
+| `skorda_samlingar.py` | bygger samlingsböckerna (*naturlag*/*utblickar*) ur stämplade rutor |
+| `andringslogg.json`, `bok_state.json` | data: Drömmens ändringslogg + hash-vakt |
+
+**Arkiverade** i `ARKIV/spenderade-engangsskript-2026-11-03/` (spenderade
+engångskirurgier, redan inympade i den publicerade HTML:en — sparade, ej
+raderade): de fyra `box_*_krockar.py`, `stampla_metadata.py`, samt de gamla
+säkerhetskopiorna `app.css.bak` och `index.html.bak`.
 
 ## Om något strular
 

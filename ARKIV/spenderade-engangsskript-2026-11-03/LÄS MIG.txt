@@ -1,0 +1,32 @@
+SPENDERADE ENGÅNGSSKRIPT — arkiverade 2026-11-03
+=================================================
+
+Det här är skript som gjorde sitt jobb EN gång och sedan var klara. De har
+redan ympat in sin text i den publicerade HTML:en (som är sanningen för de
+böckerna). De importeras av ingenting och behövs inte för att något ska byggas.
+De ligger här — inte i papperskorgen — ifall texten de innehåller någon gång
+behöver läsas eller köras igen.
+
+Återuppväck en fil: flytta tillbaka den till ../../scripts/ och kör den med
+python3. (Den finns också i git-historiken.)
+
+FILERNA
+-------
+box_enbibel_krockar.py     "Var vi krockar"-prosan i En bibel, inympad en gång.
+box_ettparti_krockar.py    Samma för Ett parti (motvikten).
+box_forelasning_krockar.py Samma för Föreläsningen/Förklara AI-boken.
+box_rorelse_par.py         "Var vi möts" + "Var vi krockar" som par i En rörelse.
+                           (Alla fyra: prosan ligger hårdkodad i skriptet och är
+                           redan inne i respektive publicerad .html.)
+
+stampla_metadata.py        Stämplade in metadata i ursprungskorten EN gång, så att
+                           skorda_samlingar.py kan skörda samlingsböckerna
+                           (naturlag/utblickar). Själva stämplingen sitter kvar i
+                           källkorten, så skorda funkar även utan det här skriptet.
+                           Står själv "engångskörning" högst upp.
+
+app.css.bak                Gammal säkerhetskopia av föreläsningsverktygets CSS
+index.html.bak             resp. startsida (aug 2026). app.css/index.html är de
+                           levande; de här är bara gamla kopior.
+
+Blir allt bra en bra bit framåt kan hela den här mappen tömmas.
