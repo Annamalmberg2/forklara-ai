@@ -10225,6 +10225,12 @@ window.LECTURE = {
           "Svensk"
         ],
         [
+          "Chats & Chill",
+          "https://www.cyberchats.se/",
+          "Margarita Sallinen och Linda Nieminen intervjuvar spännande människor.",
+          "Svensk"
+        ],
+        [
           "En AI till Kaffet",
           "https://poddtoppen.se/podcast/1706391795/en-ai-till-kaffet",
           "Samtal om hur AI påverkar samhälle, individ och företag. Möt gäster och få nya perspektiv.",
@@ -10513,7 +10519,7 @@ window.LECTURE = {
           "Utlänsk"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 60 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 61 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-60",
@@ -11505,6 +11511,21 @@ window.LECTURE = {
           "Olika saker jag kan tala om på en förläsning"
         ],
         [
+          "Drömmen om den tänkande maskinen, Anna Malmberg",
+          "https://annamalmberg2.github.io/forklara-ai/drommen.html",
+          "Tre tusen år av tankar om den tänkande maskinen"
+        ],
+        [
+          "Drömmen och var vi står, Anna Malmberg",
+          "https://annamalmberg2.github.io/forklara-ai/drommen-nu.html",
+          "Vad AI kan i dag, var gränserna går och vem som bestämmer"
+        ],
+        [
+          "Drömmen med stövlarna på, Anna Malmberg",
+          "https://annamalmberg2.github.io/forklara-ai/drommen-stovlarna.html",
+          "Så kommer du i gång med AI, och behåller omdömet"
+        ],
+        [
           "En Bibel, Anna Malmberg",
           "https://annamalmberg2.github.io/forklara-ai/en-bibel.html",
           "En bibel som inte kräver tro"
@@ -11512,17 +11533,12 @@ window.LECTURE = {
         [
           "Ett Parti, Anna Malmberg",
           "https://annamalmberg2.github.io/forklara-ai/motvikten.html",
-          "Ett part som du inte kan rösta på"
+          "Ett parti som du inte kan rösta på"
         ],
         [
           "En Rörelse, Anna Malmberg",
           "https://annamalmberg2.github.io/forklara-ai/mega.html",
           "En rörelse som du inte kan följa"
-        ],
-        [
-          "Drömmen om den tänkande maskinen, Anna Malmberg",
-          "https://annamalmberg2.github.io/forklara-ai/drommen.html",
-          "Tre tusen år av tankar om den tänkande maskinen"
         ],
         [
           "Utblickar, Anna Malmberg",
@@ -11535,7 +11551,7 @@ window.LECTURE = {
           "Något kan kan presenteras som att det vore en naturlag fast det inte är det"
         ]
       ],
-      "anteckningar": "Hylla i biblioteket — 31 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
+      "anteckningar": "Hylla i biblioteket — 33 länkar. Hämtade från ett Google Sheet där varje hylla är en egen flik."
     },
     {
       "id": "130-90",
