@@ -320,6 +320,14 @@ def bygg_en(spec):
     import urllib.parse
     IMG = "%s/content/forklara-ai/bilder/%s" % (BASE, urllib.parse.quote(spec["cover"]))
     src_md = io.open(spec["src"], encoding="utf-8").read()
+    # Gemensam fot (enda källan = bokfot.py): klipp ev. gammal fot och sätt på den
+    # delade. Så "ändra en bok/rad = ändras i alla nio". Foten ligger i md:n, så
+    # "Dela med AI" (BOK_MD) == den publicerade .md:n == boken.
+    from bokfot import fot_markdown
+    m_fot = re.search(r'(?m)^#\s+\*{0,2}Av samma författare', src_md)
+    if m_fot:
+        src_md = src_md[:m_fot.start()]
+    src_md = src_md.rstrip() + "\n\n" + fot_markdown()
     if "Creative Commons" not in src_md:
         src_md = src_md.rstrip() + ("\n\n---\n\n*Fri att läsa, dela och bygga vidare på under "
             "[Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). "
@@ -348,7 +356,7 @@ def bygg_en(spec):
             cur.append(ln)
     if title is not None: blocks.append((title, cur))
 
-    header = forord = howto = tidslinje = personer = avsamma = vidare = ""
+    header = forord = howto = tidslinje = personer = avsamma = vidare = ainnova = ""
     chapters = []; toc_rows = []
     n_kap = n_mell = n_avsl = 0
 
@@ -405,6 +413,8 @@ def bygg_en(spec):
             avsamma = list_section(body, "Av samma författare")
         elif h1 == "Vidare läsning":
             vidare = list_section(body, "Vidare läsning", orn=False)
+        elif h1 == "Om AiNNOVA":
+            ainnova = list_section(body, "Om AiNNOVA", orn=False)
 
     # dynamisk TOC-rubrik
     bitar = ["%s kapitel" % RAKNEORD.get(n_kap, n_kap)]
@@ -506,7 +516,7 @@ def bygg_en(spec):
 
     out = (head + "</head>\n<body>\n" + buttons + '<div class="wrap">\n\n'
            + header + forord + howto + toc + "".join(chapters) + "\n"
-           + tidslinje + personer + avsamma + vidare + colophon + "\n</div>\n" + tail)
+           + tidslinje + personer + avsamma + vidare + ainnova + colophon + "\n</div>\n" + tail)
     io.open(ROOT + "/" + slug + ".html", "w", encoding="utf-8").write(out)
     from lagg_docs_knapp import installera; installera(ROOT + "/" + slug + ".html")
     from cc_licens import stampla; stampla(ROOT + "/" + slug + ".html")

@@ -865,28 +865,24 @@ Jag har skrivit två trilogier.
 
 **Drömmen**
 
-* **Drömmen om den tänkande maskinen** – tusentals år av mönster, människor och AI, från världens alla hörn. Hur vi hamnade här.  
-* **Drömmen och var vi står** – vad AI kan i dag, var gränserna går och vem som bestämmer.  
+* **Drömmen om den tänkande maskinen** – tusentals år av mönster, människor och AI, från världens alla hörn. Hur vi hamnade här.
+* **Drömmen och var vi står** – vad AI kan i dag, var gränserna går och vem som bestämmer.
 * **Drömmen med stövlarna på** – så kommer du i gång med AI, och behåller omdömet.
 
 **Den första trilogin**
 
-* **En bibel** – en bibel som inte kräver din tro. Ändå rymmer den det som varje tro borde vila på.  
-* **En rörelse** – en rörelse som inte går att följa. Ändå visar den vart varje rörelse borde gå.  
+* **En bibel** – en bibel som inte kräver din tro. Ändå rymmer den det som varje tro borde vila på.
+* **En rörelse** – en rörelse som inte går att följa. Ändå visar den vart varje rörelse borde gå.
 * **Ett parti** – ett parti som inte går att rösta på. Ändå är det vad varje parti borde ha i åtanke.
 
-Alla finns att läsa gratis på erbjudanden.ainnova.se/bocker.
+Alla finns att läsa gratis på [erbjudanden.ainnova.se/bocker](https://erbjudanden.ainnova.se/bocker).
 
 # **Vidare läsning**
 
 Böckerna tar slut, men frågorna gör det inte. På [hurdetfunkar.se](https://hurdetfunkar.se/) skriver jag texter som fortsätter där kapitlen slutar. De är skrivna på samma sätt som böckerna, med vardagsbilder i stället för facktermer, och gjorda för att klistras in i en AI eller läsas högt vid köksbordet. Varje text har sina källor med, och alla finns också samlade i en enda fil för den som vill ge hela högen till en maskin och fråga vidare.
 
-* **När maskinerna började lösa matematikens svåraste gåtor** – om problem som är svåra att lösa men lätta att kontrollera, och varför vår digitala säkerhet vilar på just det.  
-* **AI just nu** – det vi vet, och det vi ännu inte förstår om varför maskinerna fungerar så bra.  
-* **När inbrott blev billiga** – säkerhet i AI:s tid, och de vanor som skyddar dig.  
-* **Sverige och AI** – vad siffrorna berättar om hur vi använder maskinerna här hemma.  
-* **Gör AI oss dummare, eller tvingas vi bli smartare?** – om skolan, eleverna och vad det innebär att lära sig.  
-* **Skräpet i garderoben** – om skräpet på nätet, och hur AI kan hjälpa oss att rensa i stället för att fylla på.
+# **Om AiNNOVA**
+
+De här böckerna är en del av AiNNOVA — mitt sätt att göra AI begripligt för fler. Jag föreläser, skriver och bygger verktyg som förklarar tekniken med vardagsbilder i stället för facktermer. Mer finns på [ainnova.se](https://ainnova.se/).
 
 *Fri att läsa, dela och bygga vidare på under Creative Commons CC BY 4.0. Nämn gärna Anna Malmberg och* [AiNNOVA](https://ainnova.se/)*.*
-

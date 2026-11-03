@@ -43,6 +43,39 @@ FORSTA = [
      "ett parti som inte går att rösta på. Ändå är det vad varje parti borde ha i åtanke."),
 ]
 
+# ── Den gemensamma fotens TEXT (enda källan — ändra HÄR, slår igenom i alla nio
+#    böcker: de sex handbyggda via HTML nedan, Drömmen via fot_markdown()) ──────
+ERBJUDANDE = ("Alla finns att läsa gratis på "
+              "[erbjudanden.ainnova.se/bocker](https://erbjudanden.ainnova.se/bocker).")
+VIDARE = ("Böckerna tar slut, men frågorna gör det inte. På "
+          "[hurdetfunkar.se](https://hurdetfunkar.se/) skriver jag texter som fortsätter "
+          "där kapitlen slutar. De är skrivna på samma sätt som böckerna, med vardagsbilder "
+          "i stället för facktermer, och gjorda för att klistras in i en AI eller läsas högt "
+          "vid köksbordet. Varje text har sina källor med, och alla finns också samlade i en "
+          "enda fil för den som vill ge hela högen till en maskin och fråga vidare.")
+OM_AINNOVA = ("De här böckerna är en del av AiNNOVA — mitt sätt att göra AI begripligt för fler. "
+              "Jag föreläser, skriver och bygger verktyg som förklarar tekniken med vardagsbilder "
+              "i stället för facktermer. Mer finns på [ainnova.se](https://ainnova.se/).")
+CC_RAD = ("*Fri att läsa, dela och bygga vidare på under Creative Commons CC BY 4.0. "
+          "Nämn gärna Anna Malmberg och* [AiNNOVA](https://ainnova.se/)*.*")
+
+def _md2html(s):
+    return re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', s)
+
+def fot_markdown():
+    """Den gemensamma foten som ren markdown — för Drömmen-bygget, så att
+    'Dela med AI' (BOK_MD) == den publicerade .md:n == boken. Samma INNEHÅLL som
+    HTML-foten (bygg_block) nedan; renderas bara i Drömmens egna hus-stil."""
+    r = ["# **Av samma författare**", "", "Jag har skrivit två trilogier.", "",
+         "**Drömmen**", ""]
+    r += ["* **%s** – %s" % (t, d) for (t, u, d) in ANDRA]
+    r += ["", "**Den första trilogin**", ""]
+    r += ["* **%s** – %s" % (t, d) for (t, u, d) in FORSTA]
+    r += ["", ERBJUDANDE, "",
+          "# **Vidare läsning**", "", VIDARE, "",
+          "# **Om AiNNOVA**", "", OM_AINNOVA, "", CC_RAD, ""]
+    return "\n".join(r)
+
 START = "<!-- BOKFOT_START -->"
 SLUT  = "<!-- BOKFOT_END -->"
 
@@ -73,14 +106,11 @@ def bygg_block(orn=True):
     d += [_book(*b) for b in ANDRA]
     d.append(_p("Den första trilogin", S_SUB))
     d += [_book(*b) for b in FORSTA]
-    d.append(_p('Alla finns att läsa gratis på '
-                '<a href="https://erbjudanden.ainnova.se/bocker">erbjudanden.ainnova.se/bocker</a>.', S_NOTE))
+    d.append(_p(_md2html(ERBJUDANDE), S_NOTE))
     d.append(_p("Vidare läsning", S_SUB))
-    d.append(_p("Böckerna tar slut, men frågorna gör det inte. På "
-                '<a href="https://hurdetfunkar.se/">hurdetfunkar.se</a> skriver jag texter som '
-                "fortsätter där kapitlen slutar — skrivna på samma sätt som böckerna, med "
-                "vardagsbilder i stället för facktermer, och gjorda för att klistras in i en AI "
-                "eller läsas högt vid köksbordet."))
+    d.append(_p(_md2html(VIDARE)))
+    d.append(_p("Om AiNNOVA", S_SUB))
+    d.append(_p(_md2html(OM_AINNOVA)))
     return "\n    " + START + "\n    " + "\n    ".join(d) + "\n    " + SLUT + "\n    "
 
 def injicera(slug):
