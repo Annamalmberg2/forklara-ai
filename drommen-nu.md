@@ -178,7 +178,7 @@ Pröva villkoren. Bilderna är oändligt varierade, men det finns mönster att l
 
 Och lägg märke till vem som fortfarande avgör. Det är läkaren. Maskinen pekar. Människan dömer. Och lägg märke till att det var en offentlig sjukvård, i en vanlig svensk region, som gjorde studien, inte ett bolag i Kalifornien. Det går att pröva maskinerna på riktigt, ordentligt, med lottning och kontrollgrupp, precis som ett nytt läkemedel. Det borde vara regel, inte undantag.
 
-Skåne är inte ensamt. I USA godkände läkemedelsmyndigheten 223 medicintekniska produkter med AI bara under 2023\. År 2015 var det sex. Det mesta syns aldrig för patienten. Det sitter i röntgenapparaten, i hjärtmonitorn och i programmet som sorterar provsvaren.
+Skåne är inte ensamt. I USA godkände läkemedelsmyndigheten drygt tvåhundra medicintekniska produkter med AI bara under 2023\. År 2015 var det sex. Det mesta syns aldrig för patienten. Det sitter i röntgenapparaten, i hjärtmonitorn och i programmet som sorterar provsvaren.
 
 ## **Ögonklinikerna i Thailand**
 

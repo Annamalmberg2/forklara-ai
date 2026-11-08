@@ -2,6 +2,10 @@
   "drommen": [
     {
       "datum": "2026-11-08",
+      "text": "Vävde in några händer bakom maskinen som förtjänade sina namn: Cliff Shaw, programmeraren bakom Logic Theorist, och de tre som uppfann sökmetoden A-stjärna (Peter Hart, Nils Nilsson och Bertram Raphael vid SRI). Margaret Masterman fick en egen rad som filosof och Wittgenstein-elev. Och datumet för Dawkins essä mjukades till ”våren 2026”, för säkerhets skull."
+    },
+    {
+      "datum": "2026-11-08",
       "text": "Finslipade fyra detaljer i kapitel 4 så att boken tål en skarp faktagranskning utan att tappa berättarglädjen. Lighthills rapport sågade inte allt – han gav det tillämpade sitt erkännande och riktade kritiken mot den stora drömmen om allmän intelligens. PARRY beskrivs inte längre som ett klarat Turingtest, utan som det snävare försök det var. ELIZA-effekten handlar om att tillskriva maskinen förståelse, inte med nödvändighet medvetande. Och SHRDLU rasade inte ihop – det var metoden som visade sig svår att lyfta ut ur klossvärlden."
     },
     {
@@ -18,6 +22,10 @@
     }
   ],
   "drommen-nu": [
+    {
+      "datum": "2026-11-08",
+      "text": "Bytte den exakta siffran för hur många AI-produkter den amerikanska läkemedelsmyndigheten godkände 2023 till ”drygt tvåhundra”, eftersom olika versioner av myndighetens lista ger lite olika tal (ofta 221). Allt annat i boken står fast efter en granskning pärm till pärm."
+    },
     {
       "datum": "2026-11-03",
       "text": "Gjorde bokfoten gemensam för alla böcker. “Vidare läsning” är nu den korta hänvisningen till hurdetfunkar.se (de bokspecifika lästipsen togs bort så foten blir lika i alla böcker), raden om erbjudanden.ainnova.se/bocker blev en klickbar länk, och ett nytt stycke “Om AiNNOVA” med länk till ainnova.se tillkom."
