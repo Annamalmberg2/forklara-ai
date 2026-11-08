@@ -52,7 +52,7 @@ HANDLER = r"""
        b.parentNode.replaceChild(bq,b);
      });
     // kapitelöppning -> H2, underrubrik -> H3, etikett -> H2
-    w.querySelectorAll(".opener").forEach(function(o){var h=o.querySelector("h2");var n=document.createElement("h2");n.textContent=h?h.textContent:o.textContent;o.parentNode.replaceChild(n,o);});
+    w.querySelectorAll(".opener").forEach(function(o){var r=o.getAttribute("data-rubrik");var h=o.querySelector("h2");var n=document.createElement("h2");n.textContent=r||(h?h.textContent:o.textContent);o.parentNode.replaceChild(n,o);});
     w.querySelectorAll(".section-head").forEach(function(s){var c=s.querySelector(".concept");var h=document.createElement("h3");h.textContent=c?c.textContent:s.textContent;s.parentNode.replaceChild(h,s);});
     w.querySelectorAll(".extra-head").forEach(function(e){var h=document.createElement("h3");h.textContent=e.textContent;e.parentNode.replaceChild(h,e);});
     w.querySelectorAll(".label").forEach(function(l){var h=document.createElement("h2");h.textContent=l.textContent;l.parentNode.replaceChild(h,l);});

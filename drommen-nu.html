@@ -353,7 +353,7 @@
   </section>
 
   <section id="kap-1">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 1 – Startskott i Stockholm">
       <div class="num">I</div>
       <div class="kap">Kapitel</div>
       <h2>Startskott i Stockholm</h2>
@@ -370,7 +370,7 @@
     </div>
   </section>
   <section id="kap-2">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 2 – Tre villkor">
       <div class="num">II</div>
       <div class="kap">Kapitel</div>
       <h2>Tre villkor</h2>
@@ -390,7 +390,7 @@
     </div>
   </section>
   <section id="kap-3">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 3 – Självspelet">
       <div class="num">III</div>
       <div class="kap">Kapitel</div>
       <h2>Självspelet</h2>
@@ -409,7 +409,7 @@
     </div>
   </section>
   <section id="kap-4">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 4 – Digital biologi">
       <div class="num">IV</div>
       <div class="kap">Kapitel</div>
       <h2>Digital biologi</h2>
@@ -431,7 +431,7 @@
     </div>
   </section>
   <section id="kap-5">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 5 – Världsmodeller">
       <div class="num">V</div>
       <div class="kap">Kapitel</div>
       <h2>Världsmodeller</h2>
@@ -450,7 +450,7 @@
     </div>
   </section>
   <section id="mellanspel-1">
-    <div class="opener">
+    <div class="opener" data-rubrik="Mellanspel – En karta över djungeln">
       <div class="num"></div>
       <div class="kap">Mellanspel</div>
       <h2>En karta över djungeln</h2>
@@ -463,7 +463,7 @@
     </div>
   </section>
   <section id="kap-6">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 6 – Agenterna hemma">
       <div class="num">VI</div>
       <div class="kap">Kapitel</div>
       <h2>Agenterna hemma</h2>
@@ -481,7 +481,7 @@
     </div>
   </section>
   <section id="kap-7">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 7 – Äkta, skapat och lätt att tro">
       <div class="num">VII</div>
       <div class="kap">Kapitel</div>
       <h2>Äkta, skapat och lätt att tro</h2>
@@ -505,7 +505,7 @@
     </div>
   </section>
   <section id="kap-8">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 8 – Arbetet">
       <div class="num">VIII</div>
       <div class="kap">Kapitel</div>
       <h2>Arbetet</h2>
@@ -532,7 +532,7 @@
     </div>
   </section>
   <section id="kap-9">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 9 – Farten och makten">
       <div class="num">IX</div>
       <div class="kap">Kapitel</div>
       <h2>Farten och makten</h2>
@@ -559,7 +559,7 @@
     </div>
   </section>
   <section id="kap-10">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 10 – Vem granskar granskaren?">
       <div class="num">X</div>
       <div class="kap">Kapitel</div>
       <h2>Vem granskar granskaren?</h2>
@@ -577,7 +577,7 @@
     </div>
   </section>
   <section id="kap-11">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 11 – Himlen och strömmen">
       <div class="num">XI</div>
       <div class="kap">Kapitel</div>
       <h2>Himlen och strömmen</h2>
@@ -601,7 +601,7 @@
     </div>
   </section>
   <section id="kap-12">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 12 – Klyftorna">
       <div class="num">XII</div>
       <div class="kap">Kapitel</div>
       <h2>Klyftorna</h2>
@@ -618,7 +618,7 @@
     </div>
   </section>
   <section id="kap-13">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 13 – Gränsen">
       <div class="num">XIII</div>
       <div class="kap">Kapitel</div>
       <h2>Gränsen</h2>
@@ -642,7 +642,7 @@
     </div>
   </section>
   <section id="avslutning">
-    <div class="opener">
+    <div class="opener" data-rubrik="Avslutning – Stövlarna i hallen">
       <div class="num">✦</div>
       <div class="kap">Avslutning</div>
       <h2>Stövlarna i hallen</h2>
@@ -853,7 +853,7 @@
        b.parentNode.replaceChild(bq,b);
      });
     // kapitelöppning -> H2, underrubrik -> H3, etikett -> H2
-    w.querySelectorAll(".opener").forEach(function(o){var h=o.querySelector("h2");var n=document.createElement("h2");n.textContent=h?h.textContent:o.textContent;o.parentNode.replaceChild(n,o);});
+    w.querySelectorAll(".opener").forEach(function(o){var r=o.getAttribute("data-rubrik");var h=o.querySelector("h2");var n=document.createElement("h2");n.textContent=r||(h?h.textContent:o.textContent);o.parentNode.replaceChild(n,o);});
     w.querySelectorAll(".section-head").forEach(function(s){var c=s.querySelector(".concept");var h=document.createElement("h3");h.textContent=c?c.textContent:s.textContent;s.parentNode.replaceChild(h,s);});
     w.querySelectorAll(".extra-head").forEach(function(e){var h=document.createElement("h3");h.textContent=e.textContent;e.parentNode.replaceChild(h,e);});
     w.querySelectorAll(".label").forEach(function(l){var h=document.createElement("h2");h.textContent=l.textContent;l.parentNode.replaceChild(h,l);});

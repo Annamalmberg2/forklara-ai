@@ -349,7 +349,7 @@
   </section>
 
   <section id="kap-1">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 1 – Smedjan och sanden">
       <div class="num">I</div>
       <div class="kap">Kapitel</div>
       <h2>Smedjan och sanden</h2>
@@ -367,7 +367,7 @@
     </div>
   </section>
   <section id="kap-2">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 2 – Mekanikens bländverk och den första programmeraren">
       <div class="num">II</div>
       <div class="kap">Kapitel</div>
       <h2>Mekanikens bländverk och den första programmeraren</h2>
@@ -384,7 +384,7 @@
     </div>
   </section>
   <section id="kap-3">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 3 – Turing, koden och händerna bakom maskinen">
       <div class="num">III</div>
       <div class="kap">Kapitel</div>
       <h2>Turing, koden och händerna bakom maskinen</h2>
@@ -401,7 +401,7 @@
     </div>
   </section>
   <section id="kap-4">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 4 – Symbolernas dröm och den första iskalla vintern">
       <div class="num">IV</div>
       <div class="kap">Kapitel</div>
       <h2>Symbolernas dröm och den första iskalla vintern</h2>
@@ -417,7 +417,7 @@
     </div>
   </section>
   <section id="kap-5">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 5 – Expertsystemen, perceptronens död och en envis mans dröm">
       <div class="num">V</div>
       <div class="kap">Kapitel</div>
       <h2>Expertsystemen, perceptronens död och en envis mans dröm</h2>
@@ -434,7 +434,7 @@
     </div>
   </section>
   <section id="kap-6">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 6 – Den perfekta stormen, spelet i Seoul och språkets uppvaknande">
       <div class="num">VI</div>
       <div class="kap">Kapitel</div>
       <h2>Den perfekta stormen, spelet i Seoul och språkets uppvaknande</h2>
@@ -452,7 +452,7 @@
     </div>
   </section>
   <section id="kap-7">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 7 – Dagen då världen vaknade">
       <div class="num">VII</div>
       <div class="kap">Kapitel</div>
       <h2>Dagen då världen vaknade</h2>
@@ -468,7 +468,7 @@
     </div>
   </section>
   <section id="mellanspel-1">
-    <div class="opener">
+    <div class="opener" data-rubrik="Mellanspel I – En mening på väg genom maskinen">
       <div class="num">I</div>
       <div class="kap">Mellanspel</div>
       <h2>En mening på väg genom maskinen</h2>
@@ -487,7 +487,7 @@
     </div>
   </section>
   <section id="kap-8">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 8 – Bakom de stängda dörrarna">
       <div class="num">VIII</div>
       <div class="kap">Kapitel</div>
       <h2>Bakom de stängda dörrarna</h2>
@@ -504,7 +504,7 @@
     </div>
   </section>
   <section id="mellanspel-2">
-    <div class="opener">
+    <div class="opener" data-rubrik="Mellanspel II – Ett ärende på väg genom maskinen">
       <div class="num">II</div>
       <div class="kap">Mellanspel</div>
       <h2>Ett ärende på väg genom maskinen</h2>
@@ -520,7 +520,7 @@
     </div>
   </section>
   <section id="kap-9">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 9 – Människan i mitten">
       <div class="num">IX</div>
       <div class="kap">Kapitel</div>
       <h2>Människan i mitten</h2>
@@ -891,7 +891,7 @@
        b.parentNode.replaceChild(bq,b);
      });
     // kapitelöppning -> H2, underrubrik -> H3, etikett -> H2
-    w.querySelectorAll(".opener").forEach(function(o){var h=o.querySelector("h2");var n=document.createElement("h2");n.textContent=h?h.textContent:o.textContent;o.parentNode.replaceChild(n,o);});
+    w.querySelectorAll(".opener").forEach(function(o){var r=o.getAttribute("data-rubrik");var h=o.querySelector("h2");var n=document.createElement("h2");n.textContent=r||(h?h.textContent:o.textContent);o.parentNode.replaceChild(n,o);});
     w.querySelectorAll(".section-head").forEach(function(s){var c=s.querySelector(".concept");var h=document.createElement("h3");h.textContent=c?c.textContent:s.textContent;s.parentNode.replaceChild(h,s);});
     w.querySelectorAll(".extra-head").forEach(function(e){var h=document.createElement("h3");h.textContent=e.textContent;e.parentNode.replaceChild(h,e);});
     w.querySelectorAll(".label").forEach(function(l){var h=document.createElement("h2");h.textContent=l.textContent;l.parentNode.replaceChild(h,l);});

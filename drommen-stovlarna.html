@@ -351,7 +351,7 @@
   </section>
 
   <section id="kap-1">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 1 – Vem satte gränsen?">
       <div class="num">I</div>
       <div class="kap">Kapitel</div>
       <h2>Vem satte gränsen?</h2>
@@ -368,7 +368,7 @@
     </div>
   </section>
   <section id="kap-2">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 2 – Vilken sort är det?">
       <div class="num">II</div>
       <div class="kap">Kapitel</div>
       <h2>Vilken sort är det?</h2>
@@ -383,7 +383,7 @@
     </div>
   </section>
   <section id="kap-3">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 3 – Vad vill du egentligen?">
       <div class="num">III</div>
       <div class="kap">Kapitel</div>
       <h2>Vad vill du egentligen?</h2>
@@ -398,7 +398,7 @@
     </div>
   </section>
   <section id="kap-4">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 4 – Ett exempel säger mer">
       <div class="num">IV</div>
       <div class="kap">Kapitel</div>
       <h2>Ett exempel säger mer</h2>
@@ -415,7 +415,7 @@
     </div>
   </section>
   <section id="kap-5">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 5 – Dela upp det">
       <div class="num">V</div>
       <div class="kap">Kapitel</div>
       <h2>Dela upp det</h2>
@@ -431,7 +431,7 @@
     </div>
   </section>
   <section id="kap-6">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 6 – Be den säga emot">
       <div class="num">VI</div>
       <div class="kap">Kapitel</div>
       <h2>Be den säga emot</h2>
@@ -446,7 +446,7 @@
     </div>
   </section>
   <section id="kap-7">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 7 – Kontrollera det som spelar roll">
       <div class="num">VII</div>
       <div class="kap">Kapitel</div>
       <h2>Kontrollera det som spelar roll</h2>
@@ -465,7 +465,7 @@
     </div>
   </section>
   <section id="kap-8">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 8 – Släppa in en agent">
       <div class="num">VIII</div>
       <div class="kap">Kapitel</div>
       <h2>Släppa in en agent</h2>
@@ -482,7 +482,7 @@
     </div>
   </section>
   <section id="kap-9">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 9 – Det som är ditt">
       <div class="num">IX</div>
       <div class="kap">Kapitel</div>
       <h2>Det som är ditt</h2>
@@ -500,7 +500,7 @@
     </div>
   </section>
   <section id="kap-10">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 10 – Din vecka">
       <div class="num">X</div>
       <div class="kap">Kapitel</div>
       <h2>Din vecka</h2>
@@ -518,7 +518,7 @@
     </div>
   </section>
   <section id="kap-11">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 11 – När man ska låta bli">
       <div class="num">XI</div>
       <div class="kap">Kapitel</div>
       <h2>När man ska låta bli</h2>
@@ -534,7 +534,7 @@
     </div>
   </section>
   <section id="kap-12">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel 12 – Att lära sig själv">
       <div class="num">XII</div>
       <div class="kap">Kapitel</div>
       <h2>Att lära sig själv</h2>
@@ -550,7 +550,7 @@
     </div>
   </section>
   <section id="avslutning">
-    <div class="opener">
+    <div class="opener" data-rubrik="Avslutning – Med stövlarna på">
       <div class="num">✦</div>
       <div class="kap">Avslutning</div>
       <h2>Med stövlarna på</h2>
@@ -660,7 +660,7 @@
        b.parentNode.replaceChild(bq,b);
      });
     // kapitelöppning -> H2, underrubrik -> H3, etikett -> H2
-    w.querySelectorAll(".opener").forEach(function(o){var h=o.querySelector("h2");var n=document.createElement("h2");n.textContent=h?h.textContent:o.textContent;o.parentNode.replaceChild(n,o);});
+    w.querySelectorAll(".opener").forEach(function(o){var r=o.getAttribute("data-rubrik");var h=o.querySelector("h2");var n=document.createElement("h2");n.textContent=r||(h?h.textContent:o.textContent);o.parentNode.replaceChild(n,o);});
     w.querySelectorAll(".section-head").forEach(function(s){var c=s.querySelector(".concept");var h=document.createElement("h3");h.textContent=c?c.textContent:s.textContent;s.parentNode.replaceChild(h,s);});
     w.querySelectorAll(".extra-head").forEach(function(e){var h=document.createElement("h3");h.textContent=e.textContent;e.parentNode.replaceChild(h,e);});
     w.querySelectorAll(".label").forEach(function(l){var h=document.createElement("h2");h.textContent=l.textContent;l.parentNode.replaceChild(h,l);});

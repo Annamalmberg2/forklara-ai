@@ -401,10 +401,11 @@ def bygg_en(spec):
                 toc_rows.append('      <li><span class="n">✦</span><span class="t">'
                                 '<a href="#%s">Avslutning — %s</a></span></li>' % (anchor, inline(ttl)))
             chapters.append(
-                '  <section id="%s">\n    <div class="opener">\n'
+                '  <section id="%s">\n    <div class="opener" data-rubrik="%s">\n'
                 '      <div class="num">%s</div>\n      <div class="kap">%s</div>\n'
                 '      <h2>%s</h2>\n    </div>\n    <div class="ford">\n%s\n    </div>\n  </section>\n'
-                % (anchor, opennum, kapword, inline(ttl), chapter_body(body)))
+                % (anchor, h1.replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;"),
+                   opennum, kapword, inline(ttl), chapter_body(body)))
         elif h1 == "Tidslinje":
             tidslinje = timeline_section(body)
         elif h1.startswith("Personer"):
