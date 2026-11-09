@@ -268,7 +268,7 @@
   </section>
 
   <section id="kap-1">
-    <div class="opener">
+    <div class="opener" data-rubrik="Väderstreck I – Den islamiska världen &amp; Mellanöstern">
       <div class="num">I</div>
       <div class="kap">Väderstreck</div>
       <h2>Den islamiska världen & Mellanöstern</h2>
@@ -286,7 +286,7 @@
   </section>
 
   <section id="kap-2">
-    <div class="opener">
+    <div class="opener" data-rubrik="Väderstreck II – Indien &amp; Sydasien">
       <div class="num">II</div>
       <div class="kap">Väderstreck</div>
       <h2>Indien & Sydasien</h2>
@@ -309,7 +309,7 @@
   </section>
 
   <section id="kap-3">
-    <div class="opener">
+    <div class="opener" data-rubrik="Väderstreck III – Kina &amp; Östasien">
       <div class="num">III</div>
       <div class="kap">Väderstreck</div>
       <h2>Kina & Östasien</h2>
@@ -334,7 +334,7 @@
   </section>
 
   <section id="kap-4">
-    <div class="opener">
+    <div class="opener" data-rubrik="Väderstreck IV – Afrika &amp; globala Syd">
       <div class="num">IV</div>
       <div class="kap">Väderstreck</div>
       <h2>Afrika & globala Syd</h2>
@@ -358,7 +358,7 @@
   </section>
 
   <section id="kap-5">
-    <div class="opener">
+    <div class="opener" data-rubrik="Väderstreck V – Urfolk &amp; det gemensamma arvet">
       <div class="num">V</div>
       <div class="kap">Väderstreck</div>
       <h2>Urfolk & det gemensamma arvet</h2>
@@ -375,7 +375,7 @@
   </section>
 
   <section id="kap-6">
-    <div class="opener">
+    <div class="opener" data-rubrik="Väderstreck VI – Europa, Norden &amp; världens regler">
       <div class="num">VI</div>
       <div class="kap">Väderstreck</div>
       <h2>Europa, Norden & världens regler</h2>
@@ -397,7 +397,7 @@
   </section>
 
   <section id="kap-7">
-    <div class="opener">
+    <div class="opener" data-rubrik="Väderstreck VII – Tvärgående mänskliga mönster">
       <div class="num">VII</div>
       <div class="kap">Väderstreck</div>
       <h2>Tvärgående mänskliga mönster</h2>
@@ -514,6 +514,7 @@
 
 
 
+
 <script>
 /* KOPIERA_DOCS_HANDLER */
 (function(){
@@ -533,12 +534,14 @@
        b.parentNode.replaceChild(bq,b);
      });
     // kapitelöppning -> H2, underrubrik -> H3, etikett -> H2
-    w.querySelectorAll(".opener").forEach(function(o){var h=o.querySelector("h2");var n=document.createElement("h2");n.textContent=h?h.textContent:o.textContent;o.parentNode.replaceChild(n,o);});
+    w.querySelectorAll(".opener").forEach(function(o){var r=o.getAttribute("data-rubrik");var h=o.querySelector("h2");var n=document.createElement("h2");n.textContent=r||(h?h.textContent:o.textContent);o.parentNode.replaceChild(n,o);});
     w.querySelectorAll(".section-head").forEach(function(s){var c=s.querySelector(".concept");var h=document.createElement("h3");h.textContent=c?c.textContent:s.textContent;s.parentNode.replaceChild(h,s);});
     w.querySelectorAll(".extra-head").forEach(function(e){var h=document.createElement("h3");h.textContent=e.textContent;e.parentNode.replaceChild(h,e);});
     w.querySelectorAll(".label").forEach(function(l){var h=document.createElement("h2");h.textContent=l.textContent;l.parentNode.replaceChild(h,l);});
     // begrepp-grid -> lista
     w.querySelectorAll(".extra-grid").forEach(function(g){var ul=document.createElement("ul");Array.prototype.forEach.call(g.children,function(it){var n=it.querySelector(".extra-name"),d=it.querySelector(".extra-desc");var li=document.createElement("li");li.innerHTML=(n?"<strong>"+n.textContent+":</strong> ":"")+(d?d.textContent:it.textContent);ul.appendChild(li);});g.parentNode.replaceChild(ul,g);});
+    // tidslinje -> lista, en rad per händelse (annars klistras årtal+text ihop till gröt)
+    w.querySelectorAll(".timeline").forEach(function(tl){var ul=document.createElement("ul");tl.querySelectorAll(".tl-row").forEach(function(r){var y=r.querySelector(".tl-year"),t=r.querySelector(".tl-text");var li=document.createElement("li");li.innerHTML=(y?"<strong>"+y.textContent.trim()+"</strong> — ":"")+(t?t.innerHTML.trim():r.innerHTML);ul.appendChild(li);});tl.parentNode.replaceChild(ul,tl);});
     // undertitel -> kursivt stycke
     w.querySelectorAll(".sub").forEach(function(s){var p=document.createElement("p");p.innerHTML="<em>"+s.textContent.trim()+"</em>";s.parentNode.replaceChild(p,s);});
     // rensa alla class/style/id-attribut

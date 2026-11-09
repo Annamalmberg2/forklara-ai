@@ -328,7 +328,7 @@
   </section>
 
   <section id="kap-1">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel I – Vetenskap och universum">
       <div class="num">I</div>
       <div class="kap">Kapitel I</div>
       <h2>Vetenskap och universum</h2>
@@ -411,7 +411,7 @@
   </section>
 
   <section id="kap-2">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel II – Historia, tid och minne">
       <div class="num">II</div>
       <div class="kap">Kapitel II</div>
       <h2>Historia, tid och minne</h2>
@@ -506,7 +506,7 @@ Men det gör att de låser dörren om sig. De missade att lära ut en del av det
   </section>
 
   <section id="kap-3">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel III – Psykologi och självutveckling">
       <div class="num">III</div>
       <div class="kap">Kapitel III</div>
       <h2>Psykologi och självutveckling</h2>
@@ -585,7 +585,7 @@ Men det gör att de låser dörren om sig. De missade att lära ut en del av det
   </section>
 
   <section id="kap-4">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel IV – Kognition, språk och sanning">
       <div class="num">IV</div>
       <div class="kap">Kapitel IV</div>
       <h2>Kognition, språk och sanning</h2>
@@ -664,7 +664,7 @@ Men det gör att de låser dörren om sig. De missade att lära ut en del av det
   </section>
 
   <section id="kap-5">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel V – Filosofi och livsfrågor">
       <div class="num">V</div>
       <div class="kap">Kapitel V</div>
       <h2>Filosofi och livsfrågor</h2>
@@ -743,7 +743,7 @@ Men det gör att de låser dörren om sig. De missade att lära ut en del av det
   </section>
 
   <section id="kap-6">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel VI – Konst, kreativitet och natur">
       <div class="num">VI</div>
       <div class="kap">Kapitel VI</div>
       <h2>Konst, kreativitet och natur</h2>
@@ -822,7 +822,7 @@ Men det gör att de låser dörren om sig. De missade att lära ut en del av det
   </section>
 
   <section id="kap-7">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel VII – Digitalt liv och dataetik">
       <div class="num">VII</div>
       <div class="kap">Kapitel VII</div>
       <h2>Digitalt liv och dataetik</h2>
@@ -901,7 +901,7 @@ Men det gör att de låser dörren om sig. De missade att lära ut en del av det
   </section>
 
   <section id="kap-8">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel VIII – Ekonomi, makt och resurser">
       <div class="num">VIII</div>
       <div class="kap">Kapitel VIII</div>
       <h2>Ekonomi, makt och resurser</h2>
@@ -980,7 +980,7 @@ Men det gör att de låser dörren om sig. De missade att lära ut en del av det
   </section>
 
   <section id="kap-9">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel IX – Samhälle, tillit och gemenskap">
       <div class="num">IX</div>
       <div class="kap">Kapitel IX</div>
       <h2>Samhälle, tillit och gemenskap</h2>
@@ -1059,7 +1059,7 @@ Men det gör att de låser dörren om sig. De missade att lära ut en del av det
   </section>
 
   <section id="kap-10">
-    <div class="opener">
+    <div class="opener" data-rubrik="Kapitel X – Lyckan">
       <div class="num">X</div>
       <div class="kap">Kapitel X</div>
       <h2>Lyckan</h2>
@@ -1260,6 +1260,7 @@ Men det gör att de låser dörren om sig. De missade att lära ut en del av det
 
 
 
+
 <script>
 /* KOPIERA_DOCS_HANDLER */
 (function(){
@@ -1279,12 +1280,14 @@ Men det gör att de låser dörren om sig. De missade att lära ut en del av det
        b.parentNode.replaceChild(bq,b);
      });
     // kapitelöppning -> H2, underrubrik -> H3, etikett -> H2
-    w.querySelectorAll(".opener").forEach(function(o){var h=o.querySelector("h2");var n=document.createElement("h2");n.textContent=h?h.textContent:o.textContent;o.parentNode.replaceChild(n,o);});
+    w.querySelectorAll(".opener").forEach(function(o){var r=o.getAttribute("data-rubrik");var h=o.querySelector("h2");var n=document.createElement("h2");n.textContent=r||(h?h.textContent:o.textContent);o.parentNode.replaceChild(n,o);});
     w.querySelectorAll(".section-head").forEach(function(s){var c=s.querySelector(".concept");var h=document.createElement("h3");h.textContent=c?c.textContent:s.textContent;s.parentNode.replaceChild(h,s);});
     w.querySelectorAll(".extra-head").forEach(function(e){var h=document.createElement("h3");h.textContent=e.textContent;e.parentNode.replaceChild(h,e);});
     w.querySelectorAll(".label").forEach(function(l){var h=document.createElement("h2");h.textContent=l.textContent;l.parentNode.replaceChild(h,l);});
     // begrepp-grid -> lista
     w.querySelectorAll(".extra-grid").forEach(function(g){var ul=document.createElement("ul");Array.prototype.forEach.call(g.children,function(it){var n=it.querySelector(".extra-name"),d=it.querySelector(".extra-desc");var li=document.createElement("li");li.innerHTML=(n?"<strong>"+n.textContent+":</strong> ":"")+(d?d.textContent:it.textContent);ul.appendChild(li);});g.parentNode.replaceChild(ul,g);});
+    // tidslinje -> lista, en rad per händelse (annars klistras årtal+text ihop till gröt)
+    w.querySelectorAll(".timeline").forEach(function(tl){var ul=document.createElement("ul");tl.querySelectorAll(".tl-row").forEach(function(r){var y=r.querySelector(".tl-year"),t=r.querySelector(".tl-text");var li=document.createElement("li");li.innerHTML=(y?"<strong>"+y.textContent.trim()+"</strong> — ":"")+(t?t.innerHTML.trim():r.innerHTML);ul.appendChild(li);});tl.parentNode.replaceChild(ul,tl);});
     // undertitel -> kursivt stycke
     w.querySelectorAll(".sub").forEach(function(s){var p=document.createElement("p");p.innerHTML="<em>"+s.textContent.trim()+"</em>";s.parentNode.replaceChild(p,s);});
     // rensa alla class/style/id-attribut
