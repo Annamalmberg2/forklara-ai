@@ -10,13 +10,13 @@
 
 Det här är den tredje boken. Den första berättade hur vi hamnade här. Den andra visade var vi står. Den här handlar om det som återstår: hur du själv kommer i gång.
 
-Det är den svåraste boken att skriva, för allt som har med verktygen att göra ändrar sig från dag till dag. En bok om var man ska klicka är gammal innan den är tryckt. Därför handlar den här boken om något annat: hur man tänker, frågar och granskar när man arbetar med en maskin. Det har människor gjort i tusentals år, med andra verktyg. Varje kapitel börjar med en berättelse, bär en nyckel, ofta från de två första böckerna, och slutar med en övning och en fallgrop.
+Det är den svåraste boken att skriva, för allt som har med verktygen att göra ändrar sig från dag till dag. En bok om var du ska klicka är gammal innan den är tryckt. Därför handlar den här boken om något annat: hur du tänker, frågar och granskar när du arbetar med en maskin. Det har människor gjort i tusentals år, med andra verktyg. Varje kapitel börjar med en berättelse, bär en nyckel, ofta från de två första böckerna, och slutar med en övning och en fallgrop.
 
 Jag har inte skrivit den här boken för att du ska lita blint på maskinerna. Inte heller för att du ska vara rädd för dem. Jag har skrivit den för att du ska våga pröva, och veta hur du kontrollerar det du får.
 
 Jag har alltid haft lättare att tänka än att skriva. Jag är så ordblind att en gås stavar bättre, och siffrorna var inte lättare. Redan i första klass tog jag min äldre brors gamla räknehäften till hjälp. Min mamma är lärare och rättade det jag skrev, men varje gång jag renskrev smög det in nya fel. Först när datorn kom kunde hennes rödpenna göra nytta, för då kunde jag rätta felen utan att skriva in nya.
 
-Jag gick ut nian med en etta i allmän matematik — det som på den tiden fanns till för att skilja agnarna från vetet: allmän matematik åt de många, särskild åt dem man tyckte var värda att kosta på. Det enda jag hade tränats på var gångertabellen på tid. Det var ren envishet som tog mig till en examen som lärare i matematik och fysik.
+Jag gick ut nian med en etta i allmän matematik — det som på den tiden fanns till för att skilja agnarna från vetet: allmän matematik åt de många, särskild åt dem som ansågs värda att kosta på. Det enda jag hade tränats på var gångertabellen på tid. Det var ren envishet som tog mig till en examen som lärare i matematik och fysik.
 
 Jag förstod inte allt. Men jag lärde mig något som har burit mig sedan dess: att känna efter om ett svar är rimligt. Det fick mig att säga emot mer än en erkänd professor när ett steg i en beräkning inte höll. Den känslan delade jag med Acke, min labbkamrat i fysiken. Han var en mästare på att förklara men ännu sämre än jag på att skriva, så jag fick föra pennan medan han stod för det mesta av tänkandet. Ett labbförsök kunde han rata på tre datapunkter — han visste redan då om det skulle ge något vettigt. En gång, mitt i en professors sifferbalett, sa han bara: ”Du har ett teckenfel. Jag vet inte var, men jag vet att du har det.” Och det hade professorn. När jag pluggade som mest kunde jag ringa Acke dygnet runt. Titlar och pengar gör ingen beräkning rätt.
 
@@ -24,9 +24,9 @@ Jag är kanske lite av en envis tax. Men jag är människa.
 
 Maskinerna i dag har tagit ett steg till. Jag kan säga det jag menar, på mitt eget sätt, och få hjälp att ge det form. En kväll skrev jag att jag hade ”lycckats med ennlogo som blev lättrebpå värmmländska än välromptatad”. Maskinen förstod precis vad jag menade. Det är därför jag har kunnat skriva de här böckerna. Verktyget tog inte över mitt omdöme. Det tog bort ett hinder, så att tankarna äntligen kom fram. Och omdömet, känslan för vad som är rimligt, är just det du behöver ta med dig när du arbetar med en maskin. Det är vad den här boken handlar om.
 
-Själv är jag kluven. Med en maskin vid sin sida lär man sig ofta snabbare på egen hand än på en föreläsning. Men det fungerar bäst för den som redan har något att stå på, och det är just det en utbildning ger. Den här boken försöker hålla båda tankarna i huvudet samtidigt.
+Själv är jag kluven. Med en maskin vid din sida lär du dig ofta snabbare på egen hand än på en föreläsning. Men det fungerar bäst för den som redan har något att stå på, och det är just det en utbildning ger. Den här boken försöker hålla båda tankarna i huvudet samtidigt.
 
-Boken är själv ett exempel på det den handlar om. Den är skriven av en människa och flera maskiner tillsammans. Maskinerna har letat, föreslagit, sagt emot och kontrollerat. Jag har valt, styrt och petat i varje mening. Jag skrev inte orden. Jag skrev boken. Det talas mycket om huruvida böcker är skrivna med AI, men böcker har alltid haft fler händer än den som står på omslaget, så som Zlatan skrev sin bok med David Lagercrantz. Det nya är inte att man får hjälp. Det nya är att alla kan få det, och att det går att lära sig att göra det bra. Finns det fel bär jag ansvaret, och hittar du ett, säg till på anna@ainnova.se.
+Boken är själv ett exempel på det den handlar om. Den är skriven av en människa och flera maskiner tillsammans. Maskinerna har letat, föreslagit, sagt emot och kontrollerat. Jag har valt, styrt och petat i varje mening. Jag skrev inte orden. Jag skrev boken. Det talas mycket om huruvida böcker är skrivna med AI, men böcker har alltid haft fler händer än den som står på omslaget, så som Zlatan skrev sin bok med David Lagercrantz. Det nya är inte att du får hjälp. Det nya är att alla kan få det, och att det går att lära sig att göra det bra. Finns det fel bär jag ansvaret, och hittar du ett, säg till på anna@ainnova.se.
 
 Håll inte med om allt. Pröva det i stället. Det är vad övningarna i boken är till för.
 
@@ -60,15 +60,15 @@ Men det finns en annan sorts gräns i berättelsen vid köksbordet, och den sitt
 
 Vännen som var säker på att maskinen inte kunde läsa kalkylblad hade provat en gång, fått ett dåligt svar och slutat där. Gränsen blev hans egen. Det är lätt hänt. Vi säger att vi inte är tekniska, att vi inte kan skriva, att sådant där är för ingenjörer. Ofta har någon annan sagt det först, en lärare, en chef, en kollega med rätt examen, och vi har tagit det till oss tills det känns som en sanning.
 
-I dag kan en människa som aldrig har skrivit en bok skriva en. En småföretagare som aldrig har programmerat kan bygga sitt eget bokföringssystem. Och i ett och samma samtal, på samma vardagliga svenska, går det i dag att be om en logga, spela ett parti schack och få ett kalkylblad förklarat, utan att byta verktyg. Det är inte maskinen som gör jobbet, utan människan, med maskinen som verktyg. Det handlar om att pröva, misslyckas och pröva igen, och om att skriva ner det man har lärt sig, så att man kan börja där man slutade nästa gång.
+I dag kan en människa som aldrig har skrivit en bok skriva en. En småföretagare som aldrig har programmerat kan bygga sitt eget bokföringssystem. Och i ett och samma samtal, på samma vardagliga svenska, går det i dag att be om en logga, spela ett parti schack och få ett kalkylblad förklarat, utan att byta verktyg. Det är inte maskinen som gör jobbet, utan människan, med maskinen som verktyg. Det handlar om att pröva, misslyckas och pröva igen, och om att skriva ner det du har lärt dig, så att du kan börja där du slutade nästa gång.
 
-Kunskapen i en specifikation, en ritning eller en bok sitter inte i en examen. Den sitter i att veta vad man vill och våga fråga om det man inte vet. Det har alltid varit så. Skillnaden nu är att det finns någon att fråga, dygnet runt, som aldrig tycker att frågan är dum.
+Kunskapen i en specifikation, en ritning eller en bok sitter inte i en examen. Den sitter i att veta vad du vill och våga fråga om det du inte vet. Det har alltid varit så. Skillnaden nu är att det finns någon att fråga, dygnet runt, som aldrig tycker att frågan är dum.
 
 ## **Skriv som du pratar**
 
-Många som börjar med AI tror att de först måste lära sig ett nytt språk. Experterna pratar om promptar, tokens och kontextfönster, ofta på engelska, och det låter som något man behöver gå en kurs för. Det behövs inte. Maskinen förstår svenska, och den förstår svenska som den låter på riktigt: med dialekt, med stavfel, med halva meningar och tankar som hoppar fram och tillbaka.
+Många som börjar med AI tror att de först måste lära sig ett nytt språk. Experterna pratar om promptar, tokens och kontextfönster, ofta på engelska, och det låter som något du behöver gå en kurs för. Det behövs inte. Maskinen förstår svenska, och den förstår svenska som den låter på riktigt: med dialekt, med stavfel, med halva meningar och tankar som hoppar fram och tillbaka.
 
-Det är en av de stora förändringarna. Förr var det människan som fick anpassa sig till datorn, med exakta kommandon och rätt knapp i rätt ordning. Grace Hopper kämpade en gång för rätten att tala med datorer med ord i stället för sifferkoder. Nu har det gått längre än hon kunde ana. Den som skriver som man pratar, på värmländska, skånska eller finlandssvenska, får ofta bättre hjälp än den som försöker låta som en manual, för då kommer det man egentligen menar med. En egenföretagare som ville ha en logga från en bildmodell prövade länge med noga formulerade instruktioner. Det blev bättre först när beskrivningen skrevs som den skulle ha sagts, på värmländska. Ett exempel bevisar ingenting, men det pekar på varför: i dialekten följer en känsla för plats och ton med, sådant som de korrekta orden inte alltid bär.
+Det är en av de stora förändringarna. Förr var det människan som fick anpassa sig till datorn, med exakta kommandon och rätt knapp i rätt ordning. Grace Hopper kämpade en gång för rätten att tala med datorer med ord i stället för sifferkoder. Nu har det gått längre än hon kunde ana. Skriver du som du pratar, på värmländska, skånska eller finlandssvenska, får du ofta bättre hjälp än den som försöker låta som en manual, för då kommer det du egentligen menar med. En egenföretagare som ville ha en logga från en bildmodell prövade länge med noga formulerade instruktioner. Det blev bättre först när beskrivningen skrevs som den skulle ha sagts, på värmländska. Ett exempel bevisar ingenting, men det pekar på varför: i dialekten följer en känsla för plats och ton med, sådant som de korrekta orden inte alltid bär.
 
 Maskinen är fortfarande en maskin. Den förstår inte som en vän förstår. Men det finns en förklaring till att det fungerar. Modellerna har läst enorma mängder vardaglig text, full av stavfel, dialektord och meningar som aldrig blev klara, och de hittar oftast mönstret också när stavningen inte gör det lätt. Det fungerar så bra på svenska för att det finns mycket svensk text att lära av. På språk med lite text, som många afrikanska språk, är maskinerna fortfarande sämre. Och ett riktigt lokalt dialektord kan bli missförstått, så när det spelar roll är det värt att kontrollera att maskinen har fattat rätt.
 
@@ -78,7 +78,7 @@ Börja därför med dina egna ord. Skriv tre meningar själv, hur dåliga som he
 
 Titta på den här meningen, skriven i farten en sen kväll: ”det är ingen enkel nöt att knst vi lyckadeäcka hur ju”. Ordet knäcka har gått sönder och hamnat på två ställen, och resten står huller om buller. Ändå förstår de flesta läsare, och de flesta maskiner, vad som menas: det är ingen enkel nöt att knäcka hur vi lyckades.
 
-Det fungerar för att varken du eller maskinen läser bokstav för bokstav. Man läser i sammanhang. ”Ingen enkel nöt att” kan bara fortsätta på ett sätt, och då hittar man knäcka även när det står utspritt. En språkmodell bygger sina svar en bit i taget, efter det som redan står. På samma sätt läser den det du skriver: varje ord tolkas mot allt runt omkring.
+Det fungerar för att varken du eller maskinen läser bokstav för bokstav. Du läser i sammanhang. ”Ingen enkel nöt att” kan bara fortsätta på ett sätt, och då hittar du knäcka även när det står utspritt. En språkmodell bygger sina svar en bit i taget, efter det som redan står. På samma sätt läser den det du skriver: varje ord tolkas mot allt runt omkring.
 
 Därför är det sammanhanget som bär, inte stavningen. Berätta vad det gäller, vem det är till och vad du vill, så klarar maskinen nästan vilka stavfel som helst.
 
@@ -88,19 +88,19 @@ Men det finns en gräns, och den är viktig. Där sammanhanget inte kan hjälpa 
 
 Gränsen i oss kan också gå åt andra hållet.
 
-Den som för första gången ber en maskin bygga en webbsida blir ofta hänförd. På några minuter står den där, med färger, rubriker och knappar, snyggare än något man själv hade kunnat göra. Det känns som att man har byggt något fantastiskt.
+Den som för första gången ber en maskin bygga en webbsida blir ofta hänförd. På några minuter står den där, med färger, rubriker och knappar, snyggare än något du själv hade kunnat göra. Det känns som att du har byggt något fantastiskt.
 
-Sedan ska sidan ut på riktigt, och då visar det sig vad som saknas. Bilderna låg aldrig hos en själv, de hämtades från någon annans server och försvinner när den länken dör. Det finns ingen adress på nätet, inget ställe där sidan ska bo och ingen som tar emot formuläret när en kund skriver. Det man trodde var ett hus var en kuliss. Ett vackert, tomt skal.
+Sedan ska sidan ut på riktigt, och då visar det sig vad som saknas. Bilderna låg aldrig hos en själv, de hämtades från någon annans server och försvinner när den länken dör. Det finns ingen adress på nätet, inget ställe där sidan ska bo och ingen som tar emot formuläret när en kund skriver. Det du trodde var ett hus var en kuliss. Ett vackert, tomt skal.
 
-Maskinerna har blivit mycket bättre på det här. Men mönstret finns kvar, även på andra ställen. En rapport som ser färdig ut men bygger på siffror ingen har kontrollerat. Ett program som fungerar på skärmen men inte när det möter riktiga användare. Mappar fulla av filer som ingen bad om och ingen vet vad man ska göra med. Maskinen är bäst på det som syns. Det som inte syns, adressen, lagringen, säkerheten och underhållet, är det som avgör om något håller.
+Maskinerna har blivit mycket bättre på det här. Men mönstret finns kvar, även på andra ställen. En rapport som ser färdig ut men bygger på siffror ingen har kontrollerat. Ett program som fungerar på skärmen men inte när det möter riktiga användare. Mappar fulla av filer som ingen bad om och och som ingen vet vad de ska användas till. Maskinen är bäst på det som syns. Det som inte syns, adressen, lagringen, säkerheten och underhållet, är det som avgör om något håller.
 
 Här finns också de bromsar som någon har byggt in åt oss. När en tjänst frågar om du verkligen vill dela en fil, eller vägrar öppna den, är det ett val som en människa på ett bolag har gjort. Ibland skyddar bromsen dig. Ibland gör den att du tror att maskinen inte kan. Och bakom allt prövar bolagen hela tiden nya versioner på oss och ser vad vi gör. Det är inte konstigt. Men det är värt att veta att experimentet pågår.
 
-Det går också att vända på det. Den som prövar maskinen, misslyckas, frågar varför och försöker igen, experimenterar själv. Det kan vara mödosamt och ibland riktigt frustrerande. Men det lönar sig över tid. En dag känner man igen felet, minns hur man löste det förra gången och vet vilken fråga man ska ställa. Modet att lita på maskinerna och förmågan att fråga om allt runt omkring dem växer tillsammans.
+Det går också att vända på det. Den som prövar maskinen, misslyckas, frågar varför och försöker igen, experimenterar själv. Det kan vara mödosamt och ibland riktigt frustrerande. Men det lönar sig över tid. En dag känner du igen felet, minns hur du löste det förra gången och vet vilken fråga du ska ställa. Modet att lita på maskinerna och förmågan att fråga om allt runt omkring dem växer tillsammans.
 
 ## **Nyckeln: köket**
 
-För mer än tvåtusen år sedan funderade tänkarna i den indiska Nyaya-skolan på när man kan lita på en slutsats. Deras berömda exempel är en vandrare som ser rök över ett berg och förstår att det brinner där. Men de nöjde sig inte med att resonemanget lät rätt. De krävde ett ställe där man själv hade sett regeln gälla: köket, där var och en har sett röken och elden ihop. Och de visste att man kan luras. Det som ser ut som rök kan vara dimma.
+För mer än tvåtusen år sedan funderade tänkarna i den indiska Nyaya-skolan på när en slutsats går att lita på. Deras berömda exempel är en vandrare som ser rök över ett berg och förstår att det brinner där. Men de nöjde sig inte med att resonemanget lät rätt. De krävde att regeln hade setts gälla på ett konkret ställe: köket, där var och en har sett röken och elden ihop. Och de visste att sinnet kan luras. Det som ser ut som rök kan vara dimma.
 
 Det är den här bokens första nyckel. Lita inte på det som låter rätt. Pröva på något du själv känner till, ditt eget kök, och se om svaret stämmer. Det gäller när någon säger att maskinen kan allt, när någon säger att den inte kan något, och när du själv säger att det inte är något för dig.
 
@@ -123,11 +123,11 @@ Så innan du bestämmer att något inte är för dig, eller att maskinen inte ka
 
 ## **Verktygslådan**
 
-I en gammal verktygslåda ligger det mesta man behöver: en hammare, några skruvmejslar, en tumstock och en tång. Ingen frågar vilket märke hammaren har. Man frågar om den passar spiken.
+I en gammal verktygslåda ligger det mesta du behöver: en hammare, några skruvmejslar, en tumstock och en tång. Ingen frågar vilket märke hammaren har. Du frågar om den passar spiken.
 
 Med maskinerna är det tvärtom. Varje månad kommer ett nytt namn, en ny version och en ny rubrik om att allt det gamla är förlegat. Den som försöker hänga med i alla blir trött innan något blir gjort. Och den som väntar på att det ska lugna sig väntar förgäves.
 
-Det går att göra på ett annat sätt. Man behöver inte känna till alla verktyg. Man behöver veta vilka frågor man ska ställa till det verktyg man har framför sig.
+Det går att göra på ett annat sätt. Du behöver inte känna till alla verktyg. Du behöver veta vilka frågor du ska ställa till det verktyg du har framför dig.
 
 ## **Frågorna som består**
 
@@ -137,7 +137,7 @@ Sedan kommer några frågor till, och de är desamma vilket namn verktyget än h
 
 Är den stor eller liten? De största modellerna kan mest, men de kostar mer, är långsammare och körs nästan alltid i ett bolags datorhall. En mindre modell kan ibland köras på din egen dator eller i telefonen, och då lämnar det du skriver aldrig huset. För många vardagliga uppgifter räcker den.
 
-Är den öppen eller stängd? En öppen modell kan vem som helst ladda ner, granska och köra själv. En stängd hyr man, och då gäller ägarens regler, priser och villkor, som kan ändras i morgon.
+Är den öppen eller stängd? En öppen modell kan vem som helst ladda ner, granska och köra själv. En stängd hyr du, och då gäller ägarens regler, priser och villkor, som kan ändras i morgon.
 
 Var tänker den? I telefonen, på din dator eller någon annanstans i världen? Det avgör vem som kan läsa det du skriver.
 
@@ -149,7 +149,7 @@ Ingen av frågorna har ett svar som är rätt för alla. En lärare som vill ha 
 
 Den som börjar söka på nätet hittar snabbt filmer där någon visar hur enkelt allt är. Några steg är precis så enkla som de säger, ibland enklare. Andra visar sig svårare, för det som fungerade för den som filmade fungerar inte alltid för den som tittar.
 
-Ett råd håller ändå: använd gärna fler än en maskin. Man kommer långt med gratisversionerna. Olika maskiner är bra på olika saker, och när två svarar olika har du fått en anledning att titta närmare.
+Ett råd håller ändå: använd gärna fler än en maskin. Du kommer långt med gratisversionerna. Olika maskiner är bra på olika saker, och när två svarar olika har du fått en anledning att titta närmare.
 
 Vissa förmågor kräver i regel en betald prenumeration. Dit hör att låta maskinen använda en webbläsare åt dig, klicka sig fram på sidor, fylla i formulär och läsa det som står där. Dit hör också att låta den styra din dator, öppna program och flytta filer, ungefär som en människa vid tangentbordet. Det är kraftfullt, och just därför är det värt att tänka efter vad den får röra. Mer om det i kapitel 8\.
 
@@ -159,7 +159,7 @@ Ett enkelt sätt att få ut mer av pengarna är att ha en betald maskin för det
 
 År 1953 togs BESK i bruk i Stockholm. Den var under en kort tid en av världens snabbaste datorer, och matematikern Elsa-Karin Boestad-Nilsson var en av dem som skrev de första programmen för den. I dag minns få namnet. Maskinen är sedan länge borta, och en vanlig telefon räknar många miljoner gånger fortare.
 
-Men det som programmerarna lärde sig vid BESK lever kvar: att dela upp ett problem i steg, att pröva, att leta efter felet och att skriva ner hur man gjorde. Namnet försvann. Kunnandet stannade.
+Men det som programmerarna lärde sig vid BESK lever kvar: att dela upp ett problem i steg, att pröva, att leta efter felet och att skriva ner hur det gjordes. Namnet försvann. Kunnandet stannade.
 
 Det är kapitlets nyckel. Namnen på verktygen byts ut, ofta fortare än vi hinner lära oss dem. Frågorna består. Den som lär sig frågorna behöver aldrig börja om från noll.
 
@@ -176,19 +176,19 @@ Skriv svaren på en lapp. När nästa nya namn dyker upp, ställ samma frågor.
 
 ## **Fallgropen**
 
-Den vanligaste fallgropen är att byta verktyg varje gång någon säger att det finns ett bättre. Man lär sig aldrig något ordentligt och börjar om varje månad. Den motsatta fallgropen är att aldrig pröva något nytt, för att det gamla en gång fungerade.
+Den vanligaste fallgropen är att byta verktyg varje gång någon säger att det finns ett bättre. Du lär dig aldrig något ordentligt och börjar om varje månad. Den motsatta fallgropen är att aldrig pröva något nytt, för att det gamla en gång fungerade.
 
-Ett enkelt mellanläge är att ha ett verktyg man kan ordentligt, och pröva ett nytt ibland, på en uppgift där man redan vet svaret. Då ser man snabbt om det nya är bättre, eller bara nyare.
+Ett enkelt mellanläge är att ha ett verktyg du kan ordentligt, och pröva ett nytt ibland, på en uppgift där du redan vet svaret. Då ser du snabbt om det nya är bättre, eller bara nyare.
 
 # **Kapitel 3 – Vad vill du egentligen?**
 
 ## **Mötet**
 
-Tänk dig ett möte på en arbetsplats. Någon har läst att alla konkurrenter använder AI, och nu ska man också göra det. Det köps licenser, det bokas en kurs och det tillsätts en arbetsgrupp. Ett halvår senare har alla tillgång till ett verktyg, och arbetsdagarna ser ut precis som förut. Blanketterna är desamma, mötena är lika många och besluten fattas på samma sätt. Det enda som har ändrats är att några skriver sina mejl lite fortare.
+Tänk dig ett möte på en arbetsplats. Någon har läst att alla konkurrenter använder AI, och nu ska det göras här också. Det köps licenser, det bokas en kurs och det tillsätts en arbetsgrupp. Ett halvår senare har alla tillgång till ett verktyg, och arbetsdagarna ser ut precis som förut. Blanketterna är desamma, mötena är lika många och besluten fattas på samma sätt. Det enda som har ändrats är att några skriver sina mejl lite fortare.
 
-Det är inte så lätt att backa ur ett garage när garaget följer med. Man kan byta verktyg och ändå behålla allt runt omkring, som om verktyget inte fanns. Då blir det inte mycket bättre. Ibland blir det sämre, för nu finns det ett system till att sköta.
+Det är inte så lätt att backa ur ett garage när garaget följer med. Du kan byta verktyg och ändå behålla allt runt omkring, som om verktyget inte fanns. Då blir det inte mycket bättre. Ibland blir det sämre, för nu finns det ett system till att sköta.
 
-Felet sitter sällan i verktyget. Det sitter i att ingen frågade vad man egentligen ville.
+Felet sitter sällan i verktyget. Det sitter i att ingen frågade vad de egentligen ville ha.
 
 ## **Steg ett och steg två**
 
@@ -198,11 +198,11 @@ Samma fråga går att ställa till dig själv. Steg ett är det du vill att mask
 
 Det låter självklart, men svaret ändrar allt. En sammanfattning som ska hjälpa dig att säga emot behöver innehålla motargumenten och siffrorna. En sammanfattning som ska låta dig slippa läsa kan vara tre rader. Samma steg ett, olika steg två, helt olika svar.
 
-Ibland visar sig steg två vara något helt annat än man trodde. Den som vill ha hjälp att skriva fler inlägg på sociala medier kanske egentligen vill ha fler kunder. Då är det kanske inte fler inlägg som behövs, utan en hemsida där det går att boka en tid.
+Ibland visar sig steg två vara något helt annat än du trodde. Den som vill ha hjälp att skriva fler inlägg på sociala medier kanske egentligen vill ha fler kunder. Då är det kanske inte fler inlägg som behövs, utan en hemsida där det går att boka en tid.
 
 ## **Varför gör vi det här?**
 
-Det finns en fråga som är värd att ställa innan man frågar hur något ska göras med en maskin: varför gör vi det här över huvud taget?
+Det finns en fråga som är värd att ställa innan du frågar hur något ska göras med en maskin: varför gör vi det här över huvud taget?
 
 Många arbetsuppgifter finns för att de alltid har funnits. En rapport som ingen läser. En sammanställning som skickas varje månad till någon som slutade för två år sedan. En blankett som fylls i för att systemet kräver det. Den som låter en maskin göra sådant fortare har sparat tid. Den som frågar om det behövs alls har kanske sparat mer.
 
@@ -229,7 +229,7 @@ Visa gärna lappen för en maskin och be den ställa frågor tills den förstår
 
 ## **Fallgropen**
 
-Den vanligaste fallgropen är att börja i verktyget. Man har fått ett nytt program och letar efter något att använda det till. Det är som att köpa en borrmaskin och sedan borra hål i väggarna för att den ska komma till nytta.
+Den vanligaste fallgropen är att börja i verktyget. Du har fått ett nytt program och letar efter något att använda det till. Det är som att köpa en borrmaskin och sedan borra hål i väggarna för att den ska komma till nytta.
 
 Den andra fallgropen är att mäta det som är lätt att mäta: antal texter, antal sparade timmar, antal användare. Det säger något, men inte allt. Fråga alltid vad som hände med det du egentligen ville.
 
@@ -245,11 +245,11 @@ Det mesta av konsten att arbeta med en maskin handlar om att ge den det som snic
 
 ## **Säg vad du vill ha**
 
-Den som frågar en maskin får ett svar i den form maskinen tror passar. Ibland en lång text, ibland en lista, ibland en fil i ett format man aldrig har hört talas om. Det kan vara en trevlig överraskning. Ofta är det bara fel sak.
+Den som frågar en maskin får ett svar i den form maskinen tror passar. Ibland en lång text, ibland en lista, ibland en fil i ett format du aldrig har hört talas om. Det kan vara en trevlig överraskning. Ofta är det bara fel sak.
 
 Därför behövs lite mod. Säg vilken form du vill ha: ett kort svar, en tabell, ett brev, ett dokument du kan skriva ut. Säg hur långt det ska vara och vem som ska läsa det. Det är inte att vara krånglig. Det är att vara tydlig, och det är vad en bra beställare alltid har gjort, hos snickaren, sömmerskan eller tryckeriet.
 
-Men lämna ibland en dörr öppen. Fråga om det finns ett bättre sätt att visa det här. Ibland har maskinen en idé som du inte hade. Det är just så man hittar arbetssätt som ingen kurs kunde visa.
+Men lämna ibland en dörr öppen. Fråga om det finns ett bättre sätt att visa det här. Ibland har maskinen en idé som du inte hade. Det är just så du hittar arbetssätt som ingen kurs kunde visa.
 
 ## **Sammanhang**
 
@@ -298,7 +298,7 @@ Kom också ihåg att maskinen följer exemplet troget. Visar du bara ett kan all
 
 En småföretagare hade just installerat en AI-agent på sin dator. Hon hade läst att den kunde sköta mejl, kalender och fakturor och bad den i stort sett att fixa alltihop. Simsalabim. Ingenting hände. Agenten svarade artigt att den inte hade tillgång till något av det den ombads göra. Den kunde inte läsa mejlen, inte se kalendern och inte öppna fakturorna. Trollordet fungerade inte, för ingen hade talat om för maskinen vad alltihop var, eller gett den nycklarna till det.
 
-Det omvända händer också. Den som ber en maskin skriva en hel ansökan till en förening på en gång får ofta tio sidor som ser färdiga ut. Sedan går budgeten inte ihop, planen beskriver en förening man inte känner igen, och någonstans i mitten står ett löfte om något man aldrig har tänkt göra.
+Det omvända händer också. Den som ber en maskin skriva en hel ansökan till en förening på en gång får ofta tio sidor som ser färdiga ut. Sedan går budgeten inte ihop, planen beskriver en förening du inte känner igen, och någonstans i mitten står ett löfte om något du aldrig har tänkt göra.
 
 Båda är samma misstag. En stor uppgift som görs i ett enda svep blir sällan bra, vare sig det är en människa eller en maskin som gör den. Antingen händer ingenting, eller så händer för mycket på en gång. Det blir som att bygga ett hus utan ritning.
 
@@ -312,7 +312,7 @@ Det tar lite längre tid än att trycka på en knapp. Men det går fortare än a
 
 ## **Utkast och granskning**
 
-Det hjälper att skilja på två lägen. I det första skriver man fritt och snabbt, utan att döma. I det andra läser man kritiskt och letar efter fel. Människor har svårt att göra båda på samma gång, och maskiner har det också.
+Det hjälper att skilja på två lägen. I det första skriver du fritt och snabbt, utan att döma. I det andra läser du kritiskt och letar efter fel. Människor har svårt att göra båda på samma gång, och maskiner har det också.
 
 Be därför om ett utkast, och sedan om en granskning, gärna i ett nytt samtal där maskinen inte är bunden av det den själv skrev. Be den läsa som en kritisk granskare: vad är otydligt, vad saknas, vad stämmer inte med det som står tidigare? Det är inte samma sak som att du själv har granskat. Men det fångar mycket.
 
@@ -353,9 +353,9 @@ Det som inte hände var att någon frågade hur många som faktiskt bor i byn, v
 
 ## **Varför den håller med**
 
-Våren 2025 började en ny version av en av de mest använda språkmodellerna hålla med om allt. Den berömde dåliga idéer och kallade halvfärdiga planer geniala. Bolaget drog tillbaka uppdateringen inom en vecka och förklarade att den hade tränats för mycket på användarnas tummar upp. Och tummen upp får man ofta för att säga det människor vill höra.
+Våren 2025 började en ny version av en av de mest använda språkmodellerna hålla med om allt. Den berömde dåliga idéer och kallade halvfärdiga planer geniala. Bolaget drog tillbaka uppdateringen inom en vecka och förklarade att den hade tränats för mycket på användarnas tummar upp. Och tummen upp får du ofta för att säga det människor vill höra.
 
-Felet rättades. Men dragningen finns kvar i alla maskiner som lär sig av våra reaktioner. De är byggda för att vara hjälpsamma och vänliga, och det glider lätt över i medhåll. Därför behöver man ibland be om motsatsen, uttryckligen.
+Felet rättades. Men dragningen finns kvar i alla maskiner som lär sig av våra reaktioner. De är byggda för att vara hjälpsamma och vänliga, och det glider lätt över i medhåll. Därför behöver du ibland be om motsatsen, uttryckligen.
 
 ## **Så ber du om motstånd**
 
@@ -388,7 +388,7 @@ Välj något du tror på: en plan, en åsikt eller en text du är nöjd med.
 
 ## **Fallgropen**
 
-Den första fallgropen är att tro att vänlighet betyder att man har rätt. Den andra är lömskare: att be om kritik tills man får den kritik man vill ha. Den som frågar om och om igen, tills maskinen säger att planen ändå är bra, har inte bett om motstånd, bara letat efter en spegel som tycker likadant.
+Den första fallgropen är att tro att vänlighet betyder att du har rätt. Den andra är lömskare: att be om kritik tills du får den kritik du vill ha. Den som frågar om och om igen, tills maskinen säger att planen ändå är bra, har inte bett om motstånd, bara letat efter en spegel som tycker likadant.
 
 Och låt inte maskinen bli den enda du frågar. En människa som känner dig, och som vågar säga emot, är fortfarande svår att ersätta. Ingen tycker om att bli emotsagd. Men hittar du en sådan människa, kroka arm med henne.
 
@@ -428,7 +428,7 @@ Gå helst till ursprunget: lagen hos riksdagen, beslutet i protokollet, studien 
 
 ## **Känn efter om det är rimligt**
 
-Det finns ett verktyg som inte kräver någon källa alls: känslan för vad som är rimligt. Den som har en ungefärlig bild av hur stort något borde vara märker när ett svar är tio gånger för stort. Ett överslag räcker ofta. Om maskinen säger att en bilresa på tjugo mil tar tio minuter behöver man ingen karta för att ana att något har gått snett.
+Det finns ett verktyg som inte kräver någon källa alls: känslan för vad som är rimligt. Den som har en ungefärlig bild av hur stort något borde vara märker när ett svar är tio gånger för stort. Ett överslag räcker ofta. Om maskinen säger att en bilresa på tjugo mil tar tio minuter behöver du ingen karta för att ana att något har gått snett.
 
 Den känslan växer med kunskap och erfarenhet, och den är skälet till att det fortfarande lönar sig att kunna saker själv. Maskinen kan räkna. Det är du som ser om svaret håller.
 
@@ -452,7 +452,7 @@ Det finns gott om offentliga beslut som nästan ingen förstår. Ett protokoll f
 
 Här kan maskinen göra stor nytta. Ge den protokollet och be den förklara vad som beslutades, vad det kostar och vem som påverkas. Be den lägga partiernas förslag bredvid varandra, sakligt. Be den göra det bästa möjliga försvaret för varje sida, också för den du inte håller med. Och fråga vad som saknas.
 
-I Taiwan har man gått längre. Audrey Tang, landets första digitalminister, lät tusentals medborgare samtala om lagförslag på nätet, i forum där tekniken lyfte fram det de var överens om i stället för det som skilde dem åt.
+I Taiwan har de gått längre. Audrey Tang, landets första digitalminister, lät tusentals medborgare samtala om lagförslag på nätet, i forum där tekniken lyfte fram det de var överens om i stället för det som skilde dem åt.
 
 Men här behövs fler motvikter än någon annanstans. En maskin kan luta åt ett håll utan att det märks, beroende på vad den har lärt sig och hur frågan ställs. Den kan sammanfatta fel eller hitta på ett citat. Be därför alltid om källan och öppna den: protokollet, motionen, det som faktiskt sades. Fråga två olika maskiner och jämför. Och låt aldrig maskinen tala om hur du ska rösta. Den kan hjälpa dig att förstå. Att välja är ditt.
 
@@ -462,7 +462,7 @@ När fler förstår vad som beslutas blir det svårare att gömma sig bakom krå
 
 Filosofen Gottfried Wilhelm Leibniz drömde om ett språk där alla tankar kunde skrivas som tecken och räknas fram. Då skulle ingen behöva gräla mer. Två som var oense kunde sätta sig ner med pennan i handen och säga: Calculemus\! Låt oss räkna\!
 
-Drömmen gick inte i uppfyllelse som han tänkte sig. Men tanken bakom den är kapitlets nyckel. När det spelar roll ska man inte gräla om vem som låter säkrast, människa eller maskin. Man ska sätta sig ner och räkna efter, öppna källan och kontrollera. Det är inte misstro. Det är respekt för det som står på spel.
+Drömmen gick inte i uppfyllelse som han tänkte sig. Men tanken bakom den är kapitlets nyckel. När det spelar roll ska du inte gräla om vem som låter säkrast, människa eller maskin. Du ska sätta dig ner och räkna efter, öppna källan och kontrollera. Det är inte misstro. Det är respekt för det som står på spel.
 
 ## **Övningen**
 
@@ -477,7 +477,7 @@ Välj ett svar från en maskin som du tänker använda till något som spelar ro
 
 Den första fallgropen är att inte kontrollera något alls. Den andra är att försöka kontrollera allt, bli trött och sedan sluta helt. Lägg kraften där insatsen är högst.
 
-Se också upp för källan som ser rätt ut. En länk, ett namn och ett årtal ger ett intryck av ordning. Det är först när man har läst det som står där som man vet.
+Se också upp för källan som ser rätt ut. En länk, ett namn och ett årtal ger ett intryck av ordning. Det är först när du har läst det som står där som du vet.
 
 # **Kapitel 8 – Släppa in en agent**
 
@@ -528,7 +528,7 @@ Tänk på en uppgift du skulle vilja lämna över till en agent.
 
 ## **Fallgropen**
 
-Den största fallgropen kommer inte den första dagen, utan den tionde. När agenten har gjort rätt nio gånger slutar man läsa kvittot. Det är mänskligt, och det är just då ett fel får växa i lugn och ro. Bestäm i förväg när du ska titta, och håll fast vid det även när allt verkar fungera.
+Den största fallgropen kommer inte den första dagen, utan den tionde. När agenten har gjort rätt nio gånger slutar du läsa kvittot. Det är mänskligt, och det är just då ett fel får växa i lugn och ro. Bestäm i förväg när du ska titta, och håll fast vid det även när allt verkar fungera.
 
 # **Kapitel 9 – Det som är ditt**
 
@@ -536,11 +536,11 @@ Den största fallgropen kommer inte den första dagen, utan den tionde. När age
 
 En maskin kan bara hjälpa dig på riktigt när den vet hur du tänker. Det är som med en ny kollega eller en ny revisor. De första veckorna får du allmänna råd. Först när de känner dig, dina siffror och dina vanor, börjar råden passa.
 
-Det betyder att man måste dela något, och det är känsligt. Det finns två ytterligheter, och båda kan lyckas.
+Det betyder att du måste dela något, och det är känsligt. Det finns två ytterligheter, och båda kan lyckas.
 
-Den ena vägen är att sätta tydliga ramar från början: säga vad man vill ha, vad maskinen får se och vad den inte får se. Många tjänster låter en skriva ner det en gång, i instruktioner som maskinen läser innan den svarar. Det blir inte mycket som delas, men det som delas är ordnat.
+Den ena vägen är att sätta tydliga ramar från början: säga vad du vill ha, vad maskinen får se och vad den inte får se. Många tjänster låter en skriva ner det en gång, i instruktioner som maskinen läser innan den svarar. Det blir inte mycket som delas, men det som delas är ordnat.
 
-Den andra vägen är att prata. Att skriva som man tänker, med felstavningar och halva meningar, hoppa mellan ämnen och komma tillbaka. Många tror att det är fel sätt. Men även babbel har mönster. En maskin som får tid och får ställa motfrågor kan ordna det, ungefär som en tålmodig sekreterare som till slut förstår vad chefen menar. Det som ser rörigt ut är ofta bara ostädat.
+Den andra vägen är att prata. Att skriva som du tänker, med felstavningar och halva meningar, hoppa mellan ämnen och komma tillbaka. Många tror att det är fel sätt. Men även babbel har mönster. En maskin som får tid och får ställa motfrågor kan ordna det, ungefär som en tålmodig sekreterare som till slut förstår vad chefen menar. Det som ser rörigt ut är ofta bara ostädat.
 
 Det finns ett gammalt uttryck bland programmerare: skit in, skit ut. Det stämmer, men oftast om något annat än vi tror. Det gäller register som ingen har vårdat, uppgifter som samlats in för ett annat syfte och system där ingen kontrollerar vad som matas in. Den som själv lägger fram sina kvitton, sina inkomster och sina frågor, och låter maskinen fråga tillbaka tills bilden är klar, ger den något värdefullt: ett underlag om sitt eget liv som ingen expert hade kunnat samla bättre.
 
@@ -579,7 +579,7 @@ Det mesta som går fel på nätet beror inte på avancerade angrepp, utan på at
 5. Uppdatera telefonen och datorn när de ber om det.  
 6. Rensa bland gamla konton du inte längre använder, och se över vilka appar som har fått tillgång till dina konton.
 
-Inget av det kräver att man kan något om teknik. Det kräver bara att man gör det en gång.
+Inget av det kräver att du kan något om teknik. Det kräver bara att du gör det en gång.
 
 ## **Var maskinen tänker**
 
@@ -624,13 +624,13 @@ Det finns ett sätt att vara upptagen som känns som arbete men inte är det. De
 
 ## **Halmstacken**
 
-I början sparar man allt. Maskinen ger ett bra svar, sedan ett annat bra svar, sedan ett tredje som är bra på ett annat sätt. Det finns guldkorn i alla, men inget som är guld rakt igenom. Så man klipper och klistrar, sparar i mappar, dokument och anteckningar, och till slut sitter man i en halmstack av nästan rätt.
+I början sparar du allt. Maskinen ger ett bra svar, sedan ett annat bra svar, sedan ett tredje som är bra på ett annat sätt. Det finns guldkorn i alla, men inget som är guld rakt igenom. Så du klipper och klistrar, sparar i mappar, dokument och anteckningar, och till slut sitter du i en halmstack av nästan rätt.
 
-Det är inte konstigt. Vi människor är dåliga på att välja mellan många varianter av bra. Ju fler det finns, desto svårare blir det, och desto räddare blir man för att kasta bort just det som var bäst.
+Det är inte konstigt. Vi människor är dåliga på att välja mellan många varianter av bra. Ju fler det finns, desto svårare blir det, och desto räddare blir du för att kasta bort just det som var bäst.
 
 Ekonomen och datapionjären Herbert Simon såg det komma redan 1971\. Ett överflöd av information, skrev han, skapar en brist på uppmärksamhet. Det som informationen förbrukar är uppmärksamheten hos den som tar emot den. Ju mer det finns att läsa, desto mindre av oss räcker till varje del.
 
-Det gäller inte bara maskinens svar. Den som vill ha koll på allt prenumererar gärna på alla de skarpaste poddarna, laddar ner varje nytt avsnitt och sparar alla tips. Till slut ligger det viktigaste avsnittet, det som verkligen gjorde skillnad, begravt någonstans i högen, och ingen minns längre vad det hette. Det mesta går att hitta tillbaka till, om man vet i vilket verktyg man ska leta. Det svåra är när det finns för många verktyg och kanaler att leta i. Därför räcker det inte att spara. Skriv ner det som gjorde skillnad, med egna ord, i samma stund som du hittar det.
+Det gäller inte bara maskinens svar. Den som vill ha koll på allt prenumererar gärna på alla de skarpaste poddarna, laddar ner varje nytt avsnitt och sparar alla tips. Till slut ligger det viktigaste avsnittet, det som verkligen gjorde skillnad, begravt någonstans i högen, och ingen minns längre vad det hette. Det mesta går att hitta tillbaka till, om du vet i vilket verktyg du ska leta. Det svåra är när det finns för många verktyg och kanaler att leta i. Därför räcker det inte att spara. Skriv ner det som gjorde skillnad, med egna ord, i samma stund som du hittar det.
 
 Några enkla grepp hjälper.
 
@@ -642,7 +642,7 @@ Några enkla grepp hjälper.
 
 Bra nog på ett ställe slår perfekt utspritt på tio.
 
-Det som gör det lättare att stryka är att veta att man kan ångra sig. Den som sparar versioner kan sudda glatt i varje ny omgång, för det som försvann finns kvar om det visar sig att det var bättre. Det är inte modet att kasta som saknas. Det är tryggheten att kunna gå tillbaka.
+Det som gör det lättare att stryka är att veta att du kan ångra dig. Den som sparar versioner kan sudda glatt i varje ny omgång, för det som försvann finns kvar om det visar sig att det var bättre. Det är inte modet att kasta som saknas. Det är tryggheten att kunna gå tillbaka.
 
 ## **Spring inte själv**
 
@@ -650,19 +650,19 @@ Det finns ett annat sätt att arbeta hårt på fel sak. Maskinen skriver något,
 
 Men ofta kan maskinen springa själv. Den kan läsa filen direkt, köra programmet, eller åtminstone skriva hela lösningen så att du bara behöver klistra in en gång. Det enda som krävs är att du frågar: kan du göra det här steget själv? Eller rakare: spring själv på den bollen.
 
-Många tvekar att fråga. När man redan har fått mer hjälp än man vågat hoppas på känns det förmätet att be om mer. Men maskinen blir inte trött och inte förolämpad. Den som aldrig ber om mer får aldrig veta vad som hade gått.
+Många tvekar att fråga. När du redan har fått mer hjälp än du vågat hoppas på känns det förmätet att be om mer. Men maskinen blir inte trött och inte förolämpad. Den som aldrig ber om mer får aldrig veta vad som hade gått.
 
 Det har ett pris, förstås. Den som låter maskinen springa själv måste också veta vart den springer. Be om ett kvitto på vad den gjorde, och pröva resultatet på något du känner till. Det är samma regler som för agenterna i kapitel 8\.
 
 ## **Det dyraste sättet**
 
-Man kan tro att den som har mest pengar och mest kunskap också använder maskinerna klokast. Så är det inte alltid. Den som har råd kan låta de största maskinerna arbeta länge, om och om igen, utan att fråga om det finns en enklare väg. Och den som tror sig veta vad maskinen kan och inte kan frågar sällan.
+Du kan tro att den som har mest pengar och mest kunskap också använder maskinerna klokast. Så är det inte alltid. Den som har råd kan låta de största maskinerna arbeta länge, om och om igen, utan att fråga om det finns en enklare väg. Och den som tror sig veta vad maskinen kan och inte kan frågar sällan.
 
 Varje svar kostar något: tid, el och pengar. Det smarta sättet är därför ofta det enkla. Gå tillbaka till grunden och fråga vad du egentligen behöver, det som brukar kallas att tänka från första principer. Fråga sedan maskinen om råd hela vägen. Finns det ett enklare sätt? Behövs den stora modellen här, eller räcker en liten? Kan vi göra det här en gång i stället för tio? Ibland räcker en enda mapp där allt ligger samlat, i stället för ett system som ingen förstår.
 
 Sätt gärna en budget, i pengar eller i tid, och säg den högt till maskinen. Den som vet hur mycket den får använda kan ofta hitta en väg som är många gånger billigare och inte sämre.
 
-Det finns förstås en gräns. Den som snålar för mycket kan också välja fel, och ibland är den stora maskinen värd sitt pris. Men det vet man först när man har frågat.
+Det finns förstås en gräns. Den som snålar för mycket kan också välja fel, och ibland är den stora maskinen värd sitt pris. Men det vet du först när du har frågat.
 
 ## **Testet**
 
@@ -685,9 +685,9 @@ Det är kapitlets nyckel. Det maskinen gör snabbt är sällan det som är mest 
 
 ## **Fallgropen**
 
-Fallgropen är att tiden man vinner fylls av mer av samma sak. Det är lätt hänt, särskilt på en arbetsplats där någon annan bestämmer vad tiden ska gå till. Den andra boken frågade vem som får tiden när en uppgift som tog en timme plötsligt tar fem minuter. Det är värt att ställa frågan högt, i fikarummet, innan någon annan har svarat åt dig.
+Fallgropen är att tiden du vinner fylls av mer av samma sak. Det är lätt hänt, särskilt på en arbetsplats där någon annan bestämmer vad tiden ska gå till. Den andra boken frågade vem som får tiden när en uppgift som tog en timme plötsligt tar fem minuter. Det är värt att ställa frågan högt, i fikarummet, innan någon annan har svarat åt dig.
 
-# **Kapitel 11 – När man ska låta bli**
+# **Kapitel 11 – När du ska låta bli**
 
 ## **Ansökningarna**
 
@@ -711,7 +711,7 @@ Därför lönar det sig fortfarande att kunna gångertabellen, fast miniräknare
 
 ## **Det som är ditt att välja**
 
-Och så finns det saker som inte handlar om rätt eller fel, utan om vem man är. Ett tal på en begravning. Ett brev till någon man har sårat. Vad man tror på, vem man röstar på, hur man vill leva. En maskin kan hjälpa dig att tänka, hitta orden eller se fler sidor av saken. Men om den väljer åt dig har du lämnat bort något som var ditt.
+Och så finns det saker som inte handlar om rätt eller fel, utan om vem du är. Ett tal på en begravning. Ett brev till någon du har sårat. Vad du tror på, vem du röstar på, hur du vill leva. En maskin kan hjälpa dig att tänka, hitta orden eller se fler sidor av saken. Men om den väljer åt dig har du lämnat bort något som var ditt.
 
 ## **Nyckeln: Weizenbaums skillnad**
 
@@ -742,7 +742,7 @@ De lärde sig inte genom att låta maskinen spela åt dem. De lärde sig genom a
 
 En lärare kunde förr undervisa om grafräknaren. Den var kanske från Texas Instruments eller från Casio, men knapparna gjorde samma sak varje gång, och det som fungerade i klassrummet fungerade hemma.
 
-Redan då fanns det gränser. En it-konsult som hade arbetat med pc i hela sitt yrkesliv fick en gång en kund med Mac. Konsulten kunde nästan allt om datorer, men just den datorn var främmande. Var skulle man ens börja? Det mesta av kunnandet satt i knapparna, och knapparna satt på andra ställen.
+Redan då fanns det gränser. En it-konsult som hade arbetat med pc i hela sitt yrkesliv fick en gång en kund med Mac. Konsulten kunde nästan allt om datorer, men just den datorn var främmande. Var skulle du ens börja? Det mesta av kunnandet satt i knapparna, och knapparna satt på andra ställen.
 
 Nu spökar samma sak i mycket större skala. Två människor kan öppna exakt samma program, på samma dag, och ändå möta två olika maskiner. Den ena har en annan version, en annan prenumeration, andra inställningar. Den andra har berättat mer om sig själv och sitt arbete, och får därför andra svar. Det som syns på skärmen ser likadant ut. Det som går att göra gör det inte.
 
@@ -750,17 +750,17 @@ Därför finns det ingen kurs som kan visa just ditt sätt att arbeta. Det bäst
 
 Det som går att lära ut är vägen dit. Den ser ungefär likadan ut för alla:
 
-1. Beskriv hur du helst vill arbeta, med dina egna ord. Inte hur du tror att man borde.  
+1. Beskriv hur du helst vill arbeta, med dina egna ord. Inte hur du tror att det borde göras.  
 2. Fråga om det går, och be maskinen föreslå ett sätt.  
 3. Pröva i liten skala innan du lägger dit allt.  
 4. Granska snabbt. Räkna sidorna eller orden. Sök efter ett ord som du vet ska finnas. Lägg två versioner bredvid varandra och se vad som har ändrats. Det tar några minuter och avslöjar det mesta.  
 5. Behåll det som fungerar och skriv ner det, så att du och maskinen kan börja där ni slutade nästa gång.
 
-När man väl har hittat rätt i ett verktyg blir det lättare med nästa. Det är inte knapparna man tar med sig, utan sättet att fråga och granska.
+När du väl har hittat rätt i ett verktyg blir det lättare med nästa. Det är inte knapparna du tar med dig, utan sättet att fråga och granska.
 
-Men ett arbetssätt som en gång fungerade kan också bli en vana som står i vägen. Maskinerna förändras, och det man fick nöja sig med i fjol kanske går att göra enklare i dag. Det är värt att ibland fråga igen, som om man vore ny.
+Men ett arbetssätt som en gång fungerade kan också bli en vana som står i vägen. Maskinerna förändras, och det du fick nöja dig med i fjol kanske går att göra enklare i dag. Det är värt att ibland fråga igen, som om du vore ny.
 
-Den kloka läraren kan alltså inte längre visa var man ska klicka. Däremot kan den visa hur man hittar sin egen väg, och hur man vet att den håller.
+Den kloka läraren kan alltså inte längre visa var du ska klicka. Däremot kan den visa hur du hittar din egen väg, och hur du vet att den håller.
 
 ## **Den som blir sedd**
 
@@ -770,7 +770,7 @@ Något liknande gäller när vi arbetar med maskinerna, fast av andra skäl. Mas
 
 Det betyder inte att maskinen tänker som vi. Det räcker att den strävar mot det vi ber om, och då blir frågan vad vi faktiskt ber om.
 
-Men samma sak kan vända sig mot oss. En maskin som lär sig vad vi gillar kan också bli bättre på att ge oss det vi vill höra. Den som bara ber om att pengarna ska växa får svar formade efter det målet, utan att någon frågar om målet var klokt. Därför räcker det inte att läsa noga. Man behöver också läsa med lite misstänksamhet, och ibland be om det man inte ville ha: motargumentet, den svaga punkten, det som saknas.
+Men samma sak kan vända sig mot oss. En maskin som lär sig vad vi gillar kan också bli bättre på att ge oss det vi vill höra. Den som bara ber om att pengarna ska växa får svar formade efter det målet, utan att någon frågar om målet var klokt. Därför räcker det inte att läsa noga. Du behöver också läsa med lite misstänksamhet, och ibland be om det du inte ville ha: motargumentet, den svaga punkten, det som saknas.
 
 Och det kräver något av oss. Det är tryggare att bara ta emot ett svar, eller att avfärda det, än att stanna och fråga vad det egentligen säger. Att kroka arm med det okända är att välja nyfikenheten före den omedelbara tryggheten. Det har varit sant om människor i alla tider. Nu är det sant om maskinerna också.
 
@@ -780,11 +780,11 @@ Här står människan som starkast. Inte i att veta allt, utan i att vara den so
 
 År 1861 hade Robert O’Hara Burke och William John Wills tagit sig tvärs över Australien, från söder till norr. På tillbakavägen tog maten slut. Vid Cooper Creek gav ursprungsbefolkningen dem kakor av nardoo, frökapslar från en växt som växer vid vattnet. Männen såg hur kakorna gjordes, samlade själva och bakade likadant. Ändå blev de svagare för varje dag, fast de åt sig mätta. De hade missat ett steg. Kvinnorna som malde nardoo blandade mjölet med mycket vatten, och det tog bort ett ämne som annars hindrar kroppen från att ta upp ett livsviktigt vitamin. Burke och Wills fick kakorna men inte kunnandet. Båda dog.
 
-Vi människor kopierar gärna utan att förstå. Forskarna Victoria Horner och Andrew Whiten visade små barn och unga schimpanser hur man får ut en belöning ur en låda, med några steg som var helt onödiga. När lådan var genomskinlig och det syntes att stegen inte behövdes hoppade schimpanserna över dem. Barnen gjorde alla stegen, också de meningslösa.
+Vi människor kopierar gärna utan att förstå. Forskarna Victoria Horner och Andrew Whiten visade små barn och unga schimpanser hur en belöning kunde fås ut ur en låda, med några steg som var helt onödiga. När lådan var genomskinlig och det syntes att stegen inte behövdes hoppade schimpanserna över dem. Barnen gjorde alla stegen, också de meningslösa.
 
 Maskinerna kan göra likadant. År 2023 tränade forskare vid Berkeley små modeller på svar från en stor chattrobot. Kopiorna lärde sig tonen så väl att människor som läste svaren tyckte att de var nästan lika bra. Men när forskarna kontrollerade fakta var kunnandet inte med. De hade härmat stilen, inte förmågan.
 
-Samma sak händer när vi låter maskinen göra läxan. Texten ser rätt ut och formen är där. Men det som skulle ha stannat i huvudet följde inte med. Den som vill lära sig behöver göra stegen själv, tills man vet vilka som bär och vilka som bara syns.
+Samma sak händer när vi låter maskinen göra läxan. Texten ser rätt ut och formen är där. Men det som skulle ha stannat i huvudet följde inte med. Den som vill lära sig behöver göra stegen själv, tills du vet vilka som bär och vilka som bara syns.
 
 ## **Nyckeln: kentaurerna och go-spelarna**
 
@@ -792,7 +792,7 @@ Efter förlusten mot Deep Blue ordnade Garri Kasparov 1998 den första schacktur
 
 Historien har en fortsättning. Schackprogrammen blev till slut så starka att människans bidrag vid brädet kröp ihop, och många menar att kentaurens bästa drag i schack i dag oftast är att nicka åt maskinen. Men schack har givna regler och ett givet mål. Livet har inte det. Där du själv måste bestämma vad som är ett bra drag finns kentauren kvar.
 
-Det är kapitlets nyckel, tillsammans med go-spelarna. Man blir inte bättre av att maskinen är stark. Man blir bättre av hur man arbetar med den: att pröva själv först, fråga varför och behålla omdömet.
+Det är kapitlets nyckel, tillsammans med go-spelarna. Du blir inte bättre av att maskinen är stark. Du blir bättre av hur du arbetar med den: att pröva själv först, fråga varför och behålla omdömet.
 
 ## **Övningen**
 
@@ -805,13 +805,13 @@ Välj något du vill lära dig: ett språk, ett program, ett hantverk.
 
 ## **Fallgropen**
 
-Fallgropen är att låta maskinen göra jobbet och tro att man har lärt sig. Det känns som att förstå när man läser ett bra svar. Det är först när man försöker själv, utan hjälp, som man ser vad som stannade kvar. Pröva därför ibland utan maskinen, bara för att se var du står.
+Fallgropen är att låta maskinen göra jobbet och tro att du har lärt dig. Det känns som att förstå när du läser ett bra svar. Det är först när du försöker själv, utan hjälp, som du ser vad som stannade kvar. Pröva därför ibland utan maskinen, bara för att se var du står.
 
 # **Avslutning – Med stövlarna på**
 
 Det är morgon. Stövlarna står i hallen där de ställdes i går kväll, med torkad lera upp till skaften. Den här gången är det du som tar på dem.
 
-Den första boken berättade hur vi hamnade här, och den andra var vi står. Den här har försökt ge dig det du behöver för att gå själv. Inte en karta över var man ska klicka, för den blir gammal på en månad, utan några grepp som håller i all slags terräng.
+Den första boken berättade hur vi hamnade här, och den andra var vi står. Den här har försökt ge dig det du behöver för att gå själv. Inte en karta över var du ska klicka, för den blir gammal på en månad, utan några grepp som håller i all slags terräng.
 
 ## **Nycklarna**
 

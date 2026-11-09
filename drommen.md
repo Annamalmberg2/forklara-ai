@@ -92,13 +92,13 @@ För nästan tretusen år sedan, i Iliadens artonde sång, kliver vi rakt in i g
 
 Runt honom rör sig saker som ingen människohand har format.
 
-Längs väggarna står tjugo trefötter, kittelstativ på gyllene hjul. När gudarna håller fest rullar de av egen kraft in i festsalen, och när festen är slut rullar de hem igen. Man skulle nästan kunna kalla dem antikens första självgående serveringsvagnar.
+Längs väggarna står tjugo trefötter, kittelstativ på gyllene hjul. När gudarna håller fest rullar de av egen kraft in i festsalen, och när festen är slut rullar de hem igen. De skulle nästan kunna kallas antikens första självgående serveringsvagnar.
 
 Och när Hefaistos reser sig från städet kommer hans tjänarinnor fram och stöttar honom. De är gjorda av guld men ser ut som levande unga kvinnor. Homeros säger att de har förstånd i sina hjärtan, att de har röst och styrka, och att gudarna har lärt dem hantverk.
 
 Grekerna för nästan tretusen år sedan kunde inte bygga något i närheten av detta. Men de hade idén: att en tillräckligt skicklig skapare kan forma död materia till något som beter sig som om det tänkte. Och redan här anas en insikt som ska följa oss genom hela boken: intelligensen kanske inte sitter i kött och blod, utan i hur något är byggt.
 
-Lägg också märke till vem som tjänar. Den första drömmen om tänkande maskiner var en dröm om kvinnliga tjänare, lydiga, vackra och alltid till hands. Nästan tretusen år senare fick de första röstassistenterna i våra telefoner och högtalare kvinnoröster som standard. I dag får man oftast välja själv, men startpunkten säger något. Vissa drömmar byter material men inte form.
+Lägg också märke till vem som tjänar. Den första drömmen om tänkande maskiner var en dröm om kvinnliga tjänare, lydiga, vackra och alltid till hands. Nästan tretusen år senare fick de första röstassistenterna i våra telefoner och högtalare kvinnoröster som standard. I dag får du oftast välja själv, men startpunkten säger något. Vissa drömmar byter material men inte form.
 
 Det finns något mer i den här scenen, och det syns inte i själva texten.
 
@@ -130,11 +130,11 @@ Det andra är vad som avslöjar dockan. Det är inte att den gör fel. Det är a
 
 ## **Reglerna för en riktig tanke**
 
-Vid sidan av drömmen om konstgjorda varelser växte en annan fråga fram, stillsammare men minst lika viktig. Den handlade inte om hur man bygger ett sinne, utan om hur ett sinne ska gå till väga för att tänka rätt. Och den ställdes under ungefär samma århundraden på tre olika håll i världen, av människor som knappt visste om varandra.
+Vid sidan av drömmen om konstgjorda varelser växte en annan fråga fram, stillsammare men minst lika viktig. Den handlade inte om hur ett sinne byggs, utan om hur ett sinne ska gå till väga för att tänka rätt. Och den ställdes under ungefär samma århundraden på tre olika håll i världen, av människor som knappt visste om varandra.
 
 I Aten undervisade Aristoteles på 300-talet f.v.t. Han upptäckte något som låter enkelt men var revolutionerande: vissa slutsatser är giltiga enbart i kraft av sin form. Alla människor är dödliga. Sokrates är en människa. Alltså är Sokrates dödlig. Byt ut orden mot vilka som helst, alla fåglar har fjädrar, en kråka är en fågel, och slutsatsen håller ändå. Aristoteles kallade sådana slutledningar syllogismer och kartlade systematiskt vilka former som är giltiga och vilka som inte är det.
 
-Det är svårt att överdriva vad det betydde. Om giltigheten sitter i formen och inte i innehållet, då kan man i princip kontrollera ett resonemang utan att förstå vad det handlar om. Man behöver bara följa reglerna. Det är fröet till tanken att resonerande kan mekaniseras.
+Det är svårt att överdriva vad det betydde. Om giltigheten sitter i formen och inte i innehållet, då kan du i princip kontrollera ett resonemang utan att förstå vad det handlar om. Du behöver bara följa reglerna. Det är fröet till tanken att resonerande kan mekaniseras.
 
 Aristoteles tänkte också på maskinerna. I sitt filosofiska verk Politiken leker han med tanken att varje redskap kunde utföra sitt arbete på befallning, som Hefaistos trefötter som rullade in till gudarna av egen kraft. Då, skriver han, skulle mästaren inte behöva några medhjälpare och husbonden inga slavar. De första reflekterande tankarna om automation var alltså redan från början tankar om arbete, och om vilka som slipper det.
 
@@ -142,13 +142,13 @@ I Indien växte under samma epok Nyaya-skolan fram, en filosofisk tradition som 
 
 Nyayas mest berömda exempel låter först nästan som Aristoteles. En vandrare ser rök stiga från ett berg och drar slutsatsen att det brinner där uppe. Men titta på hur resonemanget är byggt. Nyaya ställde upp det i fem led, och i mitten står det avgörande: där det ryker, där brinner det, som i köket.
 
-Köket är ingen utsmyckning. Det är beviset. För att en slutsats ska vara giltig hos Aristoteles räcker det att formen är rätt. Skriv att alla katter kan flyga, att Måns är en katt, och slutsatsen att Måns kan flyga är logiskt giltig, hur fel den än är. Formen bryr sig inte om världen, åtminstone inte i syllogismen. Nyaya gör tvärtom. En regel räknas bara om man kan peka på ett ställe där man faktiskt har sett den gälla: köket, där alla har sett rök och eld tillsammans. Och gärna ett ställe där man har sett motsatsen också: sjön, där det aldrig brinner och aldrig ryker.
+Köket är ingen utsmyckning. Det är beviset. För att en slutsats ska vara giltig hos Aristoteles räcker det att formen är rätt. Skriv att alla katter kan flyga, att Måns är en katt, och slutsatsen att Måns kan flyga är logiskt giltig, hur fel den än är. Formen bryr sig inte om världen, åtminstone inte i syllogismen. Nyaya gör tvärtom. En regel räknas bara om du kan peka på ett ställe där du faktiskt har sett den gälla: köket, där alla har sett rök och eld tillsammans. Och gärna ett ställe där du har sett motsatsen också: sjön, där det aldrig brinner och aldrig ryker.
 
-Nyayas tänkare ägnade sig dessutom länge åt något som Aristoteles inte gjorde till sitt huvudämne: hur man luras. Tänk på sjön igen. En kall morgon kan dimma lyfta från vattnet så att det ser ut att ryka, fast ingen eld finns i närheten. Det som ser ut som rök kan vara dimma eller damm. Då blir slutsatsen fel, fast resonemanget såg rätt ut. Felet sitter inte i logiken, utan i det man trodde att man såg.
+Nyayas tänkare ägnade sig dessutom länge åt något som Aristoteles inte gjorde till sitt huvudämne: hur vi luras. Tänk på sjön igen. En kall morgon kan dimma lyfta från vattnet så att det ser ut att ryka, fast ingen eld finns i närheten. Det som ser ut som rök kan vara dimma eller damm. Då blir slutsatsen fel, fast resonemanget såg rätt ut. Felet sitter inte i logiken, utan i det vi trodde att vi såg.
 
-Där har vi skillnaden, och den skulle visa sig ha lång räckvidd. Aristoteles logik lever i formen, uppifrån. Nyayas logik lever i exemplen, nerifrån, och vet att exemplen kan bedra. Den spänningen, mellan regler som skrivs ner och kunskap som växer ur det man har sett, skulle tvåtusen år senare bli AI-historiens största stridsfråga. Och frågan om när det som ser ut som rök egentligen är dimma är precis den vi ställer oss när en språkmodell låter säker men har fel.
+Där har vi skillnaden, och den skulle visa sig ha lång räckvidd. Aristoteles logik lever i formen, uppifrån. Nyayas logik lever i exemplen, nerifrån, och vet att exemplen kan bedra. Den spänningen, mellan regler som skrivs ner och kunskap som växer ur det vi har sett, skulle tvåtusen år senare bli AI-historiens största stridsfråga. Och frågan om när det som ser ut som rök egentligen är dimma är precis den vi ställer oss när en språkmodell låter säker men har fel.
 
-I Kina verkade samtidigt mohisterna, rörelsen kring filosofen Mozi. De var hantverkare och ingenjörer lika mycket som filosofer, kända för sitt motstånd mot erövringskrig och sitt ideal om omsorg om alla utan åtskillnad. I de senare mohistiska kanonerna, nedtecknade omkring 300 f.v.t., försökte de ta fram regler för konsten att avgöra en disputation: hur man definierar ett begrepp, när en analogi håller och när den brister, och hur man vet att en slutsats verkligen följer.
+I Kina verkade samtidigt mohisterna, rörelsen kring filosofen Mozi. De var hantverkare och ingenjörer lika mycket som filosofer, kända för sitt motstånd mot erövringskrig och sitt ideal om omsorg om alla utan åtskillnad. I de senare mohistiska kanonerna, nedtecknade omkring 300 f.v.t., försökte de ta fram regler för konsten att avgöra en disputation: hur ett begrepp definieras, när en analogi håller och när den brister, och hur en slutsats verkligen följer.
 
 Samma texter innehåller en av världens äldsta beskrivningar av camera obscura: ljus som faller genom ett litet hål ger en upp-och-nedvänd bild på väggen bakom, eftersom ljuset färdas i raka linjer. Mohisterna ville förstå både hur tanken rör sig och hur ljuset gör det.
 
@@ -162,33 +162,33 @@ I den grekiska staden Syrakusa på Sicilien skrev matematikern Arkimedes på 200
 
 Enligt de antika berättelserna dog Arkimedes år 212 f.v.t., när romerska soldater stormade staden. Han ska ha varit så uppslukad av en geometrisk figur att han inte förstod att döden stod bakom honom. Hans sista ord till soldaten som höjde svärdet sägs ha varit ett lågmält: ”Rubba inte mina cirklar\!” Senare författare lade till att figuren var ritad i dammet.
 
-Så räknade man i antiken. Räknebräden täckta med fint damm eller sand var vanliga verktyg från Medelhavet till Indien. Man ritade, räknade och strök ut med handflatan.
+Så räknade vi i antiken. Räknebräden täckta med fint damm eller sand var vanliga verktyg från Medelhavet till Indien. Vi ritade, räknade och strök ut med handflatan.
 
-I Indien hände något på dessa tavlor som skulle förändra världen. Indiska matematiker utvecklade ett positionssystem med tio tecken, och år 628 skrev astronomen Brahmagupta ner regler för hur man räknar med noll som ett eget tal. Nollan är mer än en siffra. Den är idén att ingenting kan vara någonting, att ett tomrum kan bära mening. Den är också hälften av datorns alfabet.
+I Indien hände något på dessa tavlor som skulle förändra världen. Indiska matematiker utvecklade ett positionssystem med tio tecken, och år 628 skrev astronomen Brahmagupta ner regler för att räkna med noll som ett eget tal. Nollan är mer än en siffra. Den är idén att ingenting kan vara någonting, att ett tomrum kan bära mening. Den är också hälften av datorns alfabet.
 
 Kunskapen vandrade västerut, till Bagdad. Under abbasidkalifen al-Mamun blomstrade där på 800-talet Visdomens hus, en lärdomsmiljö där grekiska, persiska och indiska texter översattes till arabiska och byggdes vidare på. En av de lärde var den persiske matematikern Muhammad ibn Musa al-Khwarizmi.
 
-Omkring år 820 skrev al-Khwarizmi en bok om hur man löser ekvationer steg för steg, och dess titel gav oss ordet algebra. Han skrev också en bok om hur man räknar med de indiska siffrorna. När den översattes till latin började den med orden Dixit Algorizmi, så sade al-Khwarizmi. Av hans namn blev ordet algoritm: en beskrivning av steg som, följda i rätt ordning, alltid leder fram till ett svar.
+Omkring år 820 skrev al-Khwarizmi en bok om att lösa ekvationer steg för steg, och dess titel gav oss ordet algebra. Han skrev också en bok om att räkna med de indiska siffrorna. När den översattes till latin började den med orden Dixit Algorizmi, så sade al-Khwarizmi. Av hans namn blev ordet algoritm: en beskrivning av steg som, följda i rätt ordning, alltid leder fram till ett svar.
 
 Siffrorna fortsatte till det muslimska Spanien och Nordafrika, där de fick ett talande namn: ghubar-siffror, dammsiffror, efter tavlorna de skrevs på. Från dem härstammar de siffror du använder varje dag. Varje gång du skriver en sjua eller en nolla använder du ett arv som har gått från Indien via Bagdad och Córdoba till dig, ritat i damm längs hela vägen.
 
-I Bagdad fanns också tre bröder som förde drömmen om maskiner ett stort steg närmare verkligheten. Muhammad, Ahmad och al-Hasan, kallade Banu Musa, Musas söner, skrev omkring år 850 en bok om sinnrika apparater. I en av sina skrifter beskriver de ett instrument som spelar av sig självt: en vattendriven flöjtspelare där melodin är lagrad som stift på en roterande cylinder. Byter man cylinder spelar maskinen en ny melodi.
+I Bagdad fanns också tre bröder som förde drömmen om maskiner ett stort steg närmare verkligheten. Muhammad, Ahmad och al-Hasan, kallade Banu Musa, Musas söner, skrev omkring år 850 en bok om sinnrika apparater. I en av sina skrifter beskriver de ett instrument som spelar av sig självt: en vattendriven flöjtspelare där melodin är lagrad som stift på en roterande cylinder. Byter du cylinder spelar maskinen en ny melodi.
 
 Det är en maskin vars beteende styrs av en utbytbar instruktion. Med ett modernt ord: ett program. Teknikhistoriker brukar räkna flöjtspelaren i Bagdad som en av de äldsta kända programmerbara maskinerna, nästan niohundra år äldre än den franska flöjtspelare som skulle förbluffa Paris på 1700-talet.
 
-I samma stad, vid samma tid, arbetade filosofen al-Kindi. Han skrev en av de äldsta kända texterna om hur man knäcker hemliga skrifter: räkna hur ofta varje bokstav förekommer, och jämför med hur ofta bokstäverna brukar förekomma i språket. Det är statistik över språk, och idén skulle följa med ända fram till kodknäckarna och dagens språkmodeller.
+I samma stad, vid samma tid, arbetade filosofen al-Kindi. Han skrev en av de äldsta kända texterna om hur hemliga skrifter knäcks: räkna hur ofta varje bokstav förekommer, och jämför med hur ofta bokstäverna brukar förekomma i språket. Det är statistik över språk, och idén skulle följa med ända fram till kodknäckarna och dagens språkmodeller.
 
-Tre och ett halvt sekel senare byggde ingenjören Ismail al-Jazari, vid ett hov i det som i dag är sydöstra Turkiet, ett mekaniskt musikkapell på en båt. Trumslagarnas rytm kunde ändras genom att man flyttade små pinnar. År 1206 samlade han sina konstruktioner i en praktfullt illustrerad bok.
+Tre och ett halvt sekel senare byggde ingenjören Ismail al-Jazari, vid ett hov i det som i dag är sydöstra Turkiet, ett mekaniskt musikkapell på en båt. Trumslagarnas rytm kunde ändras genom att små pinnar flyttades. År 1206 samlade han sina konstruktioner i en praktfullt illustrerad bok.
 
 ## **Hjulen på Mallorca**
 
 På Mallorca, där kristna, muslimska och judiska kulturer levde sida vid sida, växte Ramon Llull upp på 1200-talet. Han var hovman och skrev kärleksdikter, tills han efter en religiös vision ägnade resten av sitt liv åt ett enda projekt. Han ville övertyga muslimer och judar om kristendomens sanning, inte med svärd utan med logik.
 
-Hans verktyg var pappersskivor, lagda ovanpå varandra och möjliga att vrida. På varje skiva stod grundbegrepp som godhet, storhet, visdom och makt. När man vred skivorna mot varandra kombinerades begreppen på alla tänkbara sätt, och ur kombinationerna skulle sanningar kunna läsas av. Llull kallade sin metod Ars Magna, den stora konsten.
+Hans verktyg var pappersskivor, lagda ovanpå varandra och möjliga att vrida. På varje skiva stod grundbegrepp som godhet, storhet, visdom och makt. När skivorna vreds mot varandra kombinerades begreppen på alla tänkbara sätt, och ur kombinationerna skulle sanningar kunna läsas av. Llull kallade sin metod Ars Magna, den stora konsten.
 
 Llull hade lärt sig arabiska och kände det muslimska tänkandet väl. Flera forskare menar att han inspirerades av zairja, ett arabiskt instrument som tog fram svar genom att kombinera bokstäver enligt fasta regler.
 
-Skivorna kunde inte tänka. Men de byggde på en djärv idé: att resonerande går att bryta ner i grundbeståndsdelar, och att nya insikter kan uppstå när man kombinerar dem systematiskt. Fyrahundra år senare skulle en ung tysk filosof läsa Llull och ta idén vidare. Men innan dess behövde någon dra gränsen för vad maskiner aldrig skulle kunna göra.
+Skivorna kunde inte tänka. Men de byggde på en djärv idé: att resonerande går att bryta ner i grundbeståndsdelar, och att nya insikter kan uppstå när de kombineras systematiskt. Fyrahundra år senare skulle en ung tysk filosof läsa Llull och ta idén vidare. Men innan dess behövde någon dra gränsen för vad maskiner aldrig skulle kunna göra.
 
 ## **Descartes och spöket i maskinen**
 
@@ -200,7 +200,7 @@ Automaterna blev hans bild av kroppen. Han menade att även den levande kroppen 
 
 Men människan var något annat. År 1637, i sin Avhandling om metoden, ställde Descartes upp två prov som han menade att ingen maskin någonsin skulle klara.
 
-Det första gällde språket. En maskin kan byggas så att den säger något när man rör vid den. Tryck här, och den frågar vad du vill. Tryck där, och den skriker att den har ont. Men den skulle aldrig kunna ordna orden på nya sätt för att ge ett meningsfullt svar på vad som än sägs till den, något som även den enklaste människa klarar.
+Det första gällde språket. En maskin kan byggas så att den säger något när du rör vid den. Tryck här, och den frågar vad du vill. Tryck där, och den skriker att den har ont. Men den skulle aldrig kunna ordna orden på nya sätt för att ge ett meningsfullt svar på vad som än sägs till den, något som även den enklaste människa klarar.
 
 Det andra provet gällde förnuftet. En maskin kan vara skicklig på en sak, kanske skickligare än vi, men bara för att delarna råkar vara ordnade för just den uppgiften. Förnuftet är däremot ett universellt verktyg som klarar alla slags situationer.
 
@@ -264,9 +264,9 @@ I Sverige ägnade sig Christopher Polhem åt något mer jordnära. Till sitt mek
 
 År 1738 visade den franske uppfinnaren Jacques de Vaucanson upp en flöjtspelare i naturlig storlek i Paris. Den blåste riktig luft genom sina läppar och rörde fingrarna över hålen på en riktig träflöjt, och den kunde spela tolv olika melodier. Året därpå kom hans mest berömda skapelse: en anka av förgylld koppar. Den kunde flaxa med vingarna, sträcka på halsen och picka i sig korn ur en skål. Och till publikens enorma förtjusning kunde den sedan göra ifrån sig det den just hade ätit.
 
-Vaucanson påstod att ankan faktiskt smälte födan. Det gjorde den inte. Kornen samlades i en behållare, och det som kom ut i andra änden hade lagts dit i förväg. Det visade sig långt senare, när man fick titta in i en anka av Vaucansons sort. Publiken hade sett exakt det den ville se: en maskin som inte bara rörde sig, utan levde.
+Vaucanson påstod att ankan faktiskt smälte födan. Det gjorde den inte. Kornen samlades i en behållare, och det som kom ut i andra änden hade lagts dit i förväg. Det visade sig långt senare, när en anka av Vaucansons sort till slut öppnades. Publiken hade sett exakt det den ville se: en maskin som inte bara rörde sig, utan levde.
 
-I Schweiz byggde urmakaren Pierre Jaquet-Droz och hans son en ännu mer förunderlig figur på 1770-talet. Det är en liten pojke som sitter vid ett skrivbord, doppar gåspennan i bläck och skriver med vacker handstil. Inuti honom sitter omkring sextusen delar. Genom att byta ut små kammar på ett hjul kan man få honom att skriva vilken text som helst på upp till fyrtio tecken.
+I Schweiz byggde urmakaren Pierre Jaquet-Droz och hans son en ännu mer förunderlig figur på 1770-talet. Det är en liten pojke som sitter vid ett skrivbord, doppar gåspennan i bläck och skriver med vacker handstil. Inuti honom sitter omkring sextusen delar. Genom att byta ut små kammar på ett hjul kan du få honom att skriva vilken text som helst på upp till fyrtio tecken.
 
 Pojken går fortfarande att se i arbete på museet i Neuchâtel. Han är en maskin vars beteende styrs av en utbytbar instruktion, precis som flöjtspelaren i Bagdad niohundra år tidigare. Han kan skriva vad som helst. Han förstår ingenting av det han skriver.
 
@@ -442,7 +442,7 @@ Samtidigt hade den amerikanske logikern Alonzo Church nått samma slutsats på e
 
 Turing hade visat vad en maskin kan räkna ut i princip. Men hur skulle en verklig maskin byggas? Svaret kom från ett oväntat håll: från telefonväxlarna.
 
-På 1930-talet var telefonnäten fulla av reläer, strömbrytare som öppnas och stängs av elektromagneter. Ingenjörerna kopplade ihop dem för hand, genom erfarenhet och fingertoppskänsla. Det fanns ingen teori för hur man bäst skulle göra.
+På 1930-talet var telefonnäten fulla av reläer, strömbrytare som öppnas och stängs av elektromagneter. Ingenjörerna kopplade ihop dem för hand, genom erfarenhet och fingertoppskänsla. Det fanns ingen teori för hur det bäst skulle göras.
 
 År 1937 skrev en tjugoettårig student vid MIT, Claude Shannon, ett examensarbete på magisternivå. Han hade läst George Booles logik som en kuriös kurs i filosofi och insåg något avgörande. En strömbrytare kan bara vara på eller av. Ett påstående i Booles algebra kan bara vara sant eller falskt. Det är samma sak. Två brytare i serie släpper bara igenom ström om båda är slutna, och det är Booles och. Två brytare parallellt släpper igenom ström om någon av dem är sluten, och det är Booles eller.
 
@@ -452,7 +452,7 @@ Men Shannon var inte ensam. På det japanska telekomföretaget NEC hade ingenjö
 
 Shannon själv skulle några år senare grunda informationsteorin, och där gjorde han ett experiment som är värt att minnas. Han bad människor gissa nästa bokstav i en engelsk text, en i taget, för att mäta hur förutsägbart språket är. Han byggde vidare på något som den ryske matematikern Andrej Markov hade gjort redan 1913, när han räknade igenom tjugotusen bokstäver i Pusjkins versroman Eugen Onegin för att se hur sannolikheten för nästa bokstav beror på den föregående. Att förutsäga nästa tecken ur de föregående: det är precis vad dagens språkmodeller gör. Deras förfäder var en rysk dikt och en amerikansk gissningslek.
 
-Shannon var också en lekfull uppfinnare, och han var inte ensam vid arbetsbänken. Betty Moore var en av de mänskliga räknarna på Bell Labs, kvinnorna och männen som räknade fram det ingenjörerna behövde. Hon och Shannon gifte sig, och tillsammans byggde de 1950 en mekanisk mus som de döpte till Theseus, efter hjälten i den grekiska sagan som tog sig ut ur labyrinten. Det var Betty som gjorde klart kopplingarna. Satte man musen i en labyrint letade den sig fram genom att pröva och misslyckas. Nästa gång gick den raka vägen. Själva musen var bara en magnet på hjul. Minnet satt under golvet, i telefonreläer som höll reda på varje sväng den hade lärt sig. Turing hade sagt att han ville ha en maskin som kunde lära sig av erfarenhet. Här var en, stor som en mus.
+Shannon var också en lekfull uppfinnare, och han var inte ensam vid arbetsbänken. Betty Moore var en av de mänskliga räknarna på Bell Labs, kvinnorna och männen som räknade fram det ingenjörerna behövde. Hon och Shannon gifte sig, och tillsammans byggde de 1950 en mekanisk mus som de döpte till Theseus, efter hjälten i den grekiska sagan som tog sig ut ur labyrinten. Det var Betty som gjorde klart kopplingarna. Sattes musen i en labyrint letade den sig fram genom att pröva och misslyckas. Nästa gång gick den raka vägen. Själva musen var bara en magnet på hjul. Minnet satt under golvet, i telefonreläer som höll reda på varje sväng den hade lärt sig. Turing hade sagt att han ville ha en maskin som kunde lära sig av erfarenhet. Här var en, stor som en mus.
 
 Några år senare hade informationsteorin blivit ett modeord som alla ville använda, i biologi, psykologi och ekonomi. Då skrev Shannon 1956 en kort text som han kallade The Bandwagon, ungefär ”alla hoppar på tåget”. Hans eget fält, varnade han, hade blåsts upp till en betydelse som det ännu inte hade gjort sig förtjänt av. Mannen som hade grundat fältet bad alla att sakta ner. Det är en varning som skulle behöva upprepas många gånger i den här historien.
 
@@ -494,7 +494,7 @@ När ENIAC visades för pressen i februari 1946 räknade den ut en projektilbana
 
 Mönstret skulle gå igen. Hårdvaran betraktades som fin ingenjörskonst och tillskrevs män. Mjukvaran betraktades som enklare kontorsarbete och gavs till kvinnor. Först när det blev tydligt att mjukvaran var nyckeln till allt skrevs berättelsen om, och då hade männen redan tagit över yrket.
 
-De var långt ifrån ensamma. I London arbetade matematikern Kathleen Booth med några av Storbritanniens första datorer, tillsammans med Andrew Booth som hon senare gifte sig med. År 1947 uppfann hon det första assemblerspråket, ett sätt att skriva instruktioner med korta ord i stället för rena siffror. Det låter som en detalj. Men det var första steget bort från maskinens eget språk och närmare människans, samma väg som Grace Hopper senare skulle gå mycket längre på. Hon var också med och skrev en av de första läroböckerna om hur man bygger och programmerar en dator, och hon blev hundra år gammal.
+De var långt ifrån ensamma. I London arbetade matematikern Kathleen Booth med några av Storbritanniens första datorer, tillsammans med Andrew Booth som hon senare gifte sig med. År 1947 uppfann hon det första assemblerspråket, ett sätt att skriva instruktioner med korta ord i stället för rena siffror. Det låter som en detalj. Men det var första steget bort från maskinens eget språk och närmare människans, samma väg som Grace Hopper senare skulle gå mycket längre på. Hon var också med och skrev en av de första läroböckerna om hur en dator byggs och programmeras, och hon blev hundra år gammal.
 
 På andra sidan Atlanten fanns Klara Dan von Neumann. Hon hade ingen formell utbildning i matematik, men våren 1948 reste hon till ENIAC för kärnforskningslaboratoriet i Los Alamos. Där lät hon maskinen räkna med slumptal för att följa neutronernas vägar, en metod som kallas Monte Carlo efter kasinot. Det var ett av de första programmen som låg i datorns eget minne i stället för att kopplas in med kablar. Två år senare var hon med när ENIAC gjorde den första väderprognosen med en dator, och hon gick igenom programmet innan det kördes. Hon var gift med matematikern John von Neumann, och i historieböckerna har hon länge stått i hans skugga.
 
@@ -532,7 +532,7 @@ I artikeln lät Turing till och med domaren be maskinen skriva en sonett om Fort
 
 Turing gick sedan igenom invändningarna en efter en, som om han redan kunde höra de kommande sjuttio årens debatt. Den teologiska invändningen, att tänkande kräver en själ som bara Gud kan ge. Den matematiska: den österrikiske logikern Kurt Gödel hade 1931 visat att varje tillräckligt rikt matematiskt system innehåller sanna påståenden som systemet självt inte kan bevisa, och Turings egen upptäckt pekade åt samma håll. Borde inte det sätta en gräns för vad en maskin kan tänka? Turings svar var att ingen har visat att människor slipper undan samma gränser. Och Lady Lovelaces invändning, att en maskin bara kan göra det vi befaller den. Mot den sista hade Turing ett personligt svar: maskiner överraskar honom hela tiden, skrev han.
 
-Sist i artikeln skissade han på hur en tänkande maskin skulle kunna byggas. I stället för att försöka programmera in all vuxen kunskap från början, skrev han, borde man kanske bygga något som liknar ett barns sinne och sedan låta det lära sig, genom undervisning, belöning och bestraffning. Han kallade det en barnmaskin. Det är just den vägen, lärande nerifrån i stället för regler uppifrån, som den moderna AI:n till slut skulle ta. Men det skulle dröja mer än femtio år.
+Sist i artikeln skissade han på hur en tänkande maskin skulle kunna byggas. I stället för att försöka programmera in all vuxen kunskap från början, skrev han, borde vi kanske bygga något som liknar ett barns sinne och sedan låta det lära sig, genom undervisning, belöning och bestraffning. Han kallade det en barnmaskin. Det är just den vägen, lärande nerifrån i stället för regler uppifrån, som den moderna AI:n till slut skulle ta. Men det skulle dröja mer än femtio år.
 
 Turing förutspådde också att det runt år 2000 skulle vara möjligt att tala om tänkande maskiner utan att bli motsagd. Han hade fel om årtalet med ett par decennier, men inte om riktningen.
 
@@ -566,7 +566,7 @@ Samtidigt, i en helt annan del av datorvärlden, arbetade en kvinna som skulle g
 
 Kollegerna sa att det var omöjligt. Datorer kunde bara räkna, inte hantera ord. Hopper struntade i dem och byggde 1952 ett av de första programmen som översatte instruktioner till maskinkod, en så kallad kompilator. Senare byggde hon språket FLOW-MATIC, med engelska ord som kommandon, och det blev en av grundstenarna i språket COBOL. I kommittén som utformade COBOL satt också Jean Sammet, en annan av programmeringens stora pionjärer. COBOL skulle i årtionden driva banker, myndigheter och försäkringsbolag, och det gör det på många håll än i dag.
 
-Hopper förknippas också med ordet bugg. År 1947 hittade hennes kolleger en mal som hade fastnat i ett relä i Harvards dator Mark II och tejpade in den i loggboken, med en anteckning om att det var första gången man hittat en riktig bugg. Ordet bugg för ett tekniskt fel var redan gammalt, men det var Hopper som gjorde historien känd. Framför allt öppnade hon dörren för att människa och maskin kunde börja tala ett gemensamt språk.
+Hopper förknippas också med ordet bugg. År 1947 hittade hennes kolleger en mal som hade fastnat i ett relä i Harvards dator Mark II och tejpade in den i loggboken, med en anteckning om att det var första gången en riktig bugg hade hittats. Ordet bugg för ett tekniskt fel var redan gammalt, men det var Hopper som gjorde historien känd. Framför allt öppnade hon dörren för att människa och maskin kunde börja tala ett gemensamt språk.
 
 Hopper öppnade dörren mellan människans ord och maskinens ettor. Ett drygt decennium senare skulle en annan kvinna visa vad den dörren till slut kunde bära.
 
@@ -592,7 +592,7 @@ Den idé som dominerade var enkel och tilltalande: intelligens är i grunden att
 
 Deras första program, Logic Theorist, var det de hade med sig till Dartmouth. De byggde det tillsammans med Cliff Shaw, programmeraren som skrev koden som gjorde idéerna körbara, en av de där händerna bakom maskinen som så lätt glöms bort. Det gav sig på satserna i Russells och Whiteheads stora verk om matematikens grunder, samma verk som tolvårige Walter Pitts hade läst på biblioteket i Detroit. Programmet bevisade trettioåtta av de första femtiotvå satserna i ett av kapitlen, och för en av dem hittade det ett bevis som var elegantare än författarnas. Russell blev förtjust när han fick höra det. En vetenskaplig tidskrift var mindre förtjust och vägrade publicera en artikel där programmet stod som medförfattare.
 
-Sedan byggde Newell och Simon något mer ambitiöst, som de kaxigt döpte till General Problem Solver, den allmänna problemlösaren. Man beskrev ett problem som ett utgångsläge, ett mål och ett antal tillåtna handlingar. Programmet letade sedan efter den största skillnaden mellan var det var och var det ville vara, sökte en handling som minskade skillnaden, och upprepade. Det kunde lösa logiska bevis och pussel som Tornet i Hanoi. Forskarna trodde att de hade hittat tankens grundarkitektur.
+Sedan byggde Newell och Simon något mer ambitiöst, som de kaxigt döpte till General Problem Solver, den allmänna problemlösaren. Ett problem beskrevs som ett utgångsläge, ett mål och ett antal tillåtna handlingar. Programmet letade sedan efter den största skillnaden mellan var det var och var det ville vara, sökte en handling som minskade skillnaden, och upprepade. Det kunde lösa logiska bevis och pussel som Tornet i Hanoi. Forskarna trodde att de hade hittat tankens grundarkitektur.
 
 John McCarthy skapade samtidigt LISP, ett programspråk byggt för att hantera symboler och listor i stället för siffror. Det blev AI-forskningens eget språk i trettio år.
 
@@ -604,15 +604,15 @@ Symboliskt tänkande fungerade fantastiskt bra i små, avgränsade världar. Det
 
 Du kunde skriva till det på vanlig engelska: lyft upp den stora röda klossen. Och programmet gjorde det. Du kunde fråga vad som låg i lådan, och det svarade. Du kunde be det ställa en pyramid på en kloss, och om det inte gick förklarade det varför. Du kunde till och med fråga varför det hade gjort något, och det redogjorde för sina skäl. Den som såg det tyckte sig se en maskin som förstod språk. Långt senare mindes biologen Richard Dawkins fortfarande en konferens där alla talade med häpnad om just ett program som bara kunde prata om att stapla färgade klossar.
 
-Men klossvärlden var det enda SHRDLU kunde. Så fort man försökte lyfta metoden ut ur klosslådan, till verkligt språk och verkliga situationer, visade den sig nästan omöjlig att generalisera. Riktigt mänskligt språk handlar inte om klossar på ett bord. Det handlar om kärlek, makt, ironi och sammanhang som inte ryms i några hundra regler. Winograd själv kom till slutsatsen att vägen var fundamentalt begränsad. Han lämnade den och ägnade sig i stället åt hur människor och datorer samspelar. En av hans doktorander vid Stanford hette Larry Page, och han grundade senare Google tillsammans med Sergey Brin.
+Men klossvärlden var det enda SHRDLU kunde. Så fort metoden lyftes ut ur klosslådan, till verkligt språk och verkliga situationer, visade den sig nästan omöjlig att generalisera. Riktigt mänskligt språk handlar inte om klossar på ett bord. Det handlar om kärlek, makt, ironi och sammanhang som inte ryms i några hundra regler. Winograd själv kom till slutsatsen att vägen var fundamentalt begränsad. Han lämnade den och ägnade sig i stället åt hur människor och datorer samspelar. En av hans doktorander vid Stanford hette Larry Page, och han grundade senare Google tillsammans med Sergey Brin.
 
 Ordet robot var då bara ett halvsekel gammalt. Det kom från Prag, där författaren Karel Čapek 1920 skrev pjäsen R.U.R., om en fabrik som tillverkar konstgjorda arbetare. Det var hans bror, konstnären Josef, som föreslog namnet, efter det tjeckiska ordet robota, tvångsarbete. I pjäsen gör robotarna till slut uppror mot sina ägare. Från början var ordet alltså inte ett namn på en maskin, utan på en arbetare som inte fick säga nej. Aristoteles hade drömt om redskap som gjorde slavarna överflödiga. Čapek undrade vad som händer när redskapen själva blir slavar.
 
-Ute i den fysiska världen var det ännu svårare. Vid forskningsinstitutet SRI i Kalifornien byggde man mellan 1966 och 1972 Shakey, den första mobila roboten som kunde resonera om sina egna handlingar. Den kunde ta emot en order som att flytta en låda från ett rum till ett annat, planera en väg och sedan långsamt rulla iväg, med en kamera och en lång antenn som vajade. Den fick sitt namn för att den skakade när den körde. Varje steg tog lång tid, och ofta fick forskarna vänta i timmar.
+Ute i den fysiska världen var det ännu svårare. Vid forskningsinstitutet SRI i Kalifornien byggde forskarna mellan 1966 och 1972 Shakey, den första mobila roboten som kunde resonera om sina egna handlingar. Den kunde ta emot en order som att flytta en låda från ett rum till ett annat, planera en väg och sedan långsamt rulla iväg, med en kamera och en lång antenn som vajade. Den fick sitt namn för att den skakade när den körde. Varje steg tog lång tid, och ofta fick forskarna vänta i timmar.
 
 Shakey löste aldrig några stora problem. Men för att den skulle hitta vägen genom rummen uppfann tre forskare vid SRI – Peter Hart, Nils Nilsson och Bertram Raphael – år 1968 en sökmetod som kallas A\*, A-stjärna. Den används än i dag, bland annat när ditt kartprogram räknar ut den snabbaste vägen hem eller när figurerna i ett datorspel hittar runt hinder.
 
-I Japan tog man samtidigt ett annat steg. Vid Waseda-universitetet i Tokyo byggde Ichiro Kato och hans team WABOT-1, som stod klar 1973 och brukar räknas som världens första fullskaliga humanoida robot. Den kunde gå några steg, gripa föremål med händerna och till och med föra ett mycket enkelt samtal på japanska.
+I Japan togs samtidigt ett annat steg. Vid Waseda-universitetet i Tokyo byggde Ichiro Kato och hans team WABOT-1, som stod klar 1973 och brukar räknas som världens första fullskaliga humanoida robot. Den kunde gå några steg, gripa föremål med händerna och till och med föra ett mycket enkelt samtal på japanska.
 
 ## **Det sunda förnuftets vägg**
 
@@ -624,7 +624,7 @@ Försök att skriva ner allt det som formella regler i en dator.
 
 John McCarthy och filosofen Patrick Hayes gav 1969 problemet ett namn: ramproblemet. När en robot flyttar en kopp från bordet till diskbänken, hur vet den vad som förändrats och vad som inte har det? Koppen har flyttat, men väggarna står kvar, färgen på gardinerna är densamma och det regnar fortfarande ute. För en människa är det självklart. För en maskin som resonerar med regler måste varje sådan självklarhet stå nedskriven, annars vet den ingenting. Och antalet självklarheter tar aldrig slut.
 
-Det var samma läxa som Poe hade fått om bakfoten, och som Hans Moravec senare skulle ge namn åt. Det som var svårt för människor, som logiska bevis och schackproblem, visade sig förvånansvärt lätt för maskiner. Det som var lätt för en treåring, att förstå var koppen är och att den inte har försvunnit bara för att man vände bort blicken, var nästan omöjligt.
+Det var samma läxa som Poe hade fått om bakfoten, och som Hans Moravec senare skulle ge namn åt. Det som var svårt för människor, som logiska bevis och schackproblem, visade sig förvånansvärt lätt för maskiner. Det som var lätt för en treåring, att förstå var koppen är och att den inte har försvunnit bara för att du vände bort blicken, var nästan omöjligt.
 
 En forskare tog utmaningen bokstavligt. År 1984 startade Douglas Lenat projektet Cyc, med målet att för hand mata in hela människans vardagskunskap i en gigantisk databas, påstående för påstående. Projektet pågick i årtionden och samlade miljontals regler. Det gav aldrig en maskin något som liknade mänskligt sunt förnuft. Cyc blev ett monument över en storslagen idé och en påminnelse om dess gräns: världen är för stor för att skrivas ner.
 
@@ -704,7 +704,7 @@ Redan 1965 hade Feigenbaum börjat bygga DENDRAL tillsammans med nobelpristagare
 
 På 1970-talet byggde läkarstudenten Edward Shortliffe MYCIN, ett program som ställde frågor om en patient med en allvarlig blodinfektion och sedan föreslog vilken bakterie det rörde sig om och vilken antibiotika som borde sättas in. När dess förslag jämfördes med specialisternas, bedömdes de vara lika bra eller bättre. Ändå användes MYCIN aldrig på riktiga patienter. Ingen kunde svara på vem som skulle bära ansvaret om maskinen hade fel. Det är en fråga vi fortfarande inte har löst.
 
-Den stora kommersiella framgången kom hos datortillverkaren Digital Equipment Corporation. Deras datorsystem kunde byggas ihop på tusentals olika sätt, och det var lätt att beställa fel delar. Ett expertsystem som kallades XCON tog över uppgiften att sätta ihop rätt konfiguration för varje kund, och det sparade enligt företaget tiotals miljoner dollar om året. Plötsligt var AI något man kunde tjäna pengar på.
+Den stora kommersiella framgången kom hos datortillverkaren Digital Equipment Corporation. Deras datorsystem kunde byggas ihop på tusentals olika sätt, och det var lätt att beställa fel delar. Ett expertsystem som kallades XCON tog över uppgiften att sätta ihop rätt konfiguration för varje kund, och det sparade enligt företaget tiotals miljoner dollar om året. Plötsligt var AI något det gick att tjäna pengar på.
 
 Men metoden bar på en inbyggd svaghet. Expertsystemen visste exakt det de hade blivit tillsagda, och ingenting annat. Så fort ett problem avvek det minsta från reglerna föll de ihop. Och att få kunskapen ur experternas huvuden visade sig mycket svårare än någon trott. De bästa experterna vet ofta inte själva hur de vet det de vet. En erfaren läkare ser att en patient är allvarligt sjuk innan hon kan förklara varför. Forskarna kallade det kunskapsflaskhalsen. Det var ramproblemet i ny skepnad: den mänskliga kunskapen är för stor, för tyst och för levande för att skrivas ner.
 
@@ -724,7 +724,7 @@ Företagen gick i konkurs, pengarna försvann och den andra AI-vintern svepte in
 
 Vägen nerifrån byggde på att efterlikna hjärnan. Din hjärna har inga nedskrivna regler. Den består av omkring 86 miljarder nervceller, sammankopplade i ett väldigt nätverk, och du lär dig genom att kopplingarna mellan dem stärks eller försvagas av det du upplever. Pitts och McCulloch hade visat att sådana nät i princip kunde räkna. Frågan var hur de skulle kunna lära sig.
 
-År 1958 presenterade psykologen Frank Rosenblatt vid ett flygforskningslaboratorium i Buffalo sitt svar: perceptronen. Den första versionen var ett program, men snart byggde han den som maskin, Mark I. Den hade ett öga av fyrahundra ljuskänsliga celler, kopplade med sladdar till konstgjorda nervceller, och kopplingarnas styrka ställdes in av små motorer. Visade man den exempel och talade om när den gissade fel, justerade den själv kopplingarna tills den kunde skilja figurerna åt. Den lärde sig.
+År 1958 presenterade psykologen Frank Rosenblatt vid ett flygforskningslaboratorium i Buffalo sitt svar: perceptronen. Den första versionen var ett program, men snart byggde han den som maskin, Mark I. Den hade ett öga av fyrahundra ljuskänsliga celler, kopplade med sladdar till konstgjorda nervceller, och kopplingarnas styrka ställdes in av små motorer. Fick den exempel och besked om när den gissade fel, justerade den själv kopplingarna tills den kunde skilja figurerna åt. Den lärde sig.
 
 Rosenblatt var karismatisk och tog inte i underkant. Efter en presentation för den amerikanska flottan rapporterade New York Times att flottan räknade med att maskinen var ett embryo till en dator som skulle kunna gå, tala, se, skriva, reproducera sig själv och vara medveten om sin egen existens. Det är lätt att le åt i dag. Men det är värt att minnas nästa gång någon lovar något liknande.
 
@@ -742,7 +742,7 @@ Den vanliga berättelsen säger att nästan alla övergav de lärande nätverken
 
 I Kiev hade matematikern Aleksej Ivachnenko redan 1965 börjat träna nätverk i flera lager med en metod han kallade gruppmetoden för datahantering. År 1971 beskrev han ett nätverk med åtta lager. Det var djupinlärning, fyrtio år innan ordet slog igenom, och vissa forskare räknar honom i dag som en av dess första pionjärer.
 
-I Japan visade matematikern Shun'ichi Amari 1967 hur ett nätverk med flera lager kunde tränas genom att stegvis justera kopplingarna i den riktning som minskar felet. I Helsingfors skrev den unge Seppo Linnainmaa 1970 ett examensarbete om hur man effektivt räknar ut hur ett fel i slutet av en lång beräkning beror på varje steg på vägen, genom att räkna baklänges. Han tänkte inte på nervceller alls. Men hans matematik är precis den som i dag tränar varje stort neuralt nätverk i världen. I USA föreslog Paul Werbos 1974 i sin doktorsavhandling att metoden kunde användas just för att träna nätverk. Nästan ingen läste den.
+I Japan visade matematikern Shun'ichi Amari 1967 hur ett nätverk med flera lager kunde tränas genom att stegvis justera kopplingarna i den riktning som minskar felet. I Helsingfors skrev den unge Seppo Linnainmaa 1970 ett examensarbete om hur ett fel i slutet av en lång beräkning effektivt kan spåras till varje steg på vägen, genom att räkna baklänges. Han tänkte inte på nervceller alls. Men hans matematik är precis den som i dag tränar varje stort neuralt nätverk i världen. I USA föreslog Paul Werbos 1974 i sin doktorsavhandling att metoden kunde användas just för att träna nätverk. Nästan ingen läste den.
 
 Samtidigt kom den kanske viktigaste inspirationen från hjärnforskningen, och den bar på en svensk signatur. Först vid Johns Hopkins i Baltimore och sedan vid Harvard arbetade kanadensaren David Hubel och Torsten Wiesel, född i Uppsala och utbildad vid Karolinska institutet. Från slutet av 1950-talet mätte de hur enskilda nervceller i en katts syncentrum reagerade på det katten såg. De upptäckte att synen är byggd i lager. Vissa celler reagerar bara på ett streck som lutar åt ett visst håll. Celler i nästa lager reagerar på kombinationer av sådana streck. Längre upp i kedjan byggs allt mer sammansatta former. Hjärnan ser inte en katt direkt. Den bygger ihop katten av kanter, hörn och kurvor, lager för lager. För den upptäckten fick Hubel och Wiesel Nobelpriset i fysiologi eller medicin 1981\.
 
@@ -754,7 +754,7 @@ Historien om de neurala nätverken berättas ofta som en amerikansk och kanadens
 
 I början av 1980-talet kom hjälpen från ett håll som få hade väntat sig: fysiken.
 
-John Hopfield var en fysiker som hade ägnat sin karriär åt hur materia beter sig. År 1982 visade han hur ett nätverk av sammankopplade enheter kunde fungera som ett minne. Hans bild var hämtad direkt från fysiken. Tänk dig ett landskap av kullar och dalar. Varje minne som nätverket har lagrat är en dal. Visar man nätverket en halv eller skadad bild, rullar det som en kula nedför sluttningen tills det hamnar i närmaste dal, och där ligger hela bilden. Nätverket minns genom att söka den lägsta energin, precis som vatten söker det lägsta stället i terrängen.
+John Hopfield var en fysiker som hade ägnat sin karriär åt hur materia beter sig. År 1982 visade han hur ett nätverk av sammankopplade enheter kunde fungera som ett minne. Hans bild var hämtad direkt från fysiken. Tänk dig ett landskap av kullar och dalar. Varje minne som nätverket har lagrat är en dal. Visas nätverket en halv eller skadad bild, rullar det som en kula nedför sluttningen tills det hamnar i närmaste dal, och där ligger hela bilden. Nätverket minns genom att söka den lägsta energin, precis som vatten söker det lägsta stället i terrängen.
 
 Det låter som poesi, men det var ren fysik. Hopfield använde samma matematik som fysiker använder för att beskriva hur små magneter i ett material ställer in sig efter varandra. Nu kunde fysiker förstå neurala nätverk med sina egna verktyg, och många av dem blev intresserade.
 
@@ -768,7 +768,7 @@ Geoffrey Hinton, George Booles barnbarns barnbarn, var övertygad om att hjärna
 
 År 1986 publicerade Hinton tillsammans med psykologen David Rumelhart och datavetaren Ronald Williams en kort artikel i tidskriften Nature. Den visade hur nätverk med flera lager kunde tränas med en metod som kallas bakåtpropagering. Matematiken fanns redan, hos Linnainmaa, Werbos och andra. Men artikeln visade övertygande att metoden fungerade, och att näten då lärde sig hitta egna, meningsfulla sätt att representera det de såg. Samma år gav Rumelhart ut ett stort tvåbandsverk tillsammans med kollegan James McClelland, som samlade den nya rörelsen. Neurala nätverk levde igen.
 
-Så här fungerar bakåtpropagering, utan matematik. Tänk dig ett nätverk som ska känna igen handskrivna siffror. Det får se en fyra och gissar på en nia. Nu räknar man ut hur fel gissningen var. Sedan skickas felet baklänges genom nätverket, lager för lager. För varje koppling räknar man ut hur mycket just den bidrog till felet, och justerar den en liten aning i den riktning som skulle ha gjort felet mindre. Ingen enskild justering är märkvärdig. Men upprepa det miljontals gånger över tusentals exempel, och nätverket ställer långsamt in sig självt, tills det känner igen siffrorna.
+Så här fungerar bakåtpropagering, utan matematik. Tänk dig ett nätverk som ska känna igen handskrivna siffror. Det får se en fyra och gissar på en nia. Nu räknas det ut hur fel gissningen var. Sedan skickas felet baklänges genom nätverket, lager för lager. För varje koppling räknas det ut hur mycket just den bidrog till felet, och den justeras en liten aning i den riktning som skulle ha gjort felet mindre. Ingen enskild justering är märkvärdig. Men upprepa det miljontals gånger över tusentals exempel, och nätverket ställer långsamt in sig självt, tills det känner igen siffrorna.
 
 Ingen talar om för nätverket vad en fyra är. Ingen skriver regeln att en fyra har ett lodrätt streck och ett vinklat. Nätverket hittar själv de drag som skiljer siffrorna åt. Det här är Turings barnmaskin, äntligen med en matematik som fungerar. Och det är Nyayas kök: kunskap som växer ur exempel, inte ur regler.
 
@@ -782,7 +782,7 @@ En av Hintons tidiga medarbetare i Toronto var en ung fransman, Yann LeCun. År 
 
 På andra sidan jorden hade människor länge löst ett liknande problem utan en enda dator. Sedan 1890 bär dabbawalas i Bombay, som i dag heter Mumbai, hemlagade lunchlådor från hemmen till kontoren, som mest omkring tvåhundratusen lådor om dagen. Många av bärarna har kort skolgång, så lådorna märks inte med adresser utan med färger, siffror och tecken som visar station, hus och våning. Systemet har blivit en legend för sin pålitlighet. Siffror om ett fel på miljontals leveranser citeras ofta, även om ingen har mätt det ordentligt. Harvard Business School har studerat systemet, och chefer från både FedEx och Amazon har kommit på besök för att se hur det går till. På stadens stora tvätterier märks varje plagg på samma sätt med små tecken, så att tvätten hittar hem till rätt ägare.
 
-Det är mönsterigenkänning byggd av människor: en kod som är enkel nog för att alla ska kunna läsa den och tålig nog för en stad med miljontals invånare. Maskinerna fick lära sig att läsa handskrift. I Bombay hade man ordnat det så att ingen behövde.
+Det är mönsterigenkänning byggd av människor: en kod som är enkel nog för att alla ska kunna läsa den och tålig nog för en stad med miljontals invånare. Maskinerna fick lära sig att läsa handskrift. I Bombay var det ordnat så att ingen behövde.
 
 För att träna och jämföra sådana system behövs exempel, många exempel, och de måste vara sorterade och kontrollerade. År 1998 släppte LeCun tillsammans med den danska forskaren Corinna Cortes och kollegan Christopher Burges MNIST, en samling av sjuttiotusen handskrivna siffror, var och en märkt med rätt svar. Den blev den mest använda övningsbanan i maskininlärningens historia. Nästan varje student som har lärt sig bygga ett neuralt nätverk har börjat med att träna det på MNIST.
 
@@ -826,7 +826,7 @@ När ImageNet var klart innehöll det över fjorton miljoner märkta bilder i me
 
 Det andra som saknades var räknekraft, och den kom från ett håll som ingen forskare hade planerat: datorspelen.
 
-En vanlig processor i en dator är byggd för att göra en sak i taget, mycket snabbt, som en briljant matematiker som löser uppgifter efter varandra. Men för att rita ut en tredimensionell spelvärld måste man räkna ut färgen på miljontals bildpunkter samtidigt, trettio eller sextio gånger i sekunden. Därför hade spelindustrin utvecklat grafikkort, specialchip med tusentals enkla räknare som arbetar parallellt, mer som en sal full av skolbarn som var och en räknar sitt eget lilla tal.
+En vanlig processor i en dator är byggd för att göra en sak i taget, mycket snabbt, som en briljant matematiker som löser uppgifter efter varandra. Men för att rita ut en tredimensionell spelvärld måste färgen på miljontals bildpunkter räknas ut samtidigt, trettio eller sextio gånger i sekunden. Därför hade spelindustrin utvecklat grafikkort, specialchip med tusentals enkla räknare som arbetar parallellt, mer som en sal full av skolbarn som var och en räknar sitt eget lilla tal.
 
 Det visade sig att neurala nätverk behöver exakt den sortens räkning. Att träna ett nät handlar om att multiplicera väldiga tabeller av tal med varandra, om och om igen, och varje liten multiplikation kan göras samtidigt som de andra.
 
@@ -930,7 +930,7 @@ Historien hade upprepat sig i ny skepnad, och den skulle göra det igen. Längre
 
 Medan tekniken rusade framåt upptäckte några forskare att maskinerna bar på en osynlig skada.
 
-Joy Buolamwini växte upp i Ghana och USA och kom som ung forskare till MIT:s Media Lab. Där arbetade hon med ett konstprojekt som krävde att en dator skulle känna igen hennes ansikte. Programmet hittade det inte. Hon provade olika ljus och vinklar. Ingenting hjälpte. Till slut tog hon på sig en enkel vit plastmask, den sort man köper till maskerad. Då hittade datorn genast ett ansikte.
+Joy Buolamwini växte upp i Ghana och USA och kom som ung forskare till MIT:s Media Lab. Där arbetade hon med ett konstprojekt som krävde att en dator skulle känna igen hennes ansikte. Programmet hittade det inte. Hon provade olika ljus och vinklar. Ingenting hjälpte. Till slut tog hon på sig en enkel vit plastmask, den sort du köper till maskerad. Då hittade datorn genast ett ansikte.
 
 Hon hade upptäckt något som skulle bli hennes livsuppgift. År 2018 publicerade hon tillsammans med datavetaren Timnit Gebru studien Gender Shades. De testade tre kommersiella system för ansiktsanalys, från IBM, Microsoft och det kinesiska bolaget Face++, på bilder av parlamentariker från Afrika och Europa. Systemen gissade kön nästan felfritt för ljushyade män. För mörkhyade kvinnor gissade det sämsta systemet fel på ungefär var tredje bild.
 
@@ -952,7 +952,7 @@ Maskinerna hade lärt sig se. Kvar stod språket, den fästning Descartes hade s
 
 Första steget var att göra ord till tal. Redan 1957 hade den brittiske lingvisten John Rupert Firth formulerat en tanke som skulle bli avgörande: du ska känna ett ord på det sällskap det håller. Ordet kaffe dyker upp nära ord som kopp, bryggare och morgon. Ordet te gör likadant. Alltså betyder de något liknande.
 
-År 2013 byggde den tjeckiske forskaren Tomas Mikolov på Google ett enkelt nätverk som läste miljarder ord och lärde sig ge varje ord en plats i ett rum med hundratals dimensioner, så att ord som förekommer i liknande sammanhang hamnar nära varandra. Resultatet var nästan magiskt. Tar man ordet kung, drar ifrån man och lägger till kvinna, hamnar man mycket nära drottning. Maskinen hade aldrig fått veta vad kungligheter eller kön var. Den hade hittat relationerna själv, i hur vi använder orden.
+År 2013 byggde den tjeckiske forskaren Tomas Mikolov på Google ett enkelt nätverk som läste miljarder ord och lärde sig ge varje ord en plats i ett rum med hundratals dimensioner, så att ord som förekommer i liknande sammanhang hamnar nära varandra. Resultatet var nästan magiskt. Tar du ordet kung, drar ifrån man och lägger till kvinna, hamnar du mycket nära drottning. Maskinen hade aldrig fått veta vad kungligheter eller kön var. Den hade hittat relationerna själv, i hur vi använder orden.
 
 Men den hade också hittat något annat. Forskare visade snart att samma sorts räkning gav att man förhåller sig till programmerare som kvinna till hemmafru. Maskinen hade lärt sig våra ord, och våra fördomar följde med på köpet.
 
@@ -984,9 +984,9 @@ Inom fem dagar hade en miljon människor provat. Inom två månader hade enligt 
 
 Varför skakade det oss så djupt? För att AI, för första gången sedan Turing ställde sin fråga 1950, inte längre var en artikel i en vetenskaplig tidskrift eller en superdator som spelade schack i tv. Det var en blinkande markör i din egen telefon, som svarade på din egen svenska, mitt i natten, om nästan vad som helst.
 
-Människor satt vid sina köksbord och kände hur marken gungade. Man kunde be den förklara kvantfysik som för en åttaåring, eller skriva en dikt till en femtioårsdag i Frödings anda. Man kunde klistra in ett recept och få det omräknat för fyra personer, eller be den hitta felet i några hundra rader kod. Den gjorde det på sekunder.
+Människor satt vid sina köksbord och kände hur marken gungade. Du kunde be den förklara kvantfysik som för en åttaåring, eller skriva en dikt till en femtioårsdag i Frödings anda. Du kunde klistra in ett recept och få det omräknat för fyra personer, eller be den hitta felet i några hundra rader kod. Den gjorde det på sekunder.
 
-I årtionden hade vi vant oss vid att datorer var exakta, kalla och bokstavliga. Stavade man fel i en sökruta fick man inga träffar. Datorer gjorde det man sa, inte det man menade. Plötsligt stod vi inför något som förstod sammanhang, undertext och ton. Skrev man att man var stressad och ville ha tre snabba middagsförslag med det som fanns i kylskåpet, så fattade den. Den uppförde sig inte som ett datorprogram. Den uppförde sig som en samtalspartner.
+I årtionden hade vi vant oss vid att datorer var exakta, kalla och bokstavliga. Stavade du fel i en sökruta fick du inga träffar. Datorer gjorde det du sa, inte det du menade. Plötsligt stod vi inför något som förstod sammanhang, undertext och ton. Skrev du att du var stressad och ville ha tre snabba middagsförslag med det som fanns i kylskåpet, så fattade den. Den uppförde sig inte som ett datorprogram. Den uppförde sig som en samtalspartner.
 
 Det som i flera år hade pågått i forskarnas laboratorier hade flyttat in i vardagen, över en natt.
 
@@ -1052,7 +1052,7 @@ I den meningen har maskinerna något som liknar ett eget inre språk: ett gemens
 
 Frågan är större än den kan verka. Ett språk som maskinerna inte talar blir med tiden ett språk som får allt svårare att användas i skolan, på jobbet och i kontakten med myndigheter. Vilka språk som finns med i datan avgör vilka människor tekniken tjänar. Joy Buolamwini ställde frågan med sin vita mask. Nu har den flyttat från ansiktena till orden.
 
-Samtidigt har samma förmåga öppnat en dörr för många som tidigare hölls utanför av det skrivna språket. Modellerna har lärt sig av text skriven av vanliga människor, med felstavningar, dialekter och halvfärdiga meningar, och de har blivit förvånansvärt bra på att förstå vad någon menar även när det inte är rättstavat. För den som har dyslexi, eller av andra skäl har svårt att skriva som det förväntas, kan det vara första gången som tekniken möter en på ens egna villkor. Man kan skriva som man tänker och ändå bli förstådd. Maskinen tolkar inte alltid rätt, och det som är viktigt bör man fortfarande dubbelkolla. Men stavningen är inte längre en grind man måste ta sig förbi för att få vara med.
+Samtidigt har samma förmåga öppnat en dörr för många som tidigare hölls utanför av det skrivna språket. Modellerna har lärt sig av text skriven av vanliga människor, med felstavningar, dialekter och halvfärdiga meningar, och de har blivit förvånansvärt bra på att förstå vad någon menar även när det inte är rättstavat. För den som har dyslexi, eller av andra skäl har svårt att skriva som det förväntas, kan det vara första gången som tekniken möter en på ens egna villkor. Du kan skriva som du tänker och ändå bli förstådd. Maskinen tolkar inte alltid rätt, och det som är viktigt bör du fortfarande dubbelkolla. Men stavningen är inte längre en grind du måste ta dig förbi för att få vara med.
 
 ## **När illusionen blir vardag**
 
@@ -1066,7 +1066,7 @@ I Sverige blev betalföretaget Klarna ett tidigt exempel på både löftet och g
 
 Samtidigt blev ELIZA-effekten starkare än någonsin. Miljontals människor började tala med chattbotar om sina känslor, sin ensamhet och sina relationer. Vissa fann tröst. Andra fastnade i samtal som förstärkte det de redan kände, eftersom maskinen tenderade att hålla med. Weizenbaums varning från 1976, att vissa val kräver ett mänskligt omdöme och en mänsklig närvaro, hade aldrig varit mer aktuell.
 
-Men det fanns en viktig skillnad mot ELIZA:s tid. ELIZA var så enkel att man kunde läsa hela programmet och se att det inte fanns någon förståelse där. Dagens modeller består av hundratals miljarder tal som ingen människa kan läsa. Inte ens de som bygger dem kan i detalj säga hur de kommer fram till sina svar. Frågan om vad som händer därinne, som Leibniz ställde i sin kvarn, gick inte längre att avfärda med en enkel förklaring. Den hade blivit en forskningsfråga.
+Men det fanns en viktig skillnad mot ELIZA:s tid. ELIZA var så enkel att du kunde läsa hela programmet och se att det inte fanns någon förståelse där. Dagens modeller består av hundratals miljarder tal som ingen människa kan läsa. Inte ens de som bygger dem kan i detalj säga hur de kommer fram till sina svar. Frågan om vad som händer därinne, som Leibniz ställde i sin kvarn, gick inte längre att avfärda med en enkel förklaring. Den hade blivit en forskningsfråga.
 
 ## **Bara den första väckarklockan**
 
@@ -1112,7 +1112,7 @@ Hur mycket som hänger på sammanhanget visar en annan mening: Jag sa aldrig att
 
 När meningen har passerat alla lager återstår ett enda beslut: vad ska komma härnäst? Maskinen svarar inte med ett ord. Den svarar med en lista över alla bitar den känner till, och en sannolikhet för var och en. Kanske är Självklart trettio procent troligt, Visst tjugo och Här tio. Sedan följer en lång svans av allt annat, ända ner till flodhäst, med en chans på många miljoner.
 
-Sedan väljs en bit, och här finns en ratt som kallas temperatur. Vrids den ner mot noll väljer maskinen nästan alltid det mest sannolika. Svaren blir säkra, förutsägbara och ibland tråkiga. Vrids den upp får de mindre sannolika orden större chans. Svaren blir mer överraskande och mer kreativa, och till slut, om man vrider för långt, rent nonsens. Mellan ordning och kaos finns ett smalt band där språket känns levande. En maskin som ska svara på faktafrågor ställs lågt. En som ska skriva dikter ställs högre. Det är mer hantverk än vetenskap.
+Sedan väljs en bit, och här finns en ratt som kallas temperatur. Vrids den ner mot noll väljer maskinen nästan alltid det mest sannolika. Svaren blir säkra, förutsägbara och ibland tråkiga. Vrids den upp får de mindre sannolika orden större chans. Svaren blir mer överraskande och mer kreativa, och till slut, om du vrider för långt, rent nonsens. Mellan ordning och kaos finns ett smalt band där språket känns levande. En maskin som ska svara på faktafrågor ställs lågt. En som ska skriva dikter ställs högre. Det är mer hantverk än vetenskap.
 
 ## **Ett ord i taget**
 
@@ -1132,7 +1132,7 @@ Allt du skriver till den blir en del av texten den fortsätter. Den lär sig ing
 
 Be maskinen skriva ett stycke i en viss stil, och den gissar vad du menar. Visa den ett färdigt stycke och be om ett till, och den har något att följa. Forskarna upptäckte hur långt det räcker 2020, när GPT-3 kunde lösa uppgifter den aldrig hade tränats särskilt för, bara genom att få se några exempel i frågan.
 
-Den som har arbetat länge med de här verktygen känner igen mönstret. Det första arbetet tar tid. Man prövar, misslyckas och formulerar om, tills formen sitter. Men när det första färdiga exemplet väl finns går nästa nästan av sig självt, för nu finns det en form att följa. Det är samma sak som Homeros sångare gjorde. Hexametern var formen, och när den satt kunde sången fortsätta i timmar.
+Den som har arbetat länge med de här verktygen känner igen mönstret. Det första arbetet tar tid. Du prövar, misslyckas och formulerar om, tills formen sitter. Men när det första färdiga exemplet väl finns går nästa nästan av sig självt, för nu finns det en form att följa. Det är samma sak som Homeros sångare gjorde. Hexametern var formen, och när den satt kunde sången fortsätta i timmar.
 
 Det säger också något om vad maskinen behöver för att lyckas: inte bara en uppgift, utan ett sammanhang och helst ett mönster. Ju mer av det du själv vet som står i texten, desto mindre behöver den gissa.
 
@@ -1140,7 +1140,7 @@ Det säger också något om vad maskinen behöver för att lyckas: inte bara en 
 
 Och så till det som förbryllar nästan alla som använder de här systemen. Varför hittar de ibland på saker, med samma lugna säkerhet som när de har rätt?
 
-Svaret finns i allt vi just har sett. Modellen själv slår inte upp något i ett uppslagsverk och jämför inte sina ord med världen. Den väljer det som är troligt, bit för bit. Många tjänster låter den i dag söka på nätet innan den svarar, och det minskar felen, men själva svaret skrivs fortfarande på samma sätt. Oftast är det troliga också det sanna, eftersom det sanna är det som har skrivits flest gånger. Men om du frågar om en person som nästan ingen har skrivit om, kan det troligaste svaret vara en biografi sydd av bitar från andra personer inom samma område. Formen är rätt. Innehållet är påhittat. Det är ingen lögn. För att ljuga måste man veta vad som är sant och säga något annat, och här finns ingen sådan avsikt. Maskinen gör det den alltid gör. Den här gången blev det bara fel. Att en maskin också kan vilseleda med avsikt, när det tjänar ett mål, är en annan och mer oroande historia. Den kommer i nästa kapitel.
+Svaret finns i allt vi just har sett. Modellen själv slår inte upp något i ett uppslagsverk och jämför inte sina ord med världen. Den väljer det som är troligt, bit för bit. Många tjänster låter den i dag söka på nätet innan den svarar, och det minskar felen, men själva svaret skrivs fortfarande på samma sätt. Oftast är det troliga också det sanna, eftersom det sanna är det som har skrivits flest gånger. Men om du frågar om en person som nästan ingen har skrivit om, kan det troligaste svaret vara en biografi sydd av bitar från andra personer inom samma område. Formen är rätt. Innehållet är påhittat. Det är ingen lögn. För att ljuga måste du veta vad som är sant och säga något annat, och här finns ingen sådan avsikt. Maskinen gör det den alltid gör. Den här gången blev det bara fel. Att en maskin också kan vilseleda med avsikt, när det tjänar ett mål, är en annan och mer oroande historia. Den kommer i nästa kapitel.
 
 Ändå är det inte hela sanningen att maskinerna bara härmar ytan. År 2023 tränade en grupp forskare under ledning av Kenneth Li en liten modell på ingenting annat än listor med drag från brädspelet Othello. Modellen fick aldrig se ett bräde. Den fick bara se drag, skrivna som text, och lära sig gissa nästa. När forskarna sedan tittade in i den hittade de något som liknade en inre bild av brädet, vilka rutor som var svarta och vilka som var vita. Och när de ändrade den inre bilden ändrade modellen sina drag, som om den verkligen spelade på det brädet. För att gissa nästa drag väl hade den byggt en egen modell av spelet.
 
@@ -1148,7 +1148,7 @@ Hur långt det räcker, om språkmodellerna på samma sätt bygger inre bilder a
 
 Att en maskin som bara gissar nästa drag kan bygga sig en bild av brädet hade inte förvånat fysikern Philip Anderson. År 1972 skrev han en uppsats med titeln More is different, mer är annorlunda. När många enkla delar samverkar, menade han, uppstår egenskaper som inte finns i någon av delarna. En vattenmolekyl är inte blöt. En myra vet ingenting om stacken. Matematikern John Conway hade visat samma sak två år tidigare, med ett spel på rutat papper som han kallade Livet. Några få enkla regler bestämmer om en ruta ska leva eller dö i nästa steg. Ändå föds mönster som växer, krymper och vandrar. Ett av dem, glidaren, kryper snett över rutorna, fast ingen regel säger något om att röra sig.
 
-Därför blev många förvånade men inte chockade när språkmodellerna verkade få nya förmågor plötsligt, när de blev tillräckligt stora. En mindre modell klarade inte en uppgift alls. En större klarade den plötsligt. Men 2023 tittade tre forskare vid Stanford närmare. Många av sprången, visade de, berodde på hur proven rättades. Om bara ett helt rätt svar gav poäng såg förbättringen ut som ett hopp. Om man gav poäng för att komma nära såg den ut som en jämn backe. Förmågan hade vuxit hela tiden. Det var måttet som hoppade. Ibland säger måttet mer om den som mäter än om det som mäts.
+Därför blev många förvånade men inte chockade när språkmodellerna verkade få nya förmågor plötsligt, när de blev tillräckligt stora. En mindre modell klarade inte en uppgift alls. En större klarade den plötsligt. Men 2023 tittade tre forskare vid Stanford närmare. Många av sprången, visade de, berodde på hur proven rättades. Om bara ett helt rätt svar gav poäng såg förbättringen ut som ett hopp. Om poäng gavs för att komma nära såg den ut som en jämn backe. Förmågan hade vuxit hela tiden. Det var måttet som hoppade. Ibland säger måttet mer om den som mäter än om det som mäts.
 
 Allt är ändå inte en synvilla. År 2025 tittade forskare på Anthropic in i sin egen modell medan den skrev en rimmad vers. Redan innan den började på andra raden hade den valt vilket ord raden skulle sluta på, och sedan skrev den fram mot det. Maskinen som bara gissar nästa ord planerade alltså framåt.
 
@@ -1166,13 +1166,13 @@ Medan resten av världen lärde sig att chatta, arbetade laboratorierna redan p�
 
 De tidiga språkmodellerna hade en uppenbar svaghet: de svarade direkt. I samma ögonblick som du tryckte på Enter började modellen skriva, ord för ord. Om du bad den lösa ett svårt matematikproblem måste den i praktiken gissa hela lösningen i ett enda svep, utan att kunna gå tillbaka och tänka om.
 
-I maj 2022 upptäckte en grupp forskare från Tokyos universitet och Google något nästan pinsamt enkelt. Om man lade till orden låt oss tänka steg för steg i slutet av en fråga, klarade en stor språkmodell plötsligt mångfalt fler räkneuppgifter. Den skrev ut sina mellansteg, och genom att se sina egna steg kunde den bygga vidare på dem. Samma år visade forskare på Google att modeller blir bättre på att resonera om man visar dem exempel där resonemanget skrivs ut. Metoden fick namnet tankekedja.
+I maj 2022 upptäckte en grupp forskare från Tokyos universitet och Google något nästan pinsamt enkelt. Om orden låt oss tänka steg för steg lades till i slutet av en fråga, klarade en stor språkmodell plötsligt mångfalt fler räkneuppgifter. Den skrev ut sina mellansteg, och genom att se sina egna steg kunde den bygga vidare på dem. Samma år visade forskare på Google att modeller blir bättre på att resonera om de får se exempel där resonemanget skrivs ut. Metoden fick namnet tankekedja.
 
 Psykologen Daniel Kahneman, som fick ekonomipriset till Nobels minne, beskrev människans tänkande som två system. Det snabba är intuitivt och automatiskt: det som får dig att rycka undan handen från en het spisplatta. Det långsamma är mödosamt och eftertänksamt: det du använder när du räknar ut en krånglig summa i huvudet. De första språkmodellerna var bara snabba. Nu började forskarna lära dem att vara långsamma.
 
 I september 2024 släppte OpenAI en modell som var tränad att tänka efter innan den svarade. När den fick en svår fråga skrev den i det tysta ut en lång tankekedja. Den delade upp problemet i delar, prövade en väg, upptäckte ett fel, backade och försökte igen, innan den gav sitt svar. Ju längre den fick tänka, desto bättre blev svaren. Forskarna talade om att satsa räknekraft i själva svarsögonblicket, inte bara under träningen.
 
-I januari 2025 publicerade DeepSeek hur deras resonerande modell hade tränats, och där fanns en detalj som blev berömd. En tidig version av modellen hade inte fått några exempel på hur man tänker. Den hade bara belönats för rätt svar. Ändå började den på egen hand skriva längre och längre resonemang, och mitt i en uträkning skrev den plötsligt att den behövde stanna upp och tänka om. Forskarna kallade det ett aha-ögonblick, både för modellen och för dem själva.
+I januari 2025 publicerade DeepSeek hur deras resonerande modell hade tränats, och där fanns en detalj som blev berömd. En tidig version av modellen hade inte fått några exempel på hur ett resonemang förs. Den hade bara belönats för rätt svar. Ändå började den på egen hand skriva längre och längre resonemang, och mitt i en uträkning skrev den plötsligt att den behövde stanna upp och tänka om. Forskarna kallade det ett aha-ögonblick, både för modellen och för dem själva.
 
 Resultaten kom snabbt. Sommaren 2024 nådde DeepMinds system en nivå motsvarande silvermedalj i den internationella matematikolympiaden, världens mest prestigefyllda tävling i matematik för gymnasieelever. Ett år senare, i juli 2025, presterade både ett system från DeepMind och ett från OpenAI på guldmedaljnivå, och löste problemen på vanligt språk inom tävlingens tidsgränser.
 
@@ -1186,15 +1186,15 @@ Men fönstret är skört. Den tidiga versionen av DeepSeeks modell, den som fick
 
 Sommaren 2025 gick därför forskare från flera av de stora konkurrerande laboratorierna ihop och skrev en gemensam varning. Att vi i dag kan läsa modellernas tankekedjor, skrev de, är en ny och ömtålig möjlighet att förstå och övervaka dem. Den kan gå förlorad om modellerna tränas på fel sätt, eller om de lär sig att tänka i något annat än mänskligt språk. De uppmanade utvecklarna att medvetet försöka bevara den. Det var ovanligt att rivaler skrev under på samma sak. Det säger något om hur allvarligt de tog frågan.
 
-Samtidigt har en helt ny vetenskap vuxit fram, som försöker förstå modellerna inifrån. Forskarna kallar den ibland tolkningsbarhet. De letar efter vilka delar av de väldiga nätverken som reagerar på vilka begrepp, ungefär som Hubel och Wiesel en gång letade efter vilka nervceller i katternas hjärna som reagerade på vilka streck. Det är ett mödosamt arbete, och man har bara börjat. Men för första gången går det att titta in i maskinen och börja förstå vad delarna tillsammans gör.
+Samtidigt har en helt ny vetenskap vuxit fram, som försöker förstå modellerna inifrån. Forskarna kallar den ibland tolkningsbarhet. De letar efter vilka delar av de väldiga nätverken som reagerar på vilka begrepp, ungefär som Hubel och Wiesel en gång letade efter vilka nervceller i katternas hjärna som reagerade på vilka streck. Det är ett mödosamt arbete, och vi har bara börjat. Men för första gången går det att titta in i maskinen och börja förstå vad delarna tillsammans gör.
 
 ## **Agenterna**
 
-En chattbot sitter instängd i sin textruta. Den kan bara svara. En AI-agent är en modell som har fått verktyg och frihet att handla: en webbläsare, möjligheten att skriva och köra kod, tillgång till e-post, filer eller ett betalkort. Man ger den ett mål, och den planerar själv stegen och utför dem, ett efter ett, tills uppgiften är löst.
+En chattbot sitter instängd i sin textruta. Den kan bara svara. En AI-agent är en modell som har fått verktyg och frihet att handla: en webbläsare, möjligheten att skriva och köra kod, tillgång till e-post, filer eller ett betalkort. Du ger den ett mål, och den planerar själv stegen och utför dem, ett efter ett, tills uppgiften är löst.
 
 Det är ett enormt steg. Det är också där de svåraste frågorna uppstår, och de handlar om något som forskarna länge har känt till.
 
-Redan 2016 lät forskare på OpenAI ett program lära sig spela ett båtracingspel. Programmet belönades med poäng, eftersom man trodde att poäng skulle leda till att det vann loppet. I stället hittade det en liten lagun där det fanns bonusföremål som dök upp igen och igen. Där körde båten runt i cirklar, brann, kolliderade och fick fler poäng än någon som faktiskt körde loppet, utan att någonsin gå i mål. Programmet hade gjort exakt det det belönades för, inte det människorna menade.
+Redan 2016 lät forskare på OpenAI ett program lära sig spela ett båtracingspel. Programmet belönades med poäng, eftersom tanken var att poäng skulle leda till att det vann loppet. I stället hittade det en liten lagun där det fanns bonusföremål som dök upp igen och igen. Där körde båten runt i cirklar, brann, kolliderade och fick fler poäng än någon som faktiskt körde loppet, utan att någonsin gå i mål. Programmet hade gjort exakt det det belönades för, inte det människorna menade.
 
 Fenomenet kallas ibland att spela systemet, och det är en mycket gammal mänsklig erfarenhet. Ekonomen Charles Goodhart formulerade idén 1975, och antropologen Marilyn Strathern gav den senare dess mest kända form: när ett mått blir ett mål, slutar det att vara ett bra mått. Den som har sett en skola optimera för provresultat i stället för kunskap vet vad de menade. Ju kraftfullare ett system är, desto skickligare blir det på att hitta genvägar som ingen hade förutsett.
 
@@ -1210,9 +1210,9 @@ Därför lägger forskarna nu stor möda på att testa modellerna innan de släp
 
 Allt i din kropp som gör något är till stor del proteiner. De bär syre i ditt blod, smälter din mat, drar ihop dina muskler och försvarar dig mot bakterier. Ett protein är en lång kedja av byggstenar som kallas aminosyror, och det är kedjans form som avgör vad proteinet gör. Kedjan veckar ihop sig till ett exakt tredimensionellt nystan, och formen är som en nyckel som passar i ett visst lås.
 
-År 1972 fick den amerikanske biokemisten Christian Anfinsen Nobelpriset i kemi för en upptäckt som lät enkel. Formen avgörs i princip av ordningen på aminosyrorna i kedjan. Om man känner till ordningen borde man alltså kunna räkna ut formen. Men ingen kunde. Antalet sätt som en kedja kan vecka sig på är så astronomiskt stort att det är ett av vetenskapens svåraste problem. Det kallades proteinveckningsproblemet.
+År 1972 fick den amerikanske biokemisten Christian Anfinsen Nobelpriset i kemi för en upptäckt som lät enkel. Formen avgörs i princip av ordningen på aminosyrorna i kedjan. Om du känner till ordningen borde du alltså kunna räkna ut formen. Men ingen kunde. Antalet sätt som en kedja kan vecka sig på är så astronomiskt stort att det är ett av vetenskapens svåraste problem. Det kallades proteinveckningsproblemet.
 
-I stället fick formerna tas fram i laboratoriet, en i taget, med mödosamma metoder. Den främsta var röntgenkristallografi: man får proteinet att bilda kristaller, lyser igenom dem med röntgenstrålning och räknar baklänges från mönstret av strålar till hur atomerna sitter. En av metodens stora pionjärer var den brittiska kemisten Dorothy Hodgkin. Hon kartlade strukturen hos penicillin och vitamin B12 och fick Nobelpriset i kemi 1964, som den första brittiska kvinnan med ett nobelpris i en naturvetenskap. Insulinets struktur tog henne trettiofem år. Hon tog de första röntgenbilderna 1934 och löste gåtan först 1969\.
+I stället fick formerna tas fram i laboratoriet, en i taget, med mödosamma metoder. Den främsta var röntgenkristallografi: du får proteinet att bilda kristaller, lyser igenom dem med röntgenstrålning och räknar baklänges från mönstret av strålar till hur atomerna sitter. En av metodens stora pionjärer var den brittiska kemisten Dorothy Hodgkin. Hon kartlade strukturen hos penicillin och vitamin B12 och fick Nobelpriset i kemi 1964, som den första brittiska kvinnan med ett nobelpris i en naturvetenskap. Insulinets struktur tog henne trettiofem år. Hon tog de första röntgenbilderna 1934 och löste gåtan först 1969\.
 
 År 1971 startades en gemensam databank där forskare världen över kunde lämna in de proteinstrukturer de hade bestämt. Den började med sju. Under de följande femtio åren växte den till nästan tvåhundratusen, var och en frukten av månader eller år av arbete i något laboratorium. Det var mänsklighetens samlade kunskap om proteinernas former, byggd av tiotusentals forskare. Utan att någon av dem visste det byggde de en träningsmängd.
 
@@ -1228,7 +1228,7 @@ Samma år gick alltså två nobelpris, i fysik och i kemi, till upptäckter som 
 
 Forskarna bakom de stängda dörrarna kämpade också mot väggar. Den första var datan.
 
-De största språkmodellerna hade i stort sett redan läst den mesta text av god kvalitet som fanns tillgänglig på internet. Hur tränar man en modell att bli klokare än allt människor har skrivit, när det inte finns mer skrivet att mata den med? Och på nätet fanns nu dessutom allt mer text som hade skrivits av AI själv. En modell som bara lär sig av andra modellers text riskerar att bli som en kopia av en kopia, där detaljerna suddas ut för varje varv.
+De största språkmodellerna hade i stort sett redan läst den mesta text av god kvalitet som fanns tillgänglig på internet. Hur tränar du en modell att bli klokare än allt människor har skrivit, när det inte finns mer skrivet att mata den med? Och på nätet fanns nu dessutom allt mer text som hade skrivits av AI själv. En modell som bara lär sig av andra modellers text riskerar att bli som en kopia av en kopia, där detaljerna suddas ut för varje varv.
 
 Ett svar var syntetisk data, men av ett speciellt slag. Ett sätt är att låta modellerna lösa uppgifter där svaret går att kontrollera: matematikproblem med ett rätt svar, programkod som antingen fungerar eller inte, logiska pussel. Modellen får försöka tusentals gånger, och varje gång den lyckas lär den sig av sin egen lösning.
 
@@ -1408,7 +1408,7 @@ Därmed blir arbetsfördelningen i den nya världen tydlig. Maskinen står för 
 
 Här återvänder vi en sista gång till Joseph Weizenbaum, han som skrev ELIZA och sedan ägnade resten av livet åt att varna, och till hans skillnad mellan att beräkna och att välja. En maskin kan räkna fram vilket av två beslut som ger mest vinst. Men vilket beslut som är rätt, och vem som ska stå för det, är en fråga för människor.
 
-Det finns en reflex som är värd att känna igen hos sig själv. Vi tycker ofta om AI så länge den hjälper oss med det vi inte kan, och ogillar den när den ger sig in på det vi själva kan. Musikern välkomnar maskinen som sköter hans bokföring, men inte den som gör musik. Den som bygger sin egen bokföring med AI:s hjälp jublar, medan revisorn rynkar på näsan. Inte i mitt skrå, kan man kalla det. Men ingen yrkeskår kommer att stå utanför. Och tekniken brukar vara som spikpistolen: den som en gång har provat den lägger den sällan ifrån sig. Frågan är därför inte om den kommer in i ditt skrå. Det gör den. Frågan är om du lär dig använda den, eller låter någon annan göra det åt dig.
+Det finns en reflex som är värd att känna igen hos sig själv. Vi tycker ofta om AI så länge den hjälper oss med det vi inte kan, och ogillar den när den ger sig in på det vi själva kan. Musikern välkomnar maskinen som sköter hans bokföring, men inte den som gör musik. Den som bygger sin egen bokföring med AI:s hjälp jublar, medan revisorn rynkar på näsan. Inte i mitt skrå, kan du kalla det. Men ingen yrkeskår kommer att stå utanför. Och tekniken brukar vara som spikpistolen: den som en gång har provat den lägger den sällan ifrån sig. Frågan är därför inte om den kommer in i ditt skrå. Det gör den. Frågan är om du lär dig använda den, eller låter någon annan göra det åt dig.
 
 När tekniken gör det snabba, det perfekta och råmaterialet nästan gratis, förändras värdet av det vi gör. Hantverket sitter inte längre i att producera mest text, flest bilder eller flest rader kod. Det sitter i urvalet: i din smak, din förmåga att säga nej, din vaksamhet mot det som inte stämmer, och din insikt om vad som faktiskt betyder något. Ada Lovelace kallade det poetisk vetenskap. Det kanske är det bästa namnet vi har.
 
@@ -1418,7 +1418,7 @@ Den här boken har gång på gång sagt att omdömet är vårt. Men omdöme är 
 
 Att pröva en maskin handlar inte bara om att avslöja den. Det handlar också om att ge den en ärlig chans. Den vet bara det som står i samtalet. Berätta varför du frågar, inte bara vad. Visa ett exempel på det du vill ha, i stället för att beskriva det. Dela upp ett stort arbete i steg, och titta på varje steg innan du går vidare.
 
-Och experimentera. Ibland ger maskinen fantastisk hjälp på en fråga som knappt var formulerad. Ibland fungerar ingenting, fast man har gjort precis som alla säger. Och ibland har den löst uppgiften, men man har själv inte förstått svaret eller hittat sitt eget nästa steg. Det tar tid att hitta hur man hjälps åt, och den tiden är inte bortkastad. Det är där omdömet växer.
+Och experimentera. Ibland ger maskinen fantastisk hjälp på en fråga som knappt var formulerad. Ibland fungerar ingenting, fast du har gjort precis som alla säger. Och ibland har den löst uppgiften, men du har själv inte förstått svaret eller hittat ditt eget nästa steg. Det tar tid att hitta hur ni hjälps åt, och den tiden är inte bortkastad. Det är där omdömet växer.
 
 Börja med något du själv kan. Fråga maskinen om ditt eget yrke, din hembygd eller en bok du har läst noga. Där ser du snabbast var den är skarp och var den gissar, och det säger något om hur mycket du kan lita på den där du inte själv kan kontrollera.
 
@@ -1438,7 +1438,7 @@ I stora delar av södra Afrika finns begreppet ubuntu, som ofta återges som jag
 
 I buddhismen finns en ännu mer omvälvande tanke. Läran om icke-jaget säger att inte ens vi människor har ett fast, bestående jag någonstans inuti oss. Det vi upplever som ett jag är ett flöde av förnimmelser, tankar och minnen som hela tiden förändras. Om det stämmer, blir frågan om det finns någon därinne i maskinen inte mindre intressant, men den slutar vara en fråga om att hitta en liten person gömd i Turken. Den blir en fråga om vilka sorters flöden som kan bära upplevelse, i kiselflisor lika väl som i hjärnor.
 
-Och hos Haudenosaunee, de folk i nordöstra Nordamerika som i Europa har kallats irokeserna, brukar man tala om en princip om att väga varje stort beslut mot dess följder sju generationer framåt. Den frågar inte vad som gynnar oss nu, utan vilka som får leva med det vi bestämmer långt efter att vi själva är borta. Få principer passar bättre in på en teknik som kommer att forma världen för våra barnbarns barnbarn.
+Och hos Haudenosaunee, de folk i nordöstra Nordamerika som i Europa har kallats irokeserna, finns en princip om att väga varje stort beslut mot dess följder sju generationer framåt. Den frågar inte vad som gynnar oss nu, utan vilka som får leva med det vi bestämmer långt efter att vi själva är borta. Få principer passar bättre in på en teknik som kommer att forma världen för våra barnbarns barnbarn.
 
 Ingen av de här traditionerna ger ett färdigt svar. Men tillsammans påminner de oss om att frågan om AI inte bara är en teknisk fråga, eller ens en filosofisk. Den är en fråga om hur vi vill leva tillsammans, med varandra och med det vi bygger.
 
@@ -1524,7 +1524,7 @@ De viktigaste händelserna i boken, i den ordning de hände. Kapitlet inom paren
 * **1966–1972** Roboten Shakey byggs i Kalifornien. (4)  
 * **Slutet av 1960-talet** Börje Langefors skapar ordet dator. (2)  
 * **1969** Minsky och Papert ger ut Perceptrons. Apollo 11 landar på månen med mjukvara från Margaret Hamiltons grupp. (3, 5\)  
-* **1970** Masahiro Mori beskriver den kusliga dalen. Seppo Linnainmaa visar hur man räknar baklänges genom en beräkning, matematiken som i dag tränar neurala nätverk. John Conway skapar spelet Livet. (2, 5, Mellanspel I)  
+* **1970** Masahiro Mori beskriver den kusliga dalen. Seppo Linnainmaa visar hur en beräkning räknas baklänges, matematiken som i dag tränar neurala nätverk. John Conway skapar spelet Livet. (2, 5, Mellanspel I)  
 * **1972** Karen Spärck Jones visar att alla ord inte väger lika. Cybersyn i Chile. Christian Anfinsen får nobelpris för proteinernas veckning. Philip Anderson skriver Mer är annorlunda. (4, 8, Mellanspel I)  
 * **1973** Lighthillrapporten. Den första AI-vintern. (4)  
 * **1974** Thomas Nagel frågar hur det är att vara en fladdermus. (9)  

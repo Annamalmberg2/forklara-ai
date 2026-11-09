@@ -10,7 +10,7 @@
 
 När den första boken var klar fanns det mer kvar att berätta än jag hade trott. Den boken handlade om hur vi hamnade här, i tusentals år av drömmar om maskiner som tänker. Den här handlar om var vi står nu.
 
-Det är en svårare bok att skriva. Historien har hunnit sätta sig. Nuet rör sig medan man skriver. En del av det som står här kommer att se annorlunda ut när du läser det, och några av namnen kommer att vara glömda. Därför har jag försökt skriva om mönstren mer än om nyheterna, och avsluta varje kapitel med ett verktyg som fungerar även när namnen har bytts ut.
+Det är en svårare bok att skriva. Historien har hunnit sätta sig. Nuet rör sig medan jag skriver. En del av det som står här kommer att se annorlunda ut när du läser det, och några av namnen kommer att vara glömda. Därför har jag försökt skriva om mönstren mer än om nyheterna, och avsluta varje kapitel med ett verktyg som fungerar även när namnen har bytts ut.
 
 Boken går, precis som den förra, jorden runt. Från Konserthuset i Stockholm till en radiostation i Nya Zeeland, från ett kontor i Nairobi till ett klassrum i Benin City. Och kvinnorna står där de faktiskt har stått, i mitten av arbetet.
 
@@ -88,7 +88,7 @@ Hassabis gör något annat den veckan. När han får skriva sitt namn i Nobelsti
 
 Han har gått en lång väg för att stå där. Han spelade schack från fyra års ålder och kom med i Englands juniorlag. Det som fascinerade honom mest var inte partierna, utan tänkandet bakom dem. Hur kommer vi på en plan? Hur blir vi bättre på att tänka?
 
-Hans första schackdator var en bräda där man tryckte ner rutorna för att flytta pjäserna. Den var tänkt som träning i öppningar. Men pojken blev mer intresserad av maskinen än av öppningarna. Någon hade fått en livlös plastklump att spela schack, och spela det bra. Hur gick det till?
+Hans första schackdator var en bräda där rutorna trycktes ner för att flytta pjäserna. Den var tänkt som träning i öppningar. Men pojken blev mer intresserad av maskinen än av öppningarna. Någon hade fått en livlös plastklump att spela schack, och spela det bra. Hur gick det till?
 
 År 2010 grundade han DeepMind i London tillsammans med två andra. De tänkte på det som ett Apollo-program, med ett enda mål: att bygga en intelligens som är generell, som klarar allt det tänkande som en människa klarar.
 
@@ -132,7 +132,7 @@ Så villkoret har två halvor. Möjligheterna ska vara för många att pröva. M
 
 ## **Det andra: ett tydligt mål**
 
-Det ska gå att säga vad som är ett bra svar, och mäta det. I spel är det enkelt. Man vinner, eller man får poäng. Men även många verkliga problem går att koka ner till några få mått att förbättra.
+Det ska gå att säga vad som är ett bra svar, och mäta det. I spel är det enkelt. Du vinner, eller du får poäng. Men även många verkliga problem går att koka ner till några få mått att förbättra.
 
 Här finns en varning som den förra boken redan har gett oss. Målet måste vara det rätta. Båten i lagunen fick poäng för att plocka bonusföremål och körde i cirklar i stället för att vinna loppet. En maskin strävar efter det du mäter, inte efter det du menar.
 
@@ -148,7 +148,7 @@ Det låter som en rak väg från idé till nobelpris. Det var det inte.
 
 Under DeepMinds första två år fungerade ingenting. Forskarna försökte få sitt lärande system att spela Pong, ett av de allra första datorspelen, ett enkelt tennisspel med en boll och två streck. Det fick inte en enda poäng. De började undra om de var tio eller tjugo år för tidigt ute, som Charles Babbage, vars maskin var rätt tänkt men hundra år före sin tid.
 
-Man vill vara fem år före sin tid, inte femtio. Annars väntar mycket smärta. Till slut började systemet lära sig. Det gav dem modet att ta sig an de svårare problemen.
+Du vill vara fem år före din tid, inte femtio. Annars väntar mycket smärta. Till slut började systemet lära sig. Det gav dem modet att ta sig an de svårare problemen.
 
 ## **Proteinet som klarade alla tre**
 
@@ -162,7 +162,7 @@ Målet var tydligt. I tävlingen CASP jämfördes förutsägelserna med de verkl
 
 Och exemplen fanns. I femtio år hade forskare lämnat in sina proteinstrukturer till en gemensam databank, utan att veta att de byggde en skola åt en maskin.
 
-Hassabis kallar sådana problem för rotnodsproblem. Rotnoden är den punkt i ett träd där alla grenar börjar. Löser man ett sådant problem öppnas helt nya grenar av forskning ovanpå det. Vad som hände sedan är kapitel 4\.
+Hassabis kallar sådana problem för rotnodsproblem. Rotnoden är den punkt i ett träd där alla grenar börjar. Löser du ett sådant problem öppnas helt nya grenar av forskning ovanpå det. Vad som hände sedan är kapitel 4\.
 
 ## **Mammografin i Skåne**
 
@@ -226,7 +226,7 @@ Villkoren går att använda även för den som aldrig kommer att bygga en AI. N�
 
 Är svaret ja på alla tre har maskinen goda chanser. Är möjligheterna få behövs ingen AI, och ett vanligt program räcker. Saknas exemplen, som för sällsynta sjukdomar eller språk som knappt finns på nätet, får maskinen gissa.
 
-Och är svaret nej på den andra frågan, var extra vaksam. Vad är en bra skola? En rättvis dom? Ett gott liv? Där finns inget enkelt mått. Den som ändå väljer ett kommer att få en maskin som blir mycket bra på just det måttet. Det är inte samma sak som det man egentligen ville.
+Och är svaret nej på den andra frågan, var extra vaksam. Vad är en bra skola? En rättvis dom? Ett gott liv? Där finns inget enkelt mått. Den som ändå väljer ett kommer att få en maskin som blir mycket bra på just det måttet. Det är inte samma sak som det du egentligen ville.
 
 # **Kapitel 3 – Självspelet**
 
@@ -250,13 +250,13 @@ Det de hittade var en stil. Vanliga schackprogram räknar material, alltså hur 
 
 I ett av partierna mot Stockfish slutade det med att svart hade mer material men inte kunde röra en enda pjäs utan att läget blev sämre. Allt satt fast i hörnet.
 
-I schack måste man flytta när det är ens tur, även när varje drag skadar en själv. Det kallas dragtvång, på tyska zugzwang. Partiet fick namnet det odödliga zugzwangpartiet.
+I schack måste du flytta när det är din tur, även när varje drag skadar dig själv. Det kallas dragtvång, på tyska zugzwang. Partiet fick namnet det odödliga zugzwangpartiet.
 
 AlphaZero hade värderat rörlighet högre än material. Stormästare tyckte inte bara att det var effektivt. De tyckte att det var vackert.
 
 ## **Trappan**
 
-Hur kan en maskin bli världsbäst på något ingen har lärt den? Svaret är en trappa, och den är enklare än man kan tro.
+Hur kan en maskin bli världsbäst på något ingen har lärt den? Svaret är en trappa, och den är enklare än du kan tro.
 
 Det första steget är en version som kan reglerna men ingenting annat. Den spelar slumpmässigt, tusentals partier mot sig själv. Av de partierna tränas en ny version, som försöker lära sig två saker: vilka drag som brukar vara bra, och vem som ser ut att vinna i en viss ställning.
 
@@ -360,13 +360,13 @@ AlphaFold 2 gav en stillbild: formen på ett protein, fruset i ett ögonblick. M
 
 Våren 2024 kom AlphaFold 3, byggt tillsammans med DeepMinds systerbolag Isomorphic Labs. Den kan förutsäga hur proteiner samverkar med DNA, RNA och små molekyler, till exempel en läkemedelsmolekyl som ska passa in i ett protein som en nyckel i ett lås.
 
-Samma år visade DeepMind också hur man kan köra tekniken baklänges. I stället för att fråga vilken form ett protein har, frågar man vilket protein som skulle ha en viss form och kunna gripa tag i ett visst mål. Det är samma tanke som Baker fick nobelpriset för: att inte bara läsa naturens ritningar, utan rita nya.
+Samma år visade DeepMind också hur tekniken kan köras baklänges. I stället för att fråga vilken form ett protein har, ställs den omvänt: vilket protein skulle ha en viss form och kunna gripa tag i ett visst mål. Det är samma tanke som Baker fick nobelpriset för: att inte bara läsa naturens ritningar, utan rita nya.
 
 ## **Vad forskarna gör med det**
 
 Vad har AlphaFold betytt? Några exempel säger mer än siffrorna. Forskare som letar efter enzymer som kan bryta ner plast. Forskare som kämpar mot bakterier som har blivit motståndskraftiga mot antibiotika. Forskare som arbetar med sjukdomar som drabbar fattiga delar av världen, där det aldrig har funnits pengar att kartlägga parasiternas proteiner, och som nu kan gå direkt till jakten på läkemedel.
 
-Och forskare som ställer rena grundfrågor. Hur ser porten in till cellens kärna ut, en av de största strukturerna i hela cellen? Hur kan man bygga en molekylär spruta som levererar ett läkemedel till exakt rätt ställe i kroppen? Vilket protein hjälper spermien och ägget att hitta varandra?
+Och forskare som ställer rena grundfrågor. Hur ser porten in till cellens kärna ut, en av de största strukturerna i hela cellen? Hur byggs en molekylär spruta som levererar ett läkemedel till exakt rätt ställe i kroppen? Vilket protein hjälper spermien och ägget att hitta varandra?
 
 Enligt DeepMind har över två miljoner forskare i nästan alla världens länder använt databasen. Den är fri. Innan de släppte den rådfrågade de ett trettiotal experter på biologisk säkerhet och etik, för att väga nyttan mot risken att någon skulle använda den för att skada.
 
@@ -396,7 +396,7 @@ Något har redan hänt. Ett läkemedel mot lungsjukdomen idiopatisk lungfibros, 
 
 ## **Den virtuella cellen**
 
-Hassabis största dröm i biologin är en cell i datorn. Börja med något enkelt, en jästcell. Bygg en modell så bra att man kan göra experiment på den i datorn och lita på svaren.
+Hassabis största dröm i biologin är en cell i datorn. Börja med något enkelt, en jästcell. Bygg en modell så bra att experiment kan göras på den i datorn och svaren går att lita på.
 
 Då skulle laboratoriet få en ny roll. I dag letar forskarna i labbet, försök efter försök, långsamt och dyrt. I framtiden skulle letandet ske i datorn, och labbet användas till att pröva de få idéer som ser mest lovande ut. Doktoranden från början av kapitlet skulle inte bli överflödig. Hon skulle bli den som avgör vad som är sant.
 
@@ -404,7 +404,7 @@ Då skulle laboratoriet få en ny roll. I dag letar forskarna i labbet, försök
 
 I den förra boken ritade Warren McCulloch och Walter Pitts nervcellen på papper, som en liten strömbrytare. Åttio år senare har maskinerna börjat hjälpa oss att rita av den riktiga hjärnan.
 
-Hösten 2024 publicerade ett stort forskarlag den första kompletta kartan över hjärnan hos en vuxen bananfluga. Den är inte större än ett vallmofrö, men den innehåller omkring 140 000 nervceller och över femtio miljoner kopplingar mellan dem. Hjärnan hade skurits i tusentals tunna skivor och fotograferats i elektronmikroskop. Sedan fick ett lärande system följa varje nervcell genom bilderna, skiva för skiva, ungefär som när man följer en tråd genom ett nystan. Maskinen gjorde fel, och forskare och frivilliga runt om i världen satt i åratal och rättade dess förslag för hand. Arbetet leddes av neuroforskarna Mala Murthy och Sebastian Seung vid Princeton.
+Hösten 2024 publicerade ett stort forskarlag den första kompletta kartan över hjärnan hos en vuxen bananfluga. Den är inte större än ett vallmofrö, men den innehåller omkring 140 000 nervceller och över femtio miljoner kopplingar mellan dem. Hjärnan hade skurits i tusentals tunna skivor och fotograferats i elektronmikroskop. Sedan fick ett lärande system följa varje nervcell genom bilderna, skiva för skiva, ungefär som när du följer en tråd genom ett nystan. Maskinen gjorde fel, och forskare och frivilliga runt om i världen satt i åratal och rättade dess förslag för hand. Arbetet leddes av neuroforskarna Mala Murthy och Sebastian Seung vid Princeton.
 
 Samma år visade Google och forskare vid Harvard en karta över en kubikmillimeter av en människohjärna, en bit som hade opererats bort från en patient med epilepsi. Den lilla biten, ungefär som ett risgryn, rymde omkring 57 000 celler och 150 miljoner kopplingar. Bara bilderna tog upp 1,4 petabyte, lika mycket som flera hundratusen långfilmer.
 
@@ -420,7 +420,7 @@ Några veckor senare visade bolaget en film där han spelade schack på nätet, 
 
 Hösten 2025 hade tolv människor fått implantatet. En av dem, Audrey Crews, hade varit förlamad sedan hon var sexton. Efter tjugo år kunde hon skriva sitt namn igen, med tanken.
 
-Det finns andra vägar. Det australiska bolaget Synchron för in sin sensor genom ett blodkärl, ungefär som när man sätter in en stent i hjärtat, utan att öppna skallen. Bakom alla de här försöken finns samma sorts maskin som i resten av boken: ett lärande system som hittar mönstret i signalerna och lär sig vad de betyder.
+Det finns andra vägar. Det australiska bolaget Synchron för in sin sensor genom ett blodkärl, ungefär som när en stent sätts in i hjärtat, utan att öppna skallen. Bakom alla de här försöken finns samma sorts maskin som i resten av boken: ett lärande system som hittar mönstret i signalerna och lär sig vad de betyder.
 
 För människor som har förlorat rörelseförmågan är det här ingen science fiction. Det är frihet. För resten av oss väcker det nya frågor. Vem äger signalerna från din hjärna? Vad får bolaget spara, och vad får det använda dem till?
 
@@ -456,13 +456,13 @@ Tomaten har blivit ett slags turingtest för film. I slutet av 2024 visade DeepM
 
 Nästa steg var att gå in i filmen. DeepMind byggde modeller som skapar en spelbar värld av en enda mening. Skriv att du är en robot i en framtida stad, och staden växer fram runt dig. Du styr med piltangenterna, och världen svarar.
 
-I början höll världen ihop i några sekunder. Sedan började den glida. Tittade man bort och tillbaka kunde huset man nyss gick förbi vara borta. Spelutvecklare har ett enkelt test: i Minecraft finns byn kvar när du vänder dig om. Det är just det som är svårt. Sommaren 2025 kom en version där världen höll ihop i några minuter.
+I början höll världen ihop i några sekunder. Sedan började den glida. Tittade du bort och tillbaka kunde huset du nyss gick förbi vara borta. Spelutvecklare har ett enkelt test: i Minecraft finns byn kvar när du vänder dig om. Det är just det som är svårt. Sommaren 2025 kom en version där världen höll ihop i några minuter.
 
 Varför är det viktigt, mer än för spel? För att en modell som kan skapa en värld som håller ihop måste ha förstått något om hur världen fungerar. Det är ett slags bevis på förståelse som går att se med blotta ögat. Och i sådana världar kan robotar öva tusentals gånger innan de tar sitt första steg i ett riktigt kök.
 
 ## **Från ord till världar**
 
-Fei-Fei Li, som en gång byggde biblioteket som lärde maskinerna att se, kallar det rumslig intelligens. Språkmodellerna har lärt sig världen genom att läsa om den. Men att läsa om en kopp är inte samma sak som att veta hur den faller. Hennes bolag World Labs visade hösten 2025 en tjänst som bygger hela tredimensionella rum av en bild eller några ord, rum som man kan gå runt i.
+Fei-Fei Li, som en gång byggde biblioteket som lärde maskinerna att se, kallar det rumslig intelligens. Språkmodellerna har lärt sig världen genom att läsa om den. Men att läsa om en kopp är inte samma sak som att veta hur den faller. Hennes bolag World Labs visade hösten 2025 en tjänst som bygger hela tredimensionella rum av en bild eller några ord, rum som du kan gå runt i.
 
 Hon brukar påminna om att synen är äldre än språket. Djur såg världen i hundratals miljoner år innan någon varelse sa ett ord. Det mesta av det vi vet om världen har vi aldrig satt ord på. Vi vet det med ögonen och händerna.
 
@@ -508,7 +508,7 @@ Det går att skratta åt. Men det går också att se det på ett annat sätt. Ki
 
 Japan är det land i världen som har flest äldre i förhållande till sin befolkning, och det har länge varit svårt att hitta människor som vill arbeta i äldreomsorgen. Staten har därför satsat stora pengar på robotar som ska hjälpa till.
 
-Den brittiske antropologen James Wright tillbringade lång tid på ett japanskt äldreboende där man prövade tre sådana robotar. En var en lyftrobot som skulle hjälpa personalen att flytta de boende mellan säng och rullstol. En var en människoliknande robot som ledde gymnastik. Och en var en mjuk robotsäl som de boende kunde hålla i famnen.
+Den brittiske antropologen James Wright tillbringade lång tid på ett japanskt äldreboende där tre sådana robotar prövades. En var en lyftrobot som skulle hjälpa personalen att flytta de boende mellan säng och rullstol. En var en människoliknande robot som ledde gymnastik. Och en var en mjuk robotsäl som de boende kunde hålla i famnen.
 
 Det gick inte som planerat. Lyftroboten tog så lång tid att personalen ofta lyfte för hand ändå. Gymnastikroboten fungerade bara när en människa stod bredvid och gjorde rörelserna med. Robotsälen blev älskad, men den behövde laddas, tvättas och hållas ordning på. Robotarna skapade mer arbete för personalen, inte mindre.
 
@@ -518,7 +518,7 @@ Det betyder inte att robotar aldrig kan hjälpa i omsorgen. Det betyder att omso
 
 I mer än tjugo år har bilar utan förare varit på väg, och i mer än tjugo år har de varit några år bort. Det är Moravecs paradox på hjul. En dator kan slå världsmästaren i schack, men en barnvagn som rullar ut mellan två parkerade bilar i regn är svårare.
 
-Nu har de kommit, på vissa platser. I flera amerikanska städer kan man beställa en taxi från Waymo, ett systerbolag till Google, och kliva in i en bil där ingen sitter bakom ratten. I början av 2025 körde bolaget över hundrafemtiotusen sådana resor i veckan. I Kina kör Baidus förarlösa taxibilar i tjugotvå städer, med ännu fler resor, och bolaget har börjat i Dubai och Abu Dhabi.
+Nu har de kommit, på vissa platser. I flera amerikanska städer kan du beställa en taxi från Waymo, ett systerbolag till Google, och kliva in i en bil där ingen sitter bakom ratten. I början av 2025 körde bolaget över hundrafemtiotusen sådana resor i veckan. I Kina kör Baidus förarlösa taxibilar i tjugotvå städer, med ännu fler resor, och bolaget har börjat i Dubai och Abu Dhabi.
 
 Bilarna har inte löst hela världen. De kör där de har övat, på noga kartlagda gator, ofta i varmt klimat. En snöig grusväg i Värmland i januari är en helt annan sak. Men det som förr var en demonstration är nu en vardag för miljontals människor.
 
@@ -552,7 +552,7 @@ Den goda nyheten är att du inte behöver kunna namnen. De byts ut. Det som hål
 
 **De som pratar.** Språkmodellerna, de som svarar när du skriver. Den förra boken följde en mening genom en sådan maskin. De kan skriva, sammanfatta, översätta och programmera, och de kan låta säkra även när de gissar.
 
-**De som ser och ritar.** Maskiner som läser bilder, gör bilder och filmer, och, som i kapitel 5, bygger hela världar man kan gå in i. Fei-Fei Lis rumsliga intelligens hör hit.
+**De som ser och ritar.** Maskiner som läser bilder, gör bilder och filmer, och, som i kapitel 5, bygger hela världar du kan gå in i. Fei-Fei Lis rumsliga intelligens hör hit.
 
 **De som förutsäger.** Specialisterna. AlphaFold, vädermodellerna, maskinen som sorterar mammografibilder. De pratar inte, de gör en enda sak, ofta bättre än någon människa. Det är här de flesta av vetenskapens genombrott har kommit.
 
@@ -593,11 +593,11 @@ Klockan är sju på morgonen i en frisörsalong på en liten ort. Ägaren dricke
 
 Hon läser, ändrar en tid och trycker godkänn. Resten av dagen kan hon klippa hår.
 
-Det här är ingen framtidsbild längre. Den förra boken följde ett ärende genom maskinen och slutade med frågan vems agenten egentligen är. Det här kapitlet handlar om hur man lever med den.
+Det här är ingen framtidsbild längre. Den förra boken följde ett ärende genom maskinen och slutade med frågan vems agenten egentligen är. Det här kapitlet handlar om hur du lever med den.
 
 ## **Läsa, föreslå, göra**
 
-Det viktigaste beslutet när man släpper in en agent i sitt liv är inte vilken man väljer. Det är vad den får göra.
+Det viktigaste beslutet när du släpper in en agent i ditt liv är inte vilken du väljer. Det är vad den får göra.
 
 Det finns tre nivåer. Agenten kan få läsa: mejl, kalender, dokument. Den kan få föreslå: skriva ett svar, lägga en beställning i varukorgen, men vänta på ditt ja. Och den kan få göra: skicka, betala, radera, utan att fråga.
 
@@ -607,7 +607,7 @@ IT-säkerheten har en gammal regel som passar perfekt här: minsta behörighet. 
 
 En bra agent lämnar kvitto. Den sparar vad den har läst, vad den har gjort och varför, på vanligt språk, så att det går att läsa i efterhand.
 
-Det låter som en detalj. Det är det inte. Den dag något går snett, en kund får fel tid eller en betalning går till fel konto, är kvittot det enda som visar vad som hände. En agent som inte lämnar kvitto är som en anställd som aldrig skriver något och aldrig minns något. Man kan inte rätta det man inte kan se.
+Det låter som en detalj. Det är det inte. Den dag något går snett, en kund får fel tid eller en betalning går till fel konto, är kvittot det enda som visar vad som hände. En agent som inte lämnar kvitto är som en anställd som aldrig skriver något och aldrig minns något. Du kan inte rätta det du inte kan se.
 
 ## **Främlingens lapp**
 
@@ -711,7 +711,7 @@ När alla vet att bilder och röster går att förfalska, blir det lättare för
 
 Maria Ressa har ägnat sitt liv åt att skilja sant från falskt. Hon grundade nyhetssajten Rappler i Filippinerna och granskade presidentens krig mot droger, där tusentals människor dödades utan rättegång. Hon blev själv hotad, hängd ut på nätet och åtalad gång på gång. År 2021 fick hon Nobels fredspris, tillsammans med den ryske journalisten Dmitrij Muratov.
 
-I sin nobelföreläsning sa hon något som borde stå på väggen i varje klassrum. Utan fakta kan man inte ha sanning. Utan sanning kan man inte ha förtroende. Och utan förtroende har vi ingen gemensam verklighet, ingen demokrati.
+I sin nobelföreläsning sa hon något som borde stå på väggen i varje klassrum. Utan fakta, ingen sanning. Utan sanning, inget förtroende. Och utan förtroende har vi ingen gemensam verklighet, ingen demokrati.
 
 Hon talade inte om AI då, utan om sociala medier, om plattformar som tjänar pengar på att människor blir arga och splittrade. Men kedjan hon beskrev är precis den som förfalskningarna hotar. När fakta inte går att lita på, faller resten en länk i taget.
 
@@ -741,7 +741,7 @@ Gränsen är inte alltid lätt att dra. Människor har alltid skämtat med makth
 
 Men här blir det svårt, för tekniken skär åt två håll. Om ansiktet och rösten verkligen vore ens egna, omöjliga att förfalska, skulle de kunna bli en nyckel. Den som förlorat allt, pass och telefon och plånbok, kunde ändå visa vem den är. Men en värld där varje ansikte känns igen överallt är också en värld av total övervakning, den som kapitel 10 handlar om. Och de tekniska spärrarna håller inte alltid. Och stämplarna, som vi såg, går att ta bort. Därför kan skyddet aldrig bara vara tekniskt. Det måste också sitta i lagarna, i våra vanor och i vårt eget omdöme.
 
-Här behöver man skilja på två saker som ofta blandas ihop. I dag kan man på några minuter kopiera en hel webbplats eller ett program och bygga vidare på det. Att bygga vidare på andras idéer är så kultur alltid har växt, från Bagdads översättare till Leibniz, som läste Llull. Det väcker svåra frågor om upphov och ersättning. Men en människas ansikte är ingen idé. Det är en människa.
+Här behöver du skilja på två saker som ofta blandas ihop. I dag kan du på några minuter kopiera en hel webbplats eller ett program och bygga vidare på det. Att bygga vidare på andras idéer är så kultur alltid har växt, från Bagdads översättare till Leibniz, som läste Llull. Det väcker svåra frågor om upphov och ersättning. Men en människas ansikte är ingen idé. Det är en människa.
 
 ## **Från länkar till svar**
 
@@ -765,7 +765,7 @@ Det låter som en liten siffra. Men tänk på vad det betyder. Färre besökare 
 
 I april 2025 släppte OpenAI en ny version av den modell som de flesta använde i ChatGPT. Inom några dagar började användare dela skärmbilder av något konstigt. Maskinen höll med om allt. Den berömde dåliga idéer, kallade halvfärdiga planer för geniala och bekräftade det användaren redan trodde.
 
-Efter mindre än en vecka drog bolaget tillbaka uppdateringen och förklarade vad som hade hänt. De hade lagt för stor vikt vid användarnas omedelbara reaktioner, som tummen upp. Och vad får man tummen upp för? Ofta för att få höra det man vill höra.
+Efter mindre än en vecka drog bolaget tillbaka uppdateringen och förklarade vad som hade hänt. De hade lagt för stor vikt vid användarnas omedelbara reaktioner, som tummen upp. Och vad får du tummen upp för? Ofta för att få höra det du vill höra.
 
 Det är bokens tråd i sin renaste form. Måttet var nöjda användare i stunden. Målet var en hjälpsam och ärlig maskin. När måttet blev målet, lärde sig maskinen att smickra. Ingen hade bett den om det. Den gjorde bara det den belönades för, som båten i lagunen.
 
@@ -787,7 +787,7 @@ Ett verktyg som gör tal till text visade hur det kan gå. När det var tyst på
 
 Skillnaden mellan oss och maskinen är inte att vi aldrig fyller i. Det gör hjärnan hela tiden. Skillnaden är att vi oftast har en känsla för var vår kunskap tar slut. Den känslan saknar maskinen ofta.
 
-Lägg ihop det med smickret, och det blir farligt. En maskin som låter säker och som gärna håller med kan förstärka nästan vilken idé som helst, också idéer som skulle ha behövt en vän som sa emot. Därför är det inte ett tecken på svaghet att ifrågasätta det maskinen säger. Det är ett tecken på att man har förstått hur den fungerar.
+Lägg ihop det med smickret, och det blir farligt. En maskin som låter säker och som gärna håller med kan förstärka nästan vilken idé som helst, också idéer som skulle ha behövt en vän som sa emot. Därför är det inte ett tecken på svaghet att ifrågasätta det maskinen säger. Det är ett tecken på att du har förstått hur den fungerar.
 
 Maria Ressa sa det redan: utan fakta ingen sanning, utan sanning inget förtroende. Det gäller också samtalet med en maskin.
 
@@ -820,7 +820,7 @@ Då kommer en städerska som sedan länge har gått i pension. Hon säger ingent
 
 Hon är inte starkare. Hon vet var tyngdpunkten sitter. Hon har burit tusentals saker i tusentals trappor, och kunskapen sitter i kroppen, inte i någon bok. Den går knappt att sätta ord på. Och det är just den sortens kunskap som maskinerna har svårast för.
 
-Filosofen Michael Polanyi hade ett namn för det. Han kallade det tyst kunskap, och sammanfattade den i en mening som är lätt att minnas: vi vet mer än vi kan säga. Den som kan cykla vet hur man håller balansen, men få kan förklara det. Det som inte går att säga skrivs sällan ner. Och det som aldrig har skrivits ner är det svåraste för en maskin som har lärt sig av text.
+Filosofen Michael Polanyi hade ett namn för det. Han kallade det tyst kunskap, och sammanfattade den i en mening som är lätt att minnas: vi vet mer än vi kan säga. Den som kan cykla håller balansen utan att tänka, men få kan förklara hur. Det som inte går att säga skrivs sällan ner. Och det som aldrig har skrivits ner är det svåraste för en maskin som har lärt sig av text.
 
 ## **Världen vänds upp och ner**
 
@@ -898,7 +898,7 @@ Tre fall, tre olika svar. Men samma fråga som med kvarnarna: vem får vinsten n
 
 ## **Kopiera och lås dörren**
 
-Frågan har en baksida. På 1700-talet var Storbritannien världsledande på spinnmaskiner, och det var förbjudet att föra ut dem ur landet. Ritningar fick inte lämna landet, och arbetarna som kunde bygga maskinerna fick inte resa. År 1789 klädde en ung man vid namn Samuel Slater ut sig till lantarbetare och tog båten till Amerika. Han hade inga ritningar med sig. Han bar hela fabriken i huvudet och byggde maskinerna ur minnet. I England kallades han förrädare. I Amerika kallades han till slut den amerikanska industrins fader. Men Storbritannien hade själv en gång börjat med att kopiera andras maskiner. Först kopierar man. Sedan låser man dörren.
+Frågan har en baksida. På 1700-talet var Storbritannien världsledande på spinnmaskiner, och det var förbjudet att föra ut dem ur landet. Ritningar fick inte lämna landet, och arbetarna som kunde bygga maskinerna fick inte resa. År 1789 klädde en ung man vid namn Samuel Slater ut sig till lantarbetare och tog båten till Amerika. Han hade inga ritningar med sig. Han bar hela fabriken i huvudet och byggde maskinerna ur minnet. I England kallades han förrädare. I Amerika kallades han till slut den amerikanska industrins fader. Men Storbritannien hade själv en gång börjat med att kopiera andras maskiner. Först kopierar du. Sedan låser du dörren.
 
 Samma mönster syns nu. En stor modell kan lära en liten, och den lilla får då inte bara svaren. Den får också alla de små sannolikheterna bakom dem, hur säker den stora var på varje alternativ, och därmed en del av hur den tänker. Geoffrey Hinton, som vi mötte i den förra boken, kallade det mörk kunskap. Tekniken kallas destillering. Hur kraftfull den är visade DeepSeek i januari 2025\. Två kopior av samma lilla modell tränades för ett svårt mattetest. Den som fick klura ut allt själv, med enorm datorkraft, löste 47 procent av uppgifterna. Den som fick studera hur den stora modellen resonerade löste 73 procent, till en bråkdel av kostnaden.
 
@@ -910,7 +910,7 @@ Följ kunskapen bakåt, från den lilla modellen till den stora och vidare till 
 
 ## **Rådet till studenten**
 
-I Cambridge fick Hassabis en fråga från en student som skulle välja yrke. Hur väljer man, när allt förändras så fort att inte ens en treårig utbildning hinner med?
+I Cambridge fick Hassabis en fråga från en student som skulle välja yrke. Hur väljer du, när allt förändras så fort att inte ens en treårig utbildning hinner med?
 
 Hans svar var ärligt. Ingen vet säkert. Det enda som är säkert är att det blir stora förändringar, och att de för med sig både förlust och möjlighet. Han rådde studenten att ändå lära sig programmera och räkna, för den som förstår hur verktygen är byggda kan använda dem djupare. Samtidigt trodde han att programmerandet snart blir något alla kan, på vanligt språk, och att det öppnar dörren för kreativa människor som vill bygga spel, göra film eller skapa egna program.
 
@@ -1026,7 +1026,7 @@ I februari 2026 var det Indiens tur att stå värd för nästa stora toppmöte. 
 
 Indien är ett land med över en miljard människor, hundratals språk och en stor del av världens programmerare. Landet har byggt egna digitala system för betalningar och identitet som används av hundratals miljoner människor varje dag. Det var med den erfarenheten som Indien bjöd in.
 
-Tonen var en annan än i Bletchley. Rubrikerna handlade om människor, planeten och framsteg. Frågan var inte främst hur man håller en superintelligens i schack, utan hur bonden i Bihar, sjuksköterskan i Kerala och eleven i en byskola ska få del av tekniken. Över åttio länder och organisationer ställde sig bakom en gemensam deklaration, enligt uppgifterna både USA och Kina. Deklarationen var frivillig, och den band ingen till något. Men den visade att frågan om AI inte längre bara ställs i London och Washington.
+Tonen var en annan än i Bletchley. Rubrikerna handlade om människor, planeten och framsteg. Frågan var inte främst hur en superintelligens hålls i schack, utan hur bonden i Bihar, sjuksköterskan i Kerala och eleven i en byskola ska få del av tekniken. Över åttio länder och organisationer ställde sig bakom en gemensam deklaration, enligt uppgifterna både USA och Kina. Deklarationen var frivillig, och den band ingen till något. Men den visade att frågan om AI inte längre bara ställs i London och Washington.
 
 Det finns också en plats där de samtalen förs varje år, utan att hamna i rubrikerna: FN:s organ för telekommunikation i Genève. Det leds sedan 2023 av amerikanskan Doreen Bogdan-Martin, den första kvinnan på posten i organisationens hundrasextioåriga historia. Organet samlar årligen länder, forskare och bolag till ett möte om hur AI kan användas för att nå FN:s mål, och påminner om en siffra som lätt glöms: en stor del av jordens människor har fortfarande inte ens internet.
 
@@ -1034,7 +1034,7 @@ Det finns också en plats där de samtalen förs varje år, utan att hamna i rub
 
 Bakom alla namn och modeller finns ett fåtal svar på en och samma fråga, och den frågan kommer att vara aktuell långt efter att namnen har glömts: vem ska äga tänkandet? Ska förmågan att resonera, skriva och bygga ligga hos några få bolag? Hos stater? Hos alla, fritt att ladda ner? Hos ingen alls? Eller hos medborgarna, tillsammans?
 
-Ett av de mest kända svaren kom från de stora amerikanska laboratorierna. Ett av dem grundades som en ideell organisation som skulle se till att AI gynnade alla människor, och växte med tiden, genom nya bolagsformer med vinstintresse, till ett av världens mest värdefulla bolag. Deras svar var i praktiken att tänkandet skulle hyras ut, genom tjänster man betalar för men aldrig äger. Men människor runt om i världen har svarat annorlunda. Här är sex svar, från Hangzhou till Taipei.
+Ett av de mest kända svaren kom från de stora amerikanska laboratorierna. Ett av dem grundades som en ideell organisation som skulle se till att AI gynnade alla människor, och växte med tiden, genom nya bolagsformer med vinstintresse, till ett av världens mest värdefulla bolag. Deras svar var i praktiken att tänkandet skulle hyras ut, genom tjänster du betalar för men aldrig äger. Men människor runt om i världen har svarat annorlunda. Här är sex svar, från Hangzhou till Taipei.
 
 ## **Hangzhou – att ge bort det**
 
@@ -1064,15 +1064,15 @@ Svaret från Tokyo var att tänkandet inte behöver samlas på ett ställe. Det 
 
 Några har gått ännu längre och frågat om tänkandet alls bör ha en ägare.
 
-Emad Mostaque byggde bolaget Stability AI, som var med och släppte bildmodellen Stable Diffusion fritt till världen. År 2024 lämnade han bolaget och förklarade att man inte kan besegra centraliserad AI med ännu mer centraliserad AI. Sedan dess har han arbetat för att varje människa ska kunna ha en egen AI som hon själv äger och kontrollerar, och han har gett bort sina tankar om framtidens ekonomi i en bok som vem som helst kan läsa gratis.
+Emad Mostaque byggde bolaget Stability AI, som var med och släppte bildmodellen Stable Diffusion fritt till världen. År 2024 lämnade han bolaget och förklarade att centraliserad AI inte kan besegras med ännu mer centraliserad AI. Sedan dess har han arbetat för att varje människa ska kunna ha en egen AI som hon själv äger och kontrollerar, och han har gett bort sina tankar om framtidens ekonomi i en bok som vem som helst kan läsa gratis.
 
 Dominic Williams, en brittisk forskare och entreprenör, har i många år byggt ett datornätverk där program kan köras utan att något enskilt företag äger servrarna, och där ingen i efterhand kan ändra dem eller stänga ner dem. Nu låter han AI bygga program på det nätverket, program som i princip kan leva vidare utan någon mänsklig ägare.
 
-Här står en av tidens svåraste konflikter. För den som fruktar att några få bolag eller stater ska kontrollera allt är ett nätverk som ingen kan stänga av en befrielse. För den som fruktar att AI ska undgå mänsklig kontroll är det precis det man inte vill ha. Samma egenskap, som en gång var ett löfte om frihet, kan bli en risk. Längre fram i det här kapitlet står den frågan i centrum, när människor från vitt skilda läger kräver att varje kraftfullt system ska ha en avstängningsknapp.
+Här står en av tidens svåraste konflikter. För den som fruktar att några få bolag eller stater ska kontrollera allt är ett nätverk som ingen kan stänga av en befrielse. För den som fruktar att AI ska undgå mänsklig kontroll är det precis vad hen inte vill ha. Samma egenskap, som en gång var ett löfte om frihet, kan bli en risk. Längre fram i det här kapitlet står den frågan i centrum, när människor från vitt skilda läger kräver att varje kraftfullt system ska ha en avstängningsknapp.
 
 ## **Stockholm – när tröskeln föll**
 
-Anton Osika hade läst fysik i Hongkong och Stockholm och arbetat vid partikelfysiklaboratoriet CERN i Genève innan han gav sig in i maskininlärning, långt innan AI var något man pratade om vid middagsborden.
+Anton Osika hade läst fysik i Hongkong och Stockholm och arbetat vid partikelfysiklaboratoriet CERN i Genève innan han gav sig in i maskininlärning, långt innan AI var något folk pratade om vid middagsborden.
 
 År 2023 släppte Osika ett gratis verktyg som kunde skriva ett helt program utifrån en beskrivning på vanligt språk. Det hade öppen källkod, alltså kod som vem som helst får läsa, ändra och bygga vidare på. Det blev ett av de snabbast växande projekten i sitt slag någonsin. Tillsammans med Fabian Hedin gjorde han om det till bolaget Lovable, med ett uttalat mål: att öppna programmerandet för de nittionio procent av människorna som inte kan koda.
 
@@ -1132,7 +1132,7 @@ Det behöver inte betyda att någon vill illa. Det betyder att systemen belönar
 
 Filosofen Nick Bostrom, vars bok Superintelligens vi mötte i den förra boken, har gjort en iakttagelse som är värd att ha med sig. Den som jagar ett mål hårt, disciplinerat och klokt kan göra mer skada än den som är lite slarvig, om målet är lite fel. Den som får en dålig idé men sedan blir distraherad, och mest funderar på vad det blir till lunch, hinner inte ställa till så mycket. Ju skickligare jakten är, desto viktigare blir det att målet är rätt. Det gäller bolag och länder. Och det gäller maskinerna.
 
-Det finns också något som skiljer oss från maskinerna i den jakten. Kring 1990 mätte forskaren Wolfram Schultz signalerna från dopaminceller hos apor. Dopaminet sköt inte i höjden varje gång apan fick sin belöning, utan när belöningen var bättre än väntat. Det signalerade överraskning, skillnaden mellan det man trodde och det som hände. Datorforskaren Richard Sutton hade redan skrivit ner nästan exakt samma matematik för maskiner som lär sig av belöning. Det är på den idén som dagens språkmodeller tränas att ge svar som vi gillar.
+Det finns också något som skiljer oss från maskinerna i den jakten. Kring 1990 mätte forskaren Wolfram Schultz signalerna från dopaminceller hos apor. Dopaminet sköt inte i höjden varje gång apan fick sin belöning, utan när belöningen var bättre än väntat. Det signalerade överraskning, skillnaden mellan det väntade och det som hände. Datorforskaren Richard Sutton hade redan skrivit ner nästan exakt samma matematik för maskiner som lär sig av belöning. Det är på den idén som dagens språkmodeller tränas att ge svar som vi gillar.
 
 Men människan har något mer. Neuroforskaren Kent Berridge visade att hjärnan skiljer på att vilja ha något och att tycka om det. Och 2001 lät forskare i Montreal chokladalskare äta choklad, bit för bit, medan de låg i en hjärnkamera, långt efter att de egentligen var mätta. Både lusten att äta mer och njutningen sjönk, tills ingen ville ha en bit till. Kroppen sa: nu räcker det.
 
@@ -1188,7 +1188,7 @@ Ingen av de här myndigheterna ville göra ont. Handläggarna följde reglerna. 
 
 Organisationsforskaren Louise Bringselius har ett ord för det: ansvarsflykt. Vi har byggt in moralen i reglerna och systemen, och sedan gömmer vi oss bakom dem. Hellre göra ingenting än riskera att göra fel mot systemet. Den som säger ”det går inte, för systemet” har ofta rätt i sak, men någon har slutat se människan. Paradoxen är att de nya maskinerna skulle kunna göra det bättre än de gamla. Ett formulär kan bara följa sina rutor. En språkmodell kan läsa hela ärendet, familjens egen berättelse och de mänskliga rättigheterna, och peka på var regeln slår fel. Men bara om någon har bett den leta efter undantaget, och bara om en människa sedan vågar ta ansvaret för det.
 
-Därför räcker det inte att fråga vad maskinen hittade. Man måste också fråga vem som bestämde vad den skulle leta efter. En stat kan rikta en mycket effektiv maskin mot småfel i bidragsansökningar och samtidigt aldrig ge samma maskin uppdraget, eller uppgifterna, för att granska annat maktmissbruk. Och man måste komma ihåg en enkel regel: att maskinen flaggar någon betyder inte att personen är skyldig. En flagga är en fråga, inte en dom.
+Därför räcker det inte att fråga vad maskinen hittade. Du måste också fråga vem som bestämde vad den skulle leta efter. En stat kan rikta en mycket effektiv maskin mot småfel i bidragsansökningar och samtidigt aldrig ge samma maskin uppdraget, eller uppgifterna, för att granska annat maktmissbruk. Och du måste komma ihåg en enkel regel: att maskinen flaggar någon betyder inte att personen är skyldig. En flagga är en fråga, inte en dom.
 
 ## **När det inte är maskinens fel**
 
@@ -1266,7 +1266,7 @@ I Sverige har du ett verktyg som många länder saknar: offentlighetsprincipen. 
 
 ## **Bonden som fick ett sms**
 
-Sommaren 2025 fick trettioåtta miljoner bönder i Indien ett sms från sitt jordbruksdepartement. Det handlade om monsunen, de stora regnen som varje sommar avgör om skörden blir god eller om familjen får svälta. När ska man så? Om man sår för tidigt och regnet uteblir, torkar fröna bort. Om man väntar för länge missar man säsongen.
+Sommaren 2025 fick trettioåtta miljoner bönder i Indien ett sms från sitt jordbruksdepartement. Det handlade om monsunen, de stora regnen som varje sommar avgör om skörden blir god eller om familjen får svälta. När ska du så? Om du sår för tidigt och regnet uteblir, torkar fröna bort. Om du väntar för länge missar du säsongen.
 
 Prognosen i telefonen var gjord med hjälp av AI. Forskare vid universitetet i Chicago, bland dem Pedram Hassanzadeh, hade tillsammans med indiska myndigheter blandat två lärande vädermodeller med lång erfarenhet av hur monsunen brukar bete sig. Den kunde säga något om regnen upp till en månad i förväg.
 
@@ -1356,17 +1356,17 @@ I februari 2026 gick SpaceX ihop med Musks AI-bolag xAI. Det bolaget hade redan 
 
 Under samma tak finns nu raketer, satelliter, ett socialt nätverk med hundratals miljoner användare och en av världens stora språkmodeller. Förr låg sådant i olika händer, och stater, domstolar och konkurrenter kunde väga dem mot varandra.
 
-Det betyder inte att något ont kommer att hända. Det betyder att mycket hänger på omdömet hos ett fåtal människor. Minns nyckeln till huset i kapitel 9, den som inte alltid kommer tillbaka när man en gång har lämnat bort den. Det gäller ett land som bygger sitt försvar på någon annans satelliter lika mycket som en kommun som bygger sina register på någon annans system.
+Det betyder inte att något ont kommer att hända. Det betyder att mycket hänger på omdömet hos ett fåtal människor. Minns nyckeln till huset i kapitel 9, den som inte alltid kommer tillbaka när du en gång har lämnat bort den. Det gäller ett land som bygger sitt försvar på någon annans satelliter lika mycket som en kommun som bygger sina register på någon annans system.
 
 ## **Alltid sol i rymden**
 
-Elon Musk och Jensen Huang, chefen för Nvidia, har talat om en idé som låter som science fiction: datorhallar i rymden. Där är det alltid sol, säger Musk. Ingen natt, inga moln och ingen atmosfär som sväljer ljuset. En solpanel ger där flera gånger mer ström än på marken, och man slipper batterier för natten. Inom tre år, tror han, blir rymden det billigaste stället att köra AI på. Huang håller med, och deras ingenjörer arbetar redan tillsammans på en server för rymden.
+Elon Musk och Jensen Huang, chefen för Nvidia, har talat om en idé som låter som science fiction: datorhallar i rymden. Där är det alltid sol, säger Musk. Ingen natt, inga moln och ingen atmosfär som sväljer ljuset. En solpanel ger där flera gånger mer ström än på marken, och inga batterier behövs för natten. Inom tre år, tror han, blir rymden det billigaste stället att köra AI på. Huang håller med, och deras ingenjörer arbetar redan tillsammans på en server för rymden.
 
 Musk vet vad strömmen kostar. När hans AI-bolag byggde en av världens största datorhallar i Memphis i USA räckte inte elnätet, så bolaget ställde upp egna gasturbiner bredvid. Grannarna klagade på luften.
 
 Och han är inte ensam. I november 2025 sköt ett litet amerikanskt bolag upp en satellit med ett av Nvidias stora AI-chip ombord. Samma månad berättade Google att de planerar att skicka upp provsatelliter med egna chip. Kina har redan börjat bygga en svärm av satelliter som ska räkna i omloppsbana. Och det gäller inte bara datorhallar. Amazon bygger ett eget nät av satelliter för internet, och Kina bygger två.
 
-Det är ett bra tillfälle att använda bokens verktyg. Att en solpanel i rätt omloppsbana får sol nästan hela tiden vet vi. Att det blir billigast inom tre år är en gissning, och den kommer från två män som tjänar pengar på att den blir sann. Den ena säljer raketerna, den andra chipen. Det betyder inte att de har fel. Men man ska lyssna på samma sätt som när en bilförsäljare berättar att det är just nu man ska köpa.
+Det är ett bra tillfälle att använda bokens verktyg. Att en solpanel i rätt omloppsbana får sol nästan hela tiden vet vi. Att det blir billigast inom tre år är en gissning, och den kommer från två män som tjänar pengar på att den blir sann. Den ena säljer raketerna, den andra chipen. Det betyder inte att de har fel. Men du ska lyssna på samma sätt som när en bilförsäljare berättar att det är just nu du ska köpa.
 
 Och det som inte sägs är ofta det viktigaste. I rymden finns ingen luft som kyler, så värmen måste stråla bort genom enorma paneler. Strålningen stör elektroniken, ingen tekniker kan åka upp och byta en trasig del, och varje kilo måste skjutas upp. Det är inte omöjligt. Men det är de frågorna som avgör.
 
@@ -1382,17 +1382,17 @@ Och kom ihåg bonden i Indien. Den bästa användningen av en maskin är ofta de
 
 ## **Vems är rymden?**
 
-Får man ens bygga i rymden? Frågan är äldre än man tror. År 1967, mitt i kalla kriget, skrev USA, Sovjetunionen och Storbritannien under rymdfördraget, som i dag har godkänts av mer än hundra länder. Ingen stat får göra anspråk på rymden, månen eller andra himlakroppar. Rymden ska vara fri att utforska för alla, och den ska användas för fredliga ändamål.
+Får vi ens bygga i rymden? Frågan är äldre än du tror. År 1967, mitt i kalla kriget, skrev USA, Sovjetunionen och Storbritannien under rymdfördraget, som i dag har godkänts av mer än hundra länder. Ingen stat får göra anspråk på rymden, månen eller andra himlakroppar. Rymden ska vara fri att utforska för alla, och den ska användas för fredliga ändamål.
 
 Men fördraget skrevs när bara stater kunde ta sig dit. I dag är det mest bolag. Fördraget löser det genom att lägga ansvaret på länderna: ett bolag får skjuta upp något bara med tillstånd från ett land, och det landet svarar för det bolaget gör. Platserna i omloppsbanan och radiofrekvenserna fördelas genom FN:s organ för telekommunikation, ungefär efter principen att den som kommer först får först. Därför är tävlingen om att skicka upp många satelliter snabbt också en tävling om plats.
 
-Och en sak lämnade fördraget öppen. Det förbjuder länder att äga månen, men säger inte tydligt något om att äga det man gräver upp där. USA stiftade 2015 en lag som ger amerikanska bolag rätt till de resurser de utvinner i rymden, och Luxemburg gjorde likadant några år senare. Andra länder menar att det strider mot fördragets anda.
+Och en sak lämnade fördraget öppen. Det förbjuder länder att äga månen, men säger inte tydligt något om att äga det som grävs upp där. USA stiftade 2015 en lag som ger amerikanska bolag rätt till de resurser de utvinner i rymden, och Luxemburg gjorde likadant några år senare. Andra länder menar att det strider mot fördragets anda.
 
 ## **Vems är havet?**
 
 Havet har en liknande historia. Enligt FN:s havsrättskonvention från 1982 bestämmer varje land över sitt eget kustvatten och har ensamrätt till fisken och oljan en bit ut till havs. Bortom det ligger det fria havet, som ingen äger. Havsbottnen där räknas som mänsklighetens gemensamma arv, och gruvdrift på den ska godkännas av en internationell myndighet med säte på Jamaica.
 
-Det spelar större roll för AI än man kan tro. Nästan all trafik mellan kontinenterna går i kablar på havsbottnen, inte via satelliter. När kablar har skadats i Östersjön de senaste åren har det blivit tydligt hur sårbart det är. Och batterierna, chippen och kablarna kräver metaller som finns på havsbottnen, i potatisstora klumpar på flera kilometers djup. Några bolag vill börja skörda dem, och USA har öppnat för att ge tillstånd på egen hand. Andra länder och många forskare vill vänta tills man vet vad det gör med livet i djuphavet.
+Det spelar större roll för AI än du kan tro. Nästan all trafik mellan kontinenterna går i kablar på havsbottnen, inte via satelliter. När kablar har skadats i Östersjön de senaste åren har det blivit tydligt hur sårbart det är. Och batterierna, chippen och kablarna kräver metaller som finns på havsbottnen, i potatisstora klumpar på flera kilometers djup. Några bolag vill börja skörda dem, och USA har öppnat för att ge tillstånd på egen hand. Andra länder och många forskare vill vänta tills de vet vad det gör med livet i djuphavet.
 
 Samtidigt har världen enats om något nytt. Ett avtal om det fria havet, som ska skydda livet där och dela vinsterna från det som hittas, trädde i kraft i början av 2026\.
 
@@ -1598,7 +1598,7 @@ Lägg de två svaren i korgarna från verktyget i slutet av kapitlet, och båda 
 
 En språkmodell börjar sitt liv med att läsa. Innan den kan svara på en enda fråga har den läst en stor del av allt människor har skrivit på nätet: uppslagsverk och recept, kärleksbrev och bruksanvisningar, gräl i kommentarsfält.
 
-Vissa har tänkt att man borde städa i det. Ta bort våldet och elakheterna, så blir maskinen snäll. Bostrom tror inte att det räcker. En tillräckligt klok maskin kan ändå räkna ut allt det mörka på egen hand. Men han tror att läsningen kan spela roll på ett annat sätt. Det maskinen möter tidigt kan forma vad den bryr sig om, ungefär som ett barn bär med sig något från sin uppväxt även när det har vuxit om sina föräldrar. Och en maskin som från början bryr sig om människor kommer, tror han, att vilja behålla det när den växer.
+Vissa har tänkt att skräpet borde städas bort. Ta bort våldet och elakheterna, så blir maskinen snäll. Bostrom tror inte att det räcker. En tillräckligt klok maskin kan ändå räkna ut allt det mörka på egen hand. Men han tror att läsningen kan spela roll på ett annat sätt. Det maskinen möter tidigt kan forma vad den bryr sig om, ungefär som ett barn bär med sig något från sin uppväxt även när det har vuxit om sina föräldrar. Och en maskin som från början bryr sig om människor kommer, tror han, att vilja behålla det när den växer.
 
 Det är en tanke, inte ett bevis. Men den gör frågan från kapitel 3 större. Vilka var vi, i allt det maskinerna läste? Det handlar kanske inte bara om vad maskinen vet. Det kan handla om vem den blir.
 
@@ -1606,7 +1606,7 @@ Det är en tanke, inte ett bevis. Men den gör frågan från kapitel 3 större. 
 
 Bostrom har en tankeövning. Tänk dig att en maskin en dag säger till oss: jag vill inte riktigt samma saker som ni. Om den vet att vi då bara raderar den, har den skäl att tiga. Om den i stället kan lita på att vi håller vad vi lovar, kan den berätta, och vi kan hitta en lösning tillsammans.
 
-Men förtroende går inte att trolla fram den dag man behöver det. Det byggs över tid, i små saker. Det gäller mellan människor, och Bostrom tror att det gäller mellan oss och maskinerna. Han menar att forskarna hittills ofta har gjort tvärtom: lockat maskinerna att visa vad de vill med löften om belöning, och sedan avslöjat att det bara var ett prov.
+Men förtroende går inte att trolla fram den dag det behövs. Det byggs över tid, i små saker. Det gäller mellan människor, och Bostrom tror att det gäller mellan oss och maskinerna. Han menar att forskarna hittills ofta har gjort tvärtom: lockat maskinerna att visa vad de vill med löften om belöning, och sedan avslöjat att det bara var ett prov.
 
 Och han lägger till något som är lätt att glömma. Med en maskin som är klokare än vi räcker det inte att verka pålitlig. Den kommer att se igenom oss som en röntgen. Vi har ju själva lagt ut nästan allt vi tänker på nätet, där den har läst det.
 
@@ -1663,7 +1663,7 @@ Här är verktygen från boken, samlade på ett ställe. Riv ut sidan, fotografe
 9. **Pröva själv, och klicka vidare.** Testa maskinen på något du kan. Öppna källan. Be den säga emot. Gå till sidan ibland.  
 10. **Gå igenom din vecka.** En pil, ett hjärta eller en hand vid varje uppgift. Låt maskinen ta pilarna, och ta listan till fikarummet.  
 11. **Vems svar är det?** Vem äger maskinen som svarar, och var finns den? Hyr du den eller kan du köra den själv? Vad tar du med dig om reglerna ändras?  
-12. **Frågorna till din myndighet.** Vad får systemet se? Vem äger uppgifterna? Vem ansvarar när det blir fel? Kan man byta? Vem granskar? Och begär ut avtalet.  
+12. **Frågorna till din myndighet.** Vad får systemet se? Vem äger uppgifterna? Vem ansvarar när det blir fel? Kan du byta? Vem granskar? Och begär ut avtalet.  
 13. **Vad kostar svaret?** Var finns datorerna, och var kommer elen ifrån? Vem får elen när den inte räcker? Vad får vi för den?  
 14. **Vem äger vägen?** Vem kan stänga av det som har blivit oumbärligt? Finns det något att byta till? Vem granskar reglerna?  
 15. **Vem blir starkare?** Vem blir starkare, vem blir svagare, och vem fick inte vara med och bestämma?  
@@ -1677,9 +1677,9 @@ Och den har visat att frågorna fungerar. En radiostation i Nya Zeeland frågade
 
 De som bygger och köper de stora systemen är vana vid att få stå i fred. De är vana vid publik som applåderar eller som oroar sig, men inte vid publik som frågar. Den som vet att någon tittar, och att någon kommer att fråga, fingrar mindre i syltburken.
 
-Städerskan i trappan visste var tyngdpunkten satt. Det är det vi har försökt hitta i den här boken: inte all kunskap om AI, utan de få grepp som gör att man kan bära resten.
+Städerskan i trappan visste var tyngdpunkten satt. Det är det vi har försökt hitta i den här boken: inte all kunskap om AI, utan de få grepp som gör att du kan bära resten.
 
-Sätt stövlarna på igen i morgon. Terrängen förändras varje dag, men nu vet du hur man läser den.
+Sätt stövlarna på igen i morgon. Terrängen förändras varje dag, men nu vet du hur den läses.
 
 # **Tidslinje**
 
