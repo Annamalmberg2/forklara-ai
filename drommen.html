@@ -897,6 +897,8 @@
     w.querySelectorAll(".label").forEach(function(l){var h=document.createElement("h2");h.textContent=l.textContent;l.parentNode.replaceChild(h,l);});
     // begrepp-grid -> lista
     w.querySelectorAll(".extra-grid").forEach(function(g){var ul=document.createElement("ul");Array.prototype.forEach.call(g.children,function(it){var n=it.querySelector(".extra-name"),d=it.querySelector(".extra-desc");var li=document.createElement("li");li.innerHTML=(n?"<strong>"+n.textContent+":</strong> ":"")+(d?d.textContent:it.textContent);ul.appendChild(li);});g.parentNode.replaceChild(ul,g);});
+    // tidslinje -> lista, en rad per händelse (annars klistras årtal+text ihop till gröt)
+    w.querySelectorAll(".timeline").forEach(function(tl){var ul=document.createElement("ul");tl.querySelectorAll(".tl-row").forEach(function(r){var y=r.querySelector(".tl-year"),t=r.querySelector(".tl-text");var li=document.createElement("li");li.innerHTML=(y?"<strong>"+y.textContent.trim()+"</strong> — ":"")+(t?t.innerHTML.trim():r.innerHTML);ul.appendChild(li);});tl.parentNode.replaceChild(ul,tl);});
     // undertitel -> kursivt stycke
     w.querySelectorAll(".sub").forEach(function(s){var p=document.createElement("p");p.innerHTML="<em>"+s.textContent.trim()+"</em>";s.parentNode.replaceChild(p,s);});
     // rensa alla class/style/id-attribut
