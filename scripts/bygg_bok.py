@@ -331,7 +331,7 @@ def bygg_en(spec):
     if "Creative Commons" not in src_md:
         src_md = src_md.rstrip() + ("\n\n---\n\n*Fri att läsa, dela och bygga vidare på under "
             "[Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). "
-            "Nämn gärna Anna Malmberg och Förklara AI.*\n")
+            "Nämn gärna Anna Malmberg och AiNNOVA.*\n")
     # ändringsvakt: stämpla dagens datum bara när texten faktiskt ändrats
     h = hashlib.sha1(src_md.encode("utf-8")).hexdigest()
     entries = LOGG.setdefault(slug, [])
@@ -426,9 +426,8 @@ def bygg_en(spec):
            '    <h2 class="h">%s</h2>\n    <ol>\n%s\n    </ol>\n  </section>\n\n'
            % (toc_rubrik[0].upper() + toc_rubrik[1:], "\n".join(toc_rows)))
 
-    colophon = ('  <div class="colophon">\n    %s · ur Förklara AI<br>\n'
-                '    Av Anna Malmberg<br>\n    Fri att läsa, skriva ut och dela. ✦\n  </div>\n'
-                % re.sub(r'<[^>]+>', '', spec["title_html"]))
+    colophon = ('  <div class="colophon">\n'
+                '    Av Anna Malmberg<br>\n    Fri att läsa, skriva ut och dela. ✦\n  </div>\n')
 
     # head ur motvikten
     mot = io.open(ROOT + "/motvikten.html", encoding="utf-8").read()

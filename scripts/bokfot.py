@@ -67,9 +67,9 @@ def fot_markdown():
     'Dela med AI' (BOK_MD) == den publicerade .md:n == boken. Samma INNEHÅLL som
     HTML-foten (bygg_block) nedan; renderas bara i Drömmens egna hus-stil."""
     r = ["# **Av samma författare**", "", "Jag har skrivit två trilogier.", "",
-         "**Drömmen**", ""]
+         "**Drömmen-trilogin**", ""]
     r += ["* **%s** – %s" % (t, d) for (t, u, d) in ANDRA]
-    r += ["", "**Den första trilogin**", ""]
+    r += ["", "**Institutionstrilogin**", ""]
     r += ["* **%s** – %s" % (t, d) for (t, u, d) in FORSTA]
     r += ["", ERBJUDANDE, "",
           "# **Vidare läsning**", "", VIDARE, "",
@@ -102,9 +102,9 @@ def bygg_block(orn=True):
         d.append('<div class="rule-orn" style="%s">✦ ❋ ✦</div>' % S_ORN)
     d.append(_p("Av samma författare", S_EYE))
     d.append(_p("Jag har skrivit två trilogier."))
-    d.append(_p("Drömmen", S_SUB))
+    d.append(_p("Drömmen-trilogin", S_SUB))
     d += [_book(*b) for b in ANDRA]
-    d.append(_p("Den första trilogin", S_SUB))
+    d.append(_p("Institutionstrilogin", S_SUB))
     d += [_book(*b) for b in FORSTA]
     d.append(_p(_md2html(ERBJUDANDE), S_NOTE))
     d.append(_p("Vidare läsning", S_SUB))

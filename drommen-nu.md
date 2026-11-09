@@ -1806,13 +1806,13 @@ Här är människorna som bär berättelsen i bokens kapitel, med kapitlen där 
 
 Jag har skrivit två trilogier.
 
-**Drömmen**
+**Drömmen-trilogin**
 
 * **Drömmen om den tänkande maskinen** – tusentals år av mönster, människor och AI, från världens alla hörn. Hur vi hamnade här.
 * **Drömmen och var vi står** – vad AI kan i dag, var gränserna går och vem som bestämmer.
 * **Drömmen med stövlarna på** – så kommer du i gång med AI, och behåller omdömet.
 
-**Den första trilogin**
+**Institutionstrilogin**
 
 * **En bibel** – en bibel som inte kräver din tro. Ändå rymmer den det som varje tro borde vila på.
 * **En rörelse** – en rörelse som inte går att följa. Ändå visar den vart varje rörelse borde gå.

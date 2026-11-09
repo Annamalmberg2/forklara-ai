@@ -13,7 +13,7 @@ ROOT = __file__.rsplit("/scripts/", 1)[0]
 
 CC = ('<br><span class="cc-licens">Fri att läsa, dela och bygga vidare på under '
       '<a href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons CC BY 4.0</a>. '
-      'Nämn gärna Anna Malmberg och Förklara AI.</span>')
+      'Nämn gärna Anna Malmberg och AiNNOVA.</span>')
 
 
 def stampla(path):
