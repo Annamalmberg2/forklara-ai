@@ -40,8 +40,23 @@ HANDLER = r"""
   function docsHTML(){
     var w=document.querySelector(".wrap").cloneNode(true);
     // bort med icke-innehåll
-    w.querySelectorAll("button,script,.bok-knappar,.toc,.rule-orn,.num,.tag,.cc-licens,.mark,.by")
+    w.querySelectorAll("button,script,.bok-knappar,.rule-orn,.tag,.cc-licens,.mark,.by")
      .forEach(function(e){e.remove();});
+    // innehållsförteckning -> "Innehåll" + ren lista (romerska siffror, som i HTML)
+    w.querySelectorAll(".toc").forEach(function(toc){
+      var frag=document.createDocumentFragment();
+      var h=document.createElement("h2"); h.textContent="Innehåll"; frag.appendChild(h);
+      var ul=document.createElement("ul");
+      toc.querySelectorAll("li").forEach(function(li){
+        var n=li.querySelector(".n"), t=li.querySelector(".t");
+        var nn=n?n.textContent.trim():"", tt=t?t.textContent.trim():li.textContent.trim();
+        var row=document.createElement("li");
+        row.textContent=(nn&&nn!=="✦"?nn+" — ":"")+tt;
+        ul.appendChild(row);
+      });
+      frag.appendChild(ul);
+      toc.parentNode.replaceChild(frag,toc);
+    });
     // rutor (lost/shield/insight/…) -> blockquote med etiketten som fet inledning
     w.querySelectorAll(".lost,.shield,.insight,.why,.future-box,.maga,.naturlag,.utblick,.keep,.honest")
      .forEach(function(b){
@@ -52,7 +67,14 @@ HANDLER = r"""
        b.parentNode.replaceChild(bq,b);
      });
     // kapitelöppning -> H2, underrubrik -> H3, etikett -> H2
-    w.querySelectorAll(".opener").forEach(function(o){var r=o.getAttribute("data-rubrik");var h=o.querySelector("h2");var n=document.createElement("h2");n.textContent=r||(h?h.textContent:o.textContent);o.parentNode.replaceChild(n,o);});
+    w.querySelectorAll(".opener").forEach(function(o){
+      var num=o.querySelector(".num"), kap=o.querySelector(".kap"), h=o.querySelector("h2");
+      var titel=(h?h.textContent:(o.getAttribute("data-rubrik")||o.textContent)).trim();
+      var kapw=kap?kap.textContent.trim():"", n=num?num.textContent.trim():"";
+      var head=document.createElement("h2");
+      head.textContent=(kapw?kapw+" ":"")+(n&&n!=="✦"?n+" — ":"")+titel;
+      o.parentNode.replaceChild(head,o);
+    });
     w.querySelectorAll(".section-head").forEach(function(s){var c=s.querySelector(".concept");var h=document.createElement("h3");h.textContent=c?c.textContent:s.textContent;s.parentNode.replaceChild(h,s);});
     w.querySelectorAll(".extra-head").forEach(function(e){var h=document.createElement("h3");h.textContent=e.textContent;e.parentNode.replaceChild(h,e);});
     w.querySelectorAll(".label").forEach(function(l){var h=document.createElement("h2");h.textContent=l.textContent;l.parentNode.replaceChild(h,l);});
@@ -62,6 +84,8 @@ HANDLER = r"""
     w.querySelectorAll(".timeline").forEach(function(tl){var ul=document.createElement("ul");tl.querySelectorAll(".tl-row").forEach(function(r){var y=r.querySelector(".tl-year"),t=r.querySelector(".tl-text");var li=document.createElement("li");li.innerHTML=(y?"<strong>"+y.textContent.trim()+"</strong> — ":"")+(t?t.innerHTML.trim():r.innerHTML);ul.appendChild(li);});tl.parentNode.replaceChild(ul,tl);});
     // undertitel -> kursivt stycke
     w.querySelectorAll(".sub").forEach(function(s){var p=document.createElement("p");p.innerHTML="<em>"+s.textContent.trim()+"</em>";s.parentNode.replaceChild(p,s);});
+    // städa ev. kvarvarande numreringsspans så inga lösa siffror klistras in
+    w.querySelectorAll(".num,.kap").forEach(function(e){e.remove();});
     // rensa alla class/style/id-attribut
     w.querySelectorAll("*").forEach(function(e){e.removeAttribute("class");e.removeAttribute("style");e.removeAttribute("id");});
     // packa upp alla strukturella behållare + tomma spans -> platt, ren HTML

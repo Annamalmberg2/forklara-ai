@@ -4481,67 +4481,6 @@ Bestäm ett kodord.</div>
 
 
 
-<script>
-/* KOPIERA_DOCS_HANDLER */
-(function(){
-  var kd=document.getElementById("kopieradocs"); if(!kd) return;
-  function docsHTML(){
-    var w=document.querySelector(".wrap").cloneNode(true);
-    // bort med icke-innehåll
-    w.querySelectorAll("button,script,.bok-knappar,.toc,.rule-orn,.num,.tag,.cc-licens,.mark,.by")
-     .forEach(function(e){e.remove();});
-    // rutor (lost/shield/insight/…) -> blockquote med etiketten som fet inledning
-    w.querySelectorAll(".lost,.shield,.insight,.why,.future-box,.maga,.naturlag,.utblick,.keep,.honest")
-     .forEach(function(b){
-       var lab=b.querySelector('[class$="-label"],[class$="-head"],.label');
-       var txt=b.querySelector('[class$="-text"],[class$="-body"]');
-       var bq=document.createElement("blockquote");
-       bq.innerHTML=(lab?"<strong>"+lab.textContent.trim()+":</strong> ":"")+(txt?txt.innerHTML:b.innerHTML);
-       b.parentNode.replaceChild(bq,b);
-     });
-    // kapitelöppning -> H2, underrubrik -> H3, etikett -> H2
-    w.querySelectorAll(".opener").forEach(function(o){var r=o.getAttribute("data-rubrik");var h=o.querySelector("h2");var n=document.createElement("h2");n.textContent=r||(h?h.textContent:o.textContent);o.parentNode.replaceChild(n,o);});
-    w.querySelectorAll(".section-head").forEach(function(s){var c=s.querySelector(".concept");var h=document.createElement("h3");h.textContent=c?c.textContent:s.textContent;s.parentNode.replaceChild(h,s);});
-    w.querySelectorAll(".extra-head").forEach(function(e){var h=document.createElement("h3");h.textContent=e.textContent;e.parentNode.replaceChild(h,e);});
-    w.querySelectorAll(".label").forEach(function(l){var h=document.createElement("h2");h.textContent=l.textContent;l.parentNode.replaceChild(h,l);});
-    // begrepp-grid -> lista
-    w.querySelectorAll(".extra-grid").forEach(function(g){var ul=document.createElement("ul");Array.prototype.forEach.call(g.children,function(it){var n=it.querySelector(".extra-name"),d=it.querySelector(".extra-desc");var li=document.createElement("li");li.innerHTML=(n?"<strong>"+n.textContent+":</strong> ":"")+(d?d.textContent:it.textContent);ul.appendChild(li);});g.parentNode.replaceChild(ul,g);});
-    // tidslinje -> lista, en rad per händelse (annars klistras årtal+text ihop till gröt)
-    w.querySelectorAll(".timeline").forEach(function(tl){var ul=document.createElement("ul");tl.querySelectorAll(".tl-row").forEach(function(r){var y=r.querySelector(".tl-year"),t=r.querySelector(".tl-text");var li=document.createElement("li");li.innerHTML=(y?"<strong>"+y.textContent.trim()+"</strong> — ":"")+(t?t.innerHTML.trim():r.innerHTML);ul.appendChild(li);});tl.parentNode.replaceChild(ul,tl);});
-    // undertitel -> kursivt stycke
-    w.querySelectorAll(".sub").forEach(function(s){var p=document.createElement("p");p.innerHTML="<em>"+s.textContent.trim()+"</em>";s.parentNode.replaceChild(p,s);});
-    // rensa alla class/style/id-attribut
-    w.querySelectorAll("*").forEach(function(e){e.removeAttribute("class");e.removeAttribute("style");e.removeAttribute("id");});
-    // packa upp alla strukturella behållare + tomma spans -> platt, ren HTML
-    var again=true;
-    while(again){again=false;
-      var ds=w.querySelectorAll("div,section,header,article,aside,figure,figcaption,span");
-      for(var i=0;i<ds.length;i++){var d=ds[i],p=d.parentNode;if(!p)continue;while(d.firstChild)p.insertBefore(d.firstChild,d);p.removeChild(d);again=true;}
-    }
-    return w;
-  }
-  kd.addEventListener("click",function(){
-    var node=docsHTML(), html=node.innerHTML, plain=node.textContent;
-    var o=kd.getAttribute("data-label")||kd.textContent; kd.setAttribute("data-label",o);
-    function done(){kd.textContent="Kopierat ✓ — klistra in i Docs"; setTimeout(function(){kd.textContent=o;},2400);}
-    function fallback(){
-      var h=document.createElement("div"); h.style.cssText="position:fixed;left:-99999px;top:0;"; h.innerHTML=html;
-      document.body.appendChild(h); var r=document.createRange(); r.selectNodeContents(h);
-      var sel=getSelection(); sel.removeAllRanges(); sel.addRange(r);
-      try{document.execCommand("copy");done();}catch(e){}
-      sel.removeAllRanges(); document.body.removeChild(h);
-    }
-    if(navigator.clipboard&&window.ClipboardItem){
-      try{
-        navigator.clipboard.write([new ClipboardItem({
-          "text/html":new Blob([html],{type:"text/html"}),
-          "text/plain":new Blob([plain],{type:"text/plain"})
-        })]).then(done).catch(fallback);
-      }catch(e){fallback();}
-    } else fallback();
-  });
-})();
-</script>
 <!-- BOK_SOK: sök-i-boken (likriktad drop-in, dator + telefon) -->
 <style>
   .bok-sok-knapp{font-family:var(--sans);font-size:15px;line-height:1;width:38px;height:38px;
@@ -4676,6 +4615,92 @@ Bestäm ett kodord.</div>
     if(b) b.addEventListener('click', rensa, true);
   });
   window.addEventListener('beforeprint', rensa);
+})();
+</script>
+
+<script>
+/* KOPIERA_DOCS_HANDLER */
+(function(){
+  var kd=document.getElementById("kopieradocs"); if(!kd) return;
+  function docsHTML(){
+    var w=document.querySelector(".wrap").cloneNode(true);
+    // bort med icke-innehåll
+    w.querySelectorAll("button,script,.bok-knappar,.rule-orn,.tag,.cc-licens,.mark,.by")
+     .forEach(function(e){e.remove();});
+    // innehållsförteckning -> "Innehåll" + ren lista (romerska siffror, som i HTML)
+    w.querySelectorAll(".toc").forEach(function(toc){
+      var frag=document.createDocumentFragment();
+      var h=document.createElement("h2"); h.textContent="Innehåll"; frag.appendChild(h);
+      var ul=document.createElement("ul");
+      toc.querySelectorAll("li").forEach(function(li){
+        var n=li.querySelector(".n"), t=li.querySelector(".t");
+        var nn=n?n.textContent.trim():"", tt=t?t.textContent.trim():li.textContent.trim();
+        var row=document.createElement("li");
+        row.textContent=(nn&&nn!=="✦"?nn+" — ":"")+tt;
+        ul.appendChild(row);
+      });
+      frag.appendChild(ul);
+      toc.parentNode.replaceChild(frag,toc);
+    });
+    // rutor (lost/shield/insight/…) -> blockquote med etiketten som fet inledning
+    w.querySelectorAll(".lost,.shield,.insight,.why,.future-box,.maga,.naturlag,.utblick,.keep,.honest")
+     .forEach(function(b){
+       var lab=b.querySelector('[class$="-label"],[class$="-head"],.label');
+       var txt=b.querySelector('[class$="-text"],[class$="-body"]');
+       var bq=document.createElement("blockquote");
+       bq.innerHTML=(lab?"<strong>"+lab.textContent.trim()+":</strong> ":"")+(txt?txt.innerHTML:b.innerHTML);
+       b.parentNode.replaceChild(bq,b);
+     });
+    // kapitelöppning -> H2, underrubrik -> H3, etikett -> H2
+    w.querySelectorAll(".opener").forEach(function(o){
+      var num=o.querySelector(".num"), kap=o.querySelector(".kap"), h=o.querySelector("h2");
+      var titel=(h?h.textContent:(o.getAttribute("data-rubrik")||o.textContent)).trim();
+      var kapw=kap?kap.textContent.trim():"", n=num?num.textContent.trim():"";
+      var head=document.createElement("h2");
+      head.textContent=(kapw?kapw+" ":"")+(n&&n!=="✦"?n+" — ":"")+titel;
+      o.parentNode.replaceChild(head,o);
+    });
+    w.querySelectorAll(".section-head").forEach(function(s){var c=s.querySelector(".concept");var h=document.createElement("h3");h.textContent=c?c.textContent:s.textContent;s.parentNode.replaceChild(h,s);});
+    w.querySelectorAll(".extra-head").forEach(function(e){var h=document.createElement("h3");h.textContent=e.textContent;e.parentNode.replaceChild(h,e);});
+    w.querySelectorAll(".label").forEach(function(l){var h=document.createElement("h2");h.textContent=l.textContent;l.parentNode.replaceChild(h,l);});
+    // begrepp-grid -> lista
+    w.querySelectorAll(".extra-grid").forEach(function(g){var ul=document.createElement("ul");Array.prototype.forEach.call(g.children,function(it){var n=it.querySelector(".extra-name"),d=it.querySelector(".extra-desc");var li=document.createElement("li");li.innerHTML=(n?"<strong>"+n.textContent+":</strong> ":"")+(d?d.textContent:it.textContent);ul.appendChild(li);});g.parentNode.replaceChild(ul,g);});
+    // tidslinje -> lista, en rad per händelse (annars klistras årtal+text ihop till gröt)
+    w.querySelectorAll(".timeline").forEach(function(tl){var ul=document.createElement("ul");tl.querySelectorAll(".tl-row").forEach(function(r){var y=r.querySelector(".tl-year"),t=r.querySelector(".tl-text");var li=document.createElement("li");li.innerHTML=(y?"<strong>"+y.textContent.trim()+"</strong> — ":"")+(t?t.innerHTML.trim():r.innerHTML);ul.appendChild(li);});tl.parentNode.replaceChild(ul,tl);});
+    // undertitel -> kursivt stycke
+    w.querySelectorAll(".sub").forEach(function(s){var p=document.createElement("p");p.innerHTML="<em>"+s.textContent.trim()+"</em>";s.parentNode.replaceChild(p,s);});
+    // städa ev. kvarvarande numreringsspans så inga lösa siffror klistras in
+    w.querySelectorAll(".num,.kap").forEach(function(e){e.remove();});
+    // rensa alla class/style/id-attribut
+    w.querySelectorAll("*").forEach(function(e){e.removeAttribute("class");e.removeAttribute("style");e.removeAttribute("id");});
+    // packa upp alla strukturella behållare + tomma spans -> platt, ren HTML
+    var again=true;
+    while(again){again=false;
+      var ds=w.querySelectorAll("div,section,header,article,aside,figure,figcaption,span");
+      for(var i=0;i<ds.length;i++){var d=ds[i],p=d.parentNode;if(!p)continue;while(d.firstChild)p.insertBefore(d.firstChild,d);p.removeChild(d);again=true;}
+    }
+    return w;
+  }
+  kd.addEventListener("click",function(){
+    var node=docsHTML(), html=node.innerHTML, plain=node.textContent;
+    var o=kd.getAttribute("data-label")||kd.textContent; kd.setAttribute("data-label",o);
+    function done(){kd.textContent="Kopierat ✓ — klistra in i Docs"; setTimeout(function(){kd.textContent=o;},2400);}
+    function fallback(){
+      var h=document.createElement("div"); h.style.cssText="position:fixed;left:-99999px;top:0;"; h.innerHTML=html;
+      document.body.appendChild(h); var r=document.createRange(); r.selectNodeContents(h);
+      var sel=getSelection(); sel.removeAllRanges(); sel.addRange(r);
+      try{document.execCommand("copy");done();}catch(e){}
+      sel.removeAllRanges(); document.body.removeChild(h);
+    }
+    if(navigator.clipboard&&window.ClipboardItem){
+      try{
+        navigator.clipboard.write([new ClipboardItem({
+          "text/html":new Blob([html],{type:"text/html"}),
+          "text/plain":new Blob([plain],{type:"text/plain"})
+        })]).then(done).catch(fallback);
+      }catch(e){fallback();}
+    } else fallback();
+  });
 })();
 </script>
 </body>
