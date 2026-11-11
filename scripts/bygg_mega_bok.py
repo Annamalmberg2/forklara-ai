@@ -212,3 +212,5 @@ from lagg_docs_knapp import installera
 installera(ROOT + "/mega.html")
 from cc_licens import stampla
 stampla(ROOT + "/mega.html")
+from lagg_sok import installera as installera_sok
+installera_sok(ROOT + "/mega.html")

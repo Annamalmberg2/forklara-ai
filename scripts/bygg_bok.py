@@ -521,6 +521,7 @@ def bygg_en(spec):
     io.open(ROOT + "/" + slug + ".html", "w", encoding="utf-8").write(out)
     from lagg_docs_knapp import installera; installera(ROOT + "/" + slug + ".html")
     from cc_licens import stampla; stampla(ROOT + "/" + slug + ".html")
+    from lagg_sok import installera as installera_sok; installera_sok(ROOT + "/" + slug + ".html")
 
     print("  %-18s %d tecken | kap %d · mell %d · avsl %d | TOC %d | KYR %d"
           % (slug + ".html", len(out), n_kap, n_mell, n_avsl, len(toc_rows),

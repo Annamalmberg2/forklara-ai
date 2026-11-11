@@ -163,6 +163,8 @@ def rebuild(fname, bodies, n_kap, toc_title):
     installera(p)
     from cc_licens import stampla
     stampla(p)
+    from lagg_sok import installera as installera_sok
+    installera_sok(p)
     return new
 
 # naturlag: kapitelkropp = <div class="ford">…</div> (speglar samlingskortet)
