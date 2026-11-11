@@ -47,15 +47,12 @@ FORSTA = [
 #    böcker: de sex handbyggda via HTML nedan, Drömmen via fot_markdown()) ──────
 ERBJUDANDE = ("Alla finns att läsa gratis på "
               "[erbjudanden.ainnova.se/bocker](https://erbjudanden.ainnova.se/bocker).")
-VIDARE = ("Böckerna tar slut, men frågorna gör det inte. På "
-          "[hurdetfunkar.se](https://hurdetfunkar.se/) skriver jag texter som fortsätter "
-          "där kapitlen slutar. De är skrivna på samma sätt som böckerna, med vardagsbilder "
-          "i stället för facktermer, och gjorda för att klistras in i en AI eller läsas högt "
-          "vid köksbordet. Varje text har sina källor med, och alla finns också samlade i en "
-          "enda fil för den som vill ge hela högen till en maskin och fråga vidare.")
-OM_AINNOVA = ("De här böckerna är en del av AiNNOVA — mitt sätt att göra AI begripligt för fler. "
-              "Jag föreläser, skriver och bygger verktyg som förklarar tekniken med vardagsbilder "
-              "i stället för facktermer. Mer finns på [ainnova.se](https://ainnova.se/).")
+VIDARE = ("Frågorna tar inte slut när boken gör det. Jag skriver vidare på "
+          "[hurdetfunkar.se](https://hurdetfunkar.se/), och allt samlas på "
+          "[erbjudanden.ainnova.se/bocker](https://erbjudanden.ainnova.se/bocker) — "
+          "böckerna, texterna och det som är på väg.")
+OM_AINNOVA = ("De här böckerna är en del av AiNNOVA: mitt sätt att göra AI begripligt för fler, "
+              "med vardagsbilder i stället för facktermer. Mer på [ainnova.se](https://ainnova.se/).")
 CC_RAD = ("*Fri att läsa, dela och bygga vidare på under Creative Commons CC BY 4.0. "
           "Nämn gärna Anna Malmberg och* [AiNNOVA](https://ainnova.se/)*.*")
 
@@ -71,7 +68,7 @@ def fot_markdown():
     r += ["* **%s** – %s" % (t, d) for (t, u, d) in ANDRA]
     r += ["", "**Institutionstrilogin**", ""]
     r += ["* **%s** – %s" % (t, d) for (t, u, d) in FORSTA]
-    r += ["", ERBJUDANDE, "",
+    r += ["",
           "# **Vidare läsning**", "", VIDARE, "",
           "# **Om AiNNOVA**", "", OM_AINNOVA, "", CC_RAD, ""]
     return "\n".join(r)
@@ -89,6 +86,10 @@ S_SUB  = ("font-family:var(--sans,system-ui,sans-serif);font-size:12px;font-weig
           "margin:22px 0 4px;")
 S_BOOK = "margin:.45em 0;"
 S_NOTE = "margin:1em 0;"
+# riktig rubrik: samma serif som brödtexten (--serif), närvarande — matchar trilogins fot
+S_RUBRIK = ("font-family:var(--serif,Georgia,serif);font-size:1.5em;font-weight:600;"
+            "color:var(--ink,#23201A);text-align:center;letter-spacing:.01em;"
+            "text-transform:none;margin:1.5em 0 .4em;line-height:1.25;")
 
 def _p(text, style=None):
     return '<p%s>%s</p>' % ((' style="%s"' % style) if style else "", text)
@@ -96,20 +97,22 @@ def _p(text, style=None):
 def _book(title, url, desc):
     return _p('<strong><a href="%s">%s</a></strong> – %s' % (url, title, desc), S_BOOK)
 
+def _h(text):
+    return '<h2 style="%s">%s</h2>' % (S_RUBRIK, text)
+
 def bygg_block(orn=True):
     d = []
     if orn:   # hoppa över eget ornament om boken redan slutar med ett (undvik dubbel)
         d.append('<div class="rule-orn" style="%s">✦ ❋ ✦</div>' % S_ORN)
-    d.append(_p("Av samma författare", S_EYE))
+    d.append(_h("Av samma författare"))
     d.append(_p("Jag har skrivit två trilogier."))
     d.append(_p("Drömmen-trilogin", S_SUB))
     d += [_book(*b) for b in ANDRA]
     d.append(_p("Institutionstrilogin", S_SUB))
     d += [_book(*b) for b in FORSTA]
-    d.append(_p(_md2html(ERBJUDANDE), S_NOTE))
-    d.append(_p("Vidare läsning", S_SUB))
+    d.append(_h("Vidare läsning"))
     d.append(_p(_md2html(VIDARE)))
-    d.append(_p("Om AiNNOVA", S_SUB))
+    d.append(_h("Om AiNNOVA"))
     d.append(_p(_md2html(OM_AINNOVA)))
     return "\n    " + START + "\n    " + "\n    ".join(d) + "\n    " + SLUT + "\n    "
 

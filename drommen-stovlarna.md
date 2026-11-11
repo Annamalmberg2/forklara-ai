@@ -875,14 +875,12 @@ Jag har skrivit två trilogier.
 * **En rörelse** – en rörelse som inte går att följa. Ändå visar den vart varje rörelse borde gå.
 * **Ett parti** – ett parti som inte går att rösta på. Ändå är det vad varje parti borde ha i åtanke.
 
-Alla finns att läsa gratis på [erbjudanden.ainnova.se/bocker](https://erbjudanden.ainnova.se/bocker).
-
 # **Vidare läsning**
 
-Böckerna tar slut, men frågorna gör det inte. På [hurdetfunkar.se](https://hurdetfunkar.se/) skriver jag texter som fortsätter där kapitlen slutar. De är skrivna på samma sätt som böckerna, med vardagsbilder i stället för facktermer, och gjorda för att klistras in i en AI eller läsas högt vid köksbordet. Varje text har sina källor med, och alla finns också samlade i en enda fil för den som vill ge hela högen till en maskin och fråga vidare.
+Frågorna tar inte slut när boken gör det. Jag skriver vidare på [hurdetfunkar.se](https://hurdetfunkar.se/), och allt samlas på [erbjudanden.ainnova.se/bocker](https://erbjudanden.ainnova.se/bocker) — böckerna, texterna och det som är på väg.
 
 # **Om AiNNOVA**
 
-De här böckerna är en del av AiNNOVA — mitt sätt att göra AI begripligt för fler. Jag föreläser, skriver och bygger verktyg som förklarar tekniken med vardagsbilder i stället för facktermer. Mer finns på [ainnova.se](https://ainnova.se/).
+De här böckerna är en del av AiNNOVA: mitt sätt att göra AI begripligt för fler, med vardagsbilder i stället för facktermer. Mer på [ainnova.se](https://ainnova.se/).
 
 *Fri att läsa, dela och bygga vidare på under Creative Commons CC BY 4.0. Nämn gärna Anna Malmberg och* [AiNNOVA](https://ainnova.se/)*.*

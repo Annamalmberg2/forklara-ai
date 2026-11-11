@@ -187,9 +187,10 @@ def list_section(lines, label, klass="efter", orn=True):
             html.append('<p>%s</p>' % inline(s))
     fl()
     orn_html = '    <div class="rule-orn">✦ ❋ ✦</div>\n' if orn else ''
+    from bokfot import S_RUBRIK
     return ('  <section class="%s" id="%s">\n%s'
-            '    <span class="label" style="color:var(--taupe)">%s</span>\n%s\n  </section>\n\n'
-            % (klass, re.sub(r'\s+', '-', label.lower()), orn_html, label, "\n".join(html)))
+            '    <h2 style="%s">%s</h2>\n%s\n  </section>\n\n'
+            % (klass, re.sub(r'\s+', '-', label.lower()), orn_html, S_RUBRIK, label, "\n".join(html)))
 
 def timeline_section(lines):
     intro = []; rows = []
