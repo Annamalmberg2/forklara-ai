@@ -546,6 +546,8 @@ Och titta på demonstrationen med samma ögon som Edgar Allan Poe tittade på Tu
 
 Den som försöker hålla reda på alla AI-modeller tappar snart andan. Varje månad kommer nya namn, nya versioner och nya bolag. På en enda webbplats, där forskare och programmerare delar sina modeller fritt med varandra, finns det i dag mer än två och en halv miljon, även om många är kopior och små varianter av varandra. Även de mest insatta blir omsprungna. Och bakom de kända namnen arbetar tusentals människor som få har hört talas om, i små laboratorier och öppna gemenskaper, och gör enorma jobb i bakgrunden.
 
+Och det är inte bara du som blir omsprungen — det händer jättarna också. Gång på gång har ett litet lag med en bättre idé hoppat förbi bolag med hundra gånger mer pengar; en ny tanke kan väga tyngre än en större datorhall. Ingen är därför någonsin riktigt uträknad, och ingen sitter säkert i ledningen. Det betyder att den som försöker satsa på rätt häst har ställt fel fråga — loppet går inte att tippa, och det behöver du inte heller.
+
 Den goda nyheten är att du inte behöver kunna namnen. De byts ut. Det som håller är vilken sort maskin det är, och det går att lära sig på en sida.
 
 ## **Fem sorter**
@@ -584,6 +586,8 @@ Nästa gång någon visar upp en ny modell med ett nytt namn, strunta i namnet o
 4. Vad händer med det jag ger den?
 
 Svaren gäller även när namnet har bytts ut nästa år.
+
+Och en sista fråga, den enda som handlar om dig i stället för om maskinen: vad av allt det här äger *du*? Inte modellerna — dem hyr eller lånar du. Det du äger är det du själv samlat: dina berättelser, dina bilder, mönstren i ditt eget liv och arbete. De flesta nöjer sig med att köpa andras ägg. Vågar du värpa dina egna — spara det du ser och vet, om så bara i en mapp på skrivbordet, med datum — sitter du med något ingen kan ta ifrån dig. En dag bär något annat det vidare.
 
 # **Kapitel 6 – Agenterna hemma**
 
