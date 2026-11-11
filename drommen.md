@@ -60,7 +60,7 @@ Människor har ställt den frågan långt innan det fanns elektricitet, chip ell
 
 Den förmågan — att se ett mönster och pressa ut det i materia, så att det överlever den som tänkte det — är äldre än all skrift, äldre än alla kungar och smedjor.
 
-De äldsta bekräftade spåren tar oss ungefär sjuttiotusen år tillbaka, till en grotta vid namn Blombos på Afrikas sydspets. Där har arkeologer hittat bitar av ockra med inristade geometriska mönster, korsande linjer i ett enkelt rutnät, omkring 73 000 till 77 000 år gamla. Ingen vet säkert vad de betydde. Men någon satte sig ner och gjorde dem med flit. Det är ett av de tidigaste bevis vi har på att en människa kunde bära en abstrakt idé i huvudet och lägga ut den i världen.
+De äldsta bekräftade spåren tar oss sjuttiotusen, kanske hundratusen år tillbaka, till en grotta vid namn Blombos på Afrikas sydspets. Där har arkeologer hittat bitar av ockra med inristade geometriska mönster, korsande linjer i ett enkelt rutnät. Hur gamla de är vet ingen på året — åldern läses inte ur ockran utan ur marken omkring: brända stenverktyg bär en klocka som nollställdes när de hettades upp, sandkornen en annan som nollställdes när de sist låg i solen. De pekar olika långt tillbaka för olika lager, och i de djupaste hade man redan rört färg innan någon ristade i den. Ingen vet säkert vad mönstren betydde. Men någon satte sig ner och gjorde dem med flit. Det är ett av de tidigaste bevis vi har på att en människa kunde bära en abstrakt idé i huvudet och lägga ut den i världen.
 
 Och lägg märke till var det hände. Inte i Grekland, inte i något av de länder som brukar få äran. Den äldsta roten är afrikansk.
 
@@ -1460,7 +1460,7 @@ Det ansvaret är, och förblir, helt och hållet vårt.
 
 De viktigaste händelserna i boken, i den ordning de hände. Kapitlet inom parentes.
 
-* **Omkring 75 000 år sedan** Ristade mönster i ockra i Blombosgrottan i Sydafrika. (1)  
+* **Mellan 70 000 och 100 000 år sedan** Ristade mönster i ockra i Blombosgrottan i Sydafrika. (1)  
 * **Omkring 3200 f.v.t.** Newgrange på Irland byggs så att solen lyser in vid vintersolståndet. (1)  
 * **Omkring 2500 f.v.t.** De stora stenarna reses i Stonehenge. (1)  
 * **Omkring 2300 f.v.t.** Enheduanna i Ur, den första författaren vi känner till vid namn. (1)  
