@@ -36,7 +36,9 @@ HANDLER = r"""
 <script>
 /* KOPIERA_DOCS_HANDLER */
 (function(){
-  var kd=document.getElementById("kopieradocs"); if(!kd) return;
+  var kd=document.getElementById("kopieradocs");
+  var da=document.getElementById("delaai");
+  if(!kd && !da) return;
   function docsHTML(){
     var w=document.querySelector(".wrap").cloneNode(true);
     // bort med icke-innehåll
@@ -71,8 +73,10 @@ HANDLER = r"""
       var num=o.querySelector(".num"), kap=o.querySelector(".kap"), h=o.querySelector("h2");
       var titel=(h?h.textContent:(o.getAttribute("data-rubrik")||o.textContent)).trim();
       var kapw=kap?kap.textContent.trim():"", n=num?num.textContent.trim():"";
+      var label=kapw;                                   // ".kap" kan redan bära siffran
+      if(n&&n!=="✦"&&label.indexOf(n)===-1){label=label?(label+" "+n):n;}
       var head=document.createElement("h2");
-      head.textContent=(kapw?kapw+" ":"")+(n&&n!=="✦"?n+" — ":"")+titel;
+      head.textContent=(label?label+" — ":"")+titel;
       o.parentNode.replaceChild(head,o);
     });
     w.querySelectorAll(".section-head").forEach(function(s){var c=s.querySelector(".concept");var h=document.createElement("h3");h.textContent=c?c.textContent:s.textContent;s.parentNode.replaceChild(h,s);});
@@ -96,10 +100,49 @@ HANDLER = r"""
     }
     return w;
   }
-  kd.addEventListener("click",function(){
-    var node=docsHTML(), html=node.innerHTML, plain=node.textContent;
-    var o=kd.getAttribute("data-label")||kd.textContent; kd.setAttribute("data-label",o);
-    function done(){kd.textContent="Kopierat ✓ — klistra in i Docs"; setTimeout(function(){kd.textContent=o;},2400);}
+  /* ---- samma rena kärna -> Markdown (för "Dela med AI") ---- */
+  function inlineMD(node){
+    var out="";
+    Array.prototype.forEach.call(node.childNodes,function(c){
+      if(c.nodeType===3){ out+=c.nodeValue.replace(/\s+/g," "); return; }
+      if(c.nodeType!==1) return;
+      var t=c.tagName.toLowerCase(), inner=inlineMD(c);
+      if(t==="strong"||t==="b"){ out+="**"+inner.trim()+"**"; }
+      else if(t==="em"||t==="i"){ out+="*"+inner.trim()+"*"; }
+      else if(t==="a"){ var href=c.getAttribute("href")||""; out+=href?("["+inner.trim()+"]("+href+")"):inner; }
+      else if(t==="br"){ out+="  \n"; }
+      else { out+=inner; }
+    });
+    return out;
+  }
+  function blockMD(root){
+    var parts=[];
+    Array.prototype.forEach.call(root.childNodes,function(n){
+      if(n.nodeType===3){ var tx=n.nodeValue.replace(/\s+/g," ").trim(); if(tx)parts.push(tx); return; }
+      if(n.nodeType!==1) return;
+      var t=n.tagName.toLowerCase();
+      if(/^h[1-6]$/.test(t)){ parts.push("######".slice(0,+t.charAt(1))+" "+inlineMD(n).trim()); }
+      else if(t==="p"){ var s=inlineMD(n).trim(); if(s)parts.push(s); }
+      else if(t==="hr"){ parts.push("---"); }
+      else if(t==="blockquote"){ parts.push(blockMD(n).split("\n").map(function(l){return l?"> "+l:">";}).join("\n")); }
+      else if(t==="ul"||t==="ol"){
+        var i=0, rows=[];
+        Array.prototype.forEach.call(n.children,function(li){
+          if(li.tagName.toLowerCase()!=="li") return;
+          i++; rows.push((t==="ol"?i+". ":"* ")+inlineMD(li).trim());
+        });
+        if(rows.length)parts.push(rows.join("\n"));
+      }
+      else { var inner=blockMD(n); if(inner)parts.push(inner); }
+    });
+    return parts.join("\n\n");
+  }
+  function docsMD(){ return blockMD(docsHTML()).replace(/\n{3,}/g,"\n\n").trim()+"\n"; }
+  /* ---- kopiering ---- */
+  function flash(btn,txt){ var o=btn.getAttribute("data-label")||btn.textContent; btn.setAttribute("data-label",o);
+    btn.textContent=txt; setTimeout(function(){btn.textContent=o;},2400); }
+  function copyRich(html,plain,btn){
+    function done(){flash(btn,"Kopierat ✓ — klistra in i Docs");}
     function fallback(){
       var h=document.createElement("div"); h.style.cssText="position:fixed;left:-99999px;top:0;"; h.innerHTML=html;
       document.body.appendChild(h); var r=document.createRange(); r.selectNodeContents(h);
@@ -108,14 +151,31 @@ HANDLER = r"""
       sel.removeAllRanges(); document.body.removeChild(h);
     }
     if(navigator.clipboard&&window.ClipboardItem){
-      try{
-        navigator.clipboard.write([new ClipboardItem({
-          "text/html":new Blob([html],{type:"text/html"}),
-          "text/plain":new Blob([plain],{type:"text/plain"})
-        })]).then(done).catch(fallback);
-      }catch(e){fallback();}
+      try{ navigator.clipboard.write([new ClipboardItem({
+        "text/html":new Blob([html],{type:"text/html"}),
+        "text/plain":new Blob([plain],{type:"text/plain"})
+      })]).then(done).catch(fallback); }catch(e){fallback();}
     } else fallback();
-  });
+  }
+  function copyText(md,btn){
+    function done(){flash(btn,"Kopierat ✓ — klistra in i din AI");}
+    function fallback(){
+      var ta=document.createElement("textarea"); ta.value=md;
+      ta.style.cssText="position:fixed;left:-99999px;top:0;"; document.body.appendChild(ta);
+      ta.focus(); ta.select(); try{document.execCommand("copy");done();}catch(e){}
+      document.body.removeChild(ta);
+    }
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(md).then(done).catch(fallback);
+    } else fallback();
+  }
+  /* Google Docs -> HTML ur kärnan */
+  if(kd) kd.addEventListener("click",function(){ var n=docsHTML(); copyRich(n.innerHTML,n.textContent,kd); });
+  /* Dela med AI -> Markdown ur SAMMA kärna. Klona bort böckernas egna
+     delaai-lyssnare (BOK_MD / toMD) så allt kommer ur en enda källa. */
+  if(da){ var nb=da.cloneNode(true); nb.removeAttribute("onclick");
+    da.parentNode.replaceChild(nb,da);
+    nb.addEventListener("click",function(){ copyText(docsMD(),nb); }); }
 })();
 </script>"""
 
