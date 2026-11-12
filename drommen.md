@@ -1581,7 +1581,7 @@ Här är människorna som bär berättelsen i bokens kapitel, med kapitlen där 
 * **Baker, David** – biokemist som konstruerar nya proteiner, Nobelpris 2024\. *8*  
 * **Banu Musa** – tre bröder i Bagdad som byggde en programmerbar flöjtspelare. *1, 2*  
 * **Beer, Stafford** – cybernetiker bakom Cybersyn i Chile. *4*  
-* **Bender, Emily** – lingvist, varnade för stokastiska papegöjor. *6, 8*  
+* **Bender, Emily** – lingvist, varnade för stokastiska papegojor. *6, 8*  
 * **Bengio, Yoshua** – en av djupinlärningens pionjärer, varnar i dag för riskerna. *5, 6, 8, 9*  
 * **Berzelius, Jöns Jacob** – svensk kemist som först framställde kisel. *8*  
 * **Beurling, Arne** – Uppsalamatematiker som knäckte den tyska G-skrivaren. *3*  
@@ -1620,7 +1620,7 @@ Här är människorna som bär berättelsen i bokens kapitel, med kapitlen där 
 * **Flowers, Tommy** – postingenjör som byggde Colossus. *3*  
 * **Fukushima, Kunihiko** – japansk ingenjör bakom neocognitron. *5, 6*  
 * **Gage, Philip** – programmerare vars komprimeringsknep blev tokens. *Mellanspel I*  
-* **Gebru, Timnit** – forskare i AI-etik, stokastiska papegöjor. *6, 8*  
+* **Gebru, Timnit** – forskare i AI-etik, stokastiska papegojor. *6, 8*  
 * **Glusjkov, Viktor** – planerade ett sovjetiskt datornät. *4*  
 * **Good, Irving John** – Turings kollega som föreställde sig den ultraintelligenta maskinen. *3, 8*  
 * **Goodhart, Charles och Marilyn Strathern** – när ett mått blir ett mål slutar det att vara ett bra mått. *8*  

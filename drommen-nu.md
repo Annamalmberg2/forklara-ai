@@ -88,7 +88,7 @@ Hassabis gör något annat den veckan. När han får skriva sitt namn i Nobelsti
 
 Han har gått en lång väg för att stå där. Han spelade schack från fyra års ålder och kom med i Englands juniorlag. Det som fascinerade honom mest var inte partierna, utan tänkandet bakom dem. Hur kommer vi på en plan? Hur blir vi bättre på att tänka?
 
-Hans första schackdator var en bräda där rutorna trycktes ner för att flytta pjäserna. Den var tänkt som träning i öppningar. Men pojken blev mer intresserad av maskinen än av öppningarna. Någon hade fått en livlös plastklump att spela schack, och spela det bra. Hur gick det till?
+Hans första schackdator var ett bräde där rutorna trycktes ner för att flytta pjäserna. Den var tänkt som träning i öppningar. Men pojken blev mer intresserad av maskinen än av öppningarna. Någon hade fått en livlös plastklump att spela schack, och spela det bra. Hur gick det till?
 
 År 2010 grundade han DeepMind i London tillsammans med två andra. De tänkte på det som ett Apollo-program, med ett enda mål: att bygga en intelligens som är generell, som klarar allt det tänkande som en människa klarar.
 
@@ -570,7 +570,7 @@ När du vet vilken sort det är, finns det några skillnader som betyder mer fö
 
 **Stor eller liten.** De största modellerna kan mest men kräver datorhallar. De minsta, som de afrikanska språkmodellerna i kapitel 2, kan köras på en vanlig telefon. Stor är inte alltid bättre. Den rätta storleken är den som gör jobbet där du är.
 
-**Öppen eller stängd.** En öppen modell får vem som helst ladda ner, granska och bygga vidare på. En stängd modell hyr du, på ägarens villkor. Kapitel 9 berättar om dem som valde att ge bort sina modeller, från Hangzhou till Paris, och om fiskstimmen i Tokyo, där många små modeller samarbetar i stället för en enda stor.
+**Öppen eller stängd.** En öppen modell får vem som helst ladda ner, granska och bygga vidare på. En stängd modell hyr du, på ägarens villkor. Kapitel 9 berättar om dem som valde att ge bort sina modeller, från Hangzhou till Paris, och om fiskstimmet i Tokyo, där många små modeller samarbetar i stället för en enda stor.
 
 **Snabb eller eftertänksam.** Vissa modeller svarar direkt. Andra tänker efter, steg för steg, innan de svarar. De eftertänksamma är bättre på svåra uppgifter men långsammare och dyrare. För en enkel fråga behövs ingen grubblare.
 
@@ -890,7 +890,7 @@ Det är inte en berättelse om att stoppa tekniken. Det är en berättelse om at
 
 Maskinerna har lärt sig skriva av böcker, lärt sig sjunga av sånger och lärt sig måla av tavlor. Någon skrev de böckerna, sjöng de sångerna och målade de tavlorna. Fick de veta det? Fick de betalt?
 
-Det är en av tidens stora strängdragningar, och den avgörs just nu i rätten.
+Det är en av tidens stora dragkamper, och den avgörs just nu i rätten.
 
 I USA stämde en grupp författare bolaget Anthropic, som gör språkmodellen Claude. En domare kom fram till att det i sig var tillåtet att träna en maskin på böcker, men att bolaget hade gjort fel när det hämtat hundratusentals böcker från piratsajter. Hösten 2025 godkändes en förlikning på en och en halv miljard dollar, ungefär tretusen dollar per bok.
 
@@ -1056,11 +1056,11 @@ Deras fråga var Europas fråga. Om hela kontinentens företag, skolor och myndi
 
 När bolaget behövde mer kapital kom en av de största investeringarna från ett oväntat håll: nederländska ASML, företaget vars maskiner med smält tenn ritar världens chip. Europas enda oumbärliga länk i chipkedjan valde att satsa på Europas största hopp inom AI. Frågan om vem som äger tänkandet visade sig också vara en fråga om vem som äger fabrikerna.
 
-## **Tokyo – fiskstimmen**
+## **Tokyo – fiskstimmet**
 
 En av de åtta som skrev artikeln om Transformern 2017 hette Llion Jones. Några år senare lämnade han Google och flyttade till Tokyo, där han 2023 grundade ett nytt laboratorium tillsammans med forskaren David Ha. De döpte det till Sakana, som betyder fisk på japanska.
 
-Namnet var ett program. En fiskstim har ingen ledare. Tusentals små individer följer några enkla regler och rör sig ändå som en helhet, svänger undan för faror och hittar föda. Sakana ville bygga AI på samma sätt, inte som en enda jättelik modell utan som många mindre som samarbetar, och lät modeller korsas och utvecklas i generationer, inspirerade av naturens egen evolution.
+Namnet var ett program. Ett fiskstim har ingen ledare. Tusentals små individer följer några enkla regler och rör sig ändå som en helhet, svänger undan för faror och hittar föda. Sakana ville bygga AI på samma sätt, inte som en enda jättelik modell utan som många mindre som samarbetar, och lät modeller korsas och utvecklas i generationer, inspirerade av naturens egen evolution.
 
 Svaret från Tokyo var att tänkandet inte behöver samlas på ett ställe. Det kan vara ett samspel.
 
@@ -1346,7 +1346,7 @@ Bolaget heter SpaceX. Det grundades av Elon Musk, men den som i många år har l
 
 ## **Ett nät från himlen**
 
-De flesta av SpaceX raketer bär satelliter, små platta lådor med solpaneler som cirklar runt jorden på låg höjd. De är tusentals, vid slutet av 2025 runt niotusen. Tillsammans bildar de Starlink, ett internet från himlen.
+De flesta av SpaceX:s raketer bär satelliter, små platta lådor med solpaneler som cirklar runt jorden på låg höjd. De är tusentals, vid slutet av 2025 runt niotusen. Tillsammans bildar de Starlink, ett internet från himlen.
 
 En liten antenn på ett tak räcker. I slutet av 2025 hade Starlink över nio miljoner kunder i över hundrafemtio länder. En skola i en by i Afrika utan kabel, en fiskebåt på Atlanten, en forskningsstation i Arktis. I kriget i Ukraina blev Starlink tidigt en livlina, för soldater, sjukhus och vanliga familjer, när ryska attacker slog ut annan kommunikation.
 
@@ -1787,7 +1787,7 @@ Här är människorna som bär berättelsen i bokens kapitel, med kapitlen där 
 * **Sanders, Bernie** – senator som ville förbjuda superintelligens. *9*  
 * **Schultz, Wolfram** – visade att dopaminet signalerar överraskning. *9*  
 * **Shin, Minkyu** – visade att go-spelarna blev bättre. *3*  
-* **Shotwell, Gwynne** – leder SpaceX dagliga arbete. *11*  
+* **Shotwell, Gwynne** – leder SpaceX:s dagliga arbete. *11*  
 * **Siemiatkowski, Sebastian** – vd för Klarna. *8*  
 * **Simon, Herbert** – ekonom och datapionjär, att nöja sig med gott nog. *9*  
 * **Slater, Samuel** – bar spinnmaskinerna i huvudet till Amerika. *8*  
