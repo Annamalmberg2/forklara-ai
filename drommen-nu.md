@@ -484,6 +484,8 @@ Fei-Fei sa att AI utan ett nära samarbete med hårdvaran förblir instängd i d
 
 I den förra bokens tidiga kapitel stod kvinnorna ofta i bakgrunden. De räknade, kopplade och programmerade, medan männen fick äran. Den här hösten satt två kvinnor vid bordet och formade framtiden för ett av världens viktigaste teknikföretag. När Fei-Fei fick frågan vad som hade gjort den moderna AI:n möjlig svarade hon att det var öppenheten, att forskare delade med sig och att ImageNet var öppet för alla. Den framtid hon ville bygga, sa hon, måste vara god för människor, och ansvaret för den är gemensamt.
 
+En bok fångar ett ögonblick. Den här sidan är hur fronten såg ut i slutet av 2026, och i den här världen är ledningen alltid utlånad. Den som ligger först i dag kan vara omsprungen innan sidan hunnit gulna, inte för att någon räknade fel, utan för att kartan ritas om medan vi läser den. Så läs namnen som väderlek, inte som klippor: värda att följa, aldrig värda att lita blint på.
+
 ## **Tvättkorgen**
 
 Om du vill veta hur långt robotarna har kommit, titta inte på de som dansar på scen. Titta på tvättkorgen.

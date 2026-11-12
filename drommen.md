@@ -1662,7 +1662,7 @@ Här är människorna som bär berättelsen i bokens kapitel, med kapitlen där 
 * **Lemoine, Blake** – ingenjör som trodde att Googles modell var medveten. *7*  
 * **Lenat, Douglas** – försökte skriva ner sunt förnuft i projektet Cyc. *4*  
 * **Lever, Mavis** – kodknäckare som bröt den italienska flottans meddelanden. *3, 8*  
-* **Li, Fei-Fei** – ImageNet och World Labs. *5, 6*  
+* **Li, Fei-Fei** – byggde ImageNet, bilddatabasen som väckte den moderna bildigenkänningen. *5, 6*  
 * **Li, Kenneth** – ledde studien om Othello-modellen. *Mellanspel I*  
 * **Lighthill, James** – rapporten som ledde till den första AI-vintern. *4*  
 * **Linnainmaa, Seppo** – finsk matematiker bakom bakåtpropageringens matematik. *5*  
