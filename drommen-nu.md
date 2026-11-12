@@ -900,7 +900,7 @@ I München gick det annorlunda till. Den tyska föreningen för musikskapare st�
 
 Och i musikbranschen började stämningarna bli affärer. Skivbolaget Warner, som hade stämt musikmaskinen Suno, slöt i stället ett avtal med den. Warners artister får nu själva välja om deras röster och namn får användas i musik som maskinen gör, och få betalt när de används.
 
-Tre fall, tre olika svar. Men samma fråga som med kvarnarna: vem får vinsten när något nytt byggs av det som andra har skapat? Och samma lärdom som från Hollywood. De som organiserar sig och ställer krav får ofta ett svar.
+Tre fall, tre olika svar. Men samma fråga som med kvarnarna: vem får vinsten när något nytt byggs av det som andra har skapat? Och som i Hollywood: de som organiserar sig och ställer krav får ofta ett svar.
 
 ## **Kopiera och lås dörren**
 
