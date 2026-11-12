@@ -68,6 +68,7 @@ CC_RAD = ("*Fri att läsa, dela och bygga vidare på under Creative Commons CC B
           "Nämn gärna Anna Malmberg och* [AiNNOVA](https://ainnova.se/)*.*")
 
 def _md2html(s):
+    s = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', s)
     return re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', s)
 
 def fot_markdown():
@@ -112,7 +113,7 @@ def _book(title, url, desc):
 def _h(text):
     return '<h2 style="%s">%s</h2>' % (S_RUBRIK, text)
 
-def bygg_block(orn=True):
+def bygg_block(orn=True, usage=False):
     d = []
     if orn:   # hoppa över eget ornament om boken redan slutar med ett (undvik dubbel)
         d.append('<div class="rule-orn" style="%s">✦ ❋ ✦</div>' % S_ORN)
@@ -124,6 +125,9 @@ def bygg_block(orn=True):
     d += [_book(*b) for b in FORSTA]
     d.append(_h("Vidare läsning"))
     d.append(_p(_md2html(VIDARE)))
+    if usage:
+        d.append(_h("Fri att läsa och dela"))
+        d.append(_p(_md2html(ANVAND)))
     d.append(_h("Om AiNNOVA"))
     d.append(_p(_md2html(OM_AINNOVA)))
     return "\n    " + START + "\n    " + "\n    ".join(d) + "\n    " + SLUT + "\n    "
@@ -152,7 +156,7 @@ def injicera(slug):
     #    ornament, annars blir det dubbelt (gällde forklara-ai och naturlag).
     before = s[:ci].rstrip()
     orn = not re.search(r'rule-orn[^>]*>\s*✦ ❋ ✦\s*</div>\s*$', before)
-    s = s[:ci] + bygg_block(orn).strip("\n") + "\n    " + s[ci:]
+    s = s[:ci] + bygg_block(orn, slug in ("en-bibel", "motvikten", "mega")).strip("\n") + "\n    " + s[ci:]
     open(f, "w", encoding="utf-8").write(s)
 
     # kontroll
