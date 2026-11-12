@@ -14,9 +14,9 @@ Det är en svårare bok att skriva. Historien har hunnit sätta sig. Nuet rör s
 
 Boken går, precis som den förra, jorden runt. Från Konserthuset i Stockholm till en radiostation i Nya Zeeland, från ett kontor i Nairobi till ett klassrum i Benin City. Och kvinnorna står där de faktiskt har stått, i mitten av arbetet.
 
-Just nu delar sig läsare och författare i läger. På ena sidan de som säger att maskinerna förstör skrivandet, på andra de som tar hjälp men tiger om det. Jag står på en tredje plats: jag tar hjälp, och jag säger det rakt ut. Böcker har alltid haft fler händer än den som står på omslaget; det nya är bara att en av dem är en maskin, och att det går att vara stolt över hur man använder den.
+Den här boken är skriven på det moderna sättet: en människa och flera maskiner i samarbete. Böcker har alltid haft fler händer än den som står på omslaget — det nya är bara att en av dem räknar, letar och minns mer än någon människa hinner.
 
-Den här boken är skriven av en människa och flera maskiner tillsammans. De har letat, föreslagit och sagt emot; jag har valt, styrt och vägt varje mening. Tanken är min, räckvidden deras, och ansvaret mitt. Jag tror att vi har hittat ett sätt att skriva riktigt bra böcker som ingen av oss hade klarat ensam. Hittar du ett fel, säg till på anna@ainnova.se. Och döm gärna boken efter vad som står i den.
+Jag höll i pennan, maskinerna i biblioteket. De föreslog och sa emot; jag valde, vägde och bestämde. Tanken är min, räckvidden deras, ansvaret mitt. Jag tror att vi har hittat ett sätt att skriva riktigt bra böcker som ingen av oss hade klarat ensam. Hittar du ett fel, säg till på anna@ainnova.se, och döm boken efter vad som står i den.
 
 Håll inte med om allt. Pröva det i stället. Det är vad verktygen i boken är till för.
 
