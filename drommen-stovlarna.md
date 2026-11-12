@@ -26,7 +26,7 @@ Maskinerna i dag har tagit ett steg till. Jag kan säga det jag menar, på mitt 
 
 Själv är jag kluven. Med en maskin vid din sida lär du dig ofta snabbare på egen hand än på en föreläsning. Men det fungerar bäst för den som redan har något att stå på, och det är just det en utbildning ger. Den här boken försöker hålla båda tankarna i huvudet samtidigt.
 
-Boken är själv ett exempel på det den handlar om. Den är skriven av en människa och flera maskiner tillsammans. Maskinerna har letat, föreslagit, sagt emot och kontrollerat. Jag har valt, styrt och petat i varje mening. Jag skrev inte orden. Jag skrev boken. Det talas mycket om huruvida böcker är skrivna med AI, men böcker har alltid haft fler händer än den som står på omslaget, så som Zlatan skrev sin bok med David Lagercrantz. Det nya är inte att du får hjälp. Det nya är att alla kan få det, och att det går att lära sig att göra det bra. Finns det fel bär jag ansvaret, och hittar du ett, säg till på anna@ainnova.se.
+Boken är själv ett exempel på det den handlar om. Den är skriven av en människa och flera maskiner tillsammans, och jag döljer det inte — jag visar dig hur. Maskinerna gjorde grovjobbet och sa emot när jag gick vilse; omdömet och sista ordet var mina. Det nya är inte att du får hjälp. Det nya är att alla kan få det, och att det går att lära sig att göra det bra. Finns det fel bär jag ansvaret, och hittar du ett, säg till på anna@ainnova.se.
 
 Håll inte med om allt. Pröva det i stället. Det är vad övningarna i boken är till för.
 

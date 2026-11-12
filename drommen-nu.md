@@ -14,9 +14,9 @@ Det är en svårare bok att skriva. Historien har hunnit sätta sig. Nuet rör s
 
 Boken går, precis som den förra, jorden runt. Från Konserthuset i Stockholm till en radiostation i Nya Zeeland, från ett kontor i Nairobi till ett klassrum i Benin City. Och kvinnorna står där de faktiskt har stått, i mitten av arbetet.
 
-Det talas mycket just nu om huruvida böcker är skrivna med AI, och ibland verkar det viktigare att reda ut hur en bok kom till än att läsa vad som står i den. Men böcker har alltid haft fler händer än den som står på omslaget. Tänk bara på *Jag är Zlatan Ibrahimović*, som skrevs tillsammans med David Lagercrantz.
+Just nu delar sig läsare och författare i läger. På ena sidan de som säger att maskinerna förstör skrivandet, på andra de som tar hjälp men tiger om det. Jag står på en tredje plats: jag tar hjälp, och jag säger det rakt ut. Böcker har alltid haft fler händer än den som står på omslaget; det nya är bara att en av dem är en maskin, och att det går att vara stolt över hur man använder den.
 
-Också den här boken har spökskrivare, och fler än en. Maskinerna har letat, föreslagit, sagt emot och kontrollerat. Jag har valt, styrt och petat i varje mening. Jag skrev inte orden. Jag skrev boken. Jag tror att vi har hittat ett nytt sätt att skriva riktigt bra böcker: att människa och maskin kombinerar det de kan. Finns det fel bär jag ansvaret, och hittar du ett, säg till på anna@ainnova.se. Och döm gärna boken efter vad som står i den.
+Den här boken är skriven av en människa och flera maskiner tillsammans. De har letat, föreslagit och sagt emot; jag har valt, styrt och vägt varje mening. Tanken är min, räckvidden deras, och ansvaret mitt. Jag tror att vi har hittat ett sätt att skriva riktigt bra böcker som ingen av oss hade klarat ensam. Hittar du ett fel, säg till på anna@ainnova.se. Och döm gärna boken efter vad som står i den.
 
 Håll inte med om allt. Pröva det i stället. Det är vad verktygen i boken är till för.
 
