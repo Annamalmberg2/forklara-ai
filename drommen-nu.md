@@ -22,12 +22,6 @@ Håll inte med om allt. Pröva det i stället. Det är vad verktygen i boken är
 
 *Anna Malmberg*
 
-# **Så kan du använda boken**
-
-Det här är den andra av tre böcker. Drömmen om den tänkande maskinen berättar hur vi hamnade här. Drömmen och var vi står handlar om var vi står i dag. Drömmen med stövlarna på handlar om hur var och en kan komma i gång själv. Varje bok går att läsa för sig, men den här bygger vidare på den första.
-
-Boken är fri att läsa, dela och bygga vidare på. Hur du gör det, och hur du använder knappen Dela med AI för att gräva vidare på egen hand, står sist i boken under Fri att läsa och dela.
-
 # **Kapitel 1 – Startskott i Stockholm**
 
 ## **Morgonen**

@@ -28,14 +28,6 @@ Håll inte med om allt. Pröva det i stället. Det är, när allt kommer omkring
 
 *Anna Malmberg*
 
-# **Så kan du använda boken**
-
-Det här är den första av tre böcker. Drömmen om den tänkande maskinen berättar hur vi hamnade här. Drömmen och var vi står handlar om var vi står i dag. Drömmen med stövlarna på handlar om hur var och en kan komma i gång själv. Varje bok går att läsa för sig.
-
-Jag hoppas att boken ska inspirera fler att titta utanför väst och lyfta fram dem som har glänst lika starkt men sällan fått plats i berättelsen.
-
-Boken är fri att läsa, dela och bygga vidare på. Hur du gör det, och hur du använder knappen Dela med AI för att gräva vidare på egen hand, står sist i boken under Fri att läsa och dela.
-
 # **Kapitel 1 – Smedjan och sanden**
 
 ## **Natten och sanden**

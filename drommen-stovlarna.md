@@ -10,7 +10,7 @@
 
 Det här är den tredje boken. Den första berättade hur vi hamnade här. Den andra visade var vi står. Den här handlar om det som återstår: hur du själv kommer i gång.
 
-Det är den svåraste boken att skriva, för allt som har med verktygen att göra ändrar sig från dag till dag. En bok om var du ska klicka är gammal innan den är tryckt. Därför handlar den här boken om något annat: hur du tänker, frågar och granskar när du arbetar med en maskin. Det har människor gjort i tusentals år, med andra verktyg. Varje kapitel börjar med en berättelse, bär en nyckel, ofta från de två första böckerna, och slutar med en övning och en fallgrop.
+Det är den svåraste boken att skriva, för allt som har med verktygen att göra ändrar sig från dag till dag. En bok om var du ska klicka är gammal innan den är tryckt. Namnen på dagens verktyg står därför inte här, utan på webbplatsen, där de kan uppdateras när världen ändrar sig. Därför handlar den här boken om något annat: hur du tänker, frågar och granskar när du arbetar med en maskin. Det har människor gjort i tusentals år, med andra verktyg. Varje kapitel börjar med en berättelse, bär en nyckel, ofta från de två första böckerna, och slutar med en övning och en fallgrop.
 
 Jag har inte skrivit den här boken för att du ska lita blint på maskinerna. Inte heller för att du ska vara rädd för dem. Jag har skrivit den för att du ska våga pröva, och veta hur du kontrollerar det du får.
 
@@ -31,14 +31,6 @@ Boken är själv ett exempel på det den handlar om: en människa som skriver me
 Håll inte med om allt. Pröva det i stället. Det är vad övningarna i boken är till för.
 
 *Anna Malmberg*
-
-# **Så kan du använda boken**
-
-Det här är den tredje av tre böcker. Drömmen om den tänkande maskinen berättar hur vi hamnade här. Drömmen och var vi står handlar om var vi står i dag. Den här handlar om hur var och en kan komma i gång själv. Varje bok går att läsa för sig.
-
-Namnen på dagens verktyg står inte i boken, för de byts ut för fort. De finns på webbplatsen, där de kan uppdateras när världen ändrar sig.
-
-Boken är fri att läsa, dela och bygga vidare på. Hur du gör det, och hur du använder knappen Dela med AI för att gräva vidare på egen hand, står sist i boken under Fri att läsa och dela.
 
 # **Kapitel 1 – Vem satte gränsen?**
 

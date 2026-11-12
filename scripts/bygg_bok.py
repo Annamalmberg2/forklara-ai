@@ -539,9 +539,11 @@ def bygg_en(spec):
     # ── sektionskort ──
     sakan  = next((b for h, b in blocks if h == "Så kan du använda boken"), [])
     fbody  = next((b for h, b in blocks if h == "Förord"), [])
-    fford  = (paras(fbody) + '\n<hr>\n<div class="section"><div class="section-head">'
-              '<span class="concept">Så kan du använda boken</span></div>'
-              '<div class="body">' + paras(sakan) + '</div></div>')
+    fford  = paras(fbody)
+    if sakan:
+        fford += ('\n<hr>\n<div class="section"><div class="section-head">'
+                  '<span class="concept">Så kan du använda boken</span></div>'
+                  '<div class="body">' + paras(sakan) + '</div></div>')
     specs = [["%s-0" % spec["sek_id"], "Förord", first_sentence(fbody), fford, [], "forord"]]
     for h1, body in blocks:
         if h1.startswith("Kapitel"):
