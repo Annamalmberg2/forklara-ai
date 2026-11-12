@@ -357,7 +357,7 @@ def bygg_en(spec):
             cur.append(ln)
     if title is not None: blocks.append((title, cur))
 
-    header = forord = howto = tidslinje = personer = avsamma = vidare = ainnova = ""
+    header = forord = howto = tidslinje = personer = avsamma = vidare = friatt = ainnova = ""
     chapters = []; toc_rows = []
     n_kap = n_mell = n_avsl = 0
 
@@ -415,6 +415,8 @@ def bygg_en(spec):
             avsamma = list_section(body, "Av samma författare")
         elif h1 == "Vidare läsning":
             vidare = list_section(body, "Vidare läsning", orn=False)
+        elif h1 == "Fri att läsa och dela":
+            friatt = list_section(body, "Fri att läsa och dela", orn=False)
         elif h1 == "Om AiNNOVA":
             ainnova = list_section(body, "Om AiNNOVA", orn=False)
 
@@ -517,7 +519,7 @@ def bygg_en(spec):
 
     out = (head + "</head>\n<body>\n" + buttons + '<div class="wrap">\n\n'
            + header + forord + howto + toc + "".join(chapters) + "\n"
-           + tidslinje + personer + avsamma + vidare + ainnova + colophon + "\n</div>\n" + tail)
+           + tidslinje + personer + avsamma + vidare + friatt + ainnova + colophon + "\n</div>\n" + tail)
     io.open(ROOT + "/" + slug + ".html", "w", encoding="utf-8").write(out)
     from lagg_docs_knapp import installera; installera(ROOT + "/" + slug + ".html")
     from cc_licens import stampla; stampla(ROOT + "/" + slug + ".html")

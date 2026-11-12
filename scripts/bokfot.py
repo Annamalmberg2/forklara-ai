@@ -52,7 +52,18 @@ VIDARE = ("Frågorna tar inte slut när boken gör det. Jag skriver vidare på "
           "[erbjudanden.ainnova.se/bocker](https://erbjudanden.ainnova.se/bocker) — "
           "böckerna, texterna och det som är på väg.")
 OM_AINNOVA = ("De här böckerna är en del av AiNNOVA: mitt sätt att göra AI begripligt för fler, "
-              "med vardagsbilder i stället för facktermer. Mer på [ainnova.se](https://ainnova.se/).")
+              "med vardagsbilder i stället för facktermer. De är skrivna på det moderna sättet, "
+              "av människa och maskin tillsammans, med omdömet kvar hos människan. "
+              "Mer på [ainnova.se](https://ainnova.se/).")
+ANVAND = ("Allt jag skriver är fritt att läsa, skriva ut och bygga vidare på, gratis, på "
+          "[erbjudanden.ainnova.se/bocker](https://erbjudanden.ainnova.se/bocker). Du hittar inga "
+          "fotnoter. I stället finns knappen **Dela med AI**: ett tryck ger dig hela boken som text, "
+          "färdig för vilken AI du vill. Be den gräva fram källorna, syna ett påstående eller väga det "
+          "jag skriver mot det du själv varit med om, och skilja på det som är belagt, det som är min "
+          "tolkning och det som är en gissning. En AI som hittar på källor hjälper ingen. Knappen "
+          "**Skriv ut** gör en PDF, och på webben översätter de flesta webbläsare boken till ditt språk. "
+          "Ett kort stycke kan bli fröet till en hel bok, en låt eller ett filmmanus — gör du något av "
+          "det, nämn gärna mig och AiNNOVA.")
 CC_RAD = ("*Fri att läsa, dela och bygga vidare på under Creative Commons CC BY 4.0. "
           "Nämn gärna Anna Malmberg och* [AiNNOVA](https://ainnova.se/)*.*")
 
@@ -70,6 +81,7 @@ def fot_markdown():
     r += ["* **%s** – %s" % (t, d) for (t, u, d) in FORSTA]
     r += ["",
           "# **Vidare läsning**", "", VIDARE, "",
+          "# **Fri att läsa och dela**", "", ANVAND, "",
           "# **Om AiNNOVA**", "", OM_AINNOVA, "", CC_RAD, ""]
     return "\n".join(r)
 

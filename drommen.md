@@ -30,15 +30,11 @@ Håll inte med om allt. Pröva det i stället. Det är, när allt kommer omkring
 
 # **Så kan du använda boken**
 
-Boken är fri. Du kan läsa den och skriva ut den gratis på erbjudanden.ainnova.se/bocker. Där finns också poddar, annat kringmaterial och de andra böckerna i serien.
-
 Det här är den första av tre böcker. Drömmen om den tänkande maskinen berättar hur vi hamnade här. Drömmen och var vi står handlar om var vi står i dag. Drömmen med stövlarna på handlar om hur var och en kan komma i gång själv. Varje bok går att läsa för sig.
 
-Du hittar inga fotnoter. I stället finns en knapp: Dela med AI. Ett tryck ger dig hela boken i Markdown, ett enkelt textformat som AI-modeller läser lätt. Klistra in den i vilken AI du vill och gå på egen upptäcktsfärd. Be den gräva fram källorna, syna ett påstående eller väga det jag skriver mot det du själv har varit med om. Be den gärna skilja på det som är belagt, det som är min tolkning och det som är en gammal berättelse, och säga ifrån när den inte kan kontrollera något. En AI som hittar på källor hjälper ingen. Vill du hellre läsa på papper gör knappen Skriv ut boken en PDF åt dig.
+Jag hoppas att boken ska inspirera fler att titta utanför väst och lyfta fram dem som har glänst lika starkt men sällan fått plats i berättelsen.
 
-Du får använda materialet fritt och gratis, på det sätt du vill. Jag hoppas att boken ska inspirera fler att titta utanför väst och lyfta fram dem som har glänst lika starkt men sällan fått plats i berättelsen. Läs och njut, använd boken i undervisningen eller låt den bli början på något eget. Läser du boken på webben kan de flesta webbläsare översätta den till det språk du vill.
-
-Ett kort stycke kan bli fröet till en hel bok, en låt eller ett filmmanus. Gör du något av det, nämn gärna mig och boken. Och vill du ha den i bokhyllan hoppas jag förstås att du köper den tryckta boken.
+Boken är fri att läsa, dela och bygga vidare på. Hur du gör det, och hur du använder knappen Dela med AI för att gräva vidare på egen hand, står sist i boken under Fri att läsa och dela.
 
 # **Kapitel 1 – Smedjan och sanden**
 
@@ -1752,8 +1748,12 @@ Jag har skrivit två trilogier.
 
 Frågorna tar inte slut när boken gör det. Jag skriver vidare på [hurdetfunkar.se](https://hurdetfunkar.se/), och allt samlas på [erbjudanden.ainnova.se/bocker](https://erbjudanden.ainnova.se/bocker) — böckerna, texterna och det som är på väg.
 
+# **Fri att läsa och dela**
+
+Allt jag skriver är fritt att läsa, skriva ut och bygga vidare på, gratis, på [erbjudanden.ainnova.se/bocker](https://erbjudanden.ainnova.se/bocker). Du hittar inga fotnoter. I stället finns knappen **Dela med AI**: ett tryck ger dig hela boken som text, färdig för vilken AI du vill. Be den gräva fram källorna, syna ett påstående eller väga det jag skriver mot det du själv varit med om, och skilja på det som är belagt, det som är min tolkning och det som är en gissning. En AI som hittar på källor hjälper ingen. Knappen **Skriv ut** gör en PDF, och på webben översätter de flesta webbläsare boken till ditt språk. Ett kort stycke kan bli fröet till en hel bok, en låt eller ett filmmanus — gör du något av det, nämn gärna mig och AiNNOVA.
+
 # **Om AiNNOVA**
 
-De här böckerna är en del av AiNNOVA: mitt sätt att göra AI begripligt för fler, med vardagsbilder i stället för facktermer. Mer på [ainnova.se](https://ainnova.se/).
+De här böckerna är en del av AiNNOVA: mitt sätt att göra AI begripligt för fler, med vardagsbilder i stället för facktermer. De är skrivna på det moderna sättet, av människa och maskin tillsammans, med omdömet kvar hos människan. Mer på [ainnova.se](https://ainnova.se/).
 
 *Fri att läsa, dela och bygga vidare på under Creative Commons CC BY 4.0. Nämn gärna Anna Malmberg och* [AiNNOVA](https://ainnova.se/)*.*
