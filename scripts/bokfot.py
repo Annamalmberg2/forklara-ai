@@ -58,7 +58,10 @@ OM_AINNOVA = ("De här böckerna är en del av AiNNOVA: mitt sätt att göra AI 
 ANVAND = ("Boken är fri att läsa, skriva ut och dela, gratis på "
           "[erbjudanden.ainnova.se/bocker](https://erbjudanden.ainnova.se/bocker), där det också står "
           "mer om hur du använder den. Ingen fotnotsapparat: tryck **Dela med AI** så får du hela texten "
-          "att gräva vidare i med valfri AI, eller **Skriv ut** för en PDF.")
+          "att gräva vidare i med valfri AI, eller **Skriv ut** för en PDF. "
+          "Din webbläsare kan översätta boken till vilket språk du vill — och låt gärna "
+          "ett stycke bli fröet till något eget: en bok, ett filmmanus, en låt. "
+          "Tack för att du läste ända hit.")
 CC_RAD = ("*Fri att läsa, dela och bygga vidare på under Creative Commons CC BY 4.0. "
           "Nämn gärna Anna Malmberg och* [AiNNOVA](https://ainnova.se/)*.*")
 
