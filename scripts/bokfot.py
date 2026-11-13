@@ -55,15 +55,10 @@ OM_AINNOVA = ("De här böckerna är en del av AiNNOVA: mitt sätt att göra AI 
               "med vardagsbilder i stället för facktermer. De är skrivna på det moderna sättet, "
               "av människa och maskin tillsammans, med omdömet kvar hos människan. "
               "Mer på [ainnova.se](https://ainnova.se/).")
-ANVAND = ("Allt jag skriver är fritt att läsa, skriva ut och bygga vidare på, gratis, på "
-          "[erbjudanden.ainnova.se/bocker](https://erbjudanden.ainnova.se/bocker). Du hittar inga "
-          "fotnoter. I stället finns knappen **Dela med AI**: ett tryck ger dig hela boken som text, "
-          "färdig för vilken AI du vill. Be den gräva fram källorna, syna ett påstående eller väga det "
-          "jag skriver mot det du själv varit med om, och skilja på det som är belagt, det som är min "
-          "tolkning och det som är en gissning. En AI som hittar på källor hjälper ingen. Knappen "
-          "**Skriv ut** gör en PDF, och på webben översätter de flesta webbläsare boken till ditt språk. "
-          "Ett kort stycke kan bli fröet till en hel bok, en låt eller ett filmmanus — gör du något av "
-          "det, nämn gärna mig och AiNNOVA.")
+ANVAND = ("Boken är fri att läsa, skriva ut och dela, gratis på "
+          "[erbjudanden.ainnova.se/bocker](https://erbjudanden.ainnova.se/bocker), där det också står "
+          "mer om hur du använder den. Ingen fotnotsapparat: tryck **Dela med AI** så får du hela texten "
+          "att gräva vidare i med valfri AI, eller **Skriv ut** för en PDF.")
 CC_RAD = ("*Fri att läsa, dela och bygga vidare på under Creative Commons CC BY 4.0. "
           "Nämn gärna Anna Malmberg och* [AiNNOVA](https://ainnova.se/)*.*")
 
@@ -83,7 +78,7 @@ def fot_markdown():
     r += ["",
           "# **Vidare läsning**", "", VIDARE, "",
           "# **Fri att läsa och dela**", "", ANVAND, "",
-          "# **Om AiNNOVA**", "", OM_AINNOVA, "", CC_RAD, ""]
+          "# **Om AiNNOVA**", "", OM_AINNOVA, ""]
     return "\n".join(r)
 
 START = "<!-- BOKFOT_START -->"
@@ -156,7 +151,7 @@ def injicera(slug):
     #    ornament, annars blir det dubbelt (gällde forklara-ai och naturlag).
     before = s[:ci].rstrip()
     orn = not re.search(r'rule-orn[^>]*>\s*✦ ❋ ✦\s*</div>\s*$', before)
-    s = s[:ci] + bygg_block(orn, slug in ("en-bibel", "motvikten", "mega")).strip("\n") + "\n    " + s[ci:]
+    s = s[:ci] + bygg_block(orn, True).strip("\n") + "\n    " + s[ci:]
     open(f, "w", encoding="utf-8").write(s)
 
     # kontroll

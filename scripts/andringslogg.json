@@ -1,6 +1,10 @@
 {
   "drommen": [
     {
+      "datum": "2026-11-13",
+      "text": "Texten uppdaterad."
+    },
+    {
       "datum": "2026-11-12",
       "text": "Rättade en stavning i personlistan: ”stokastiska papegojor” (stod ”papegöjor”) på två ställen. Liten språkputs efter en granskningsrunda. Kortade också personlistans rad om Fei-Fei Li till hennes bidrag i den här boken (ImageNet) — World Labs hör hemma i bok 2. Strök en tom övergångsmening vid Ales stenar (”Det är en lärdom i sig”) så scenen bär poängen själv. Förordet: lät bok 1 äga Zlatan-exemplet och raden ”Jag skrev inte orden. Jag skrev boken.”, och la till en kort stolthetsrad (”Många döljer det. Jag tänker inte.”). Skärpte sedan tonen från försvar till självklar trygghet (bort med ”jag döljer det inte”/”säger det rakt ut” — metoden ägs, inte ursäktas). Flyttade den upprepade ”så använder du boken”-texten (fri, Dela med AI, licens) till ett delat block i foten (Fri att läsa och dela + Om AiNNOVA), så fronten nu bara orienterar och pekar dit. Underhålls på ett ställe i bokfot.py. Tog sedan bort hela front-rutan ”Så kan du använda boken” — andemeningen bor nu i det delade fot-blocket, orienteringen i förordet och i ”Av samma författare”."
     },
@@ -43,6 +47,10 @@
   ],
   "drommen-nu": [
     {
+      "datum": "2026-11-13",
+      "text": "Texten uppdaterad."
+    },
+    {
       "datum": "2026-11-12",
       "text": "Några små språkrättelser efter en granskningsrunda: schackbrädet blev ”ett bräde”, ”fiskstimmet” (ett stim), ”dragkamper” i stället för ”strängdragningar”, och ”SpaceX:s raketer”. Lade till en kort, tidlös rad efter avsnittet om World Labs och AMD: sidan är en ögonblicksbild, ledningen är alltid utlånad, läs namnen som väderlek och håll koll utan att lita blint. Strök en annonsmening i upphovsrätts-avsnittet (”Och samma lärdom som från Hollywood” → ”Och som i Hollywood:”). Skrev om förordets AI-stycke till en egen variant: den ärliga hållningen mitt i lägren, ”jag säger det rakt ut”, ”Tanken är min, räckvidden deras”. Inga upprepade mallmeningar kvar. Skärpte sedan tonen från försvar till självklar trygghet (bort med ”jag döljer det inte”/”säger det rakt ut” — metoden ägs, inte ursäktas). Flyttade den upprepade ”så använder du boken”-texten (fri, Dela med AI, licens) till ett delat block i foten (Fri att läsa och dela + Om AiNNOVA), så fronten nu bara orienterar och pekar dit. Underhålls på ett ställe i bokfot.py. Tog sedan bort hela front-rutan ”Så kan du använda boken” — andemeningen bor nu i det delade fot-blocket, orienteringen i förordet och i ”Av samma författare”."
     },
@@ -76,6 +84,10 @@
     }
   ],
   "drommen-stovlarna": [
+    {
+      "datum": "2026-11-13",
+      "text": "Texten uppdaterad."
+    },
     {
       "datum": "2026-11-12",
       "text": "Tog bort ett dubblerat ”och” i kapitel I. Liten språkputs efter en granskningsrunda. Slimmade förordets AI-stycke till en egen variant (”jag döljer det inte — jag visar dig hur”) så det inte upprepar den personliga berättelsen tidigare i förordet. Skärpte sedan tonen från försvar till självklar trygghet (bort med ”jag döljer det inte”/”säger det rakt ut” — metoden ägs, inte ursäktas). Flyttade den upprepade ”så använder du boken”-texten (fri, Dela med AI, licens) till ett delat block i foten (Fri att läsa och dela + Om AiNNOVA), så fronten nu bara orienterar och pekar dit. Underhålls på ett ställe i bokfot.py. Tog sedan bort hela front-rutan ”Så kan du använda boken” — andemeningen bor nu i det delade fot-blocket, orienteringen i förordet och i ”Av samma författare”."

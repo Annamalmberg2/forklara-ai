@@ -329,10 +329,7 @@ def bygg_en(spec):
     if m_fot:
         src_md = src_md[:m_fot.start()]
     src_md = src_md.rstrip() + "\n\n" + fot_markdown()
-    if "Creative Commons" not in src_md:
-        src_md = src_md.rstrip() + ("\n\n---\n\n*Fri att läsa, dela och bygga vidare på under "
-            "[Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). "
-            "Nämn gärna Anna Malmberg och AiNNOVA.*\n")
+    # CC-raden kommer enbart från cc_licens-stämpeln i kolofonen (enhetligt i alla nio)
     # ändringsvakt: stämpla dagens datum bara när texten faktiskt ändrats
     h = hashlib.sha1(src_md.encode("utf-8")).hexdigest()
     entries = LOGG.setdefault(slug, [])
