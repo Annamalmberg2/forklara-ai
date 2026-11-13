@@ -159,7 +159,7 @@ def first_sentence(lines):
         return inline((m.group(1) if m else s).strip())
     return ""
 
-def list_section(lines, label, klass="efter", orn=True):
+def list_section(lines, label, klass="efter", orn=True, wrap=True):
     """'Av samma författare' / 'Vidare läsning': intro, **etiketter** och punkter.
     Systerböcker länkas i HTML (inte i md)."""
     def linka(li):
@@ -188,9 +188,12 @@ def list_section(lines, label, klass="efter", orn=True):
     fl()
     orn_html = '    <div class="rule-orn">✦ ❋ ✦</div>\n' if orn else ''
     from bokfot import S_RUBRIK
-    return ('  <section class="%s" id="%s">\n%s'
-            '    <h2 style="%s">%s</h2>\n%s\n  </section>\n\n'
-            % (klass, re.sub(r'\s+', '-', label.lower()), orn_html, S_RUBRIK, label, "\n".join(html)))
+    inner = ('%s    <h2 style="%s">%s</h2>\n%s\n'
+             % (orn_html, S_RUBRIK, label, "\n".join(html)))
+    if not wrap:
+        return inner
+    return ('  <section class="%s" id="%s">\n%s  </section>\n\n'
+            % (klass, re.sub(r'\s+', '-', label.lower()), inner))
 
 def timeline_section(lines):
     intro = []; rows = []
@@ -409,13 +412,13 @@ def bygg_en(spec):
         elif h1.startswith("Personer"):
             personer = persons_section(body, h1)
         elif h1 == "Av samma författare":
-            avsamma = list_section(body, "Av samma författare")
+            avsamma = list_section(body, "Av samma författare", wrap=False)
         elif h1 == "Vidare läsning":
-            vidare = list_section(body, "Vidare läsning", orn=False)
+            vidare = list_section(body, "Vidare läsning", orn=False, wrap=False)
         elif h1 == "Fri att läsa och dela":
-            friatt = list_section(body, "Fri att läsa och dela", orn=False)
+            friatt = list_section(body, "Fri att läsa och dela", orn=False, wrap=False)
         elif h1 == "Om AiNNOVA":
-            ainnova = list_section(body, "Om AiNNOVA", orn=False)
+            ainnova = list_section(body, "Om AiNNOVA", orn=False, wrap=False)
 
     # dynamisk TOC-rubrik
     bitar = ["%s kapitel" % RAKNEORD.get(n_kap, n_kap)]
@@ -426,8 +429,17 @@ def bygg_en(spec):
            '    <h2 class="h">%s</h2>\n    <ol>\n%s\n    </ol>\n  </section>\n\n'
            % (toc_rubrik[0].upper() + toc_rubrik[1:], "\n".join(toc_rows)))
 
-    colophon = ('  <div class="colophon">\n'
-                '    Av Anna Malmberg<br>\n    Fri att läsa, skriva ut och dela. ✦\n  </div>\n')
+    colophon = ('    <div class="colophon">\n'
+                '      Av Anna Malmberg<br>\n      Fri att läsa, skriva ut och dela. ✦\n    </div>\n')
+
+    # Hela foten i EN sektion (som de handbyggda böckerna): ett enda
+    # bottenstreck och tät radning, inte ett streck per rubrik.
+    efter_inner = avsamma + vidare + friatt + ainnova
+    if efter_inner.strip():
+        efter = ('  <section class="efter" id="efterord">\n'
+                 + efter_inner + colophon + '  </section>\n')
+    else:
+        efter = colophon
 
     # head ur motvikten
     mot = io.open(ROOT + "/motvikten.html", encoding="utf-8").read()
@@ -516,7 +528,7 @@ def bygg_en(spec):
 
     out = (head + "</head>\n<body>\n" + buttons + '<div class="wrap">\n\n'
            + header + forord + howto + toc + "".join(chapters) + "\n"
-           + tidslinje + personer + avsamma + vidare + friatt + ainnova + colophon + "\n</div>\n" + tail)
+           + tidslinje + personer + efter + "\n</div>\n" + tail)
     io.open(ROOT + "/" + slug + ".html", "w", encoding="utf-8").write(out)
     from lagg_docs_knapp import installera; installera(ROOT + "/" + slug + ".html")
     from cc_licens import stampla; stampla(ROOT + "/" + slug + ".html")
